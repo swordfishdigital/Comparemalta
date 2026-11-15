@@ -39,12 +39,18 @@ def _mse(cfg):
     from bs4 import BeautifulSoup
 
     soup = BeautifulSoup(http_get(cfg["mse_url"]).text, "html.parser")
+    head = soup.find(lambda t: t.name in ("h2", "h3") and "Latest Equity Prices" in t.get_text())
+    if not head:
+        raise ValueError("'Latest Equity Prices' heading not found")
     names, seen, out = cfg.get("mse_names", {}), set(), []
-    for a in soup.select('a[href*="/reports/"]'):
+    for a in head.find_all_next("a", href=re.compile(r"/reports/")):
+        if a.find_previous(lambda t: t.name in ("h2", "h3")) is not head:
+            break  # left the section
         sym = a.get_text(strip=True).upper()
         if not re.fullmatch(r"[A-Z0-9]{2,6}", sym) or sym in seen:
             continue
-        spans = [sp.get_text(strip=True).replace("\u2212", "-") for sp in a.find_all_next("span", limit=2)]
+        row = a.find_parent("div").parent if a.find_parent("div") else None
+        spans = [sp.get_text(strip=True).replace("\u2212", "-") for sp in (row.find_all("span") if row else [])][:2]
         try:
             price, chg = float(spans[0]), float(spans[1])
         except (ValueError, IndexError):
