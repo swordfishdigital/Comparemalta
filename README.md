@@ -81,6 +81,15 @@ cd site && python -m http.server 8000  # open http://localhost:8000
 - [ ] Legal: MFSA rules on credit intermediation / referral fees if adding "Apply" flows; affiliate disclosure
       (`"affiliated": true` rows show a "Related party" badge); GDPR cookie notice if analytics are added.
 
+## Links and calls to action
+
+Every row links to the provider (`url`, the provider's own site) and has a category-specific call to action
+(Open account, Apply now, Get this plan, Get a quote, Send money, Book a table) in EN/MT/IT. The button uses
+`apply_url` when a product has one (the product or application page, or an affiliate tracking link from a partner
+programme), otherwise `url`. All outbound links carry `utm_source=comparemalta.ai&utm_medium=comparison&utm_campaign=<category>`.
+`feeds/links.py` checks every link at most weekly; a broken `apply_url` is dropped so the button falls back to the provider's site.
+To add a deep link, put `"apply_url": "https://..."` on the product in `data/seed/products.json`.
+
 ## Adding a category
 
 Add a block to `config/categories.json` (columns + score), add rows to `data/seed/products.json`, optionally add

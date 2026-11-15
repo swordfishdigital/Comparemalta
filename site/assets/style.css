@@ -216,3 +216,15 @@ td.key{font-family:var(--display);font-size:19px;font-weight:700;color:var(--blu
 .mascot.fly .merill{transform-origin:60px 60px;animation:flap .9s ease-in-out infinite}
 @keyframes flap{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-4px) rotate(-6deg)}}
 @media (prefers-reduced-motion:reduce){.mascot.fly .merill{animation:none}}
+
+/* calls to action */
+.btn.cta{background:var(--blue);color:#fff;border-radius:10px;box-shadow:0 1px 0 rgba(13,42,74,.08),0 6px 14px -6px rgba(43,76,196,.55);transition:background .15s,transform .15s}
+.btn.cta:hover{background:#2140ad;transform:translateY(-1px)}
+.btn.cta .arr{transition:transform .15s;display:inline-block}.btn.cta:hover .arr{transform:translateX(3px)}
+.btn.cta.ghost{background:#fff;color:var(--blue);border:1.5px solid var(--blue);box-shadow:none}
+.btn.cta.ghost:hover{background:var(--blue-soft)}
+.cta-cell{text-align:right;white-space:nowrap}
+.cta-cell .visit,.dish-cta .visit{display:block;margin-top:6px;font-size:12px;color:var(--ink2);text-decoration:underline;text-underline-offset:3px}
+.dish-cta{display:flex;align-items:center;gap:14px}.dish-cta .visit{margin:0}
+a.pname{text-decoration:none;color:var(--navy)}a.pname:hover{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.reply .r .btn.cta{flex:none}

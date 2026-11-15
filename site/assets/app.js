@@ -6,7 +6,7 @@ const V = window.CMV;
 
 /* ---------- strings ---------- */
 const T = {
- en:{thinking:"Merill is checking every provider…",aiNote:"AI answer from today's data. Always confirm details with the provider.",followPh:"Ask a follow-up…",sample:"Sample data",
+ en:{ctaOpen:"Open account",ctaApply:"Apply now",ctaPlan:"Get this plan",ctaQuote:"Get a quote",ctaSend:"Send money",ctaBook:"Book a table",visit:"Visit site",dirs:"Directions",onSite:"on the provider's site",thinking:"Merill is checking every provider…",aiNote:"AI answer from today's data. Always confirm details with the provider.",followPh:"Ask a follow-up…",sample:"Sample data",
   nBanking:"Banking",nLoans:"Loans & Mortgages",nCards:"Cards",nBusiness:"Business",nTelco:"Telco",nEat:"Eat",nMarkets:"Markets",nNews:"News",
   ask:"Ask the Thrush",live:"Live · updated daily",mseIdx:"MSE Index",ecb:"ECB deposit rate",brent:"Brent",
   eyebrow:"Malta's comparison engine",h1a:"Every Maltese rate, plan and table,",h1b:"side by side.",
@@ -33,7 +33,7 @@ const T = {
   contactTxt:"Contact details will be published here at launch.",
   askSub:"Ask in plain words and I'll find the best three.",askHint:"Try:",askChips:["Best savings for €20k","Cheapest unlimited mobile","Business account with multi-currency","Seafood in Marsaxlokk"],
   askNone:"I couldn't tell what to compare. Try one of the examples, or pick a category.",askHere:"Here are the best three I found in",seeTable:"See the full table →",allCatsTitle:"All categories"},
- mt:{thinking:"Merill qed jiċċekkja kull fornitur…",aiNote:"Tweġiba AI mid-data tal-lum. Dejjem ikkonferma d-dettalji mal-fornitur.",followPh:"Staqsi mistoqsija oħra…",sample:"Data ta' kampjun",
+ mt:{ctaOpen:"Iftaħ kont",ctaApply:"Applika issa",ctaPlan:"Ħu dan il-pjan",ctaQuote:"Ikseb kwotazzjoni",ctaSend:"Ibgħat flus",ctaBook:"Irriserva mejda",visit:"Żur is-sit",dirs:"Direzzjonijiet",onSite:"fuq is-sit tal-fornitur",thinking:"Merill qed jiċċekkja kull fornitur…",aiNote:"Tweġiba AI mid-data tal-lum. Dejjem ikkonferma d-dettalji mal-fornitur.",followPh:"Staqsi mistoqsija oħra…",sample:"Data ta' kampjun",
   nBanking:"Bankar",nLoans:"Self u Self għad-Dar",nCards:"Karti",nBusiness:"Negozju",nTelco:"Telco",nEat:"Ikel",nMarkets:"Swieq",nNews:"Aħbarijiet",
   ask:"Staqsi lill-Merill",live:"Live · aġġornat kuljum",mseIdx:"Indiċi MSE",ecb:"Rata tad-depożitu ECB",brent:"Brent",
   eyebrow:"Il-magna tal-paragun ta' Malta",h1a:"Kull rata, pjan u tabella Maltija,",h1b:"wieħed ħdejn l-ieħor.",
@@ -60,7 +60,7 @@ const T = {
   contactTxt:"Id-dettalji tal-kuntatt jiġu ppubblikati hawn mal-varar.",
   askSub:"Staqsi bi kliem sempliċi u nsiblek l-aqwa tlieta.",askHint:"Ipprova:",askChips:["L-aħjar tfaddil għal €20k","L-irħas mobile bla limitu","Kont tan-negozju b'ħafna muniti","Ħut f'Marsaxlokk"],
   askNone:"Ma fhimtx x'għandi nqabbel. Ipprova wieħed mill-eżempji, jew agħżel kategorija.",askHere:"Dawn huma l-aqwa tlieta li sibt f'",seeTable:"Ara t-tabella sħiħa →",allCatsTitle:"Il-kategoriji kollha"},
- it:{thinking:"Merill sta controllando ogni fornitore…",aiNote:"Risposta AI dai dati di oggi. Verifica sempre i dettagli con il fornitore.",followPh:"Fai un'altra domanda…",sample:"Dati di esempio",
+ it:{ctaOpen:"Apri un conto",ctaApply:"Richiedi ora",ctaPlan:"Attiva l'offerta",ctaQuote:"Fai un preventivo",ctaSend:"Invia denaro",ctaBook:"Prenota un tavolo",visit:"Visita il sito",dirs:"Indicazioni",onSite:"sul sito del fornitore",thinking:"Merill sta controllando ogni fornitore…",aiNote:"Risposta AI dai dati di oggi. Verifica sempre i dettagli con il fornitore.",followPh:"Fai un'altra domanda…",sample:"Dati di esempio",
   nBanking:"Banca",nLoans:"Prestiti e Mutui",nCards:"Carte",nBusiness:"Business",nTelco:"Telco",nEat:"Mangiare",nMarkets:"Mercati",nNews:"Notizie",
   ask:"Chiedi al Merill",live:"Live · aggiornato ogni giorno",mseIdx:"Indice MSE",ecb:"Tasso depositi BCE",brent:"Brent",
   eyebrow:"Il motore di confronto di Malta",h1a:"Ogni tasso, piano e tabella di Malta,",h1b:"fianco a fianco.",
@@ -202,6 +202,24 @@ async function renderChrome() {
   document.querySelectorAll("#askChips .chip").forEach(c => c.onclick = () => { $("#askQ").value = c.textContent; runAsk(); });
 }
 
+
+/* ---------- outbound links + calls to action ---------- */
+const CTA_FOR = {"bank-accounts":"ctaOpen",savings:"ctaOpen","business-accounts":"ctaOpen",fintech:"ctaOpen",investing:"ctaOpen","personal-loans":"ctaApply",mortgages:"ctaApply",
+  "credit-cards":"ctaApply","telco-mobile":"ctaPlan","telco-broadband":"ctaPlan",insurance:"ctaQuote","money-transfer":"ctaSend",restaurants:"ctaBook"};
+function outLink(url, slug, content) {
+  if (!url || !/^https?:/i.test(url)) return url || "#";
+  if (/google\.[a-z.]+\/maps|maps\.app\.goo/.test(url)) return url;
+  try { const u = new URL(url); u.searchParams.set("utm_source", "comparemalta.ai"); u.searchParams.set("utm_medium", "comparison");
+    u.searchParams.set("utm_campaign", slug || "general"); if (content) u.searchParams.set("utm_content", content); return u.toString(); } catch (e) { return url; }
+}
+const applyUrl = r => r.apply_url || r.url || r.maps;
+function ctaBtn(r, slug, primary = true, size = "sm") {
+  const href = outLink(applyUrl(r), slug, "cta");
+  return `<a class="btn cta ${primary ? "" : "ghost"} ${size}" href="${esc(href)}" target="_blank" rel="noopener sponsored" data-p="${esc(r.provider)}">${t(CTA_FOR[slug] || "ctaApply")} <span class="arr">→</span></a>`;
+}
+const visitLink = (r, slug) => r.url ? `<a class="visit" href="${esc(outLink(r.url, slug, "visit"))}" target="_blank" rel="noopener sponsored">${t("visit")} ↗</a>` : "";
+const ctaCell = (r, slug, primary) => `<td class="cta-cell">${ctaBtn(r, slug, primary)}${visitLink(r, slug)}</td>`;
+
 /* ---------- shared blocks ---------- */
 const mkRowDark = (label, val) => `<div class="mk-row"><span>${esc(label)}</span><b>${val}</b></div>`;
 const mkRow = r => { const mse = /^[A-Z0-9]{2,5}$/.test(r.symbol || "");
@@ -221,20 +239,20 @@ const dishCard = (r, i) => `
       <h3>${esc(r.provider)}</h3>
       <div><span class="price">${"€".repeat(r.price_level || 2)}</span> · ★ ${nf(r.rating || 0, 1)} <span class="muted">(${r.reviews || 0})</span></div>
       <p class="hl">${esc(r.highlight || "")}</p>
-      <a class="btn outline sm" href="${esc(r.maps || r.url)}" target="_blank" rel="noopener">${t("openMaps")} ↗</a>
+      <div class="dish-cta">${ctaBtn(r, "restaurants", true)}${r.maps ? `<a class="visit" href="${esc(r.maps)}" target="_blank" rel="noopener">${t("dirs")} ↗</a>` : visitLink(r, "restaurants")}</div>
     </div>
   </div>`;
-const provCell = (r, sub) => `<div class="prov">${V.mono(r.provider, 34)}<div>${esc(r.provider)}${r.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}<small>${sub}</small></div></div>`;
+const provCell = (r, sub, slug) => `<div class="prov">${V.mono(r.provider, 34)}<div>${r.url ? `<a class="pname" href="${esc(outLink(r.url, slug, "name"))}" target="_blank" rel="noopener sponsored">${esc(r.provider)}</a>` : esc(r.provider)}${r.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}<small>${sub}</small></div></div>`;
 
 /* ---------- home ---------- */
 async function topTableHtml() {
   const spec = TOP[topTab], data = await get("cat-" + spec.cat);
   const rows = (data?.items || []).slice(0, 3), best = Math.max(...rows.map(r => r.score || 0));
   return `<table><thead><tr><th>${colLabel("provider")}</th>${spec.cols.map(([k, , lab]) => `<th>${colLabel(lab || k)}</th>`).join("")}<th>${t("thrush")}</th><th></th></tr></thead><tbody>
-    ${rows.map((r, i) => `<tr><td>${provCell(r, esc(r.product || ""))}</td>
+    ${rows.map((r, i) => `<tr><td>${provCell(r, esc(r.product || ""), spec.cat)}</td>
       ${spec.cols.map(([k, f], j) => `<td class="${j === 0 ? "key" : ""}">${fmt(r[k], f)}</td>`).join("")}
       <td>${scoreCell(r, best)}</td>
-      <td style="text-align:right"><a class="btn ${i === 0 ? "navy" : "outline"} sm" href="${esc(r.url)}" target="_blank" rel="noopener sponsored">${t("viewDeal")}</a></td></tr>`).join("")}
+      ${ctaCell(r, spec.cat, i === 0)}</tr>`).join("")}
   </tbody></table>`;
 }
 async function pageHome() {
@@ -310,7 +328,7 @@ async function pageCategory(slug) {
   const siblings = sec ? sec[2].filter(k => cats.config[k]) : [slug];
   const extra = cfg.calculator ? `<div class="section grid g2" style="padding-bottom:0">${cfg.calculator === "loan" ? loanCalcHtml() : mortCalcHtml()}</div>` : "";
   const weights = cfg.score.map(s => `${colLabel(s.key)} ${Math.round(s.w * 100)}% (${t(s.dir)})`).join(" · ");
-  setTimeout(() => bindTable(cfg, data.items), 0);
+  setTimeout(() => bindTable(cfg, data.items, slug), 0);
   return `<div class="wrap">
   <div class="page-head with-ic">
     <span class="ph-ic">${V.catIcon(slug, 64)}</span>
@@ -330,7 +348,7 @@ async function pageCategory(slug) {
   ${extra}
   <div style="height:40px"></div></div>`;
 }
-function bindTable(cfg, items) {
+function bindTable(cfg, items, slug) {
   let key = "score", dir = -1;
   const lowKeys = new Set(cfg.score.filter(s => s.dir === "low").map(s => s.key));
   const keyCol = (cfg.score.find(s => cfg.columns.some(c => c.key === s.key && c.fmt && c.fmt !== "bool")) || {}).key;
@@ -340,10 +358,10 @@ function bindTable(cfg, items) {
     const rows = items.filter(r => !q || JSON.stringify(r).toLowerCase().includes(q))
       .sort((a, b) => { const x = a[key], y = b[key]; return (typeof x === "number" && typeof y === "number" ? x - y : String(x).localeCompare(String(y))) * dir; });
     $("#tb").innerHTML = rows.length ? rows.map((r, i) => `<tr>
-      ${cfg.columns.map((c, j) => j === 0 ? `<td>${provCell(r, r.checked ? `${r.stale ? t("stale") : t("checked")} ${ago(r.checked)}` : t("notChecked"))}</td>`
+      ${cfg.columns.map((c, j) => j === 0 ? `<td>${provCell(r, r.checked ? `${r.stale ? t("stale") : t("checked")} ${ago(r.checked)}` : t("notChecked"), slug)}</td>`
         : `<td class="${c.key === keyCol ? "key" : ""}">${fmt(r[c.key], c.fmt)}</td>`).join("")}
       <td>${scoreCell(r, best)}</td>
-      <td style="text-align:right"><a class="btn ${r.score === best ? "navy" : "outline"} sm" href="${esc(r.url)}" target="_blank" rel="noopener sponsored">${t("viewDeal")}</a></td></tr>`).join("")
+      ${ctaCell(r, slug, r.score === best)}</tr>`).join("")
       : `<tr><td colspan="99"><div class="empty">${V.mascot(80)}<span>${t("mNo")}</span></div></td></tr>`;
     document.querySelectorAll("th").forEach(th => th.classList.toggle("sorted", th.dataset.k === key));
   };
@@ -478,7 +496,7 @@ async function runRules(q) {
   if (/cheap|irħas|economic/i.test(q) && rows.some(r => "price" in r)) rows.sort((a, b) => (a.price || 0) - (b.price || 0));
   const top = rows.slice(0, 3), cfg = cats.config[slug], keyCol = cfg.columns.find(c => c.key === cfg.score[0].key) || cfg.columns[2];
   return `<div class="reply"><p style="margin:0 0 6px"><b>${t("askHere")} ${esc(catTitle(cfg))}:</b></p>
-    ${top.map((r, i) => `<div class="r">${V.mono(r.provider, 30)}<div class="grow"><b>${esc(r.provider)}</b> <span class="muted">${esc(r.product || r.area || "")}</span><br><span class="blue" style="font-weight:700">${fmt(r[keyCol.key], keyCol.fmt)}</span> <span class="muted">· ${colLabel(keyCol.key)}</span></div>${i === 0 ? `<span class="pick">${t("bestPick")}</span>` : `<span class="score">${nf(r.score || 0, 1)}</span>`}<a class="btn ${i === 0 ? "navy" : "outline"} sm" href="${esc(r.url || r.maps)}" target="_blank" rel="noopener sponsored">${t("viewDeal")}</a></div>`).join("") || `<div class="empty">${V.mascot(56)}<span>${t("mNo")}</span></div>`}
+    ${top.map((r, i) => `<div class="r">${V.mono(r.provider, 30)}<div class="grow"><b>${esc(r.provider)}</b> <span class="muted">${esc(r.product || r.area || "")}</span><br><span class="blue" style="font-weight:700">${fmt(r[keyCol.key], keyCol.fmt)}</span> <span class="muted">· ${colLabel(keyCol.key)}</span></div>${i === 0 ? `<span class="pick">${t("bestPick")}</span>` : `<span class="score">${nf(r.score || 0, 1)}</span>`}${ctaBtn(r, slug, i === 0)}</div>`).join("") || `<div class="empty">${V.mascot(56)}<span>${t("mNo")}</span></div>`}
     <p style="margin:10px 0 0"><a class="link" href="#${slug === "restaurants" ? "dining" : slug}">${t("seeTable")}</a></p></div>`;
 }
 /* AI agent first, keyword router as fallback */
@@ -506,7 +524,7 @@ async function runAsk() {
     const picks = (out.picks || []).map((p, i) => `<div class="r">${V.mono(p.provider, 30)}<div class="grow"><b>${esc(p.provider)}</b> <span class="muted">${esc(p.product || "")}</span>${p.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}
         <br><span class="blue" style="font-weight:700">${fmt(p.key?.value, p.key?.fmt)}</span> <span class="muted">· ${colLabel(p.key?.field)}${p.demo ? " · " + t("sample") : ""}</span><div class="why">${esc(p.why)}</div></div>
         ${i === 0 ? `<span class="pick">${t("bestPick")}</span>` : p.score != null ? `<span class="score">${nf(p.score, 1)}</span>` : ""}
-        ${p.url ? `<a class="btn ${i === 0 ? "navy" : "outline"} sm" href="${esc(p.url)}" target="_blank" rel="noopener sponsored">${t("viewDeal")}</a>` : ""}</div>`).join("");
+        ${p.url ? ctaBtn({provider: p.provider, url: p.url, apply_url: p.apply_url}, p.category, i === 0) : ""}</div>`).join("");
     const oc = out.open_category && cats.config[out.open_category] ? out.open_category : null;
     res.insertAdjacentHTML("beforeend", `<div class="reply ai"><p class="ans">${esc(out.answer)}</p>${picks}
       ${oc ? `<p style="margin:10px 0 0"><a class="link" href="#${oc === "restaurants" ? "dining" : oc}">${t("seeTable")}</a></p>` : ""}<p class="ai-note">${t("aiNote")}</p></div>`);

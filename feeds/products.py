@@ -83,7 +83,9 @@ def run(status):
     save_json(STATE / "products.json", state)
 
     # 2) build category files
-    index = []
+    from . import links
+
+    index, built = [], {}
     for slug, cfg in cats.items():
         rows = [dict(r) for r in seed.get(slug, [])]
         if slug == "restaurants":
@@ -100,6 +102,9 @@ def run(status):
                 r.setdefault("demo", True)
         score(rows, cfg["score"])
         rows.sort(key=lambda r: r.get("score", 0), reverse=True)
+        built[slug] = rows
+    links.apply(built, status)
+    for slug, rows in built.items():
         save_json(OUT / f"cat-{slug}.json", {"slug": slug, "updated": now_iso(), "items": rows})
         index.append({"slug": slug, "count": len(rows), "best": rows[0]["provider"] if rows else None})
     save_json(OUT / "categories.json", {"updated": now_iso(), "config": cats, "index": index})
