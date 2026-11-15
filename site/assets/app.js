@@ -6,7 +6,7 @@ const V = window.CMV;
 
 /* ---------- strings ---------- */
 const T = {
- en:{
+ en:{thinking:"Merill is checking every provider…",aiNote:"AI answer from today's data. Always confirm details with the provider.",followPh:"Ask a follow-up…",sample:"Sample data",
   nBanking:"Banking",nLoans:"Loans & Mortgages",nCards:"Cards",nBusiness:"Business",nTelco:"Telco",nEat:"Eat",nMarkets:"Markets",nNews:"News",
   ask:"Ask the Thrush",live:"Live · updated daily",mseIdx:"MSE Index",ecb:"ECB deposit rate",brent:"Brent",
   eyebrow:"Malta's comparison engine",h1a:"Every Maltese rate, plan and table,",h1b:"side by side.",
@@ -33,7 +33,7 @@ const T = {
   contactTxt:"Contact details will be published here at launch.",
   askSub:"Ask in plain words and I'll find the best three.",askHint:"Try:",askChips:["Best savings for €20k","Cheapest unlimited mobile","Business account with multi-currency","Seafood in Marsaxlokk"],
   askNone:"I couldn't tell what to compare. Try one of the examples, or pick a category.",askHere:"Here are the best three I found in",seeTable:"See the full table →",allCatsTitle:"All categories"},
- mt:{
+ mt:{thinking:"Merill qed jiċċekkja kull fornitur…",aiNote:"Tweġiba AI mid-data tal-lum. Dejjem ikkonferma d-dettalji mal-fornitur.",followPh:"Staqsi mistoqsija oħra…",sample:"Data ta' kampjun",
   nBanking:"Bankar",nLoans:"Self u Self għad-Dar",nCards:"Karti",nBusiness:"Negozju",nTelco:"Telco",nEat:"Ikel",nMarkets:"Swieq",nNews:"Aħbarijiet",
   ask:"Staqsi lill-Merill",live:"Live · aġġornat kuljum",mseIdx:"Indiċi MSE",ecb:"Rata tad-depożitu ECB",brent:"Brent",
   eyebrow:"Il-magna tal-paragun ta' Malta",h1a:"Kull rata, pjan u tabella Maltija,",h1b:"wieħed ħdejn l-ieħor.",
@@ -60,7 +60,7 @@ const T = {
   contactTxt:"Id-dettalji tal-kuntatt jiġu ppubblikati hawn mal-varar.",
   askSub:"Staqsi bi kliem sempliċi u nsiblek l-aqwa tlieta.",askHint:"Ipprova:",askChips:["L-aħjar tfaddil għal €20k","L-irħas mobile bla limitu","Kont tan-negozju b'ħafna muniti","Ħut f'Marsaxlokk"],
   askNone:"Ma fhimtx x'għandi nqabbel. Ipprova wieħed mill-eżempji, jew agħżel kategorija.",askHere:"Dawn huma l-aqwa tlieta li sibt f'",seeTable:"Ara t-tabella sħiħa →",allCatsTitle:"Il-kategoriji kollha"},
- it:{
+ it:{thinking:"Merill sta controllando ogni fornitore…",aiNote:"Risposta AI dai dati di oggi. Verifica sempre i dettagli con il fornitore.",followPh:"Fai un'altra domanda…",sample:"Dati di esempio",
   nBanking:"Banca",nLoans:"Prestiti e Mutui",nCards:"Carte",nBusiness:"Business",nTelco:"Telco",nEat:"Mangiare",nMarkets:"Mercati",nNews:"Notizie",
   ask:"Chiedi al Merill",live:"Live · aggiornato ogni giorno",mseIdx:"Indice MSE",ecb:"Tasso depositi BCE",brent:"Brent",
   eyebrow:"Il motore di confronto di Malta",h1a:"Ogni tasso, piano e tabella di Malta,",h1b:"fianco a fianco.",
@@ -451,12 +451,11 @@ const INTENTS = [
   ["markets", /fx|currency|exchange rate|eur\/|valut|munit|market|mse|index|swieq|mercat/i],
 ];
 function parseAmount(q) { const m = q.replace(/,/g, "").match(/€?\s?(\d+(?:\.\d+)?)\s?(k|m)?\b/i); if (!m) return null; return parseFloat(m[1]) * (m[2] ? (m[2].toLowerCase() === "k" ? 1e3 : 1e6) : 1); }
-async function runAsk() {
-  const q = $("#askQ").value.trim(); if (!q) return;
-  const hit = INTENTS.find(([, rx]) => rx.test(q)); const res = $("#askRes");
-  if (!hit) { res.innerHTML = `<div class="reply">${t("askNone")} <a class="link" href="#categories">${t("allCats")}</a></div>`; bindAskLinks(); return; }
+async function runRules(q) {
+  const hit = INTENTS.find(([, rx]) => rx.test(q));
+  if (!hit) return `<div class="reply">${t("askNone")} <a class="link" href="#categories">${t("allCats")}</a></div>`;
   const slug = hit[0];
-  if (slug === "news" || slug === "markets") { closeAsk(); location.hash = slug; return; }
+  if (slug === "news" || slug === "markets") return `<div class="reply"><a class="link" href="#${slug}">${t("seeTable")}</a></div>`;
   const [cats, data] = await Promise.all([get("categories"), get("cat-" + slug)]);
   let rows = [...(data?.items || [])];
   const amt = parseAmount(q);
@@ -468,13 +467,47 @@ async function runAsk() {
   if (/unlimited|illimitat|bla limitu/i.test(q)) rows = rows.filter(r => !("data_gb" in r) || r.data_gb >= 999).sort((a, b) => (a.price || 0) - (b.price || 0));
   if (/cheap|irħas|economic/i.test(q) && rows.some(r => "price" in r)) rows.sort((a, b) => (a.price || 0) - (b.price || 0));
   const top = rows.slice(0, 3), cfg = cats.config[slug], keyCol = cfg.columns.find(c => c.key === cfg.score[0].key) || cfg.columns[2];
-  res.innerHTML = `<div class="reply"><p style="margin:0 0 6px"><b>${t("askHere")} ${esc(catTitle(cfg))}:</b></p>
+  return `<div class="reply"><p style="margin:0 0 6px"><b>${t("askHere")} ${esc(catTitle(cfg))}:</b></p>
     ${top.map((r, i) => `<div class="r">${V.mono(r.provider, 30)}<div class="grow"><b>${esc(r.provider)}</b> <span class="muted">${esc(r.product || r.area || "")}</span><br><span class="blue" style="font-weight:700">${fmt(r[keyCol.key], keyCol.fmt)}</span> <span class="muted">· ${colLabel(keyCol.key)}</span></div>${i === 0 ? `<span class="pick">${t("bestPick")}</span>` : `<span class="score">${nf(r.score || 0, 1)}</span>`}<a class="btn ${i === 0 ? "navy" : "outline"} sm" href="${esc(r.url || r.maps)}" target="_blank" rel="noopener sponsored">${t("viewDeal")}</a></div>`).join("") || `<div class="empty">${V.mascot(56)}<span>${t("mNo")}</span></div>`}
     <p style="margin:10px 0 0"><a class="link" href="#${slug === "restaurants" ? "dining" : slug}">${t("seeTable")}</a></p></div>`;
+}
+/* AI agent first, keyword router as fallback */
+let chat = [];
+async function runAsk() {
+  const q = $("#askQ").value.trim(); if (!q) return;
+  const res = $("#askRes");
+  res.insertAdjacentHTML("beforeend", `<div class="bubble-q">${esc(q)}</div><div class="reply thinking" id="thinking">${V.mascot(40, "", "fly")}<span>${t("thinking")}</span></div>`);
+  $("#askQ").value = ""; $("#askQ").placeholder = t("followPh");
+  res.scrollTop = res.scrollHeight;
+  let out = null;
+  const url = (window.CM_AGENT_URL || "").replace(/\/$/, "");
+  if (url) {
+    try {
+      const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 45000);
+      const r = await fetch(`${url}/ask`, {method: "POST", headers: {"content-type": "application/json"}, body: JSON.stringify({q, lang, history: chat}), signal: ctl.signal});
+      clearTimeout(timer);
+      if (r.ok) out = await r.json();
+    } catch (e) { out = null; }
+  }
+  $("#thinking")?.remove();
+  if (out && (out.answer || out.picks?.length)) {
+    chat.push({role: "user", content: q}, {role: "assistant", content: out.answer});
+    const cats = await get("categories");
+    const picks = (out.picks || []).map((p, i) => `<div class="r">${V.mono(p.provider, 30)}<div class="grow"><b>${esc(p.provider)}</b> <span class="muted">${esc(p.product || "")}</span>${p.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}
+        <br><span class="blue" style="font-weight:700">${fmt(p.key?.value, p.key?.fmt)}</span> <span class="muted">· ${colLabel(p.key?.field)}${p.demo ? " · " + t("sample") : ""}</span><div class="why">${esc(p.why)}</div></div>
+        ${i === 0 ? `<span class="pick">${t("bestPick")}</span>` : p.score != null ? `<span class="score">${nf(p.score, 1)}</span>` : ""}
+        ${p.url ? `<a class="btn ${i === 0 ? "navy" : "outline"} sm" href="${esc(p.url)}" target="_blank" rel="noopener sponsored">${t("viewDeal")}</a>` : ""}</div>`).join("");
+    const oc = out.open_category && cats.config[out.open_category] ? out.open_category : null;
+    res.insertAdjacentHTML("beforeend", `<div class="reply ai"><p class="ans">${esc(out.answer)}</p>${picks}
+      ${oc ? `<p style="margin:10px 0 0"><a class="link" href="#${oc === "restaurants" ? "dining" : oc}">${t("seeTable")}</a></p>` : ""}<p class="ai-note">${t("aiNote")}</p></div>`);
+  } else {
+    res.insertAdjacentHTML("beforeend", await runRules(q));
+  }
   bindAskLinks();
+  res.lastElementChild?.scrollIntoView({block: "nearest"});
 }
 function bindAskLinks() { document.querySelectorAll("#askRes a[href^='#']").forEach(a => a.addEventListener("click", closeAsk)); }
-function openAsk(q = "") { $("#ask").classList.add("open"); $("#askQ").value = q; $("#askRes").innerHTML = ""; setTimeout(() => $("#askQ").focus(), 30); if (q) runAsk(); }
+function openAsk(q = "") { $("#ask").classList.add("open"); $("#askQ").value = q; if (q) { $("#askRes").innerHTML = ""; chat = []; } $("#askQ").placeholder = chat.length ? t("followPh") : t("ph"); setTimeout(() => $("#askQ").focus(), 30); if (q) runAsk(); }
 function closeAsk() { $("#ask").classList.remove("open"); }
 
 /* ---------- router ---------- */

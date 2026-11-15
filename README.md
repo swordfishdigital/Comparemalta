@@ -39,6 +39,22 @@ reports health and the workflow fails (→ GitHub email) when fewer than half of
 - All artwork is original inline SVG (`site/assets/visuals.js`): harbour hero, category icons, provider monograms, Maltese-tile food covers, news fallbacks. No third-party logos.
 - Real photos: news uses the publisher's RSS image when present (falls back to the illustration). Restaurants store a Google Places photo reference; serve it through a small `/img/place` proxy (e.g. a Cloudflare Worker) so the API key stays server-side, and show Google attribution.
 
+## Ask the Thrush (AI agent)
+
+The Compare box and the "Ask the Thrush" button talk to an AI agent (`agent/worker.js`) built on the Claude API with tool use.
+The agent can only answer from the site's own daily data: it calls tools (`list_categories`, `search_products`, `get_markets`,
+`convert_currency`, `loan_calculator`, `get_news`) and finishes with `show_results`. Product links, scores and figures in the
+picks are filled in by the worker from `site/data/*.json`, never by the model, and picks the model did not actually look up are dropped.
+If the agent is unreachable, the site falls back to its built-in keyword search.
+
+- **Codespaces / local:** add `ANTHROPIC_API_KEY` as a Codespaces secret (GitHub → Settings → Codespaces → Secrets, give this repo access),
+  then `node agent/dev.mjs` serves the site and the agent together on port 8000.
+- **Production (Cloudflare Workers):** repo secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ANTHROPIC_API_KEY`, repo variable
+  `AGENT_ENABLED=true`; the `deploy-agent` workflow deploys on every change under `agent/`. Then set `window.CM_AGENT_URL` in
+  `site/config.js` to the Worker URL. `ALLOWED_ORIGINS` in `agent/wrangler.toml` limits which sites may call it; there is also a
+  per-IP limit of 20 questions per 10 minutes.
+- Model: `MODEL` in `wrangler.toml` (default `claude-sonnet-5-5`).
+
 ## Run locally
 
 ```bash
