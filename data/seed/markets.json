@@ -162,5 +162,9 @@
    "price": 0.9,
    "change_pct": -1.4
   }
- ]
+ ],
+ "mse_index": {
+  "name": "MSE Equity Price Index",
+  "value": 3950.0
+ }
 }

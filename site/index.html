@@ -5,38 +5,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CompareMalta.ai</title>
 <link rel="alternate" hreflang="en" href="https://comparemalta.ai/">
-<link rel="alternate" hreflang="mt" href="https://comparemalta.ai/mt/">
-<link rel="alternate" hreflang="it" href="https://comparemalta.ai/it/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Crect%20width%3D%2240%22%20height%3D%2240%22%20rx%3D%2211%22%20fill%3D%22%23dcebfa%22/%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2220%22%20r%3D%2210%22%20fill%3D%22%23477fc4%22/%3E%3Cpath%20d%3D%22M29%2018l9%202-9%202z%22%20fill%3D%22%23fff%22/%3E%3Ccircle%20cx%3D%2223%22%20cy%3D%2218%22%20r%3D%222.2%22%20fill%3D%22%230b1520%22/%3E%3Ccircle%20cx%3D%2233%22%20cy%3D%229%22%20r%3D%223.2%22%20fill%3D%22%23c8102e%22/%3E%3C/svg%3E">
-<meta name="description" content="Compare business accounts, bank accounts, loans, mortgages, credit cards, telco plans, insurance and restaurants in Malta. Updated daily.">
+<link rel="alternate" hreflang="mt" href="https://comparemalta.ai/">
+<link rel="alternate" hreflang="it" href="https://comparemalta.ai/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2220%22%20r%3D%2220%22%20fill%3D%22%230d2a4a%22/%3E%3Cellipse%20cx%3D%2218%22%20cy%3D%2223%22%20rx%3D%2211%22%20ry%3D%228%22%20fill%3D%22%233b70b3%22/%3E%3Ccircle%20cx%3D%2226%22%20cy%3D%2216%22%20r%3D%226%22%20fill%3D%22%23477fc4%22/%3E%3Cpath%20d%3D%22M31%2015l6%201.5-6%201.5z%22%20fill%3D%22%23f2b58e%22/%3E%3Ccircle%20cx%3D%2227.5%22%20cy%3D%2215%22%20r%3D%221.4%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E">
+<meta name="description" content="Every Maltese rate, plan and table — side by side. Accounts, loans, mortgages, cards, mobile plans and where to eat, refreshed every morning in English, Malti and Italiano.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<div class="ticker" id="ticker"><div class="ticker-track" id="tickerTrack"></div></div>
 <header class="top">
   <div class="wrap top-in">
-    <a href="#home" class="logo"><span class="logo-mark">◆</span>CompareMalta<span class="ai">.ai</span></a>
+    <a href="#home" class="logo"><span class="logo-mark"></span><span>CompareMalta<span class="ai">.ai</span></span></a>
     <nav id="nav" class="nav"></nav>
-    <div class="top-tools">
-      <select id="langSel" class="pill lang" aria-label="Language"><option value="en">EN</option><option value="mt">MT</option><option value="it">IT</option></select>
-      <button id="menuBtn" class="pill menu-btn" type="button" aria-label="Menu">☰</button>
+    <div class="tools">
+      <div class="seg" id="langSeg" role="group" aria-label="Language"><button data-l="en">EN</button><button data-l="mt">MT</button><button data-l="it">IT</button></div>
+      <button class="btn blue" id="askBtn" type="button"></button>
+      <button id="menuBtn" class="menu-btn" type="button" aria-label="Menu">☰</button>
     </div>
   </div>
 </header>
+<div class="strip"><div class="wrap strip-in" id="strip"></div></div>
 <div id="demoBanner" class="demo" hidden></div>
-<main id="app" class="wrap"></main>
+<main id="app"></main>
 <footer class="foot">
-  <div class="foot-bird" id="footBird"></div>
-  <div class="wrap foot-in">
-    <div>
-      <div class="logo small"><span class="logo-mark">◆</span>CompareMalta<span class="ai">.ai</span></div>
-      <p id="footDisclaimer"></p>
-    </div>
-    <div id="footStatus" class="foot-status"></div>
+  <div class="wrap">
+    <div class="foot-in" id="footIn"></div>
+    <div class="foot-meta"><span id="footDisclaimer"></span><span id="footStatus"></span></div>
   </div>
 </footer>
+<div class="ask" id="ask" aria-modal="true" role="dialog">
+  <div class="ask-box">
+    <div class="ask-head"><span id="askBird"></span><div><h3 id="askTitle"></h3><p id="askSub"></p></div><button class="ask-x" id="askX" type="button" aria-label="Close">×</button></div>
+    <form class="search" id="askForm" style="max-width:none"><input id="askQ" autocomplete="off"><button class="btn navy" id="askGo"></button></form>
+    <div class="chips" id="askChips"></div>
+    <div class="ask-res" id="askRes"></div>
+  </div>
+</div>
 <script src="assets/visuals.js"></script>
 <script src="assets/app.js"></script>
 </body>

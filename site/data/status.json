@@ -1,116 +1,116 @@
 {
- "generated": "2026-11-15T12:30:48+00:00",
+ "generated": "2026-11-15T12:56:54+00:00",
  "ok": 0,
  "total": 22,
  "feeds": {
   "fx": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "markets.global": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "no Yahoo quotes"
   },
   "markets.crypto": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "markets.mse": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "news.Times of Malta": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "news.Malta Today": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "news.Newsbook": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "news.Lovin Malta": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "news.Business Now": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "news.Newsbook Business": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "restaurants": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "using cached/seed list (set GOOGLE_PLACES_KEY for live data)"
   },
   "product.savings::MeDirect|Fixed Term 12M": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "product.savings::Bank of Valletta|Term Deposit 12M": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "product.savings::APS Bank|Fixed Term 12M": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "product.savings::BNF Bank|Term Deposit 12M": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "product.mortgages::Bank of Valletta|Home Loan": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "product.mortgages::HSBC Malta|Home Loan": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "product.mortgages::APS Bank|Home Loan": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "product.personal-loans::Bank of Valletta|Personal Loan": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "product.telco-mobile::GO|Postpaid Unlimited": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "product.telco-mobile::Epic|Epic Unlimited": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   },
   "product.telco-broadband::Melita|Internet 500": {
    "status": "stale",
-   "at": "2026-11-15T12:30:48+00:00",
+   "at": "2026-11-15T12:56:54+00:00",
    "note": "offline mode"
   }
  }

@@ -1,6 +1,6 @@
 {
  "slug": "savings",
- "updated": "2026-11-15T12:30:48+00:00",
+ "updated": "2026-11-15T12:56:54+00:00",
  "items": [
   {
    "provider": "MeDirect",
@@ -9,6 +9,7 @@
    "term_months": 12,
    "min_deposit": 1000,
    "url": "https://www.medirect.com.mt",
+   "access": "Fixed term",
    "checked": null,
    "demo": true,
    "score": 9.8
@@ -20,6 +21,7 @@
    "term_months": 24,
    "min_deposit": 2500,
    "url": "https://www.lombardmalta.com",
+   "access": "Fixed term",
    "checked": null,
    "demo": true,
    "score": 7.7
@@ -31,6 +33,7 @@
    "term_months": 12,
    "min_deposit": 500,
    "url": "https://www.bnf.bank",
+   "access": "Fixed term",
    "checked": null,
    "demo": true,
    "score": 6.4
@@ -42,6 +45,7 @@
    "term_months": 12,
    "min_deposit": 1000,
    "url": "https://www.apsbank.com.mt",
+   "access": "Fixed term",
    "checked": null,
    "demo": true,
    "score": 5.4
@@ -53,6 +57,7 @@
    "term_months": 12,
    "min_deposit": 1000,
    "url": "https://www.bov.com",
+   "access": "Fixed term",
    "checked": null,
    "demo": true,
    "score": 1.8
@@ -64,6 +69,7 @@
    "term_months": 12,
    "min_deposit": 5000,
    "url": "https://www.hsbc.com.mt",
+   "access": "Fixed term",
    "checked": null,
    "demo": true,
    "score": 0.7

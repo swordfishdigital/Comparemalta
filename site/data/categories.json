@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:30:48+00:00",
+ "updated": "2026-11-15T12:56:54+00:00",
  "config": {
   "business-accounts": {
    "title": "İşletme Hesapları",
@@ -145,6 +145,10 @@
      "key": "rate",
      "label": "Faiz (yıllık)",
      "fmt": "pct"
+    },
+    {
+     "key": "access",
+     "label": "Erişim"
     },
     {
      "key": "term_months",

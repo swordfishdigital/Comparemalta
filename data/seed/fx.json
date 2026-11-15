@@ -425,5 +425,10 @@
   "PLN": 4.2082,
   "CNY": 8.2416,
   "AED": 4.2285
+ },
+ "policy": {
+  "name": "ECB deposit facility rate",
+  "rate": 2.0,
+  "date": "demo"
  }
 }

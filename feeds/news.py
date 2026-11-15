@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 from .common import CONFIG, SEED, STATE, OUT, http_get, load_json, now_iso, save_json
 
 TOPICS = {
+    "Property": r"\b(property|properties|rent|rental|housing|apartment|planning authority|construction|real estate)",
     "Business": r"\b(econom|budget|inflation|gdp|tax|bank|finance|fintech|invest|mfsa|central bank|eur|market|business|igaming|property)",
     "Politics": r"\b(minister|parliament|government|abela|opposition|election|labour|nationalist|pn|pl)\b",
     "Lifestyle": r"\b(restaurant|food|festa|event|concert|culture|travel|weather|sport|football)",

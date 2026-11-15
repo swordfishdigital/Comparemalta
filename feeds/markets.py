@@ -58,6 +58,9 @@ def _mse(cfg):
         seen.add(sym)
         base = price - chg
         out.append({"symbol": sym, "name": names.get(sym, sym), "price": price, "change_pct": round(chg / base * 100, 2) if base else 0.0})
+    idx = re.search(r"Equity Price Index\D{0,60}?([\d,]{3,7}\.\d+)", soup.get_text(" "))
+    if idx:
+        _mse.index = {"name": "MSE Equity Price Index", "value": float(idx.group(1).replace(",", ""))}
     if not out:
         raise ValueError("MSE prices not found on home page; parser needs update")
     return out
@@ -77,6 +80,7 @@ def run(status):
         except Exception as e:  # noqa: BLE001
             data.setdefault("stale", []).append(key)
             status.stale(f"markets.{key}", e)
+    data["mse_index"] = getattr(_mse, "index", None) or last.get("mse_index")
     if not data.get("stale"):
         data.pop("stale", None)
     save_json(STATE / "markets.json", data)

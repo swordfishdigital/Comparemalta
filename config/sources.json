@@ -202,7 +202,8 @@
    "PLN",
    "CNY",
    "AED"
-  ]
+  ],
+  "ecb_dfr": "https://data-api.ecb.europa.eu/service/data/FM/D.U2.EUR.4F.KR.DFR.LEV?lastNObservations=1&format=csvdata"
  },
  "restaurants": {
   "google_places_queries": [

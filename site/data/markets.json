@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:30:48+00:00",
+ "updated": "2026-11-15T12:56:54+00:00",
  "global": [
   {
    "name": "S&P 500",
@@ -166,5 +166,9 @@
   "global",
   "crypto",
   "mse"
- ]
+ ],
+ "mse_index": {
+  "name": "MSE Equity Price Index",
+  "value": 3950.0
+ }
 }

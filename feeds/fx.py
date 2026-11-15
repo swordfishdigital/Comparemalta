@@ -14,6 +14,21 @@ def _parse(xml_text: str) -> dict[str, dict[str, float]]:
     return out
 
 
+def _ecb_dfr(url):
+    """ECB deposit facility rate (latest observation) from the ECB Data Portal, CSV format."""
+    import csv
+    import io
+
+    if not url:
+        return None
+    try:
+        rows = list(csv.DictReader(io.StringIO(http_get(url).text)))
+        last = rows[-1]
+        return {"name": "ECB deposit facility rate", "rate": float(last["OBS_VALUE"]), "date": last["TIME_PERIOD"]}
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def run(status):
     cfg = load_json(CONFIG / "sources.json")["fx"]
     try:
@@ -29,6 +44,7 @@ def run(status):
             rates.append({"ccy": ccy, "rate": r, "change_pct": round((r / p - 1) * 100, 3), "spark": series[-30:]})
         data = {"base": "EUR", "date": latest, "source": "ECB euro foreign exchange reference rates",
                 "updated": now_iso(), "rates": rates, "all": hist[latest]}
+        data["policy"] = _ecb_dfr(cfg.get("ecb_dfr")) or (load_json(STATE / "fx.json") or {}).get("policy")
         save_json(STATE / "fx.json", data)
         status.ok("fx", len(rates))
     except Exception as e:  # noqa: BLE001

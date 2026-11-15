@@ -108,9 +108,9 @@ function birdG(mood = "") {
 function mascot(size = 120, mood = "", cls = "") {
   return `<svg class="mascot ${cls}" width="${size}" height="${Math.round(size * .8)}" viewBox="0 0 120 96" role="img" aria-label="Merill, the CompareMalta blue rock thrush">${birdG(mood)}</svg>`;
 }
-function logo(size = 28) {
-  return `<svg width="${size}" height="${size}" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="11" fill="#dcebfa"/>
-    <g transform="translate(-4.5 2) scale(.41)">${birdG()}</g><circle cx="34" cy="7.5" r="3" fill="#c8102e"/></svg>`;
+function logo(size = 32) {
+  return `<svg width="${size}" height="${size}" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0d2a4a"/>
+    <g transform="translate(-3.5 3.5) scale(.38)">${birdG()}</g></svg>`;
 }
 
 /* Hero: an imagined harbour skyline — limestone blocks, a dome, a bell tower, enclosed wooden balconies, bastion walls and a luzzu. */
