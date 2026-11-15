@@ -76,51 +76,17 @@ def _to_png(raw, url):
 
 
 def is_light(png_bytes):
-    """True when the visible pixels are mostly white/very light (needs a dark tile to be seen)."""
+    """True only for transparent logos whose visible pixels are almost all white (invisible on a white tile).
+    Logos that bring their own opaque background are left alone."""
     from PIL import Image
 
     img = Image.open(io.BytesIO(png_bytes)).convert("RGBA")
-    px = [p for p in img.getdata() if p[3] > 60]
-    if not px:
+    data = list(img.getdata())
+    opaque = [p for p in data if p[3] > 60]
+    if not opaque or len(opaque) / len(data) > 0.9:
         return False
-    lum = sum(0.2126 * r + 0.7152 * g + 0.0722 * b for r, g, b, _ in px) / len(px) / 255
-    return lum > 0.86
-
-
-def fetch_logo(dom):
-    site = f"https://{dom}/"
-    try:
-        cands = _candidates(site)
-    except Exception:  # noqa: BLE001
-        cands = [urljoin(site, "/apple-touch-icon.png"), urljoin(site, "/favicon.ico")]
-    cands = cands[:6] + [f"https://www.google.com/s2/favicons?domain={dom}&sz=128"]  # last resort, still self-hosted
-    for u in cands:
-        try:
-            png = _to_png(http_get(u, timeout=12, retries=0).content, u)
-            if png:
-                (LOGOS / f"{dom}.png").write_bytes(png)
-                return True, u
-        except Exception:  # noqa: BLE001
-            continue
-    return False, None
-
-
-def run(status):
-    LOGOS.mkdir(parents=True, exist_ok=True)
-    seed = load_json(SEED / "products.json")
-    doms = sorted({d for rows in seed.values() for r in rows for d in [domain(r.get("url", ""))] if d})
-    state = load_json(STATE / "logos.json", {})
-    now = datetime.now(timezone.utc)
-    due = [d for d in doms if d not in state or now - datetime.fromisoformat(state[d]["checked"]) > TTL
-           or (state[d]["ok"] and not (LOGOS / f"{d}.png").exists())]
-    if due and not OFFLINE:
-        with ThreadPoolExecutor(8) as ex:
-            for d, (ok, src) in zip(due, ex.map(fetch_logo, due)):
-                prev_ok = state.get(d, {}).get("ok") and (LOGOS / f"{d}.png").exists()
-                state[d] = {"ok": ok or bool(prev_ok), "src": src or state.get(d, {}).get("src"), "checked": now_iso()}
-        save_json(STATE / "logos.json", state)
-    have = sum(1 for d in doms if (LOGOS / f"{d}.png").exists())
-    status.ok("logos", have, f"{have}/{len(doms)} providers have a logo")
+    white = sum(1 for r, g, b, _ in opaque if min(r, g, b) > 225)
+    return white / len(opaque) > 0.75
 
 
 _light = {}
