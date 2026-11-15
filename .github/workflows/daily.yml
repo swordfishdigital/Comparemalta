@@ -1,8 +1,9 @@
 name: daily-feeds
 on:
   schedule:
-    - cron: "15 4 * * *"    # 05:15 Malta (CET) — news, products, restaurants
-    - cron: "30 15 * * 1-5" # 16:30 Malta — after ECB FX fix and MSE close
+    - cron: "15 4 * * *"    # 05:15 Malta (CET): everything
+    - cron: "30 15 * * 1-5" # 16:30 Malta, after ECB FX fix and MSE close
+    - cron: "0 5,11,17,23 * * *" # news every 6 hours: 06:00, 12:00, 18:00, 00:00 Malta (winter time)
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -20,6 +21,7 @@ jobs:
       - name: Run feeds
         env:
           GOOGLE_PLACES_KEY: ${{ secrets.GOOGLE_PLACES_KEY }}
+          CM_ONLY: ${{ github.event.schedule == '0 5,11,17,23 * * *' && 'news' || '' }}
         run: python -m feeds.run_all
       - name: Commit last-known-good state
         run: |

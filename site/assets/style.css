@@ -285,3 +285,13 @@ a.cat2:hover .go{background:var(--blue);color:#fff;transform:translateX(2px)}
 .nl-page .lead2{font-size:16px;color:var(--ink2);margin:12px 0 20px}
 .nl-preview{width:100%;height:760px;border:1px solid var(--line);border-radius:18px;background:#f3eee6}
 @media (max-width:980px){.nl-band{grid-template-columns:1fr}.nl-bird{display:none}.nl-page{grid-template-columns:1fr}}
+
+/* home news cards: picture beside the story */
+.news-card{display:grid;grid-template-columns:132px 1fr;gap:16px;align-items:start;min-height:0}
+.news-card .nc-img{width:132px;height:132px;border-radius:14px;overflow:hidden;line-height:0;background:var(--bg-2);display:block}
+.news-card .nc-img .thumb{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s}
+.news-card:hover .nc-img .thumb{transform:scale(1.05)}
+.nc-body{display:flex;flex-direction:column;min-height:132px}
+.nc-body .link{margin-top:auto}
+.nc-body h3{font-size:17px}
+@media (max-width:560px){.news-card{grid-template-columns:96px 1fr}.news-card .nc-img{width:96px;height:96px}.nc-body{min-height:96px}}
