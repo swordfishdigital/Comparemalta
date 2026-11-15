@@ -11,6 +11,7 @@
  *   SITE_URL                     where the site's /data/*.json lives, e.g. https://comparemalta.ai
  *   ALLOWED_ORIGINS              comma-separated origins allowed to call the agent ("*" for dev)
  *   MODEL                        default claude-sonnet-5-5
+ *   CONTACT_WEBHOOK   (secret)   where partnership enquiries are posted (Slack/Zapier/Make/Formspree URL)
  */
 
 const API = "https://api.anthropic.com/v1/messages";
@@ -274,12 +275,40 @@ function cors(env, origin) {
 }
 const json = (obj, status, headers) => new Response(JSON.stringify(obj), { status, headers: { "content-type": "application/json; charset=utf-8", ...headers } });
 
+/* ---------------- partnership / contact form ---------------- */
+const EMAIL = /^[^\s@]{1,64}@[^\s@]{1,190}\.[a-z]{2,24}$/i;
+async function contact(request, env, h) {
+  const ip = request.headers.get("cf-connecting-ip") || request.headers.get("x-forwarded-for") || "local";
+  if (limited("c:" + ip)) return json({ error: "rate_limited" }, 429, h);
+  let b; try { b = await request.json(); } catch { return json({ error: "bad json" }, 400, h); }
+  const clip = (v, n) => String(v || "").trim().slice(0, n);
+  const lead = { name: clip(b.name, 100), company: clip(b.company, 120), email: clip(b.email, 160), topic: clip(b.topic, 80),
+    message: clip(b.message, 3000), lang: clip(b.lang, 2), page: clip(b.page, 300), at: new Date().toISOString() };
+  if (!lead.name || !lead.company || !EMAIL.test(lead.email) || !lead.message) return json({ error: "invalid" }, 400, h);
+  const text = `New partnership enquiry (${lead.topic})\n${lead.name}, ${lead.company} <${lead.email}>\n\n${lead.message}`;
+  try {
+    if (env.CONTACT_WEBHOOK) {  // Slack/Teams incoming webhook, Zapier/Make, Formspree... anything that accepts JSON
+      const r = await fetch(env.CONTACT_WEBHOOK, { method: "POST", headers: { "content-type": "application/json", accept: "application/json" }, body: JSON.stringify({ text, ...lead }) });
+      if (!r.ok) throw new Error(`webhook ${r.status}`);
+    } else if (env.saveLead) {
+      await env.saveLead(lead);  // local dev: appended to data/state/leads.jsonl
+    } else {
+      return json({ error: "contact not configured" }, 503, h);
+    }
+    return json({ ok: true }, 200, h);
+  } catch (e) {
+    console.error(e);
+    return json({ error: "send_failed" }, 502, h);
+  }
+}
+
 export default {
   async fetch(request, env) {
     const h = cors(env, request.headers.get("origin") || "");
     if (request.method === "OPTIONS") return new Response(null, { headers: h });
     const url = new URL(request.url);
     if (url.pathname === "/health") return json({ ok: true, model: env.MODEL || "claude-sonnet-5-5", key: !!env.ANTHROPIC_API_KEY }, 200, h);
+    if (url.pathname === "/contact" && request.method === "POST") return contact(request, env, h);
     if (url.pathname !== "/ask" || request.method !== "POST") return json({ error: "not found" }, 404, h);
     if (!env.ANTHROPIC_API_KEY) return json({ error: "agent not configured" }, 503, h);
     const ip = request.headers.get("cf-connecting-ip") || request.headers.get("x-forwarded-for") || "local";

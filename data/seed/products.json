@@ -8,8 +8,7 @@
    "multi_currency": true,
    "onboarding_days": 1,
    "licence": "EMI (FIN-FSA)",
-   "url": "https://wamo.io",
-   "affiliated": true
+   "url": "https://wamo.io"
   },
   {
    "provider": "Bank of Valletta",
@@ -449,8 +448,7 @@
    "fee": 0,
    "fx_margin": 0.4,
    "speed": "Same day",
-   "url": "https://wamo.io",
-   "affiliated": true
+   "url": "https://wamo.io"
   }
  ],
  "telco-mobile": [

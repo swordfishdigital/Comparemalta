@@ -6,7 +6,7 @@ const V = window.CMV;
 
 /* ---------- strings ---------- */
 const T = {
- en:{ctaOpen:"Open account",ctaApply:"Apply now",ctaPlan:"Get this plan",ctaQuote:"Get a quote",ctaSend:"Send money",ctaBook:"Book a table",visit:"Visit site",dirs:"Directions",onSite:"on the provider's site",thinking:"Merill is checking every provider…",aiNote:"AI answer from today's data. Always confirm details with the provider.",followPh:"Ask a follow-up…",sample:"Sample data",
+ en:{pTitle:"Partner with CompareMalta.ai",pEyebrow:"Partnerships",pLead:"Banks, fintechs, telcos, insurers, brokers and restaurants: list your products, send us rate updates, or talk to us about referral, advertising and data partnerships. Rankings stay independent and are never for sale.",pName:"Your name",pCompany:"Company",pEmail:"Work email",pType:"What is it about?",pTypes:["List or update our products","Referral or affiliate partnership","Advertising","Data and API","Press","Other"],pMsg:"Message",pConsent:"I agree that CompareMalta.ai may contact me about this request.",pSend:"Send message",pOk:"Thank you. Your message is with us and we will get back to you soon.",pErr:"We could not send your message right now. Please try again later.",pBand:"Are you a bank, fintech, telco or restaurant in Malta?",pBandSub:"Get your products listed and kept up to date, or talk to us about partnerships.",pCta:"Partner with us",pWhy:["Listed for free, ranked on merit","Daily refreshed rates and plans","Reach people comparing in English, Malti and Italiano"],fPartner:"Partner with us",ctaOpen:"Open account",ctaApply:"Apply now",ctaPlan:"Get this plan",ctaQuote:"Get a quote",ctaSend:"Send money",ctaBook:"Book a table",visit:"Visit site",dirs:"Directions",onSite:"on the provider's site",thinking:"Merill is checking every provider…",aiNote:"AI answer from today's data. Always confirm details with the provider.",followPh:"Ask a follow-up…",sample:"Sample data",
   nBanking:"Banking",nLoans:"Loans & Mortgages",nCards:"Cards",nBusiness:"Business",nTelco:"Telco",nEat:"Eat",nMarkets:"Markets",nNews:"News",
   ask:"Ask the Thrush",live:"Live · updated daily",mseIdx:"MSE Index",ecb:"ECB deposit rate",brent:"Brent",
   eyebrow:"Malta's comparison engine",h1a:"Every Maltese rate, plan and table,",h1b:"side by side.",
@@ -29,11 +29,11 @@ const T = {
   disclaimer:"Not financial advice. Always confirm rates with the provider before applying.",
   feeds:"Feeds",low:"lower is better",high:"higher is better",free:"Free",unlimited:"Unlimited",results:"results",noRes:"No results.",
   tip:"Merill's tip",tipTxt:"Look at the total cost, not just the headline rate. Fees and terms can change the ranking.",mNo:"Merill looked everywhere but found nothing. Try another word.",
-  howTitle:"How we rank",howTxt:"Every table is ranked by the Thrush score (0 to 10). For each category we pick the metrics that matter most to you (rate, fees, speed, data), normalise each across all providers (best = 1, worst = 0), weight them and scale to 10. Providers cannot pay to change their position. Rows marked “Related party” are connected to the site's owners and are scored with exactly the same formula.",weights:"Weights",
+  howTitle:"How we rank",howTxt:"Every table is ranked by the Thrush score (0 to 10). For each category we pick the metrics that matter most to you (rate, fees, speed, data), normalise each across all providers (best = 1, worst = 0), weight them and scale to 10. Providers cannot pay to change their position.",weights:"Weights",
   contactTxt:"Contact details will be published here at launch.",
   askSub:"Ask in plain words and I'll find the best three.",askHint:"Try:",askChips:["Best savings for €20k","Cheapest unlimited mobile","Business account with multi-currency","Seafood in Marsaxlokk"],
   askNone:"I couldn't tell what to compare. Try one of the examples, or pick a category.",askHere:"Here are the best three I found in",seeTable:"See the full table →",allCatsTitle:"All categories"},
- mt:{ctaOpen:"Iftaħ kont",ctaApply:"Applika issa",ctaPlan:"Ħu dan il-pjan",ctaQuote:"Ikseb kwotazzjoni",ctaSend:"Ibgħat flus",ctaBook:"Irriserva mejda",visit:"Żur is-sit",dirs:"Direzzjonijiet",onSite:"fuq is-sit tal-fornitur",thinking:"Merill qed jiċċekkja kull fornitur…",aiNote:"Tweġiba AI mid-data tal-lum. Dejjem ikkonferma d-dettalji mal-fornitur.",followPh:"Staqsi mistoqsija oħra…",sample:"Data ta' kampjun",
+ mt:{pTitle:"Sieħeb ma' CompareMalta.ai",pEyebrow:"Sħubijiet",pLead:"Banek, fintechs, kumpaniji tat-telekomunikazzjoni, assiguraturi, brokers u restoranti: niżżlu l-prodotti tagħkom, ibagħtulna aġġornamenti tar-rati, jew kellmuna dwar sħubijiet ta' referenza, reklamar u data. Il-klassifiki jibqgħu indipendenti u qatt ma jinbiegħu.",pName:"Ismek",pCompany:"Kumpanija",pEmail:"Email tax-xogħol",pType:"Dwar xiex hu?",pTypes:["Niżżlu jew naġġornaw il-prodotti tagħna","Sħubija ta' referenza jew affiljazzjoni","Reklamar","Data u API","Stampa","Oħrajn"],pMsg:"Messaġġ",pConsent:"Naqbel li CompareMalta.ai jikkuntattjani dwar din it-talba.",pSend:"Ibgħat messaġġ",pOk:"Grazzi. Il-messaġġ tiegħek wasal u nirrispondu dalwaqt.",pErr:"Ma stajniex nibagħtu l-messaġġ issa. Erġa' pprova aktar tard.",pBand:"Bank, fintech, telco jew restorant f'Malta?",pBandSub:"Niżżlu l-prodotti tagħkom u żommuhom aġġornati, jew kellmuna dwar sħubijiet.",pCta:"Sieħeb magħna",pWhy:["Imniżżlin b'xejn, ikklassifikati fuq il-mertu","Rati u pjanijiet aġġornati kuljum","Laħħqu nies li qed iqabblu bl-Ingliż, bil-Malti u bit-Taljan"],fPartner:"Sieħeb magħna",ctaOpen:"Iftaħ kont",ctaApply:"Applika issa",ctaPlan:"Ħu dan il-pjan",ctaQuote:"Ikseb kwotazzjoni",ctaSend:"Ibgħat flus",ctaBook:"Irriserva mejda",visit:"Żur is-sit",dirs:"Direzzjonijiet",onSite:"fuq is-sit tal-fornitur",thinking:"Merill qed jiċċekkja kull fornitur…",aiNote:"Tweġiba AI mid-data tal-lum. Dejjem ikkonferma d-dettalji mal-fornitur.",followPh:"Staqsi mistoqsija oħra…",sample:"Data ta' kampjun",
   nBanking:"Bankar",nLoans:"Self u Self għad-Dar",nCards:"Karti",nBusiness:"Negozju",nTelco:"Telco",nEat:"Ikel",nMarkets:"Swieq",nNews:"Aħbarijiet",
   ask:"Staqsi lill-Merill",live:"Live · aġġornat kuljum",mseIdx:"Indiċi MSE",ecb:"Rata tad-depożitu ECB",brent:"Brent",
   eyebrow:"Il-magna tal-paragun ta' Malta",h1a:"Kull rata, pjan u tabella Maltija,",h1b:"wieħed ħdejn l-ieħor.",
@@ -56,11 +56,11 @@ const T = {
   disclaimer:"Mhux parir finanzjarju. Dejjem ikkonferma r-rati mal-fornitur qabel tapplika.",
   feeds:"Feeds",low:"inqas huwa aħjar",high:"aktar huwa aħjar",free:"B'xejn",unlimited:"Bla limitu",results:"riżultati",noRes:"L-ebda riżultat.",
   tip:"Il-parir ta' Merill",tipTxt:"Ħares lejn l-ispiża totali, mhux biss lejn ir-rata. Il-miżati u t-termini jistgħu jbiddlu l-klassifika.",mNo:"Merill fittex kullimkien iżda ma sab xejn. Ipprova kelma oħra.",
-  howTitle:"Kif nikklassifikaw",howTxt:"Kull tabella hija kklassifikata bil-Punteġġ tal-Merill (0 sa 10). Għal kull kategorija nagħżlu l-metriċi li jgħoddu l-aktar (rata, miżati, ħeffa, data), ninnormalizzaw kull waħda fost il-fornituri kollha (l-aħjar = 1, l-agħar = 0), nagħtuhom piż u nskalawhom għal 10. Il-fornituri ma jistgħux iħallsu biex jibdlu l-pożizzjoni tagħhom. Ir-ringieli mmarkati “Parti relatata” huma konnessi mas-sidien tas-sit u jingħataw punteġġ bl-istess formula eżatta.",weights:"Piżijiet",
+  howTitle:"Kif nikklassifikaw",howTxt:"Kull tabella hija kklassifikata bil-Punteġġ tal-Merill (0 sa 10). Għal kull kategorija nagħżlu l-metriċi li jgħoddu l-aktar (rata, miżati, ħeffa, data), ninnormalizzaw kull waħda fost il-fornituri kollha (l-aħjar = 1, l-agħar = 0), nagħtuhom piż u nskalawhom għal 10. Il-fornituri ma jistgħux iħallsu biex jibdlu l-pożizzjoni tagħhom.",weights:"Piżijiet",
   contactTxt:"Id-dettalji tal-kuntatt jiġu ppubblikati hawn mal-varar.",
   askSub:"Staqsi bi kliem sempliċi u nsiblek l-aqwa tlieta.",askHint:"Ipprova:",askChips:["L-aħjar tfaddil għal €20k","L-irħas mobile bla limitu","Kont tan-negozju b'ħafna muniti","Ħut f'Marsaxlokk"],
   askNone:"Ma fhimtx x'għandi nqabbel. Ipprova wieħed mill-eżempji, jew agħżel kategorija.",askHere:"Dawn huma l-aqwa tlieta li sibt f'",seeTable:"Ara t-tabella sħiħa →",allCatsTitle:"Il-kategoriji kollha"},
- it:{ctaOpen:"Apri un conto",ctaApply:"Richiedi ora",ctaPlan:"Attiva l'offerta",ctaQuote:"Fai un preventivo",ctaSend:"Invia denaro",ctaBook:"Prenota un tavolo",visit:"Visita il sito",dirs:"Indicazioni",onSite:"sul sito del fornitore",thinking:"Merill sta controllando ogni fornitore…",aiNote:"Risposta AI dai dati di oggi. Verifica sempre i dettagli con il fornitore.",followPh:"Fai un'altra domanda…",sample:"Dati di esempio",
+ it:{pTitle:"Diventa partner di CompareMalta.ai",pEyebrow:"Partnership",pLead:"Banche, fintech, operatori telefonici, assicurazioni, broker e ristoranti: inserite i vostri prodotti, inviateci aggiornamenti sui tassi o parlateci di partnership di referral, pubblicità e dati. Le classifiche restano indipendenti e non sono mai in vendita.",pName:"Nome",pCompany:"Azienda",pEmail:"Email di lavoro",pType:"Di cosa si tratta?",pTypes:["Inserire o aggiornare i nostri prodotti","Partnership di referral o affiliazione","Pubblicità","Dati e API","Stampa","Altro"],pMsg:"Messaggio",pConsent:"Accetto che CompareMalta.ai mi contatti in merito a questa richiesta.",pSend:"Invia messaggio",pOk:"Grazie. Abbiamo ricevuto il tuo messaggio e ti risponderemo presto.",pErr:"Non siamo riusciti a inviare il messaggio. Riprova più tardi.",pBand:"Sei una banca, una fintech, un operatore o un ristorante a Malta?",pBandSub:"Fai inserire i tuoi prodotti e tienili aggiornati, oppure parlaci di partnership.",pCta:"Diventa partner",pWhy:["Inserimento gratuito, classifica per merito","Tassi e piani aggiornati ogni giorno","Raggiungi chi confronta in inglese, maltese e italiano"],fPartner:"Diventa partner",ctaOpen:"Apri un conto",ctaApply:"Richiedi ora",ctaPlan:"Attiva l'offerta",ctaQuote:"Fai un preventivo",ctaSend:"Invia denaro",ctaBook:"Prenota un tavolo",visit:"Visita il sito",dirs:"Indicazioni",onSite:"sul sito del fornitore",thinking:"Merill sta controllando ogni fornitore…",aiNote:"Risposta AI dai dati di oggi. Verifica sempre i dettagli con il fornitore.",followPh:"Fai un'altra domanda…",sample:"Dati di esempio",
   nBanking:"Banca",nLoans:"Prestiti e Mutui",nCards:"Carte",nBusiness:"Business",nTelco:"Telco",nEat:"Mangiare",nMarkets:"Mercati",nNews:"Notizie",
   ask:"Chiedi al Merill",live:"Live · aggiornato ogni giorno",mseIdx:"Indice MSE",ecb:"Tasso depositi BCE",brent:"Brent",
   eyebrow:"Il motore di confronto di Malta",h1a:"Ogni tasso, piano e tabella di Malta,",h1b:"fianco a fianco.",
@@ -83,7 +83,7 @@ const T = {
   disclaimer:"Non è consulenza finanziaria. Verifica sempre i tassi con il fornitore prima di aderire.",
   feeds:"Feed",low:"più basso è meglio",high:"più alto è meglio",free:"Gratis",unlimited:"Illimitati",results:"risultati",noRes:"Nessun risultato.",
   tip:"Il consiglio di Merill",tipTxt:"Guarda il costo totale, non solo il tasso: commissioni e condizioni possono cambiare la classifica.",mNo:"Merill ha cercato ovunque ma non ha trovato nulla. Prova un'altra parola.",
-  howTitle:"Come classifichiamo",howTxt:"Ogni tabella è ordinata con il Punteggio Merill (da 0 a 10). Per ogni categoria scegliamo le metriche che contano di più (tasso, commissioni, velocità, dati), le normalizziamo tra tutti i fornitori (migliore = 1, peggiore = 0), le ponderiamo e le riportiamo su 10. I fornitori non possono pagare per cambiare posizione. Le righe “Parte correlata” sono collegate ai proprietari del sito e ricevono il punteggio con la stessa identica formula.",weights:"Pesi",
+  howTitle:"Come classifichiamo",howTxt:"Ogni tabella è ordinata con il Punteggio Merill (da 0 a 10). Per ogni categoria scegliamo le metriche che contano di più (tasso, commissioni, velocità, dati), le normalizziamo tra tutti i fornitori (migliore = 1, peggiore = 0), le ponderiamo e le riportiamo su 10. I fornitori non possono pagare per cambiare posizione.",weights:"Pesi",
   contactTxt:"I contatti saranno pubblicati qui al lancio.",
   askSub:"Chiedi con parole semplici e trovo i tre migliori.",askHint:"Prova:",askChips:["Miglior risparmio per €20k","Mobile illimitato più economico","Conto business multivaluta","Pesce a Marsaxlokk"],
   askNone:"Non ho capito cosa confrontare. Prova un esempio o scegli una categoria.",askHere:"Ecco i tre migliori che ho trovato in",seeTable:"Vedi la tabella completa →",allCatsTitle:"Tutte le categorie"}
@@ -191,7 +191,7 @@ async function renderChrome() {
     <div><a href="#home" class="logo"><span class="logo-mark">${V.logo(30)}</span><span>CompareMalta<span class="ai">.ai</span></span></a><p>${t("footTag")}</p></div>
     <div><h4>${t("fCompare")}</h4><ul><li><a href="#bank-accounts">${t("nBanking")}</a></li><li><a href="#mortgages">${t("fLoans")}</a></li><li><a href="#telco-mobile">${t("nTelco")}</a></li><li><a href="#categories">${t("allCatsTitle")}</a></li></ul></div>
     <div><h4>${t("fDaily")}</h4><ul><li><a href="#news">${t("fNews")}</a></li><li><a href="#markets">${t("fMarkets")}</a></li><li><a href="#markets">${t("fFx")}</a></li></ul></div>
-    <div><h4>${t("fAbout")}</h4><ul><li><a href="#how-we-rank">${t("fHow")}</a></li><li><a href="#contact">${t("fContact")}</a></li></ul></div>`;
+    <div><h4>${t("fAbout")}</h4><ul><li><a href="#how-we-rank">${t("fHow")}</a></li><li><a href="#partners">${t("fPartner")}</a></li><li><a href="#contact">${t("fContact")}</a></li></ul></div>`;
   $("#footDisclaimer").textContent = t("disclaimer");
   if (st) $("#footStatus").innerHTML = `<span class="dot ${st.total && st.ok / st.total > .8 ? "" : "warn"}"></span>${t("feeds")} ${st.ok}/${st.total} · ${t("updated")} ${ago(st.generated)}`;
   document.querySelectorAll("header .logo-mark").forEach(e => e.innerHTML = V.logo(32));
@@ -233,7 +233,7 @@ function brand(r, size = 34) {
 const mkRowDark = (label, val) => `<div class="mk-row"><span>${esc(label)}</span><b>${val}</b></div>`;
 const mkRow = r => { const mse = /^[A-Z0-9]{2,5}$/.test(r.symbol || "");
   return `<div class="mk-row"><span class="n"><b>${esc(mse ? r.symbol : r.name)}</b><small>${esc(mse ? r.name : "")}</small></span><span style="text-align:right">${nf(r.price, r.price < 10 ? 3 : 2)}<br>${chg(r.change_pct)}</span></div>`; };
-const newsImg = n => n.image ? `<img class="thumb" src="${esc(n.image)}" alt="" loading="lazy" onerror="this.outerHTML=window.CMV.newsThumb('${esc(n.topic)}')">` : V.newsThumb(n.topic);
+const newsImg = n => n.image ? `<img class="thumb" src="${esc(n.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML=window.CMV.newsThumb('${esc(n.topic)}')">` : V.newsThumb(n.topic);
 const newsList = items => items.length ? items.map(n => `
   <a class="news-item" href="${esc(n.url)}" target="_blank" rel="noopener">
     <div class="news-img">${newsImg(n)}</div>
@@ -305,7 +305,7 @@ async function pageHome() {
     <div class="wrap">
       <div class="sec-head"><h2>${t("morning")}</h2><a class="link" href="#news">${t("nNews")} →</a></div>
       <div class="grid g3">
-        ${[n1, n2].filter(Boolean).map(n => `<div class="card news-card"><p class="eyebrow">${esc(n.topic)}</p><div class="src">${esc(n.source)}${n.published ? " · " + ago(n.published) : ""}</div><h3>${esc(n.title)}</h3><p>${esc(n.summary)}</p><a class="link" href="${esc(n.url)}" target="_blank" rel="noopener">${t("readSum")}</a></div>`).join("")}
+        ${[n1, n2].filter(Boolean).map(n => `<div class="card news-card"><div class="nc-head"><div><p class="eyebrow">${esc(n.topic)}</p><div class="src">${esc(n.source)}${n.published ? " · " + ago(n.published) : ""}</div></div><a class="nc-img" href="${esc(n.url)}" target="_blank" rel="noopener" tabindex="-1">${newsImg(n)}</a></div><h3>${esc(n.title)}</h3><p>${esc(n.summary)}</p><a class="link" href="${esc(n.url)}" target="_blank" rel="noopener">${t("readSum")}</a></div>`).join("")}
         <div class="card mk-card"><p class="eyebrow">${t("mkt")}</p>
           ${mk?.mse_index ? mkRowDark(mk.mse_index.name.replace("MSE ", "MSE "), nf(mk.mse_index.value, 2)) : ""}
           ${stoxx ? mkRowDark("EURO STOXX 50", nf(stoxx.price, 2)) : ""}
@@ -314,7 +314,8 @@ async function pageHome() {
           <a class="link" href="#markets">${t("fullMk")}</a></div>
       </div>
     </div>
-  </section>`;
+  </section>
+  ${partnerBand()}`;
 }
 function bindHome() {
   const f = $("#heroForm"); if (!f) return;
@@ -444,6 +445,56 @@ async function pageHow() {
 }
 const pageContact = async () => `<div class="wrap"><div class="page-head"><p class="eyebrow">${t("fAbout")}</p><h1 style="font-size:clamp(32px,4vw,48px)">${t("fContact")}</h1><div class="tip">${V.mascot(60)}<div>${t("contactTxt")}</div></div></div><div style="height:60px"></div></div>`;
 
+
+async function pagePartners() {
+  setTimeout(bindPartners, 0);
+  const types = t("pTypes");
+  return `<div class="wrap"><div class="partners">
+    <div class="p-left">
+      <p class="eyebrow">${t("pEyebrow")}</p>
+      <h1 style="font-size:clamp(32px,4vw,46px)">${t("pTitle")}</h1>
+      <p class="lead2">${t("pLead")}</p>
+      <ul class="p-why">${t("pWhy").map(w => `<li>${V.icon("insurance", 18)}<span>${esc(w)}</span></li>`).join("")}</ul>
+      <div class="p-bird">${V.mascot(120, "wink")}</div>
+    </div>
+    <form class="card p-form" id="pForm" novalidate>
+      <div class="grid g2"><label>${t("pName")}<input name="name" required maxlength="100" autocomplete="name"></label>
+        <label>${t("pCompany")}<input name="company" required maxlength="120" autocomplete="organization"></label></div>
+      <label>${t("pEmail")}<input name="email" type="email" required maxlength="160" autocomplete="email"></label>
+      <label>${t("pType")}<select name="topic">${types.map((x, i) => `<option value="${i}">${esc(x)}</option>`).join("")}</select></label>
+      <label>${t("pMsg")}<textarea name="message" rows="5" maxlength="3000" required></textarea></label>
+      <input name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+      <label class="chk"><input type="checkbox" name="consent" required><span>${t("pConsent")}</span></label>
+      <button class="btn cta" type="submit">${t("pSend")} <span class="arr">→</span></button>
+      <p class="p-status" id="pStatus" role="status"></p>
+    </form>
+  </div></div><div style="height:50px"></div>`;
+}
+function bindPartners() {
+  const f = $("#pForm"); if (!f) return;
+  f.onsubmit = async e => {
+    e.preventDefault();
+    if (!f.reportValidity()) return;
+    const d = Object.fromEntries(new FormData(f).entries());
+    if (d.website) return;  // honeypot
+    const st = $("#pStatus"), btn = f.querySelector("button"); btn.disabled = true; st.className = "p-status";
+    const body = {name: d.name, company: d.company, email: d.email, topic: T.en.pTypes[+d.topic] || "Other", message: d.message, lang, page: location.href};
+    let ok = false;
+    try {
+      const base = (window.CM_AGENT_URL || "").replace(/\/$/, "");
+      const url = window.CM_CONTACT_ENDPOINT || (base ? `${base}/contact` : "");
+      if (url) { const r = await fetch(url, {method: "POST", headers: {"content-type": "application/json", accept: "application/json"}, body: JSON.stringify(body)}); ok = r.ok; }
+    } catch (err) { ok = false; }
+    btn.disabled = false;
+    if (ok) { f.reset(); st.textContent = t("pOk"); st.classList.add("ok"); }
+    else { st.innerHTML = esc(t("pErr")) + (window.CM_CONTACT_EMAIL ? ` <a class="link" href="mailto:${esc(window.CM_CONTACT_EMAIL)}">${esc(window.CM_CONTACT_EMAIL)}</a>` : ""); st.classList.add("err"); }
+  };
+}
+const partnerBand = () => `<section class="section"><div class="wrap"><div class="p-band">
+  <div class="pb-bird">${V.mascot(96, "wink")}</div>
+  <div class="pb-txt"><p class="eyebrow" style="color:var(--peach)">${t("pEyebrow")}</p><h2>${t("pBand")}</h2><p>${t("pBandSub")}</p></div>
+  <a class="btn cta lg" href="#partners">${t("pCta")} <span class="arr">→</span></a></div></div></section>`;
+
 /* ---------- calculators ---------- */
 const field = (id, label, val, attrs = "") => `<label for="${id}">${label}</label><input id="${id}" type="number" value="${val}" ${attrs}>`;
 const loanCalcHtml = () => `<div class="card calc" data-calc="loan"><h3>${V.icon("personal-loans", 18)} ${t("loanCalc")}</h3>
@@ -552,7 +603,7 @@ async function route() {
   const r = (location.hash || "#home").slice(1) || "home";
   await get("categories");
   renderNav(r); $("#nav").classList.remove("open");
-  const pages = {news: pageNews, markets: pageMarkets, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
+  const pages = {partners: pagePartners, contact: pagePartners, news: pageNews, markets: pageMarkets, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
   $("#app").innerHTML = await (pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
   if (r === "markets") bindCalcs();
   if ($("#heroForm")) bindHome();

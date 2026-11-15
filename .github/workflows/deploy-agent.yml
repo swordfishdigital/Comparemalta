@@ -15,6 +15,9 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: agent
-          secrets: ANTHROPIC_API_KEY
+          secrets: |
+            ANTHROPIC_API_KEY
+            CONTACT_WEBHOOK
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CONTACT_WEBHOOK: ${{ secrets.CONTACT_WEBHOOK }}

@@ -2,7 +2,7 @@
 // talks to /api/ask on the same origin. Usage: ANTHROPIC_API_KEY=... node agent/dev.mjs
 // The key comes from the environment (e.g. a Codespaces secret). Never commit it.
 import http from "node:http";
-import { readFile } from "node:fs/promises";
+import { appendFile, mkdir, readFile } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 import worker from "./worker.js";
@@ -14,6 +14,13 @@ const env = {
   SITE_URL: process.env.SITE_URL || `http://localhost:${port}`,
   ALLOWED_ORIGINS: "*",
   MODEL: process.env.MODEL || "claude-sonnet-5-5",
+  CONTACT_WEBHOOK: process.env.CONTACT_WEBHOOK,
+  saveLead: async lead => {
+    const dir = fileURLToPath(new URL("../data/state/", import.meta.url));
+    await mkdir(dir, { recursive: true });
+    await appendFile(dir + "leads.jsonl", JSON.stringify(lead) + "\n");
+    console.log("partnership enquiry saved:", lead.company, lead.email);
+  },
 };
 const TYPES = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".svg": "image/svg+xml", ".png": "image/png" };
 

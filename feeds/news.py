@@ -34,6 +34,36 @@ def _image(e):
     return m.group(1) if m else None
 
 
+def _og_image(url):
+    """Preview image the publisher declares for social sharing (og:image / twitter:image)."""
+    try:
+        from bs4 import BeautifulSoup
+
+        soup = BeautifulSoup(http_get(url, timeout=10, retries=0).text[:300_000], "html.parser")
+        for key in ("og:image:secure_url", "og:image", "twitter:image"):
+            tag = soup.find("meta", attrs={"property": key}) or soup.find("meta", attrs={"name": key})
+            if tag and tag.get("content", "").startswith("http"):
+                return tag["content"]
+    except Exception:  # noqa: BLE001
+        return None
+    return None
+
+
+def _add_og_images(items, status):
+    from concurrent.futures import ThreadPoolExecutor
+
+    cache = load_json(STATE / "news_images.json", {})
+    todo = [i for i in items if not i.get("image") and i["url"] not in cache]
+    with ThreadPoolExecutor(8) as ex:
+        for i, img in zip(todo, ex.map(lambda x: _og_image(x["url"]), todo)):
+            cache[i["url"]] = img
+    for i in items:
+        i["image"] = i.get("image") or cache.get(i["url"])
+    keep = {i["url"] for i in items}
+    save_json(STATE / "news_images.json", {k: v for k, v in cache.items() if k in keep})
+    status.ok("news.images", sum(1 for i in items if i.get("image")))
+
+
 def run(status, max_items=80):
     import feedparser
 
@@ -72,6 +102,7 @@ def run(status, max_items=80):
             status.stale(f"news.{f['name']}", ex)
     if items:
         items.sort(key=lambda x: x["published"], reverse=True)
+        _add_og_images(items[:max_items], status)
         data = {"updated": now_iso(), "items": items[:max_items]}
         save_json(STATE / "news.json", data)
     else:
