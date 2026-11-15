@@ -287,7 +287,7 @@ async function pageHome() {
   <section class="section" style="padding-top:20px">
     <div class="sec-head"><h2>${t("whatCmp")}</h2><a class="link" href="#categories">${t("allCats")}</a></div>
     <div class="grid g4">${HOME_CARDS.map(([k, route, ic]) => { const [title, sub] = t("c")[k];
-      return `<a class="card cat ${k === "today" ? "dark" : ""}" href="#${route}"><span class="ic">${V.catIcon(k, 48)}</span><h3>${esc(title)}</h3><p>${esc(sub)}</p></a>`; }).join("")}</div>
+      return `<a class="card cat2 ${k === "today" ? "dark" : ""}" href="#${route}"><span class="cb">${V.catBanner(k, k === "today")}</span><span class="cbody"><h3>${esc(title)}</h3><p>${esc(sub)}</p><span class="go">→</span></span></a>`; }).join("")}</div>
   </section>
   </div>
 
@@ -385,9 +385,9 @@ function bindTable(cfg, items, slug) {
 async function pageCategories() {
   const cats = await get("categories");
   return `<div class="wrap"><div class="page-head"><p class="eyebrow">${t("eyebrow")}</p><h1 style="font-size:clamp(32px,4vw,48px)">${t("allCatsTitle")}</h1></div>
-  <div class="grid g4" style="margin:20px 0 50px">${cats.index.map(c => `<a class="card cat" href="#${c.slug}"><span class="ic">${V.catIcon(c.slug)}</span><h3>${esc(catTitle(cats.config[c.slug]))}</h3><p>${c.count} ${t("results")}</p></a>`).join("")}
-    <a class="card cat dark" href="#news"><span class="ic">${V.catIcon("news")}</span><h3>${t("c").today[0]}</h3><p>${t("c").today[1]}</p></a>
-    <a class="card cat" href="#markets"><span class="ic">${V.catIcon("markets")}</span><h3>${t("c").markets[0]}</h3><p>${t("c").markets[1]}</p></a></div></div>`;
+  <div class="grid g4" style="margin:20px 0 50px">${cats.index.map(c => `<a class="card cat2" href="#${c.slug}"><span class="cb">${V.catBanner(c.slug)}</span><span class="cbody"><h3>${esc(catTitle(cats.config[c.slug]))}</h3><p>${c.count} ${t("results")}</p><span class="go">→</span></span></a>`).join("")}
+    <a class="card cat2 dark" href="#news"><span class="cb">${V.catBanner("news", true)}</span><span class="cbody"><h3>${t("c").today[0]}</h3><p>${t("c").today[1]}</p><span class="go">→</span></span></a>
+    <a class="card cat2" href="#markets"><span class="cb">${V.catBanner("markets")}</span><span class="cbody"><h3>${t("c").markets[0]}</h3><p>${t("c").markets[1]}</p><span class="go">→</span></span></a></div></div>`;
 }
 async function pageNews() {
   const news = await get("news"); const items = news?.items || [];

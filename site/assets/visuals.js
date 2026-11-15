@@ -140,6 +140,45 @@ function catIcon(key, size = 44) {
   return `<svg class="ci" width="${size}" height="${size}" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${CI[CI_FOR[key] || key] || CI.news}</svg>`;
 }
 
+
+/* Category banners: same language as the restaurant covers (Maltese tile pattern, white plate, filled glyph).
+   Glyphs are drawn in a 100x100 box; C = category colour, D = navy, A = accent. */
+const BG = {
+  bank:["#e3e8fb","#2b4cc4","#f2b58e"], home:["#fbe6d8","#c4683a","#f6c453"], cards:["#efe4f6","#7a3e9d","#f2b58e"],
+  business:["#e2f2ec","#18805b","#f6c453"], phone:["#def0f2","#0e7c86","#f2b58e"], eat:["#fbe2dd","#c03a2b","#f6c453"],
+  markets:["#f6ecd6","#b8862b","#2b4cc4"], news:["#0d2a4a","#f2b58e","#2b4cc4"], savings:["#e2f2ec","#18805b","#f6c453"],
+  loan:["#fbe6d8","#c4683a","#18805b"], fintech:["#e3e8fb","#2b4cc4","#f2b58e"], transfer:["#def0f2","#0e7c86","#f2b58e"],
+  wifi:["#def0f2","#0e7c86","#f2b58e"], shield:["#e2f2ec","#18805b","#f6c453"], invest:["#f6ecd6","#b8862b","#2b4cc4"]
+};
+const D = "#0d2a4a";
+const GL = {
+  bank: (C, A) => `<path d="M18 40L50 20l32 20z" fill="${C}"/><circle cx="50" cy="32" r="5" fill="${A}"/><rect x="24" y="44" width="8" height="26" rx="2" fill="${C}"/><rect x="38" y="44" width="8" height="26" rx="2" fill="${C}"/><rect x="54" y="44" width="8" height="26" rx="2" fill="${C}"/><rect x="68" y="44" width="8" height="26" rx="2" fill="${C}"/><rect x="16" y="72" width="68" height="8" rx="2" fill="${D}"/>`,
+  home: (C, A) => `<path d="M24 82V42l26-20 26 20v40z" fill="${C}"/><rect x="33" y="44" width="34" height="14" rx="2" fill="${A}"/><path d="M50 44v14M33 51h34" stroke="${C}" stroke-width="2"/><rect x="30" y="58" width="40" height="3" fill="${D}"/><rect x="43" y="64" width="14" height="18" rx="7" fill="${D}"/><circle cx="82" cy="66" r="6" fill="${A}"/><path d="M82 72v12M82 79h4" stroke="${D}" stroke-width="3" stroke-linecap="round"/>`,
+  cards: (C, A) => `<rect x="30" y="24" width="52" height="34" rx="6" fill="${A}"/><rect x="18" y="38" width="56" height="36" rx="6" fill="${C}"/><rect x="18" y="46" width="56" height="7" fill="${D}" opacity=".85"/><rect x="25" y="59" width="12" height="9" rx="2" fill="#f6c453"/><rect x="44" y="62" width="22" height="4" rx="2" fill="#fff" opacity=".7"/>`,
+  business: (C, A) => `<path d="M38 36v-7a5 5 0 0 1 5-5h14a5 5 0 0 1 5 5v7" stroke="${D}" stroke-width="5" fill="none"/><rect x="16" y="36" width="68" height="44" rx="8" fill="${C}"/><rect x="16" y="54" width="68" height="5" fill="${D}" opacity=".3"/><rect x="43" y="49" width="14" height="14" rx="3" fill="${A}"/>`,
+  phone: (C, A) => `<rect x="30" y="16" width="36" height="68" rx="9" fill="${C}"/><rect x="35" y="24" width="26" height="48" rx="3" fill="#fff"/><rect x="39" y="56" width="5" height="10" rx="1" fill="${A}"/><rect x="46" y="49" width="5" height="17" rx="1" fill="${A}"/><rect x="53" y="41" width="5" height="25" rx="1" fill="${A}"/><path d="M73 38a14 14 0 0 1 0 22M80 31a24 24 0 0 1 0 36" stroke="${D}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+  eat: (C, A) => `<circle cx="50" cy="56" r="24" fill="${C}"/><circle cx="50" cy="56" r="15" fill="${A}"/><path d="M14 30v14a5 5 0 0 0 10 0V30M19 30v54" stroke="${D}" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M86 30c-6 4-6 18 0 22v32" stroke="${D}" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M42 26c-3-4 3-6 0-11M50 26c-3-4 3-6 0-11M58 26c-3-4 3-6 0-11" stroke="${C}" stroke-width="3" fill="none" stroke-linecap="round"/>`,
+  markets: (C, A) => `<rect x="20" y="58" width="13" height="22" rx="3" fill="${C}" opacity=".55"/><rect x="38" y="46" width="13" height="34" rx="3" fill="${C}" opacity=".8"/><rect x="56" y="34" width="13" height="46" rx="3" fill="${C}"/><path d="M18 52l20-12 16 6 24-20" stroke="${D}" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="78" cy="26" r="6" fill="${A}"/><rect x="14" y="80" width="72" height="4" rx="2" fill="${D}"/>`,
+  news: (C, A) => `<rect x="20" y="22" width="52" height="58" rx="5" fill="${D}"/><rect x="72" y="32" width="10" height="44" rx="4" fill="${C}"/><rect x="27" y="30" width="38" height="6" rx="2" fill="#fff"/><rect x="27" y="42" width="16" height="16" rx="2" fill="${A}"/><rect x="47" y="43" width="18" height="4" rx="2" fill="#fff" opacity=".7"/><rect x="47" y="51" width="18" height="4" rx="2" fill="#fff" opacity=".7"/><rect x="27" y="64" width="38" height="4" rx="2" fill="#fff" opacity=".7"/><rect x="27" y="71" width="28" height="4" rx="2" fill="#fff" opacity=".7"/>`,
+  savings: (C, A) => `<ellipse cx="44" cy="72" rx="22" ry="7" fill="${C}"/><rect x="22" y="58" width="44" height="14" fill="${C}"/><ellipse cx="44" cy="58" rx="22" ry="7" fill="${A}"/><rect x="22" y="44" width="44" height="14" fill="${C}" opacity=".85"/><ellipse cx="44" cy="44" rx="22" ry="7" fill="${A}"/><path d="M70 36l12-12M74 24h8v8" stroke="${D}" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+  loan: (C, A) => `<rect x="14" y="30" width="72" height="42" rx="7" fill="${C}"/><circle cx="50" cy="51" r="13" fill="#fff"/><path d="M55 44a8 8 0 1 0 0 14M43 49h9M43 54h9" stroke="${D}" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="24" cy="40" r="4" fill="${A}"/><circle cx="76" cy="62" r="4" fill="${A}"/>`,
+  fintech: (C, A) => `<rect x="22" y="16" width="34" height="64" rx="8" fill="${C}"/><rect x="27" y="24" width="24" height="44" rx="3" fill="#fff"/><rect x="42" y="48" width="44" height="28" rx="5" fill="${D}"/><rect x="42" y="55" width="44" height="6" fill="${A}"/><rect x="47" y="66" width="10" height="6" rx="1.5" fill="#f6c453"/>`,
+  transfer: (C, A) => `<path d="M18 38h54l-12-12" stroke="${C}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M82 62H28l12 12" stroke="${D}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="76" cy="38" r="6" fill="${A}"/>`,
+  wifi: (C, A) => `<path d="M18 40a46 46 0 0 1 64 0M28 50a32 32 0 0 1 44 0M38 60a18 18 0 0 1 24 0" stroke="${C}" stroke-width="6" fill="none" stroke-linecap="round"/><rect x="20" y="68" width="60" height="16" rx="5" fill="${D}"/><circle cx="32" cy="76" r="3" fill="${A}"/><circle cx="42" cy="76" r="3" fill="${A}"/>`,
+  shield: (C, A) => `<path d="M50 14l30 11v20c0 20-13 32-30 38-17-6-30-18-30-38V25z" fill="${C}"/><path d="M36 50l9 9 19-19" stroke="${A}" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+};
+GL.invest = GL.markets;
+function catBanner(key, dark = false) {
+  const k = CI_FOR[key] || key, [bg, fg, acc] = BG[k] || BG.bank, id = "cb" + hash(key + dark);
+  const ring = dark ? "rgba(255,255,255,.18)" : fg;
+  return `<svg class="cat-banner" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>${tilePattern(id, bg, fg)}<radialGradient id="${id}g"><stop offset=".5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="${dark ? .35 : .14}"/></radialGradient></defs>
+    <rect width="400" height="150" fill="url(#${id})"/>${dark ? `<rect width="400" height="150" fill="${bg}" opacity=".55"/>` : ""}<rect width="400" height="150" fill="url(#${id}g)"/>
+    <ellipse cx="200" cy="84" rx="62" ry="60" fill="#000" opacity=".08"/>
+    <circle cx="200" cy="75" r="60" fill="#fff"/><circle cx="200" cy="75" r="51" fill="none" stroke="${ring}" stroke-opacity=".18" stroke-width="2"/>
+    <g transform="translate(152.5 27.5) scale(.95)">${(GL[k] || GL.bank)(dark ? "#2b4cc4" : fg, acc)}</g></svg>`;
+}
+
 /* Hero: an imagined harbour skyline: limestone blocks, a dome, a bell tower, enclosed wooden balconies, bastion walls and a luzzu. */
 function hero() {
   const blocks = [[18,178,70,92],[84,150,58,120],[138,190,52,80],[186,162,64,108],[370,170,62,100],[428,140,70,130],[494,182,56,88],[546,158,80,112]];
@@ -193,5 +232,5 @@ function hero() {
   </g></svg>`;
 }
 
-return {icon, iconTile, mono, foodCover, newsThumb, hero, mascot, logo, catIcon, TINT};
+return {icon, iconTile, mono, foodCover, newsThumb, hero, mascot, logo, catIcon, catBanner, TINT};
 })();
