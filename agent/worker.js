@@ -192,7 +192,7 @@ async function resolvePicks(env, picks = [], seen) {
     const keyCol = cfg.columns.find(x => x.key === cfg.score[0].key) || cfg.columns[2];
     out.push({ category: p.category, provider: row.provider, product: row.product || row.area || "", why: String(p.why || "").slice(0, 220),
       key: { field: keyCol.key, fmt: keyCol.fmt || null, value: row[keyCol.key] ?? null }, score: row.score ?? null,
-      url: row.url || row.maps || null, apply_url: row.apply_url || null, affiliated: !!row.affiliated, demo: !!row.demo });
+      url: row.url || row.maps || null, apply_url: row.apply_url || null, logo: row.logo || null, affiliated: !!row.affiliated, demo: !!row.demo });
   }
   return out;
 }

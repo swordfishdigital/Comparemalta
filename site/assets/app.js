@@ -222,6 +222,13 @@ function ctaBtn(r, slug, primary = true, size = "sm") {
 const visitLink = (r, slug) => r.url ? `<a class="visit" href="${esc(outLink(siteUrl(r), slug, "visit"))}" target="_blank" rel="noopener sponsored">${t("visit")} ↗</a>` : "";
 const ctaCell = (r, slug, primary) => `<td class="cta-cell">${ctaBtn(r, slug, primary)}${visitLink(r, slug)}</td>`;
 
+/* provider logo (downloaded weekly by feeds/logos.py) with the monogram as fallback */
+function brand(r, size = 34) {
+  const m = V.mono(r.provider, size).replace('class="mono"', 'class="mono"');
+  if (!r.logo) return m;
+  return `<span class="plogo" style="width:${size}px;height:${size}px"><img src="${esc(r.logo)}" alt="${esc(r.provider)}" loading="lazy" onerror="this.parentNode.outerHTML=window.CMV.mono(this.alt, ${size})"></span>`;
+}
+
 /* ---------- shared blocks ---------- */
 const mkRowDark = (label, val) => `<div class="mk-row"><span>${esc(label)}</span><b>${val}</b></div>`;
 const mkRow = r => { const mse = /^[A-Z0-9]{2,5}$/.test(r.symbol || "");
@@ -244,7 +251,7 @@ const dishCard = (r, i) => `
       <div class="dish-cta">${ctaBtn(r, "restaurants", true)}${r.maps ? `<a class="visit" href="${esc(r.maps)}" target="_blank" rel="noopener">${t("dirs")} ↗</a>` : ""}</div>
     </div>
   </div>`;
-const provCell = (r, sub, slug) => `<div class="prov">${V.mono(r.provider, 34)}<div>${r.url ? `<a class="pname" href="${esc(outLink(siteUrl(r), slug, "name"))}" target="_blank" rel="noopener sponsored">${esc(r.provider)}</a>` : esc(r.provider)}${r.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}<small>${sub}</small></div></div>`;
+const provCell = (r, sub, slug) => `<div class="prov">${brand(r, 34)}<div>${r.url ? `<a class="pname" href="${esc(outLink(siteUrl(r), slug, "name"))}" target="_blank" rel="noopener sponsored">${esc(r.provider)}</a>` : esc(r.provider)}${r.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}<small>${sub}</small></div></div>`;
 
 /* ---------- home ---------- */
 async function topTableHtml() {
@@ -498,7 +505,7 @@ async function runRules(q) {
   if (/cheap|irħas|economic/i.test(q) && rows.some(r => "price" in r)) rows.sort((a, b) => (a.price || 0) - (b.price || 0));
   const top = rows.slice(0, 3), cfg = cats.config[slug], keyCol = cfg.columns.find(c => c.key === cfg.score[0].key) || cfg.columns[2];
   return `<div class="reply"><p style="margin:0 0 6px"><b>${t("askHere")} ${esc(catTitle(cfg))}:</b></p>
-    ${top.map((r, i) => `<div class="r">${V.mono(r.provider, 30)}<div class="grow"><b>${esc(r.provider)}</b> <span class="muted">${esc(r.product || r.area || "")}</span><br><span class="blue" style="font-weight:700">${fmt(r[keyCol.key], keyCol.fmt)}</span> <span class="muted">· ${colLabel(keyCol.key)}</span></div>${i === 0 ? `<span class="pick">${t("bestPick")}</span>` : `<span class="score">${nf(r.score || 0, 1)}</span>`}${ctaBtn(r, slug, i === 0)}</div>`).join("") || `<div class="empty">${V.mascot(56)}<span>${t("mNo")}</span></div>`}
+    ${top.map((r, i) => `<div class="r">${brand(r, 30)}<div class="grow"><b>${esc(r.provider)}</b> <span class="muted">${esc(r.product || r.area || "")}</span><br><span class="blue" style="font-weight:700">${fmt(r[keyCol.key], keyCol.fmt)}</span> <span class="muted">· ${colLabel(keyCol.key)}</span></div>${i === 0 ? `<span class="pick">${t("bestPick")}</span>` : `<span class="score">${nf(r.score || 0, 1)}</span>`}${ctaBtn(r, slug, i === 0)}</div>`).join("") || `<div class="empty">${V.mascot(56)}<span>${t("mNo")}</span></div>`}
     <p style="margin:10px 0 0"><a class="link" href="#${slug === "restaurants" ? "dining" : slug}">${t("seeTable")}</a></p></div>`;
 }
 /* AI agent first, keyword router as fallback */
@@ -523,7 +530,7 @@ async function runAsk() {
   if (out && (out.answer || out.picks?.length)) {
     chat.push({role: "user", content: q}, {role: "assistant", content: out.answer});
     const cats = await get("categories");
-    const picks = (out.picks || []).map((p, i) => `<div class="r">${V.mono(p.provider, 30)}<div class="grow"><b>${esc(p.provider)}</b> <span class="muted">${esc(p.product || "")}</span>${p.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}
+    const picks = (out.picks || []).map((p, i) => `<div class="r">${brand(p, 30)}<div class="grow"><b>${esc(p.provider)}</b> <span class="muted">${esc(p.product || "")}</span>${p.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}
         <br><span class="blue" style="font-weight:700">${fmt(p.key?.value, p.key?.fmt)}</span> <span class="muted">· ${colLabel(p.key?.field)}${p.demo ? " · " + t("sample") : ""}</span><div class="why">${esc(p.why)}</div></div>
         ${i === 0 ? `<span class="pick">${t("bestPick")}</span>` : p.score != null ? `<span class="score">${nf(p.score, 1)}</span>` : ""}
         ${p.url ? ctaBtn({provider: p.provider, url: p.url, apply_url: p.apply_url}, p.category, i === 0) : ""}</div>`).join("");

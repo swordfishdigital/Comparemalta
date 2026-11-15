@@ -83,7 +83,7 @@ def run(status):
     save_json(STATE / "products.json", state)
 
     # 2) build category files
-    from . import links
+    from . import links, logos
 
     index, built = [], {}
     for slug, cfg in cats.items():
@@ -102,6 +102,8 @@ def run(status):
                 r.setdefault("demo", True)
         score(rows, cfg["score"])
         rows.sort(key=lambda r: r.get("score", 0), reverse=True)
+        for r in rows:
+            r["logo"] = None if slug == "restaurants" else logos.logo_for(r.get("url"))
         built[slug] = rows
     links.apply(built, status)
     for slug, rows in built.items():
