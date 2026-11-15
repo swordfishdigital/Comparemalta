@@ -29,7 +29,7 @@ site/              static website (HTML + CSS + vanilla JS, no build step), read
 blanks the site; rows show "Checked <date>" or "Last known" so users see freshness. `site/data/status.json`
 reports health and the workflow fails (→ GitHub email) when fewer than half of the feeds succeed.
 
-**Thrush score (0 to 10):** per category, each metric is min-max normalised across providers, weighted
+**Blue score (0 to 10):** per category, each metric is min-max normalised across providers, weighted
 (`config/categories.json → score`), and scaled to 10. The formula is shown under every table.
 
 ## Languages & visuals
@@ -39,9 +39,9 @@ reports health and the workflow fails (→ GitHub email) when fewer than half of
 - All artwork is original inline SVG (`site/assets/visuals.js`): harbour hero, category icons, provider monograms, Maltese-tile food covers, news fallbacks. No third-party logos.
 - Real photos: news uses the publisher's RSS image when present (falls back to the illustration). Restaurants store a Google Places photo reference; serve it through a small `/img/place` proxy (e.g. a Cloudflare Worker) so the API key stays server-side, and show Google attribution.
 
-## Ask the Thrush (AI agent)
+## Ask Blue (AI agent)
 
-The Compare box and the "Ask the Thrush" button talk to an AI agent (`agent/worker.js`) built on the Claude API with tool use.
+The Compare box and the "Ask Blue" button talk to an AI agent (`agent/worker.js`) built on the Claude API with tool use.
 The agent can only answer from the site's own daily data: it calls tools (`list_categories`, `search_products`, `get_markets`,
 `convert_currency`, `loan_calculator`, `get_news`) and finishes with `show_results`. Product links, scores and figures in the
 picks are filled in by the worker from `site/data/*.json`, never by the model, and picks the model did not actually look up are dropped.

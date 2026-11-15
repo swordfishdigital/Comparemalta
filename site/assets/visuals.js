@@ -84,7 +84,7 @@ function newsThumb(topic) {
 }
 
 
-/* Merill: CompareMalta's mascot: an original stylised Blue Rock Thrush (Monticola solitarius), Malta's national bird.
+/* Blue: CompareMalta's mascot: an original stylised Blue Rock Thrush (Monticola solitarius), Malta's national bird.
    Drawn facing right in a 120x100 box; feet touch y≈88. */
 function birdG(mood = "") {
   const eye = mood === "wink"
@@ -106,7 +106,7 @@ function birdG(mood = "") {
   </g>`;
 }
 function mascot(size = 120, mood = "", cls = "") {
-  return `<svg class="mascot ${cls}" width="${size}" height="${Math.round(size * .8)}" viewBox="0 0 120 96" role="img" aria-label="Merill, the CompareMalta blue rock thrush">${birdG(mood)}</svg>`;
+  return `<svg class="mascot ${cls}" width="${size}" height="${Math.round(size * .8)}" viewBox="0 0 120 96" role="img" aria-label="Blue, the CompareMalta blue rock thrush">${birdG(mood)}</svg>`;
 }
 function logo(size = 32) {
   return `<svg width="${size}" height="${size}" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0d2a4a"/>

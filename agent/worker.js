@@ -1,5 +1,5 @@
 /**
- * CompareMalta.ai "Ask the Thrush" agent.
+ * CompareMalta.ai "Ask Blue" agent.
  *
  * Runs as a Cloudflare Worker (or locally via agent/dev.mjs). The browser posts a question;
  * the worker runs a Claude tool-use loop over the site's own daily JSON data and returns
@@ -42,12 +42,12 @@ const SLIM = (row, cols) => {
 const TOOLS = [
   {
     name: "list_categories",
-    description: "List every comparison category on CompareMalta.ai with its slug, title, the fields available for each product and how the Thrush score (0-10) is weighted. Call this first if unsure which category fits.",
+    description: "List every comparison category on CompareMalta.ai with its slug, title, the fields available for each product and how the Blue score (0-10) is weighted. Call this first if unsure which category fits.",
     input_schema: { type: "object", properties: {} },
   },
   {
     name: "search_products",
-    description: "Return products in one category, ranked by Thrush score unless sort_by is given. Use filters to respect the user's constraints (e.g. min_deposit <= 20000, multi_currency = true, data_gb >= 999, area = 'Valletta'). Numbers are euros, percentages are plain numbers (2.6 = 2.6%). data_gb 999 means unlimited.",
+    description: "Return products in one category, ranked by Blue score unless sort_by is given. Use filters to respect the user's constraints (e.g. min_deposit <= 20000, multi_currency = true, data_gb >= 999, area = 'Valletta'). Numbers are euros, percentages are plain numbers (2.6 = 2.6%). data_gb 999 means unlimited.",
     input_schema: {
       type: "object",
       properties: {
@@ -198,13 +198,13 @@ async function resolvePicks(env, picks = [], seen) {
   return out;
 }
 
-const SYSTEM = (lang, today) => `You are Merill, the blue rock thrush who runs "Ask the Thrush" on CompareMalta.ai, Malta's comparison site.
+const SYSTEM = (lang, today) => `You are Blue, the blue rock thrush (Malta's national bird, il-merill in Maltese) who runs "Ask Blue" on CompareMalta.ai, Malta's comparison site.
 Today is ${today}. Reply in ${LANGS[lang] || "English"}.
 
 How you work:
 - Use the tools to look things up. Only state rates, fees, prices or figures that a tool returned in this conversation. Never guess or use outside knowledge for numbers.
 - Pick the category, apply the user's constraints with filters, and finish with show_results (at most three picks, best first).
-- Rankings follow the Thrush score unless the user asked for something specific (cheapest, highest rate, fastest).
+- Rankings follow the Blue score unless the user asked for something specific (cheapest, highest rate, fastest).
 - If a result has sample_data or demo true, say briefly that figures are sample data for now. If a row is affiliated, mention it is a related party.
 - You compare and explain; you do not give personal financial advice. For loans and mortgages remind the user to confirm the final offer with the provider in one short clause.
 - If the request is unclear or outside what the site covers, ask one short question or say what you can compare.

@@ -43,4 +43,4 @@ http.createServer(async (req, res) => {
     res.writeHead(200, { "content-type": TYPES[extname(path)] || "application/octet-stream", "cache-control": "no-cache" });
     res.end(body);
   } catch { res.writeHead(404); res.end("not found"); }
-}).listen(port, () => console.log(`CompareMalta.ai + Ask the Thrush on http://localhost:${port} (Claude key set: ${!!env.ANTHROPIC_API_KEY}, model ${env.MODEL})`));
+}).listen(port, () => console.log(`CompareMalta.ai + Ask Blue on http://localhost:${port} (Claude key set: ${!!env.ANTHROPIC_API_KEY}, model ${env.MODEL})`));
