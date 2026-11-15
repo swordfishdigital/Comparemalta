@@ -80,7 +80,8 @@ def fetch_logo(dom):
         cands = _candidates(site)
     except Exception:  # noqa: BLE001
         cands = [urljoin(site, "/apple-touch-icon.png"), urljoin(site, "/favicon.ico")]
-    for u in cands[:6]:
+    cands = cands[:6] + [f"https://www.google.com/s2/favicons?domain={dom}&sz=128"]  # last resort, still self-hosted
+    for u in cands:
         try:
             png = _to_png(http_get(u, timeout=12, retries=0).content, u)
             if png:
