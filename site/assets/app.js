@@ -166,16 +166,26 @@ function renderNav(route) {
 async function renderChrome() {
   const [fx, mk, st, news] = await Promise.all([get("fx"), get("markets"), get("status"), get("news")]);
   const r = c => (fx?.rates || []).find(x => x.ccy === c);
-  const brent = (mk?.global || []).find(x => /brent/i.test(x.name));
-  const items = [
-    r("USD") && `EUR/USD<b>${nf(r("USD").rate, 4)}</b>${chg(r("USD").change_pct)}`,
-    r("GBP") && `EUR/GBP<b>${nf(r("GBP").rate, 4)}</b>${chg(r("GBP").change_pct)}`,
-    mk?.mse_index && `${t("mseIdx")}<b>${nf(mk.mse_index.value, 2)}</b>`,
-    fx?.policy && `${t("ecb")}<b>${nf(fx.policy.rate)}%</b>`,
-    brent && `${t("brent")}<b>$${nf(brent.price)}</b>${chg(brent.change_pct)}`,
-    r("TRY") && `EUR/TRY<b>${nf(r("TRY").rate, 4)}</b>`,
-  ].filter(Boolean);
-  $("#strip").innerHTML = `<span class="live">${t("live").toUpperCase()}</span>` + items.map(x => `<span>${x}</span>`).join("");
+  const g = rx => (mk?.global || []).find(x => rx.test(x.name));
+  const tick = (label, value, pct) => {
+    const dir = pct == null || Math.abs(pct) < 0.005 ? "flat" : pct > 0 ? "up" : "down";
+    const ind = dir === "flat" ? `<i class="ti flat">●</i>` : `<i class="ti ${dir}">${dir === "up" ? "▲" : "▼"} ${nf(Math.abs(pct))}%</i>`;
+    return `<span class="tk ${dir}"><em>${esc(label)}</em><b>${value}</b>${ind}</span>`;
+  };
+  const items = [];
+  for (const c of ["USD", "GBP", "CHF", "TRY"]) if (r(c)) items.push(tick(`EUR/${c}`, nf(r(c).rate, 4), r(c).change_pct));
+  if (mk?.mse_index) items.push(tick(t("mseIdx"), nf(mk.mse_index.value, 2), mk.mse_index.change_pct));
+  if (fx?.policy) items.push(tick(t("ecb"), nf(fx.policy.rate) + "%", null));
+  for (const [rx, label, pre] of [[/brent/i, t("brent"), "$"], [/gold/i, "Gold", "$"], [/s&p/i, "S&P 500", ""], [/stoxx/i, "Euro Stoxx 50", ""], [/dax/i, "DAX", ""], [/ftse/i, "FTSE 100", ""]]) {
+    const x = g(rx); if (x) items.push(tick(label, pre + nf(x.price), x.change_pct));
+  }
+  for (const s of (mk?.mse || []).filter(x => ["BOV", "HSB", "APS", "GO", "MIA", "RS2", "LOM", "SFC"].includes(x.symbol))) items.push(tick(`MSE: ${s.symbol}`, "€" + nf(s.price, 3), s.change_pct));
+  for (const c of (mk?.crypto || []).slice(0, 2)) items.push(tick(c.name, "€" + nf(c.price, 0), c.change_pct));
+  const run = items.join("");
+  $("#strip").innerHTML = `<span class="live"><i class="pulse"></i>${t("live").toUpperCase()}</span>
+    <div class="tick-view"><div class="tick-track" id="tickTrack"><div class="tick-set">${run}</div><div class="tick-set" aria-hidden="true">${run}</div></div></div>`;
+  requestAnimationFrame(() => { const set = document.querySelector(".tick-set"); const tr = $("#tickTrack");
+    if (set && tr) tr.style.animationDuration = Math.max(25, set.scrollWidth / 55) + "s"; });
   const b = $("#demoBanner"); b.hidden = !(fx?.demo || mk?.demo || news?.demo); b.textContent = t("demo");
   $("#footIn").innerHTML = `
     <div><a href="#home" class="logo"><span class="logo-mark">${V.logo(30)}</span><span>CompareMalta<span class="ai">.ai</span></span></a><p>${t("footTag")}</p></div>
