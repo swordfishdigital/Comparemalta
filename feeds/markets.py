@@ -58,12 +58,26 @@ def _mse(cfg):
         seen.add(sym)
         base = price - chg
         out.append({"symbol": sym, "name": names.get(sym, sym), "price": price, "change_pct": round(chg / base * 100, 2) if base else 0.0})
-    idx = re.search(r"Equity Price Index\D{0,60}?([\d,]{3,7}\.\d+)", soup.get_text(" "))
-    if idx:
-        _mse.index = {"name": "MSE Equity Price Index", "value": float(idx.group(1).replace(",", ""))}
     if not out:
         raise ValueError("MSE prices not found on home page; parser needs update")
     return out
+
+
+def _mse_index(url):
+    """MSE index from the official daily Price List PDF, e.g. 'MSE Equity Total Return Index: 10,591.942 Previous Index: 10,564.612'."""
+    import io
+
+    from pypdf import PdfReader
+
+    text = " ".join((pg.extract_text() or "") for pg in PdfReader(io.BytesIO(http_get(url, timeout=25).content)).pages[:3])
+    text = re.sub(r"\s+", " ", text)
+    for name in ("MSE Equity Price Index", "MSE Equity Total Return Index"):
+        m = re.search(re.escape(name) + r":?\s*([\d,]+\.\d+)(?:.{0,40}?Previous Index:?\s*([\d,]+\.\d+))?", text)
+        if m:
+            val = float(m.group(1).replace(",", ""))
+            prev = float(m.group(2).replace(",", "")) if m.group(2) else None
+            return {"name": name, "value": val, "change_pct": round((val / prev - 1) * 100, 3) if prev else None}
+    raise ValueError("index not found in price list")
 
 
 def run(status):
@@ -80,7 +94,12 @@ def run(status):
         except Exception as e:  # noqa: BLE001
             data.setdefault("stale", []).append(key)
             status.stale(f"markets.{key}", e)
-    data["mse_index"] = getattr(_mse, "index", None) or last.get("mse_index")
+    try:
+        data["mse_index"] = _mse_index(cfg["mse_pricelist_pdf"])
+        status.ok("markets.mse_index", 1)
+    except Exception as e:  # noqa: BLE001
+        data["mse_index"] = last.get("mse_index")
+        status.stale("markets.mse_index", e)
     if not data.get("stale"):
         data.pop("stale", None)
     save_json(STATE / "markets.json", data)

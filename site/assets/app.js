@@ -271,7 +271,7 @@ async function pageHome() {
       <div class="grid g3">
         ${[n1, n2].filter(Boolean).map(n => `<div class="card news-card"><p class="eyebrow">${esc(n.topic)}</p><div class="src">${esc(n.source)}${n.published ? " · " + ago(n.published) : ""}</div><h3>${esc(n.title)}</h3><p>${esc(n.summary)}</p><a class="link" href="${esc(n.url)}" target="_blank" rel="noopener">${t("readSum")}</a></div>`).join("")}
         <div class="card mk-card"><p class="eyebrow">${t("mkt")}</p>
-          ${mk?.mse_index ? mkRowDark("MSE Equity Index", nf(mk.mse_index.value, 2)) : ""}
+          ${mk?.mse_index ? mkRowDark(mk.mse_index.name.replace("MSE ", "MSE "), nf(mk.mse_index.value, 2)) : ""}
           ${stoxx ? mkRowDark("EURO STOXX 50", nf(stoxx.price, 2)) : ""}
           ${r("USD") ? mkRowDark("EUR / USD", nf(r("USD").rate, 4)) : ""}
           ${r("TRY") ? mkRowDark("EUR / TRY", nf(r("TRY").rate, 4)) : ""}
@@ -368,7 +368,7 @@ async function pageNews() {
 }
 async function pageMarkets() {
   const [mk, fx] = await Promise.all([get("markets"), get("fx")]);
-  return `<div class="wrap"><div class="page-head"><p class="eyebrow">${t("fDaily")}</p><h1 style="font-size:clamp(32px,4vw,48px)">${t("c").markets[0]}</h1><p>${t("updated")} ${ago(mk?.updated)}${mk?.mse_index ? ` · MSE Equity Price Index <b>${nf(mk.mse_index.value)}</b>` : ""}${fx?.policy ? ` · ${t("ecb")} <b>${nf(fx.policy.rate)}%</b>` : ""}</p></div>
+  return `<div class="wrap"><div class="page-head"><p class="eyebrow">${t("fDaily")}</p><h1 style="font-size:clamp(32px,4vw,48px)">${t("c").markets[0]}</h1><p>${t("updated")} ${ago(mk?.updated)}${mk?.mse_index ? ` · ${esc(mk.mse_index.name)} <b>${nf(mk.mse_index.value)}</b>` : ""}${fx?.policy ? ` · ${t("ecb")} <b>${nf(fx.policy.rate)}%</b>` : ""}</p></div>
   <div class="grid g2">
     <div class="card mk-list"><h2 style="font-size:24px">${t("mse")}</h2>${(mk?.mse || []).map(mkRow).join("")}</div>
     <div class="card mk-list"><h2 style="font-size:24px">${t("global")}</h2>${(mk?.global || []).map(mkRow).join("")}<h2 style="font-size:24px;margin-top:20px">${t("crypto")}</h2>${(mk?.crypto || []).map(mkRow).join("")}</div>

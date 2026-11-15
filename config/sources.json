@@ -185,7 +185,8 @@
    "TRI": "Trident Estates plc",
    "STS": "Santumas Shareholdings plc",
    "MPC": "Malita Investments plc"
-  }
+  },
+  "mse_pricelist_pdf": "https://cdn.borzamalta.com.mt/download/statistics/Price_List/Price%20List.pdf"
  },
  "fx": {
   "ecb_daily": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
