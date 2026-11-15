@@ -1,6 +1,6 @@
 {
  "slug": "personal-loans",
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-15T14:22:35+00:00",
  "items": [
   {
    "provider": "BNF Bank",
@@ -13,7 +13,9 @@
    "url": "https://www.bnf.bank",
    "checked": null,
    "demo": true,
-   "score": 8.1
+   "score": 8.1,
+   "logo": "logos/bnf.bank.png",
+   "logo_light": false
   },
   {
    "provider": "APS Bank",
@@ -26,7 +28,9 @@
    "url": "https://www.apsbank.com.mt",
    "checked": null,
    "demo": true,
-   "score": 7.9
+   "score": 7.9,
+   "logo": "logos/apsbank.com.mt.png",
+   "logo_light": false
   },
   {
    "provider": "Lombard Bank",
@@ -39,7 +43,9 @@
    "url": "https://www.lombardmalta.com",
    "checked": null,
    "demo": true,
-   "score": 6.0
+   "score": 6.0,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Bank of Valletta",
@@ -52,7 +58,9 @@
    "url": "https://www.bov.com",
    "checked": null,
    "demo": true,
-   "score": 4.9
+   "score": 4.9,
+   "logo": "logos/bov.com.png",
+   "logo_light": false
   },
   {
    "provider": "HSBC Malta",
@@ -65,7 +73,9 @@
    "url": "https://www.hsbc.com.mt",
    "checked": null,
    "demo": true,
-   "score": 2.0
+   "score": 2.0,
+   "logo": "logos/hsbc.com.mt.png",
+   "logo_light": false
   }
  ]
 }

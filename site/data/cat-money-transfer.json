@@ -1,6 +1,6 @@
 {
  "slug": "money-transfer",
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-15T14:22:35+00:00",
  "items": [
   {
    "provider": "wamo",
@@ -9,10 +9,11 @@
    "fx_margin": 0.4,
    "speed": "Same day",
    "url": "https://wamo.io",
-   "affiliated": true,
    "checked": null,
    "demo": true,
-   "score": 9.2
+   "score": 9.2,
+   "logo": "logos/wamo.io.png",
+   "logo_light": false
   },
   {
    "provider": "Revolut",
@@ -23,7 +24,9 @@
    "url": "https://www.revolut.com",
    "checked": null,
    "demo": true,
-   "score": 9.0
+   "score": 9.0,
+   "logo": "logos/revolut.com.png",
+   "logo_light": false
   },
   {
    "provider": "Wise",
@@ -34,7 +37,9 @@
    "url": "https://wise.com",
    "checked": null,
    "demo": true,
-   "score": 8.2
+   "score": 8.2,
+   "logo": "logos/wise.com.png",
+   "logo_light": false
   },
   {
    "provider": "Wise",
@@ -45,7 +50,9 @@
    "url": "https://wise.com",
    "checked": null,
    "demo": true,
-   "score": 7.5
+   "score": 7.5,
+   "logo": "logos/wise.com.png",
+   "logo_light": false
   },
   {
    "provider": "Western Union",
@@ -56,18 +63,22 @@
    "url": "https://www.westernunion.com",
    "checked": null,
    "demo": true,
-   "score": 3.9
+   "score": 3.9,
+   "logo": "logos/westernunion.com.png",
+   "logo_light": false
   },
   {
    "provider": "Bank of Valletta",
    "corridor": "EUR→GBP",
    "fee": 12,
    "fx_margin": 2.5,
-   "speed": "1–2 days",
+   "speed": "1-2 days",
    "url": "https://www.bov.com",
    "checked": null,
    "demo": true,
-   "score": 0.0
+   "score": 0.0,
+   "logo": "logos/bov.com.png",
+   "logo_light": false
   }
  ]
 }

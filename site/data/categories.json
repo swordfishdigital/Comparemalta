@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-15T14:22:35+00:00",
  "config": {
   "business-accounts": {
    "title": "İşletme Hesapları",
@@ -719,11 +719,11 @@
      "dir": "high"
     }
    ],
-   "intro_en": "Malta & Gozo restaurants by area, cuisine and budget — fresh picks every day.",
+   "intro_en": "Malta & Gozo restaurants by area, cuisine and budget, with fresh picks every day.",
    "title_mt": "Restoranti",
-   "intro_mt": "Restoranti f'Malta u Għawdex skont iż-żona, il-kċina u l-baġit — għażliet ġodda kuljum.",
+   "intro_mt": "Restoranti f'Malta u Għawdex skont iż-żona, il-kċina u l-baġit, b'għażliet ġodda kuljum.",
    "title_it": "Ristoranti",
-   "intro_it": "Ristoranti a Malta e Gozo per zona, cucina e budget — nuovi consigli ogni giorno."
+   "intro_it": "Ristoranti a Malta e Gozo per zona, cucina e budget, con nuovi consigli ogni giorno."
   }
  },
  "index": [
@@ -750,7 +750,7 @@
   {
    "slug": "mortgages",
    "count": 6,
-   "best": "MeDirect"
+   "best": "APS Bank"
   },
   {
    "slug": "credit-cards",

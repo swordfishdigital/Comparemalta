@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-15T14:22:28+00:00",
  "date": "2026-11-15",
  "picks": [
   {
@@ -10,7 +10,8 @@
    "rating": 4.6,
    "reviews": 2500,
    "highlight": "Produce from its own farm",
-   "url": "https://www.diarilbniet.com"
+   "url": "https://www.google.com/maps/search/?api=1&query=Diar+il-Bniet+Dingli+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Diar+il-Bniet+Dingli+Malta"
   },
   {
    "provider": "Under Grain",
@@ -20,7 +21,8 @@
    "rating": 4.7,
    "reviews": 900,
    "highlight": "Michelin star",
-   "url": "https://www.undergrain.mt"
+   "url": "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta"
   },
   {
    "provider": "Ta' Kris",
@@ -30,7 +32,8 @@
    "rating": 4.5,
    "reviews": 3500,
    "highlight": "Rabbit stew (stuffat tal-fenek)",
-   "url": "https://www.takris.com"
+   "url": "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta"
   }
  ]
 }

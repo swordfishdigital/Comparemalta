@@ -1,6 +1,6 @@
 {
  "slug": "insurance",
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-15T14:22:35+00:00",
  "items": [
   {
    "provider": "Atlas Insurance",
@@ -11,7 +11,9 @@
    "url": "https://www.atlas.com.mt",
    "checked": null,
    "demo": true,
-   "score": 10.0
+   "score": 10.0,
+   "logo": "logos/atlas.com.mt.png",
+   "logo_light": false
   },
   {
    "provider": "Elmo Insurance",
@@ -19,10 +21,12 @@
    "product": "Motor Insurance",
    "from_price": 310,
    "online_quote": true,
-   "url": "https://www.elmoinsurance.com.mt",
+   "url": "https://www.elmoinsurance.com",
    "checked": null,
    "demo": true,
-   "score": 6.0
+   "score": 6.0,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "MAPFRE Middlesea",
@@ -33,7 +37,9 @@
    "url": "https://www.middlesea.com",
    "checked": null,
    "demo": true,
-   "score": 5.5
+   "score": 5.5,
+   "logo": "logos/middlesea.com.png",
+   "logo_light": false
   },
   {
    "provider": "GasanMamo",
@@ -44,7 +50,9 @@
    "url": "https://www.gasanmamo.com",
    "checked": null,
    "demo": true,
-   "score": 5.1
+   "score": 5.1,
+   "logo": "logos/gasanmamo.com.png",
+   "logo_light": false
   },
   {
    "provider": "Bupa Malta",
@@ -55,7 +63,9 @@
    "url": "https://www.bupa.com.mt",
    "checked": null,
    "demo": true,
-   "score": 0.0
+   "score": 0.0,
+   "logo": "logos/bupa.com.mt.png",
+   "logo_light": false
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "slug": "business-accounts",
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-15T14:22:35+00:00",
  "items": [
   {
    "provider": "wamo",
@@ -11,10 +11,11 @@
    "onboarding_days": 1,
    "licence": "EMI (FIN-FSA)",
    "url": "https://wamo.io",
-   "affiliated": true,
    "checked": null,
    "demo": true,
-   "score": 10.0
+   "score": 10.0,
+   "logo": "logos/wamo.io.png",
+   "logo_light": false
   },
   {
    "provider": "Wise Business",
@@ -27,7 +28,9 @@
    "url": "https://wise.com/business",
    "checked": null,
    "demo": true,
-   "score": 9.2
+   "score": 9.2,
+   "logo": "logos/wise.com.png",
+   "logo_light": false
   },
   {
    "provider": "Finom",
@@ -40,7 +43,9 @@
    "url": "https://finom.co",
    "checked": null,
    "demo": true,
-   "score": 7.9
+   "score": 7.9,
+   "logo": "logos/finom.co.png",
+   "logo_light": false
   },
   {
    "provider": "Revolut Business",
@@ -53,7 +58,9 @@
    "url": "https://www.revolut.com/business",
    "checked": null,
    "demo": true,
-   "score": 6.4
+   "score": 6.4,
+   "logo": "logos/revolut.com.png",
+   "logo_light": false
   },
   {
    "provider": "BNF Bank",
@@ -66,7 +73,9 @@
    "url": "https://www.bnf.bank",
    "checked": null,
    "demo": true,
-   "score": 6.0
+   "score": 6.0,
+   "logo": "logos/bnf.bank.png",
+   "logo_light": false
   },
   {
    "provider": "Bank of Valletta",
@@ -79,7 +88,9 @@
    "url": "https://www.bov.com",
    "checked": null,
    "demo": true,
-   "score": 4.2
+   "score": 4.2,
+   "logo": "logos/bov.com.png",
+   "logo_light": false
   },
   {
    "provider": "APS Bank",
@@ -92,7 +103,9 @@
    "url": "https://www.apsbank.com.mt",
    "checked": null,
    "demo": true,
-   "score": 3.2
+   "score": 3.2,
+   "logo": "logos/apsbank.com.mt.png",
+   "logo_light": false
   },
   {
    "provider": "HSBC Malta",
@@ -105,7 +118,9 @@
    "url": "https://www.hsbc.com.mt",
    "checked": null,
    "demo": true,
-   "score": 2.7
+   "score": 2.7,
+   "logo": "logos/hsbc.com.mt.png",
+   "logo_light": false
   }
  ]
 }
