@@ -311,7 +311,7 @@ async function pageHome() {
           ${stoxx ? mkRowDark("EURO STOXX 50", nf(stoxx.price, 2)) : ""}
           ${r("USD") ? mkRowDark("EUR / USD", nf(r("USD").rate, 4)) : ""}
           ${r("TRY") ? mkRowDark("EUR / TRY", nf(r("TRY").rate, 4)) : ""}
-          <a class="link" href="#markets">${t("fullMk")}</a></div>
+          </div>
       </div>
     </div>
   </section>
