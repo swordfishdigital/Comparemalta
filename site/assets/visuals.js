@@ -113,6 +113,33 @@ function logo(size = 32) {
     <g transform="translate(-3.5 3.5) scale(.38)">${birdG()}</g></svg>`;
 }
 
+
+/* Category illustrations: 48px grid, 1.75 stroke, duotone (currentColor line, --ic-soft fill, --ic-accent detail).
+   Matches the design document: royal-blue line icons on stone/white, peach accents on navy. */
+const CI = {
+  bank: `<path d="M8 18L24 8l16 10z" fill="var(--ic-soft)"/><path d="M8 18L24 8l16 10M10 18h28M13 22v12M21 22v12M27 22v12M35 22v12M9 38h30M7 42h34"/><circle cx="24" cy="14.2" r="2.2" fill="var(--ic-accent)" stroke="none"/>`,
+  home: `<path d="M10 42V16l11-7 11 7v26z" fill="var(--ic-soft)"/><path d="M10 42V16l11-7 11 7v26M6 42h38M18 42v-7a3 3 0 0 1 6 0v7"/><rect x="14" y="18.5" width="14" height="8.5" rx="1" fill="var(--ic-bg)"/><path d="M21 18.5V27M14 22.7h14M12.5 27h17"/><circle cx="38" cy="29" r="3.6" fill="var(--ic-accent)"/><path d="M38 32.6V41M38 37.5h2.6"/>`,
+  cards: `<rect x="12" y="9" width="29" height="19" rx="3" fill="var(--ic-soft)"/><rect x="7" y="18" width="30" height="20" rx="3" fill="var(--ic-bg)"/><path d="M7 24.5h30M22 33h10"/><rect x="11" y="28.5" width="6.5" height="5" rx="1.2" fill="var(--ic-accent)" stroke="none"/>`,
+  business: `<rect x="7" y="16" width="34" height="23" rx="3" fill="var(--ic-soft)"/><path d="M18 16v-3a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v3M7 26h34"/><rect x="7" y="16" width="34" height="23" rx="3" fill="none"/><rect x="20.5" y="22.5" width="7" height="7" rx="1.5" fill="var(--ic-accent)"/>`,
+  phone: `<rect x="13" y="6" width="19" height="36" rx="4" fill="var(--ic-soft)"/><path d="M20 10.5h5M21.5 37.5h2"/><path d="M18.5 30v-2.5M22.5 30v-6M26.5 30v-9.5" stroke="var(--ic-accent)" stroke-width="2.6"/><path d="M36 17a8 8 0 0 1 0 12M40 13a13.5 13.5 0 0 1 0 20"/>`,
+  eat: `<circle cx="24" cy="28" r="11" fill="var(--ic-soft)"/><circle cx="24" cy="28" r="6.2" fill="var(--ic-bg)"/><path d="M7 15v7a2.2 2.2 0 0 0 4.4 0v-7M9.2 15v27M41 15c-2.4 2-2.4 8.5 0 10.5V42"/><path d="M20 11c-1.6-2 1.6-3 0-5.5M24.5 11c-1.6-2 1.6-3 0-5.5M29 11c-1.6-2 1.6-3 0-5.5" stroke="var(--ic-accent)"/>`,
+  markets: `<path d="M7 37l8.5-8 8 4 9-12 9.5-6V40H7z" fill="var(--ic-soft)" stroke="none"/><path d="M7 8v32h35M7 37l8.5-8 8 4 9-12 9.5-6"/><circle cx="15.5" cy="29" r="2" fill="var(--ic-bg)"/><circle cx="23.5" cy="33" r="2" fill="var(--ic-bg)"/><circle cx="32.5" cy="21" r="2" fill="var(--ic-bg)"/><circle cx="42" cy="15" r="3" fill="var(--ic-accent)"/>`,
+  news: `<path d="M8 11h27v29H12a4 4 0 0 1-4-4z" fill="var(--ic-soft)"/><path d="M35 17h5v19a4 4 0 0 1-4 4h-1M13 17h17M13 23h8M13 28.5h8M13 34h17"/><rect x="24" y="22" width="7" height="7.5" rx="1" fill="var(--ic-accent)" stroke="none"/><path d="M8 11h27v29H12a4 4 0 0 1-4-4z" fill="none"/>`,
+  savings: `<path d="M9 30v6c0 2 4.9 3.6 11 3.6s11-1.6 11-3.6v-6" fill="var(--ic-soft)"/><ellipse cx="20" cy="30" rx="11" ry="3.6" fill="var(--ic-bg)"/><path d="M9 22.5V30M31 22.5V30"/><ellipse cx="20" cy="22.5" rx="11" ry="3.6" fill="var(--ic-accent)"/><path d="M33 15l7-7M34.5 8H40v5.5"/>`,
+  loan: `<rect x="6" y="13" width="36" height="22" rx="3" fill="var(--ic-soft)"/><circle cx="24" cy="24" r="6" fill="var(--ic-bg)"/><path d="M26.6 21.4a3.4 3.4 0 1 0 0 5.2M20.6 23.2h4.2M20.6 25h4.2"/><circle cx="11.5" cy="18.5" r="1.8" fill="var(--ic-accent)" stroke="none"/><circle cx="36.5" cy="29.5" r="1.8" fill="var(--ic-accent)" stroke="none"/><path d="M10 39h28"/>`,
+  fintech: `<rect x="9" y="6" width="18" height="34" rx="4" fill="var(--ic-soft)"/><path d="M16 10.5h4"/><rect x="21" y="22" width="20" height="13" rx="2.5" fill="var(--ic-bg)"/><path d="M21 26.5h20"/><rect x="24" y="29.5" width="5" height="3" rx=".8" fill="var(--ic-accent)" stroke="none"/>`,
+  transfer: `<circle cx="24" cy="24" r="15" fill="var(--ic-soft)" stroke="none"/><path d="M11 19h24l-5.5-5.5M37 29H13l5.5 5.5"/><circle cx="35" cy="19" r="2.4" fill="var(--ic-accent)" stroke="none"/>`,
+  wifi: `<rect x="8" y="30" width="32" height="10" rx="3" fill="var(--ic-soft)"/><path d="M14 30v-5M34 30v-5"/><circle cx="14" cy="35" r="1.6" fill="var(--ic-accent)" stroke="none"/><circle cx="19.5" cy="35" r="1.6" fill="var(--ic-accent)" stroke="none"/><path d="M12 15a17 17 0 0 1 24 0M16.5 19.5a10.5 10.5 0 0 1 15 0"/><circle cx="24" cy="23.5" r="1.8" fill="currentColor" stroke="none"/>`,
+  shield: `<path d="M24 6l15 5.5v11c0 9.5-6.5 15.5-15 18.5-8.5-3-15-9-15-18.5v-11z" fill="var(--ic-soft)"/><path d="M17.5 23.5l4.5 4.5 9-9" stroke="var(--ic-accent)" stroke-width="2.6"/>`,
+  invest: `<rect x="9" y="27" width="7" height="13" rx="1.5" fill="var(--ic-soft)"/><rect x="20.5" y="20" width="7" height="20" rx="1.5" fill="var(--ic-soft)"/><rect x="32" y="13" width="7" height="27" rx="1.5" fill="var(--ic-accent)"/><path d="M6 42h36M9 18l9-7 6 4 9-8M28 7h5v5"/>`
+};
+const CI_FOR = {"bank-accounts":"bank",banking:"bank",mortgages:"home",loans:"home","credit-cards":"cards",cards:"cards","business-accounts":"business",business:"business",
+  "telco-mobile":"phone",telco:"phone",restaurants:"eat",dining:"eat",eat:"eat",markets:"markets",news:"news",today:"news",savings:"savings","personal-loans":"loan",
+  fintech:"fintech","money-transfer":"transfer","telco-broadband":"wifi",insurance:"shield",investing:"invest"};
+function catIcon(key, size = 44) {
+  return `<svg class="ci" width="${size}" height="${size}" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${CI[CI_FOR[key] || key] || CI.news}</svg>`;
+}
+
 /* Hero: an imagined harbour skyline: limestone blocks, a dome, a bell tower, enclosed wooden balconies, bastion walls and a luzzu. */
 function hero() {
   const blocks = [[18,178,70,92],[84,150,58,120],[138,190,52,80],[186,162,64,108],[370,170,62,100],[428,140,70,130],[494,182,56,88],[546,158,80,112]];
@@ -166,5 +193,5 @@ function hero() {
   </g></svg>`;
 }
 
-return {icon, iconTile, mono, foodCover, newsThumb, hero, mascot, logo, TINT};
+return {icon, iconTile, mono, foodCover, newsThumb, hero, mascot, logo, catIcon, TINT};
 })();
