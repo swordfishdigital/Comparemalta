@@ -260,3 +260,4 @@ a.pname{text-decoration:none;color:var(--navy)}a.pname:hover{color:var(--blue);t
 .pb-txt{flex:1}.pb-bird{flex:none}
 .btn.lg{padding:14px 24px;font-size:15px}
 @media (max-width:980px){.partners{grid-template-columns:1fr}.p-band{flex-direction:column;align-items:flex-start}}
+.plogo.dark{background:var(--navy);border-color:var(--navy)}

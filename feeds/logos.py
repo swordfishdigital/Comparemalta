@@ -70,8 +70,21 @@ def _to_png(raw, url):
     canvas = Image.new("RGBA", (side, side), (0, 0, 0, 0))
     canvas.paste(img, ((side - img.width) // 2, (side - img.height) // 2))
     out = io.BytesIO()
-    canvas.resize((128, 128), Image.LANCZOS).save(out, "PNG", optimize=True)
+    canvas = canvas.resize((128, 128), Image.LANCZOS)
+    canvas.save(out, "PNG", optimize=True)
     return out.getvalue()
+
+
+def is_light(png_bytes):
+    """True when the visible pixels are mostly white/very light (needs a dark tile to be seen)."""
+    from PIL import Image
+
+    img = Image.open(io.BytesIO(png_bytes)).convert("RGBA")
+    px = [p for p in img.getdata() if p[3] > 60]
+    if not px:
+        return False
+    lum = sum(0.2126 * r + 0.7152 * g + 0.0722 * b for r, g, b, _ in px) / len(px) / 255
+    return lum > 0.86
 
 
 def fetch_logo(dom):
@@ -110,6 +123,18 @@ def run(status):
     status.ok("logos", have, f"{have}/{len(doms)} providers have a logo")
 
 
+_light = {}
+
+
 def logo_for(url):
     d = domain(url or "")
     return f"logos/{d}.png" if d and (LOGOS / f"{d}.png").exists() else None
+
+
+def logo_light(url):
+    d = domain(url or "")
+    if not d or not (LOGOS / f"{d}.png").exists():
+        return False
+    if d not in _light:
+        _light[d] = is_light((LOGOS / f"{d}.png").read_bytes())
+    return _light[d]

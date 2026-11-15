@@ -104,6 +104,7 @@ def run(status):
         rows.sort(key=lambda r: r.get("score", 0), reverse=True)
         for r in rows:
             r["logo"] = None if slug == "restaurants" else logos.logo_for(r.get("url"))
+            r["logo_light"] = bool(r["logo"]) and logos.logo_light(r.get("url"))
         built[slug] = rows
     links.apply(built, status)
     for slug, rows in built.items():

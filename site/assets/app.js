@@ -226,7 +226,7 @@ const ctaCell = (r, slug, primary) => `<td class="cta-cell">${ctaBtn(r, slug, pr
 function brand(r, size = 34) {
   const m = V.mono(r.provider, size).replace('class="mono"', 'class="mono"');
   if (!r.logo) return m;
-  return `<span class="plogo" style="width:${size}px;height:${size}px"><img src="${esc(r.logo)}" alt="${esc(r.provider)}" loading="lazy" onerror="this.parentNode.outerHTML=window.CMV.mono(this.alt, ${size})"></span>`;
+  return `<span class="plogo ${r.logo_light ? "dark" : ""}" style="width:${size}px;height:${size}px"><img src="${esc(r.logo)}" alt="${esc(r.provider)}" loading="lazy" onerror="this.parentNode.outerHTML=window.CMV.mono(this.alt, ${size})"></span>`;
 }
 
 /* ---------- shared blocks ---------- */

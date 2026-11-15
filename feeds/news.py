@@ -1,5 +1,6 @@
 """Daily Malta news from publisher RSS feeds. Stores headline, link, source, time and a short summary only."""
 import hashlib
+import html
 import re
 from datetime import datetime, timezone
 
@@ -93,8 +94,8 @@ def run(status, max_items=80):
                 ts = e.get("published_parsed") or e.get("updated_parsed")
                 when = datetime(*ts[:6], tzinfo=timezone.utc).isoformat() if ts else now_iso()
                 image = _image(e)
-                summary = re.sub(r"<[^>]+>", "", e.get("summary", ""))[:220]
-                items.append({"id": key, "title": e.get("title", "").strip(), "url": e.get("link"), "source": f["name"],
+                summary = html.unescape(re.sub(r"<[^>]+>", "", html.unescape(e.get("summary", "")))).strip()[:220]
+                items.append({"id": key, "title": html.unescape(e.get("title", "")).strip(), "url": e.get("link"), "source": f["name"],
                               "published": when, "summary": summary, "image": image, "topic": _topic(e.get("title", "") + " " + summary)})
                 n += 1
             status.ok(f"news.{f['name']}", n)
