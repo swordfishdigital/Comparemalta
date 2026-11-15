@@ -15,6 +15,14 @@ const env = {
   ALLOWED_ORIGINS: "*",
   MODEL: process.env.MODEL || "claude-sonnet-5-5",
   CONTACT_WEBHOOK: process.env.CONTACT_WEBHOOK,
+  NEWSLETTER_PROVIDER: process.env.NEWSLETTER_PROVIDER, MAILCHIMP_API_KEY: process.env.MAILCHIMP_API_KEY, MAILCHIMP_LIST_ID: process.env.MAILCHIMP_LIST_ID,
+  BREVO_API_KEY: process.env.BREVO_API_KEY, BREVO_LIST_ID: process.env.BREVO_LIST_ID, BREVO_DOI_TEMPLATE_ID: process.env.BREVO_DOI_TEMPLATE_ID, NEWSLETTER_WEBHOOK: process.env.NEWSLETTER_WEBHOOK,
+  saveSubscriber: async sub => {
+    const dir = fileURLToPath(new URL("../data/state/", import.meta.url));
+    await mkdir(dir, { recursive: true });
+    await appendFile(dir + "subscribers.jsonl", JSON.stringify(sub) + "\n");
+    console.log("newsletter signup saved:", sub.email.replace(/^(.).*@/, "$1***@"));
+  },
   saveLead: async lead => {
     const dir = fileURLToPath(new URL("../data/state/", import.meta.url));
     await mkdir(dir, { recursive: true });

@@ -7,3 +7,6 @@ window.CM_AGENT_URL = window.CM_AGENT_URL || "api";
 // and/or show an email address if sending fails.
 window.CM_CONTACT_ENDPOINT = window.CM_CONTACT_ENDPOINT || "";
 window.CM_CONTACT_EMAIL = window.CM_CONTACT_EMAIL || "";
+
+// Newsletter signup: posts to the agent's /subscribe (Mailchimp / Brevo / webhook). Override with any endpoint that accepts JSON.
+window.CM_NEWSLETTER_ENDPOINT = window.CM_NEWSLETTER_ENDPOINT || "";

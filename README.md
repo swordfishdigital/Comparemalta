@@ -90,6 +90,18 @@ programme), otherwise `url`. All outbound links carry `utm_source=comparemalta.a
 `feeds/links.py` checks every link at most weekly; a broken `apply_url` is dropped so the button falls back to the provider's site.
 To add a deep link, put `"apply_url": "https://..."` on the product in `data/seed/products.json`.
 
+## Weekly newsletter
+
+- Signup forms on the home page and at `#newsletter` post to the agent's `/subscribe`, which adds the address to
+  **Mailchimp** (`NEWSLETTER_PROVIDER=mailchimp`, `MAILCHIMP_API_KEY`, `MAILCHIMP_LIST_ID`) or **Brevo**
+  (`brevo`, `BREVO_API_KEY`, `BREVO_LIST_ID`, `BREVO_DOI_TEMPLATE_ID`), both with double opt-in, or posts it to `NEWSLETTER_WEBHOOK`.
+  Language (en/mt/it) is stored as a tag/attribute so each subscriber gets their edition.
+- `feeds/newsletter.py` builds the week's issue in EN/MT/IT from the site's own data (best pick per category, markets with
+  week-on-week change, top headlines) at `site/newsletter/<lang>/<YYYY-Www>.html`, plus an RSS feed per language at
+  `site/newsletter/<lang>/feed.xml`. Point an RSS-to-email campaign (Mailchimp "RSS campaign", Brevo "RSS feed" block)
+  at the feed for each language segment, scheduled for Monday morning. Unsubscribe tag: `NEWSLETTER_UNSUB_TAG`
+  (default Mailchimp `*|UNSUB|*`; Brevo uses `{{ unsubscribe }}`).
+
 ## Adding a category
 
 Add a block to `config/categories.json` (columns + score), add rows to `data/seed/products.json`, optionally add

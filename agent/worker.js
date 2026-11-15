@@ -12,6 +12,8 @@
  *   ALLOWED_ORIGINS              comma-separated origins allowed to call the agent ("*" for dev)
  *   MODEL                        default claude-sonnet-5-5
  *   CONTACT_WEBHOOK   (secret)   where partnership enquiries are posted (Slack/Zapier/Make/Formspree URL)
+ *   NEWSLETTER_PROVIDER          mailchimp | brevo | webhook, plus MAILCHIMP_API_KEY + MAILCHIMP_LIST_ID,
+ *                                or BREVO_API_KEY + BREVO_LIST_ID + BREVO_DOI_TEMPLATE_ID, or NEWSLETTER_WEBHOOK
  */
 
 const API = "https://api.anthropic.com/v1/messages";
@@ -302,6 +304,51 @@ async function contact(request, env, h) {
   }
 }
 
+/* ---------------- weekly newsletter signup ----------------
+   NEWSLETTER_PROVIDER = mailchimp | brevo | webhook. Mailchimp and Brevo both send a confirmation email first
+   (double opt-in), which is what GDPR expects for marketing email in Malta and the EU. */
+async function subscribe(request, env, h) {
+  const ip = request.headers.get("cf-connecting-ip") || request.headers.get("x-forwarded-for") || "local";
+  if (limited("s:" + ip)) return json({ error: "rate_limited" }, 429, h);
+  let b; try { b = await request.json(); } catch { return json({ error: "bad json" }, 400, h); }
+  if (b.website) return json({ ok: true, double_opt_in: true }, 200, h);  // honeypot: pretend success
+  const email = String(b.email || "").trim().toLowerCase().slice(0, 190);
+  const lang = ["en", "mt", "it"].includes(b.lang) ? b.lang : "en";
+  if (!EMAIL.test(email) || !b.consent) return json({ error: "invalid" }, 400, h);
+  const sub = { email, lang, source: String(b.source || "site").slice(0, 40), at: new Date().toISOString() };
+  try {
+    const p = (env.NEWSLETTER_PROVIDER || "").toLowerCase();
+    if (p === "mailchimp") {
+      const dc = String(env.MAILCHIMP_API_KEY).split("-").pop();
+      const r = await fetch(`https://${dc}.api.mailchimp.com/3.0/lists/${env.MAILCHIMP_LIST_ID}/members`, {
+        method: "POST", headers: { authorization: "Basic " + btoa("cm:" + env.MAILCHIMP_API_KEY), "content-type": "application/json" },
+        body: JSON.stringify({ email_address: email, status: "pending", language: lang, tags: [`lang-${lang}`, sub.source] }),
+      });
+      if (!r.ok && !/Member Exists/i.test(await r.text())) throw new Error(`mailchimp ${r.status}`);
+      return json({ ok: true, double_opt_in: true }, 200, h);
+    }
+    if (p === "brevo") {
+      const r = await fetch("https://api.brevo.com/v3/contacts/doubleOptinConfirmation", {
+        method: "POST", headers: { "api-key": env.BREVO_API_KEY, "content-type": "application/json", accept: "application/json" },
+        body: JSON.stringify({ email, includeListIds: [Number(env.BREVO_LIST_ID)], templateId: Number(env.BREVO_DOI_TEMPLATE_ID),
+          redirectionUrl: env.BREVO_REDIRECT_URL || "https://comparemalta.ai/#newsletter", attributes: { LANGUAGE: lang.toUpperCase() } }),
+      });
+      if (!r.ok) throw new Error(`brevo ${r.status}`);
+      return json({ ok: true, double_opt_in: true }, 200, h);
+    }
+    if (p === "webhook" && env.NEWSLETTER_WEBHOOK) {
+      const r = await fetch(env.NEWSLETTER_WEBHOOK, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(sub) });
+      if (!r.ok) throw new Error(`webhook ${r.status}`);
+      return json({ ok: true, double_opt_in: false }, 200, h);
+    }
+    if (env.saveSubscriber) { await env.saveSubscriber(sub); return json({ ok: true, double_opt_in: false }, 200, h); }
+    return json({ error: "newsletter not configured" }, 503, h);
+  } catch (e) {
+    console.error(e);
+    return json({ error: "subscribe_failed" }, 502, h);
+  }
+}
+
 export default {
   async fetch(request, env) {
     const h = cors(env, request.headers.get("origin") || "");
@@ -309,6 +356,7 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === "/health") return json({ ok: true, model: env.MODEL || "claude-sonnet-5-5", key: !!env.ANTHROPIC_API_KEY }, 200, h);
     if (url.pathname === "/contact" && request.method === "POST") return contact(request, env, h);
+    if (url.pathname === "/subscribe" && request.method === "POST") return subscribe(request, env, h);
     if (url.pathname !== "/ask" || request.method !== "POST") return json({ error: "not found" }, 404, h);
     if (!env.ANTHROPIC_API_KEY) return json({ error: "agent not configured" }, 503, h);
     const ip = request.headers.get("cf-connecting-ip") || request.headers.get("x-forwarded-for") || "local";

@@ -6,7 +6,7 @@ const V = window.CMV;
 
 /* ---------- strings ---------- */
 const T = {
- en:{pTitle:"Partner with CompareMalta.ai",pEyebrow:"Partnerships",pLead:"Banks, fintechs, telcos, insurers, brokers and restaurants: list your products, send us rate updates, or talk to us about referral, advertising and data partnerships. Rankings stay independent and are never for sale.",pName:"Your name",pCompany:"Company",pEmail:"Work email",pType:"What is it about?",pTypes:["List or update our products","Referral or affiliate partnership","Advertising","Data and API","Press","Other"],pMsg:"Message",pConsent:"I agree that CompareMalta.ai may contact me about this request.",pSend:"Send message",pOk:"Thank you. Your message is with us and we will get back to you soon.",pErr:"We could not send your message right now. Please try again later.",pBand:"Are you a bank, fintech, telco or restaurant in Malta?",pBandSub:"Get your products listed and kept up to date, or talk to us about partnerships.",pCta:"Partner with us",pWhy:["Listed for free, ranked on merit","Daily refreshed rates and plans","Reach people comparing in English, Malti and Italiano"],fPartner:"Partner with us",ctaOpen:"Open account",ctaApply:"Apply now",ctaPlan:"Get this plan",ctaQuote:"Get a quote",ctaSend:"Send money",ctaBook:"Book a table",visit:"Visit site",dirs:"Directions",onSite:"on the provider's site",thinking:"Blue is checking every provider…",aiNote:"AI answer from today's data. Always confirm details with the provider.",followPh:"Ask a follow-up…",sample:"Sample data",
+ en:{nlEyebrow:"Weekly newsletter",nlTitle:"Blue's weekly: Malta's best rates every Monday",nlSub:"The best picks, rate changes, markets and the week's news in one short email. Free, and you can unsubscribe at any time.",nlPh:"Your email",nlBtn:"Subscribe",nlConsent:"I agree to receive the weekly CompareMalta.ai newsletter. I can unsubscribe at any time.",nlOk:"Almost done. Check your inbox and confirm your subscription.",nlOkDirect:"You're subscribed. See you on Monday.",nlErr:"We could not subscribe you right now. Please try again later.",nlBad:"Please enter a valid email and tick the box.",nlLatest:"This week's issue",nlNav:"Newsletter",pTitle:"Partner with CompareMalta.ai",pEyebrow:"Partnerships",pLead:"Banks, fintechs, telcos, insurers, brokers and restaurants: list your products, send us rate updates, or talk to us about referral, advertising and data partnerships. Rankings stay independent and are never for sale.",pName:"Your name",pCompany:"Company",pEmail:"Work email",pType:"What is it about?",pTypes:["List or update our products","Referral or affiliate partnership","Advertising","Data and API","Press","Other"],pMsg:"Message",pConsent:"I agree that CompareMalta.ai may contact me about this request.",pSend:"Send message",pOk:"Thank you. Your message is with us and we will get back to you soon.",pErr:"We could not send your message right now. Please try again later.",pBand:"Are you a bank, fintech, telco or restaurant in Malta?",pBandSub:"Get your products listed and kept up to date, or talk to us about partnerships.",pCta:"Partner with us",pWhy:["Listed for free, ranked on merit","Daily refreshed rates and plans","Reach people comparing in English, Malti and Italiano"],fPartner:"Partner with us",ctaOpen:"Open account",ctaApply:"Apply now",ctaPlan:"Get this plan",ctaQuote:"Get a quote",ctaSend:"Send money",ctaBook:"Book a table",visit:"Visit site",dirs:"Directions",onSite:"on the provider's site",thinking:"Blue is checking every provider…",aiNote:"AI answer from today's data. Always confirm details with the provider.",followPh:"Ask a follow-up…",sample:"Sample data",
   nBanking:"Banking",nLoans:"Loans & Mortgages",nCards:"Cards",nBusiness:"Business",nTelco:"Telco",nEat:"Eat",nMarkets:"Markets",nNews:"News",
   ask:"Ask Blue",live:"Live · updated daily",mseIdx:"MSE Index",ecb:"ECB deposit rate",brent:"Brent",
   eyebrow:"Malta's comparison engine",h1a:"Every Maltese rate, plan and table,",h1b:"side by side.",
@@ -33,7 +33,7 @@ const T = {
   contactTxt:"Contact details will be published here at launch.",
   askSub:"Ask in plain words and I'll find the best three.",askHint:"Try:",askChips:["Best savings for €20k","Cheapest unlimited mobile","Business account with multi-currency","Seafood in Marsaxlokk"],
   askNone:"I couldn't tell what to compare. Try one of the examples, or pick a category.",askHere:"Here are the best three I found in",seeTable:"See the full table →",allCatsTitle:"All categories"},
- mt:{pTitle:"Sieħeb ma' CompareMalta.ai",pEyebrow:"Sħubijiet",pLead:"Banek, fintechs, kumpaniji tat-telekomunikazzjoni, assiguraturi, brokers u restoranti: niżżlu l-prodotti tagħkom, ibagħtulna aġġornamenti tar-rati, jew kellmuna dwar sħubijiet ta' referenza, reklamar u data. Il-klassifiki jibqgħu indipendenti u qatt ma jinbiegħu.",pName:"Ismek",pCompany:"Kumpanija",pEmail:"Email tax-xogħol",pType:"Dwar xiex hu?",pTypes:["Niżżlu jew naġġornaw il-prodotti tagħna","Sħubija ta' referenza jew affiljazzjoni","Reklamar","Data u API","Stampa","Oħrajn"],pMsg:"Messaġġ",pConsent:"Naqbel li CompareMalta.ai jikkuntattjani dwar din it-talba.",pSend:"Ibgħat messaġġ",pOk:"Grazzi. Il-messaġġ tiegħek wasal u nirrispondu dalwaqt.",pErr:"Ma stajniex nibagħtu l-messaġġ issa. Erġa' pprova aktar tard.",pBand:"Bank, fintech, telco jew restorant f'Malta?",pBandSub:"Niżżlu l-prodotti tagħkom u żommuhom aġġornati, jew kellmuna dwar sħubijiet.",pCta:"Sieħeb magħna",pWhy:["Imniżżlin b'xejn, ikklassifikati fuq il-mertu","Rati u pjanijiet aġġornati kuljum","Laħħqu nies li qed iqabblu bl-Ingliż, bil-Malti u bit-Taljan"],fPartner:"Sieħeb magħna",ctaOpen:"Iftaħ kont",ctaApply:"Applika issa",ctaPlan:"Ħu dan il-pjan",ctaQuote:"Ikseb kwotazzjoni",ctaSend:"Ibgħat flus",ctaBook:"Irriserva mejda",visit:"Żur is-sit",dirs:"Direzzjonijiet",onSite:"fuq is-sit tal-fornitur",thinking:"Blue qed jiċċekkja kull fornitur…",aiNote:"Tweġiba AI mid-data tal-lum. Dejjem ikkonferma d-dettalji mal-fornitur.",followPh:"Staqsi mistoqsija oħra…",sample:"Data ta' kampjun",
+ mt:{nlEyebrow:"Newsletter ta' kull ġimgħa",nlTitle:"Blue kull ġimgħa: l-aħjar rati ta' Malta kull nhar ta' Tnejn",nlSub:"L-aħjar għażliet, bidliet fir-rati, is-swieq u l-aħbarijiet tal-ġimgħa f'email qasira waħda. B'xejn, u tista' tneħħi s-sottoskrizzjoni meta trid.",nlPh:"L-email tiegħek",nlBtn:"Issottoskrivi",nlConsent:"Naqbel li nirċievi n-newsletter ta' kull ġimgħa ta' CompareMalta.ai. Nista' nneħħi s-sottoskrizzjoni meta rrid.",nlOk:"Kważi lest. Iċċekkja l-inbox tiegħek u kkonferma s-sottoskrizzjoni.",nlOkDirect:"Issa int sottoskritt. Narawk nhar it-Tnejn.",nlErr:"Ma stajniex nissottoskrivuk issa. Erġa' pprova aktar tard.",nlBad:"Daħħal email valida u immarka l-kaxxa.",nlLatest:"Il-ħarġa ta' din il-ġimgħa",nlNav:"Newsletter",pTitle:"Sieħeb ma' CompareMalta.ai",pEyebrow:"Sħubijiet",pLead:"Banek, fintechs, kumpaniji tat-telekomunikazzjoni, assiguraturi, brokers u restoranti: niżżlu l-prodotti tagħkom, ibagħtulna aġġornamenti tar-rati, jew kellmuna dwar sħubijiet ta' referenza, reklamar u data. Il-klassifiki jibqgħu indipendenti u qatt ma jinbiegħu.",pName:"Ismek",pCompany:"Kumpanija",pEmail:"Email tax-xogħol",pType:"Dwar xiex hu?",pTypes:["Niżżlu jew naġġornaw il-prodotti tagħna","Sħubija ta' referenza jew affiljazzjoni","Reklamar","Data u API","Stampa","Oħrajn"],pMsg:"Messaġġ",pConsent:"Naqbel li CompareMalta.ai jikkuntattjani dwar din it-talba.",pSend:"Ibgħat messaġġ",pOk:"Grazzi. Il-messaġġ tiegħek wasal u nirrispondu dalwaqt.",pErr:"Ma stajniex nibagħtu l-messaġġ issa. Erġa' pprova aktar tard.",pBand:"Bank, fintech, telco jew restorant f'Malta?",pBandSub:"Niżżlu l-prodotti tagħkom u żommuhom aġġornati, jew kellmuna dwar sħubijiet.",pCta:"Sieħeb magħna",pWhy:["Imniżżlin b'xejn, ikklassifikati fuq il-mertu","Rati u pjanijiet aġġornati kuljum","Laħħqu nies li qed iqabblu bl-Ingliż, bil-Malti u bit-Taljan"],fPartner:"Sieħeb magħna",ctaOpen:"Iftaħ kont",ctaApply:"Applika issa",ctaPlan:"Ħu dan il-pjan",ctaQuote:"Ikseb kwotazzjoni",ctaSend:"Ibgħat flus",ctaBook:"Irriserva mejda",visit:"Żur is-sit",dirs:"Direzzjonijiet",onSite:"fuq is-sit tal-fornitur",thinking:"Blue qed jiċċekkja kull fornitur…",aiNote:"Tweġiba AI mid-data tal-lum. Dejjem ikkonferma d-dettalji mal-fornitur.",followPh:"Staqsi mistoqsija oħra…",sample:"Data ta' kampjun",
   nBanking:"Bankar",nLoans:"Self u Self għad-Dar",nCards:"Karti",nBusiness:"Negozju",nTelco:"Telco",nEat:"Ikel",nMarkets:"Swieq",nNews:"Aħbarijiet",
   ask:"Staqsi lil Blue",live:"Live · aġġornat kuljum",mseIdx:"Indiċi MSE",ecb:"Rata tad-depożitu ECB",brent:"Brent",
   eyebrow:"Il-magna tal-paragun ta' Malta",h1a:"Kull rata, pjan u tabella Maltija,",h1b:"wieħed ħdejn l-ieħor.",
@@ -60,7 +60,7 @@ const T = {
   contactTxt:"Id-dettalji tal-kuntatt jiġu ppubblikati hawn mal-varar.",
   askSub:"Staqsi bi kliem sempliċi u nsiblek l-aqwa tlieta.",askHint:"Ipprova:",askChips:["L-aħjar tfaddil għal €20k","L-irħas mobile bla limitu","Kont tan-negozju b'ħafna muniti","Ħut f'Marsaxlokk"],
   askNone:"Ma fhimtx x'għandi nqabbel. Ipprova wieħed mill-eżempji, jew agħżel kategorija.",askHere:"Dawn huma l-aqwa tlieta li sibt f'",seeTable:"Ara t-tabella sħiħa →",allCatsTitle:"Il-kategoriji kollha"},
- it:{pTitle:"Diventa partner di CompareMalta.ai",pEyebrow:"Partnership",pLead:"Banche, fintech, operatori telefonici, assicurazioni, broker e ristoranti: inserite i vostri prodotti, inviateci aggiornamenti sui tassi o parlateci di partnership di referral, pubblicità e dati. Le classifiche restano indipendenti e non sono mai in vendita.",pName:"Nome",pCompany:"Azienda",pEmail:"Email di lavoro",pType:"Di cosa si tratta?",pTypes:["Inserire o aggiornare i nostri prodotti","Partnership di referral o affiliazione","Pubblicità","Dati e API","Stampa","Altro"],pMsg:"Messaggio",pConsent:"Accetto che CompareMalta.ai mi contatti in merito a questa richiesta.",pSend:"Invia messaggio",pOk:"Grazie. Abbiamo ricevuto il tuo messaggio e ti risponderemo presto.",pErr:"Non siamo riusciti a inviare il messaggio. Riprova più tardi.",pBand:"Sei una banca, una fintech, un operatore o un ristorante a Malta?",pBandSub:"Fai inserire i tuoi prodotti e tienili aggiornati, oppure parlaci di partnership.",pCta:"Diventa partner",pWhy:["Inserimento gratuito, classifica per merito","Tassi e piani aggiornati ogni giorno","Raggiungi chi confronta in inglese, maltese e italiano"],fPartner:"Diventa partner",ctaOpen:"Apri un conto",ctaApply:"Richiedi ora",ctaPlan:"Attiva l'offerta",ctaQuote:"Fai un preventivo",ctaSend:"Invia denaro",ctaBook:"Prenota un tavolo",visit:"Visita il sito",dirs:"Indicazioni",onSite:"sul sito del fornitore",thinking:"Blue sta controllando ogni fornitore…",aiNote:"Risposta AI dai dati di oggi. Verifica sempre i dettagli con il fornitore.",followPh:"Fai un'altra domanda…",sample:"Dati di esempio",
+ it:{nlEyebrow:"Newsletter settimanale",nlTitle:"Blue ogni settimana: i migliori tassi di Malta ogni lunedì",nlSub:"Le migliori scelte, le variazioni dei tassi, i mercati e le notizie della settimana in una breve email. Gratis, e puoi annullare l'iscrizione quando vuoi.",nlPh:"La tua email",nlBtn:"Iscriviti",nlConsent:"Accetto di ricevere la newsletter settimanale di CompareMalta.ai. Posso annullare l'iscrizione in qualsiasi momento.",nlOk:"Quasi fatto. Controlla la tua casella e conferma l'iscrizione.",nlOkDirect:"Iscrizione completata. A lunedì.",nlErr:"Non siamo riusciti a iscriverti ora. Riprova più tardi.",nlBad:"Inserisci un'email valida e spunta la casella.",nlLatest:"Il numero di questa settimana",nlNav:"Newsletter",pTitle:"Diventa partner di CompareMalta.ai",pEyebrow:"Partnership",pLead:"Banche, fintech, operatori telefonici, assicurazioni, broker e ristoranti: inserite i vostri prodotti, inviateci aggiornamenti sui tassi o parlateci di partnership di referral, pubblicità e dati. Le classifiche restano indipendenti e non sono mai in vendita.",pName:"Nome",pCompany:"Azienda",pEmail:"Email di lavoro",pType:"Di cosa si tratta?",pTypes:["Inserire o aggiornare i nostri prodotti","Partnership di referral o affiliazione","Pubblicità","Dati e API","Stampa","Altro"],pMsg:"Messaggio",pConsent:"Accetto che CompareMalta.ai mi contatti in merito a questa richiesta.",pSend:"Invia messaggio",pOk:"Grazie. Abbiamo ricevuto il tuo messaggio e ti risponderemo presto.",pErr:"Non siamo riusciti a inviare il messaggio. Riprova più tardi.",pBand:"Sei una banca, una fintech, un operatore o un ristorante a Malta?",pBandSub:"Fai inserire i tuoi prodotti e tienili aggiornati, oppure parlaci di partnership.",pCta:"Diventa partner",pWhy:["Inserimento gratuito, classifica per merito","Tassi e piani aggiornati ogni giorno","Raggiungi chi confronta in inglese, maltese e italiano"],fPartner:"Diventa partner",ctaOpen:"Apri un conto",ctaApply:"Richiedi ora",ctaPlan:"Attiva l'offerta",ctaQuote:"Fai un preventivo",ctaSend:"Invia denaro",ctaBook:"Prenota un tavolo",visit:"Visita il sito",dirs:"Indicazioni",onSite:"sul sito del fornitore",thinking:"Blue sta controllando ogni fornitore…",aiNote:"Risposta AI dai dati di oggi. Verifica sempre i dettagli con il fornitore.",followPh:"Fai un'altra domanda…",sample:"Dati di esempio",
   nBanking:"Banca",nLoans:"Prestiti e Mutui",nCards:"Carte",nBusiness:"Business",nTelco:"Telco",nEat:"Mangiare",nMarkets:"Mercati",nNews:"Notizie",
   ask:"Chiedi a Blue",live:"Live · aggiornato ogni giorno",mseIdx:"Indice MSE",ecb:"Tasso depositi BCE",brent:"Brent",
   eyebrow:"Il motore di confronto di Malta",h1a:"Ogni tasso, piano e tabella di Malta,",h1b:"fianco a fianco.",
@@ -190,7 +190,7 @@ async function renderChrome() {
   $("#footIn").innerHTML = `
     <div><a href="#home" class="logo"><span class="logo-mark">${V.logo(30)}</span><span>CompareMalta<span class="ai">.ai</span></span></a><p>${t("footTag")}</p></div>
     <div><h4>${t("fCompare")}</h4><ul><li><a href="#bank-accounts">${t("nBanking")}</a></li><li><a href="#mortgages">${t("fLoans")}</a></li><li><a href="#telco-mobile">${t("nTelco")}</a></li><li><a href="#categories">${t("allCatsTitle")}</a></li></ul></div>
-    <div><h4>${t("fDaily")}</h4><ul><li><a href="#news">${t("fNews")}</a></li><li><a href="#markets">${t("fMarkets")}</a></li><li><a href="#markets">${t("fFx")}</a></li></ul></div>
+    <div><h4>${t("fDaily")}</h4><ul><li><a href="#news">${t("fNews")}</a></li><li><a href="#markets">${t("fMarkets")}</a></li><li><a href="#markets">${t("fFx")}</a></li><li><a href="#newsletter">${t("nlNav")}</a></li></ul></div>
     <div><h4>${t("fAbout")}</h4><ul><li><a href="#how-we-rank">${t("fHow")}</a></li><li><a href="#partners">${t("fPartner")}</a></li><li><a href="#contact">${t("fContact")}</a></li></ul></div>`;
   $("#footDisclaimer").textContent = t("disclaimer");
   if (st) $("#footStatus").innerHTML = `<span class="dot ${st.total && st.ok / st.total > .8 ? "" : "warn"}"></span>${t("feeds")} ${st.ok}/${st.total} · ${t("updated")} ${ago(st.generated)}`;
@@ -315,6 +315,7 @@ async function pageHome() {
       </div>
     </div>
   </section>
+  ${nlBand()}
   ${partnerBand()}`;
 }
 function bindHome() {
@@ -495,6 +496,45 @@ const partnerBand = () => `<section class="section"><div class="wrap"><div class
   <div class="pb-txt"><p class="eyebrow" style="color:var(--peach)">${t("pEyebrow")}</p><h2>${t("pBand")}</h2><p>${t("pBandSub")}</p></div>
   <a class="btn cta lg" href="#partners">${t("pCta")} <span class="arr">→</span></a></div></div></section>`;
 
+
+/* ---------- weekly newsletter ---------- */
+const nlForm = (source) => `<form class="nl-form" data-src="${source}" novalidate>
+  <div class="nl-row"><input type="email" name="email" placeholder="${t("nlPh")}" autocomplete="email" required maxlength="190"><button class="btn cta" type="submit">${t("nlBtn")} <span class="arr">→</span></button></div>
+  <input name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+  <label class="nl-chk"><input type="checkbox" name="consent" required><span>${t("nlConsent")}</span></label>
+  <p class="nl-status" role="status"></p></form>`;
+const nlBand = () => `<section class="section" style="padding-bottom:0"><div class="wrap"><div class="nl-band">
+  <div class="nl-bird">${V.mascot(110)}</div>
+  <div class="nl-txt"><p class="eyebrow">${t("nlEyebrow")}</p><h2>${t("nlTitle")}</h2><p>${t("nlSub")}</p></div>
+  <div class="nl-side">${nlForm("home")}</div></div></div></section>`;
+function bindNewsletter() {
+  document.querySelectorAll(".nl-form").forEach(f => f.onsubmit = async e => {
+    e.preventDefault();
+    const st = f.querySelector(".nl-status"), btn = f.querySelector("button"), d = Object.fromEntries(new FormData(f).entries());
+    st.className = "nl-status";
+    if (!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(d.email || "") || !d.consent) { st.textContent = t("nlBad"); st.classList.add("err"); return; }
+    btn.disabled = true; let res = null;
+    try {
+      const base = (window.CM_AGENT_URL || "").replace(/\/$/, "");
+      const r = await fetch(window.CM_NEWSLETTER_ENDPOINT || `${base}/subscribe`, {method: "POST", headers: {"content-type": "application/json"},
+        body: JSON.stringify({email: d.email, consent: true, lang, source: f.dataset.src, website: d.website || ""})});
+      if (r.ok) res = await r.json();
+    } catch (err) { res = null; }
+    btn.disabled = false;
+    if (res?.ok) { f.reset(); st.textContent = res.double_opt_in ? t("nlOk") : t("nlOkDirect"); st.classList.add("ok"); }
+    else { st.textContent = t("nlErr"); st.classList.add("err"); }
+  });
+}
+async function pageNewsletter() {
+  const nl = await get("newsletter");
+  const src = nl?.issues?.[lang] || nl?.issues?.en;
+  return `<div class="wrap"><div class="nl-page">
+    <div><p class="eyebrow">${t("nlEyebrow")}</p><h1 style="font-size:clamp(32px,4vw,46px)">${t("nlTitle")}</h1><p class="lead2">${t("nlSub")}</p>
+      <div class="card" style="padding:20px">${nlForm("newsletter-page")}</div><div style="margin-top:22px">${V.mascot(120, "wink")}</div></div>
+    <div><p class="eyebrow">${t("nlLatest")}${nl?.week ? " · " + esc(nl.week) : ""}</p>${src ? `<iframe class="nl-preview" src="${esc(src)}" title="${t("nlLatest")}" loading="lazy"></iframe>` : ""}</div>
+  </div></div><div style="height:50px"></div>`;
+}
+
 /* ---------- calculators ---------- */
 const field = (id, label, val, attrs = "") => `<label for="${id}">${label}</label><input id="${id}" type="number" value="${val}" ${attrs}>`;
 const loanCalcHtml = () => `<div class="card calc" data-calc="loan"><h3>${V.icon("personal-loans", 18)} ${t("loanCalc")}</h3>
@@ -603,10 +643,11 @@ async function route() {
   const r = (location.hash || "#home").slice(1) || "home";
   await get("categories");
   renderNav(r); $("#nav").classList.remove("open");
-  const pages = {partners: pagePartners, contact: pagePartners, news: pageNews, markets: pageMarkets, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
+  const pages = {newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, markets: pageMarkets, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
   $("#app").innerHTML = await (pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
   if (r === "markets") bindCalcs();
   if ($("#heroForm")) bindHome();
+  bindNewsletter();
   window.scrollTo(0, 0);
 }
 document.querySelectorAll("#langSeg button").forEach(b => b.onclick = () => { lang = b.dataset.l; try { localStorage.setItem("cm_lang", lang); } catch (e) {} renderChrome(); route(); });

@@ -1,14 +1,14 @@
 """Entry point: python -m feeds.run_all   (CM_OFFLINE=1 to build from seed/state only)."""
 import sys
 
-from . import fx, logos, markets, news, products, restaurants
+from . import fx, logos, markets, news, newsletter, products, restaurants
 from .common import OUT, FeedStatus, now_iso, save_json, log
 
 
 def main() -> int:
     status = FeedStatus()
     # restaurants first: products.run reads its state for the restaurants category
-    for mod in (fx, markets, news, restaurants, logos, products):
+    for mod in (fx, markets, news, restaurants, logos, products, newsletter):
         try:
             mod.run(status)
         except Exception as e:  # noqa: BLE001  one broken feed never blocks the others

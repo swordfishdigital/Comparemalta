@@ -18,6 +18,20 @@ jobs:
           secrets: |
             ANTHROPIC_API_KEY
             CONTACT_WEBHOOK
+            NEWSLETTER_PROVIDER
+            MAILCHIMP_API_KEY
+            MAILCHIMP_LIST_ID
+            BREVO_API_KEY
+            BREVO_LIST_ID
+            BREVO_DOI_TEMPLATE_ID
+            NEWSLETTER_WEBHOOK
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CONTACT_WEBHOOK: ${{ secrets.CONTACT_WEBHOOK }}
+          NEWSLETTER_PROVIDER: ${{ secrets.NEWSLETTER_PROVIDER }}
+          MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
+          MAILCHIMP_LIST_ID: ${{ secrets.MAILCHIMP_LIST_ID }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
+          BREVO_DOI_TEMPLATE_ID: ${{ secrets.BREVO_DOI_TEMPLATE_ID }}
+          NEWSLETTER_WEBHOOK: ${{ secrets.NEWSLETTER_WEBHOOK }}
