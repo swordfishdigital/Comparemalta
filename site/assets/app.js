@@ -237,7 +237,7 @@ function brand(r, size = 34) {
 const mkRowDark = (label, val) => `<div class="mk-row"><span>${esc(label)}</span><b>${val}</b></div>`;
 const mkRow = r => { const mse = /^[A-Z0-9]{2,5}$/.test(r.symbol || "");
   return `<div class="mk-row"><span class="n"><b>${esc(mse ? r.symbol : r.name)}</b><small>${esc(mse ? r.name : "")}</small></span><span style="text-align:right">${nf(r.price, r.price < 10 ? 3 : 2)}<br>${chg(r.change_pct)}</span></div>`; };
-const newsImg = n => n.image ? `<img class="thumb" src="${esc(n.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML=window.CMV.newsThumb('${esc(n.topic)}')">` : V.newsThumb(n.topic);
+const newsImg = n => n.image ? `<img class="thumb" src="${esc(n.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" ${n.image_src ? `data-alt="${esc(n.image_src)}"` : ""} onerror="if(this.dataset.alt&&this.src!==this.dataset.alt){this.src=this.dataset.alt}else{this.outerHTML=window.CMV.newsThumb('${esc(n.topic)}')}">` : V.newsThumb(n.topic);
 const newsList = items => items.length ? items.map(n => `
   <a class="news-item" href="${esc(n.url)}" target="_blank" rel="noopener">
     <div class="news-img">${newsImg(n)}</div>

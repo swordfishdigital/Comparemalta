@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "comparemalta-bot"
           git config user.email "bot@comparemalta.ai"
-          git add -f data/state; git add site/data site/logos site/newsletter
+          git add -f data/state; git add -A site/data site/logos site/newsletter site/news-img
           git diff --cached --quiet || git commit -m "feeds: $(date -u +%F' '%H:%M) UTC"
           git push
       - name: Fail loudly if most feeds are down

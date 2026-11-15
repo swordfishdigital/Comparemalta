@@ -62,7 +62,51 @@ def _add_og_images(items, status):
         i["image"] = i.get("image") or cache.get(i["url"])
     keep = {i["url"] for i in items}
     save_json(STATE / "news_images.json", {k: v for k, v in cache.items() if k in keep})
+    _thumbnails(items)
     status.ok("news.images", sum(1 for i in items if i.get("image")))
+
+
+THUMBS = OUT.parent / "news-img"
+
+
+def _thumb(item):
+    """Small self-hosted thumbnail (240x180 JPEG) so the picture shows even where the publisher blocks hotlinking."""
+    import io
+
+    from PIL import Image
+
+    dest = THUMBS / f"{item['id']}.jpg"
+    if dest.exists():
+        return True
+    try:
+        img = Image.open(io.BytesIO(http_get(item["image"], timeout=12, retries=0).content)).convert("RGB")
+        w, h = img.size
+        target = 4 / 3
+        if w / h > target:  # crop to 4:3 around the centre
+            nw = int(h * target); img = img.crop(((w - nw) // 2, 0, (w - nw) // 2 + nw, h))
+        else:
+            nh = int(w / target); img = img.crop((0, (h - nh) // 2, w, (h - nh) // 2 + nh))
+        img.resize((240, 180), Image.LANCZOS).save(dest, "JPEG", quality=78, optimize=True, progressive=True)
+        return True
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def _thumbnails(items):
+    from concurrent.futures import ThreadPoolExecutor
+
+    THUMBS.mkdir(parents=True, exist_ok=True)
+    todo = [i for i in items if i.get("image") and str(i["image"]).startswith("http")]
+    with ThreadPoolExecutor(8) as ex:
+        ok = dict(zip([i["id"] for i in todo], ex.map(_thumb, todo)))
+    for i in items:
+        if ok.get(i["id"]) or (THUMBS / f"{i['id']}.jpg").exists():
+            i["image_src"] = i.get("image_src") or i["image"]
+            i["image"] = f"news-img/{i['id']}.jpg"
+    keep = {f"{i['id']}.jpg" for i in items}
+    for f in THUMBS.glob("*.jpg"):  # only keep thumbnails for stories still on the site
+        if f.name not in keep:
+            f.unlink()
 
 
 def run(status, max_items=80):
