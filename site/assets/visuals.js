@@ -1,4 +1,4 @@
-/* CompareMalta.ai — original inline SVG artwork: hero scene, category icons, provider monograms, food covers, news fallbacks.
+/* CompareMalta.ai: original inline SVG artwork: hero scene, category icons, provider monograms, food covers, news fallbacks.
    Everything is drawn in code, so it works offline and under strict CSP. No third-party logos are reproduced. */
 window.CMV = (() => {
 "use strict";
@@ -84,7 +84,7 @@ function newsThumb(topic) {
 }
 
 
-/* Merill — CompareMalta's mascot: an original stylised Blue Rock Thrush (Monticola solitarius), Malta's national bird.
+/* Merill: CompareMalta's mascot: an original stylised Blue Rock Thrush (Monticola solitarius), Malta's national bird.
    Drawn facing right in a 120x100 box; feet touch y≈88. */
 function birdG(mood = "") {
   const eye = mood === "wink"
@@ -113,7 +113,7 @@ function logo(size = 32) {
     <g transform="translate(-3.5 3.5) scale(.38)">${birdG()}</g></svg>`;
 }
 
-/* Hero: an imagined harbour skyline — limestone blocks, a dome, a bell tower, enclosed wooden balconies, bastion walls and a luzzu. */
+/* Hero: an imagined harbour skyline: limestone blocks, a dome, a bell tower, enclosed wooden balconies, bastion walls and a luzzu. */
 function hero() {
   const blocks = [[18,178,70,92],[84,150,58,120],[138,190,52,80],[186,162,64,108],[370,170,62,100],[428,140,70,130],[494,182,56,88],[546,158,80,112]];
   const stone = ["#ecd9b1", "#e4cc9c", "#dcc08a", "#e8d3a6"];

@@ -29,13 +29,13 @@ site/              static website (HTML + CSS + vanilla JS, no build step), read
 blanks the site; rows show "Checked <date>" or "Last known" so users see freshness. `site/data/status.json`
 reports health and the workflow fails (→ GitHub email) when fewer than half of the feeds succeed.
 
-**CompareMalta Score (0–10):** per category, each metric is min-max normalised across providers, weighted
+**Thrush score (0 to 10):** per category, each metric is min-max normalised across providers, weighted
 (`config/categories.json → score`), and scaled to 10. The formula is shown under every table.
 
 ## Languages & visuals
 
 - UI in **English, Maltese, Italian** (`T` and `COLS` in `site/assets/app.js`; category titles/intros as `title_mt`, `intro_it` … in `config/categories.json`). Default follows the browser language; choice is remembered.
-- Maltese and Italian strings were machine-drafted — have a native speaker review before launch.
+- Maltese and Italian strings were machine-drafted. Have a native speaker review before launch.
 - All artwork is original inline SVG (`site/assets/visuals.js`): harbour hero, category icons, provider monograms, Maltese-tile food covers, news fallbacks. No third-party logos.
 - Real photos: news uses the publisher's RSS image when present (falls back to the illustration). Restaurants store a Google Places photo reference; serve it through a small `/img/place` proxy (e.g. a Cloudflare Worker) so the API key stays server-side, and show Google attribution.
 

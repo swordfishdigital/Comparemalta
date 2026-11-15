@@ -1,4 +1,4 @@
-/* CompareMalta.ai — static front-end (EN / MT / IT). Reads JSON produced daily by /feeds into /data.
+/* CompareMalta.ai: static front-end (EN / MT / IT). Reads JSON produced daily by /feeds into /data.
    Design language: "CompareMalta.ai.pdf" (Space Grotesk, navy / royal blue / stone). Mascot: Merill, the blue rock thrush. */
 (() => {
 "use strict";
@@ -9,15 +9,15 @@ const T = {
  en:{
   nBanking:"Banking",nLoans:"Loans & Mortgages",nCards:"Cards",nBusiness:"Business",nTelco:"Telco",nEat:"Eat",nMarkets:"Markets",nNews:"News",
   ask:"Ask the Thrush",live:"Live · updated daily",mseIdx:"MSE Index",ecb:"ECB deposit rate",brent:"Brent",
-  eyebrow:"Malta's comparison engine",h1a:"Every Maltese rate, plan and table —",h1b:"side by side.",
-  lead:"Accounts, loans, mortgages, cards, mobile plans and where to eat — refreshed every morning, in English, Malti and Italiano.",
+  eyebrow:"Malta's comparison engine",h1a:"Every Maltese rate, plan and table,",h1b:"side by side.",
+  lead:"Accounts, loans, mortgages, cards, mobile plans and where to eat. Refreshed every morning in English, Malti and Italiano.",
   ph:"e.g. best savings account for €20k",compare:"Compare",chips:["Mortgage rates","5G plans","Business accounts","Lunch in Valletta"],
-  says:"Il-Merill says",quote:"Tell me what you need — I'll fly through every provider and bring back the best three.",
+  says:"Il-Merill says",quote:"Tell me what you need. I'll fly through every provider and bring back the best three.",
   whatCmp:"What are you comparing?",allCats:"All categories →",
   c:{banking:["Banking","Current & savings accounts"],loans:["Loans & Mortgages","Home, personal, car"],cards:["Credit cards","Cashback, travel, low APR"],business:["Business & fintech","SME accounts, FX, payments"],telco:["Telco","Mobile, fibre, TV bundles"],eat:["Restaurants","Where Malta eats this week"],markets:["Markets & FX","MSE, global indices, currencies"],today:["Malta today","Daily news digest"]},
   topEyebrow:"Today's top table",topT:{savings:"Savings accounts in Malta",mortgages:"Mortgage rates in Malta",mobile:"Mobile plans in Malta"},tabs:{savings:"Savings",mortgages:"Mortgages",mobile:"Mobile"},
   thrush:"Thrush score",bestPick:"Best pick",viewDeal:"View deal",
-  refreshed:"Rates refreshed daily at {t} from provider sites. CompareMalta.ai may earn a commission — rankings are never paid for.",
+  refreshed:"Rates refreshed daily at {t} from provider sites. CompareMalta.ai may earn a commission, but rankings are never paid for.",
   morning:"Malta this morning",readSum:"Read summary →",fullMk:"Full markets page →",mkt:"Markets",
   footTag:"Independent comparisons for life and business in Malta. Updated daily. English · Malti · Italiano.",fCompare:"Compare",fDaily:"Daily",fAbout:"About",fNews:"News",fMarkets:"Markets",fFx:"FX",fLoans:"Loans",fHow:"How we rank",fContact:"Contact",
   filter:"Filter…",sortBy:"Sort by",updated:"Updated",checked:"Checked",notChecked:"Catalogue data",stale:"Last known",affiliated:"Related party",
@@ -28,23 +28,23 @@ const T = {
   demo:"Preview mode: figures are sample data. Live values replace them on the first daily feed run.",
   disclaimer:"Not financial advice. Always confirm rates with the provider before applying.",
   feeds:"Feeds",low:"lower is better",high:"higher is better",free:"Free",unlimited:"Unlimited",results:"results",noRes:"No results.",
-  tip:"Merill's tip",tipTxt:"Look at the total cost, not just the headline rate — fees and terms can change the ranking.",mNo:"Merill looked everywhere but found nothing. Try another word.",
-  howTitle:"How we rank",howTxt:"Every table is ranked by the Thrush score (0–10). For each category we pick the metrics that matter most to you — rate, fees, speed, data — normalise each across all providers (best = 1, worst = 0), weight them and scale to 10. Providers cannot pay to change their position. Rows marked “Related party” are connected to the site's owners and are scored with exactly the same formula.",weights:"Weights",
+  tip:"Merill's tip",tipTxt:"Look at the total cost, not just the headline rate. Fees and terms can change the ranking.",mNo:"Merill looked everywhere but found nothing. Try another word.",
+  howTitle:"How we rank",howTxt:"Every table is ranked by the Thrush score (0 to 10). For each category we pick the metrics that matter most to you (rate, fees, speed, data), normalise each across all providers (best = 1, worst = 0), weight them and scale to 10. Providers cannot pay to change their position. Rows marked “Related party” are connected to the site's owners and are scored with exactly the same formula.",weights:"Weights",
   contactTxt:"Contact details will be published here at launch.",
-  askSub:"Ask in plain words — I'll find the best three.",askHint:"Try:",askChips:["Best savings for €20k","Cheapest unlimited mobile","Business account with multi-currency","Seafood in Marsaxlokk"],
+  askSub:"Ask in plain words and I'll find the best three.",askHint:"Try:",askChips:["Best savings for €20k","Cheapest unlimited mobile","Business account with multi-currency","Seafood in Marsaxlokk"],
   askNone:"I couldn't tell what to compare. Try one of the examples, or pick a category.",askHere:"Here are the best three I found in",seeTable:"See the full table →",allCatsTitle:"All categories"},
  mt:{
   nBanking:"Bankar",nLoans:"Self u Self għad-Dar",nCards:"Karti",nBusiness:"Negozju",nTelco:"Telco",nEat:"Ikel",nMarkets:"Swieq",nNews:"Aħbarijiet",
   ask:"Staqsi lill-Merill",live:"Live · aġġornat kuljum",mseIdx:"Indiċi MSE",ecb:"Rata tad-depożitu ECB",brent:"Brent",
-  eyebrow:"Il-magna tal-paragun ta' Malta",h1a:"Kull rata, pjan u tabella Maltija —",h1b:"wieħed ħdejn l-ieħor.",
-  lead:"Kontijiet, self, self għad-dar, karti, pjanijiet tal-mobile u fejn tiekol — aġġornati kull filgħodu, bl-Ingliż, bil-Malti u bit-Taljan.",
+  eyebrow:"Il-magna tal-paragun ta' Malta",h1a:"Kull rata, pjan u tabella Maltija,",h1b:"wieħed ħdejn l-ieħor.",
+  lead:"Kontijiet, self, self għad-dar, karti, pjanijiet tal-mobile u fejn tiekol. Aġġornati kull filgħodu bl-Ingliż, bil-Malti u bit-Taljan.",
   ph:"eż. l-aħjar kont tat-tfaddil għal €20k",compare:"Qabbel",chips:["Rati tas-self għad-dar","Pjanijiet 5G","Kontijiet tan-negozju","Ikla f'Valletta"],
-  says:"Il-Merill jgħid",quote:"Għidli x'għandek bżonn — intir minn fornitur għall-ieħor u nġiblek l-aqwa tlieta.",
+  says:"Il-Merill jgħid",quote:"Għidli x'għandek bżonn. Intir minn fornitur għall-ieħor u nġiblek l-aqwa tlieta.",
   whatCmp:"X'qed tqabbel?",allCats:"Il-kategoriji kollha →",
   c:{banking:["Bankar","Kontijiet kurrenti u tat-tfaddil"],loans:["Self u Self għad-Dar","Dar, personali, karozza"],cards:["Karti tal-kreditu","Cashback, safar, APR baxx"],business:["Negozju u fintech","Kontijiet SME, kambju, ħlasijiet"],telco:["Telco","Mobile, fibra, pakketti tat-TV"],eat:["Restoranti","Fejn qed tiekol Malta din il-ġimgħa"],markets:["Swieq u Kambju","MSE, indiċijiet globali, muniti"],today:["Malta llum","Sommarju tal-aħbarijiet ta' kuljum"]},
   topEyebrow:"It-tabella ewlenija tal-lum",topT:{savings:"Kontijiet tat-tfaddil f'Malta",mortgages:"Rati tas-self għad-dar f'Malta",mobile:"Pjanijiet tal-mobile f'Malta"},tabs:{savings:"Tfaddil",mortgages:"Self għad-dar",mobile:"Mobile"},
   thrush:"Punteġġ tal-Merill",bestPick:"L-aħjar għażla",viewDeal:"Ara l-offerta",
-  refreshed:"Ir-rati jiġu aġġornati kuljum fil-{t} mis-siti tal-fornituri. CompareMalta.ai jista' jaqla' kummissjoni — il-klassifiki qatt ma jitħallsu.",
+  refreshed:"Ir-rati jiġu aġġornati kuljum fil-{t} mis-siti tal-fornituri. CompareMalta.ai jista' jaqla' kummissjoni, iżda l-klassifiki qatt ma jitħallsu.",
   morning:"Malta dalgħodu",readSum:"Aqra s-sommarju →",fullMk:"Paġna sħiħa tas-swieq →",mkt:"Swieq",
   footTag:"Paraguni indipendenti għall-ħajja u n-negozju f'Malta. Aġġornati kuljum. English · Malti · Italiano.",fCompare:"Qabbel",fDaily:"Kuljum",fAbout:"Dwarna",fNews:"Aħbarijiet",fMarkets:"Swieq",fFx:"Kambju",fLoans:"Self",fHow:"Kif nikklassifikaw",fContact:"Kuntatt",
   filter:"Iffiltra…",sortBy:"Ordna skont",updated:"Aġġornat",checked:"Iċċekkjat",notChecked:"Data tal-katalgu",stale:"L-aħħar magħruf",affiliated:"Parti relatata",
@@ -55,23 +55,23 @@ const T = {
   demo:"Modalità ta' preview: iċ-ċifri huma data ta' kampjun. Il-valuri live jissostitwuhom fl-ewwel aġġornament ta' kuljum.",
   disclaimer:"Mhux parir finanzjarju. Dejjem ikkonferma r-rati mal-fornitur qabel tapplika.",
   feeds:"Feeds",low:"inqas huwa aħjar",high:"aktar huwa aħjar",free:"B'xejn",unlimited:"Bla limitu",results:"riżultati",noRes:"L-ebda riżultat.",
-  tip:"Il-parir ta' Merill",tipTxt:"Ħares lejn l-ispiża totali, mhux biss lejn ir-rata — il-miżati u t-termini jistgħu jbiddlu l-klassifika.",mNo:"Merill fittex kullimkien iżda ma sab xejn. Ipprova kelma oħra.",
-  howTitle:"Kif nikklassifikaw",howTxt:"Kull tabella hija kklassifikata bil-Punteġġ tal-Merill (0–10). Għal kull kategorija nagħżlu l-metriċi li jgħoddu l-aktar — rata, miżati, ħeffa, data — ninnormalizzaw kull waħda fost il-fornituri kollha (l-aħjar = 1, l-agħar = 0), nagħtuhom piż u nskalawhom għal 10. Il-fornituri ma jistgħux iħallsu biex jibdlu l-pożizzjoni tagħhom. Ir-ringieli mmarkati “Parti relatata” huma konnessi mas-sidien tas-sit u jingħataw punteġġ bl-istess formula eżatta.",weights:"Piżijiet",
+  tip:"Il-parir ta' Merill",tipTxt:"Ħares lejn l-ispiża totali, mhux biss lejn ir-rata. Il-miżati u t-termini jistgħu jbiddlu l-klassifika.",mNo:"Merill fittex kullimkien iżda ma sab xejn. Ipprova kelma oħra.",
+  howTitle:"Kif nikklassifikaw",howTxt:"Kull tabella hija kklassifikata bil-Punteġġ tal-Merill (0 sa 10). Għal kull kategorija nagħżlu l-metriċi li jgħoddu l-aktar (rata, miżati, ħeffa, data), ninnormalizzaw kull waħda fost il-fornituri kollha (l-aħjar = 1, l-agħar = 0), nagħtuhom piż u nskalawhom għal 10. Il-fornituri ma jistgħux iħallsu biex jibdlu l-pożizzjoni tagħhom. Ir-ringieli mmarkati “Parti relatata” huma konnessi mas-sidien tas-sit u jingħataw punteġġ bl-istess formula eżatta.",weights:"Piżijiet",
   contactTxt:"Id-dettalji tal-kuntatt jiġu ppubblikati hawn mal-varar.",
-  askSub:"Staqsi bi kliem sempliċi — insiblek l-aqwa tlieta.",askHint:"Ipprova:",askChips:["L-aħjar tfaddil għal €20k","L-irħas mobile bla limitu","Kont tan-negozju b'ħafna muniti","Ħut f'Marsaxlokk"],
+  askSub:"Staqsi bi kliem sempliċi u nsiblek l-aqwa tlieta.",askHint:"Ipprova:",askChips:["L-aħjar tfaddil għal €20k","L-irħas mobile bla limitu","Kont tan-negozju b'ħafna muniti","Ħut f'Marsaxlokk"],
   askNone:"Ma fhimtx x'għandi nqabbel. Ipprova wieħed mill-eżempji, jew agħżel kategorija.",askHere:"Dawn huma l-aqwa tlieta li sibt f'",seeTable:"Ara t-tabella sħiħa →",allCatsTitle:"Il-kategoriji kollha"},
  it:{
   nBanking:"Banca",nLoans:"Prestiti e Mutui",nCards:"Carte",nBusiness:"Business",nTelco:"Telco",nEat:"Mangiare",nMarkets:"Mercati",nNews:"Notizie",
   ask:"Chiedi al Merill",live:"Live · aggiornato ogni giorno",mseIdx:"Indice MSE",ecb:"Tasso depositi BCE",brent:"Brent",
-  eyebrow:"Il motore di confronto di Malta",h1a:"Ogni tasso, piano e tabella di Malta —",h1b:"fianco a fianco.",
-  lead:"Conti, prestiti, mutui, carte, piani mobile e dove mangiare — aggiornati ogni mattina, in inglese, maltese e italiano.",
+  eyebrow:"Il motore di confronto di Malta",h1a:"Ogni tasso, piano e tabella di Malta,",h1b:"fianco a fianco.",
+  lead:"Conti, prestiti, mutui, carte, piani mobile e dove mangiare. Aggiornati ogni mattina in inglese, maltese e italiano.",
   ph:"es. miglior conto risparmio per €20k",compare:"Confronta",chips:["Tassi mutuo","Piani 5G","Conti business","Pranzo a La Valletta"],
-  says:"Il-Merill dice",quote:"Dimmi di cosa hai bisogno — volo tra tutti i fornitori e ti riporto i tre migliori.",
+  says:"Il-Merill dice",quote:"Dimmi di cosa hai bisogno. Volo tra tutti i fornitori e ti riporto i tre migliori.",
   whatCmp:"Cosa stai confrontando?",allCats:"Tutte le categorie →",
   c:{banking:["Banca","Conti correnti e risparmio"],loans:["Prestiti e Mutui","Casa, personali, auto"],cards:["Carte di credito","Cashback, viaggi, TAEG basso"],business:["Business e fintech","Conti PMI, cambio, pagamenti"],telco:["Telco","Mobile, fibra, pacchetti TV"],eat:["Ristoranti","Dove mangia Malta questa settimana"],markets:["Mercati e cambi","MSE, indici globali, valute"],today:["Malta oggi","Rassegna quotidiana"]},
   topEyebrow:"La tabella di oggi",topT:{savings:"Conti risparmio a Malta",mortgages:"Tassi dei mutui a Malta",mobile:"Piani mobile a Malta"},tabs:{savings:"Risparmio",mortgages:"Mutui",mobile:"Mobile"},
   thrush:"Punteggio Merill",bestPick:"Scelta migliore",viewDeal:"Vedi offerta",
-  refreshed:"Tassi aggiornati ogni giorno alle {t} dai siti dei fornitori. CompareMalta.ai può ricevere una commissione — le classifiche non sono mai a pagamento.",
+  refreshed:"Tassi aggiornati ogni giorno alle {t} dai siti dei fornitori. CompareMalta.ai può ricevere una commissione, ma le classifiche non sono mai a pagamento.",
   morning:"Malta stamattina",readSum:"Leggi il riassunto →",fullMk:"Pagina completa dei mercati →",mkt:"Mercati",
   footTag:"Confronti indipendenti per la vita e il business a Malta. Aggiornati ogni giorno. English · Malti · Italiano.",fCompare:"Confronta",fDaily:"Ogni giorno",fAbout:"Chi siamo",fNews:"Notizie",fMarkets:"Mercati",fFx:"Cambi",fLoans:"Prestiti",fHow:"Come classifichiamo",fContact:"Contatti",
   filter:"Filtra…",sortBy:"Ordina per",updated:"Aggiornato",checked:"Verificato",notChecked:"Dati di catalogo",stale:"Ultimo valore noto",affiliated:"Parte correlata",
@@ -83,9 +83,9 @@ const T = {
   disclaimer:"Non è consulenza finanziaria. Verifica sempre i tassi con il fornitore prima di aderire.",
   feeds:"Feed",low:"più basso è meglio",high:"più alto è meglio",free:"Gratis",unlimited:"Illimitati",results:"risultati",noRes:"Nessun risultato.",
   tip:"Il consiglio di Merill",tipTxt:"Guarda il costo totale, non solo il tasso: commissioni e condizioni possono cambiare la classifica.",mNo:"Merill ha cercato ovunque ma non ha trovato nulla. Prova un'altra parola.",
-  howTitle:"Come classifichiamo",howTxt:"Ogni tabella è ordinata con il Punteggio Merill (0–10). Per ogni categoria scegliamo le metriche che contano di più — tasso, commissioni, velocità, dati — le normalizziamo tra tutti i fornitori (migliore = 1, peggiore = 0), le ponderiamo e le riportiamo su 10. I fornitori non possono pagare per cambiare posizione. Le righe “Parte correlata” sono collegate ai proprietari del sito e ricevono il punteggio con la stessa identica formula.",weights:"Pesi",
+  howTitle:"Come classifichiamo",howTxt:"Ogni tabella è ordinata con il Punteggio Merill (da 0 a 10). Per ogni categoria scegliamo le metriche che contano di più (tasso, commissioni, velocità, dati), le normalizziamo tra tutti i fornitori (migliore = 1, peggiore = 0), le ponderiamo e le riportiamo su 10. I fornitori non possono pagare per cambiare posizione. Le righe “Parte correlata” sono collegate ai proprietari del sito e ricevono il punteggio con la stessa identica formula.",weights:"Pesi",
   contactTxt:"I contatti saranno pubblicati qui al lancio.",
-  askSub:"Chiedi con parole semplici — trovo i tre migliori.",askHint:"Prova:",askChips:["Miglior risparmio per €20k","Mobile illimitato più economico","Conto business multivaluta","Pesce a Marsaxlokk"],
+  askSub:"Chiedi con parole semplici e trovo i tre migliori.",askHint:"Prova:",askChips:["Miglior risparmio per €20k","Mobile illimitato più economico","Conto business multivaluta","Pesce a Marsaxlokk"],
   askNone:"Non ho capito cosa confrontare. Prova un esempio o scegli una categoria.",askHere:"Ecco i tre migliori che ho trovato in",seeTable:"Vedi la tabella completa →",allCatsTitle:"Tutte le categorie"}
 };
 const COLS = {
@@ -133,7 +133,7 @@ async function get(name) {
   return D[name];
 }
 function fmt(v, f) {
-  if (v === null || v === undefined || v === "") return '<span class="muted">—</span>';
+  if (v === null || v === undefined || v === "") return '<span class="muted">-</span>';
   switch (f) {
     case "eur": return v === 0 ? `<span class="free">${t("free")}</span>` : "€" + nf(v);
     case "eur0": return "€" + nf(v, 0);
@@ -315,7 +315,7 @@ async function pageCategory(slug) {
   </div>
   <div class="tbl"><table><thead><tr>${cfg.columns.map(c => `<th data-k="${c.key}">${esc(colLabel(c.key))}</th>`).join("")}<th data-k="score">${t("thrush")}</th><th></th></tr></thead><tbody id="tb"></tbody></table></div>
   <div class="tip">${V.mascot(60)}<div><b>${t("tip")}</b><br>${t("tipTxt")}</div></div>
-  <p class="note"><b>${t("howTitle")}:</b> ${t("weights")} — ${esc(weights)}. <a class="link" href="#how-we-rank">${t("fHow")} →</a></p>
+  <p class="note"><b>${t("howTitle")}:</b> ${t("weights")}: ${esc(weights)}. <a class="link" href="#how-we-rank">${t("fHow")} →</a></p>
   ${extra}
   <div style="height:40px"></div></div>`;
 }
