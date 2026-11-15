@@ -234,7 +234,6 @@ async function pageHome() {
   const n1 = pickTopic("Business"), n2 = pickTopic("Property", n1);
   const r = c => (fx?.rates || []).find(x => x.ccy === c);
   const stoxx = (mk?.global || []).find(x => /stoxx/i.test(x.name));
-  setTimeout(bindHome, 0);
   return `
   <div class="wrap">
   <section class="hero">
@@ -485,6 +484,7 @@ async function route() {
   const pages = {news: pageNews, markets: pageMarkets, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
   $("#app").innerHTML = await (pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
   if (r === "markets") bindCalcs();
+  if ($("#heroForm")) bindHome();
   window.scrollTo(0, 0);
 }
 document.querySelectorAll("#langSeg button").forEach(b => b.onclick = () => { lang = b.dataset.l; try { localStorage.setItem("cm_lang", lang); } catch (e) {} renderChrome(); route(); });
