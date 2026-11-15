@@ -212,12 +212,14 @@ function outLink(url, slug, content) {
   try { const u = new URL(url); u.searchParams.set("utm_source", "comparemalta.ai"); u.searchParams.set("utm_medium", "comparison");
     u.searchParams.set("utm_campaign", slug || "general"); if (content) u.searchParams.set("utm_content", content); return u.toString(); } catch (e) { return url; }
 }
-const applyUrl = r => r.apply_url || r.url || r.maps;
+const searchUrl = r => `https://www.google.com/search?q=${encodeURIComponent(r.provider + " Malta")}`;
+const siteUrl = r => r.url && r.url_ok !== false ? r.url : (r.maps || searchUrl(r));
+const applyUrl = r => r.apply_url || siteUrl(r);
 function ctaBtn(r, slug, primary = true, size = "sm") {
   const href = outLink(applyUrl(r), slug, "cta");
   return `<a class="btn cta ${primary ? "" : "ghost"} ${size}" href="${esc(href)}" target="_blank" rel="noopener sponsored" data-p="${esc(r.provider)}">${t(CTA_FOR[slug] || "ctaApply")} <span class="arr">→</span></a>`;
 }
-const visitLink = (r, slug) => r.url ? `<a class="visit" href="${esc(outLink(r.url, slug, "visit"))}" target="_blank" rel="noopener sponsored">${t("visit")} ↗</a>` : "";
+const visitLink = (r, slug) => r.url ? `<a class="visit" href="${esc(outLink(siteUrl(r), slug, "visit"))}" target="_blank" rel="noopener sponsored">${t("visit")} ↗</a>` : "";
 const ctaCell = (r, slug, primary) => `<td class="cta-cell">${ctaBtn(r, slug, primary)}${visitLink(r, slug)}</td>`;
 
 /* ---------- shared blocks ---------- */
@@ -239,10 +241,10 @@ const dishCard = (r, i) => `
       <h3>${esc(r.provider)}</h3>
       <div><span class="price">${"€".repeat(r.price_level || 2)}</span> · ★ ${nf(r.rating || 0, 1)} <span class="muted">(${r.reviews || 0})</span></div>
       <p class="hl">${esc(r.highlight || "")}</p>
-      <div class="dish-cta">${ctaBtn(r, "restaurants", true)}${r.maps ? `<a class="visit" href="${esc(r.maps)}" target="_blank" rel="noopener">${t("dirs")} ↗</a>` : visitLink(r, "restaurants")}</div>
+      <div class="dish-cta">${ctaBtn(r, "restaurants", true)}${r.maps ? `<a class="visit" href="${esc(r.maps)}" target="_blank" rel="noopener">${t("dirs")} ↗</a>` : ""}</div>
     </div>
   </div>`;
-const provCell = (r, sub, slug) => `<div class="prov">${V.mono(r.provider, 34)}<div>${r.url ? `<a class="pname" href="${esc(outLink(r.url, slug, "name"))}" target="_blank" rel="noopener sponsored">${esc(r.provider)}</a>` : esc(r.provider)}${r.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}<small>${sub}</small></div></div>`;
+const provCell = (r, sub, slug) => `<div class="prov">${V.mono(r.provider, 34)}<div>${r.url ? `<a class="pname" href="${esc(outLink(siteUrl(r), slug, "name"))}" target="_blank" rel="noopener sponsored">${esc(r.provider)}</a>` : esc(r.provider)}${r.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}<small>${sub}</small></div></div>`;
 
 /* ---------- home ---------- */
 async function topTableHtml() {
