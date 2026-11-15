@@ -35,7 +35,7 @@ def _crypto(ids):
 
 
 def _mse(cfg):
-    """MSE home page lists 'Latest Equity Prices' as links to /reports/SYMBOL followed by 'price change'."""
+    """MSE home page 'Latest Equity Prices': <a href="/reports/SYM">SYM</a> then <span>price</span> <span>change</span>."""
     from bs4 import BeautifulSoup
 
     soup = BeautifulSoup(http_get(cfg["mse_url"]).text, "html.parser")
@@ -44,10 +44,11 @@ def _mse(cfg):
         sym = a.get_text(strip=True).upper()
         if not re.fullmatch(r"[A-Z0-9]{2,6}", sym) or sym in seen:
             continue
-        nxt = a.find_next(string=re.compile(r"-?\d+\.\d+\s+-?\d+\.\d+"))
-        if not nxt:
+        spans = [sp.get_text(strip=True).replace("\u2212", "-") for sp in a.find_all_next("span", limit=2)]
+        try:
+            price, chg = float(spans[0]), float(spans[1])
+        except (ValueError, IndexError):
             continue
-        price, chg = map(float, re.search(r"(-?\d+\.\d+)\s+(-?\d+\.\d+)", nxt).groups())
         seen.add(sym)
         base = price - chg
         out.append({"symbol": sym, "name": names.get(sym, sym), "price": price, "change_pct": round(chg / base * 100, 2) if base else 0.0})
