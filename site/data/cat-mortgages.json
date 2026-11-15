@@ -1,0 +1,84 @@
+{
+ "slug": "mortgages",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "MeDirect",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.4,
+   "ltv": 90,
+   "max_term": 40,
+   "first_time": true,
+   "url": "https://www.medirect.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 10.0
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.45,
+   "ltv": 90,
+   "max_term": 40,
+   "first_time": true,
+   "url": "https://www.apsbank.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 9.1
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.5,
+   "ltv": 90,
+   "max_term": 40,
+   "first_time": true,
+   "url": "https://www.bov.com",
+   "checked": null,
+   "demo": true,
+   "score": 8.3
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.6,
+   "ltv": 90,
+   "max_term": 40,
+   "first_time": true,
+   "url": "https://www.hsbc.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 6.6
+  },
+  {
+   "provider": "Lombard Bank",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.55,
+   "ltv": 85,
+   "max_term": 35,
+   "first_time": true,
+   "url": "https://www.lombardmalta.com",
+   "checked": null,
+   "demo": true,
+   "score": 3.4
+  },
+  {
+   "provider": "BNF Bank",
+   "product": "Home Loan Fixed 5Y",
+   "rate_type": "Fixed 5Y",
+   "rate": 3.75,
+   "ltv": 85,
+   "max_term": 35,
+   "first_time": false,
+   "url": "https://www.bnf.bank",
+   "checked": null,
+   "demo": true,
+   "score": 0.0
+  }
+ ]
+}

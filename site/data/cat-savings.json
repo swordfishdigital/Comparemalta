@@ -1,0 +1,72 @@
+{
+ "slug": "savings",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "MeDirect",
+   "product": "Fixed Term 12M",
+   "rate": 2.6,
+   "term_months": 12,
+   "min_deposit": 1000,
+   "url": "https://www.medirect.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 9.8
+  },
+  {
+   "provider": "Lombard Bank",
+   "product": "Term Deposit 24M",
+   "rate": 2.4,
+   "term_months": 24,
+   "min_deposit": 2500,
+   "url": "https://www.lombardmalta.com",
+   "checked": null,
+   "demo": true,
+   "score": 7.7
+  },
+  {
+   "provider": "BNF Bank",
+   "product": "Term Deposit 12M",
+   "rate": 2.1,
+   "term_months": 12,
+   "min_deposit": 500,
+   "url": "https://www.bnf.bank",
+   "checked": null,
+   "demo": true,
+   "score": 6.4
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Fixed Term 12M",
+   "rate": 2.0,
+   "term_months": 12,
+   "min_deposit": 1000,
+   "url": "https://www.apsbank.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 5.4
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Term Deposit 12M",
+   "rate": 1.5,
+   "term_months": 12,
+   "min_deposit": 1000,
+   "url": "https://www.bov.com",
+   "checked": null,
+   "demo": true,
+   "score": 1.8
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Fixed Deposit 12M",
+   "rate": 1.6,
+   "term_months": 12,
+   "min_deposit": 5000,
+   "url": "https://www.hsbc.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 0.7
+  }
+ ]
+}

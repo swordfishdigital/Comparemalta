@@ -1,0 +1,71 @@
+{
+ "slug": "personal-loans",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "BNF Bank",
+   "product": "Personal Loan",
+   "apr": 6.25,
+   "aprc": 6.8,
+   "max_amount": 50000,
+   "max_term_years": 8,
+   "fees": 50,
+   "url": "https://www.bnf.bank",
+   "checked": null,
+   "demo": true,
+   "score": 8.1
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Personal Loan",
+   "apr": 6.5,
+   "aprc": 6.95,
+   "max_amount": 50000,
+   "max_term_years": 10,
+   "fees": 50,
+   "url": "https://www.apsbank.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 7.9
+  },
+  {
+   "provider": "Lombard Bank",
+   "product": "Personal Loan",
+   "apr": 6.5,
+   "aprc": 7.0,
+   "max_amount": 40000,
+   "max_term_years": 7,
+   "fees": 40,
+   "url": "https://www.lombardmalta.com",
+   "checked": null,
+   "demo": true,
+   "score": 6.0
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Personal Loan",
+   "apr": 6.75,
+   "aprc": 7.2,
+   "max_amount": 75000,
+   "max_term_years": 10,
+   "fees": 60,
+   "url": "https://www.bov.com",
+   "checked": null,
+   "demo": true,
+   "score": 4.9
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Personal Loan",
+   "apr": 6.9,
+   "aprc": 7.4,
+   "max_amount": 60000,
+   "max_term_years": 10,
+   "fees": 75,
+   "url": "https://www.hsbc.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 2.0
+  }
+ ]
+}

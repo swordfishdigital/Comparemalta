@@ -1,0 +1,66 @@
+{
+ "slug": "credit-cards",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "BNF Bank",
+   "product": "Visa Credit",
+   "annual_fee": 0,
+   "apr": 17.0,
+   "fx_fee": 2.5,
+   "rewards": "First year free",
+   "url": "https://www.bnf.bank",
+   "checked": null,
+   "demo": true,
+   "score": 9.1
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Mastercard Credit",
+   "annual_fee": 20,
+   "apr": 16.5,
+   "fx_fee": 2.5,
+   "rewards": "None",
+   "url": "https://www.apsbank.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 8.8
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Visa Classic",
+   "annual_fee": 25,
+   "apr": 17.9,
+   "fx_fee": 2.75,
+   "rewards": "None",
+   "url": "https://www.bov.com",
+   "checked": null,
+   "demo": true,
+   "score": 4.6
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Visa Gold",
+   "annual_fee": 60,
+   "apr": 16.9,
+   "fx_fee": 2.75,
+   "rewards": "Travel insurance",
+   "url": "https://www.bov.com",
+   "checked": null,
+   "demo": true,
+   "score": 4.3
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Visa Credit",
+   "annual_fee": 30,
+   "apr": 18.5,
+   "fx_fee": 2.99,
+   "rewards": "Points",
+   "url": "https://www.hsbc.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 1.8
+  }
+ ]
+}

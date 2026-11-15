@@ -1,0 +1,792 @@
+{
+ "updated": "2026-11-15T12:30:48+00:00",
+ "config": {
+  "business-accounts": {
+   "title": "İşletme Hesapları",
+   "title_en": "Business Accounts",
+   "group": "Banka & Fintech",
+   "featured": true,
+   "intro": "Malta'daki KOBİ'ler, serbest çalışanlar ve holding şirketleri için banka ve EMI işletme hesapları.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Sağlayıcı"
+    },
+    {
+     "key": "product",
+     "label": "Ürün"
+    },
+    {
+     "key": "monthly_fee",
+     "label": "Aylık ücret",
+     "fmt": "eur"
+    },
+    {
+     "key": "sepa_fee",
+     "label": "SEPA transfer",
+     "fmt": "eur"
+    },
+    {
+     "key": "multi_currency",
+     "label": "Döviz hesabı",
+     "fmt": "bool"
+    },
+    {
+     "key": "onboarding_days",
+     "label": "Açılış (gün)",
+     "fmt": "num"
+    },
+    {
+     "key": "licence",
+     "label": "Lisans"
+    }
+   ],
+   "score": [
+    {
+     "key": "monthly_fee",
+     "w": 0.35,
+     "dir": "low"
+    },
+    {
+     "key": "sepa_fee",
+     "w": 0.2,
+     "dir": "low"
+    },
+    {
+     "key": "onboarding_days",
+     "w": 0.25,
+     "dir": "low"
+    },
+    {
+     "key": "multi_currency",
+     "w": 0.2,
+     "dir": "high"
+    }
+   ],
+   "intro_en": "Bank and EMI business accounts for SMEs, freelancers and holding companies in Malta.",
+   "title_mt": "Kontijiet tan-Negozju",
+   "intro_mt": "Kontijiet tan-negozju ta' banek u EMIs għal SMEs, freelancers u kumpaniji holding f'Malta.",
+   "title_it": "Conti Business",
+   "intro_it": "Conti business di banche e IMEL per PMI, liberi professionisti e holding a Malta."
+  },
+  "bank-accounts": {
+   "title": "Bireysel Hesaplar",
+   "title_en": "Current Accounts",
+   "group": "Banka & Fintech",
+   "intro": "Vadesiz bireysel hesaplar: aylık ücret, kart ücreti ve yurt dışı ATM masrafları.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Banka"
+    },
+    {
+     "key": "product",
+     "label": "Hesap"
+    },
+    {
+     "key": "monthly_fee",
+     "label": "Aylık ücret",
+     "fmt": "eur"
+    },
+    {
+     "key": "card_fee",
+     "label": "Kart ücreti/yıl",
+     "fmt": "eur"
+    },
+    {
+     "key": "atm_abroad_pct",
+     "label": "Yurt dışı ATM",
+     "fmt": "pct"
+    },
+    {
+     "key": "app",
+     "label": "Mobil uygulama",
+     "fmt": "bool"
+    }
+   ],
+   "score": [
+    {
+     "key": "monthly_fee",
+     "w": 0.4,
+     "dir": "low"
+    },
+    {
+     "key": "card_fee",
+     "w": 0.3,
+     "dir": "low"
+    },
+    {
+     "key": "atm_abroad_pct",
+     "w": 0.3,
+     "dir": "low"
+    }
+   ],
+   "intro_en": "Personal current accounts: monthly fees, card fees and ATM charges abroad.",
+   "title_mt": "Kontijiet Kurrenti",
+   "intro_mt": "Kontijiet kurrenti personali: miżati fix-xahar, miżati tal-karta u spejjeż tal-ATM barra minn Malta.",
+   "title_it": "Conti Correnti",
+   "intro_it": "Conti correnti personali: canone mensile, costo della carta e commissioni di prelievo all'estero."
+  },
+  "savings": {
+   "title": "Mevduat & Tasarruf",
+   "title_en": "Savings & Term Deposits",
+   "group": "Banka & Fintech",
+   "intro": "Vadeli mevduat ve tasarruf hesabı faizleri. Tüm Malta bankaları €100.000'e kadar Depositor Compensation Scheme kapsamında.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Banka"
+    },
+    {
+     "key": "product",
+     "label": "Ürün"
+    },
+    {
+     "key": "rate",
+     "label": "Faiz (yıllık)",
+     "fmt": "pct"
+    },
+    {
+     "key": "term_months",
+     "label": "Vade (ay)",
+     "fmt": "num"
+    },
+    {
+     "key": "min_deposit",
+     "label": "Min. tutar",
+     "fmt": "eur0"
+    }
+   ],
+   "score": [
+    {
+     "key": "rate",
+     "w": 0.8,
+     "dir": "high"
+    },
+    {
+     "key": "min_deposit",
+     "w": 0.2,
+     "dir": "low"
+    }
+   ],
+   "intro_en": "Term deposit and savings rates. Malta-licensed banks are covered by the Depositor Compensation Scheme up to €100,000.",
+   "title_mt": "Tfaddil u Depożiti Fissi",
+   "intro_mt": "Rati tad-depożiti fissi u tat-tfaddil. Il-banek liċenzjati f'Malta huma koperti mid-Depositor Compensation Scheme sa €100,000.",
+   "title_it": "Risparmio e Depositi Vincolati",
+   "intro_it": "Tassi di depositi vincolati e conti risparmio. Le banche autorizzate a Malta sono coperte dal Depositor Compensation Scheme fino a €100.000."
+  },
+  "personal-loans": {
+   "title": "İhtiyaç Kredisi",
+   "title_en": "Personal Loans",
+   "group": "Kredi",
+   "intro": "Bireysel krediler: yıllık maliyet oranı (APRC), tutar aralığı ve vade.",
+   "calculator": "loan",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Banka"
+    },
+    {
+     "key": "product",
+     "label": "Kredi"
+    },
+    {
+     "key": "apr",
+     "label": "Faiz",
+     "fmt": "pct"
+    },
+    {
+     "key": "aprc",
+     "label": "APRC",
+     "fmt": "pct"
+    },
+    {
+     "key": "max_amount",
+     "label": "Maks. tutar",
+     "fmt": "eur0"
+    },
+    {
+     "key": "max_term_years",
+     "label": "Maks. vade (yıl)",
+     "fmt": "num"
+    },
+    {
+     "key": "fees",
+     "label": "Dosya masrafı",
+     "fmt": "eur"
+    }
+   ],
+   "score": [
+    {
+     "key": "aprc",
+     "w": 0.6,
+     "dir": "low"
+    },
+    {
+     "key": "fees",
+     "w": 0.2,
+     "dir": "low"
+    },
+    {
+     "key": "max_term_years",
+     "w": 0.2,
+     "dir": "high"
+    }
+   ],
+   "intro_en": "Personal loans: interest, APRC, amount range and term.",
+   "title_mt": "Self Personali",
+   "intro_mt": "Self personali: imgħax, APRC, ammonti u terminu.",
+   "title_it": "Prestiti Personali",
+   "intro_it": "Prestiti personali: tasso, TAEG, importi e durata."
+  },
+  "mortgages": {
+   "title": "Konut Kredisi",
+   "title_en": "Home Loans",
+   "group": "Kredi",
+   "intro": "Mortgage oranları: değişken / sabit, LTV ve vade. İlk ev alıcılarına özel ürünler işaretli.",
+   "calculator": "mortgage",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Banka"
+    },
+    {
+     "key": "product",
+     "label": "Ürün"
+    },
+    {
+     "key": "rate_type",
+     "label": "Tür"
+    },
+    {
+     "key": "rate",
+     "label": "Faiz",
+     "fmt": "pct"
+    },
+    {
+     "key": "ltv",
+     "label": "Maks. LTV",
+     "fmt": "pct0"
+    },
+    {
+     "key": "max_term",
+     "label": "Maks. vade",
+     "fmt": "num"
+    },
+    {
+     "key": "first_time",
+     "label": "İlk ev",
+     "fmt": "bool"
+    }
+   ],
+   "score": [
+    {
+     "key": "rate",
+     "w": 0.6,
+     "dir": "low"
+    },
+    {
+     "key": "ltv",
+     "w": 0.2,
+     "dir": "high"
+    },
+    {
+     "key": "max_term",
+     "w": 0.2,
+     "dir": "high"
+    }
+   ],
+   "intro_en": "Home loan rates: variable / fixed, LTV and term. First-time-buyer products flagged.",
+   "title_mt": "Self għad-Dar",
+   "intro_mt": "Rati tas-self għad-dar: varjabbli jew fissi, LTV u terminu. Prodotti għal min qed jixtri l-ewwel dar huma mmarkati.",
+   "title_it": "Mutui Casa",
+   "intro_it": "Tassi dei mutui: variabile o fisso, LTV e durata. Evidenziati i prodotti per chi acquista la prima casa."
+  },
+  "credit-cards": {
+   "title": "Kredi Kartları",
+   "title_en": "Credit Cards",
+   "group": "Kredi",
+   "intro": "Yıllık ücret, faiz, yurt dışı işlem ücreti ve ödül programları.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Banka"
+    },
+    {
+     "key": "product",
+     "label": "Kart"
+    },
+    {
+     "key": "annual_fee",
+     "label": "Yıllık ücret",
+     "fmt": "eur"
+    },
+    {
+     "key": "apr",
+     "label": "Faiz",
+     "fmt": "pct"
+    },
+    {
+     "key": "fx_fee",
+     "label": "Döviz ücreti",
+     "fmt": "pct"
+    },
+    {
+     "key": "rewards",
+     "label": "Ödül"
+    }
+   ],
+   "score": [
+    {
+     "key": "annual_fee",
+     "w": 0.35,
+     "dir": "low"
+    },
+    {
+     "key": "apr",
+     "w": 0.35,
+     "dir": "low"
+    },
+    {
+     "key": "fx_fee",
+     "w": 0.3,
+     "dir": "low"
+    }
+   ],
+   "intro_en": "Annual fee, interest, foreign transaction fee and rewards.",
+   "title_mt": "Karti tal-Kreditu",
+   "intro_mt": "Miżata annwali, imgħax, miżata fuq tranżazzjonijiet barranin u premjijiet.",
+   "title_it": "Carte di Credito",
+   "intro_it": "Canone annuo, tasso, commissione sulle transazioni estere e programmi premi."
+  },
+  "fintech": {
+   "title": "Fintech & Dijital Cüzdan",
+   "title_en": "Fintech Apps",
+   "group": "Banka & Fintech",
+   "intro": "Malta'da kullanılabilen dijital hesaplar ve kart uygulamaları; döviz marjı ve aylık plan karşılaştırması.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Sağlayıcı"
+    },
+    {
+     "key": "product",
+     "label": "Plan"
+    },
+    {
+     "key": "monthly_fee",
+     "label": "Aylık",
+     "fmt": "eur"
+    },
+    {
+     "key": "fx_markup",
+     "label": "Döviz marjı",
+     "fmt": "pct"
+    },
+    {
+     "key": "iban",
+     "label": "IBAN"
+    },
+    {
+     "key": "licence",
+     "label": "Lisans"
+    }
+   ],
+   "score": [
+    {
+     "key": "monthly_fee",
+     "w": 0.5,
+     "dir": "low"
+    },
+    {
+     "key": "fx_markup",
+     "w": 0.5,
+     "dir": "low"
+    }
+   ],
+   "intro_en": "Digital accounts and card apps available in Malta: FX markup and monthly plans.",
+   "title_mt": "Apps Fintech",
+   "intro_mt": "Kontijiet diġitali u apps tal-karti disponibbli f'Malta: markup tal-kambju u pjanijiet fix-xahar.",
+   "title_it": "App Fintech",
+   "intro_it": "Conti digitali e app di pagamento disponibili a Malta: ricarico sul cambio e piani mensili."
+  },
+  "money-transfer": {
+   "title": "Para Transferi",
+   "title_en": "Money Transfer",
+   "group": "Banka & Fintech",
+   "intro": "€1.000 gönderim için ücret, kur marjı ve hız (EUR→GBP / TRY / USD).",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Sağlayıcı"
+    },
+    {
+     "key": "corridor",
+     "label": "Koridor"
+    },
+    {
+     "key": "fee",
+     "label": "Ücret",
+     "fmt": "eur"
+    },
+    {
+     "key": "fx_margin",
+     "label": "Kur marjı",
+     "fmt": "pct"
+    },
+    {
+     "key": "speed",
+     "label": "Hız"
+    }
+   ],
+   "score": [
+    {
+     "key": "fee",
+     "w": 0.5,
+     "dir": "low"
+    },
+    {
+     "key": "fx_margin",
+     "w": 0.5,
+     "dir": "low"
+    }
+   ],
+   "intro_en": "Sending €1,000: fee, FX margin and speed (EUR→GBP / TRY / USD).",
+   "title_mt": "Trasferiment ta' Flus",
+   "intro_mt": "Biex tibgħat €1,000: miżata, marġni tal-kambju u ħeffa (EUR→GBP / TRY / USD).",
+   "title_it": "Trasferimenti di Denaro",
+   "intro_it": "Per inviare €1.000: commissione, margine sul cambio e velocità (EUR→GBP / TRY / USD)."
+  },
+  "telco-mobile": {
+   "title": "Mobil Hat",
+   "title_en": "Mobile Plans",
+   "group": "Telekom",
+   "intro": "GO, Epic ve Melita faturalı ve faturasız paketleri.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Operatör"
+    },
+    {
+     "key": "product",
+     "label": "Paket"
+    },
+    {
+     "key": "price",
+     "label": "Aylık",
+     "fmt": "eur"
+    },
+    {
+     "key": "data_gb",
+     "label": "Data (GB)",
+     "fmt": "num"
+    },
+    {
+     "key": "eu_roaming_gb",
+     "label": "AB roaming (GB)",
+     "fmt": "num"
+    },
+    {
+     "key": "contract",
+     "label": "Taahhüt"
+    }
+   ],
+   "score": [
+    {
+     "key": "price",
+     "w": 0.5,
+     "dir": "low"
+    },
+    {
+     "key": "data_gb",
+     "w": 0.35,
+     "dir": "high"
+    },
+    {
+     "key": "eu_roaming_gb",
+     "w": 0.15,
+     "dir": "high"
+    }
+   ],
+   "intro_en": "GO, Epic and Melita postpaid and prepaid plans.",
+   "title_mt": "Pjanijiet Mobbli",
+   "intro_mt": "Pjanijiet postpaid u prepaid ta' GO, Epic u Melita.",
+   "title_it": "Piani Mobile",
+   "intro_it": "Piani in abbonamento e ricaricabili di GO, Epic e Melita."
+  },
+  "telco-broadband": {
+   "title": "Ev İnterneti & TV",
+   "title_en": "Broadband & TV",
+   "group": "Telekom",
+   "intro": "Fiber internet hızları, fiyatlar ve TV paketleri.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Operatör"
+    },
+    {
+     "key": "product",
+     "label": "Paket"
+    },
+    {
+     "key": "speed_mbps",
+     "label": "Hız (Mbps)",
+     "fmt": "num"
+    },
+    {
+     "key": "price",
+     "label": "Aylık",
+     "fmt": "eur"
+    },
+    {
+     "key": "tv",
+     "label": "TV",
+     "fmt": "bool"
+    },
+    {
+     "key": "contract",
+     "label": "Taahhüt"
+    }
+   ],
+   "score": [
+    {
+     "key": "price",
+     "w": 0.5,
+     "dir": "low"
+    },
+    {
+     "key": "speed_mbps",
+     "w": 0.5,
+     "dir": "high"
+    }
+   ],
+   "intro_en": "Fibre speeds, prices and TV bundles.",
+   "title_mt": "Internet u TV",
+   "intro_mt": "Veloċitajiet tal-fibra, prezzijiet u pakketti tat-TV.",
+   "title_it": "Internet Casa e TV",
+   "intro_it": "Velocità della fibra, prezzi e pacchetti TV."
+  },
+  "insurance": {
+   "title": "Sigorta",
+   "title_en": "Insurance",
+   "group": "Sigorta",
+   "intro": "Araç, konut ve sağlık sigortası başlangıç fiyatları.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Sigortacı"
+    },
+    {
+     "key": "type",
+     "label": "Tür"
+    },
+    {
+     "key": "product",
+     "label": "Ürün"
+    },
+    {
+     "key": "from_price",
+     "label": "Başlangıç/yıl",
+     "fmt": "eur0"
+    },
+    {
+     "key": "online_quote",
+     "label": "Online teklif",
+     "fmt": "bool"
+    }
+   ],
+   "score": [
+    {
+     "key": "from_price",
+     "w": 0.7,
+     "dir": "low"
+    },
+    {
+     "key": "online_quote",
+     "w": 0.3,
+     "dir": "high"
+    }
+   ],
+   "intro_en": "Car, home and health insurance starting prices.",
+   "title_mt": "Assigurazzjoni",
+   "intro_mt": "Prezzijiet tal-bidu għall-assigurazzjoni tal-karozza, tad-dar u tas-saħħa.",
+   "title_it": "Assicurazioni",
+   "intro_it": "Prezzi di partenza per assicurazioni auto, casa e salute."
+  },
+  "investing": {
+   "title": "Yatırım Platformları",
+   "title_en": "Investing",
+   "group": "Yatırım",
+   "intro": "MSE ve global piyasalara erişim sunan aracı kurumlar ve uygulamalar.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Platform"
+    },
+    {
+     "key": "product",
+     "label": "Hesap"
+    },
+    {
+     "key": "trade_fee",
+     "label": "İşlem ücreti",
+     "fmt": "eur"
+    },
+    {
+     "key": "custody_pct",
+     "label": "Saklama/yıl",
+     "fmt": "pct"
+    },
+    {
+     "key": "mse_access",
+     "label": "MSE erişimi",
+     "fmt": "bool"
+    },
+    {
+     "key": "licence",
+     "label": "Lisans"
+    }
+   ],
+   "score": [
+    {
+     "key": "trade_fee",
+     "w": 0.45,
+     "dir": "low"
+    },
+    {
+     "key": "custody_pct",
+     "w": 0.35,
+     "dir": "low"
+    },
+    {
+     "key": "mse_access",
+     "w": 0.2,
+     "dir": "high"
+    }
+   ],
+   "intro_en": "Brokers and apps with access to the MSE and global markets.",
+   "title_mt": "Pjattaformi tal-Investiment",
+   "intro_mt": "Brokers u apps b'aċċess għall-Borża ta' Malta u għas-swieq globali.",
+   "title_it": "Piattaforme di Investimento",
+   "intro_it": "Broker e app con accesso alla Borsa di Malta e ai mercati globali."
+  },
+  "restaurants": {
+   "title": "Restoranlar",
+   "title_en": "Restaurants",
+   "group": "Yaşam",
+   "intro": "Bölgeye, mutfağa ve bütçeye göre Malta ve Gozo restoranları; her gün yeni öneriler.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Restoran"
+    },
+    {
+     "key": "area",
+     "label": "Bölge"
+    },
+    {
+     "key": "cuisine",
+     "label": "Mutfak"
+    },
+    {
+     "key": "price_level",
+     "label": "Fiyat",
+     "fmt": "price"
+    },
+    {
+     "key": "rating",
+     "label": "Puan",
+     "fmt": "rating"
+    },
+    {
+     "key": "highlight",
+     "label": "Öne çıkan"
+    }
+   ],
+   "score": [
+    {
+     "key": "rating",
+     "w": 0.8,
+     "dir": "high"
+    },
+    {
+     "key": "reviews",
+     "w": 0.2,
+     "dir": "high"
+    }
+   ],
+   "intro_en": "Malta & Gozo restaurants by area, cuisine and budget — fresh picks every day.",
+   "title_mt": "Restoranti",
+   "intro_mt": "Restoranti f'Malta u Għawdex skont iż-żona, il-kċina u l-baġit — għażliet ġodda kuljum.",
+   "title_it": "Ristoranti",
+   "intro_it": "Ristoranti a Malta e Gozo per zona, cucina e budget — nuovi consigli ogni giorno."
+  }
+ },
+ "index": [
+  {
+   "slug": "business-accounts",
+   "count": 8,
+   "best": "wamo"
+  },
+  {
+   "slug": "bank-accounts",
+   "count": 6,
+   "best": "MeDirect"
+  },
+  {
+   "slug": "savings",
+   "count": 6,
+   "best": "MeDirect"
+  },
+  {
+   "slug": "personal-loans",
+   "count": 5,
+   "best": "BNF Bank"
+  },
+  {
+   "slug": "mortgages",
+   "count": 6,
+   "best": "MeDirect"
+  },
+  {
+   "slug": "credit-cards",
+   "count": 5,
+   "best": "BNF Bank"
+  },
+  {
+   "slug": "fintech",
+   "count": 5,
+   "best": "N26"
+  },
+  {
+   "slug": "money-transfer",
+   "count": 6,
+   "best": "wamo"
+  },
+  {
+   "slug": "telco-mobile",
+   "count": 6,
+   "best": "Melita"
+  },
+  {
+   "slug": "telco-broadband",
+   "count": 5,
+   "best": "Epic"
+  },
+  {
+   "slug": "insurance",
+   "count": 5,
+   "best": "Atlas Insurance"
+  },
+  {
+   "slug": "investing",
+   "count": 5,
+   "best": "Trade Republic"
+  },
+  {
+   "slug": "restaurants",
+   "count": 10,
+   "best": "ION Harbour"
+  }
+ ]
+}

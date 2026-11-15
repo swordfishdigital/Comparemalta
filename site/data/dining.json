@@ -1,0 +1,36 @@
+{
+ "updated": "2026-11-15T12:30:48+00:00",
+ "date": "2026-11-15",
+ "picks": [
+  {
+   "provider": "Diar il-Bniet",
+   "area": "Dingli",
+   "cuisine": "Farm-to-table",
+   "price_level": 2,
+   "rating": 4.6,
+   "reviews": 2500,
+   "highlight": "Produce from its own farm",
+   "url": "https://www.diarilbniet.com"
+  },
+  {
+   "provider": "Under Grain",
+   "area": "Valletta",
+   "cuisine": "Modern European",
+   "price_level": 4,
+   "rating": 4.7,
+   "reviews": 900,
+   "highlight": "Michelin star",
+   "url": "https://www.undergrain.mt"
+  },
+  {
+   "provider": "Ta' Kris",
+   "area": "Sliema",
+   "cuisine": "Traditional Maltese",
+   "price_level": 2,
+   "rating": 4.5,
+   "reviews": 3500,
+   "highlight": "Rabbit stew (stuffat tal-fenek)",
+   "url": "https://www.takris.com"
+  }
+ ]
+}

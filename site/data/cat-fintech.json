@@ -1,0 +1,66 @@
+{
+ "slug": "fintech",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "N26",
+   "product": "Standard",
+   "monthly_fee": 0,
+   "fx_markup": 0,
+   "iban": "DE",
+   "licence": "Bank (Germany)",
+   "url": "https://n26.com",
+   "checked": null,
+   "demo": true,
+   "score": 10.0
+  },
+  {
+   "provider": "Wise",
+   "product": "Wise Account",
+   "monthly_fee": 0,
+   "fx_markup": 0.45,
+   "iban": "BE",
+   "licence": "EMI (Belgium)",
+   "url": "https://wise.com",
+   "checked": null,
+   "demo": true,
+   "score": 9.2
+  },
+  {
+   "provider": "Revolut",
+   "product": "Standard",
+   "monthly_fee": 0,
+   "fx_markup": 0.5,
+   "iban": "LT",
+   "licence": "Bank (Lithuania)",
+   "url": "https://www.revolut.com",
+   "checked": null,
+   "demo": true,
+   "score": 9.1
+  },
+  {
+   "provider": "Revolut",
+   "product": "Premium",
+   "monthly_fee": 9.99,
+   "fx_markup": 0,
+   "iban": "LT",
+   "licence": "Bank (Lithuania)",
+   "url": "https://www.revolut.com",
+   "checked": null,
+   "demo": true,
+   "score": 5.0
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "BOV Mobile + Apple Pay",
+   "monthly_fee": 0,
+   "fx_markup": 2.75,
+   "iban": "MT",
+   "licence": "Card issuer",
+   "url": "https://www.bov.com",
+   "checked": null,
+   "demo": true,
+   "score": 5.0
+  }
+ ]
+}

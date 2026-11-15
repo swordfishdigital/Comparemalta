@@ -1,0 +1,217 @@
+{
+ "_doc": "Ürün feed kaynakları. Her kayıt: kategori + sağlayıcı + ürün eşleşmesi, sayfa URL'si ve alan başına regex. Regex sayfanın düz metninde aranır; ilk yakalanan grup sayıya çevrilir. Sayfa düzeni değişirse kayıt 'stale' olarak işaretlenir ve son bilinen değer gösterilir. verified=false olanlar ilk çalıştırmada kontrol edilmeli.",
+ "products": [
+  {
+   "category": "savings",
+   "provider": "MeDirect",
+   "product": "Fixed Term 12M",
+   "url": "https://www.medirect.com.mt/savings/fixed-term-deposits",
+   "fields": {
+    "rate": "12[ -]?months?[^%]{0,80}?(\\d+[.,]\\d+)\\s*%"
+   },
+   "verified": false
+  },
+  {
+   "category": "savings",
+   "provider": "Bank of Valletta",
+   "product": "Term Deposit 12M",
+   "url": "https://www.bov.com/rates",
+   "fields": {
+    "rate": "1 Year[^%]{0,60}?(\\d+[.,]\\d+)\\s*%"
+   },
+   "verified": false
+  },
+  {
+   "category": "savings",
+   "provider": "APS Bank",
+   "product": "Fixed Term 12M",
+   "url": "https://www.apsbank.com.mt/interest-rates",
+   "fields": {
+    "rate": "12 months?[^%]{0,60}?(\\d+[.,]\\d+)\\s*%"
+   },
+   "verified": false
+  },
+  {
+   "category": "savings",
+   "provider": "BNF Bank",
+   "product": "Term Deposit 12M",
+   "url": "https://www.bnf.bank/interest-rates",
+   "fields": {
+    "rate": "12 months?[^%]{0,60}?(\\d+[.,]\\d+)\\s*%"
+   },
+   "verified": false
+  },
+  {
+   "category": "mortgages",
+   "provider": "Bank of Valletta",
+   "product": "Home Loan",
+   "url": "https://www.bov.com/rates",
+   "fields": {
+    "rate": "Home Loan[^%]{0,80}?(\\d+[.,]\\d+)\\s*%"
+   },
+   "verified": false
+  },
+  {
+   "category": "mortgages",
+   "provider": "HSBC Malta",
+   "product": "Home Loan",
+   "url": "https://www.hsbc.com.mt/mortgages/",
+   "fields": {
+    "rate": "(\\d+[.,]\\d+)\\s*%\\s*(?:variable|APRC)"
+   },
+   "verified": false
+  },
+  {
+   "category": "mortgages",
+   "provider": "APS Bank",
+   "product": "Home Loan",
+   "url": "https://www.apsbank.com.mt/home-loans",
+   "fields": {
+    "rate": "(\\d+[.,]\\d+)\\s*%"
+   },
+   "verified": false
+  },
+  {
+   "category": "personal-loans",
+   "provider": "Bank of Valletta",
+   "product": "Personal Loan",
+   "url": "https://www.bov.com/personal/loans/personal-loan",
+   "fields": {
+    "apr": "(\\d+[.,]\\d+)\\s*%\\s*(?:p\\.a|nominal)",
+    "aprc": "APRC[^%]{0,30}?(\\d+[.,]\\d+)\\s*%"
+   },
+   "verified": false
+  },
+  {
+   "category": "telco-mobile",
+   "provider": "GO",
+   "product": "Postpaid Unlimited",
+   "url": "https://www.go.com.mt/mobile",
+   "fields": {
+    "price": "Unlimited[^€]{0,80}€\\s*(\\d+[.,]?\\d*)"
+   },
+   "verified": false
+  },
+  {
+   "category": "telco-mobile",
+   "provider": "Epic",
+   "product": "Epic Unlimited",
+   "url": "https://www.epic.com.mt/mobile",
+   "fields": {
+    "price": "Unlimited[^€]{0,80}€\\s*(\\d+[.,]?\\d*)"
+   },
+   "verified": false
+  },
+  {
+   "category": "telco-broadband",
+   "provider": "Melita",
+   "product": "Internet 500",
+   "url": "https://www.melita.com/internet",
+   "fields": {
+    "price": "500\\s*Mbps[^€]{0,80}€\\s*(\\d+[.,]?\\d*)"
+   },
+   "verified": false
+  }
+ ],
+ "news": [
+  {
+   "name": "Times of Malta",
+   "url": "https://timesofmalta.com/rss"
+  },
+  {
+   "name": "Malta Today",
+   "url": "https://www.maltatoday.com.mt/rss/news"
+  },
+  {
+   "name": "Newsbook",
+   "url": "https://newsbook.com.mt/en/feed/"
+  },
+  {
+   "name": "Lovin Malta",
+   "url": "https://lovinmalta.com/feed/"
+  },
+  {
+   "name": "Business Now",
+   "url": "https://businessnow.mt/feed/"
+  },
+  {
+   "name": "Newsbook Business",
+   "url": "https://newsbook.com.mt/en/category/business/feed/"
+  }
+ ],
+ "markets": {
+  "yahoo": {
+   "S&P 500": "^GSPC",
+   "Dow Jones": "^DJI",
+   "Nasdaq 100": "^NDX",
+   "DAX": "^GDAXI",
+   "FTSE 100": "^FTSE",
+   "CAC 40": "^FCHI",
+   "Euro Stoxx 50": "^STOXX50E",
+   "BIST 100": "XU100.IS",
+   "Gold (USD/oz)": "GC=F",
+   "Brent": "BZ=F",
+   "EUR/USD": "EURUSD=X"
+  },
+  "crypto": [
+   "bitcoin",
+   "ethereum",
+   "solana"
+  ],
+  "mse_url": "https://www.borzamalta.com.mt/",
+  "mse_names": {
+   "BOV": "Bank of Valletta plc",
+   "HSB": "HSBC Bank Malta plc",
+   "APS": "APS Bank plc",
+   "LOM": "Lombard Bank Malta plc",
+   "GO": "GO plc",
+   "MTP": "MaltaPost plc",
+   "MIA": "Malta International Airport plc",
+   "SFC": "Simonds Farsons Cisk plc",
+   "PZC": "Plaza Centres plc",
+   "IHI": "International Hotel Investments plc",
+   "RS2": "RS2 plc",
+   "FIM": "FIMBank plc",
+   "MAP": "Mapfre Malta plc",
+   "MDS": "MedservRegis plc",
+   "GHM": "Grand Harbour Marina plc",
+   "AXR": "AX Real Estate plc",
+   "BMIT": "BMIT Technologies plc",
+   "HRV": "Harvest Technology plc",
+   "LQS": "Loqus Holdings plc",
+   "LSR": "LifeStar Holding plc",
+   "LSI": "LifeStar Insurance plc",
+   "MDI": "Malta Properties Company plc",
+   "TRI": "Trident Estates plc",
+   "STS": "Santumas Shareholdings plc",
+   "MPC": "Malita Investments plc"
+  }
+ },
+ "fx": {
+  "ecb_daily": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+  "ecb_hist90": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml",
+  "show": [
+   "USD",
+   "GBP",
+   "TRY",
+   "CHF",
+   "JPY",
+   "SEK",
+   "NOK",
+   "DKK",
+   "PLN",
+   "CNY",
+   "AED"
+  ]
+ },
+ "restaurants": {
+  "google_places_queries": [
+   "best restaurants Valletta",
+   "best restaurants Sliema",
+   "best restaurants St Julian's",
+   "seafood Marsaxlokk",
+   "traditional maltese food Gozo",
+   "restaurants Mdina Rabat"
+  ]
+ }
+}

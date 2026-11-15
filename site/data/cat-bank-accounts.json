@@ -1,0 +1,78 @@
+{
+ "slug": "bank-accounts",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "MeDirect",
+   "product": "Current Account",
+   "monthly_fee": 0,
+   "card_fee": 0,
+   "atm_abroad_pct": 0,
+   "app": true,
+   "url": "https://www.medirect.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 10.0
+  },
+  {
+   "provider": "BNF Bank",
+   "product": "Current Account",
+   "monthly_fee": 0,
+   "card_fee": 10,
+   "atm_abroad_pct": 1.75,
+   "app": true,
+   "url": "https://www.bnf.bank",
+   "checked": null,
+   "demo": true,
+   "score": 5.4
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Personal Current",
+   "monthly_fee": 1.0,
+   "card_fee": 8,
+   "atm_abroad_pct": 2.0,
+   "app": true,
+   "url": "https://www.apsbank.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 3.6
+  },
+  {
+   "provider": "Lombard Bank",
+   "product": "Current Account",
+   "monthly_fee": 1.0,
+   "card_fee": 10,
+   "atm_abroad_pct": 2.0,
+   "app": true,
+   "url": "https://www.lombardmalta.com",
+   "checked": null,
+   "demo": true,
+   "score": 3.1
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Current Account",
+   "monthly_fee": 1.5,
+   "card_fee": 10,
+   "atm_abroad_pct": 2.0,
+   "app": true,
+   "url": "https://www.bov.com",
+   "checked": null,
+   "demo": true,
+   "score": 2.1
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Current Account",
+   "monthly_fee": 2.0,
+   "card_fee": 12,
+   "atm_abroad_pct": 2.5,
+   "app": true,
+   "url": "https://www.hsbc.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 0.0
+  }
+ ]
+}

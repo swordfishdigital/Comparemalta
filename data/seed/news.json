@@ -1,0 +1,60 @@
+{
+ "updated": null,
+ "demo": true,
+ "items": [
+  {
+   "id": "demo0",
+   "title": "Sample headline — Times of Malta daily feed appears here",
+   "url": "https://timesofmalta.com",
+   "source": "Times of Malta",
+   "published": null,
+   "summary": "Preview data. Once the feed runs, the headline, a short summary and a link come from the publisher's RSS.",
+   "topic": "Business"
+  },
+  {
+   "id": "demo1",
+   "title": "Sample headline — Malta Today daily feed appears here",
+   "url": "https://www.maltatoday.com.mt",
+   "source": "Malta Today",
+   "published": null,
+   "summary": "Preview data. Once the feed runs, the headline, a short summary and a link come from the publisher's RSS.",
+   "topic": "Malta"
+  },
+  {
+   "id": "demo2",
+   "title": "Sample headline — Newsbook daily feed appears here",
+   "url": "https://newsbook.com.mt/en/",
+   "source": "Newsbook",
+   "published": null,
+   "summary": "Preview data. Once the feed runs, the headline, a short summary and a link come from the publisher's RSS.",
+   "topic": "Politics"
+  },
+  {
+   "id": "demo3",
+   "title": "Sample headline — Malta Independent daily feed appears here",
+   "url": "https://www.independent.com.mt",
+   "source": "Malta Independent",
+   "published": null,
+   "summary": "Preview data. Once the feed runs, the headline, a short summary and a link come from the publisher's RSS.",
+   "topic": "Lifestyle"
+  },
+  {
+   "id": "demo4",
+   "title": "Sample headline — Lovin Malta daily feed appears here",
+   "url": "https://lovinmalta.com",
+   "source": "Lovin Malta",
+   "published": null,
+   "summary": "Preview data. Once the feed runs, the headline, a short summary and a link come from the publisher's RSS.",
+   "topic": "Tech"
+  },
+  {
+   "id": "demo5",
+   "title": "Sample headline — Business Now daily feed appears here",
+   "url": "https://businessnow.mt",
+   "source": "Business Now",
+   "published": null,
+   "summary": "Preview data. Once the feed runs, the headline, a short summary and a link come from the publisher's RSS.",
+   "topic": "Business"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "slug": "insurance",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "Atlas Insurance",
+   "type": "Home",
+   "product": "Home Insurance",
+   "from_price": 120,
+   "online_quote": true,
+   "url": "https://www.atlas.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 10.0
+  },
+  {
+   "provider": "Elmo Insurance",
+   "type": "Car",
+   "product": "Motor Insurance",
+   "from_price": 310,
+   "online_quote": true,
+   "url": "https://www.elmoinsurance.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 6.0
+  },
+  {
+   "provider": "MAPFRE Middlesea",
+   "type": "Car",
+   "product": "Motor Insurance",
+   "from_price": 330,
+   "online_quote": true,
+   "url": "https://www.middlesea.com",
+   "checked": null,
+   "demo": true,
+   "score": 5.5
+  },
+  {
+   "provider": "GasanMamo",
+   "type": "Car",
+   "product": "Motor Comprehensive",
+   "from_price": 350,
+   "online_quote": true,
+   "url": "https://www.gasanmamo.com",
+   "checked": null,
+   "demo": true,
+   "score": 5.1
+  },
+  {
+   "provider": "Bupa Malta",
+   "type": "Health",
+   "product": "Health Insurance",
+   "from_price": 450,
+   "online_quote": false,
+   "url": "https://www.bupa.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 0.0
+  }
+ ]
+}

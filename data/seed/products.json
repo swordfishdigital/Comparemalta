@@ -1,0 +1,744 @@
+{
+ "business-accounts": [
+  {
+   "provider": "wamo",
+   "product": "wamo Business",
+   "monthly_fee": 0,
+   "sepa_fee": 0,
+   "multi_currency": true,
+   "onboarding_days": 1,
+   "licence": "EMI (FIN-FSA)",
+   "url": "https://wamo.io",
+   "affiliated": true
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Business Current Account",
+   "monthly_fee": 6.0,
+   "sepa_fee": 1.5,
+   "multi_currency": true,
+   "onboarding_days": 21,
+   "licence": "Bank (MFSA)",
+   "url": "https://www.bov.com"
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Business Banking",
+   "monthly_fee": 10.0,
+   "sepa_fee": 1.0,
+   "multi_currency": true,
+   "onboarding_days": 30,
+   "licence": "Bank (MFSA)",
+   "url": "https://www.hsbc.com.mt"
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Business Account",
+   "monthly_fee": 5.0,
+   "sepa_fee": 1.0,
+   "multi_currency": false,
+   "onboarding_days": 21,
+   "licence": "Bank (MFSA)",
+   "url": "https://www.apsbank.com.mt"
+  },
+  {
+   "provider": "BNF Bank",
+   "product": "Business Current",
+   "monthly_fee": 4.0,
+   "sepa_fee": 0.75,
+   "multi_currency": true,
+   "onboarding_days": 20,
+   "licence": "Bank (MFSA)",
+   "url": "https://www.bnf.bank"
+  },
+  {
+   "provider": "Revolut Business",
+   "product": "Basic",
+   "monthly_fee": 10.0,
+   "sepa_fee": 0,
+   "multi_currency": true,
+   "onboarding_days": 2,
+   "licence": "Bank (Lithuania)",
+   "url": "https://www.revolut.com/business"
+  },
+  {
+   "provider": "Wise Business",
+   "product": "Business Account",
+   "monthly_fee": 0,
+   "sepa_fee": 0.5,
+   "multi_currency": true,
+   "onboarding_days": 3,
+   "licence": "EMI (Belgium)",
+   "url": "https://wise.com/business"
+  },
+  {
+   "provider": "Finom",
+   "product": "Start",
+   "monthly_fee": 0,
+   "sepa_fee": 0,
+   "multi_currency": false,
+   "onboarding_days": 2,
+   "licence": "EMI (Netherlands)",
+   "url": "https://finom.co"
+  }
+ ],
+ "bank-accounts": [
+  {
+   "provider": "Bank of Valletta",
+   "product": "Current Account",
+   "monthly_fee": 1.5,
+   "card_fee": 10,
+   "atm_abroad_pct": 2.0,
+   "app": true,
+   "url": "https://www.bov.com"
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Current Account",
+   "monthly_fee": 2.0,
+   "card_fee": 12,
+   "atm_abroad_pct": 2.5,
+   "app": true,
+   "url": "https://www.hsbc.com.mt"
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Personal Current",
+   "monthly_fee": 1.0,
+   "card_fee": 8,
+   "atm_abroad_pct": 2.0,
+   "app": true,
+   "url": "https://www.apsbank.com.mt"
+  },
+  {
+   "provider": "BNF Bank",
+   "product": "Current Account",
+   "monthly_fee": 0,
+   "card_fee": 10,
+   "atm_abroad_pct": 1.75,
+   "app": true,
+   "url": "https://www.bnf.bank"
+  },
+  {
+   "provider": "Lombard Bank",
+   "product": "Current Account",
+   "monthly_fee": 1.0,
+   "card_fee": 10,
+   "atm_abroad_pct": 2.0,
+   "app": true,
+   "url": "https://www.lombardmalta.com"
+  },
+  {
+   "provider": "MeDirect",
+   "product": "Current Account",
+   "monthly_fee": 0,
+   "card_fee": 0,
+   "atm_abroad_pct": 0,
+   "app": true,
+   "url": "https://www.medirect.com.mt"
+  }
+ ],
+ "savings": [
+  {
+   "provider": "MeDirect",
+   "product": "Fixed Term 12M",
+   "rate": 2.6,
+   "term_months": 12,
+   "min_deposit": 1000,
+   "url": "https://www.medirect.com.mt"
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Term Deposit 12M",
+   "rate": 1.5,
+   "term_months": 12,
+   "min_deposit": 1000,
+   "url": "https://www.bov.com"
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Fixed Term 12M",
+   "rate": 2.0,
+   "term_months": 12,
+   "min_deposit": 1000,
+   "url": "https://www.apsbank.com.mt"
+  },
+  {
+   "provider": "BNF Bank",
+   "product": "Term Deposit 12M",
+   "rate": 2.1,
+   "term_months": 12,
+   "min_deposit": 500,
+   "url": "https://www.bnf.bank"
+  },
+  {
+   "provider": "Lombard Bank",
+   "product": "Term Deposit 24M",
+   "rate": 2.4,
+   "term_months": 24,
+   "min_deposit": 2500,
+   "url": "https://www.lombardmalta.com"
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Fixed Deposit 12M",
+   "rate": 1.6,
+   "term_months": 12,
+   "min_deposit": 5000,
+   "url": "https://www.hsbc.com.mt"
+  }
+ ],
+ "personal-loans": [
+  {
+   "provider": "Bank of Valletta",
+   "product": "Personal Loan",
+   "apr": 6.75,
+   "aprc": 7.2,
+   "max_amount": 75000,
+   "max_term_years": 10,
+   "fees": 60,
+   "url": "https://www.bov.com"
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Personal Loan",
+   "apr": 6.9,
+   "aprc": 7.4,
+   "max_amount": 60000,
+   "max_term_years": 10,
+   "fees": 75,
+   "url": "https://www.hsbc.com.mt"
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Personal Loan",
+   "apr": 6.5,
+   "aprc": 6.95,
+   "max_amount": 50000,
+   "max_term_years": 10,
+   "fees": 50,
+   "url": "https://www.apsbank.com.mt"
+  },
+  {
+   "provider": "BNF Bank",
+   "product": "Personal Loan",
+   "apr": 6.25,
+   "aprc": 6.8,
+   "max_amount": 50000,
+   "max_term_years": 8,
+   "fees": 50,
+   "url": "https://www.bnf.bank"
+  },
+  {
+   "provider": "Lombard Bank",
+   "product": "Personal Loan",
+   "apr": 6.5,
+   "aprc": 7.0,
+   "max_amount": 40000,
+   "max_term_years": 7,
+   "fees": 40,
+   "url": "https://www.lombardmalta.com"
+  }
+ ],
+ "mortgages": [
+  {
+   "provider": "Bank of Valletta",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.5,
+   "ltv": 90,
+   "max_term": 40,
+   "first_time": true,
+   "url": "https://www.bov.com"
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.6,
+   "ltv": 90,
+   "max_term": 40,
+   "first_time": true,
+   "url": "https://www.hsbc.com.mt"
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.45,
+   "ltv": 90,
+   "max_term": 40,
+   "first_time": true,
+   "url": "https://www.apsbank.com.mt"
+  },
+  {
+   "provider": "BNF Bank",
+   "product": "Home Loan Fixed 5Y",
+   "rate_type": "Fixed 5Y",
+   "rate": 3.75,
+   "ltv": 85,
+   "max_term": 35,
+   "first_time": false,
+   "url": "https://www.bnf.bank"
+  },
+  {
+   "provider": "Lombard Bank",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.55,
+   "ltv": 85,
+   "max_term": 35,
+   "first_time": true,
+   "url": "https://www.lombardmalta.com"
+  },
+  {
+   "provider": "MeDirect",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.4,
+   "ltv": 90,
+   "max_term": 40,
+   "first_time": true,
+   "url": "https://www.medirect.com.mt"
+  }
+ ],
+ "credit-cards": [
+  {
+   "provider": "Bank of Valletta",
+   "product": "Visa Classic",
+   "annual_fee": 25,
+   "apr": 17.9,
+   "fx_fee": 2.75,
+   "rewards": "None",
+   "url": "https://www.bov.com"
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Visa Gold",
+   "annual_fee": 60,
+   "apr": 16.9,
+   "fx_fee": 2.75,
+   "rewards": "Travel insurance",
+   "url": "https://www.bov.com"
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Visa Credit",
+   "annual_fee": 30,
+   "apr": 18.5,
+   "fx_fee": 2.99,
+   "rewards": "Points",
+   "url": "https://www.hsbc.com.mt"
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Mastercard Credit",
+   "annual_fee": 20,
+   "apr": 16.5,
+   "fx_fee": 2.5,
+   "rewards": "None",
+   "url": "https://www.apsbank.com.mt"
+  },
+  {
+   "provider": "BNF Bank",
+   "product": "Visa Credit",
+   "annual_fee": 0,
+   "apr": 17.0,
+   "fx_fee": 2.5,
+   "rewards": "First year free",
+   "url": "https://www.bnf.bank"
+  }
+ ],
+ "fintech": [
+  {
+   "provider": "Revolut",
+   "product": "Standard",
+   "monthly_fee": 0,
+   "fx_markup": 0.5,
+   "iban": "LT",
+   "licence": "Bank (Lithuania)",
+   "url": "https://www.revolut.com"
+  },
+  {
+   "provider": "Revolut",
+   "product": "Premium",
+   "monthly_fee": 9.99,
+   "fx_markup": 0,
+   "iban": "LT",
+   "licence": "Bank (Lithuania)",
+   "url": "https://www.revolut.com"
+  },
+  {
+   "provider": "Wise",
+   "product": "Wise Account",
+   "monthly_fee": 0,
+   "fx_markup": 0.45,
+   "iban": "BE",
+   "licence": "EMI (Belgium)",
+   "url": "https://wise.com"
+  },
+  {
+   "provider": "N26",
+   "product": "Standard",
+   "monthly_fee": 0,
+   "fx_markup": 0,
+   "iban": "DE",
+   "licence": "Bank (Germany)",
+   "url": "https://n26.com"
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "BOV Mobile + Apple Pay",
+   "monthly_fee": 0,
+   "fx_markup": 2.75,
+   "iban": "MT",
+   "licence": "Card issuer",
+   "url": "https://www.bov.com"
+  }
+ ],
+ "money-transfer": [
+  {
+   "provider": "Wise",
+   "corridor": "EUR→GBP",
+   "fee": 4.3,
+   "fx_margin": 0,
+   "speed": "Same day",
+   "url": "https://wise.com"
+  },
+  {
+   "provider": "Revolut",
+   "corridor": "EUR→GBP",
+   "fee": 0,
+   "fx_margin": 0.5,
+   "speed": "Instant",
+   "url": "https://www.revolut.com"
+  },
+  {
+   "provider": "Bank of Valletta",
+   "corridor": "EUR→GBP",
+   "fee": 12,
+   "fx_margin": 2.5,
+   "speed": "1–2 days",
+   "url": "https://www.bov.com"
+  },
+  {
+   "provider": "Western Union",
+   "corridor": "EUR→TRY",
+   "fee": 5,
+   "fx_margin": 2.0,
+   "speed": "Minutes",
+   "url": "https://www.westernunion.com"
+  },
+  {
+   "provider": "Wise",
+   "corridor": "EUR→TRY",
+   "fee": 6.1,
+   "fx_margin": 0,
+   "speed": "Same day",
+   "url": "https://wise.com"
+  },
+  {
+   "provider": "wamo",
+   "corridor": "EUR→USD (business)",
+   "fee": 0,
+   "fx_margin": 0.4,
+   "speed": "Same day",
+   "url": "https://wamo.io",
+   "affiliated": true
+  }
+ ],
+ "telco-mobile": [
+  {
+   "provider": "GO",
+   "product": "Postpaid Unlimited",
+   "price": 30,
+   "data_gb": 999,
+   "eu_roaming_gb": 25,
+   "contract": "12 months",
+   "url": "https://www.go.com.mt"
+  },
+  {
+   "provider": "GO",
+   "product": "Prepaid 15",
+   "price": 15,
+   "data_gb": 40,
+   "eu_roaming_gb": 8,
+   "contract": "None",
+   "url": "https://www.go.com.mt"
+  },
+  {
+   "provider": "Epic",
+   "product": "Epic Unlimited",
+   "price": 30,
+   "data_gb": 999,
+   "eu_roaming_gb": 28,
+   "contract": "12 months",
+   "url": "https://www.epic.com.mt"
+  },
+  {
+   "provider": "Epic",
+   "product": "Epic 10",
+   "price": 10,
+   "data_gb": 20,
+   "eu_roaming_gb": 5,
+   "contract": "None",
+   "url": "https://www.epic.com.mt"
+  },
+  {
+   "provider": "Melita",
+   "product": "Mobile 50GB",
+   "price": 20,
+   "data_gb": 50,
+   "eu_roaming_gb": 15,
+   "contract": "12 months",
+   "url": "https://www.melita.com"
+  },
+  {
+   "provider": "Melita",
+   "product": "Mobile Unlimited",
+   "price": 28,
+   "data_gb": 999,
+   "eu_roaming_gb": 22,
+   "contract": "12 months",
+   "url": "https://www.melita.com"
+  }
+ ],
+ "telco-broadband": [
+  {
+   "provider": "GO",
+   "product": "Fibre 1Gbps",
+   "speed_mbps": 1000,
+   "price": 40,
+   "tv": false,
+   "contract": "24 months",
+   "url": "https://www.go.com.mt"
+  },
+  {
+   "provider": "GO",
+   "product": "Fibre 1Gbps + TV",
+   "speed_mbps": 1000,
+   "price": 55,
+   "tv": true,
+   "contract": "24 months",
+   "url": "https://www.go.com.mt"
+  },
+  {
+   "provider": "Melita",
+   "product": "Internet 500",
+   "speed_mbps": 500,
+   "price": 35,
+   "tv": false,
+   "contract": "12 months",
+   "url": "https://www.melita.com"
+  },
+  {
+   "provider": "Melita",
+   "product": "Internet 1G + TV",
+   "speed_mbps": 1000,
+   "price": 58,
+   "tv": true,
+   "contract": "12 months",
+   "url": "https://www.melita.com"
+  },
+  {
+   "provider": "Epic",
+   "product": "Epic Fibre 1G",
+   "speed_mbps": 1000,
+   "price": 39,
+   "tv": false,
+   "contract": "24 months",
+   "url": "https://www.epic.com.mt"
+  }
+ ],
+ "insurance": [
+  {
+   "provider": "GasanMamo",
+   "type": "Car",
+   "product": "Motor Comprehensive",
+   "from_price": 350,
+   "online_quote": true,
+   "url": "https://www.gasanmamo.com"
+  },
+  {
+   "provider": "MAPFRE Middlesea",
+   "type": "Car",
+   "product": "Motor Insurance",
+   "from_price": 330,
+   "online_quote": true,
+   "url": "https://www.middlesea.com"
+  },
+  {
+   "provider": "Atlas Insurance",
+   "type": "Home",
+   "product": "Home Insurance",
+   "from_price": 120,
+   "online_quote": true,
+   "url": "https://www.atlas.com.mt"
+  },
+  {
+   "provider": "Elmo Insurance",
+   "type": "Car",
+   "product": "Motor Insurance",
+   "from_price": 310,
+   "online_quote": true,
+   "url": "https://www.elmoinsurance.com.mt"
+  },
+  {
+   "provider": "Bupa Malta",
+   "type": "Health",
+   "product": "Health Insurance",
+   "from_price": 450,
+   "online_quote": false,
+   "url": "https://www.bupa.com.mt"
+  }
+ ],
+ "investing": [
+  {
+   "provider": "Calamatta Cuschieri",
+   "product": "Trading Account",
+   "trade_fee": 10,
+   "custody_pct": 0.2,
+   "mse_access": true,
+   "licence": "MFSA",
+   "url": "https://www.cc.com.mt"
+  },
+  {
+   "provider": "Rizzo Farrugia",
+   "product": "Stockbroking",
+   "trade_fee": 12,
+   "custody_pct": 0.2,
+   "mse_access": true,
+   "licence": "MFSA",
+   "url": "https://www.rizzofarrugia.com"
+  },
+  {
+   "provider": "MeDirect",
+   "product": "Investment Account",
+   "trade_fee": 8,
+   "custody_pct": 0.15,
+   "mse_access": true,
+   "licence": "MFSA",
+   "url": "https://www.medirect.com.mt"
+  },
+  {
+   "provider": "Interactive Brokers",
+   "product": "IBKR Pro",
+   "trade_fee": 3,
+   "custody_pct": 0,
+   "mse_access": false,
+   "licence": "Broker (Ireland)",
+   "url": "https://www.interactivebrokers.ie"
+  },
+  {
+   "provider": "Trade Republic",
+   "product": "Securities Account",
+   "trade_fee": 1,
+   "custody_pct": 0,
+   "mse_access": false,
+   "licence": "Bank (Germany)",
+   "url": "https://traderepublic.com"
+  }
+ ],
+ "restaurants": [
+  {
+   "provider": "Under Grain",
+   "area": "Valletta",
+   "cuisine": "Modern European",
+   "price_level": 4,
+   "rating": 4.7,
+   "reviews": 900,
+   "highlight": "Michelin star",
+   "url": "https://www.undergrain.mt"
+  },
+  {
+   "provider": "ION Harbour",
+   "area": "Valletta",
+   "cuisine": "Fine dining",
+   "price_level": 4,
+   "rating": 4.8,
+   "reviews": 600,
+   "highlight": "Two Michelin stars, harbour view",
+   "url": "https://www.ionharbour.com"
+  },
+  {
+   "provider": "Noni",
+   "area": "Valletta",
+   "cuisine": "Modern Maltese",
+   "price_level": 4,
+   "rating": 4.7,
+   "reviews": 800,
+   "highlight": "Michelin star",
+   "url": "https://www.noni.com.mt"
+  },
+  {
+   "provider": "Rubino",
+   "area": "Valletta",
+   "cuisine": "Traditional Maltese",
+   "price_level": 2,
+   "rating": 4.6,
+   "reviews": 1500,
+   "highlight": "Cassata Siciliana",
+   "url": "https://www.rubino.com.mt"
+  },
+  {
+   "provider": "Ta' Kris",
+   "area": "Sliema",
+   "cuisine": "Traditional Maltese",
+   "price_level": 2,
+   "rating": 4.5,
+   "reviews": 3500,
+   "highlight": "Rabbit stew (stuffat tal-fenek)",
+   "url": "https://www.takris.com"
+  },
+  {
+   "provider": "Diar il-Bniet",
+   "area": "Dingli",
+   "cuisine": "Farm-to-table",
+   "price_level": 2,
+   "rating": 4.6,
+   "reviews": 2500,
+   "highlight": "Produce from its own farm",
+   "url": "https://www.diarilbniet.com"
+  },
+  {
+   "provider": "Tartarun",
+   "area": "Marsaxlokk",
+   "cuisine": "Seafood",
+   "price_level": 3,
+   "rating": 4.6,
+   "reviews": 1400,
+   "highlight": "Catch of the day",
+   "url": "https://www.tartarun.com"
+  },
+  {
+   "provider": "Ta' Rikardu",
+   "area": "Gozo (Victoria)",
+   "cuisine": "Gozitan",
+   "price_level": 2,
+   "rating": 4.5,
+   "reviews": 1800,
+   "highlight": "Ġbejniet cheese",
+   "url": "https://www.tarikardu.com"
+  },
+  {
+   "provider": "Crust",
+   "area": "St. Julian's",
+   "cuisine": "Pizza",
+   "price_level": 1,
+   "rating": 4.5,
+   "reviews": 1200,
+   "highlight": "Sourdough pizza",
+   "url": "https://www.google.com/maps/search/Crust+St+Julians"
+  },
+  {
+   "provider": "Commando",
+   "area": "Mellieħa",
+   "cuisine": "Modern Mediterranean",
+   "price_level": 3,
+   "rating": 4.6,
+   "reviews": 1300,
+   "highlight": "Tasting menu",
+   "url": "https://www.commando.com.mt"
+  }
+ ]
+}

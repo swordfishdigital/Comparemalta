@@ -1,0 +1,111 @@
+{
+ "slug": "business-accounts",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "wamo",
+   "product": "wamo Business",
+   "monthly_fee": 0,
+   "sepa_fee": 0,
+   "multi_currency": true,
+   "onboarding_days": 1,
+   "licence": "EMI (FIN-FSA)",
+   "url": "https://wamo.io",
+   "affiliated": true,
+   "checked": null,
+   "demo": true,
+   "score": 10.0
+  },
+  {
+   "provider": "Wise Business",
+   "product": "Business Account",
+   "monthly_fee": 0,
+   "sepa_fee": 0.5,
+   "multi_currency": true,
+   "onboarding_days": 3,
+   "licence": "EMI (Belgium)",
+   "url": "https://wise.com/business",
+   "checked": null,
+   "demo": true,
+   "score": 9.2
+  },
+  {
+   "provider": "Finom",
+   "product": "Start",
+   "monthly_fee": 0,
+   "sepa_fee": 0,
+   "multi_currency": false,
+   "onboarding_days": 2,
+   "licence": "EMI (Netherlands)",
+   "url": "https://finom.co",
+   "checked": null,
+   "demo": true,
+   "score": 7.9
+  },
+  {
+   "provider": "Revolut Business",
+   "product": "Basic",
+   "monthly_fee": 10.0,
+   "sepa_fee": 0,
+   "multi_currency": true,
+   "onboarding_days": 2,
+   "licence": "Bank (Lithuania)",
+   "url": "https://www.revolut.com/business",
+   "checked": null,
+   "demo": true,
+   "score": 6.4
+  },
+  {
+   "provider": "BNF Bank",
+   "product": "Business Current",
+   "monthly_fee": 4.0,
+   "sepa_fee": 0.75,
+   "multi_currency": true,
+   "onboarding_days": 20,
+   "licence": "Bank (MFSA)",
+   "url": "https://www.bnf.bank",
+   "checked": null,
+   "demo": true,
+   "score": 6.0
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Business Current Account",
+   "monthly_fee": 6.0,
+   "sepa_fee": 1.5,
+   "multi_currency": true,
+   "onboarding_days": 21,
+   "licence": "Bank (MFSA)",
+   "url": "https://www.bov.com",
+   "checked": null,
+   "demo": true,
+   "score": 4.2
+  },
+  {
+   "provider": "APS Bank",
+   "product": "Business Account",
+   "monthly_fee": 5.0,
+   "sepa_fee": 1.0,
+   "multi_currency": false,
+   "onboarding_days": 21,
+   "licence": "Bank (MFSA)",
+   "url": "https://www.apsbank.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 3.2
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Business Banking",
+   "monthly_fee": 10.0,
+   "sepa_fee": 1.0,
+   "multi_currency": true,
+   "onboarding_days": 30,
+   "licence": "Bank (MFSA)",
+   "url": "https://www.hsbc.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 2.7
+  }
+ ]
+}

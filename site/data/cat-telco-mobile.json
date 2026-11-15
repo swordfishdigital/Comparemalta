@@ -1,0 +1,78 @@
+{
+ "slug": "telco-mobile",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "Melita",
+   "product": "Mobile Unlimited",
+   "price": 28,
+   "data_gb": 999,
+   "eu_roaming_gb": 22,
+   "contract": "12 months",
+   "url": "https://www.melita.com",
+   "checked": null,
+   "demo": true,
+   "score": 5.1
+  },
+  {
+   "provider": "Epic",
+   "product": "Epic Unlimited",
+   "price": 30,
+   "data_gb": 999,
+   "eu_roaming_gb": 28,
+   "contract": "12 months",
+   "url": "https://www.epic.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 5.0
+  },
+  {
+   "provider": "Epic",
+   "product": "Epic 10",
+   "price": 10,
+   "data_gb": 20,
+   "eu_roaming_gb": 5,
+   "contract": "None",
+   "url": "https://www.epic.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 5.0
+  },
+  {
+   "provider": "GO",
+   "product": "Postpaid Unlimited",
+   "price": 30,
+   "data_gb": 999,
+   "eu_roaming_gb": 25,
+   "contract": "12 months",
+   "url": "https://www.go.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 4.8
+  },
+  {
+   "provider": "GO",
+   "product": "Prepaid 15",
+   "price": 15,
+   "data_gb": 40,
+   "eu_roaming_gb": 8,
+   "contract": "None",
+   "url": "https://www.go.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 4.0
+  },
+  {
+   "provider": "Melita",
+   "product": "Mobile 50GB",
+   "price": 20,
+   "data_gb": 50,
+   "eu_roaming_gb": 15,
+   "contract": "12 months",
+   "url": "https://www.melita.com",
+   "checked": null,
+   "demo": true,
+   "score": 3.3
+  }
+ ]
+}

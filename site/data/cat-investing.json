@@ -1,0 +1,66 @@
+{
+ "slug": "investing",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "Trade Republic",
+   "product": "Securities Account",
+   "trade_fee": 1,
+   "custody_pct": 0,
+   "mse_access": false,
+   "licence": "Bank (Germany)",
+   "url": "https://traderepublic.com",
+   "checked": null,
+   "demo": true,
+   "score": 8.0
+  },
+  {
+   "provider": "Interactive Brokers",
+   "product": "IBKR Pro",
+   "trade_fee": 3,
+   "custody_pct": 0,
+   "mse_access": false,
+   "licence": "Broker (Ireland)",
+   "url": "https://www.interactivebrokers.ie",
+   "checked": null,
+   "demo": true,
+   "score": 7.2
+  },
+  {
+   "provider": "MeDirect",
+   "product": "Investment Account",
+   "trade_fee": 8,
+   "custody_pct": 0.15,
+   "mse_access": true,
+   "licence": "MFSA",
+   "url": "https://www.medirect.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 4.5
+  },
+  {
+   "provider": "Calamatta Cuschieri",
+   "product": "Trading Account",
+   "trade_fee": 10,
+   "custody_pct": 0.2,
+   "mse_access": true,
+   "licence": "MFSA",
+   "url": "https://www.cc.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 2.8
+  },
+  {
+   "provider": "Rizzo Farrugia",
+   "product": "Stockbroking",
+   "trade_fee": 12,
+   "custody_pct": 0.2,
+   "mse_access": true,
+   "licence": "MFSA",
+   "url": "https://www.rizzofarrugia.com",
+   "checked": null,
+   "demo": true,
+   "score": 2.0
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+name: daily-feeds
+on:
+  schedule:
+    - cron: "15 4 * * *"    # 05:15 Malta (CET) — news, products, restaurants
+    - cron: "30 15 * * 1-5" # 16:30 Malta — after ECB FX fix and MSE close
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency: { group: feeds, cancel-in-progress: false }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - name: Run feeds
+        env:
+          GOOGLE_PLACES_KEY: ${{ secrets.GOOGLE_PLACES_KEY }}
+        run: python -m feeds.run_all
+      - name: Commit last-known-good state
+        run: |
+          git config user.name "comparemalta-bot"
+          git config user.email "bot@comparemalta.ai"
+          git add data/state site/data
+          git diff --cached --quiet || git commit -m "feeds: $(date -u +%F' '%H:%M) UTC"
+          git push
+      - name: Fail loudly if most feeds are down
+        run: python -c "import json,sys;s=json.load(open('site/data/status.json'));print(s['ok'],'/',s['total']);sys.exit(0 if s['ok']>=s['total']*0.5 else 1)"
+      - uses: actions/upload-pages-artifact@v3
+        if: always()
+        with: { path: site }
+  deploy:
+    needs: build
+    if: always()
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.d.outputs.page_url }}" }
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

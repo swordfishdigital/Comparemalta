@@ -1,0 +1,73 @@
+{
+ "slug": "money-transfer",
+ "updated": "2026-11-15T12:30:48+00:00",
+ "items": [
+  {
+   "provider": "wamo",
+   "corridor": "EUR→USD (business)",
+   "fee": 0,
+   "fx_margin": 0.4,
+   "speed": "Same day",
+   "url": "https://wamo.io",
+   "affiliated": true,
+   "checked": null,
+   "demo": true,
+   "score": 9.2
+  },
+  {
+   "provider": "Revolut",
+   "corridor": "EUR→GBP",
+   "fee": 0,
+   "fx_margin": 0.5,
+   "speed": "Instant",
+   "url": "https://www.revolut.com",
+   "checked": null,
+   "demo": true,
+   "score": 9.0
+  },
+  {
+   "provider": "Wise",
+   "corridor": "EUR→GBP",
+   "fee": 4.3,
+   "fx_margin": 0,
+   "speed": "Same day",
+   "url": "https://wise.com",
+   "checked": null,
+   "demo": true,
+   "score": 8.2
+  },
+  {
+   "provider": "Wise",
+   "corridor": "EUR→TRY",
+   "fee": 6.1,
+   "fx_margin": 0,
+   "speed": "Same day",
+   "url": "https://wise.com",
+   "checked": null,
+   "demo": true,
+   "score": 7.5
+  },
+  {
+   "provider": "Western Union",
+   "corridor": "EUR→TRY",
+   "fee": 5,
+   "fx_margin": 2.0,
+   "speed": "Minutes",
+   "url": "https://www.westernunion.com",
+   "checked": null,
+   "demo": true,
+   "score": 3.9
+  },
+  {
+   "provider": "Bank of Valletta",
+   "corridor": "EUR→GBP",
+   "fee": 12,
+   "fx_margin": 2.5,
+   "speed": "1–2 days",
+   "url": "https://www.bov.com",
+   "checked": null,
+   "demo": true,
+   "score": 0.0
+  }
+ ]
+}
