@@ -47,7 +47,7 @@ The agent can only answer from the site's own daily data: it calls tools (`list_
 picks are filled in by the worker from `site/data/*.json`, never by the model, and picks the model did not actually look up are dropped.
 If the agent is unreachable, the site falls back to its built-in keyword search.
 
-- **Codespaces / local:** add `ANTHROPIC_API_KEY` as a Codespaces secret (GitHub → Settings → Codespaces → Secrets, give this repo access),
+- **Codespaces / local:** add `ANTHROPIC_API_KEY` as a Codespaces secret (use a key created inside a workspace; if you use a service key that is not workspace-scoped, also add `ANTHROPIC_WORKSPACE_ID`) (GitHub → Settings → Codespaces → Secrets, give this repo access),
   then `node agent/dev.mjs` serves the site and the agent together on port 8000.
 - **Production (Cloudflare Workers):** repo secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ANTHROPIC_API_KEY`, repo variable
   `AGENT_ENABLED=true`; the `deploy-agent` workflow deploys on every change under `agent/`. Then set `window.CM_AGENT_URL` in

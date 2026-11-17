@@ -11,6 +11,7 @@ const port = Number(process.env.PORT || 8000);
 const SITE = fileURLToPath(new URL("../site/", import.meta.url));
 const env = {
   ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
+  ANTHROPIC_WORKSPACE_ID: process.env.ANTHROPIC_WORKSPACE_ID,
   SITE_URL: process.env.SITE_URL || `http://localhost:${port}`,
   ALLOWED_ORIGINS: "*",
   MODEL: process.env.MODEL || "claude-sonnet-5-5",
