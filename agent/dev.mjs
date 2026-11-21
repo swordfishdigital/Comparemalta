@@ -31,7 +31,7 @@ const env = {
     console.log("partnership enquiry saved:", lead.company, lead.email);
   },
 };
-const TYPES = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".svg": "image/svg+xml", ".png": "image/png" };
+const TYPES = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg", ".md": "text/markdown; charset=utf-8", ".txt": "text/plain; charset=utf-8", ".xml": "application/xml" };
 
 http.createServer(async (req, res) => {
   const url = new URL(req.url, `http://localhost:${port}`);
@@ -45,7 +45,8 @@ http.createServer(async (req, res) => {
     res.writeHead(r.status, Object.fromEntries(r.headers));
     return res.end(Buffer.from(await r.arrayBuffer()));
   }
-  const path = normalize(join(SITE, url.pathname === "/" ? "index.html" : decodeURIComponent(url.pathname)));
+  // folders serve their index.html, like GitHub Pages (/en/pos/ -> /en/pos/index.html)
+  const path = normalize(join(SITE, decodeURIComponent(url.pathname).replace(/\/$/, "/index.html")));
   if (!path.startsWith(SITE)) { res.writeHead(403); return res.end(); }
   try {
     const body = await readFile(path);
