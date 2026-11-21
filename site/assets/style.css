@@ -295,3 +295,6 @@ a.cat2:hover .go{background:var(--blue);color:#fff;transform:translateX(2px)}
 .nc-body .link{margin-top:auto}
 .nc-body h3{font-size:17px}
 @media (max-width:560px){.news-card{grid-template-columns:96px 1fr}.news-card .nc-img{width:96px;height:96px}.nc-body{min-height:96px}}
+
+/* crawlable links to the static pages */
+.foot-seo{margin-top:14px;font-size:12.5px;line-height:1.9;color:var(--muted,#6b7a90)}.foot-seo a{color:inherit;text-decoration:none}.foot-seo a:hover{text-decoration:underline}

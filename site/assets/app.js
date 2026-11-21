@@ -114,6 +114,8 @@ const TOP = {savings:{cat:"savings",cols:[["rate","pct","rate_aer"],["min_deposi
 /* ---------- state + helpers ---------- */
 let lang = "en";
 try { lang = localStorage.getItem("cm_lang") || ({mt: "mt", it: "it"}[(navigator.language || "en").slice(0, 2)] || "en"); } catch (e) {}
+const QS = new URLSearchParams(location.search);  // links from the static pages: ?lang=mt, ?q=question, #ask
+if (["en", "mt", "it"].includes(QS.get("lang"))) { lang = QS.get("lang"); try { localStorage.setItem("cm_lang", lang); } catch (e) {} }
 if (!T[lang]) lang = "en";
 let topTab = "savings";
 const t = k => T[lang][k] ?? T.en[k] ?? k;
@@ -670,6 +672,7 @@ async function route() {
 document.querySelectorAll("#langSeg button").forEach(b => b.onclick = () => { lang = b.dataset.l; try { localStorage.setItem("cm_lang", lang); } catch (e) {} renderChrome(); route(); });
 $("#menuBtn").onclick = () => $("#nav").classList.toggle("open");
 $("#askBtn").onclick = () => openAsk();
+if (location.hash === "#ask" || QS.get("q")) { history.replaceState(null, "", location.pathname + "#home"); setTimeout(() => openAsk(QS.get("q") || ""), 300); }
 $("#askX").onclick = closeAsk;
 $("#ask").onclick = e => { if (e.target.id === "ask") closeAsk(); };
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeAsk(); });

@@ -106,3 +106,15 @@ To add a deep link, put `"apply_url": "https://..."` on the product in `data/see
 
 Add a block to `config/categories.json` (columns + score), add rows to `data/seed/products.json`, optionally add
 scrape targets to `config/sources.json`. The site picks it up automatically.
+
+## Search and AI visibility (SEO + GEO)
+
+`feeds/seo.py` runs after every feed run and writes a crawlable copy of the site next to the app:
+
+- `site/<lang>/<category>/` for EN, MT and IT: answer-first summary, the full table, FAQ, sources, plus an `index.md` twin
+- `site/<lang>/` language home pages and `site/<lang>/methodology/`
+- schema.org JSON-LD on every page (WebPage, BreadcrumbList, ItemList of products, FAQPage, Dataset; Organization and WebSite on the home page)
+- canonical URLs, hreflang alternates, Open Graph image (`site/og.png`)
+- `sitemap.xml`, `robots.txt` (search and AI crawlers welcome), `llms.txt` and `llms-full.txt` (every current table in Markdown)
+
+The domain is set in `feeds/seo.py` (`BASE`). After going live, submit `https://comparemalta.ai/sitemap.xml` in Google Search Console and Bing Webmaster Tools.

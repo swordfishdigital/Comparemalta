@@ -2,7 +2,7 @@
 import os
 import sys
 
-from . import fx, logos, markets, news, newsletter, products, restaurants
+from . import fx, logos, markets, news, newsletter, products, restaurants, seo
 from .common import OUT, FeedStatus, load_json, now_iso, save_json, log
 
 
@@ -18,6 +18,10 @@ def main() -> int:
             mod.run(status)
         except Exception as e:  # noqa: BLE001  one broken feed never blocks the others
             status.stale(mod.__name__, e)
+    try:  # static SEO/GEO pages are rebuilt after every run, including the 6-hourly news refresh
+        seo.run(status)
+    except Exception as e:  # noqa: BLE001
+        status.stale("seo", e)
     feeds = status.items
     if only:  # partial run (e.g. the 6-hourly news refresh): keep the other feeds' last status
         prev = (load_json(OUT / "status.json") or {}).get("feeds", {})
