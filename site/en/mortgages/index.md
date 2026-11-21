@@ -17,6 +17,7 @@ We compare 6 home loans from 6 providers in Malta, checked 21 November 2026. Top
 | Lombard Bank | Home Loan | Variable | 3.55% | 85% | 35 | ✓ | 0.9 |
 | BNF Bank | Home Loan Fixed 5Y | Fixed 5Y | 3.75% | 85% | 35 | ✕ | 0.0 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: Rate 60%, Max LTV 20%, Max term 20%. Nobody can pay for a better position.

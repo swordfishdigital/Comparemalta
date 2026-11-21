@@ -17,6 +17,7 @@ Confrontiamo 6 offerte di trasferimenti di denaro di 5 fornitori a Malta, verifi
 | Western Union | EUR→TRY | €5,00 | 2,00% | Minutes | 3,9 |
 | Bank of Valletta | EUR→GBP | €12,00 | 2,50% | 1-2 days | 0,0 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Commissione 50%, Margine cambio 50%. Nessuno può pagare per una posizione migliore.

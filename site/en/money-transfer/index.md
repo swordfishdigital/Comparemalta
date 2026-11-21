@@ -17,6 +17,7 @@ We compare 6 money transfer from 5 providers in Malta, checked 21 November 2026.
 | Western Union | EUR→TRY | €5.00 | 2.00% | Minutes | 3.9 |
 | Bank of Valletta | EUR→GBP | €12.00 | 2.50% | 1-2 days | 0.0 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: Fee 50%, FX margin 50%. Nobody can pay for a better position.

@@ -16,6 +16,7 @@ Inqabblu 5 prodotti ta' Apps Fintech minn 4-il fornitur f'Malta, iċċekkjati 21
 | Revolut | Premium | €9.99 | 0.00% | LT | Bank (Lithuania) | 5.0 |
 | Bank of Valletta | BOV Mobile + Apple Pay | €0 | 2.75% | MT | Card issuer | 5.0 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Miżata fix-xahar 50%, Markup tal-kambju 50%. Ħadd ma jista' jħallas għal post aħjar.

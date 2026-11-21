@@ -17,6 +17,7 @@ Inqabblu 6 prodotti ta' Trasferiment ta' Flus minn 5-il fornitur f'Malta, iċċe
 | Western Union | EUR→TRY | €5.00 | 2.00% | Minutes | 3.9 |
 | Bank of Valletta | EUR→GBP | €12.00 | 2.50% | 1-2 days | 0.0 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Miżata 50%, Marġni tal-kambju 50%. Ħadd ma jista' jħallas għal post aħjar.

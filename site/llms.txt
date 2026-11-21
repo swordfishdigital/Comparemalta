@@ -2,14 +2,14 @@
 
 > Malta's AI comparison site. Independent, daily-refreshed comparisons of bank accounts, savings, loans, mortgages, credit cards, business accounts, POS and card payments, fintech, money transfer, mobile and broadband plans, insurance, investing and restaurants in Malta, in English, Maltese and Italian. Every figure comes from the provider's own website; rankings use a published Blue score (0-10) and cannot be bought.
 
-Last updated: 2026-11-21T23:10:59+00:00
+Last updated: 2026-11-21T23:25:12+00:00
 
 Ask Blue, the site's AI assistant, answers questions from the same data at https://comparemalta.ai/#ask .
 
 ## Comparisons (English)
 
 - [Business Accounts](https://comparemalta.ai/en/business-accounts/): Bank and EMI business accounts for SMEs, freelancers and holding companies in Malta. Top pick today: wamo wamo Business. Markdown: https://comparemalta.ai/en/business-accounts/index.md
-- [POS & Card Payments](https://comparemalta.ai/en/pos/): Card readers, POS terminals and tap-to-pay on your phone for merchants in Malta. Compare the card fee you pay on every sale, monthly costs and what the hardware costs. Top pick today: Revolut Business Terminal / Tap to Pay. Markdown: https://comparemalta.ai/en/pos/index.md
+- [POS & Card Payments](https://comparemalta.ai/en/pos/): Card readers, POS terminals and tap-to-pay for merchants in Malta. We work out what each option really costs per month at €5,000 and €20,000 of card sales, including fee-free allowances and plan fees. Top pick today: wamo Start (company). Markdown: https://comparemalta.ai/en/pos/index.md
 - [Current Accounts](https://comparemalta.ai/en/bank-accounts/): Personal current accounts: monthly fees, card fees and ATM charges abroad. Top pick today: MeDirect Current Account. Markdown: https://comparemalta.ai/en/bank-accounts/index.md
 - [Savings & Term Deposits](https://comparemalta.ai/en/savings/): Term deposit and savings rates. Malta-licensed banks are covered by the Depositor Compensation Scheme up to €100,000. Top pick today: MeDirect Fixed Term 12M. Markdown: https://comparemalta.ai/en/savings/index.md
 - [Personal Loans](https://comparemalta.ai/en/personal-loans/): Personal loans: interest, APRC, amount range and term. Top pick today: BNF Bank Personal Loan. Markdown: https://comparemalta.ai/en/personal-loans/index.md

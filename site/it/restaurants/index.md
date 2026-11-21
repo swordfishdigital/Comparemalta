@@ -21,6 +21,7 @@ Confrontiamo 10 offerte di ristoranti di 10 fornitori a Malta, verificate il 21 
 | Ta' Rikardu | Gozo (Victoria) | Gozitan | €€ | ★ 4,5 | Ġbejniet cheese | 0,8 |
 | Crust | St. Julian's | Pizza | € | ★ 4,5 | Sourdough pizza | 0,4 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Valutazione 80%, reviews 20%. Nessuno può pagare per una posizione migliore.

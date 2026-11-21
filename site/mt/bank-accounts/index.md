@@ -17,6 +17,7 @@ Inqabblu 6 prodotti ta' Kontijiet Kurrenti minn 6-il fornitur f'Malta, iċċekkj
 | Bank of Valletta | Current Account | €1.50 | €10.00 | 2.00% | ✓ | 2.1 |
 | HSBC Malta | Current Account | €2.00 | €12.00 | 2.50% | ✓ | 0.0 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Miżata fix-xahar 40%, Miżata tal-karta/sena 30%, ATM barra 30%. Ħadd ma jista' jħallas għal post aħjar.

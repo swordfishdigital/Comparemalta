@@ -17,6 +17,7 @@ Confrontiamo 6 offerte di piani mobile di 3 fornitori a Malta, verificate il 21 
 | GO | Prepaid 15 | €15,00 | 40 | 8 | None | 4,0 |
 | Melita | Mobile 50GB | €20,00 | 50 | 15 | 12 months | 3,3 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Al mese 50%, Dati (GB) 35%, Roaming UE (GB) 15%. Nessuno può pagare per una posizione migliore.

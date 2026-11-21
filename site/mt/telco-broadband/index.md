@@ -16,6 +16,7 @@ Inqabblu 5 prodotti ta' Internet u TV minn 3-il fornitur f'Malta, iċċekkjati 2
 | Melita | Internet 500 | 500 | €35.00 | ✕ | 12 months | 5.0 |
 | Melita | Internet 1G + TV | ∞ | €58.00 | ✓ | 12 months | 5.0 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Fix-xahar 50%, Veloċità (Mbps) 50%. Ħadd ma jista' jħallas għal post aħjar.

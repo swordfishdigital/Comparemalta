@@ -16,6 +16,7 @@ Confrontiamo 5 offerte di app fintech di 4 fornitori a Malta, verificate il 21 n
 | Revolut | Premium | €9,99 | 0,00% | LT | Bank (Lithuania) | 5,0 |
 | Bank of Valletta | BOV Mobile + Apple Pay | €0 | 2,75% | MT | Card issuer | 5,0 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Canone mensile 50%, Ricarico cambio 50%. Nessuno può pagare per una posizione migliore.

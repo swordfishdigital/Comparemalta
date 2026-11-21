@@ -16,6 +16,7 @@ Inqabblu 5 prodotti ta' Self Personali minn 5-il fornitur f'Malta, iċċekkjati 
 | Bank of Valletta | Personal Loan | 6.75% | 7.20% | €75,000 | 10 | €60.00 | 4.9 |
 | HSBC Malta | Personal Loan | 6.90% | 7.40% | €60,000 | 10 | €75.00 | 2.0 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: APRC 60%, Miżati 20%, Terminu massimu (snin) 20%. Ħadd ma jista' jħallas għal post aħjar.

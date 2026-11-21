@@ -17,6 +17,7 @@ We compare 6 current accounts from 6 providers in Malta, checked 21 November 202
 | Bank of Valletta | Current Account | €1.50 | €10.00 | 2.00% | ✓ | 2.1 |
 | HSBC Malta | Current Account | €2.00 | €12.00 | 2.50% | ✓ | 0.0 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: Monthly fee 40%, Card fee / yr 30%, ATM abroad 30%. Nobody can pay for a better position.

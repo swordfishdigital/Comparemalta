@@ -17,6 +17,7 @@ Confrontiamo 6 offerte di mutui casa di 6 fornitori a Malta, verificate il 21 no
 | Lombard Bank | Home Loan | Variable | 3,55% | 85% | 35 | ✓ | 0,9 |
 | BNF Bank | Home Loan Fixed 5Y | Fixed 5Y | 3,75% | 85% | 35 | ✕ | 0,0 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Tasso 60%, LTV massimo 20%, Durata massima 20%. Nessuno può pagare per una posizione migliore.

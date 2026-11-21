@@ -17,6 +17,7 @@ We compare 6 savings & term deposits from 6 providers in Malta, checked 21 Novem
 | Bank of Valletta | Term Deposit 12M | 1.50% | Fixed term | 12 | €1,000 | 1.8 |
 | HSBC Malta | Fixed Deposit 12M | 1.60% | Fixed term | 12 | €5,000 | 0.7 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: Rate 80%, Min. deposit 20%. Nobody can pay for a better position.

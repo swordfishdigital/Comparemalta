@@ -16,6 +16,7 @@ Inqabblu 5 prodotti ta' Assigurazzjoni minn 5-il fornitur f'Malta, iċċekkjati 
 | GasanMamo | Car | Motor Comprehensive | €350 | ✓ | 5.1 |
 | Bupa Malta | Health | Health Insurance | €450 | ✕ | 0.0 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Minn/sena 70%, Kwotazzjoni online 30%. Ħadd ma jista' jħallas għal post aħjar.

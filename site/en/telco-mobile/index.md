@@ -17,6 +17,7 @@ We compare 6 mobile plans from 3 providers in Malta, checked 21 November 2026. T
 | GO | Prepaid 15 | €15.00 | 40 | 8 | None | 4.0 |
 | Melita | Mobile 50GB | €20.00 | 50 | 15 | 12 months | 3.3 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: Per month 50%, Data (GB) 35%, EU roaming (GB) 15%. Nobody can pay for a better position.

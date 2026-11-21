@@ -16,6 +16,7 @@ We compare 5 personal loans from 5 providers in Malta, checked 21 November 2026.
 | Bank of Valletta | Personal Loan | 6.75% | 7.20% | €75,000 | 10 | €60.00 | 4.9 |
 | HSBC Malta | Personal Loan | 6.90% | 7.40% | €60,000 | 10 | €75.00 | 2.0 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: APRC 60%, Fees 20%, Max term (yrs) 20%. Nobody can pay for a better position.

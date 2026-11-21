@@ -16,6 +16,7 @@ We compare 5 broadband & TV from 3 providers in Malta, checked 21 November 2026.
 | Melita | Internet 500 | 500 | €35.00 | ✕ | 12 months | 5.0 |
 | Melita | Internet 1G + TV | ∞ | €58.00 | ✓ | 12 months | 5.0 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: Per month 50%, Speed (Mbps) 50%. Nobody can pay for a better position.

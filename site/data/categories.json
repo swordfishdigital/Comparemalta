@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:10:59+00:00",
+ "updated": "2026-11-21T23:25:12+00:00",
  "config": {
   "business-accounts": {
    "title": "İşletme Hesapları",
@@ -75,11 +75,11 @@
    "group": "Banka & Fintech",
    "featured": true,
    "intro": "Malta'daki işletmeler için kart okuyucu, POS ve telefonla ödeme alma çözümleri.",
-   "intro_en": "Card readers, POS terminals and tap-to-pay on your phone for merchants in Malta. Compare the card fee you pay on every sale, monthly costs and what the hardware costs.",
+   "intro_en": "Card readers, POS terminals and tap-to-pay for merchants in Malta. We work out what each option really costs per month at €5,000 and €20,000 of card sales, including fee-free allowances and plan fees.",
    "title_mt": "POS u Ħlas bil-Karta",
-   "intro_mt": "Card readers, terminals POS u tap-to-pay fuq it-telefon għan-negozji f'Malta. Qabbel il-miżata fuq kull bejgħ, l-ispejjeż ta' kull xahar u kemm jiswa l-apparat.",
+   "intro_mt": "Card readers, terminals POS u tap-to-pay għan-negozji f'Malta. Nikkalkulaw kemm verament tiswa kull għażla fix-xahar b'€5,000 u €20,000 ta' bejgħ bil-karta, inklużi allowances mingħajr miżata u l-miżati tal-pjan.",
    "title_it": "POS e Pagamenti con Carta",
-   "intro_it": "Lettori di carte, terminali POS e tap-to-pay su smartphone per esercenti a Malta. Confronta la commissione su ogni vendita, i costi mensili e il prezzo del dispositivo.",
+   "intro_it": "Lettori di carte, terminali POS e tap-to-pay per esercenti a Malta. Calcoliamo quanto costa davvero ogni soluzione al mese con €5.000 e €20.000 di vendite con carta, incluse le soglie senza commissioni e i canoni.",
    "columns": [
     {
      "key": "provider",
@@ -90,9 +90,24 @@
      "label": "Plan"
     },
     {
+     "key": "cost_5k",
+     "label": "€5k satışta maliyet",
+     "fmt": "eur"
+    },
+    {
+     "key": "cost_20k",
+     "label": "€20k satışta maliyet",
+     "fmt": "eur"
+    },
+    {
      "key": "fee_pct",
      "label": "Kart ücreti",
      "fmt": "pct"
+    },
+    {
+     "key": "free_allowance",
+     "label": "Ücretsiz hacim / ay",
+     "fmt": "eur0"
     },
     {
      "key": "fee_fixed",
@@ -121,23 +136,23 @@
    ],
    "score": [
     {
+     "key": "cost_5k",
+     "w": 0.3,
+     "dir": "low"
+    },
+    {
+     "key": "cost_20k",
+     "w": 0.3,
+     "dir": "low"
+    },
+    {
      "key": "fee_pct",
-     "w": 0.45,
-     "dir": "low"
-    },
-    {
-     "key": "monthly_fee",
-     "w": 0.2,
-     "dir": "low"
-    },
-    {
-     "key": "fee_fixed",
      "w": 0.1,
      "dir": "low"
     },
     {
      "key": "reader_price",
-     "w": 0.15,
+     "w": 0.2,
      "dir": "low"
     },
     {
@@ -812,8 +827,8 @@
   },
   {
    "slug": "pos",
-   "count": 8,
-   "best": "Revolut Business"
+   "count": 10,
+   "best": "wamo"
   },
   {
    "slug": "bank-accounts",

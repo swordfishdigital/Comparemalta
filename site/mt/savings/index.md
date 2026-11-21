@@ -17,6 +17,7 @@ Inqabblu 6 prodotti ta' Tfaddil u Depożiti Fissi minn 6-il fornitur f'Malta, i�
 | Bank of Valletta | Term Deposit 12M | 1.50% | Fixed term | 12 | €1,000 | 1.8 |
 | HSBC Malta | Fixed Deposit 12M | 1.60% | Fixed term | 12 | €5,000 | 0.7 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Rata 80%, Depożitu minimu 20%. Ħadd ma jista' jħallas għal post aħjar.

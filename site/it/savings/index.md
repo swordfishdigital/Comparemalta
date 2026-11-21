@@ -17,6 +17,7 @@ Confrontiamo 6 offerte di risparmio e depositi vincolati di 6 fornitori a Malta,
 | Bank of Valletta | Term Deposit 12M | 1,50% | Fixed term | 12 | €1.000 | 1,8 |
 | HSBC Malta | Fixed Deposit 12M | 1,60% | Fixed term | 12 | €5.000 | 0,7 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Tasso 80%, Deposito minimo 20%. Nessuno può pagare per una posizione migliore.

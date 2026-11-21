@@ -16,6 +16,7 @@ Confrontiamo 5 offerte di carte di credito di 4 fornitori a Malta, verificate il
 | Bank of Valletta | Visa Gold | €60,00 | 16,90% | 2,75% | Travel insurance | 4,3 |
 | HSBC Malta | Visa Credit | €30,00 | 18,50% | 2,99% | Points | 1,8 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Canone annuo 35%, Interesse 35%, Commissione cambio 30%. Nessuno può pagare per una posizione migliore.

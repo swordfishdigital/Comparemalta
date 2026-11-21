@@ -16,6 +16,7 @@ We compare 5 credit cards from 4 providers in Malta, checked 21 November 2026. T
 | Bank of Valletta | Visa Gold | €60.00 | 16.90% | 2.75% | Travel insurance | 4.3 |
 | HSBC Malta | Visa Credit | €30.00 | 18.50% | 2.99% | Points | 1.8 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: Annual fee 35%, Interest 35%, FX fee 30%. Nobody can pay for a better position.

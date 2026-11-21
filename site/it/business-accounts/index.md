@@ -19,6 +19,7 @@ Confrontiamo 8 offerte di conti business di 8 fornitori a Malta, verificate il 2
 | APS Bank | Business Account | €5,00 | €1,00 | ✕ | 21 | Bank (MFSA) | 3,2 |
 | HSBC Malta | Business Banking | €10,00 | €1,00 | ✓ | 30 | Bank (MFSA) | 2,7 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Canone mensile 35%, Bonifico SEPA 20%, Apertura (giorni) 25%, Multivaluta 20%. Nessuno può pagare per una posizione migliore.

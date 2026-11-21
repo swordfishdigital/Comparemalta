@@ -16,6 +16,7 @@ Confrontiamo 5 offerte di internet casa e TV di 3 fornitori a Malta, verificate 
 | Melita | Internet 500 | 500 | €35,00 | ✕ | 12 months | 5,0 |
 | Melita | Internet 1G + TV | ∞ | €58,00 | ✓ | 12 months | 5,0 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Al mese 50%, Velocità (Mbps) 50%. Nessuno può pagare per una posizione migliore.

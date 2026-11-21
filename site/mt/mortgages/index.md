@@ -17,6 +17,7 @@ Inqabblu 6 prodotti ta' Self għad-Dar minn 6-il fornitur f'Malta, iċċekkjati 
 | Lombard Bank | Home Loan | Variable | 3.55% | 85% | 35 | ✓ | 0.9 |
 | BNF Bank | Home Loan Fixed 5Y | Fixed 5Y | 3.75% | 85% | 35 | ✕ | 0.0 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Rata 60%, LTV massimu 20%, Terminu massimu 20%. Ħadd ma jista' jħallas għal post aħjar.

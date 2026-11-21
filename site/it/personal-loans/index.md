@@ -16,6 +16,7 @@ Confrontiamo 5 offerte di prestiti personali di 5 fornitori a Malta, verificate 
 | Bank of Valletta | Personal Loan | 6,75% | 7,20% | €75.000 | 10 | €60,00 | 4,9 |
 | HSBC Malta | Personal Loan | 6,90% | 7,40% | €60.000 | 10 | €75,00 | 2,0 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: TAEG 60%, Spese 20%, Durata max (anni) 20%. Nessuno può pagare per una posizione migliore.

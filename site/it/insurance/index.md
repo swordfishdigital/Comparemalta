@@ -16,6 +16,7 @@ Confrontiamo 5 offerte di assicurazioni di 5 fornitori a Malta, verificate il 21
 | GasanMamo | Car | Motor Comprehensive | €350 | ✓ | 5,1 |
 | Bupa Malta | Health | Health Insurance | €450 | ✕ | 0,0 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Da/anno 70%, Preventivo online 30%. Nessuno può pagare per una posizione migliore.

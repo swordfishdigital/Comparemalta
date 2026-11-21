@@ -16,6 +16,7 @@ Confrontiamo 5 offerte di piattaforme di investimento di 5 fornitori a Malta, ve
 | Calamatta Cuschieri | Trading Account | €10,00 | 0,20% | ✓ | MFSA | 2,8 |
 | Rizzo Farrugia | Stockbroking | €12,00 | 0,20% | ✓ | MFSA | 2,0 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Commissione trade 45%, Custodia/anno 35%, Accesso MSE 20%. Nessuno può pagare per una posizione migliore.

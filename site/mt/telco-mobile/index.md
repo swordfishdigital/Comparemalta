@@ -17,6 +17,7 @@ Inqabblu 6 prodotti ta' Pjanijiet Mobbli minn 3-il fornitur f'Malta, iċċekkjat
 | GO | Prepaid 15 | €15.00 | 40 | 8 | None | 4.0 |
 | Melita | Mobile 50GB | €20.00 | 50 | 15 | 12 months | 3.3 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Fix-xahar 50%, Data (GB) 35%, Roaming UE (GB) 15%. Ħadd ma jista' jħallas għal post aħjar.

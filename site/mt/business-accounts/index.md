@@ -19,6 +19,7 @@ Inqabblu 8 prodotti ta' Kontijiet tan-Negozju minn 8-il fornitur f'Malta, iċċe
 | APS Bank | Business Account | €5.00 | €1.00 | ✕ | 21 | Bank (MFSA) | 3.2 |
 | HSBC Malta | Business Banking | €10.00 | €1.00 | ✓ | 30 | Bank (MFSA) | 2.7 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Miżata fix-xahar 35%, Trasferiment SEPA 20%, Ftuħ (jiem) 25%, Multi-munita 20%. Ħadd ma jista' jħallas għal post aħjar.

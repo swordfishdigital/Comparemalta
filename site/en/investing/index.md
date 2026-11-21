@@ -16,6 +16,7 @@ We compare 5 investing from 5 providers in Malta, checked 21 November 2026. Top 
 | Calamatta Cuschieri | Trading Account | €10.00 | 0.20% | ✓ | MFSA | 2.8 |
 | Rizzo Farrugia | Stockbroking | €12.00 | 0.20% | ✓ | MFSA | 2.0 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: Trade fee 45%, Custody / yr 35%, MSE access 20%. Nobody can pay for a better position.

@@ -19,6 +19,7 @@ We compare 8 business accounts from 8 providers in Malta, checked 21 November 20
 | APS Bank | Business Account | €5.00 | €1.00 | ✕ | 21 | Bank (MFSA) | 3.2 |
 | HSBC Malta | Business Banking | €10.00 | €1.00 | ✓ | 30 | Bank (MFSA) | 2.7 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: Monthly fee 35%, SEPA transfer 20%, Onboarding (days) 25%, Multi-currency 20%. Nobody can pay for a better position.

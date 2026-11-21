@@ -16,6 +16,7 @@ We compare 5 insurance from 5 providers in Malta, checked 21 November 2026. Top 
 | GasanMamo | Car | Motor Comprehensive | €350 | ✓ | 5.1 |
 | Bupa Malta | Health | Health Insurance | €450 | ✕ | 0.0 |
 
+
 ## How we rank
 
 The Blue score (0 to 10) weighs: From / yr 70%, Online quote 30%. Nobody can pay for a better position.

@@ -16,6 +16,7 @@ Inqabblu 5 prodotti ta' Karti tal-Kreditu minn 4-il fornitur f'Malta, iċċekkja
 | Bank of Valletta | Visa Gold | €60.00 | 16.90% | 2.75% | Travel insurance | 4.3 |
 | HSBC Malta | Visa Credit | €30.00 | 18.50% | 2.99% | Points | 1.8 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Miżata annwali 35%, Imgħax 35%, Miżata tal-kambju 30%. Ħadd ma jista' jħallas għal post aħjar.

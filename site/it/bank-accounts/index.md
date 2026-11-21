@@ -17,6 +17,7 @@ Confrontiamo 6 offerte di conti correnti di 6 fornitori a Malta, verificate il 2
 | Bank of Valletta | Current Account | €1,50 | €10,00 | 2,00% | ✓ | 2,1 |
 | HSBC Malta | Current Account | €2,00 | €12,00 | 2,50% | ✓ | 0,0 |
 
+
 ## Come classifichiamo
 
 Il Blue score (da 0 a 10) pesa: Canone mensile 40%, Costo carta/anno 30%, Prelievo estero 30%. Nessuno può pagare per una posizione migliore.

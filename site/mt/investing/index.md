@@ -16,6 +16,7 @@ Inqabblu 5 prodotti ta' Pjattaformi tal-Investiment minn 5-il fornitur f'Malta, 
 | Calamatta Cuschieri | Trading Account | €10.00 | 0.20% | ✓ | MFSA | 2.8 |
 | Rizzo Farrugia | Stockbroking | €12.00 | 0.20% | ✓ | MFSA | 2.0 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Miżata tat-trade 45%, Kustodja/sena 35%, Aċċess għall-MSE 20%. Ħadd ma jista' jħallas għal post aħjar.

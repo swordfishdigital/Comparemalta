@@ -21,6 +21,7 @@ Inqabblu 10 prodotti ta' Restoranti minn 10-il fornitur f'Malta, iċċekkjati 21
 | Ta' Rikardu | Gozo (Victoria) | Gozitan | €€ | ★ 4.5 | Ġbejniet cheese | 0.8 |
 | Crust | St. Julian's | Pizza | € | ★ 4.5 | Sourdough pizza | 0.4 |
 
+
 ## Kif nikklassifikaw
 
 Il-Blue score (0 sa 10) jiżen: Klassifikazzjoni 80%, reviews 20%. Ħadd ma jista' jħallas għal post aħjar.

@@ -162,5 +162,9 @@
  "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta": {
   "ok": true,
   "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://wamo.io/malta-business": {
+  "ok": true,
+  "checked": "2026-11-21T23:25:12+00:00"
  }
 }
