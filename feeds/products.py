@@ -26,6 +26,20 @@ def _scrape(src):
     return found
 
 
+# Typical Maltese merchant months used to compare POS offers like for like (average ticket about €12.50 and €16.70)
+POS_MONTHS = {"cost_5k": (5000, 400), "cost_20k": (20000, 1200)}
+
+
+def derive_pos_costs(rows):
+    """Monthly cost = card fee on sales above any fee-free allowance + fixed fee per payment + plan fee."""
+    for r in rows:
+        if not isinstance(r.get("fee_pct"), (int, float)):
+            continue
+        for key, (sales, n) in POS_MONTHS.items():
+            taxed = max(0.0, sales - float(r.get("free_allowance") or 0))
+            r[key] = round(taxed * r["fee_pct"] / 100 + n * float(r.get("fee_fixed") or 0) + float(r.get("monthly_fee") or 0), 2)
+
+
 def score(rows, spec):
     """Weighted min-max normalisation -> 0..10. Booleans count as 1/0. Missing values get the category median."""
     if not rows:
@@ -100,6 +114,8 @@ def run(status):
             else:
                 r.setdefault("checked", None)
                 r.setdefault("demo", True)
+        if slug == "pos":
+            derive_pos_costs(rows)
         score(rows, cfg["score"])
         rows.sort(key=lambda r: r.get("score", 0), reverse=True)
         for r in rows:

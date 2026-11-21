@@ -314,6 +314,8 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
         cells = "".join(f"<td>{esc(fmt(r.get(c['key']), c.get('fmt'), lang))}</td>" for c in show)
         body.append(f'<tr><td class="prov">{logo}{name}</td>{cells}<td><b>{nf(r.get("score", 0), 1, lang)}</b></td></tr>')
 
+    notes = "".join(f"<li><b>{esc(product_name(r))}</b>: {esc(r['note'])}</li>" for r in rows if r.get("note"))
+    notes = f'<ul class="seo-muted" style="margin-top:12px">{notes}</ul>' if notes else ""
     srcs = sorted({r.get("source_url") or r.get("url") for r in rows if (r.get("source_url") or r.get("url")) and "google." not in (r.get("source_url") or r.get("url"))})
     alternates = {l: url(l, slug) for l in LANGS}
     canonical = alternates[lang]
@@ -361,7 +363,7 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
 <p class="seo-intro">{esc(intro_of(cfg, lang))}</p>
 <section class="seo-answer"><h2>{esc(s['quick'])}</h2><p>{esc(answer)}</p></section>
 <div class="seo-cta"><a class="btn navy" href="../../?lang={lang}#{slug}">{esc(s['interactive'])}</a><a class="btn blue" href="../../?lang={lang}#ask">{esc(s['ask'])}</a></div>
-<section class="seo-sec"><h2>{esc(s['table'])}</h2><div class="seo-scroll"><table class="seo-table"><thead><tr>{head_cells}</tr></thead><tbody>{''.join(body)}</tbody></table></div></section>
+<section class="seo-sec"><h2>{esc(s['table'])}</h2><div class="seo-scroll"><table class="seo-table"><thead><tr>{head_cells}</tr></thead><tbody>{''.join(body)}</tbody></table></div>{notes}</section>
 <section class="seo-sec"><h2>{esc(s['rank'])}</h2><p>{esc(s['rank_txt'].format(w=w))} <a href="../methodology/">{esc(s['methodology'])} →</a></p></section>
 <section class="seo-sec seo-faq"><h2>{esc(s['faq'])}</h2>{''.join(f'<details open><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faq)}</section>
 <section class="seo-sec"><h2>{esc(s['sources'])}</h2><p class="seo-muted">{esc(s['src_txt'])}</p><ul class="seo-muted">{''.join(f'<li><a href="{esc(u)}" rel="nofollow noopener">{esc(u)}</a></li>' for u in srcs)}</ul></section>
@@ -372,6 +374,7 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
           "|" + "---|" * (len(show) + 2)]
     for r in rows:
         md.append("| " + " | ".join([r["provider"]] + [fmt(r.get(c["key"]), c.get("fmt"), lang).replace("|", "/") for c in show] + [nf(r.get("score", 0), 1, lang)]) + " |")
+    md += [""] + [f"- {product_name(r)}: {r['note']}" for r in rows if r.get("note")]
     md += ["", f"## {s['rank']}", "", s["rank_txt"].format(w=w), "", f"## {s['faq']}", ""]
     for q, a in faq:
         md += [f"**{q}**", "", a, ""]

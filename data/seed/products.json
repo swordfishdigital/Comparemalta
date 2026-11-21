@@ -95,7 +95,8 @@
    "source_url": "https://www.sumup.com/en-mt/pricing/",
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
-   "note": "Same 2.75% on every card; reader is a one-off cost (Solo Lite, excl. VAT)."
+   "note": "Same 2.75% on every card; reader is a one-off cost (Solo Lite, excl. VAT).",
+   "free_allowance": 0
   },
   {
    "provider": "SumUp",
@@ -110,7 +111,8 @@
    "source_url": "https://www.sumup.com/en-mt/pricing/",
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
-   "note": "1.29% on EEA debit and credit cards; Amex and premium cards 2.75%. Pays off above about €2,600 a month."
+   "note": "1.29% on EEA debit and credit cards; Amex and premium cards 2.75%. Pays off above about €2,600 a month.",
+   "free_allowance": 0
   },
   {
    "provider": "myPOS",
@@ -125,7 +127,8 @@
    "source_url": "https://mypos.com/en-mt/pricing-and-fees/fees",
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
-   "note": "Domestic and EEA consumer cards; other cards incl. Amex 2.69%. Instant settlement to your myPOS account."
+   "note": "Domestic and EEA consumer cards; other cards incl. Amex 2.69%. Instant settlement to your myPOS account.",
+   "free_allowance": 0
   },
   {
    "provider": "myPOS",
@@ -140,7 +143,8 @@
    "source_url": "https://mypos.com/en-mt/pricing-and-fees/fees",
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
-   "note": "Domestic and EEA consumer cards; other cards 2.49%."
+   "note": "Domestic and EEA consumer cards; other cards 2.49%.",
+   "free_allowance": 0
   },
   {
    "provider": "myPOS",
@@ -155,7 +159,8 @@
    "source_url": "https://mypos.com/en-mt/pricing-and-fees/fees",
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
-   "note": "Domestic and EEA consumer cards; other cards 2.49%."
+   "note": "Domestic and EEA consumer cards; other cards 2.49%.",
+   "free_allowance": 0
   },
   {
    "provider": "Viva.com",
@@ -170,7 +175,8 @@
    "source_url": "https://www.viva.com/en-mt/pricing",
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
-   "note": "Domestic and EEA consumer cards, minimum €0.03 per payment. Tap to Pay on iPhone and Android, so no hardware needed."
+   "note": "Domestic and EEA consumer cards, minimum €0.03 per payment. Tap to Pay on iPhone and Android, so no hardware needed.",
+   "free_allowance": 0
   },
   {
    "provider": "Revolut Business",
@@ -185,7 +191,8 @@
    "source_url": "https://www.revolut.com/en-MT/business/accept-payments-pricing/",
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
-   "note": "Domestic and European consumer cards; commercial and international cards 2.6% + €0.02. Tap to Pay adds €0.08. Needs a Revolut Business account."
+   "note": "Domestic and European consumer cards; commercial and international cards 2.6% + €0.02. Tap to Pay adds €0.08. Needs a Revolut Business account.",
+   "free_allowance": 0
   },
   {
    "provider": "Stripe",
@@ -200,7 +207,40 @@
    "source_url": "https://stripe.com/mt/pricing",
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
-   "note": "Standard in-person rate for EEA cards; BBPOS WisePad 3 reader from €59 excl. VAT. Best for businesses that also sell online."
+   "note": "Standard in-person rate for EEA cards; BBPOS WisePad 3 reader from €59 excl. VAT. Best for businesses that also sell online.",
+   "free_allowance": 0
+  },
+  {
+   "provider": "wamo",
+   "product": "Start (company)",
+   "fee_pct": 0.85,
+   "fee_fixed": 0,
+   "monthly_fee": 19.99,
+   "free_allowance": 5000,
+   "reader_price": 0,
+   "tap_to_pay": null,
+   "payout": "Next day",
+   "url": "https://wamo.io/malta-business",
+   "source_url": "https://wamo.io/pos-offer-terms-2026",
+   "checked": "2026-11-22T00:30:00+00:00",
+   "demo": false,
+   "note": "0% on the first €5,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account."
+  },
+  {
+   "provider": "wamo",
+   "product": "Grow (company)",
+   "fee_pct": 0.85,
+   "fee_fixed": 0,
+   "monthly_fee": 49.99,
+   "free_allowance": 15000,
+   "reader_price": 0,
+   "tap_to_pay": null,
+   "payout": "Next day",
+   "url": "https://wamo.io/malta-business",
+   "source_url": "https://wamo.io/pos-offer-terms-2026",
+   "checked": "2026-11-22T00:30:00+00:00",
+   "demo": false,
+   "note": "0% on the first €15,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account."
   }
  ],
  "bank-accounts": [
