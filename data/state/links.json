@@ -1,0 +1,166 @@
+{
+ "https://n26.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:49+00:00"
+ },
+ "https://www.rizzofarrugia.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.bupa.com.mt": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.westernunion.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.google.com/maps/search/?api=1&query=Ta%27+Rikardu+Gozo+%28Victoria%29+Malta": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://wamo.io": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.revolut.com/en-MT/business/": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.melita.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.epic.com.mt": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.go.com.mt": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.elmoinsurance.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.lombardmalta.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.mypos.com/en-mt": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://finom.co": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://wise.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.revolut.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.google.com/maps/search/?api=1&query=Rubino+Valletta+Malta": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.interactivebrokers.ie": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.sumup.com/en-mt/": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.bnf.bank": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.revolut.com/business": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.bov.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.gasanmamo.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.hsbc.com.mt": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.google.com/maps/search/?api=1&query=Tartarun+Marsaxlokk+Malta": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.google.com/maps/search/?api=1&query=Crust+St.+Julian%27s+Malta": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:51+00:00"
+ },
+ "https://www.viva.com/en-mt": {
+  "ok": false,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://www.atlas.com.mt": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://www.middlesea.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://wise.com/business": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://www.cc.com.mt": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://www.google.com/maps/search/?api=1&query=Noni+Valletta+Malta": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://www.google.com/maps/search/?api=1&query=Diar+il-Bniet+Dingli+Malta": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://traderepublic.com": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://www.apsbank.com.mt": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://www.medirect.com.mt": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://stripe.com/mt/terminal": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ },
+ "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta": {
+  "ok": true,
+  "checked": "2026-11-21T23:10:59+00:00"
+ }
+}

@@ -4,7 +4,7 @@ _Aġġornat 21 Novembru 2026 · https://comparemalta.ai/mt/savings/_
 
 ## Tweġiba qasira
 
-Inqabblu 6 prodotti ta' Tfaddil u Depożiti Fissi minn 6-il fornitur f'Malta, iċċekkjati 21 Novembru 2026. L-ewwel għażla: MeDirect Fixed Term 12M (9.8/10 Blue score). L-ogħla Rata: MeDirect Fixed Term 12M b'2.60%. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
+Inqabblu 6 prodotti ta' Tfaddil u Depożiti Fissi minn 6-il fornitur f'Malta, iċċekkjati 21 Novembru 2026. L-ewwel għażla: MeDirect Fixed Term 12M (9.8/10 Blue score). L-ogħla rata: MeDirect Fixed Term 12M b'2.60%. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
 
 ## Paragun sħiħ
 
@@ -25,11 +25,11 @@ Il-Blue score (0 sa 10) jiżen: Rata 80%, Depożitu minimu 20%. Ħadd ma jista' 
 
 **X'inhu l-aħjar Tfaddil u Depożiti Fissi f'Malta bħalissa?**
 
-Fil-21 Novembru 2026, MeDirect Fixed Term 12M għandu l-ogħla Blue score fil-paragun tagħna (9.8/10), b'Rata ta' 2.60%.
+Fil-21 Novembru 2026, MeDirect Fixed Term 12M għandu l-ogħla Blue score fil-paragun tagħna (9.8/10), b'rata ta' 2.60%.
 
-**Liema Tfaddil u Depożiti Fissi għandu l-ogħla Rata?**
+**Liema Tfaddil u Depożiti Fissi għandu l-ogħla rata?**
 
-MeDirect Fixed Term 12M għandu l-ogħla Rata, 2.60% (iċċekkjat 21 Novembru 2026).
+MeDirect Fixed Term 12M għandu l-ogħla rata, 2.60% (iċċekkjat 21 Novembru 2026).
 
 **Kif jikklassifika CompareMalta.ai Tfaddil u Depożiti Fissi?**
 

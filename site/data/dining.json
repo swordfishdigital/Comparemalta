@@ -1,36 +1,39 @@
 {
- "updated": "2026-11-15T12:56:54+00:00",
- "date": "2026-11-15",
+ "updated": "2026-11-21T23:09:41+00:00",
+ "date": "2026-11-21",
  "picks": [
   {
-   "provider": "Diar il-Bniet",
-   "area": "Dingli",
-   "cuisine": "Farm-to-table",
-   "price_level": 2,
-   "rating": 4.6,
-   "reviews": 2500,
-   "highlight": "Produce from its own farm",
-   "url": "https://www.diarilbniet.com"
-  },
-  {
-   "provider": "Under Grain",
+   "provider": "ION Harbour",
    "area": "Valletta",
-   "cuisine": "Modern European",
+   "cuisine": "Fine dining",
    "price_level": 4,
-   "rating": 4.7,
-   "reviews": 900,
-   "highlight": "Michelin star",
-   "url": "https://www.undergrain.mt"
+   "rating": 4.8,
+   "reviews": 600,
+   "highlight": "Two Michelin stars, harbour view",
+   "url": "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta"
   },
   {
-   "provider": "Ta' Kris",
-   "area": "Sliema",
-   "cuisine": "Traditional Maltese",
+   "provider": "Commando",
+   "area": "Mellieħa",
+   "cuisine": "Modern Mediterranean",
+   "price_level": 3,
+   "rating": 4.6,
+   "reviews": 1300,
+   "highlight": "Tasting menu",
+   "url": "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta"
+  },
+  {
+   "provider": "Ta' Rikardu",
+   "area": "Gozo (Victoria)",
+   "cuisine": "Gozitan",
    "price_level": 2,
    "rating": 4.5,
-   "reviews": 3500,
-   "highlight": "Rabbit stew (stuffat tal-fenek)",
-   "url": "https://www.takris.com"
+   "reviews": 1800,
+   "highlight": "Ġbejniet cheese",
+   "url": "https://www.google.com/maps/search/?api=1&query=Ta%27+Rikardu+Gozo+%28Victoria%29+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Ta%27+Rikardu+Gozo+%28Victoria%29+Malta"
   }
  ]
 }

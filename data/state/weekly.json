@@ -1,0 +1,23 @@
+{
+ "2026-W47": {
+  "picks": {
+   "savings": "MeDirect",
+   "mortgages": "APS Bank",
+   "personal-loans": "BNF Bank",
+   "credit-cards": "BNF Bank",
+   "business-accounts": "wamo",
+   "pos": "Revolut Business",
+   "telco-mobile": "Melita",
+   "telco-broadband": "Epic",
+   "money-transfer": "wamo"
+  },
+  "markets": {
+   "MSE Equity Total Return Index": 10619.289,
+   "EUR / USD": 1.099,
+   "EUR / GBP": 0.83735,
+   "Euro Stoxx 50": 5941.95,
+   "Gold (USD/oz)": 3515.4,
+   "Brent": 89.95
+  }
+ }
+}

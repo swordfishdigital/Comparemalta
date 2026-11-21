@@ -4,7 +4,7 @@ _Updated 21 November 2026 · https://comparemalta.ai/en/personal-loans/_
 
 ## Quick answer
 
-We compare 5 personal loans from 5 providers in Malta, checked 21 November 2026. Top pick: BNF Bank Personal Loan (8.1/10 Blue score). Lowest aprc: BNF Bank Personal Loan at 6.80%. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 personal loans from 5 providers in Malta, checked 21 November 2026. Top pick: BNF Bank Personal Loan (8.1/10 Blue score). Lowest APRC: BNF Bank Personal Loan at 6.80%. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -24,11 +24,11 @@ The Blue score (0 to 10) weighs: APRC 60%, Fees 20%, Max term (yrs) 20%. Nobody 
 
 **What is the best personal loans in Malta right now?**
 
-On 21 November 2026, BNF Bank Personal Loan has the highest Blue score in our comparison (8.1/10), with aprc of 6.80%.
+On 21 November 2026, BNF Bank Personal Loan has the highest Blue score in our comparison (8.1/10), with APRC of 6.80%.
 
-**Which personal loans has the lowest aprc?**
+**Which personal loans has the lowest APRC?**
 
-BNF Bank Personal Loan has the lowest aprc at 6.80% (checked 21 November 2026).
+BNF Bank Personal Loan has the lowest APRC at 6.80% (checked 21 November 2026).
 
 **How does CompareMalta.ai rank personal loans?**
 

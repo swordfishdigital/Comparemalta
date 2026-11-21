@@ -4,7 +4,7 @@ _Aġġornat 21 Novembru 2026 · https://comparemalta.ai/mt/bank-accounts/_
 
 ## Tweġiba qasira
 
-Inqabblu 6 prodotti ta' Kontijiet Kurrenti minn 6-il fornitur f'Malta, iċċekkjati 21 Novembru 2026. L-ewwel għażla: MeDirect Current Account (10.0/10 Blue score). L-iktar baxx Miżata fix-xahar: MeDirect Current Account b'€0. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
+Inqabblu 6 prodotti ta' Kontijiet Kurrenti minn 6-il fornitur f'Malta, iċċekkjati 21 Novembru 2026. L-ewwel għażla: MeDirect Current Account (10.0/10 Blue score). L-iktar baxx miżata fix-xahar: MeDirect Current Account b'€0. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
 
 ## Paragun sħiħ
 
@@ -25,11 +25,11 @@ Il-Blue score (0 sa 10) jiżen: Miżata fix-xahar 40%, Miżata tal-karta/sena 30
 
 **X'inhu l-aħjar Kontijiet Kurrenti f'Malta bħalissa?**
 
-Fil-21 Novembru 2026, MeDirect Current Account għandu l-ogħla Blue score fil-paragun tagħna (10.0/10), b'Miżata fix-xahar ta' €0.
+Fil-21 Novembru 2026, MeDirect Current Account għandu l-ogħla Blue score fil-paragun tagħna (10.0/10), b'miżata fix-xahar ta' €0.
 
-**Liema Kontijiet Kurrenti għandu l-iktar baxx Miżata fix-xahar?**
+**Liema Kontijiet Kurrenti għandu l-iktar baxx miżata fix-xahar?**
 
-MeDirect Current Account għandu l-iktar baxx Miżata fix-xahar, €0 (iċċekkjat 21 Novembru 2026).
+MeDirect Current Account għandu l-iktar baxx miżata fix-xahar, €0 (iċċekkjat 21 Novembru 2026).
 
 **Kif jikklassifika CompareMalta.ai Kontijiet Kurrenti?**
 
