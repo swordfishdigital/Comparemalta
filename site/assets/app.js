@@ -227,10 +227,18 @@ const visitLink = (r, slug) => r.url ? `<a class="visit" href="${esc(outLink(sit
 const ctaCell = (r, slug, primary) => `<td class="cta-cell">${ctaBtn(r, slug, primary)}${visitLink(r, slug)}</td>`;
 
 /* provider logo (downloaded weekly by feeds/logos.py) with the monogram as fallback */
+function favicon(url) {
+  try {
+    const h = new URL(url).hostname.replace(/^www\./, "");
+    if (/(^|\.)google\./.test(h) || /maps\./.test(h)) return null;  // restaurants link to Maps, no brand icon there
+    return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(h)}&sz=128`;
+  } catch { return null; }
+}
 function brand(r, size = 34) {
-  const m = V.mono(r.provider, size).replace('class="mono"', 'class="mono"');
-  if (!r.logo) return m;
-  return `<span class="plogo ${r.logo_light ? "dark" : ""}" style="width:${size}px;height:${size}px"><img src="${esc(r.logo)}" alt="${esc(r.provider)}" loading="lazy" onerror="this.parentNode.outerHTML=window.CMV.mono(this.alt, ${size})"></span>`;
+  const m = V.mono(r.provider, size);
+  const src = r.logo || favicon(r.url);  // fetched logo first, then the provider's own site icon, then the monogram
+  if (!src) return m;
+  return `<span class="plogo ${r.logo_light ? "dark" : ""}" style="width:${size}px;height:${size}px"><img src="${esc(src)}" alt="${esc(r.provider)}" loading="lazy" onload="if(this.naturalWidth&&this.naturalWidth<32&&!${!!r.logo}){this.parentNode.outerHTML=window.CMV.mono(this.alt, ${size})}" onerror="this.parentNode.outerHTML=window.CMV.mono(this.alt, ${size})"></span>`;
 }
 
 /* ---------- shared blocks ---------- */
