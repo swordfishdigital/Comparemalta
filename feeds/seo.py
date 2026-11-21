@@ -281,7 +281,8 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
     d = date_txt(data.get("updated") or updated, lang)
     key = cfg["score"][0]
     keycol = next((c for c in cfg["columns"] if c["key"] == key["key"]), cfg["columns"][2] if len(cfg["columns"]) > 2 else cfg["columns"][-1])
-    label = cols[lang].get(keycol["key"], keycol["key"]).lower() if lang != "mt" else cols[lang].get(keycol["key"], keycol["key"])
+    label = cols[lang].get(keycol["key"], keycol["key"])
+    label = label if sum(ch.isupper() for ch in label) > 1 else label[:1].lower() + label[1:]  # keep acronyms like APRC
     best = rows[0]
     valued = [r for r in rows if isinstance(r.get(keycol["key"]), (int, float)) and not isinstance(r.get(keycol["key"]), bool)]
     ext = (min if key["dir"] == "low" else max)(valued, key=lambda r: r[keycol["key"]]) if valued else None
