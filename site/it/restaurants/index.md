@@ -4,12 +4,13 @@ _Aggiornato il 21 novembre 2026 · https://comparemalta.ai/it/restaurants/_
 
 ## Risposta rapida
 
-Confrontiamo 10 offerte di ristoranti di 10 fornitori a Malta, verificate il 21 novembre 2026. Prima scelta: ION Harbour Valletta (8,0/10 Blue score). Valutazione più alto: ION Harbour Valletta con ★ 4,8. Alcuni valori sono dati di esempio finché non colleghiamo il feed live di quel fornitore; verifica con il fornitore prima di decidere.
+Confrontiamo 11 offerte di ristoranti di 11 fornitori a Malta, verificate il 21 novembre 2026. Prima scelta: Kebab Factory Valletta, Msida, St Julian's and more (3,2/10 Blue score). Valutazione più alto: ION Harbour Valletta con ★ 4,8. Alcuni valori sono dati di esempio finché non colleghiamo il feed live di quel fornitore; verifica con il fornitore prima di decidere.
 
 ## Confronto completo
 
 | Fornitore | Zona | Cucina | Prezzo | Valutazione | Punto forte | Blue score |
 |---|---|---|---|---|---|---|
+| Kebab Factory | Valletta, Msida, St Julian's and more | Turkish | € | - | Turkish kebab and döner chain, 7 branches across Malta, delivery | 3,2 |
 | ION Harbour | Valletta | Fine dining | €€€€ | ★ 4,8 | Two Michelin stars, harbour view | 8,0 |
 | Under Grain | Valletta | Modern European | €€€€ | ★ 4,7 | Michelin star | 5,5 |
 | Noni | Valletta | Modern Maltese | €€€€ | ★ 4,7 | Michelin star | 5,5 |
@@ -30,7 +31,7 @@ Il Blue score (da 0 a 10) pesa: Valutazione 80%, reviews 20%. Nessuno può pagar
 
 **Qual è la migliore offerta di ristoranti a Malta in questo momento?**
 
-Il 21 novembre 2026, ION Harbour Valletta ha il Blue score più alto del nostro confronto (8,0/10), con valutazione pari a ★ 4,8.
+Il 21 novembre 2026, Kebab Factory Valletta, Msida, St Julian's and more ha il Blue score più alto del nostro confronto (3,2/10), con valutazione pari a -.
 
 **Quale offerta di ristoranti ha il valore più alto di valutazione?**
 
@@ -46,3 +47,4 @@ Ogni giorno. I nostri feed leggono i siti dei fornitori ogni mattina; questa pag
 
 ## Fonti
 
+- https://kebabfactory.com.mt

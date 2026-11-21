@@ -4,12 +4,13 @@ _Aġġornat 21 Novembru 2026 · https://comparemalta.ai/mt/restaurants/_
 
 ## Tweġiba qasira
 
-Inqabblu 10 prodotti ta' Restoranti minn 10-il fornitur f'Malta, iċċekkjati 21 Novembru 2026. L-ewwel għażla: ION Harbour Valletta (8.0/10 Blue score). L-ogħla klassifikazzjoni: ION Harbour Valletta b'★ 4.8. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
+Inqabblu 11 prodotti ta' Restoranti minn 11-il fornitur f'Malta, iċċekkjati 21 Novembru 2026. L-ewwel għażla: Kebab Factory Valletta, Msida, St Julian's and more (3.2/10 Blue score). L-ogħla klassifikazzjoni: ION Harbour Valletta b'★ 4.8. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
 
 ## Paragun sħiħ
 
 | Fornitur | Żona | Kċina | Prezz | Klassifikazzjoni | Speċjalità | Blue score |
 |---|---|---|---|---|---|---|
+| Kebab Factory | Valletta, Msida, St Julian's and more | Turkish | € | - | Turkish kebab and döner chain, 7 branches across Malta, delivery | 3.2 |
 | ION Harbour | Valletta | Fine dining | €€€€ | ★ 4.8 | Two Michelin stars, harbour view | 8.0 |
 | Under Grain | Valletta | Modern European | €€€€ | ★ 4.7 | Michelin star | 5.5 |
 | Noni | Valletta | Modern Maltese | €€€€ | ★ 4.7 | Michelin star | 5.5 |
@@ -30,7 +31,7 @@ Il-Blue score (0 sa 10) jiżen: Klassifikazzjoni 80%, reviews 20%. Ħadd ma jist
 
 **X'inhu l-aħjar Restoranti f'Malta bħalissa?**
 
-Fil-21 Novembru 2026, ION Harbour Valletta għandu l-ogħla Blue score fil-paragun tagħna (8.0/10), b'klassifikazzjoni ta' ★ 4.8.
+Fil-21 Novembru 2026, Kebab Factory Valletta, Msida, St Julian's and more għandu l-ogħla Blue score fil-paragun tagħna (3.2/10), b'klassifikazzjoni ta' -.
 
 **Liema Restoranti għandu l-ogħla klassifikazzjoni?**
 
@@ -46,3 +47,4 @@ Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-pa�
 
 ## Sorsi
 
+- https://kebabfactory.com.mt

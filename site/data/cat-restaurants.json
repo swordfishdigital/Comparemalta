@@ -1,7 +1,24 @@
 {
  "slug": "restaurants",
- "updated": "2026-11-21T23:31:17+00:00",
+ "updated": "2026-11-21T23:41:34+00:00",
  "items": [
+  {
+   "provider": "Kebab Factory",
+   "area": "Valletta, Msida, St Julian's and more",
+   "cuisine": "Turkish",
+   "price_level": 1,
+   "rating": null,
+   "reviews": null,
+   "highlight": "Turkish kebab and döner chain, 7 branches across Malta, delivery",
+   "url": "https://kebabfactory.com.mt",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Kebab+Factory+Malta",
+   "featured": true,
+   "checked": null,
+   "demo": true,
+   "score": 3.2,
+   "logo": null,
+   "logo_light": false
+  },
   {
    "provider": "ION Harbour",
    "area": "Valletta",

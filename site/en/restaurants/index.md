@@ -4,12 +4,13 @@ _Updated 21 November 2026 · https://comparemalta.ai/en/restaurants/_
 
 ## Quick answer
 
-We compare 10 restaurants from 10 providers in Malta, checked 21 November 2026. Top pick: ION Harbour Valletta (8.0/10 Blue score). Highest rating: ION Harbour Valletta at ★ 4.8. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 11 restaurants from 11 providers in Malta, checked 21 November 2026. Top pick: Kebab Factory Valletta, Msida, St Julian's and more (3.2/10 Blue score). Highest rating: ION Harbour Valletta at ★ 4.8. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
 | Provider | Area | Cuisine | Price | Rating | Highlight | Blue score |
 |---|---|---|---|---|---|---|
+| Kebab Factory | Valletta, Msida, St Julian's and more | Turkish | € | - | Turkish kebab and döner chain, 7 branches across Malta, delivery | 3.2 |
 | ION Harbour | Valletta | Fine dining | €€€€ | ★ 4.8 | Two Michelin stars, harbour view | 8.0 |
 | Under Grain | Valletta | Modern European | €€€€ | ★ 4.7 | Michelin star | 5.5 |
 | Noni | Valletta | Modern Maltese | €€€€ | ★ 4.7 | Michelin star | 5.5 |
@@ -30,7 +31,7 @@ The Blue score (0 to 10) weighs: Rating 80%, reviews 20%. Nobody can pay for a b
 
 **What is the best restaurants in Malta right now?**
 
-On 21 November 2026, ION Harbour Valletta has the highest Blue score in our comparison (8.0/10), with rating of ★ 4.8.
+On 21 November 2026, Kebab Factory Valletta, Msida, St Julian's and more has the highest Blue score in our comparison (3.2/10), with rating of -.
 
 **Which restaurants has the highest rating?**
 
@@ -46,3 +47,4 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 ## Sources
 
+- https://kebabfactory.com.mt

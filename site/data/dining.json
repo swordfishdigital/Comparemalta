@@ -1,7 +1,19 @@
 {
- "updated": "2026-11-21T23:31:10+00:00",
+ "updated": "2026-11-21T23:41:22+00:00",
  "date": "2026-11-21",
  "picks": [
+  {
+   "provider": "Kebab Factory",
+   "area": "Valletta, Msida, St Julian's and more",
+   "cuisine": "Turkish",
+   "price_level": 1,
+   "rating": null,
+   "reviews": null,
+   "highlight": "Turkish kebab and döner chain, 7 branches across Malta, delivery",
+   "url": "https://kebabfactory.com.mt",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Kebab+Factory+Malta",
+   "featured": true
+  },
   {
    "provider": "ION Harbour",
    "area": "Valletta",
@@ -23,17 +35,6 @@
    "highlight": "Tasting menu",
    "url": "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta",
    "maps": "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta"
-  },
-  {
-   "provider": "Ta' Rikardu",
-   "area": "Gozo (Victoria)",
-   "cuisine": "Gozitan",
-   "price_level": 2,
-   "rating": 4.5,
-   "reviews": 1800,
-   "highlight": "Ġbejniet cheese",
-   "url": "https://www.google.com/maps/search/?api=1&query=Ta%27+Rikardu+Gozo+%28Victoria%29+Malta",
-   "maps": "https://www.google.com/maps/search/?api=1&query=Ta%27+Rikardu+Gozo+%28Victoria%29+Malta"
   }
  ]
 }

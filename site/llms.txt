@@ -2,7 +2,7 @@
 
 > Malta's AI comparison site. Independent, daily-refreshed comparisons of bank accounts, savings, loans, mortgages, credit cards, business accounts, POS and card payments, fintech, money transfer, mobile and broadband plans, insurance, investing and restaurants in Malta, in English, Maltese and Italian. Every figure comes from the provider's own website; rankings use a published Blue score (0-10) and cannot be bought.
 
-Last updated: 2026-11-21T23:31:17+00:00
+Last updated: 2026-11-21T23:41:34+00:00
 
 Ask Blue, the site's AI assistant, answers questions from the same data at https://comparemalta.ai/#ask .
 
@@ -17,11 +17,12 @@ Ask Blue, the site's AI assistant, answers questions from the same data at https
 - [Credit Cards](https://comparemalta.ai/en/credit-cards/): Annual fee, interest, foreign transaction fee and rewards. Top pick today: BNF Bank Visa Credit. Markdown: https://comparemalta.ai/en/credit-cards/index.md
 - [Fintech Apps](https://comparemalta.ai/en/fintech/): Digital accounts and card apps available in Malta: FX markup and monthly plans. Top pick today: N26 Standard. Markdown: https://comparemalta.ai/en/fintech/index.md
 - [Money Transfer](https://comparemalta.ai/en/money-transfer/): Sending €1,000: fee, FX margin and speed (EUR→GBP / TRY / USD). Top pick today: wamo. Markdown: https://comparemalta.ai/en/money-transfer/index.md
+- [FX & Currency Exchange](https://comparemalta.ai/en/fx/): Who gives you the most when you send or exchange €1,000 from Malta. Live quotes, refreshed every 6 hours and ranked by total cost against the mid-market rate (fee plus exchange-rate markup). Top pick today: Instarem EUR → USD. Markdown: https://comparemalta.ai/en/fx/index.md
 - [Mobile Plans](https://comparemalta.ai/en/telco-mobile/): GO, Epic and Melita postpaid and prepaid plans. Top pick today: Melita Mobile Unlimited. Markdown: https://comparemalta.ai/en/telco-mobile/index.md
 - [Broadband & TV](https://comparemalta.ai/en/telco-broadband/): Fibre speeds, prices and TV bundles. Top pick today: Epic Epic Fibre 1G. Markdown: https://comparemalta.ai/en/telco-broadband/index.md
 - [Insurance](https://comparemalta.ai/en/insurance/): Car, home and health insurance starting prices. Top pick today: Atlas Insurance Home Insurance. Markdown: https://comparemalta.ai/en/insurance/index.md
 - [Investing](https://comparemalta.ai/en/investing/): Brokers and apps with access to the MSE and global markets. Top pick today: Trade Republic Securities Account. Markdown: https://comparemalta.ai/en/investing/index.md
-- [Restaurants](https://comparemalta.ai/en/restaurants/): Malta & Gozo restaurants by area, cuisine and budget, with fresh picks every day. Top pick today: ION Harbour Valletta. Markdown: https://comparemalta.ai/en/restaurants/index.md
+- [Restaurants](https://comparemalta.ai/en/restaurants/): Malta & Gozo restaurants by area, cuisine and budget, with fresh picks every day. Top pick today: Kebab Factory Valletta, Msida, St Julian's and more. Markdown: https://comparemalta.ai/en/restaurants/index.md
 
 ## Other languages
 
@@ -31,7 +32,7 @@ Ask Blue, the site's AI assistant, answers questions from the same data at https
 
 ## Data
 
-- Every category as JSON: https://comparemalta.ai/data/cat-<slug>.json (slugs: business-accounts, pos, bank-accounts, savings, personal-loans, mortgages, credit-cards, fintech, money-transfer, telco-mobile, telco-broadband, insurance, investing, restaurants)
+- Every category as JSON: https://comparemalta.ai/data/cat-<slug>.json (slugs: business-accounts, pos, bank-accounts, savings, personal-loans, mortgages, credit-cards, fintech, money-transfer, fx, telco-mobile, telco-broadband, insurance, investing, restaurants)
 - FX (ECB) https://comparemalta.ai/data/fx.json, markets https://comparemalta.ai/data/markets.json, news https://comparemalta.ai/data/news.json
 - All current tables in one file: https://comparemalta.ai/llms-full.txt
 

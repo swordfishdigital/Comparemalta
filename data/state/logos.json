@@ -138,5 +138,50 @@
   "ok": true,
   "src": "https://wise.com/public-resources/assets/icons/wise-personal/apple_touch_icon.png",
   "checked": "2026-11-21T23:10:39+00:00"
+ },
+ "instarem.com": {
+  "ok": true,
+  "src": "https://www.google.com/s2/favicons?domain=instarem.com&sz=128",
+  "checked": "2026-11-21T23:41:27+00:00"
+ },
+ "kebabfactory.com.mt": {
+  "ok": true,
+  "src": "https://kebabfactory.com.mt/images/favicon-512.png",
+  "checked": "2026-11-21T23:41:27+00:00"
+ },
+ "moneygram.com": {
+  "ok": true,
+  "src": "https://moneygram.com/favicon.ico",
+  "checked": "2026-11-21T23:41:27+00:00"
+ },
+ "ofx.com": {
+  "ok": true,
+  "src": "https://www.ofx.com/wp-content/uploads/2024/12/favicon.png",
+  "checked": "2026-11-21T23:41:27+00:00"
+ },
+ "paypal.com": {
+  "ok": true,
+  "src": "https://paypal.com/favicon.ico",
+  "checked": "2026-11-21T23:41:27+00:00"
+ },
+ "remitly.com": {
+  "ok": true,
+  "src": "https://media.remitly.io/apple_touch_icon.bD56TI2smTyVsGd5.png",
+  "checked": "2026-11-21T23:41:27+00:00"
+ },
+ "skrill.com": {
+  "ok": true,
+  "src": "https://skrill.com/typo3conf/ext/sitepackage/Resources/Public/images/icons/apple-touch-icon.png",
+  "checked": "2026-11-21T23:41:27+00:00"
+ },
+ "worldremit.com": {
+  "ok": true,
+  "src": "https://worldremit.com/web-cms-assets/next-assets/icons/icon-512x512.png",
+  "checked": "2026-11-21T23:41:27+00:00"
+ },
+ "xoom.com": {
+  "ok": true,
+  "src": "https://www.paypalobjects.com/marketing/web/icons/monogram/pp258.png",
+  "checked": "2026-11-21T23:41:27+00:00"
  }
 }
