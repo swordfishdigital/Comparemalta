@@ -301,3 +301,6 @@ a.cat2:hover .go{background:var(--blue);color:#fff;transform:translateX(2px)}
 
 /* conditions under a row (allowances, offer end dates) */
 tr.note-row td{white-space:normal;font-size:12.5px;color:var(--muted,#6b7a90);padding-top:0;border-top:0;background:transparent}
+
+.feat{display:inline-block;vertical-align:middle;font:600 11px/1 Inter,sans-serif;letter-spacing:.04em;text-transform:uppercase;background:#f6c453;color:#0d2a4a;border-radius:999px;padding:4px 8px;margin-left:6px}
+#fxc .chip{cursor:pointer;border:0;font:inherit}

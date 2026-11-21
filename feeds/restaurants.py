@@ -51,4 +51,6 @@ def run(status):
     seed_day = int(hashlib.md5(date.today().isoformat().encode()).hexdigest(), 16)
     good = sorted([i for i in items if (i.get("rating") or 0) >= 4.4], key=lambda i: i["provider"])
     picks = [good[(seed_day + k * 7) % len(good)] for k in range(min(3, len(good)))] if good else []
+    featured = [r for r in load_json(SEED / "products.json")["restaurants"] if r.get("featured")]
+    picks = (featured + [p for p in picks if p["provider"] not in {f["provider"] for f in featured}])[:3]
     save_json(OUT / "dining.json", {"updated": now_iso(), "date": date.today().isoformat(), "picks": picks})

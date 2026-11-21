@@ -12,6 +12,7 @@ const ICON_PATHS = {
   "credit-cards": '<rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/>',
   "fintech": '<rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/>',
   "money-transfer": '<path d="M4 8h15l-3.5-3.5M20 16H5l3.5 3.5"/>',
+  "fx": '<circle cx="8" cy="8" r="5"/><circle cx="16" cy="16" r="5"/><path d="M6.5 8h3M8 6.5v3M14 16h4"/>',
   "pos": '<rect x="6" y="2" width="12" height="20" rx="2"/><rect x="9" y="5" width="6" height="4" rx="1"/><path d="M9 13h1M12 13h1M15 13h0M9 16h1M12 16h1M15 16h0M9 19h6"/>',
   "telco-mobile": '<path d="M4 20v-3M9 20v-7M14 20V9M19 20V4"/>',
   "telco-broadband": '<path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/>',
@@ -22,7 +23,7 @@ const ICON_PATHS = {
   "markets": '<path d="M3 20h18M6 16V10M10 16V6M14 16v-4M18 16V8"/>'
 };
 const TINT = {"business-accounts":"#c8102e","bank-accounts":"#0b2545","savings":"#12805c","personal-loans":"#b8862b","mortgages":"#1d5fbf","credit-cards":"#7a3e9d",
-  "fintech":"#0e7c86","money-transfer":"#d0561b","pos":"#7a3e9d","telco-mobile":"#1d5fbf","telco-broadband":"#0e7c86","insurance":"#12805c","investing":"#b8862b","restaurants":"#c8102e"};
+  "fintech":"#0e7c86","money-transfer":"#d0561b","fx":"#12805c","pos":"#7a3e9d","telco-mobile":"#1d5fbf","telco-broadband":"#0e7c86","insurance":"#12805c","investing":"#b8862b","restaurants":"#c8102e"};
 
 function icon(key, size = 22, color = "currentColor") {
   return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_PATHS[key] || ICON_PATHS.news}</svg>`;
@@ -137,7 +138,7 @@ const CI = {
 };
 const CI_FOR = {"bank-accounts":"bank",banking:"bank",mortgages:"home",loans:"home","credit-cards":"cards",cards:"cards","business-accounts":"business",business:"business",
   "telco-mobile":"phone",telco:"phone",restaurants:"eat",dining:"eat",eat:"eat",markets:"markets",news:"news",today:"news",savings:"savings","personal-loans":"loan",
-  fintech:"fintech","money-transfer":"transfer",pos:"pos","telco-broadband":"wifi",insurance:"shield",investing:"invest"};
+  fintech:"fintech","money-transfer":"transfer",fx:"transfer",pos:"pos","telco-broadband":"wifi",insurance:"shield",investing:"invest"};
 function catIcon(key, size = 44) {
   return `<svg class="ci" width="${size}" height="${size}" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${CI[CI_FOR[key] || key] || CI.news}</svg>`;
 }

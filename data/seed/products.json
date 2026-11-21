@@ -613,6 +613,60 @@
    "url": "https://wamo.io"
   }
  ],
+ "fx": [
+  {
+   "provider": "Wise",
+   "url": "https://wise.com",
+   "aliases": []
+  },
+  {
+   "provider": "Western Union",
+   "url": "https://www.westernunion.com",
+   "aliases": []
+  },
+  {
+   "provider": "MoneyGram",
+   "url": "https://www.moneygram.com",
+   "aliases": [
+    "Moneygram"
+   ]
+  },
+  {
+   "provider": "Remitly",
+   "url": "https://www.remitly.com",
+   "aliases": []
+  },
+  {
+   "provider": "Instarem",
+   "url": "https://www.instarem.com",
+   "aliases": []
+  },
+  {
+   "provider": "Skrill",
+   "url": "https://www.skrill.com",
+   "aliases": []
+  },
+  {
+   "provider": "PayPal",
+   "url": "https://www.paypal.com",
+   "aliases": []
+  },
+  {
+   "provider": "OFX",
+   "url": "https://www.ofx.com",
+   "aliases": []
+  },
+  {
+   "provider": "WorldRemit",
+   "url": "https://www.worldremit.com",
+   "aliases": []
+  },
+  {
+   "provider": "Xoom",
+   "url": "https://www.xoom.com",
+   "aliases": []
+  }
+ ],
  "telco-mobile": [
   {
    "provider": "GO",
@@ -806,6 +860,18 @@
   }
  ],
  "restaurants": [
+  {
+   "provider": "Kebab Factory",
+   "area": "Valletta, Msida, St Julian's and more",
+   "cuisine": "Turkish",
+   "price_level": 1,
+   "rating": null,
+   "reviews": null,
+   "highlight": "Turkish kebab and döner chain, 7 branches across Malta, delivery",
+   "url": "https://kebabfactory.com.mt",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Kebab+Factory+Malta",
+   "featured": true
+  },
   {
    "provider": "Under Grain",
    "area": "Valletta",

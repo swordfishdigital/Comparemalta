@@ -33,7 +33,7 @@ MONTHS = {
     "mt": "Jannar Frar Marzu April Mejju Ġunju Lulju Awwissu Settembru Ottubru Novembru Diċembru".split(),
     "it": "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split(),
 }
-FINANCIAL = {"bank-accounts", "savings", "personal-loans", "mortgages", "credit-cards", "business-accounts", "pos",
+FINANCIAL = {"bank-accounts", "savings", "personal-loans", "mortgages", "credit-cards", "business-accounts", "pos", "fx",
              "fintech", "money-transfer", "insurance", "investing"}
 # AI and search crawlers we explicitly welcome (robots.txt allows everyone; naming them makes the intent clear)
 BOTS = ["Googlebot", "Bingbot", "Google-Extended", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User",
@@ -153,6 +153,10 @@ def fmt(v, f, lang, yes="✓", no="✕"):
         return yes if v else no
     if f == "price":
         return "€" * int(v)
+    if f == "amt":
+        return nf(v, 2, lang)
+    if f == "rate":
+        return nf(v, 4, lang)
     if f == "rating":
         return "★ " + nf(v, 1, lang)
     return str(v)
@@ -508,7 +512,7 @@ def run(status):
     cols = _cols()
     datas = {slug: load_json(OUT / f"cat-{slug}.json") or {} for slug in cats}
     fx, markets, news = load_json(OUT / "fx.json"), load_json(OUT / "markets.json"), load_json(OUT / "news.json")
-    navkeys = ["bank-accounts", "savings", "mortgages", "personal-loans", "credit-cards", "business-accounts", "pos", "telco-mobile"]
+    navkeys = ["bank-accounts", "savings", "mortgages", "personal-loans", "credit-cards", "business-accounts", "pos", "fx", "telco-mobile"]
     count, full = 0, ["# CompareMalta.ai: all current comparisons", "", f"Generated {updated}. Source: https://comparemalta.ai", ""]
     for lang in LANGS:
         nav = [(k, title_of(cats[k], lang)) for k in navkeys if k in cats]

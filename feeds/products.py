@@ -101,9 +101,15 @@ def run(status):
 
     index, built = [], {}
     for slug, cfg in cats.items():
+        if slug == "fx":
+            continue  # live quotes, built by feeds/fxcompare.py
         rows = [dict(r) for r in seed.get(slug, [])]
         if slug == "restaurants":
-            rows = load_json(STATE / "restaurants.json", {}).get("items") or rows
+            live = load_json(STATE / "restaurants.json", {}).get("items")
+            if live:
+                featured = [r for r in rows if r.get("featured")]
+                names = {r["provider"].lower() for r in featured}
+                rows = featured + [r for r in live if r["provider"].lower() not in names]
         for r in rows:
             st = state.get(f"{slug}::{_key(r)}")
             if st:
@@ -117,7 +123,7 @@ def run(status):
         if slug == "pos":
             derive_pos_costs(rows)
         score(rows, cfg["score"])
-        rows.sort(key=lambda r: r.get("score", 0), reverse=True)
+        rows.sort(key=lambda r: (bool(r.get("featured")), r.get("score", 0)), reverse=True)  # featured listings are labelled in the UI
         for r in rows:
             r["logo"] = None if slug == "restaurants" else logos.logo_for(r.get("url"))
             r["logo_light"] = bool(r["logo"]) and logos.logo_light(r.get("url"))

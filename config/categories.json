@@ -552,6 +552,64 @@
   "title_it": "Trasferimenti di Denaro",
   "intro_it": "Per inviare €1.000: commissione, margine sul cambio e velocità (EUR→GBP / TRY / USD)."
  },
+ "fx": {
+  "title": "Döviz ve Para Gönderimi",
+  "title_en": "FX & Currency Exchange",
+  "group": "Banka & Fintech",
+  "featured": true,
+  "intro": "Malta'dan €1.000 gönderince ya da bozdurunca kim ne kadar veriyor; canlı.",
+  "intro_en": "Who gives you the most when you send or exchange €1,000 from Malta. Live quotes, refreshed every 6 hours and ranked by total cost against the mid-market rate (fee plus exchange-rate markup).",
+  "title_mt": "Kambju u Trasferimenti",
+  "intro_mt": "Min jagħtik l-iktar meta tibgħat jew tibdel €1,000 minn Malta. Kwotazzjonijiet live, aġġornati kull 6 sigħat u kklassifikati skont l-ispiża totali kontra r-rata tan-nofs tas-suq (miżata u marġni fuq il-kambju).",
+  "title_it": "Cambio Valuta e Trasferimenti",
+  "intro_it": "Chi ti dà di più quando invii o cambi €1.000 da Malta. Quotazioni live, aggiornate ogni 6 ore e ordinate per costo totale rispetto al tasso medio di mercato (commissione più ricarico sul cambio).",
+  "columns": [
+   {
+    "key": "provider",
+    "label": "Sağlayıcı"
+   },
+   {
+    "key": "product",
+    "label": "Kur"
+   },
+   {
+    "key": "you_get",
+    "label": "Alınan tutar",
+    "fmt": "amt"
+   },
+   {
+    "key": "total_cost_pct",
+    "label": "Toplam maliyet",
+    "fmt": "pct"
+   },
+   {
+    "key": "fee",
+    "label": "Ücret",
+    "fmt": "eur"
+   },
+   {
+    "key": "fx_rate",
+    "label": "Kur",
+    "fmt": "rate"
+   },
+   {
+    "key": "markup",
+    "label": "Kur marjı",
+    "fmt": "pct"
+   },
+   {
+    "key": "speed",
+    "label": "Hız"
+   }
+  ],
+  "score": [
+   {
+    "key": "total_cost_pct",
+    "w": 1.0,
+    "dir": "low"
+   }
+  ]
+ },
  "telco-mobile": {
   "title": "Mobil Hat",
   "title_en": "Mobile Plans",
