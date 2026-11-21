@@ -55,6 +55,21 @@ def _quotes(ccy, directory):
             "speed": _speed(q), "url": meta["url"], "source_url": SOURCE_PAGE,
             "checked": q.get("dateCollected") or now_iso(), "demo": False, "mid": mid,
         })
+    # providers outside the comparison feed that publish fixed pricing (e.g. a markup per plan): priced at today's mid rate
+    if mid:
+        for meta in {id(m): m for m in directory.values()}.values():
+            pr = meta.get("pricing")
+            if not pr or ccy not in pr.get("corridors", CORRIDORS):
+                continue
+            fee, mk = float(pr.get("fee", 0)), float(pr["markup"])
+            got = round((AMOUNT - fee) * mid * (1 - mk / 100), 2)
+            rows.append({
+                "provider": meta["provider"], "product": f"EUR → {ccy}" + (f" ({pr['plan']})" if pr.get("plan") else ""), "corridor": ccy,
+                "you_get": got, "fee": fee, "fx_rate": round(mid * (1 - mk / 100), 4), "markup": mk,
+                "total_cost_pct": round((mid * AMOUNT - got) / (mid * AMOUNT) * 100, 2), "speed": pr.get("speed"),
+                "url": meta["url"], "source_url": pr.get("source_url") or meta["url"], "note": pr.get("note"),
+                "checked": now_iso(), "demo": False, "mid": mid,
+            })
     return rows
 
 
