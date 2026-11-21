@@ -1,6 +1,6 @@
 {
  "slug": "restaurants",
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-21T20:41:04+00:00",
  "items": [
   {
    "provider": "ION Harbour",
@@ -10,10 +10,13 @@
    "rating": 4.8,
    "reviews": 600,
    "highlight": "Two Michelin stars, harbour view",
-   "url": "https://www.ionharbour.com",
+   "url": "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta",
    "checked": null,
    "demo": true,
-   "score": 8.0
+   "score": 8.0,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Under Grain",
@@ -23,10 +26,13 @@
    "rating": 4.7,
    "reviews": 900,
    "highlight": "Michelin star",
-   "url": "https://www.undergrain.mt",
+   "url": "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta",
    "checked": null,
    "demo": true,
-   "score": 5.5
+   "score": 5.5,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Noni",
@@ -36,10 +42,13 @@
    "rating": 4.7,
    "reviews": 800,
    "highlight": "Michelin star",
-   "url": "https://www.noni.com.mt",
+   "url": "https://www.google.com/maps/search/?api=1&query=Noni+Valletta+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Noni+Valletta+Malta",
    "checked": null,
    "demo": true,
-   "score": 5.5
+   "score": 5.5,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Diar il-Bniet",
@@ -49,10 +58,13 @@
    "rating": 4.6,
    "reviews": 2500,
    "highlight": "Produce from its own farm",
-   "url": "https://www.diarilbniet.com",
+   "url": "https://www.google.com/maps/search/?api=1&query=Diar+il-Bniet+Dingli+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Diar+il-Bniet+Dingli+Malta",
    "checked": null,
    "demo": true,
-   "score": 4.0
+   "score": 4.0,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Rubino",
@@ -62,10 +74,13 @@
    "rating": 4.6,
    "reviews": 1500,
    "highlight": "Cassata Siciliana",
-   "url": "https://www.rubino.com.mt",
+   "url": "https://www.google.com/maps/search/?api=1&query=Rubino+Valletta+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Rubino+Valletta+Malta",
    "checked": null,
    "demo": true,
-   "score": 3.3
+   "score": 3.3,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Tartarun",
@@ -75,10 +90,13 @@
    "rating": 4.6,
    "reviews": 1400,
    "highlight": "Catch of the day",
-   "url": "https://www.tartarun.com",
+   "url": "https://www.google.com/maps/search/?api=1&query=Tartarun+Marsaxlokk+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Tartarun+Marsaxlokk+Malta",
    "checked": null,
    "demo": true,
-   "score": 3.2
+   "score": 3.2,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Commando",
@@ -88,10 +106,13 @@
    "rating": 4.6,
    "reviews": 1300,
    "highlight": "Tasting menu",
-   "url": "https://www.commando.com.mt",
+   "url": "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta",
    "checked": null,
    "demo": true,
-   "score": 3.1
+   "score": 3.1,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Ta' Kris",
@@ -101,10 +122,13 @@
    "rating": 4.5,
    "reviews": 3500,
    "highlight": "Rabbit stew (stuffat tal-fenek)",
-   "url": "https://www.takris.com",
+   "url": "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta",
    "checked": null,
    "demo": true,
-   "score": 2.0
+   "score": 2.0,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Ta' Rikardu",
@@ -114,10 +138,13 @@
    "rating": 4.5,
    "reviews": 1800,
    "highlight": "Ġbejniet cheese",
-   "url": "https://www.tarikardu.com",
+   "url": "https://www.google.com/maps/search/?api=1&query=Ta%27+Rikardu+Gozo+%28Victoria%29+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Ta%27+Rikardu+Gozo+%28Victoria%29+Malta",
    "checked": null,
    "demo": true,
-   "score": 0.8
+   "score": 0.8,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Crust",
@@ -127,10 +154,13 @@
    "rating": 4.5,
    "reviews": 1200,
    "highlight": "Sourdough pizza",
-   "url": "https://www.google.com/maps/search/Crust+St+Julians",
+   "url": "https://www.google.com/maps/search/?api=1&query=Crust+St.+Julian%27s+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Crust+St.+Julian%27s+Malta",
    "checked": null,
    "demo": true,
-   "score": 0.4
+   "score": 0.4,
+   "logo": null,
+   "logo_light": false
   }
  ]
 }

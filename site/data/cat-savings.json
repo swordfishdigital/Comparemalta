@@ -1,6 +1,6 @@
 {
  "slug": "savings",
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-21T20:41:04+00:00",
  "items": [
   {
    "provider": "MeDirect",
@@ -12,7 +12,9 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 9.8
+   "score": 9.8,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Lombard Bank",
@@ -24,7 +26,9 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 7.7
+   "score": 7.7,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "BNF Bank",
@@ -36,7 +40,9 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 6.4
+   "score": 6.4,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "APS Bank",
@@ -48,7 +54,9 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 5.4
+   "score": 5.4,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Bank of Valletta",
@@ -60,7 +68,9 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 1.8
+   "score": 1.8,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "HSBC Malta",
@@ -72,7 +82,9 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 0.7
+   "score": 0.7,
+   "logo": null,
+   "logo_light": false
   }
  ]
 }

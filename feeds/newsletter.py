@@ -16,7 +16,7 @@ from .common import OUT, STATE, load_json, now_iso, save_json
 
 SITE = "https://comparemalta.ai"
 DIR = OUT.parent / "newsletter"
-CATS = ["savings", "mortgages", "personal-loans", "credit-cards", "business-accounts", "telco-mobile", "telco-broadband", "money-transfer"]
+CATS = ["savings", "mortgages", "personal-loans", "credit-cards", "business-accounts", "pos", "telco-mobile", "telco-broadband", "money-transfer"]
 L = {
     "en": {"title": "CompareMalta weekly", "week": "Week", "intro": "Your Monday rundown of the best rates, plans and prices in Malta, plus the markets and the week's news.",
            "picks": "Best picks this week", "markets": "Markets this week", "news": "Malta this week", "see": "See the full table", "read": "Read",

@@ -1,6 +1,6 @@
 {
  "slug": "investing",
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-21T20:41:04+00:00",
  "items": [
   {
    "provider": "Trade Republic",
@@ -12,7 +12,9 @@
    "url": "https://traderepublic.com",
    "checked": null,
    "demo": true,
-   "score": 8.0
+   "score": 8.0,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Interactive Brokers",
@@ -24,7 +26,9 @@
    "url": "https://www.interactivebrokers.ie",
    "checked": null,
    "demo": true,
-   "score": 7.2
+   "score": 7.2,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "MeDirect",
@@ -36,7 +40,9 @@
    "url": "https://www.medirect.com.mt",
    "checked": null,
    "demo": true,
-   "score": 4.5
+   "score": 4.5,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Calamatta Cuschieri",
@@ -48,7 +54,9 @@
    "url": "https://www.cc.com.mt",
    "checked": null,
    "demo": true,
-   "score": 2.8
+   "score": 2.8,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Rizzo Farrugia",
@@ -60,7 +68,9 @@
    "url": "https://www.rizzofarrugia.com",
    "checked": null,
    "demo": true,
-   "score": 2.0
+   "score": 2.0,
+   "logo": null,
+   "logo_light": false
   }
  ]
 }

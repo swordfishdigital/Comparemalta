@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-21T20:41:04+00:00",
  "config": {
   "business-accounts": {
    "title": "İşletme Hesapları",
@@ -68,6 +68,84 @@
    "intro_mt": "Kontijiet tan-negozju ta' banek u EMIs għal SMEs, freelancers u kumpaniji holding f'Malta.",
    "title_it": "Conti Business",
    "intro_it": "Conti business di banche e IMEL per PMI, liberi professionisti e holding a Malta."
+  },
+  "pos": {
+   "title": "POS ve Kart Kabulü",
+   "title_en": "POS & Card Payments",
+   "group": "Banka & Fintech",
+   "featured": true,
+   "intro": "Malta'daki işletmeler için kart okuyucu, POS ve telefonla ödeme alma çözümleri.",
+   "intro_en": "Card readers, POS terminals and tap-to-pay on your phone for merchants in Malta. Compare the card fee you pay on every sale, monthly costs and what the hardware costs.",
+   "title_mt": "POS u Ħlas bil-Karta",
+   "intro_mt": "Card readers, terminals POS u tap-to-pay fuq it-telefon għan-negozji f'Malta. Qabbel il-miżata fuq kull bejgħ, l-ispejjeż ta' kull xahar u kemm jiswa l-apparat.",
+   "title_it": "POS e Pagamenti con Carta",
+   "intro_it": "Lettori di carte, terminali POS e tap-to-pay su smartphone per esercenti a Malta. Confronta la commissione su ogni vendita, i costi mensili e il prezzo del dispositivo.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Sağlayıcı"
+    },
+    {
+     "key": "product",
+     "label": "Plan"
+    },
+    {
+     "key": "fee_pct",
+     "label": "Kart ücreti",
+     "fmt": "pct"
+    },
+    {
+     "key": "fee_fixed",
+     "label": "İşlem başı sabit",
+     "fmt": "eur"
+    },
+    {
+     "key": "monthly_fee",
+     "label": "Aylık ücret",
+     "fmt": "eur"
+    },
+    {
+     "key": "reader_price",
+     "label": "Cihaz (başlangıç)",
+     "fmt": "eur"
+    },
+    {
+     "key": "tap_to_pay",
+     "label": "Telefonla ödeme",
+     "fmt": "bool"
+    },
+    {
+     "key": "payout",
+     "label": "Ödeme süresi"
+    }
+   ],
+   "score": [
+    {
+     "key": "fee_pct",
+     "w": 0.45,
+     "dir": "low"
+    },
+    {
+     "key": "monthly_fee",
+     "w": 0.2,
+     "dir": "low"
+    },
+    {
+     "key": "fee_fixed",
+     "w": 0.1,
+     "dir": "low"
+    },
+    {
+     "key": "reader_price",
+     "w": 0.15,
+     "dir": "low"
+    },
+    {
+     "key": "tap_to_pay",
+     "w": 0.1,
+     "dir": "high"
+    }
+   ]
   },
   "bank-accounts": {
    "title": "Bireysel Hesaplar",
@@ -719,11 +797,11 @@
      "dir": "high"
     }
    ],
-   "intro_en": "Malta & Gozo restaurants by area, cuisine and budget — fresh picks every day.",
+   "intro_en": "Malta & Gozo restaurants by area, cuisine and budget, with fresh picks every day.",
    "title_mt": "Restoranti",
-   "intro_mt": "Restoranti f'Malta u Għawdex skont iż-żona, il-kċina u l-baġit — għażliet ġodda kuljum.",
+   "intro_mt": "Restoranti f'Malta u Għawdex skont iż-żona, il-kċina u l-baġit, b'għażliet ġodda kuljum.",
    "title_it": "Ristoranti",
-   "intro_it": "Ristoranti a Malta e Gozo per zona, cucina e budget — nuovi consigli ogni giorno."
+   "intro_it": "Ristoranti a Malta e Gozo per zona, cucina e budget, con nuovi consigli ogni giorno."
   }
  },
  "index": [
@@ -731,6 +809,11 @@
    "slug": "business-accounts",
    "count": 8,
    "best": "wamo"
+  },
+  {
+   "slug": "pos",
+   "count": 8,
+   "best": "Revolut Business"
   },
   {
    "slug": "bank-accounts",

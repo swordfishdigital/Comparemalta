@@ -1,6 +1,6 @@
 {
  "slug": "credit-cards",
- "updated": "2026-11-15T12:56:54+00:00",
+ "updated": "2026-11-21T20:41:04+00:00",
  "items": [
   {
    "provider": "BNF Bank",
@@ -12,7 +12,9 @@
    "url": "https://www.bnf.bank",
    "checked": null,
    "demo": true,
-   "score": 9.1
+   "score": 9.1,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "APS Bank",
@@ -24,7 +26,9 @@
    "url": "https://www.apsbank.com.mt",
    "checked": null,
    "demo": true,
-   "score": 8.8
+   "score": 8.8,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Bank of Valletta",
@@ -36,7 +40,9 @@
    "url": "https://www.bov.com",
    "checked": null,
    "demo": true,
-   "score": 4.6
+   "score": 4.6,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "Bank of Valletta",
@@ -48,7 +54,9 @@
    "url": "https://www.bov.com",
    "checked": null,
    "demo": true,
-   "score": 4.3
+   "score": 4.3,
+   "logo": null,
+   "logo_light": false
   },
   {
    "provider": "HSBC Malta",
@@ -60,7 +68,9 @@
    "url": "https://www.hsbc.com.mt",
    "checked": null,
    "demo": true,
-   "score": 1.8
+   "score": 1.8,
+   "logo": null,
+   "logo_light": false
   }
  ]
 }

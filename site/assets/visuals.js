@@ -12,6 +12,7 @@ const ICON_PATHS = {
   "credit-cards": '<rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/>',
   "fintech": '<rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/>',
   "money-transfer": '<path d="M4 8h15l-3.5-3.5M20 16H5l3.5 3.5"/>',
+  "pos": '<rect x="6" y="2" width="12" height="20" rx="2"/><rect x="9" y="5" width="6" height="4" rx="1"/><path d="M9 13h1M12 13h1M15 13h0M9 16h1M12 16h1M15 16h0M9 19h6"/>',
   "telco-mobile": '<path d="M4 20v-3M9 20v-7M14 20V9M19 20V4"/>',
   "telco-broadband": '<path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/>',
   "insurance": '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/>',
@@ -21,7 +22,7 @@ const ICON_PATHS = {
   "markets": '<path d="M3 20h18M6 16V10M10 16V6M14 16v-4M18 16V8"/>'
 };
 const TINT = {"business-accounts":"#c8102e","bank-accounts":"#0b2545","savings":"#12805c","personal-loans":"#b8862b","mortgages":"#1d5fbf","credit-cards":"#7a3e9d",
-  "fintech":"#0e7c86","money-transfer":"#d0561b","telco-mobile":"#1d5fbf","telco-broadband":"#0e7c86","insurance":"#12805c","investing":"#b8862b","restaurants":"#c8102e"};
+  "fintech":"#0e7c86","money-transfer":"#d0561b","pos":"#7a3e9d","telco-mobile":"#1d5fbf","telco-broadband":"#0e7c86","insurance":"#12805c","investing":"#b8862b","restaurants":"#c8102e"};
 
 function icon(key, size = 22, color = "currentColor") {
   return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_PATHS[key] || ICON_PATHS.news}</svg>`;
@@ -128,6 +129,7 @@ const CI = {
   savings: `<path d="M9 30v6c0 2 4.9 3.6 11 3.6s11-1.6 11-3.6v-6" fill="var(--ic-soft)"/><ellipse cx="20" cy="30" rx="11" ry="3.6" fill="var(--ic-bg)"/><path d="M9 22.5V30M31 22.5V30"/><ellipse cx="20" cy="22.5" rx="11" ry="3.6" fill="var(--ic-accent)"/><path d="M33 15l7-7M34.5 8H40v5.5"/>`,
   loan: `<rect x="6" y="13" width="36" height="22" rx="3" fill="var(--ic-soft)"/><circle cx="24" cy="24" r="6" fill="var(--ic-bg)"/><path d="M26.6 21.4a3.4 3.4 0 1 0 0 5.2M20.6 23.2h4.2M20.6 25h4.2"/><circle cx="11.5" cy="18.5" r="1.8" fill="var(--ic-accent)" stroke="none"/><circle cx="36.5" cy="29.5" r="1.8" fill="var(--ic-accent)" stroke="none"/><path d="M10 39h28"/>`,
   fintech: `<rect x="9" y="6" width="18" height="34" rx="4" fill="var(--ic-soft)"/><path d="M16 10.5h4"/><rect x="21" y="22" width="20" height="13" rx="2.5" fill="var(--ic-bg)"/><path d="M21 26.5h20"/><rect x="24" y="29.5" width="5" height="3" rx=".8" fill="var(--ic-accent)" stroke="none"/>`,
+  pos: `<rect x="13" y="5" width="22" height="38" rx="4" fill="var(--ic-soft)"/><rect x="17" y="9" width="14" height="9" rx="1.5" fill="var(--ic-bg)"/><path d="M20 23.5h1.5M26.5 23.5H28M20 28.5h1.5M26.5 28.5H28M20 33.5h8"/><path d="M38 14a6 6 0 0 1 0 9M41.5 11a11 11 0 0 1 0 15" stroke="var(--ic-accent)" stroke-width="2.4"/>`,
   transfer: `<circle cx="24" cy="24" r="15" fill="var(--ic-soft)" stroke="none"/><path d="M11 19h24l-5.5-5.5M37 29H13l5.5 5.5"/><circle cx="35" cy="19" r="2.4" fill="var(--ic-accent)" stroke="none"/>`,
   wifi: `<rect x="8" y="30" width="32" height="10" rx="3" fill="var(--ic-soft)"/><path d="M14 30v-5M34 30v-5"/><circle cx="14" cy="35" r="1.6" fill="var(--ic-accent)" stroke="none"/><circle cx="19.5" cy="35" r="1.6" fill="var(--ic-accent)" stroke="none"/><path d="M12 15a17 17 0 0 1 24 0M16.5 19.5a10.5 10.5 0 0 1 15 0"/><circle cx="24" cy="23.5" r="1.8" fill="currentColor" stroke="none"/>`,
   shield: `<path d="M24 6l15 5.5v11c0 9.5-6.5 15.5-15 18.5-8.5-3-15-9-15-18.5v-11z" fill="var(--ic-soft)"/><path d="M17.5 23.5l4.5 4.5 9-9" stroke="var(--ic-accent)" stroke-width="2.6"/>`,
@@ -135,7 +137,7 @@ const CI = {
 };
 const CI_FOR = {"bank-accounts":"bank",banking:"bank",mortgages:"home",loans:"home","credit-cards":"cards",cards:"cards","business-accounts":"business",business:"business",
   "telco-mobile":"phone",telco:"phone",restaurants:"eat",dining:"eat",eat:"eat",markets:"markets",news:"news",today:"news",savings:"savings","personal-loans":"loan",
-  fintech:"fintech","money-transfer":"transfer","telco-broadband":"wifi",insurance:"shield",investing:"invest"};
+  fintech:"fintech","money-transfer":"transfer",pos:"pos","telco-broadband":"wifi",insurance:"shield",investing:"invest"};
 function catIcon(key, size = 44) {
   return `<svg class="ci" width="${size}" height="${size}" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${CI[CI_FOR[key] || key] || CI.news}</svg>`;
 }
@@ -148,7 +150,7 @@ const BG = {
   business:["#e2f2ec","#18805b","#f6c453"], phone:["#def0f2","#0e7c86","#f2b58e"], eat:["#fbe2dd","#c03a2b","#f6c453"],
   markets:["#f6ecd6","#b8862b","#2b4cc4"], news:["#0d2a4a","#f2b58e","#2b4cc4"], savings:["#e2f2ec","#18805b","#f6c453"],
   loan:["#fbe6d8","#c4683a","#18805b"], fintech:["#e3e8fb","#2b4cc4","#f2b58e"], transfer:["#def0f2","#0e7c86","#f2b58e"],
-  wifi:["#def0f2","#0e7c86","#f2b58e"], shield:["#e2f2ec","#18805b","#f6c453"], invest:["#f6ecd6","#b8862b","#2b4cc4"]
+  wifi:["#def0f2","#0e7c86","#f2b58e"], pos:["#efe4f6","#7a3e9d","#f6c453"], shield:["#e2f2ec","#18805b","#f6c453"], invest:["#f6ecd6","#b8862b","#2b4cc4"]
 };
 const D = "#0d2a4a";
 const GL = {
@@ -165,6 +167,7 @@ const GL = {
   fintech: (C, A) => `<rect x="22" y="16" width="34" height="64" rx="8" fill="${C}"/><rect x="27" y="24" width="24" height="44" rx="3" fill="#fff"/><rect x="42" y="48" width="44" height="28" rx="5" fill="${D}"/><rect x="42" y="55" width="44" height="6" fill="${A}"/><rect x="47" y="66" width="10" height="6" rx="1.5" fill="#f6c453"/>`,
   transfer: (C, A) => `<path d="M18 38h54l-12-12" stroke="${C}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M82 62H28l12 12" stroke="${D}" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="76" cy="38" r="6" fill="${A}"/>`,
   wifi: (C, A) => `<path d="M18 40a46 46 0 0 1 64 0M28 50a32 32 0 0 1 44 0M38 60a18 18 0 0 1 24 0" stroke="${C}" stroke-width="6" fill="none" stroke-linecap="round"/><rect x="20" y="68" width="60" height="16" rx="5" fill="${D}"/><circle cx="32" cy="76" r="3" fill="${A}"/><circle cx="42" cy="76" r="3" fill="${A}"/>`,
+  pos: (C, A) => `<rect x="30" y="14" width="40" height="72" rx="9" fill="${C}"/><rect x="36" y="22" width="28" height="18" rx="3" fill="#fff"/><rect x="40" y="27" width="14" height="4" rx="2" fill="${A}"/><g fill="#fff"><rect x="37" y="47" width="7" height="6" rx="1.5"/><rect x="46.5" y="47" width="7" height="6" rx="1.5"/><rect x="56" y="47" width="7" height="6" rx="1.5"/><rect x="37" y="57" width="7" height="6" rx="1.5"/><rect x="46.5" y="57" width="7" height="6" rx="1.5"/><rect x="56" y="57" width="7" height="6" rx="1.5"/></g><rect x="37" y="68" width="26" height="8" rx="3" fill="${A}"/><path d="M76 36a12 12 0 0 1 0 18M83 30a21 21 0 0 1 0 30" stroke="${D}" stroke-width="4" fill="none" stroke-linecap="round"/><rect x="12" y="44" width="26" height="17" rx="3" fill="${D}" transform="rotate(-14 25 52)"/><rect x="12" y="49" width="26" height="4" fill="${A}" transform="rotate(-14 25 52)"/>`,
   shield: (C, A) => `<path d="M50 14l30 11v20c0 20-13 32-30 38-17-6-30-18-30-38V25z" fill="${C}"/><path d="M36 50l9 9 19-19" stroke="${A}" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
 };
 GL.invest = GL.markets;

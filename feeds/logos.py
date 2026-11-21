@@ -42,7 +42,12 @@ def _candidates(site):
             size = 512
         found.append((size + (40 if "apple" in rel else 0), urljoin(site, link["href"])))
     found.sort(reverse=True)
-    return [u for _, u in found] + [urljoin(site, "/apple-touch-icon.png"), urljoin(site, "/favicon.ico")]
+    header = []  # the logo image in the site header: wide, but padded to a square tile it still reads well
+    for img in soup.find_all("img", src=True)[:40]:
+        hint = " ".join([img.get("src", ""), img.get("alt", ""), " ".join(img.get("class") or []), img.get("id", "")]).lower()
+        if "logo" in hint and not img["src"].startswith("data:"):
+            header.append(urljoin(site, img["src"]))
+    return [u for _, u in found] + header[:2] + [urljoin(site, "/apple-touch-icon.png"), urljoin(site, "/favicon.ico")]
 
 
 def _to_png(raw, url):
@@ -87,6 +92,44 @@ def is_light(png_bytes):
         return False
     white = sum(1 for r, g, b, _ in opaque if min(r, g, b) > 225)
     return white / len(opaque) > 0.75
+
+
+def fetch_logo(dom):
+    site = f"https://{dom}/"
+    try:
+        cands = _candidates(site)
+    except Exception:  # noqa: BLE001
+        cands = [urljoin(site, "/apple-touch-icon.png"), urljoin(site, "/favicon.ico")]
+    cands = cands[:6] + [f"https://www.google.com/s2/favicons?domain={dom}&sz=128"]  # last resort, still self-hosted
+    for u in cands:
+        try:
+            png = _to_png(http_get(u, timeout=12, retries=0).content, u)
+            if png:
+                (LOGOS / f"{dom}.png").write_bytes(png)
+                return True, u
+        except Exception:  # noqa: BLE001
+            continue
+    return False, None
+
+
+def run(status):
+    LOGOS.mkdir(parents=True, exist_ok=True)
+    seed = load_json(SEED / "products.json")
+    doms = sorted({d for rows in seed.values() for r in rows for d in [domain(r.get("url", ""))] if d})
+    state = load_json(STATE / "logos.json", {})
+    now = datetime.now(timezone.utc)
+    def stale(d):  # found logos refresh weekly; misses are retried daily
+        age = now - datetime.fromisoformat(state[d]["checked"])
+        return age > (TTL if state[d]["ok"] else timedelta(hours=20))
+    due = [d for d in doms if d not in state or stale(d) or (state[d]["ok"] and not (LOGOS / f"{d}.png").exists())]
+    if due and not OFFLINE:
+        with ThreadPoolExecutor(8) as ex:
+            for d, (ok, src) in zip(due, ex.map(fetch_logo, due)):
+                prev_ok = state.get(d, {}).get("ok") and (LOGOS / f"{d}.png").exists()
+                state[d] = {"ok": ok or bool(prev_ok), "src": src or state.get(d, {}).get("src"), "checked": now_iso()}
+        save_json(STATE / "logos.json", state)
+    have = sum(1 for d in doms if (LOGOS / f"{d}.png").exists())
+    status.ok("logos", have, f"{have}/{len(doms)} providers have a logo")
 
 
 _light = {}
