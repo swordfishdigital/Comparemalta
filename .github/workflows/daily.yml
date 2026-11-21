@@ -29,7 +29,7 @@ jobs:
           git config user.email "bot@comparemalta.ai"
           git add -f data/state; git add -A site   # whole site folder, so a missing sub-folder never breaks the commit
           git diff --cached --quiet || git commit -m "feeds: $(date -u +%F' '%H:%M) UTC"
-          git pull --rebase -X ours origin main || true
+          git pull --rebase -X theirs origin main || true   # in a rebase "theirs" is this run's fresh data
           git push
       - name: Fail loudly if most feeds are down
         run: python -c "import json,sys;s=json.load(open('site/data/status.json'));print(s['ok'],'/',s['total']);sys.exit(0 if s['ok']>=s['total']*0.5 else 1)"
