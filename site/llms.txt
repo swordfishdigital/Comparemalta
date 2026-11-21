@@ -2,7 +2,7 @@
 
 > Malta's AI comparison site. Independent, daily-refreshed comparisons of bank accounts, savings, loans, mortgages, credit cards, business accounts, POS and card payments, fintech, money transfer, mobile and broadband plans, insurance, investing and restaurants in Malta, in English, Maltese and Italian. Every figure comes from the provider's own website; rankings use a published Blue score (0-10) and cannot be bought.
 
-Last updated: 2026-11-21T20:45:10+00:00
+Last updated: 2026-11-21T20:46:31+00:00
 
 Ask Blue, the site's AI assistant, answers questions from the same data at https://comparemalta.ai/#ask .
 
@@ -13,7 +13,7 @@ Ask Blue, the site's AI assistant, answers questions from the same data at https
 - [Current Accounts](https://comparemalta.ai/en/bank-accounts/): Personal current accounts: monthly fees, card fees and ATM charges abroad. Top pick today: MeDirect Current Account. Markdown: https://comparemalta.ai/en/bank-accounts/index.md
 - [Savings & Term Deposits](https://comparemalta.ai/en/savings/): Term deposit and savings rates. Malta-licensed banks are covered by the Depositor Compensation Scheme up to €100,000. Top pick today: MeDirect Fixed Term 12M. Markdown: https://comparemalta.ai/en/savings/index.md
 - [Personal Loans](https://comparemalta.ai/en/personal-loans/): Personal loans: interest, APRC, amount range and term. Top pick today: BNF Bank Personal Loan. Markdown: https://comparemalta.ai/en/personal-loans/index.md
-- [Home Loans](https://comparemalta.ai/en/mortgages/): Home loan rates: variable / fixed, LTV and term. First-time-buyer products flagged. Top pick today: MeDirect Home Loan. Markdown: https://comparemalta.ai/en/mortgages/index.md
+- [Home Loans](https://comparemalta.ai/en/mortgages/): Home loan rates: variable / fixed, LTV and term. First-time-buyer products flagged. Top pick today: APS Bank Home Loan. Markdown: https://comparemalta.ai/en/mortgages/index.md
 - [Credit Cards](https://comparemalta.ai/en/credit-cards/): Annual fee, interest, foreign transaction fee and rewards. Top pick today: BNF Bank Visa Credit. Markdown: https://comparemalta.ai/en/credit-cards/index.md
 - [Fintech Apps](https://comparemalta.ai/en/fintech/): Digital accounts and card apps available in Malta: FX markup and monthly plans. Top pick today: N26 Standard. Markdown: https://comparemalta.ai/en/fintech/index.md
 - [Money Transfer](https://comparemalta.ai/en/money-transfer/): Sending €1,000: fee, FX margin and speed (EUR→GBP / TRY / USD). Top pick today: wamo. Markdown: https://comparemalta.ai/en/money-transfer/index.md

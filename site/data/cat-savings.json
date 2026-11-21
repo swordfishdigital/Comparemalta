@@ -1,6 +1,6 @@
 {
  "slug": "savings",
- "updated": "2026-11-21T20:45:10+00:00",
+ "updated": "2026-11-21T20:46:31+00:00",
  "items": [
   {
    "provider": "MeDirect",
@@ -13,7 +13,7 @@
    "checked": null,
    "demo": true,
    "score": 9.8,
-   "logo": null,
+   "logo": "logos/medirect.com.mt.png",
    "logo_light": false
   },
   {
@@ -41,7 +41,7 @@
    "checked": null,
    "demo": true,
    "score": 6.4,
-   "logo": null,
+   "logo": "logos/bnf.bank.png",
    "logo_light": false
   },
   {
@@ -55,7 +55,7 @@
    "checked": null,
    "demo": true,
    "score": 5.4,
-   "logo": null,
+   "logo": "logos/apsbank.com.mt.png",
    "logo_light": false
   },
   {
@@ -69,7 +69,7 @@
    "checked": null,
    "demo": true,
    "score": 1.8,
-   "logo": null,
+   "logo": "logos/bov.com.png",
    "logo_light": false
   },
   {
@@ -83,7 +83,7 @@
    "checked": null,
    "demo": true,
    "score": 0.7,
-   "logo": null,
+   "logo": "logos/hsbc.com.mt.png",
    "logo_light": false
   }
  ]

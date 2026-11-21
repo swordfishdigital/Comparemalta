@@ -1,7 +1,23 @@
 {
  "slug": "mortgages",
- "updated": "2026-11-21T20:45:10+00:00",
+ "updated": "2026-11-21T20:46:31+00:00",
  "items": [
+  {
+   "provider": "APS Bank",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 2.45,
+   "ltv": 90,
+   "max_term": 40,
+   "first_time": true,
+   "url": "https://www.apsbank.com.mt",
+   "checked": "2026-11-21T20:46:31+00:00",
+   "stale": false,
+   "source_url": "https://www.apsbank.com.mt/home-loans",
+   "score": 10.0,
+   "logo": "logos/apsbank.com.mt.png",
+   "logo_light": false
+  },
   {
    "provider": "MeDirect",
    "product": "Home Loan",
@@ -13,23 +29,8 @@
    "url": "https://www.medirect.com.mt",
    "checked": null,
    "demo": true,
-   "score": 10.0,
-   "logo": null,
-   "logo_light": false
-  },
-  {
-   "provider": "APS Bank",
-   "product": "Home Loan",
-   "rate_type": "Variable",
-   "rate": 3.45,
-   "ltv": 90,
-   "max_term": 40,
-   "first_time": true,
-   "url": "https://www.apsbank.com.mt",
-   "checked": null,
-   "demo": true,
-   "score": 9.1,
-   "logo": null,
+   "score": 5.6,
+   "logo": "logos/medirect.com.mt.png",
    "logo_light": false
   },
   {
@@ -43,8 +44,8 @@
    "url": "https://www.bov.com",
    "checked": null,
    "demo": true,
-   "score": 8.3,
-   "logo": null,
+   "score": 5.2,
+   "logo": "logos/bov.com.png",
    "logo_light": false
   },
   {
@@ -58,8 +59,8 @@
    "url": "https://www.hsbc.com.mt",
    "checked": null,
    "demo": true,
-   "score": 6.6,
-   "logo": null,
+   "score": 4.7,
+   "logo": "logos/hsbc.com.mt.png",
    "logo_light": false
   },
   {
@@ -73,7 +74,7 @@
    "url": "https://www.lombardmalta.com",
    "checked": null,
    "demo": true,
-   "score": 3.4,
+   "score": 0.9,
    "logo": null,
    "logo_light": false
   },
@@ -89,7 +90,7 @@
    "checked": null,
    "demo": true,
    "score": 0.0,
-   "logo": null,
+   "logo": "logos/bnf.bank.png",
    "logo_light": false
   }
  ]

@@ -1,6 +1,6 @@
 {
  "slug": "insurance",
- "updated": "2026-11-21T20:45:10+00:00",
+ "updated": "2026-11-21T20:46:31+00:00",
  "items": [
   {
    "provider": "Atlas Insurance",
@@ -12,7 +12,7 @@
    "checked": null,
    "demo": true,
    "score": 10.0,
-   "logo": null,
+   "logo": "logos/atlas.com.mt.png",
    "logo_light": false
   },
   {
@@ -25,7 +25,7 @@
    "checked": null,
    "demo": true,
    "score": 6.0,
-   "logo": null,
+   "logo": "logos/elmoinsurance.com.png",
    "logo_light": false
   },
   {
@@ -38,7 +38,7 @@
    "checked": null,
    "demo": true,
    "score": 5.5,
-   "logo": null,
+   "logo": "logos/middlesea.com.png",
    "logo_light": false
   },
   {
@@ -51,7 +51,7 @@
    "checked": null,
    "demo": true,
    "score": 5.1,
-   "logo": null,
+   "logo": "logos/gasanmamo.com.png",
    "logo_light": false
   },
   {
@@ -64,7 +64,7 @@
    "checked": null,
    "demo": true,
    "score": 0.0,
-   "logo": null,
+   "logo": "logos/bupa.com.mt.png",
    "logo_light": false
   }
  ]

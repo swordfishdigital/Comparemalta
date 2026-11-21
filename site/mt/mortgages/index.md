@@ -4,17 +4,17 @@ _Aġġornat 21 Novembru 2026 · https://comparemalta.ai/mt/mortgages/_
 
 ## Tweġiba qasira
 
-Inqabblu 6 prodotti ta' Self għad-Dar minn 6-il fornitur f'Malta, iċċekkjati 21 Novembru 2026. L-ewwel għażla: MeDirect Home Loan (10.0/10 Blue score). L-iktar baxx Rata: MeDirect Home Loan b'3.40%. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
+Inqabblu 6 prodotti ta' Self għad-Dar minn 6-il fornitur f'Malta, iċċekkjati 21 Novembru 2026. L-ewwel għażla: APS Bank Home Loan (10.0/10 Blue score). L-iktar baxx Rata: APS Bank Home Loan b'2.45%. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
 
 ## Paragun sħiħ
 
 | Fornitur | Prodott | Tip | Rata | LTV massimu | Terminu massimu | L-ewwel dar | Blue score |
 |---|---|---|---|---|---|---|---|
-| MeDirect | Home Loan | Variable | 3.40% | 90% | 40 | ✓ | 10.0 |
-| APS Bank | Home Loan | Variable | 3.45% | 90% | 40 | ✓ | 9.1 |
-| Bank of Valletta | Home Loan | Variable | 3.50% | 90% | 40 | ✓ | 8.3 |
-| HSBC Malta | Home Loan | Variable | 3.60% | 90% | 40 | ✓ | 6.6 |
-| Lombard Bank | Home Loan | Variable | 3.55% | 85% | 35 | ✓ | 3.4 |
+| APS Bank | Home Loan | Variable | 2.45% | 90% | 40 | ✓ | 10.0 |
+| MeDirect | Home Loan | Variable | 3.40% | 90% | 40 | ✓ | 5.6 |
+| Bank of Valletta | Home Loan | Variable | 3.50% | 90% | 40 | ✓ | 5.2 |
+| HSBC Malta | Home Loan | Variable | 3.60% | 90% | 40 | ✓ | 4.7 |
+| Lombard Bank | Home Loan | Variable | 3.55% | 85% | 35 | ✓ | 0.9 |
 | BNF Bank | Home Loan Fixed 5Y | Fixed 5Y | 3.75% | 85% | 35 | ✕ | 0.0 |
 
 ## Kif nikklassifikaw
@@ -25,11 +25,11 @@ Il-Blue score (0 sa 10) jiżen: Rata 60%, LTV massimu 20%, Terminu massimu 20%. 
 
 **X'inhu l-aħjar Self għad-Dar f'Malta bħalissa?**
 
-Fil-21 Novembru 2026, MeDirect Home Loan għandu l-ogħla Blue score fil-paragun tagħna (10.0/10), b'Rata ta' 3.40%.
+Fil-21 Novembru 2026, APS Bank Home Loan għandu l-ogħla Blue score fil-paragun tagħna (10.0/10), b'Rata ta' 2.45%.
 
 **Liema Self għad-Dar għandu l-iktar baxx Rata?**
 
-MeDirect Home Loan għandu l-iktar baxx Rata, 3.40% (iċċekkjat 21 Novembru 2026).
+APS Bank Home Loan għandu l-iktar baxx Rata, 2.45% (iċċekkjat 21 Novembru 2026).
 
 **Kif jikklassifika CompareMalta.ai Self għad-Dar?**
 
@@ -41,7 +41,7 @@ Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-pa�
 
 ## Sorsi
 
-- https://www.apsbank.com.mt
+- https://www.apsbank.com.mt/home-loans
 - https://www.bnf.bank
 - https://www.bov.com
 - https://www.hsbc.com.mt

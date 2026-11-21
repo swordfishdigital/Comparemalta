@@ -1,6 +1,6 @@
 {
  "slug": "pos",
- "updated": "2026-11-21T20:45:10+00:00",
+ "updated": "2026-11-21T20:46:31+00:00",
  "items": [
   {
    "provider": "Revolut Business",
@@ -17,7 +17,7 @@
    "demo": false,
    "note": "Domestic and European consumer cards; commercial and international cards 2.6% + €0.02. Tap to Pay adds €0.08. Needs a Revolut Business account.",
    "score": 7.8,
-   "logo": null,
+   "logo": "logos/revolut.com.png",
    "logo_light": false
   },
   {
@@ -35,8 +35,9 @@
    "demo": false,
    "note": "Domestic and EEA consumer cards, minimum €0.03 per payment. Tap to Pay on iPhone and Android, so no hardware needed.",
    "score": 7.4,
-   "logo": null,
-   "logo_light": false
+   "logo": "logos/viva.com.png",
+   "logo_light": false,
+   "url_ok": false
   },
   {
    "provider": "myPOS",
@@ -53,7 +54,7 @@
    "demo": false,
    "note": "Domestic and EEA consumer cards; other cards incl. Amex 2.69%. Instant settlement to your myPOS account.",
    "score": 7.2,
-   "logo": null,
+   "logo": "logos/mypos.com.png",
    "logo_light": false
   },
   {
@@ -71,7 +72,7 @@
    "demo": false,
    "note": "Domestic and EEA consumer cards; other cards 2.49%.",
    "score": 7.1,
-   "logo": null,
+   "logo": "logos/mypos.com.png",
    "logo_light": false
   },
   {
@@ -89,7 +90,7 @@
    "demo": false,
    "note": "1.29% on EEA debit and credit cards; Amex and premium cards 2.75%. Pays off above about €2,600 a month.",
    "score": 6.6,
-   "logo": null,
+   "logo": "logos/sumup.com.png",
    "logo_light": false
   },
   {
@@ -107,7 +108,7 @@
    "demo": false,
    "note": "Standard in-person rate for EEA cards; BBPOS WisePad 3 reader from €59 excl. VAT. Best for businesses that also sell online.",
    "score": 6.6,
-   "logo": null,
+   "logo": "logos/stripe.com.png",
    "logo_light": false
   },
   {
@@ -125,7 +126,7 @@
    "demo": false,
    "note": "Domestic and EEA consumer cards; other cards 2.49%.",
    "score": 6.3,
-   "logo": null,
+   "logo": "logos/mypos.com.png",
    "logo_light": false
   },
   {
@@ -143,7 +144,7 @@
    "demo": false,
    "note": "Same 2.75% on every card; reader is a one-off cost (Solo Lite, excl. VAT).",
    "score": 4.7,
-   "logo": null,
+   "logo": "logos/sumup.com.png",
    "logo_light": false
   }
  ]

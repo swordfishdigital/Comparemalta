@@ -1,6 +1,6 @@
 {
  "slug": "personal-loans",
- "updated": "2026-11-21T20:45:10+00:00",
+ "updated": "2026-11-21T20:46:31+00:00",
  "items": [
   {
    "provider": "BNF Bank",
@@ -14,7 +14,7 @@
    "checked": null,
    "demo": true,
    "score": 8.1,
-   "logo": null,
+   "logo": "logos/bnf.bank.png",
    "logo_light": false
   },
   {
@@ -29,7 +29,7 @@
    "checked": null,
    "demo": true,
    "score": 7.9,
-   "logo": null,
+   "logo": "logos/apsbank.com.mt.png",
    "logo_light": false
   },
   {
@@ -59,7 +59,7 @@
    "checked": null,
    "demo": true,
    "score": 4.9,
-   "logo": null,
+   "logo": "logos/bov.com.png",
    "logo_light": false
   },
   {
@@ -74,7 +74,7 @@
    "checked": null,
    "demo": true,
    "score": 2.0,
-   "logo": null,
+   "logo": "logos/hsbc.com.mt.png",
    "logo_light": false
   }
  ]

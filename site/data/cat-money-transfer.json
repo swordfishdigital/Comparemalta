@@ -1,6 +1,6 @@
 {
  "slug": "money-transfer",
- "updated": "2026-11-21T20:45:10+00:00",
+ "updated": "2026-11-21T20:46:31+00:00",
  "items": [
   {
    "provider": "wamo",
@@ -12,7 +12,7 @@
    "checked": null,
    "demo": true,
    "score": 9.2,
-   "logo": null,
+   "logo": "logos/wamo.io.png",
    "logo_light": false
   },
   {
@@ -25,7 +25,7 @@
    "checked": null,
    "demo": true,
    "score": 9.0,
-   "logo": null,
+   "logo": "logos/revolut.com.png",
    "logo_light": false
   },
   {
@@ -38,7 +38,7 @@
    "checked": null,
    "demo": true,
    "score": 8.2,
-   "logo": null,
+   "logo": "logos/wise.com.png",
    "logo_light": false
   },
   {
@@ -51,7 +51,7 @@
    "checked": null,
    "demo": true,
    "score": 7.5,
-   "logo": null,
+   "logo": "logos/wise.com.png",
    "logo_light": false
   },
   {
@@ -64,7 +64,7 @@
    "checked": null,
    "demo": true,
    "score": 3.9,
-   "logo": null,
+   "logo": "logos/westernunion.com.png",
    "logo_light": false
   },
   {
@@ -77,7 +77,7 @@
    "checked": null,
    "demo": true,
    "score": 0.0,
-   "logo": null,
+   "logo": "logos/bov.com.png",
    "logo_light": false
   }
  ]
