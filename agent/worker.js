@@ -240,7 +240,8 @@ export async function ask(env, { q, lang = "en", history = [] }) {
       max_tokens: 1200,
       system: SYSTEM(lang, new Date().toISOString().slice(0, 10)),
       tools: TOOLS,
-      tool_choice: step === MAX_STEPS - 1 ? { type: "tool", name: "show_results" } : { type: "any" },
+      // Newer models only accept "auto" (and "none"), so we steer with instructions instead of forcing a tool.
+      tool_choice: { type: "auto" },
       messages,
     });
     messages.push({ role: "assistant", content: res.content });
@@ -261,6 +262,7 @@ export async function ask(env, { q, lang = "en", history = [] }) {
       trace.push(call.name);
       results.push({ type: "tool_result", tool_use_id: call.id, content: JSON.stringify(out).slice(0, 12000) });
     }
+    if (step >= MAX_STEPS - 2) results.push({ type: "text", text: "You have enough data. Finish now by calling show_results." });
     messages.push({ role: "user", content: results });
   }
   return { answer: "", picks: [], open_category: null, trace };
