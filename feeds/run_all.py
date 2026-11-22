@@ -6,6 +6,28 @@ from . import articles, fx, fxcompare, logos, markets, news, newsletter, product
 from .common import OUT, FeedStatus, load_json, now_iso, save_json, log
 
 
+def stamp_assets() -> None:
+    """Add ?v=<content hash> to the app's CSS/JS links so browsers pick up new versions straight away."""
+    import hashlib
+    import re
+
+    site = OUT.parent
+    index = site / "index.html"
+    html = index.read_text(encoding="utf-8")
+
+    def ver(m):
+        path = m.group(2)
+        f = site / path
+        if not f.exists():
+            return m.group(0)
+        h = hashlib.sha1(f.read_bytes()).hexdigest()[:8]
+        return f'{m.group(1)}{path}?v={h}{m.group(3)}'
+
+    new = re.sub(r'((?:src|href)=")((?:assets/[\w.-]+\.(?:js|css))|config\.js)(?:\?v=\w+)?(")', ver, html)
+    if new != html:
+        index.write_text(new, encoding="utf-8")
+
+
 def main() -> int:
     status = FeedStatus()
     # restaurants first: products.run reads its state for the restaurants category
@@ -22,6 +44,10 @@ def main() -> int:
         seo.run(status)
     except Exception as e:  # noqa: BLE001
         status.stale("seo", e)
+    try:
+        stamp_assets()
+    except Exception as e:  # noqa: BLE001
+        log.warning("asset stamping failed: %s", e)
     feeds = status.items
     if only:  # partial run (e.g. the 6-hourly news refresh): keep the other feeds' last status
         prev = (load_json(OUT / "status.json") or {}).get("feeds", {})
