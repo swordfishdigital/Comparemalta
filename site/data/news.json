@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T13:03:46+00:00",
+ "updated": "2026-11-22T13:07:15+00:00",
  "items": [
   {
    "id": "8d271773f61e",
@@ -11,6 +11,17 @@
    "image": "news-img/8d271773f61e.jpg",
    "topic": "Malta",
    "image_src": "https://cdn-attachments.timesofmalta.com/5cf732d56f8d6876d1236dda2a004cf8cfda84db-1795352200-f8d09d89-1920x1280.jpg"
+  },
+  {
+   "id": "685af943757b",
+   "title": "Drink-driver seven times over legal limit denied bail after police confrontation",
+   "url": "https://timesofmalta.com/article/drinkdriver-seven-times-legal-limit-denied-bail-police-confrontation.1137497",
+   "source": "Times of Malta",
+   "published": "2026-11-22T12:51:00+00:00",
+   "summary": "Court told 25-year-old was seven times over legal alcohol limit when stopped in Qormi Photo: Shutterstock",
+   "image": "news-img/685af943757b.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/ec824bf9a02752101ac57daf3f416170bd01e7a0-1795352330-84053436-1920x1280.jpeg"
   },
   {
    "id": "c7fb9b92c348",
@@ -363,17 +374,6 @@
    "image": "news-img/16fdb9b4a0ca.jpg",
    "topic": "Malta",
    "image_src": "https://cdn-attachments.timesofmalta.com/8b637ca8f9044ef0cd8e5f304f7e33e99164f57d-1795090748-589eef52-1920x1280.jpg"
-  },
-  {
-   "id": "fa16801e9412",
-   "title": "Religious quotes and news – November 22, 2026",
-   "url": "https://timesofmalta.com/article/religious-quotes-news-november-22-2026.1137356",
-   "source": "Times of Malta",
-   "published": "2026-11-22T06:00:00+00:00",
-   "summary": "Pope Leo rides in the popemobile prior to his farewell Mass in Peru. Photo: Alfredo Estrella/AFP",
-   "image": "news-img/fa16801e9412.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/fbfa741641b4a3c76e9d63462c2fb9ae112cbfeb-1795090400-bec581e2-1920x1280.jpg"
   },
   {
    "id": "316ae26e0506",
