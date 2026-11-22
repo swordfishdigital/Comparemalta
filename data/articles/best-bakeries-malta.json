@@ -1,0 +1,174 @@
+{
+ "slug": "best-bakeries-malta",
+ "date": "2026-11-22T15:10:00+00:00",
+ "topic": {
+  "en": "Food & Drink",
+  "mt": "Ikel u Xorb",
+  "it": "Cibo e vino"
+ },
+ "kicker": {
+  "en": "Malta today · Blue recommends",
+  "mt": "Malta llum · Blue jirrakkomanda",
+  "it": "Malta oggi · Blue consiglia"
+ },
+ "title": {
+  "en": "Five Maltese bakeries worth getting up early for",
+  "mt": "Ħames fran Maltin li jistħoqqilhom tqum kmieni għalihom",
+  "it": "Cinque forni maltesi per cui vale la pena alzarsi presto"
+ },
+ "summary": {
+  "en": "Wood-fired ovens, wartime stories and the Gozitan ftira: five traditional bakeries across Malta and Gozo that still bake the old way.",
+  "mt": "Fran tal-ħatab, stejjer mill-gwerra u l-ftira Għawdxija: ħames fran tradizzjonali f'Malta u Għawdex li għadhom jaħmu bil-mod il-qadim.",
+  "it": "Forni a legna, storie di guerra e la ftira di Gozo: cinque panifici tradizionali tra Malta e Gozo che cuociono ancora come una volta."
+ },
+ "intro": {
+  "en": "Maltese bread is a daily ritual: a crusty ħobża for the table, a ring-shaped ftira for ħobż biż-żejt, and in Gozo a ftira that is closer to a pizza. Many village bakeries still fire their ovens with wood, which gives the loaves their uneven shape and thick crust.\nThere is no official ranking of bakeries, so this is not a league table. We picked five places that independent food writers keep coming back to and ordered them as a day out: three in Malta, then two in Nadur, Gozo.",
+  "mt": "Il-ħobż Malti huwa rit ta' kuljum: ħobża iebsa għall-mejda, ftira tond għall-ħobż biż-żejt, u f'Għawdex ftira li hija eqreb lejn pizza. Ħafna fran tar-raħal għadhom jaħmu bil-ħatab, li jagħti lill-ħobż il-forma irregolari u l-qoxra ħoxna tiegħu.\nMa hemm l-ebda klassifika uffiċjali tal-fran, għalhekk din mhix tabella. Għażilna ħames postijiet li kittieba indipendenti tal-ikel jerġgħu jsemmu, u poġġejniehom f'ordni ta' ġurnata barra: tlieta f'Malta, imbagħad tnejn fin-Nadur, Għawdex.",
+  "it": "A Malta il pane è un rito quotidiano: una ħobża croccante per la tavola, una ftira ad anello per il ħobż biż-żejt e, a Gozo, una ftira più simile a una pizza. Molti forni di paese cuociono ancora a legna, che dà alle pagnotte la forma irregolare e la crosta spessa.\nNon esiste una classifica ufficiale dei forni, quindi questa non è una graduatoria. Abbiamo scelto cinque indirizzi citati spesso da autori indipendenti e li abbiamo messi in ordine come una gita: tre a Malta, poi due a Nadur, Gozo."
+ },
+ "hero_query": "File:Traditional wood-fired oven.jpg",
+ "sections": [
+  {
+   "heading": {
+    "en": "Our five",
+    "mt": "Il-ħamsa tagħna",
+    "it": "I nostri cinque"
+   },
+   "items": [
+    {
+     "name": "Falzon Bakery",
+     "locality": "Rabat",
+     "badge": {
+      "en": "100+ years",
+      "mt": "Aktar minn 100 sena",
+      "it": "Oltre 100 anni"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Ħobża, ftira, buns",
+      "mt": "Ħobża, ftira, bunjiet",
+      "it": "Ħobża, ftira, panini dolci"
+     },
+     "text": {
+      "en": "On a side street near St Paul's Church, in a 17th century building that has been a bakery for more than a century. A well inside still supplies the water for the dough, and in the Second World War it was the only place handing out bread in this hard-hit area. Come for a warm ħobża and stay for the buns.",
+      "mt": "Fi triq ġenb il-Knisja ta' San Pawl, f'binja tas-seklu 17 li ilha forn għal aktar minn mitt sena. Bir ġewwa għadu jagħti l-ilma għall-għaġina, u fit-Tieni Gwerra Dinjija kien l-uniku post li jqassam il-ħobż f'din iż-żona milquta ħażin. Ejja għal ħobża sħuna u ibqa' għall-bunjiet.",
+      "it": "In una traversa vicino alla chiesa di San Paolo, in un edificio del Seicento che è un forno da oltre un secolo. Un pozzo interno fornisce ancora l'acqua per l'impasto e durante la Seconda guerra mondiale era l'unico luogo che distribuiva pane in questa zona duramente colpita. Da provare la ħobża calda e i panini dolci."
+     },
+     "image_query": "File:St. Paul's Church (Rabat).jpg",
+     "image_alt": "St Paul's Church, Rabat"
+    },
+    {
+     "name": "Rojolin Bakery",
+     "locality": "Balzan",
+     "badge": {
+      "en": "Wood-fired",
+      "mt": "Forn tal-ħatab",
+      "it": "Forno a legna"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Ftajjar, ħobż tal-Malti",
+      "mt": "Ftajjar, ħobż tal-Malti",
+      "it": "Ftajjar, ħobż tal-Malti"
+     },
+     "text": {
+      "en": "A family bakery open since the Second World War, run by Anton Micallef, his wife Romina and her sister Lina. They bake hundreds of ftajjar and Maltese loaves a day with no additives or preservatives, and swear by the wood oven for the irregular shape and a crust that stays right.",
+      "mt": "Forn tal-familja miftuħ mit-Tieni Gwerra Dinjija, immexxi minn Anton Micallef, martu Romina u oħtha Lina. Jaħmu mijiet ta' ftajjar u ħobż Malti kuljum mingħajr addittivi jew preservattivi, u jemmnu fil-forn tal-ħatab għall-forma irregolari u qoxra li tibqa' tajba.",
+      "it": "Un forno di famiglia aperto dalla Seconda guerra mondiale, gestito da Anton Micallef, la moglie Romina e la sorella di lei Lina. Ogni giorno sfornano centinaia di ftajjar e pagnotte maltesi senza additivi né conservanti, e giurano sul forno a legna per la forma irregolare e la crosta giusta."
+     },
+     "image_query": "File:Ħobż Malti.jpg",
+     "image_alt": "Fresh Maltese bread"
+    },
+    {
+     "name": "Emanuel's Bakery",
+     "locality": "Qormi",
+     "badge": {
+      "en": "Bread town",
+      "mt": "Belt il-ħobż",
+      "it": "Città del pane"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Bread, imqaret",
+      "mt": "Ħobż, imqaret",
+      "it": "Pane, imqaret"
+     },
+     "text": {
+      "en": "Qormi is Malta's historic bread town, with close to fifty bakeries, and Emanuel's is a name food writers single out, including for imqaret, the fried date pastries. Time a visit for October, when the town celebrates its bakers with the Lejl f'Casal Fornaro festival.",
+      "mt": "Ħal Qormi hija l-belt storika tal-ħobż f'Malta, b'kważi ħamsin forn, u Emanuel's huwa isem li kittieba tal-ikel isemmu, anke għall-imqaret. Ippjana żjara f'Ottubru, meta l-belt tiċċelebra l-furnara tagħha bil-festival Lejl f'Casal Fornaro.",
+      "it": "Qormi è la città storica del pane maltese, con quasi cinquanta forni, ed Emanuel's è un nome che i critici citano spesso, anche per gli imqaret, i dolcetti fritti ai datteri. Da visitare a ottobre, quando la città festeggia i suoi fornai con Lejl f'Casal Fornaro."
+     },
+     "image_query": "File:Sait George Church, Qormi.jpeg",
+     "image_alt": "St George's Church, Qormi"
+    },
+    {
+     "name": "Mekren's Bakery",
+     "locality": "Nadur, Gozo",
+     "badge": {
+      "en": "Gozitan ftira",
+      "mt": "Ftira Għawdxija",
+      "it": "Ftira di Gozo"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Ftira Għawdxija",
+      "mt": "Ftira Għawdxija",
+      "it": "Ftira Għawdxija"
+     },
+     "text": {
+      "en": "A decades-old bakery and one of the two homes of the Gozitan ftira: bread dough topped with thin potato slices, onion and tomato, plus olives, capers and tuna or anchovies if you want it traditional. Order at the hole in the wall and wait outside while it bakes, or take one half-baked to finish at home.",
+      "mt": "Forn ta' għexieren ta' snin u wieħed miż-żewġ djar tal-ftira Għawdxija: għaġina tal-ħobż b'flieli rqaq ta' patata, basal u tadam, u żebbuġ, kappar u tonn jew inċova jekk tridha tradizzjonali. Ordna mit-tieqa u stenna barra sakemm tinħema, jew ħudha nofs moħmija biex tlestiha d-dar.",
+      "it": "Un forno con decenni di storia e una delle due case della ftira di Gozo: pasta di pane con patate a fette sottili, cipolla e pomodoro, più olive, capperi e tonno o acciughe nella versione tradizionale. Si ordina allo sportello e si aspetta fuori, oppure si porta via mezza cotta da finire a casa."
+     },
+     "image_query": "File:Nadur Parish Church, Gozo, Malta (48264905351).jpg",
+     "image_alt": "Nadur parish church, Gozo"
+    },
+    {
+     "name": "Maxokk Bakery",
+     "locality": "Nadur, Gozo",
+     "badge": {
+      "en": "Gozitan ftira",
+      "mt": "Ftira Għawdxija",
+      "it": "Ftira di Gozo"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Ftira Għawdxija",
+      "mt": "Ftira Għawdxija",
+      "it": "Ftira Għawdxija"
+     },
+     "text": {
+      "en": "Mekren's friendly rival, a short walk away on St James Street. Same hole-in-the-wall ritual, same pride in a ftira baked in a baker's oven. Locals have their favourite of the two; the only fair test is to try both on the same day.",
+      "mt": "Ir-rivali ħbiberija ta' Mekren's, mixja qasira 'l bogħod fi Triq San Ġakbu. L-istess rit mit-tieqa, l-istess kburija f'ftira moħmija f'forn tal-furnar. In-Nadurin għandhom il-favorit tagħhom; l-uniku test ġust huwa li tipprova t-tnejn fl-istess jum.",
+      "it": "Il rivale amichevole di Mekren's, a pochi passi in St James Street. Stesso rito dello sportello, stesso orgoglio per una ftira cotta nel forno del fornaio. Ognuno in paese ha il suo preferito: l'unica prova giusta è assaggiarle entrambe lo stesso giorno."
+     },
+     "image_query": "File:Nadur Church Gozo IMG 6105.jpg",
+     "image_alt": "Nadur, Gozo"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "en": "Opening hours at small bakeries change with the season and many sell out early, so go in the morning and call ahead for a large order. Planning lunch instead? See this week's restaurant picks on CompareMalta.ai.",
+  "mt": "Il-ħinijiet tal-fran iż-żgħar jinbidlu skont l-istaġun u ħafna jispiċċaw kmieni, għalhekk mur filgħodu u ċempel minn qabel għal ordni kbira. Qed tippjana l-ikla? Ara l-għażliet tar-restoranti ta' din il-ġimgħa fuq CompareMalta.ai.",
+  "it": "Gli orari dei piccoli forni cambiano con la stagione e molti finiscono presto, quindi andate al mattino e chiamate prima per ordini grandi. Cercate un pranzo? Vedete i ristoranti della settimana su CompareMalta.ai."
+ },
+ "sources": [
+  {
+   "name": "Guide Me Malta: wood-fired oven bakeries",
+   "url": "https://www.guidememalta.com/en/these-traditional-wood-fired-oven-bakeries-in-malta-will-make-your-mouth-water"
+  },
+  {
+   "name": "Guide Me Malta: Maltese vs Gozitan ftira",
+   "url": "https://www.guidememalta.com/en/both-delicious-but-very-different-don-t-confuse-the-maltese-and-gozitan-ftiras"
+  },
+  {
+   "name": "AFAR: the best food in Malta",
+   "url": "https://www.afar.com/magazine/the-best-food-in-malta-and-where-to-find-it"
+  },
+  {
+   "name": "Lonely Planet: what to eat in Malta",
+   "url": "https://www.lonelyplanet.com/articles/what-to-eat-and-drink-in-malta"
+  }
+ ]
+}

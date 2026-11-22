@@ -1,0 +1,331 @@
+{
+ "slug": "malta-bank-apps-compared",
+ "date": "2026-11-22T15:20:00+00:00",
+ "topic": {
+  "en": "Banking",
+  "mt": "Bankar",
+  "it": "Banca"
+ },
+ "kicker": {
+  "en": "Malta today · Blue's verdict",
+  "mt": "Malta llum · Il-verdett ta' Blue",
+  "it": "Malta oggi · Il verdetto di Blue"
+ },
+ "title": {
+  "en": "Malta's big five banks on your phone: how their apps really score",
+  "mt": "Il-ħames banek il-kbar ta' Malta fuq il-mowbajl: kemm verament jiskorjaw l-apps tagħhom",
+  "it": "Le cinque grandi banche di Malta sullo smartphone: quanto valgono davvero le loro app"
+ },
+ "summary": {
+  "en": "We scored the apps of BOV, HSBC, APS, BNF and Lombard on onboarding, everyday use, features and wallets. The best reaches 3.8 out of 5; most sit at 2 or below.",
+  "mt": "Skorjajna l-apps ta' BOV, HSBC, APS, BNF u Lombard fuq il-ftuħ tal-kont, l-użu ta' kuljum, il-funzjonijiet u l-wallets. L-aħjar jilħaq 3.8 minn 5; il-biċċa l-kbira huma fuq 2 jew inqas.",
+  "it": "Abbiamo valutato le app di BOV, HSBC, APS, BNF e Lombard su apertura conto, uso quotidiano, funzioni e wallet. La migliore arriva a 3,8 su 5; le altre restano a 2 o meno."
+ },
+ "intro": {
+  "en": "Most people in Malta still bank with one of five traditional banks. All five have an app, but having an app and offering a phone-first experience are very different things. Today many people expect to open an account from the sofa, see every card and account on one screen, freeze a card in a tap and pay with their phone.\nWe scored each bank from 0 to 5 on four things, using only what is public: the App Store listing in Malta (rating, description, recent reviews), Apple's own list of Apple Pay banks in Malta and the banks' own websites, all checked on 22 November 2026. We did not test the apps with live accounts, so read this as a comparison of what each bank offers and how customers rate it.",
+  "mt": "Il-biċċa l-kbira tan-nies f'Malta għadhom jibbankjaw ma' wieħed minn ħames banek tradizzjonali. Il-ħamsa kollha għandhom app, iżda li jkollok app u li toffri esperjenza mibnija għall-mowbajl huma żewġ affarijiet differenti ħafna. Illum ħafna nies jistennew li jiftħu kont mis-sufan, jaraw kull karta u kont fuq skrin wieħed, jiffriżaw karta b'mess u jħallsu bil-mowbajl.\nSkorjajna kull bank minn 0 sa 5 fuq erba' affarijiet, billi użajna biss informazzjoni pubblika: l-App Store f'Malta (ir-rating, id-deskrizzjoni u reviews riċenti), il-lista ta' Apple tal-banek b'Apple Pay f'Malta u s-siti tal-banek stess, kollha ċċekkjati fit-22 ta' Novembru 2026. Ma ttestjajniex l-apps b'kontijiet ħajjin, għalhekk aqra dan bħala tqabbil ta' dak li joffri kull bank u kif jikklassifikawh il-klijenti.",
+  "it": "La maggior parte delle persone a Malta usa ancora una delle cinque banche tradizionali. Tutte e cinque hanno un'app, ma avere un'app e offrire un'esperienza pensata per lo smartphone sono cose molto diverse. Oggi molti si aspettano di aprire un conto dal divano, vedere tutte le carte e i conti in una schermata, bloccare una carta con un tocco e pagare con il telefono.\nAbbiamo dato a ogni banca un voto da 0 a 5 su quattro aspetti, usando solo informazioni pubbliche: la scheda dell'App Store a Malta (valutazione, descrizione, recensioni recenti), l'elenco ufficiale Apple delle banche con Apple Pay a Malta e i siti delle banche, tutto verificato il 22 novembre 2026. Non abbiamo provato le app con conti reali: è un confronto di ciò che ogni banca offre e di come la valutano i clienti."
+ },
+ "hero_query": "File:Mobile payment 03.JPG",
+ "sections": [
+  {
+   "heading": {
+    "en": "The matrix",
+    "mt": "Il-matriċi",
+    "it": "La matrice"
+   },
+   "intro": {
+    "en": "Scores out of 5. Overall is the simple average of the four. The last row shows what a phone-first bank or app typically offers today, for reference.",
+    "mt": "Punti minn 5. L-Overall huwa l-medja sempliċi tal-erbgħa. L-aħħar ringiela turi x'joffri llum bank jew app mibnija għall-mowbajl, bħala referenza.",
+    "it": "Voti su 5. Il totale è la media semplice dei quattro. L'ultima riga mostra, come riferimento, cosa offre oggi una banca o un'app nata per lo smartphone."
+   },
+   "matrix": {
+    "max": 5,
+    "columns": [
+     {
+      "key": "onb",
+      "label": {
+       "en": "Onboarding",
+       "mt": "Ftuħ tal-kont",
+       "it": "Apertura conto"
+      },
+      "help": {
+       "en": "Can a new customer open an account from the phone?",
+       "mt": "Klijent ġdid jista' jiftaħ kont mill-mowbajl?",
+       "it": "Un nuovo cliente può aprire il conto dal telefono?"
+      }
+     },
+     {
+      "key": "app",
+      "label": {
+       "en": "App and dashboard",
+       "mt": "App u dashboard",
+       "it": "App e dashboard"
+      },
+      "help": {
+       "en": "Malta App Store rating and what customers report",
+       "mt": "Ir-rating fl-App Store ta' Malta u x'jirrappurtaw il-klijenti",
+       "it": "Valutazione sull'App Store di Malta e cosa riportano i clienti"
+      }
+     },
+     {
+      "key": "feat",
+      "label": {
+       "en": "Everyday features",
+       "mt": "Funzjonijiet ta' kuljum",
+       "it": "Funzioni quotidiane"
+      },
+      "help": {
+       "en": "Payments, card controls, transfers to new payees, extras",
+       "mt": "Ħlasijiet, kontroll tal-karti, trasferimenti lil benefiċjarji ġodda, extras",
+       "it": "Pagamenti, controllo carte, bonifici a nuovi beneficiari, extra"
+      }
+     },
+     {
+      "key": "wal",
+      "label": {
+       "en": "Phone wallets",
+       "mt": "Wallets fuq il-mowbajl",
+       "it": "Wallet sul telefono"
+      },
+      "help": {
+       "en": "Apple Pay and Google Pay support",
+       "mt": "Appoġġ għal Apple Pay u Google Pay",
+       "it": "Supporto Apple Pay e Google Pay"
+      }
+     }
+    ],
+    "rows": [
+     {
+      "name": "APS Bank",
+      "sub": "myAPS",
+      "scores": {
+       "onb": 2,
+       "app": 4,
+       "feat": 4,
+       "wal": 5
+      }
+     },
+     {
+      "name": "Bank of Valletta",
+      "sub": "BOV Mobile",
+      "scores": {
+       "onb": 2,
+       "app": 2,
+       "feat": 4,
+       "wal": 4
+      }
+     },
+     {
+      "name": "HSBC Malta",
+      "sub": "HSBC Malta",
+      "scores": {
+       "onb": 1,
+       "app": 4,
+       "feat": 3,
+       "wal": 0
+      }
+     },
+     {
+      "name": "BNF Bank",
+      "sub": "BNF Mobile App",
+      "scores": {
+       "onb": 4,
+       "app": 2,
+       "feat": 2,
+       "wal": 0
+      }
+     },
+     {
+      "name": "Lombard Bank",
+      "sub": "Lombard Bank Mobile",
+      "scores": {
+       "onb": 0,
+       "app": 1,
+       "feat": 1,
+       "wal": 0
+      }
+     }
+    ],
+    "benchmark": {
+     "name": {
+      "en": "Phone-first standard",
+      "mt": "Standard mobile-first",
+      "it": "Standard mobile-first"
+     },
+     "scores": {
+      "onb": 5,
+      "app": 5,
+      "feat": 5,
+      "wal": 5
+     }
+    }
+   }
+  },
+  {
+   "heading": {
+    "en": "Bank by bank",
+    "mt": "Bank b'bank",
+    "it": "Banca per banca"
+   },
+   "items": [
+    {
+     "name": "APS Bank · myAPS",
+     "locality": "3.8 / 5",
+     "badge": {
+      "en": "Best of the five",
+      "mt": "L-aħjar fost il-ħamsa",
+      "it": "La migliore delle cinque"
+     },
+     "badge_kind": "star",
+     "cuisine": {
+      "en": "4.5★ from 132 ratings (App Store Malta)",
+      "mt": "4.5★ minn 132 rating (App Store Malta)",
+      "it": "4,5★ da 132 valutazioni (App Store Malta)"
+     },
+     "text": {
+      "en": "The most complete of the five. Existing customers can open new accounts in the app, pay by mobile number, change debit card limits and monitor investments, and APS says it was the first local bank to drop online SEPA payment fees. Cards work with Apple Pay and Google Wallet. The gap: a brand new customer still has to become an APS customer and sign up through the website before the app is any use.",
+      "mt": "L-iktar kompluta fost il-ħamsa. Klijenti eżistenti jistgħu jiftħu kontijiet ġodda fl-app, iħallsu bin-numru tal-mowbajl, ibiddlu l-limiti tal-karta tad-debitu u jsegwu l-investimenti, u APS tgħid li kienet l-ewwel bank lokali li neħħa l-ħlasijiet fuq pagamenti SEPA online. Il-karti jaħdmu ma' Apple Pay u Google Wallet. In-nuqqas: klijent ġdid għadu jrid isir klijent ta' APS u jirreġistra mis-sit qabel ma jkun jista' juża l-app.",
+      "it": "La più completa delle cinque. I clienti già esistenti possono aprire nuovi conti in app, pagare con il numero di cellulare, cambiare i limiti della carta di debito e seguire gli investimenti, e APS afferma di essere stata la prima banca locale a eliminare le commissioni sui bonifici SEPA online. Le carte funzionano con Apple Pay e Google Wallet. Il limite: un cliente nuovo deve prima diventare cliente APS e registrarsi dal sito."
+     },
+     "no_photo": true
+    },
+    {
+     "name": "Bank of Valletta · BOV Mobile",
+     "locality": "3.0 / 5",
+     "badge": {
+      "en": "Strong features, weak reviews",
+      "mt": "Funzjonijiet tajbin, reviews dgħajfa",
+      "it": "Funzioni forti, recensioni deboli"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "2.6★ from 233 ratings (App Store Malta)",
+      "mt": "2.6★ minn 233 rating (App Store Malta)",
+      "it": "2,6★ da 233 valutazioni (App Store Malta)"
+     },
+     "text": {
+      "en": "The feature list is solid: Stop A Card for lost cards, payments to friends by mobile number, top-ups and bill payments, and an in-app link to add cards to Apple Pay. But the rating is the lowest of the apps with a score, and recent reviews describe missing accounts and login trouble. New customers can apply online only for a personal savings account, through a separate website, not the app.",
+      "mt": "Il-lista tal-funzjonijiet hija soda: Stop A Card għal karti mitlufa, ħlasijiet lil ħbieb bin-numru tal-mowbajl, top-ups u ħlas tal-kontijiet, u link fl-app biex iżżid il-karti ma' Apple Pay. Iżda r-rating huwa l-aktar baxx fost l-apps li għandhom wieħed, u reviews riċenti jsemmu kontijiet neqsin u problemi biex tidħol. Klijenti ġodda jistgħu japplikaw online biss għal kont tat-tfaddil personali, permezz ta' sit separat, mhux mill-app.",
+      "it": "L'elenco delle funzioni è solido: Stop A Card per le carte smarrite, pagamenti agli amici con il numero di cellulare, ricariche e bollette, e un collegamento in app per aggiungere le carte ad Apple Pay. Ma la valutazione è la più bassa tra le app che ne hanno una, e le recensioni recenti parlano di conti mancanti e problemi di accesso. I nuovi clienti possono richiedere online solo un conto di risparmio personale, da un sito separato e non dall'app."
+     },
+     "no_photo": true
+    },
+    {
+     "name": "HSBC Malta",
+     "locality": "2.0 / 5",
+     "badge": {
+      "en": "Best rated, least open",
+      "mt": "L-ogħla rating, l-inqas miftuħa",
+      "it": "La più votata, la meno aperta"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "4.7★ from about 12,000 ratings (App Store Malta)",
+      "mt": "4.7★ minn madwar 12,000 rating (App Store Malta)",
+      "it": "4,7★ da circa 12.000 valutazioni (App Store Malta)"
+     },
+     "text": {
+      "en": "Customers rate it highly and it does the basics reliably: instant SEPA payments to new payees, Global Accounts, approving card payments online and managing open banking consents. But it is for existing online banking customers only, bills and third-party payees mostly have to be set up first, and HSBC Malta is not on Apple's list of Apple Pay banks in Malta.",
+      "mt": "Il-klijenti jagħtuha rating għoli u tagħmel il-bażi b'mod affidabbli: pagamenti SEPA instantanji lil benefiċjarji ġodda, Global Accounts, approvazzjoni ta' ħlasijiet bil-karta online u ġestjoni tal-kunsensi tal-open banking. Iżda hija biss għal klijenti eżistenti tal-online banking, il-kontijiet u l-benefiċjarji ta' terzi l-aktar iridu jiġu ssettjati minn qabel, u HSBC Malta mhix fuq il-lista ta' Apple tal-banek b'Apple Pay f'Malta.",
+      "it": "I clienti la votano molto bene e fa le cose essenziali in modo affidabile: bonifici SEPA istantanei a nuovi beneficiari, Global Accounts, autorizzazione dei pagamenti online con carta e gestione dei consensi open banking. Ma è riservata a chi ha già l'online banking, bollette e beneficiari terzi vanno per lo più impostati prima, e HSBC Malta non compare nell'elenco Apple delle banche con Apple Pay a Malta."
+     },
+     "no_photo": true
+    },
+    {
+     "name": "BNF Bank · BNF Mobile App",
+     "locality": "2.0 / 5",
+     "badge": {
+      "en": "Best onboarding",
+      "mt": "L-aħjar ftuħ tal-kont",
+      "it": "Migliore apertura conto"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "No rating shown on the App Store Malta",
+      "mt": "L-ebda rating fuq l-App Store Malta",
+      "it": "Nessuna valutazione sull'App Store Malta"
+     },
+     "text": {
+      "en": "BNF is the only one of the five where a new customer can open an account 24/7 from a phone or tablet with a Maltese ID or residence card, launched in 2024. After that the app is basic: balances, own transfers, quick payments, bills and secure messages. Too few ratings to show a score, recent reviews report crashes, and BNF is not on Apple's Apple Pay list for Malta.",
+      "mt": "BNF huwa l-uniku wieħed mill-ħamsa fejn klijent ġdid jista' jiftaħ kont 24/7 minn mowbajl jew tablet b'karta tal-identità Maltija jew karta tar-residenza, imniedi fl-2024. Wara dan l-app hija bażika: bilanċi, trasferimenti bejn kontijiet tiegħek, ħlasijiet malajr, kontijiet u messaġġi siguri. Ftit wisq ratings biex jidher punteġġ, reviews riċenti jsemmu crashes, u BNF mhux fuq il-lista ta' Apple Pay għal Malta.",
+      "it": "BNF è l'unica delle cinque dove un nuovo cliente può aprire un conto 24 ore su 24 da telefono o tablet con carta d'identità maltese o permesso di residenza, servizio lanciato nel 2024. Dopo, l'app è essenziale: saldi, giroconti, pagamenti rapidi, bollette e messaggi sicuri. Troppe poche valutazioni per un punteggio, recensioni recenti segnalano crash e BNF non è nell'elenco Apple Pay per Malta."
+     },
+     "no_photo": true
+    },
+    {
+     "name": "Lombard Bank",
+     "locality": "0.5 / 5",
+     "badge": {
+      "en": "Branch first",
+      "mt": "L-ewwel il-fergħa",
+      "it": "Prima la filiale"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Mobile app works as a security token",
+      "mt": "L-app tal-mowbajl taħdem bħala token tas-sigurtà",
+      "it": "L'app funziona come token di sicurezza"
+     },
+     "text": {
+      "en": "Lombard's internet banking runs from its website, and the bank's own FAQ presents its mobile app as the way to get a software token that generates security codes. To sign up for internet banking you are asked to visit a branch. It is a secure, traditional set-up, but there is little here for someone who wants to bank from a phone.",
+      "mt": "L-internet banking ta' Lombard jaħdem mis-sit, u l-FAQ tal-bank stess tippreżenta l-app tal-mowbajl bħala l-mod kif tikseb token tas-software li joħroġ kodiċi tas-sigurtà. Biex tirreġistra għall-internet banking jintalbu li tmur fergħa. Huwa sistema sigura u tradizzjonali, iżda ftit hawn għal min irid jibbankja mill-mowbajl.",
+      "it": "L'internet banking di Lombard funziona dal sito e le FAQ della banca presentano l'app come il modo per ottenere un token software che genera codici di sicurezza. Per attivare l'internet banking viene chiesto di andare in filiale. È un sistema sicuro e tradizionale, ma offre poco a chi vuole gestire la banca dal telefono."
+     },
+     "no_photo": true
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "en": "The pattern is clear: Malta's traditional banks have added apps on top of branch processes rather than building around the phone. Only one advertises opening an account end to end from a phone, only two appear on Apple's Apple Pay list for Malta, and none of the five store listings mention in-app spending insights or virtual cards. If those matter to you, compare current accounts and fintech options on CompareMalta.ai. Banks update their apps often; if you spot something we missed, write to info@comparemalta.ai and we will update the scores.",
+  "mt": "Ix-xejra hija ċara: il-banek tradizzjonali ta' Malta żiedu apps fuq proċessi tal-fergħat minflok bnew madwar il-mowbajl. Wieħed biss jirreklama ftuħ ta' kont kollu kemm hu mill-mowbajl, tnejn biss jidhru fuq il-lista ta' Apple Pay għal Malta, u l-ebda waħda mill-ħames deskrizzjonijiet fl-App Store ma ssemmi analiżi tal-infiq fl-app jew karti virtwali. Jekk dawn huma importanti għalik, qabbel il-kontijiet kurrenti u l-għażliet fintech fuq CompareMalta.ai. Il-banek jaġġornaw l-apps spiss; jekk tinnota xi ħaġa li qbiżna, ikteb lil info@comparemalta.ai u naġġornaw il-punti.",
+  "it": "Il quadro è chiaro: le banche tradizionali di Malta hanno aggiunto un'app sopra i processi di filiale invece di costruire attorno allo smartphone. Solo una pubblicizza l'apertura del conto interamente dal telefono, solo due compaiono nell'elenco Apple Pay per Malta e nessuna delle cinque schede sull'App Store cita analisi delle spese in app o carte virtuali. Se per voi contano, confrontate conti correnti e opzioni fintech su CompareMalta.ai. Le banche aggiornano spesso le app: se notate qualcosa che ci è sfuggito, scrivete a info@comparemalta.ai e aggiorneremo i voti."
+ },
+ "sources": [
+  {
+   "name": "App Store Malta: BOV Mobile",
+   "url": "https://apps.apple.com/mt/app/bov-mobile/id484470116"
+  },
+  {
+   "name": "App Store Malta: HSBC Malta",
+   "url": "https://apps.apple.com/mt/app/hsbc-malta/id1458113535"
+  },
+  {
+   "name": "App Store Malta: myAPS",
+   "url": "https://apps.apple.com/mt/app/myaps/id1454207441"
+  },
+  {
+   "name": "App Store Malta: BNF Mobile App",
+   "url": "https://apps.apple.com/mt/app/bnf-mobile-app/id1544302437"
+  },
+  {
+   "name": "Apple: Apple Pay banks in Europe",
+   "url": "https://support.apple.com/HT206637"
+  },
+  {
+   "name": "APS Bank: myAPS features",
+   "url": "https://apsbank.com.mt/?p=630"
+  },
+  {
+   "name": "APS Bank: Apple and Google Wallet",
+   "url": "https://www.apsbank.com.mt/everyday-banking/"
+  },
+  {
+   "name": "BOV: online onboarding",
+   "url": "https://join.bov.com"
+  },
+  {
+   "name": "BNF Bank: digital onboarding, Apr 2024",
+   "url": "https://bnf.bank/about/news/bnf-bank-launches-customer-digital-onboarding"
+  },
+  {
+   "name": "Lombard Bank: internet banking",
+   "url": "https://www.lombardmalta.com/internet-banking"
+  },
+  {
+   "name": "Lombard Bank: FAQs",
+   "url": "https://www.lombardmalta.com/en/frequently-asked-questions"
+  }
+ ]
+}

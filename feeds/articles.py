@@ -35,6 +35,14 @@ def _strip(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
 
 
+def _author(raw: str) -> str:
+    """Photographer's name only: Commons 'Artist' fields often add a link wrapper or a sentence of description."""
+    m = re.search(r"<a[^>]*>(.*?)</a>", raw or "", re.S)
+    name = _strip(m.group(1) if m else raw)
+    name = re.split(r"\s{2,}|\s(?:This|A|An|The|I)\s|\s\.|[.;(]\s", name)[0].strip(" .,-")
+    return name[:60] or "Wikimedia Commons"
+
+
 def _commons(query: str):
     """First freely licensed bitmap on Wikimedia Commons for a search, with credit."""
     exact = query.startswith("File:")  # a pinned file name is used as is; a search takes the first suitable result
@@ -55,7 +63,7 @@ def _commons(query: str):
         elif need > 1200 and re.search(r"/(lossy-page1-)?1200px-", src or ""):
             src = re.sub(r"/(lossy-page1-)?1200px-", lambda m: f"/{m.group(1) or ''}{need}px-", src)
         return {"file": p["title"], "src": src, "page": ii.get("descriptionurl"),
-                "author": _strip((meta.get("Artist") or {}).get("value", ""))[:80] or "Wikimedia Commons", "license": lic}
+                "author": _author((meta.get("Artist") or {}).get("value", "")), "license": lic}
     return None
 
 
@@ -80,7 +88,7 @@ def _picture(slug, key, query, cache):
     dest = IMG / slug / f"{key}.jpg"
     ck = f"{slug}/{key}"
     hit = cache.get(ck)
-    if hit and hit.get("query") == query and dest.exists():
+    if hit and hit.get("query") == query and hit.get("v") == 2 and dest.exists():
         return {"image": f"article-img/{slug}/{key}.jpg", "credit": hit["credit"]}
     try:
         found = _commons(query)
@@ -88,7 +96,7 @@ def _picture(slug, key, query, cache):
             return {}
         _save(found["src"], dest)
         credit = {"author": found["author"], "license": found["license"], "url": found["page"], "file": found["file"]}
-        cache[ck] = {"query": query, "credit": credit}
+        cache[ck] = {"query": query, "credit": credit, "v": 2}
         return {"image": f"article-img/{slug}/{key}.jpg", "credit": credit}
     except Exception as e:  # noqa: BLE001  a missing photo never blocks an article
         log.warning("articles: no picture for %s (%s): %s", ck, query, e)
@@ -153,7 +161,13 @@ CSS = """.art-hero{border-radius:18px;overflow:hidden;margin:18px 0 6px;aspect-r
 .art-item .rk{position:absolute;left:10px;top:10px;background:#0d2a4a;color:#fff;font-weight:700;border-radius:999px;min-width:34px;height:34px;display:grid;place-items:center}
 .art-item h3{margin:0 0 4px;font-size:21px;color:#0d2a4a}.art-item .meta{font-size:13.5px;color:#5b6b80;margin-bottom:8px}
 .art-badge{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:3px 9px;margin-right:6px;background:#fdecef;color:#b3122e}
-.art-badge.bib{background:#fff4e0;color:#9a5b00}
+.art-badge.bib{background:#fff4e0;color:#9a5b00}.art-badge.other{background:#eef3fb;color:#2b4cc4}
+.art-item.nophoto{grid-template-columns:1fr}
+.art-mx{width:100%;border-collapse:collapse;font-size:14.5px;background:#fff}.art-mx th,.art-mx td{padding:10px 12px;border-bottom:1px solid #e6ebf2;text-align:center}
+.art-mx th{background:#0d2a4a;color:#fff;font-size:13px}.art-mx td:first-child,.art-mx th:first-child{text-align:left}
+.art-mx .sc{font-weight:700}.art-mx .s0{background:#fde2e2;color:#a01818}.art-mx .s1{background:#fdeadb;color:#a2460a}.art-mx .s2{background:#fff4d6;color:#8a5d00}
+.art-mx .s3{background:#eef7dc;color:#4f6b10}.art-mx .s4{background:#dff3e6;color:#17713b}.art-mx .s5{background:#cdeeda;color:#0b5e2c}
+.art-mx .tot{background:#0d2a4a;color:#fff}.art-mx tr.bench td{font-style:italic;opacity:.75}
 @media(max-width:700px){.art-item{grid-template-columns:1fr}}"""
 
 
@@ -184,22 +198,37 @@ def static_pages(seo):
                 if sec.get("intro"):
                     body.append(f'<p class="art-body">{html.escape(_txt(sec["intro"], lang))}</p>')
                 md += [f"## {h}", ""]
+                mx = sec.get("matrix")
+                if mx:
+                    cols, top = mx["columns"], mx.get("max", 5)
+                    avg = lambda sc: sum(sc[c["key"]] for c in cols) / len(cols)
+                    th = "".join(f'<th title="{html.escape(_txt(c.get("help"), lang))}">{html.escape(_txt(c["label"], lang))}</th>' for c in cols)
+                    rows = mx["rows"] + ([dict(mx["benchmark"], bench=True)] if mx.get("benchmark") else [])
+                    trs = "".join(
+                        f'<tr{" class=bench" if r.get("bench") else ""}><td><b>{html.escape(_txt(r["name"], lang))}</b><br><small>{html.escape(r.get("sub", ""))}</small></td>'
+                        + "".join(f'<td class="sc s{r["scores"][c["key"]]}">{r["scores"][c["key"]]}</td>' for c in cols)
+                        + f'<td class="sc tot">{avg(r["scores"]):.1f}</td></tr>' for r in rows)
+                    body.append(f'<div class="seo-scroll"><table class="art-mx"><thead><tr><th></th>{th}<th>Overall</th></tr></thead><tbody>{trs}</tbody></table></div><p class="seo-muted">0 to {top}</p>')
+                    md += ["| | " + " | ".join(_txt(c["label"], lang) for c in cols) + " | Overall |", "|---" * (len(cols) + 2) + "|"]
+                    md += [f"| {_txt(r['name'], lang)} | " + " | ".join(str(r["scores"][c["key"]]) for c in cols) + f" | {avg(r['scores']):.1f} |" for r in rows]
+                    md.append("")
                 for it in sec.get("items", []):
                     rank += 1
                     badge = _txt(it.get("badge"), lang)
-                    bcls = "art-badge bib" if "bib" in (it.get("badge_kind") or "") else "art-badge"
+                    bcls = "art-badge " + html.escape(it.get("badge_kind") or "")
                     img = f'<img src="../../../{it["image"]}" alt="{html.escape(it.get("image_alt") or it["name"])}" loading="lazy">' if it.get("image") else ""
                     links = " · ".join(x for x in [
                         f'<a href="{html.escape(it["url"])}" rel="noopener" target="_blank">{s["visit"]} ↗</a>' if it.get("url") else "",
                         f'<a href="https://www.google.com/maps/search/?api=1&query={quote(it["name"] + ", " + it.get("locality", "") + ", Malta")}" rel="noopener" target="_blank">{s["map"]} ↗</a>'] if x)
-                    body.append(f'''<article class="art-item"><div class="ph">{img}<span class="rk">{rank}</span></div><div>
+                    ph = "" if it.get("no_photo") else f'<div class="ph">{img}<span class="rk">{rank}</span></div>'
+                    body.append(f'''<article class="art-item{" nophoto" if it.get("no_photo") else ""}">{ph}<div>
 <h3>{html.escape(it["name"])}</h3><div class="meta"><span class="{bcls}">{html.escape(badge)}</span>{" · ".join(html.escape(x) for x in [it.get("locality", ""), _txt(it.get("cuisine"), lang), it.get("price", "")] if x)}</div>
 <p class="art-body" style="margin:0 0 8px">{html.escape(_txt(it.get("text"), lang))}</p><div class="seo-muted">{links}</div>
 <div class="art-credit">{_credit_txt(it.get("credit"), lang)}</div></div></article>''')
                     md += [f"{rank}. **{it['name']}** ({badge}), {it.get('locality', '')}: {_txt(it.get('text'), lang)}", ""]
-                    items_ld.append({"@type": "ListItem", "position": rank, "item": {"@type": "Restaurant", "name": it["name"],
+                    items_ld.append({"@type": "ListItem", "position": rank, "item": {"@type": it.get("schema_type") or "Place", "name": it["name"],
                                      "address": {"@type": "PostalAddress", "addressLocality": it.get("locality", ""), "addressCountry": "MT"},
-                                     "servesCuisine": _txt(it.get("cuisine"), "en"), **({"url": it["url"]} if it.get("url") else {})}})
+                                     **({"url": it["url"]} if it.get("url") else {})}})
                 body.append("</section>")
             if a.get("outro"):
                 body.append(f'<p class="art-body" style="margin-top:28px">{html.escape(_txt(a["outro"], lang))}</p>')
