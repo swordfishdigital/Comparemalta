@@ -1,15 +1,15 @@
 {
  "slug": "michelin-malta-2026",
- "date": "2026-11-22T16:00:00+00:00",
+ "date": "2026-11-22T15:00:00+00:00",
  "topic": {
   "en": "Food & Drink",
   "mt": "Ikel u Xorb",
   "it": "Cibo e vino"
  },
  "kicker": {
-  "en": "Malta today · Feature",
-  "mt": "Malta llum · Artiklu",
-  "it": "Malta oggi · Approfondimento"
+  "en": "Malta today · Blue recommends",
+  "mt": "Malta llum · Blue jirrakkomanda",
+  "it": "Malta oggi · Blue consiglia"
  },
  "title": {
   "en": "Every MICHELIN star and Bib Gourmand in Malta, ranked",
@@ -59,7 +59,7 @@
      "image_alt": "Panorama of the Grand Harbour, Valletta",
      "image": "article-img/michelin-malta-2026/01.jpg",
      "credit": {
-      "author": "GregorioW This image was created with Hugin .",
+      "author": "GregorioW",
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Valletta_Grand_Harbour_Panorama.jpg",
       "file": "File:Valletta Grand Harbour Panorama.jpg"
@@ -322,7 +322,7 @@
      "image_alt": "Mellieħa parish church",
      "image": "article-img/michelin-malta-2026/09.jpg",
      "credit": {
-      "author": "Meehowu A drone shot from my recent wedding in Malta .",
+      "author": "Meehowu",
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Mellieha_Parish_Church.jpg",
       "file": "File:Mellieha Parish Church.jpg"

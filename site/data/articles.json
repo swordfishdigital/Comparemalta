@@ -1,9 +1,71 @@
 {
- "updated": "2026-11-22T15:31:48+00:00",
+ "updated": "2026-11-22T15:49:47+00:00",
  "items": [
   {
+   "slug": "malta-bank-apps-compared",
+   "date": "2026-11-22T15:20:00+00:00",
+   "topic": {
+    "en": "Banking",
+    "mt": "Bankar",
+    "it": "Banca"
+   },
+   "title": {
+    "en": "Malta's big five banks on your phone: how their apps really score",
+    "mt": "Il-ħames banek il-kbar ta' Malta fuq il-mowbajl: kemm verament jiskorjaw l-apps tagħhom",
+    "it": "Le cinque grandi banche di Malta sullo smartphone: quanto valgono davvero le loro app"
+   },
+   "summary": {
+    "en": "We scored the apps of BOV, HSBC, APS, BNF and Lombard on onboarding, everyday use, features and wallets. The best reaches 3.8 out of 5; most sit at 2 or below.",
+    "mt": "Skorjajna l-apps ta' BOV, HSBC, APS, BNF u Lombard fuq il-ftuħ tal-kont, l-użu ta' kuljum, il-funzjonijiet u l-wallets. L-aħjar jilħaq 3.8 minn 5; il-biċċa l-kbira huma fuq 2 jew inqas.",
+    "it": "Abbiamo valutato le app di BOV, HSBC, APS, BNF e Lombard su apertura conto, uso quotidiano, funzioni e wallet. La migliore arriva a 3,8 su 5; le altre restano a 2 o meno."
+   },
+   "hero_image": "article-img/malta-bank-apps-compared/hero.jpg",
+   "hero_credit": {
+    "author": "HLundgaard",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mobile_payment_03.JPG",
+    "file": "File:Mobile payment 03.JPG"
+   },
+   "kicker": {
+    "en": "Malta today · Blue's verdict",
+    "mt": "Malta llum · Il-verdett ta' Blue",
+    "it": "Malta oggi · Il verdetto di Blue"
+   }
+  },
+  {
+   "slug": "best-bakeries-malta",
+   "date": "2026-11-22T15:10:00+00:00",
+   "topic": {
+    "en": "Food & Drink",
+    "mt": "Ikel u Xorb",
+    "it": "Cibo e vino"
+   },
+   "title": {
+    "en": "Five Maltese bakeries worth getting up early for",
+    "mt": "Ħames fran Maltin li jistħoqqilhom tqum kmieni għalihom",
+    "it": "Cinque forni maltesi per cui vale la pena alzarsi presto"
+   },
+   "summary": {
+    "en": "Wood-fired ovens, wartime stories and the Gozitan ftira: five traditional bakeries across Malta and Gozo that still bake the old way.",
+    "mt": "Fran tal-ħatab, stejjer mill-gwerra u l-ftira Għawdxija: ħames fran tradizzjonali f'Malta u Għawdex li għadhom jaħmu bil-mod il-qadim.",
+    "it": "Forni a legna, storie di guerra e la ftira di Gozo: cinque panifici tradizionali tra Malta e Gozo che cuociono ancora come una volta."
+   },
+   "hero_image": "article-img/best-bakeries-malta/hero.jpg",
+   "hero_credit": {
+    "author": "Bellina 09",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Traditional_wood-fired_oven.jpg",
+    "file": "File:Traditional wood-fired oven.jpg"
+   },
+   "kicker": {
+    "en": "Malta today · Blue recommends",
+    "mt": "Malta llum · Blue jirrakkomanda",
+    "it": "Malta oggi · Blue consiglia"
+   }
+  },
+  {
    "slug": "michelin-malta-2026",
-   "date": "2026-11-22T16:00:00+00:00",
+   "date": "2026-11-22T15:00:00+00:00",
    "topic": {
     "en": "Food & Drink",
     "mt": "Ikel u Xorb",
@@ -27,9 +89,9 @@
     "file": "File:Saluting battery and Grand Harbour in Valletta.jpg"
    },
    "kicker": {
-    "en": "Malta today · Feature",
-    "mt": "Malta llum · Artiklu",
-    "it": "Malta oggi · Approfondimento"
+    "en": "Malta today · Blue recommends",
+    "mt": "Malta llum · Blue jirrakkomanda",
+    "it": "Malta oggi · Blue consiglia"
    }
   }
  ]
