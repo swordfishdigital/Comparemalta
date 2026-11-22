@@ -2,7 +2,7 @@
  "base": "EUR",
  "date": "2026-11-20",
  "source": "ECB euro foreign exchange reference rates",
- "updated": "2026-11-22T09:43:27+00:00",
+ "updated": "2026-11-22T09:49:01+00:00",
  "rates": [
   {
    "ccy": "USD",

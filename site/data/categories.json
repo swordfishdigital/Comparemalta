@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:43:41+00:00",
+ "updated": "2026-11-22T09:49:20+00:00",
  "config": {
   "business-accounts": {
    "title": "İşletme Hesapları",
@@ -1383,7 +1383,7 @@
    "count": 6,
    "best": "APS Bank",
    "providers": 6,
-   "live": 0
+   "live": 1
   },
   {
    "slug": "credit-cards",
@@ -1453,6 +1453,6 @@
   "products": 84,
   "providers": 36,
   "categories": 15,
-  "live": 16
+  "live": 17
  }
 }
