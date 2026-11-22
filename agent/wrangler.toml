@@ -10,3 +10,6 @@ MODEL = "claude-sonnet-5-5"
 # Secret (set once, never committed):
 #   npx wrangler secret put ANTHROPIC_API_KEY
 #   npx wrangler secret put CONTACT_WEBHOOK   (where partnership enquiries go, e.g. a Slack or Zapier webhook)
+
+[observability]
+enabled = true   # Workers Logs in the Cloudflare dashboard

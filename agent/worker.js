@@ -380,7 +380,9 @@ export default {
       return json(out, 200, h);
     } catch (e) {
       console.error(e);
-      return json({ error: "agent_failed" }, 502, h);
+      // a short reason helps diagnose a live failure; it never contains the key (Claude API errors do not echo it)
+      const reason = String(e && e.message || e).replace(/sk-ant-[A-Za-z0-9_-]+/g, "[key]").slice(0, 200);
+      return json({ error: "agent_failed", reason }, 502, h);
     }
   },
 };
