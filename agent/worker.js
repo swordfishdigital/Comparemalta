@@ -529,7 +529,7 @@ async function moneyDoc(request, env, h) {
       counted_in: ["spending", "repayments", "housing", "excluded"].includes(r.counted_in) ? r.counted_in : "spending" })).filter(r => r.monthly_eur > 0);
     const pages = Object.fromEntries(Object.entries(out.pages || {}).filter(([k, v]) => MONEY_ALLOWED.has(k) && Number.isFinite(+v)).map(([k, v]) => [k, +v]));
     const unsure = (out.unsure || []).filter(k => MONEY_ALLOWED.has(k));
-    return json({ fields, recurring, pages, unsure, notes: String(out.notes || "").slice(0, 400) }, 200, h);
+    return json({ fields, recurring, pages, unsure, notes: String(out.notes || "").replace(/\s*[–—]\s*/g, " to ").slice(0, 400) }, 200, h);
   } catch (e) {
     console.error("money failed:", String(e && e.message || e).slice(0, 200));   // never the document
     return json({ error: "analyze_failed" }, 502, h);
