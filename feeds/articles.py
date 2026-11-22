@@ -258,4 +258,23 @@ def static_pages(seo):
 <p style="margin:30px 0"><a class="btn blue" href="../../../?lang={lang}#article/{slug}">{s["read"]}</a></p></main>'''
             page += seo.footer(lang, 3, {})
             pages.append(((lang, "articles", slug), page, "\n".join(md)))
-    return pages, [f"articles/{a['slug']}" for a in arts]
+    # archive index: /<lang>/articles/
+    T = {"en": ("Blue's picks", "Guides, rankings and deep dives from CompareMalta.ai to help you live, eat and bank better in Malta."),
+         "mt": ("L-għażliet ta' Blue", "Gwidi, klassifiki u analiżi minn CompareMalta.ai biex tgħix, tiekol u tibbankja aħjar f'Malta."),
+         "it": ("Le scelte di Blue", "Guide, classifiche e approfondimenti di CompareMalta.ai per vivere, mangiare e gestire i soldi meglio a Malta.")}
+    if arts:
+        alternates = {l: seo.url(l, "articles") for l in LANGS}
+        for lang in LANGS:
+            title, lead = T[lang]
+            canonical = alternates[lang]
+            cards = "".join(f'''<a class="seo-card" href="{a["slug"]}/">{f'<img src="../../{a["hero_image"]}" alt="" loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:10px;margin-bottom:8px">' if a.get("hero_image") else ""}<small>{html.escape(_txt(a.get("topic"), lang))} · {seo.date_txt(a["date"], lang)}</small><b>{html.escape(_txt(a["title"], lang))}</b><small>{html.escape(_txt(a["summary"], lang))}</small></a>''' for a in arts)
+            ld = [{"@context": "https://schema.org", "@type": "Blog", "name": f"{title} | CompareMalta.ai", "url": canonical, "inLanguage": lang, "publisher": seo.ORG,
+                   "blogPost": [{"@type": "BlogPosting", "headline": _txt(a["title"], lang), "datePublished": a["date"], "url": seo.url(lang, f"articles/{a['slug']}")} for a in arts]}]
+            page = seo.head(lang, f"{title} | CompareMalta.ai", lead, canonical, alternates, 2, ld, md_href=canonical + "index.md")
+            page += seo.topbar(lang, 2, alternates, [])
+            page += f'''<main class="wrap seo-main"><p class="eyebrow">{L[lang]["today"]}</p><h1 class="seo-h1">{html.escape(title)}</h1><p class="seo-intro">{html.escape(lead)}</p>
+<div class="seo-grid" style="margin:24px 0 40px">{cards}</div><p><a class="btn blue" href="../../?lang={lang}#articles">{L[lang]["read"]}</a></p></main>'''
+            page += seo.footer(lang, 2, {})
+            md = "\n".join([f"# {title}", "", lead, ""] + [f"- [{_txt(a['title'], lang)}]({seo.url(lang, 'articles/' + a['slug'])}) ({a['date'][:10]}): {_txt(a['summary'], lang)}" for a in arts])
+            pages.append(((lang, "articles"), page, md))
+    return pages, (["articles"] if arts else []) + [f"articles/{a['slug']}" for a in arts]

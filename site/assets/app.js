@@ -18,7 +18,7 @@ const T = {
   topEyebrow:"Today's top table",topT:{savings:"12-month fixed deposits in Malta",mortgages:"Variable-rate mortgages in Malta",mobile:"Mobile plans in Malta"},tabs:{savings:"Savings",mortgages:"Mortgages",mobile:"Mobile"},
   thrush:"Blue score",bestPick:"Best pick",viewDeal:"View deal",
   refreshed:"Rates refreshed daily at {t} from provider sites. CompareMalta.ai may earn a commission, but rankings are never paid for.",
-  morning:"Malta this morning",artBadge:"Blue recommends",artBy:"By CompareMalta.ai",artPhotos:"Photos",artSources:"Sources",artVisit:"Website",artMap:"Map",artBack:"Back to Malta today",artNotFound:"This article is not available.",readArt:"Read the article",readSum:"Read summary →",fullMk:"Full markets page →",mkt:"Markets",
+  morning:"Malta this morning",artBadge:"Blue recommends",blogTitle:"Blue's picks",blogLead:"Guides, rankings and deep dives from CompareMalta.ai to help you live, eat and bank better in Malta. New ones every Monday, Wednesday and Friday, and every article stays here.",blogLatest:"Latest from Blue",tabNews:"All news",artBy:"By CompareMalta.ai",artPhotos:"Photos",artSources:"Sources",artVisit:"Website",artMap:"Map",artBack:"All of Blue's picks",artNotFound:"This article is not available.",readArt:"Read the article",readSum:"Read summary →",fullMk:"Full markets page →",mkt:"Markets",
   footTag:"Independent comparisons for life and business in Malta. Updated daily. English · Malti · Italiano.",fCompare:"Compare",fDaily:"Daily",fAbout:"About",fNews:"News",fMarkets:"Markets",fFx:"FX",fLoans:"Loans",fHow:"How we rank",fContact:"Contact",
   filter:"Filter…",sortBy:"Sort by",updated:"Updated",checked:"Checked",notChecked:"Catalogue data",stale:"Last known",affiliated:"Related party",
   all:"All",sources:"Sources",mse:"Malta Stock Exchange",global:"Global indices & commodities",crypto:"Crypto (EUR)",fx:"FX rates (ECB)",
@@ -45,7 +45,7 @@ const T = {
   topEyebrow:"It-tabella ewlenija tal-lum",topT:{savings:"Depożiti fissi ta' 12-il xahar f'Malta",mortgages:"Self għad-dar b'rata varjabbli f'Malta",mobile:"Pjanijiet tal-mobile f'Malta"},tabs:{savings:"Tfaddil",mortgages:"Self għad-dar",mobile:"Mobile"},
   thrush:"Punteġġ ta' Blue",bestPick:"L-aħjar għażla",viewDeal:"Ara l-offerta",
   refreshed:"Ir-rati jiġu aġġornati kuljum fil-{t} mis-siti tal-fornituri. CompareMalta.ai jista' jaqla' kummissjoni, iżda l-klassifiki qatt ma jitħallsu.",
-  morning:"Malta dalgħodu",artBadge:"Blue jirrakkomanda",artBy:"Minn CompareMalta.ai",artPhotos:"Ritratti",artSources:"Sorsi",artVisit:"Websajt",artMap:"Mappa",artBack:"Lura għal Malta llum",artNotFound:"Dan l-artiklu mhux disponibbli.",readArt:"Aqra l-artiklu",readSum:"Aqra s-sommarju →",fullMk:"Paġna sħiħa tas-swieq →",mkt:"Swieq",
+  morning:"Malta dalgħodu",artBadge:"Blue jirrakkomanda",blogTitle:"L-għażliet ta' Blue",blogLead:"Gwidi, klassifiki u analiżi minn CompareMalta.ai biex tgħix, tiekol u tibbankja aħjar f'Malta. Ġodda kull nhar ta' Tnejn, Erbgħa u Ġimgħa, u kull artiklu jibqa' hawn.",blogLatest:"L-aħħar minn Blue",tabNews:"L-aħbarijiet kollha",artBy:"Minn CompareMalta.ai",artPhotos:"Ritratti",artSources:"Sorsi",artVisit:"Websajt",artMap:"Mappa",artBack:"L-għażliet kollha ta' Blue",artNotFound:"Dan l-artiklu mhux disponibbli.",readArt:"Aqra l-artiklu",readSum:"Aqra s-sommarju →",fullMk:"Paġna sħiħa tas-swieq →",mkt:"Swieq",
   footTag:"Paraguni indipendenti għall-ħajja u n-negozju f'Malta. Aġġornati kuljum. English · Malti · Italiano.",fCompare:"Qabbel",fDaily:"Kuljum",fAbout:"Dwarna",fNews:"Aħbarijiet",fMarkets:"Swieq",fFx:"Kambju",fLoans:"Self",fHow:"Kif nikklassifikaw",fContact:"Kuntatt",
   filter:"Iffiltra…",sortBy:"Ordna skont",updated:"Aġġornat",checked:"Iċċekkjat",notChecked:"Data tal-katalgu",stale:"L-aħħar magħruf",affiliated:"Parti relatata",
   all:"Kollha",sources:"Sorsi",mse:"Borża ta' Malta",global:"Indiċijiet globali u komoditajiet",crypto:"Kripto (EUR)",fx:"Rati tal-kambju (ECB)",
@@ -72,7 +72,7 @@ const T = {
   topEyebrow:"La tabella di oggi",topT:{savings:"Depositi vincolati a 12 mesi a Malta",mortgages:"Mutui a tasso variabile a Malta",mobile:"Piani mobile a Malta"},tabs:{savings:"Risparmio",mortgages:"Mutui",mobile:"Mobile"},
   thrush:"Punteggio Blue",bestPick:"Scelta migliore",viewDeal:"Vedi offerta",
   refreshed:"Tassi aggiornati ogni giorno alle {t} dai siti dei fornitori. CompareMalta.ai può ricevere una commissione, ma le classifiche non sono mai a pagamento.",
-  morning:"Malta stamattina",artBadge:"Blue consiglia",artBy:"A cura di CompareMalta.ai",artPhotos:"Foto",artSources:"Fonti",artVisit:"Sito web",artMap:"Mappa",artBack:"Torna a Malta oggi",artNotFound:"Questo articolo non è disponibile.",readArt:"Leggi l'articolo",readSum:"Leggi il riassunto →",fullMk:"Pagina completa dei mercati →",mkt:"Mercati",
+  morning:"Malta stamattina",artBadge:"Blue consiglia",blogTitle:"Le scelte di Blue",blogLead:"Guide, classifiche e approfondimenti di CompareMalta.ai per vivere, mangiare e gestire i soldi meglio a Malta. Nuovi articoli ogni lunedì, mercoledì e venerdì, e ognuno resta qui.",blogLatest:"L'ultimo di Blue",tabNews:"Tutte le notizie",artBy:"A cura di CompareMalta.ai",artPhotos:"Foto",artSources:"Fonti",artVisit:"Sito web",artMap:"Mappa",artBack:"Tutte le scelte di Blue",artNotFound:"Questo articolo non è disponibile.",readArt:"Leggi l'articolo",readSum:"Leggi il riassunto →",fullMk:"Pagina completa dei mercati →",mkt:"Mercati",
   footTag:"Confronti indipendenti per la vita e il business a Malta. Aggiornati ogni giorno. English · Malti · Italiano.",fCompare:"Confronta",fDaily:"Ogni giorno",fAbout:"Chi siamo",fNews:"Notizie",fMarkets:"Mercati",fFx:"Cambi",fLoans:"Prestiti",fHow:"Come classifichiamo",fContact:"Contatti",
   filter:"Filtra…",sortBy:"Ordina per",updated:"Aggiornato",checked:"Verificato",notChecked:"Dati di catalogo",stale:"Ultimo valore noto",affiliated:"Parte correlata",
   all:"Tutti",sources:"Fonti",mse:"Borsa di Malta",global:"Indici globali e materie prime",crypto:"Cripto (EUR)",fx:"Tassi di cambio (BCE)",
@@ -333,7 +333,8 @@ const sectionOf = route => (SECTIONS.find(s => s[2].includes(route)) || [])[0];
 /* ---------- chrome ---------- */
 function renderNav(route) {
   const active = sectionOf(route);
-  $("#nav").innerHTML = SECTIONS.map(([k, label, cats]) => `<a href="#${cats[0]}" class="${k === active ? "on" : ""}">${t(label)}</a>`).join("");
+  $("#nav").innerHTML = SECTIONS.map(([k, label, cats]) => `<a href="#${cats[0]}" class="${k === active ? "on" : ""}">${t(label)}</a>`).join("")
+    + `<a href="#articles" class="nav-blue ${/^(articles|blog|article\/)/.test(route) ? "on" : ""}">${t("blogTitle")}</a>`;
   document.querySelectorAll("#langSeg button").forEach(b => b.classList.toggle("on", b.dataset.l === lang));
   $("#askBtn").textContent = t("ask");
   document.documentElement.lang = lang;
@@ -365,7 +366,7 @@ async function renderChrome() {
   $("#footIn").innerHTML = `
     <div><a href="#home" class="logo"><span class="logo-mark">${V.logo(30)}</span><span>CompareMalta<span class="ai">.ai</span></span></a><p>${t("footTag")}</p></div>
     <div><h4>${t("fCompare")}</h4><ul><li><a href="#bank-accounts">${t("nBanking")}</a></li><li><a href="#mortgages">${t("fLoans")}</a></li><li><a href="#telco-mobile">${t("nTelco")}</a></li><li><a href="#categories">${t("allCatsTitle")}</a></li></ul></div>
-    <div><h4>${t("fDaily")}</h4><ul><li><a href="#news">${t("fNews")}</a></li><li><a href="#groceries">${t("nGroc")}</a></li><li><a href="#fx">${t("fFx")}</a></li><li><a href="#newsletter">${t("nlNav")}</a></li></ul></div>
+    <div><h4>${t("fDaily")}</h4><ul><li><a href="#news">${t("fNews")}</a></li><li><a href="#articles">${t("blogTitle")}</a></li><li><a href="#groceries">${t("nGroc")}</a></li><li><a href="#fx">${t("fFx")}</a></li><li><a href="#newsletter">${t("nlNav")}</a></li></ul></div>
     <div><h4>${t("fAbout")}</h4><ul><li><a href="#how-we-rank">${t("fHow")}</a></li><li><a href="#check">${t("ckNav")}</a></li><li><a href="#privacy">${t("privacy")}</a></li><li><a href="#partners">${t("fPartner")}</a></li><li><a href="#contact">${t("fContact")}</a></li><li><a href="mailto:info@comparemalta.ai">info@comparemalta.ai</a></li></ul></div>`;
   $("#footDisclaimer").textContent = t("disclaimer");
   if (st) $("#footStatus").innerHTML = `<span class="dot ${st.total && st.ok / st.total > .8 ? "" : "warn"}"></span>${t("feeds")} ${st.ok}/${st.total} · ${t("updated")} ${ago(st.generated)}`;
@@ -523,7 +524,7 @@ async function pageHome() {
 
   <section class="section">
     <div class="wrap">
-      <div class="sec-head"><div><h2>${t(dayPart())}</h2><p class="note" style="margin:4px 0 0">${t("newsAt")} ${maltaTime(news?.updated)}</p></div><a class="link" href="#news">${t("nNews")} →</a></div>
+      <div class="sec-head"><div><h2>${t(dayPart())}</h2><p class="note" style="margin:4px 0 0">${t("newsAt")} ${maltaTime(news?.updated)}</p></div><span class="sec-links"><a class="link" href="#articles">${t("blogTitle")} →</a><a class="link" href="#news">${t("nNews")} →</a></span></div>
       <div class="grid g3">
         ${[n1, n2].filter(Boolean).map(n => n.kind === "article" ? `<div class="card news-card bp-card">${bluePick(n)}</div>` : `<div class="card news-card"><a class="nc-img" ${nLink(n)} tabindex="-1">${newsImg(n)}</a><div class="nc-body"><p class="eyebrow">${n.kind === "article" ? `<span class="art-tag">${t("artBadge")}</span> ` : ""}${esc(n.topic)}</p><div class="src">${esc(n.source)}${n.published ? " · " + ago(n.published) : ""}</div><h3>${esc(n.title)}</h3><p>${esc(n.summary)}</p><a class="link" ${nLink(n)}>${n.kind === "article" ? t("readArt") : t("readSum")}</a></div></div>`).join("")}
         <div class="card mk-card"><p class="eyebrow">${t("mkt")}</p>
@@ -884,9 +885,39 @@ async function pageNews() {
     draw();
   }, 0);
   return `<div class="wrap"><div class="page-head"><p class="eyebrow">${t("fDaily")}</p><h1 style="font-size:clamp(32px,4vw,48px)">${t(dayPart())}</h1><p>${t("newsAt")} ${maltaTime(news?.updated)}</p></div>
+    ${newsTabs("news")}
     <div class="chips"><button class="chip on" data-tp="">${t("all")}</button>${topics.map(x => `<button class="chip" data-tp="${esc(x)}">${esc(x)}</button>`).join("")}</div>
     <div class="chips"><button class="chip on" data-sr="">${t("sources")}: ${t("all")}</button>${sources.map(x => `<button class="chip" data-sr="${esc(x)}">${esc(x)}</button>`).join("")}</div>
     <div class="card" id="nl" style="margin:18px 0 50px"></div></div>`;
+}
+/* ---------- Blue's picks: archive of CompareMalta.ai articles, laid out like a blog ---------- */
+const newsTabs = on => `<div class="news-tabs"><a class="${on === "news" ? "on" : ""}" href="#news">${t("tabNews")}</a><a class="${on === "articles" ? "on" : ""}" href="#articles"><span class="bp-dot">${V.mascot(20, "wink")}</span>${t("blogTitle")}</a></div>`;
+const artDate = d => new Date(d).toLocaleDateString(lang === "en" ? "en-GB" : lang, {day: "numeric", month: "long", year: "numeric"});
+async function pageBlog() {
+  const arts = await get("articles"); const all = artItems(arts);
+  const topics = [...new Set(all.map(a => a.topic))];
+  const card = a => `<a class="blog-card" href="${esc(a.url)}"><div class="bc-img">${a.image ? `<img src="${esc(a.image)}" alt="" loading="lazy">` : V.newsThumb(a.topic)}</div>
+    <div class="bc-body"><p class="eyebrow">${esc(a.topic)} · ${artDate(a.published)}</p><h3>${esc(a.title)}</h3><p>${esc(a.summary)}</p><span class="bp-cta">${t("readArt")} →</span></div></a>`;
+  setTimeout(() => {
+    let tp = "";
+    const draw = () => {
+      const list = all.filter(a => !tp || a.topic === tp);
+      const [lead, ...rest] = list;
+      const months = {}; rest.forEach(a => { const k = new Date(a.published).toLocaleDateString(lang === "en" ? "en-GB" : lang, {month: "long", year: "numeric"}); (months[k] = months[k] || []).push(a); });
+      $("#blog").innerHTML = !lead ? `<div class="empty">${V.mascot(56)}<span>${t("mNo")}</span></div>` : `
+        <a class="blog-lead" href="${esc(lead.url)}"><div class="bl-img">${lead.image ? `<img src="${esc(lead.image)}" alt="">` : V.newsThumb(lead.topic)}</div>
+          <div class="bl-body"><div class="bp-head"><span class="bp-av">${V.mascot(30, "wink")}</span><span><b>${t("blogLatest")}</b><small>${esc(lead.topic)} · ${artDate(lead.published)}</small></span></div>
+          <h2>${esc(lead.title)}</h2><p>${esc(lead.summary)}</p><span class="bp-cta">${t("readArt")} →</span></div></a>
+        ${Object.entries(months).map(([m, list]) => `<h3 class="blog-month">${esc(m)}</h3><div class="blog-grid">${list.map(card).join("")}</div>`).join("")}`;
+    };
+    document.querySelectorAll("[data-bt]").forEach(b => b.onclick = () => { tp = b.dataset.bt; document.querySelectorAll("[data-bt]").forEach(x => x.classList.toggle("on", x === b)); draw(); });
+    draw();
+  }, 0);
+  return `<div class="wrap"><div class="page-head"><p class="eyebrow">${t("c").today[0]}</p>
+    <h1 style="font-size:clamp(32px,4vw,48px)">${t("blogTitle")}</h1><p>${t("blogLead")}</p></div>
+    ${newsTabs("articles")}
+    <div class="chips"><button class="chip on" data-bt="">${t("all")} (${all.length})</button>${topics.map(x => `<button class="chip" data-bt="${esc(x)}">${esc(x)} (${all.filter(a => a.topic === x).length})</button>`).join("")}</div>
+    <div id="blog" style="margin:18px 0 50px"></div></div>`;
 }
 async function pageArticle(slug) {
   const a = await get("articles/" + slug);
@@ -906,12 +937,12 @@ async function pageArticle(slug) {
       <div class="art-links">${it.url ? `<a class="link" href="${esc(it.url)}" target="_blank" rel="noopener">${t("artVisit")} ↗</a>` : ""}<a class="link" href="${maps(it)}" target="_blank" rel="noopener">${t("artMap")} ↗</a></div>
       ${credit(it.credit)}</div></article>`; }).join("")}</section>`).join("");
   const intro = tx(a.intro).split("\n").filter(p => p.trim()).map(p => `<p class="art-p">${esc(p)}</p>`).join("");
-  return `<div class="wrap art-wrap"><div class="page-head"><p class="eyebrow"><a href="#news">${esc(tx(a.kicker) || t("c").today[0])}</a> · ${new Date(a.date).toLocaleDateString(lang === "en" ? "en-GB" : lang, {day: "numeric", month: "long", year: "numeric"})}</p>
+  return `<div class="wrap art-wrap"><div class="page-head"><p class="eyebrow"><a href="#articles">${esc(tx(a.kicker) || t("c").today[0])}</a> · ${new Date(a.date).toLocaleDateString(lang === "en" ? "en-GB" : lang, {day: "numeric", month: "long", year: "numeric"})}</p>
     <h1 style="font-size:clamp(30px,4vw,46px)">${esc(tx(a.title))}</h1><p class="art-lead">${esc(tx(a.summary))}</p><p class="note">${t("artBy")}</p></div>
     ${a.hero_image ? `<div class="art-hero"><img src="${esc(a.hero_image)}" alt="${esc(tx(a.title))}"></div>${credit(a.hero_credit)}` : ""}
     ${intro}${secs}${a.outro ? `<p class="art-p" style="margin-top:26px">${esc(tx(a.outro))}</p>` : ""}
     ${(a.sources || []).length ? `<p class="note" style="margin-top:18px"><b>${t("artSources")}:</b> ${a.sources.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener nofollow">${esc(x.name)}</a>`).join(" · ")}</p>` : ""}
-    <p style="margin:26px 0 50px"><a class="link" href="#news">← ${t("artBack")}</a></p></div>`;
+    <p style="margin:26px 0 50px"><a class="link" href="#articles">← ${t("artBack")}</a></p></div>`;
 }
 async function pageMarkets() {
   const [mk, fx] = await Promise.all([get("markets"), get("fx")]);
@@ -1153,7 +1184,7 @@ async function route() {
   const r = (location.hash || "#home").slice(1) || "home";
   await get("categories");
   renderNav(r); $("#nav").classList.remove("open");
-  const pages = {newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, check: pageCheck, privacy: pagePrivacy, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
+  const pages = {articles: pageBlog, blog: pageBlog, newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, check: pageCheck, privacy: pagePrivacy, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
   $("#app").innerHTML = await (r.startsWith("article/") ? pageArticle(r.slice(8)) : pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
   if ($("#heroForm")) bindHome();
   bindNewsletter();
