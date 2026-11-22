@@ -1,0 +1,236 @@
+{
+ "slug": "best-rooftops-malta",
+ "date": "2026-11-27T04:00:00+00:00",
+ "topic": {
+  "en": "Going out",
+  "mt": "Ħruġ",
+  "it": "Uscire"
+ },
+ "kicker": {
+  "en": "Malta today · Blue recommends",
+  "mt": "Malta llum · Blue jirrakkomanda",
+  "it": "Malta oggi · Blue consiglia"
+ },
+ "title": {
+  "en": "Malta's eight best rooftops, from Valletta to Mellieħa",
+  "mt": "L-aqwa tmien rooftops f'Malta, mill-Belt sal-Mellieħa",
+  "it": "I migliori otto rooftop di Malta, da La Valletta a Mellieħa"
+ },
+ "summary": {
+  "en": "Harbour sunsets, infinity pools and the island's highest views: eight rooftop bars and terraces worth the lift ride, in order of a trip from Valletta up the coast.",
+  "mt": "Nżul ix-xemx fuq il-port, infinity pools u l-ogħla veduti tal-gżira: tmien rooftop bars u terrazzini li jistħoqqilhom ir-rikba fil-lift, f'ordni ta' vjaġġ mill-Belt 'il fuq mal-kosta.",
+  "it": "Tramonti sul porto, piscine a sfioro e le viste più alte dell'isola: otto rooftop bar e terrazze che valgono il viaggio in ascensore, in ordine di percorso da La Valletta lungo la costa."
+ },
+ "intro": {
+  "en": "Malta's skyline has grown up, and so has its rooftop scene. These eight picks come from independent rooftop and food guides, and cover different moods: a quiet drink over Valletta, a pool day in St Julian's, or sunset cocktails over Mellieħa Bay.\nThey are not ranked against each other, because the best one depends on what you want. Instead they are ordered like a day out, starting in Valletta and heading north. Several are hotel rooftops with pools or seasonal opening, so check before you go, especially in winter.",
+  "mt": "Is-skyline ta' Malta kiber, u kibret ukoll ix-xena tar-rooftops. Dawn it-tmien għażliet ġejjin minn gwidi indipendenti tar-rooftops u tal-ikel, u jkopru burdati differenti: xarba kwieta fuq il-Belt, ġurnata mal-pool f'San Ġiljan, jew cocktails f'nżul ix-xemx fuq il-Bajja tal-Mellieħa.\nMhumiex ikklassifikati kontra xulxin, għax l-aħjar wieħed jiddependi minn dak li trid. Minflok huma f'ordni ta' ġurnata barra, li tibda mill-Belt u titla' lejn it-tramuntana. Diversi huma rooftops ta' lukandi b'pools jew miftuħa skont l-istaġun, għalhekk iċċekkja qabel tmur, speċjalment fix-xitwa.",
+  "it": "Lo skyline di Malta è cresciuto, e con lui i rooftop. Queste otto scelte vengono da guide indipendenti su rooftop e ristoranti e coprono atmosfere diverse: un drink tranquillo su La Valletta, una giornata in piscina a St Julian's o un cocktail al tramonto sulla baia di Mellieħa.\nNon sono in classifica tra loro, perché il migliore dipende da cosa cerchi. Sono ordinati come una giornata fuori, da La Valletta verso nord. Diversi sono rooftop d'hotel con piscina o apertura stagionale: verifica prima di andare, soprattutto in inverno."
+ },
+ "hero_query": "File:Valletta from Sliema - panoramio.jpg",
+ "sections": [
+  {
+   "heading": {
+    "en": "Our eight",
+    "mt": "It-tmienja tagħna",
+    "it": "I nostri otto"
+   },
+   "items": [
+    {
+     "name": "Over Grain",
+     "locality": "Valletta · Rosselli AX Privilege, 4th floor",
+     "badge": {
+      "en": "Valletta classic",
+      "mt": "Klassiku tal-Belt",
+      "it": "Classico di Valletta"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Cocktails · DJ on weekend nights",
+      "mt": "Cocktails · DJ fil-weekend",
+      "it": "Cocktail · DJ nel weekend"
+     },
+     "text": {
+      "en": "Above the Michelin-starred Under Grain, this is one of the most elegant drinks in the capital, with views over Valletta's domes and out to sea. Come at sunset and stay as the city lights up.",
+      "mt": "Fuq Under Grain bl-istilla Michelin, hija waħda mill-iktar xorb eleganti fil-belt kapitali, b'veduta fuq il-koppli tal-Belt u l-baħar. Ejja f'nżul ix-xemx u ibqa' hekk kif tixgħel il-belt.",
+      "it": "Sopra lo stellato Under Grain, è uno dei drink più eleganti della capitale, con vista sulle cupole di La Valletta e sul mare. Vieni al tramonto e resta mentre la città si illumina."
+     },
+     "image_query": "File:Skyline of Valletta - panoramio.jpg",
+     "image_alt": "Valletta skyline"
+    },
+    {
+     "name": "The Rooftop at The Embassy",
+     "locality": "Valletta · 8th floor",
+     "badge": {
+      "en": "Pool in the capital",
+      "mt": "Pool fil-Belt",
+      "it": "Piscina in centro"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Mediterranean · rooftop pool · tasting menu",
+      "mt": "Mediterranju · pool fuq il-bejt · menu tad-degustazzjoni",
+      "it": "Mediterranea · piscina sul tetto · menu degustazione"
+     },
+     "text": {
+      "en": "A rooftop restaurant and lounge with a pool on top of Valletta, city and sea views, and a degustation menu if you want to make an evening of it.",
+      "mt": "Restorant u lounge fuq il-bejt b'pool fil-quċċata tal-Belt, veduti tal-belt u tal-baħar, u menu tad-degustazzjoni jekk trid tagħmilha serata.",
+      "it": "Ristorante e lounge con piscina in cima a La Valletta, vista su città e mare, e un menu degustazione per chi vuole fare serata."
+     },
+     "image_query": "File:Grand Harbour at night.jpg",
+     "image_alt": "Grand Harbour at night"
+    },
+    {
+     "name": "Lounge 360 & TemptAsian",
+     "locality": "Sliema · AX The Palace, 9th floor",
+     "badge": {
+      "en": "Best Valletta view",
+      "mt": "L-aħjar veduta tal-Belt",
+      "it": "Migliore vista su Valletta"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Asian restaurant · infinity pool",
+      "mt": "Restorant Asjatiku · infinity pool",
+      "it": "Ristorante asiatico · piscina a sfioro"
+     },
+     "text": {
+      "en": "One of the best-known terraces on the island, looking across Sliema's rooftops and the sea. By day there is an infinity pool; at sunset it turns into a lounge with sushi and Asian fusion.",
+      "mt": "Wieħed mill-iktar terrazzini magħrufa fil-gżira, iħares fuq il-bjut ta' Tas-Sliema u l-baħar. Bi nhar hemm infinity pool; f'nżul ix-xemx isir lounge bis-sushi u l-fusion Asjatiku.",
+      "it": "Una delle terrazze più note dell'isola, affacciata sui tetti di Sliema e sul mare. Di giorno piscina a sfioro; al tramonto diventa lounge con sushi e fusion asiatica."
+     },
+     "image_query": "File:Sliema buildings.jpg",
+     "image_alt": "Sliema"
+    },
+    {
+     "name": "The Skyroom",
+     "locality": "Sliema · The Preluna, 13th to 14th floor",
+     "badge": {
+      "en": "Sea views on Tower Road",
+      "mt": "Veduti tal-baħar fi Triq it-Torri",
+      "it": "Vista mare su Tower Road"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Cocktail bar & grill",
+      "mt": "Cocktail bar u grill",
+      "it": "Cocktail bar e grill"
+     },
+     "text": {
+      "en": "High above the Tower Road promenade, with wide sea and island views and a grill menu, so it works for dinner as well as drinks.",
+      "mt": "Għoli fuq il-promenade ta' Triq it-Torri, b'veduti wesgħin tal-baħar u tal-gżira u menu tal-grill, għalhekk jaħdem kemm għall-ikla kif ukoll għax-xorb.",
+      "it": "In alto sopra il lungomare di Tower Road, con ampie viste su mare e isola e un menu grill: va bene sia per cena sia per un drink."
+     },
+     "image_query": "File:Malta - Sliema - Tower Road 02.jpg",
+     "image_alt": "Tower Road, Sliema"
+    },
+    {
+     "name": "SKYBEACH",
+     "locality": "St Julian's · InterContinental Malta",
+     "badge": {
+      "en": "360° views",
+      "mt": "Veduti ta' 360°",
+      "it": "Vista a 360°"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Infinity pool · grill and snacks",
+      "mt": "Infinity pool · grill u snacks",
+      "it": "Piscina a sfioro · grill e snack"
+     },
+     "text": {
+      "en": "On top of the InterContinental, with 360° views over St Julian's and the coast. A pool club by day and a glamorous lounge by night.",
+      "mt": "Fuq l-InterContinental, b'veduti ta' 360° fuq San Ġiljan u l-kosta. Pool club bi nhar u lounge glamoruż bil-lejl.",
+      "it": "In cima all'InterContinental, con vista a 360° su St Julian's e sulla costa. Pool club di giorno, lounge glamour la sera."
+     },
+     "image_query": "File:St. Julian's von Sliema aus bei Nacht.jpg",
+     "image_alt": "St Julian's at night"
+    },
+    {
+     "name": "Infinity by Hugo's",
+     "locality": "St Julian's · Hugo's Boutique Hotel, 11th floor",
+     "badge": {
+      "en": "Most luxurious",
+      "mt": "L-iktar lussuż",
+      "it": "Il più lussuoso"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "65-foot infinity pool · hot tubs",
+      "mt": "Infinity pool ta' 65 pied · hot tubs",
+      "it": "Piscina a sfioro di 20 metri · vasche idromassaggio"
+     },
+     "text": {
+      "en": "A luxury rooftop with a long infinity pool and hot tubs above St Julian's, plus international dishes and champagne. The place for a special occasion.",
+      "mt": "Rooftop lussuż b'infinity pool twil u hot tubs fuq San Ġiljan, flimkien ma' platti internazzjonali u champagne. Il-post għal okkażjoni speċjali.",
+      "it": "Un rooftop di lusso con una lunga piscina a sfioro e vasche idromassaggio sopra St Julian's, piatti internazionali e champagne. Il posto per un'occasione speciale."
+     },
+     "image_query": "File:Spinola bay night.jpg",
+     "image_alt": "Spinola Bay at night"
+    },
+    {
+     "name": "Taza Sky Bar",
+     "locality": "Qawra · db San Antonio, 10th floor",
+     "badge": {
+      "en": "Lowest cocktail prices",
+      "mt": "L-irħas cocktails",
+      "it": "Cocktail più economici"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Cocktails · infinity pool",
+      "mt": "Cocktails · infinity pool",
+      "it": "Cocktail · piscina a sfioro"
+     },
+     "text": {
+      "en": "Views over St Paul's Bay and the open sea from the tenth floor, with an infinity pool and the lowest cocktail prices of these eight in The Rooftop Guide's listing.",
+      "mt": "Veduti fuq il-Bajja ta' San Pawl u l-baħar miftuħ mill-għaxar sular, b'infinity pool u l-irħas prezzijiet tal-cocktails fost dawn it-tmienja fil-lista ta' The Rooftop Guide.",
+      "it": "Vista sulla baia di St Paul e sul mare aperto dal decimo piano, con piscina a sfioro e i cocktail più economici di questi otto secondo l'elenco di The Rooftop Guide."
+     },
+     "image_query": "File:Malta - St. Paul's Bay - Triq It-Trunciera - Qawra Tower.jpg",
+     "image_alt": "Qawra"
+    },
+    {
+     "name": "Zendeck & Topdeck",
+     "locality": "Mellieħa · Solana Hotel & Spa, 7th floor",
+     "badge": {
+      "en": "Best sunset",
+      "mt": "L-aħjar nżul ix-xemx",
+      "it": "Miglior tramonto"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Adults-only infinity pool · Asian fusion at night",
+      "mt": "Infinity pool għall-adulti biss · fusion Asjatiku filgħaxija",
+      "it": "Piscina a sfioro solo adulti · fusion asiatica la sera"
+     },
+     "text": {
+      "en": "The northern finale: views over Għadira Bay, Mellieħa village and the Red Tower, an adults-only infinity pool, and Asian fusion in the evening.",
+      "mt": "Il-finali tat-tramuntana: veduti fuq il-Bajja tal-Għadira, ir-raħal tal-Mellieħa u t-Torri l-Aħmar, infinity pool għall-adulti biss, u fusion Asjatiku filgħaxija.",
+      "it": "Il gran finale a nord: vista sulla baia di Għadira, sul paese di Mellieħa e sulla Torre Rossa, piscina a sfioro solo adulti e fusion asiatica la sera."
+     },
+     "image_query": "File:Għadira, Mellieha, Malta - panoramio.jpg",
+     "image_alt": "Għadira Bay, Mellieħa"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "en": "Rooftop pools are often for hotel guests or open only in season, and dress codes and minimum spends vary, so book or call ahead. For dinner ideas below the rooftops, see Restaurants and Blue's picks on CompareMalta.ai.",
+  "mt": "Il-pools fuq il-bjut spiss huma għall-mistednin tal-lukanda jew miftuħa biss fl-istaġun, u d-dress codes u l-minimum spend ivarjaw, għalhekk irriserva jew ċempel minn qabel. Għal ideat tal-ikel taħt ir-rooftops, ara r-Restoranti u l-għażliet ta' Blue fuq CompareMalta.ai.",
+  "it": "Le piscine sui tetti sono spesso riservate agli ospiti o aperte solo in stagione, e dress code e spesa minima variano: prenota o chiama prima. Per idee di cena sotto i rooftop, vedi Ristoranti e le scelte di Blue su CompareMalta.ai."
+ },
+ "sources": [
+  {
+   "name": "The Rooftop Guide: rooftop bars in Malta",
+   "url": "https://therooftopguide.com/rooftop-bars-in-malta.html"
+  },
+  {
+   "name": "Guide Me Malta: rooftop bars and restaurants",
+   "url": "https://www.guidememalta.com/en/5-terrific-rooftop-bars-and-restaurants-in-malta"
+  },
+  {
+   "name": "The Punk Rock Princess: rooftop bars in Malta",
+   "url": "https://thepunkrockprincess.com/top-6-rooftop-bars-in-malta-with-the-best-views"
+  }
+ ]
+}

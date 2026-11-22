@@ -1,0 +1,217 @@
+{
+ "slug": "lahmacun-history-where-to-eat-malta",
+ "date": "2026-11-25T04:00:00+00:00",
+ "topic": {
+  "en": "Food & Drink",
+  "mt": "Ikel u Xorb",
+  "it": "Cibo e vino"
+ },
+ "kicker": {
+  "en": "Malta today · Blue recommends",
+  "mt": "Malta llum · Blue jirrakkomanda",
+  "it": "Malta oggi · Blue consiglia"
+ },
+ "title": {
+  "en": "Lahmacun: what it is, where it comes from and three places to eat it in Malta",
+  "mt": "Lahmacun: x'inhu, minn fejn ġej u tliet postijiet fejn tiklu f'Malta",
+  "it": "Lahmacun: cos'è, da dove viene e tre posti dove mangiarlo a Malta"
+ },
+ "summary": {
+  "en": "A paper-thin flatbread with spiced minced meat, rolled up with parsley and lemon. Its story runs from medieval Aleppo to Gaziantep, and these are three places that serve it in Malta.",
+  "mt": "Ħobża rqiqa ħafna b'laħam ikkappuljat u ħwawar, irrumblata bit-tursin u l-lumi. L-istorja tagħha tibda minn Aleppo medjevali u tasal sa Gaziantep, u dawn huma tliet postijiet li jservuha f'Malta.",
+  "it": "Una sfoglia sottilissima con carne macinata speziata, arrotolata con prezzemolo e limone. La sua storia va dall'Aleppo medievale a Gaziantep, ed ecco tre posti che la servono a Malta."
+ },
+ "intro": {
+  "en": "Lahmacun is a very thin, round flatbread spread with minced meat (usually beef or lamb), onion, tomato, peppers and herbs, then baked fast in a very hot oven. It is often called \"Turkish pizza\", but there is no cheese and no sauce, and the base is much thinner. The classic way to eat it: squeeze over lemon, add parsley and onion, roll it up and eat it with your hands, often with a glass of ayran.\nThe name comes from the Arabic laḥm bi-ʿajīn, \"meat with dough\". The earliest known written recipe close to it comes from 13th century Aleppo, and the Ottoman traveller Evliya Çelebi listed it among the notable foods of Damascus. Today it is loved across Turkey, Armenia, Lebanon and Syria, with regional styles: Antep lahmacun uses garlic, Urfa uses onion, and Aleppo style adds pomegranate molasses. In 2025 the European Union registered Gaziantep lahmacun as a protected geographical indication.",
+  "mt": "Il-lahmacun hija ħobża tonda rqiqa ħafna miksija b'laħam ikkappuljat (ġeneralment taċ-ċanga jew tal-ħaruf), basal, tadam, bżar u ħwawar, moħmija malajr f'forn sħun ħafna. Spiss tissejjaħ \"pizza Torka\", iżda m'hemmx ġobon u lanqas zalza, u l-bażi hija ħafna irqaq. Il-mod klassiku: agħsar il-lumi, żid it-tursin u l-basal, irrumblaha u kulha b'idejk, spiss ma' tazza ayran.\nL-isem ġej mill-Għarbi laḥm bi-ʿajīn, \"laħam bl-għaġina\". L-ewwel riċetta miktuba magħrufa qrib tagħha ġejja minn Aleppo tas-seklu 13, u l-vjaġġatur Ottoman Evliya Çelebi semmieha fost l-ikel magħruf ta' Damasku. Illum hija maħbuba fit-Turkija, l-Armenja, il-Libanu u s-Sirja, bi stili reġjonali: dik ta' Antep għandha t-tewm, dik ta' Urfa l-basal, u l-istil ta' Aleppo jżid il-melassa tar-rummien. Fl-2025 l-Unjoni Ewropea rreġistrat il-lahmacun ta' Gaziantep bħala indikazzjoni ġeografika protetta.",
+  "it": "Il lahmacun è una sfoglia tonda sottilissima coperta di carne macinata (di solito manzo o agnello), cipolla, pomodoro, peperoni ed erbe, cotta in pochi minuti in un forno caldissimo. Lo chiamano spesso \"pizza turca\", ma non ha formaggio né salsa e la base è molto più sottile. Il modo classico: limone spremuto sopra, prezzemolo e cipolla, si arrotola e si mangia con le mani, spesso con un bicchiere di ayran.\nIl nome viene dall'arabo laḥm bi-ʿajīn, \"carne con pasta\". La più antica ricetta scritta simile risale all'Aleppo del XIII secolo e il viaggiatore ottomano Evliya Çelebi lo citò tra i cibi notevoli di Damasco. Oggi è amato in Turchia, Armenia, Libano e Siria, con stili regionali: quello di Antep usa l'aglio, quello di Urfa la cipolla, e lo stile di Aleppo aggiunge melassa di melograno. Nel 2025 l'Unione europea ha registrato il lahmacun di Gaziantep come indicazione geografica protetta."
+ },
+ "hero_query": "File:Lahmacun.jpg",
+ "sections": [
+  {
+   "heading": {
+    "en": "Three regional styles",
+    "mt": "Tliet stili reġjonali",
+    "it": "Tre stili regionali"
+   },
+   "items": [
+    {
+     "name": "Antep",
+     "locality": "Gaziantep",
+     "badge": {
+      "en": "EU protected since 2025",
+      "mt": "Protett mill-UE mill-2025",
+      "it": "Protetto dall'UE dal 2025"
+     },
+     "badge_kind": "star",
+     "cuisine": {
+      "en": "With garlic",
+      "mt": "Bit-tewm",
+      "it": "Con aglio"
+     },
+     "text": {
+      "en": "Thin and crisp, seasoned with garlic. The style most people in Turkey picture first.",
+      "mt": "Rqiqa u iebsa, bit-tewm. L-istil li ħafna nies fit-Turkija jaħsbu fih l-ewwel.",
+      "it": "Sottile e croccante, con aglio. Lo stile che in Turchia viene in mente per primo."
+     },
+     "image_query": "File:Lahmacun from Gaziantep.jpg",
+     "image_alt": "Lahmacun from Gaziantep"
+    },
+    {
+     "name": "Urfa",
+     "locality": "Şanlıurfa",
+     "badge": {
+      "en": "Regional style",
+      "mt": "Stil reġjonali",
+      "it": "Stile regionale"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "With onion",
+      "mt": "Bil-basal",
+      "it": "Con cipolla"
+     },
+     "text": {
+      "en": "Onion instead of garlic, often with a spicier pepper paste.",
+      "mt": "Basal minflok tewm, spiss b'pejst tal-bżar aktar pikkanti.",
+      "it": "Cipolla al posto dell'aglio, spesso con pasta di peperoncino più piccante."
+     },
+     "no_photo": true
+    },
+    {
+     "name": "Aleppo style",
+     "locality": "Halep işi",
+     "badge": {
+      "en": "Regional style",
+      "mt": "Stil reġjonali",
+      "it": "Stile regionale"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Garlic, onion, pomegranate molasses",
+      "mt": "Tewm, basal, melassa tar-rummien",
+      "it": "Aglio, cipolla, melassa di melograno"
+     },
+     "text": {
+      "en": "Sweet and sour from pomegranate molasses, closest to the dish's Levantine roots.",
+      "mt": "Ħelu u qares mill-melassa tar-rummien, l-eqreb lejn l-għeruq Levantini tad-dixx.",
+      "it": "Agrodolce grazie alla melassa di melograno, il più vicino alle radici levantine del piatto."
+     },
+     "no_photo": true
+    }
+   ]
+  },
+  {
+   "heading": {
+    "en": "Where to eat it in Malta",
+    "mt": "Fejn tiklu f'Malta",
+    "it": "Dove mangiarlo a Malta"
+   },
+   "intro": {
+    "en": "We only list places where lahmacun is on the menu today. There is no official ranking for this, so the order below is ours: how widely you can find it, then what diners say. Kebab Factory is a featured restaurant on CompareMalta.ai.",
+    "mt": "Inniżżlu biss postijiet fejn il-lahmacun huwa fil-menu llum. M'hemmx klassifika uffiċjali għal dan, għalhekk l-ordni hawn taħt hija tagħna: kemm tista' ssibha faċilment, imbagħad x'jgħidu l-klijenti. Kebab Factory huwa restorant rakkomandat fuq CompareMalta.ai.",
+    "it": "Elenchiamo solo locali dove il lahmacun è oggi nel menu. Non esiste una classifica ufficiale, quindi l'ordine è nostro: quanto è facile trovarlo, poi cosa dicono i clienti. Kebab Factory è un ristorante in evidenza su CompareMalta.ai."
+   },
+   "items": [
+    {
+     "name": "Kebab Factory",
+     "locality": "Msida, St Julian's, Paceville, Valletta, Ħamrun, San Ġwann, Mellieħa",
+     "badge": {
+      "en": "Easiest to find",
+      "mt": "L-eħfef biex issibu",
+      "it": "Il più facile da trovare"
+     },
+     "badge_kind": "star",
+     "cuisine": {
+      "en": "Turkish · 7 branches",
+      "mt": "Tork · 7 friegħi",
+      "it": "Turca · 7 sedi"
+     },
+     "text": {
+      "en": "A Turkish chain founded in Malta in 2019, with lahmacun as a core part of a menu built around döner, kebabs, Turkish pizza and baklava. Diners at the Msida and St Julian's branches single out the lahmacun, and with seven branches it is the simplest way to try it wherever you are on the island.",
+      "mt": "Katina Torka mwaqqfa f'Malta fl-2019, bil-lahmacun bħala parti ewlenija ta' menu mibni madwar id-döner, il-kebabs, il-pizza Torka u l-baklava. Klijenti fil-friegħi tal-Imsida u San Ġiljan isemmu l-lahmacun b'mod speċjali, u b'seba' friegħi huwa l-iktar mod sempliċi biex tippruvaha kullimkien fil-gżira.",
+      "it": "Catena turca fondata a Malta nel 2019, con il lahmacun come piatto chiave di un menu fatto di döner, kebab, pizza turca e baklava. I clienti delle sedi di Msida e St Julian's citano proprio il lahmacun, e con sette sedi è il modo più semplice per provarlo ovunque sull'isola."
+     },
+     "url": "https://kebabfactory.com.mt",
+     "image_query": "File:Wrapped Lahmacun.jpg",
+     "image_alt": "Lahmacun rolled up with salad"
+    },
+    {
+     "name": "Moo's Kebab",
+     "locality": "Gżira (The Strand), Valletta",
+     "badge": {
+      "en": "Diners' favourite",
+      "mt": "Favorit tal-klijenti",
+      "it": "Preferito dai clienti"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Turkish · 4.5★ from 571 Tripadvisor reviews",
+      "mt": "Tork · 4.5★ minn 571 review fuq Tripadvisor",
+      "it": "Turca · 4,5★ da 571 recensioni Tripadvisor"
+     },
+     "text": {
+      "en": "Lahmacun sits in the pide section of the menu next to Turkish-style pizzas. The Gżira branch on The Strand is one of the best reviewed Turkish places on the island, with 4.5 out of 5 from 571 reviews on Tripadvisor, and there is a second branch in Valletta.",
+      "mt": "Il-lahmacun tinsab fit-taqsima tal-pide tal-menu ħdejn il-pizez Torok. Il-fergħa tal-Gżira fuq The Strand hija waħda mill-postijiet Torok bl-aħjar reviews fil-gżira, b'4.5 minn 5 minn 571 review fuq Tripadvisor, u hemm fergħa oħra l-Belt.",
+      "it": "Il lahmacun è nella sezione pide del menu, accanto alle pizze turche. La sede di Gżira su The Strand è uno dei locali turchi più recensiti dell'isola, con 4,5 su 5 da 571 recensioni su Tripadvisor, e c'è una seconda sede a La Valletta."
+     },
+     "image_query": "File:The Strand In Gzira At Night.jpg",
+     "image_alt": "The Strand, Gżira"
+    },
+    {
+     "name": "Kebab Bistro",
+     "locality": "Sliema (153 Tower Road)",
+     "badge": {
+      "en": "Classic recipe",
+      "mt": "Riċetta klassika",
+      "it": "Ricetta classica"
+     },
+     "badge_kind": "other",
+     "cuisine": {
+      "en": "Turkish · Tower Road",
+      "mt": "Tork · Triq it-Torri",
+      "it": "Turca · Tower Road"
+     },
+     "text": {
+      "en": "A Turkish bistro on Tower Road whose lahmacun follows the classic mix of minced beef, tomato, onion, garlic, parsley and herbs, and is one of the popular items on its delivery menu. Good for a sit-down Turkish meal in Sliema with soups, pides and grills alongside.",
+      "mt": "Bistro Tork fi Triq it-Torri li l-lahmacun tiegħu jsegwi t-taħlita klassika ta' laħam taċ-ċanga kkappuljat, tadam, basal, tewm, tursin u ħwawar, u hija waħda mill-ħwejjeġ popolari fil-menu tad-delivery. Tajjeb għal ikla Torka bilqiegħda f'Tas-Sliema, ma' sopop, pide u grills.",
+      "it": "Un bistrot turco su Tower Road, con un lahmacun secondo la ricetta classica di manzo macinato, pomodoro, cipolla, aglio, prezzemolo ed erbe, tra i piatti più ordinati a domicilio. Ideale per un pasto turco seduti a Sliema, con zuppe, pide e grigliate."
+     },
+     "image_query": "File:Malta - Sliema - Tower Road 01.jpg",
+     "image_alt": "Tower Road, Sliema"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "en": "Tip: order it with lemon and fresh herbs and eat it straight away, while the base is still crisp. Menus and opening hours change, so check with the restaurant before you go.",
+  "mt": "Parir: ordnaha bil-lumi u ħxejjex friski u kulha minnufih, waqt li l-bażi għadha iebsa. Il-menus u l-ħinijiet jinbidlu, għalhekk iċċekkja mar-restorant qabel tmur.",
+  "it": "Consiglio: ordinalo con limone ed erbe fresche e mangialo subito, finché la base è croccante. Menu e orari cambiano: verifica con il ristorante prima di andare."
+ },
+ "sources": [
+  {
+   "name": "Wikipedia: Lahmacun",
+   "url": "https://en.wikipedia.org/wiki/Lahmacun"
+  },
+  {
+   "name": "Kebab Factory: about us",
+   "url": "https://kebabfactory.com.mt/about-us/"
+  },
+  {
+   "name": "Guide Me Malta: Kebab Factory Msida",
+   "url": "https://www.guidememalta.com/en/looking-for-a-new-foodie-joint-this-turkish-eatery-exceeds-all-expectations"
+  },
+  {
+   "name": "Tripadvisor: Turkish food in Malta",
+   "url": "https://www.tripadvisor.com/Restaurants-g190320-c10663-Island_of_Malta.html"
+  },
+  {
+   "name": "Wolt: Moo's Kebab Gżira",
+   "url": "https://wolt.com/en/mlt/malta/restaurant/moos-kebab/items/burgers-9"
+  },
+  {
+   "name": "Wolt: Kebab Bistro Sliema",
+   "url": "https://wolt.com/mt/mlt/malta/restaurant/kebab-bistro-sliema"
+  }
+ ]
+}
