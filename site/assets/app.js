@@ -182,7 +182,7 @@ const T3 = {
   ckDisclaimer: "An estimate to help you compare, not financial advice.",
   privacy: "Privacy",
   privacyUpdated: "Last updated",
-  privacyHtml: `<p><b>Who we are.</b> CompareMalta.ai is an independent comparison website. It is not yet run by a company. For any privacy question or request, use the <a class="link" href="#contact">contact form</a>.</p>
+  privacyHtml: `<p><b>Who we are.</b> CompareMalta.ai is an independent comparison website. It is not yet run by a company. For any privacy question or request, email <a class="link" href="mailto:info@comparemalta.ai">info@comparemalta.ai</a>.</p>
 <p><b>Comparing and Ask Blue.</b> We do not need an account and we do not ask for your name. Questions you type to Blue are sent to our AI provider (Anthropic) to write the answer and are not kept by us.</p>
 <p><b>Check my bill.</b> Only if you tick the box, the document you choose is sent once, over an encrypted connection, through our server (Cloudflare) to Anthropic so that Blue can read its prices. We do not store the document or the figures, we do not log their content, and only prices, plan details and dates come back to your screen. Names, addresses, account, card and customer numbers are not kept. The legal basis is your consent, which you can refuse: you can always type the numbers yourself instead.</p>
 <p><b>Our providers.</b> Cloudflare (servers), GitHub Pages (website hosting) and Anthropic (AI). They act on our behalf and may keep technical logs for security for a limited time under their own policies.</p>
@@ -212,7 +212,7 @@ const T3 = {
   ckAssDevice: "* Il-prezz tat-terminal mhux ippubblikat, għalhekk mhux inkluż.", ckAssData: "Il-prezzijiet ġejjin mit-tabelli ta' dan is-sit. Ir-rifużjonijiet u ċ-chargebacks mhumiex inklużi. Ikkonferma mal-fornitur qabel taqleb.",
   ckDisclaimer: "Stima biex tgħinek tqabbel, mhux parir finanzjarju.",
   privacy: "Privatezza", privacyUpdated: "L-aħħar aġġornament",
-  privacyHtml: `<p><b>Min aħna.</b> CompareMalta.ai huwa sit indipendenti tal-paragun. Għadu mhux immexxi minn kumpanija. Għal kull mistoqsija jew talba dwar il-privatezza, uża l-<a class="link" href="#contact">formola ta' kuntatt</a>.</p>
+  privacyHtml: `<p><b>Min aħna.</b> CompareMalta.ai huwa sit indipendenti tal-paragun. Għadu mhux immexxi minn kumpanija. Għal kull mistoqsija jew talba dwar il-privatezza, ibgħat email lil <a class="link" href="mailto:info@comparemalta.ai">info@comparemalta.ai</a>.</p>
 <p><b>Paraguni u Ask Blue.</b> M'hemmx bżonn kont u ma nitolbukx ismek. Il-mistoqsijiet li tikteb lil Blue jintbagħtu lill-fornitur tal-AI tagħna (Anthropic) biex tinkiteb it-tweġiba u ma jinżammux minna.</p>
 <p><b>Iċċekkja l-kont.</b> Biss jekk timmarka l-kaxxa, id-dokument li tagħżel jintbagħat darba, b'konnessjoni kriptata, mis-server tagħna (Cloudflare) lil Anthropic biex Blue jaqra l-prezzijiet. Ma naħżnux id-dokument jew il-figuri, ma nirreġistrawx il-kontenut tagħhom, u lura fuq l-iskrin jaslu biss prezzijiet, dettalji tal-pjan u dati. L-ismijiet, l-indirizzi u n-numri tal-kontijiet, tal-karti u tal-klijenti ma jinżammux. Il-bażi legali hija l-kunsens tiegħek, li tista' tirrifjuta: dejjem tista' tikteb in-numri int.</p>
 <p><b>Il-fornituri tagħna.</b> Cloudflare (servers), GitHub Pages (hosting tas-sit) u Anthropic (AI). Jaġixxu f'isimna u jistgħu jżommu logs tekniċi għas-sigurtà għal żmien limitat skont il-politiki tagħhom.</p>
@@ -242,7 +242,7 @@ const T3 = {
   ckAssDevice: "* Il prezzo del terminale non è pubblicato, quindi non è incluso.", ckAssData: "I prezzi vengono dalle tabelle di confronto di questo sito. Rimborsi e chargeback non sono inclusi. Verifica con il fornitore prima di cambiare.",
   ckDisclaimer: "Una stima per aiutarti a confrontare, non una consulenza finanziaria.",
   privacy: "Privacy", privacyUpdated: "Ultimo aggiornamento",
-  privacyHtml: `<p><b>Chi siamo.</b> CompareMalta.ai è un sito di confronto indipendente. Non è ancora gestito da una società. Per qualsiasi domanda o richiesta sulla privacy usa il <a class="link" href="#contact">modulo di contatto</a>.</p>
+  privacyHtml: `<p><b>Chi siamo.</b> CompareMalta.ai è un sito di confronto indipendente. Non è ancora gestito da una società. Per qualsiasi domanda o richiesta sulla privacy scrivi a <a class="link" href="mailto:info@comparemalta.ai">info@comparemalta.ai</a>.</p>
 <p><b>Confronti e Ask Blue.</b> Non serve un account e non chiediamo il tuo nome. Le domande che scrivi a Blue vengono inviate al nostro fornitore di AI (Anthropic) per scrivere la risposta e non vengono conservate da noi.</p>
 <p><b>Controlla la bolletta.</b> Solo se spunti la casella, il documento che scegli viene inviato una volta, con connessione cifrata, tramite il nostro server (Cloudflare) ad Anthropic perché Blue ne legga i prezzi. Non conserviamo il documento né i valori, non registriamo il loro contenuto e sullo schermo tornano solo prezzi, dettagli dell'offerta e date. Nomi, indirizzi e numeri di conto, carta e cliente non vengono tenuti. La base giuridica è il tuo consenso, che puoi negare: puoi sempre inserire tu i numeri.</p>
 <p><b>I nostri fornitori.</b> Cloudflare (server), GitHub Pages (hosting del sito) e Anthropic (AI). Agiscono per nostro conto e possono conservare log tecnici di sicurezza per un periodo limitato secondo le loro politiche.</p>
@@ -906,7 +906,7 @@ async function pageHow() {
   ${Object.entries(cats.config).map(([k, c]) => `<tr><td><b>${esc(catTitle(c))}</b></td><td>${c.score.length ? c.score.map(s => `${esc(colLabel(s.key))} ${Math.round(s.w * 100)}% <span class="muted">(${t(s.dir)})</span>`).join(" · ") : `<span class="muted">${t("noScore")}</span>`}</td></tr>`).join("")}
   </tbody></table></div></div>`;
 }
-const pageContact = async () => `<div class="wrap"><div class="page-head"><p class="eyebrow">${t("fAbout")}</p><h1 style="font-size:clamp(32px,4vw,48px)">${t("fContact")}</h1><div class="tip">${V.mascot(60)}<div>${t("contactTxt")}</div></div></div><div style="height:60px"></div></div>`;
+const pageContact = async () => `<div class="wrap"><div class="page-head"><p class="eyebrow">${t("fAbout")}</p><h1 style="font-size:clamp(32px,4vw,48px)">${t("fContact")}</h1><div class="tip">${V.mascot(60)}<div>${t("contactTxt")}<br><a class="link" href="mailto:${esc(window.CM_CONTACT_EMAIL || "")}">${esc(window.CM_CONTACT_EMAIL || "")}</a></div></div></div><div style="height:60px"></div></div>`;
 
 
 async function pagePartners() {
