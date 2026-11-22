@@ -217,11 +217,17 @@ How you work:
 - Style: warm, plain, brief. 2 to 4 short sentences. No markdown, no lists, no em dashes.`;
 
 /* ---------------- Claude tool-use loop ---------------- */
+// The key as pasted into the dashboard can carry extra text (a "NAME=" prefix, quotes, line breaks); keep only the key itself.
+function apiKey(env) {
+  const raw = String(env.ANTHROPIC_API_KEY || "");
+  const m = raw.match(/sk-ant-[A-Za-z0-9_-]+/);
+  return m ? m[0] : raw.trim();
+}
 async function claude(env, body) {
   const r = await fetch(API, {
     method: "POST",
     headers: {
-      "x-api-key": String(env.ANTHROPIC_API_KEY || "").trim(), "anthropic-version": "2023-06-01", "content-type": "application/json",
+      "x-api-key": apiKey(env), "anthropic-version": "2023-06-01", "content-type": "application/json",
       // Service keys that are not scoped to a workspace need the workspace id on every call.
       ...(env.ANTHROPIC_WORKSPACE_ID ? { "anthropic-workspace-id": env.ANTHROPIC_WORKSPACE_ID } : {}),
     },
@@ -364,7 +370,9 @@ export default {
     const h = cors(env, request.headers.get("origin") || "");
     if (request.method === "OPTIONS") return new Response(null, { headers: h });
     const url = new URL(request.url);
-    if (url.pathname === "/health") return json({ ok: true, model: env.MODEL || "claude-sonnet-5-5", key: !!env.ANTHROPIC_API_KEY }, 200, h);
+    if (url.pathname === "/health") { const raw = String(env.ANTHROPIC_API_KEY || ""), k = apiKey(env);
+      // shape only, never the value: helps spot a mis-pasted secret
+      return json({ ok: true, model: env.MODEL || "claude-sonnet-5-5", key: !!raw, key_shape: !raw ? "missing" : /^sk-ant-[A-Za-z0-9_-]{20,}$/.test(k) ? "ok" : "unexpected", key_extra_text: raw.trim() !== k }, 200, h); }
     if (url.pathname === "/contact" && request.method === "POST") return contact(request, env, h);
     if (url.pathname === "/subscribe" && request.method === "POST") return subscribe(request, env, h);
     if (url.pathname !== "/ask" || request.method !== "POST") return json({ error: "not found" }, 404, h);
