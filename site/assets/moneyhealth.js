@@ -7,6 +7,21 @@
 const S = {
 en: {
   nav: "Money Health", eyebrow: "CompareMalta Money Health", h1: "A clearer picture of your money.",
+  dPick: "What would you like to upload?", dTypes: [["bank_statement", "Bank statement", "Last 3 complete months, or 6 if your income varies"], ["payslip", "Payslip", "Last 3 months"], ["savings_statement", "Savings statement", "Your most recent statement"], ["loan_statement", "Loan or credit card statement", "The current period"], ["tax_summary", "Income or tax summary", "Optional, most recent. Used as a check only"], ["other", "Something else / I'm not sure", "We will suggest the type and you confirm"]],
+  dWhose: "Whose document is this?", dWhoseO: ["Mine", "A joint account I hold"], dWhoseNote: "Please only upload your own documents. For other adults in your household, they should check their own.",
+  dShows: "What does it show?", dShowsO: ["Income", "Everyday spending", "Savings", "Repayments", "A mix"],
+  dBefore: "We'll use this document to suggest updates to your Money Health figures. You can review every change before it affects your score.", dNever: "Never upload banking passwords, PINs or security codes.",
+  dConsent: "I agree to CompareMalta analysing this document to prepare my Money Health results, as explained in the Privacy Notice.", dFile: "Choose a PDF or photo (up to 3 MB)", dRead: "Read my document",
+  dReading: "Blue is reading your document… this takes around 20 seconds.", dErr: "We could not read this document. Try a clearer PDF or photo, or enter the figures yourself.", dTooBig: "This file is too large. Please use a PDF under 3 MB or a photo.", dBadType: "Please upload a PDF, JPG, PNG or WebP file.",
+  dFound: "Here's what we found.", dFoundSub: "Tick the figures you want to use. Nothing changes until you confirm.", dEarlier: "Your earlier answer", dUse: "Use",
+  dRows: { income: "Average monthly income", housing: "Rent and housing costs", living: "Bills, food, transport and other spending", repay: "Monthly repayments", savings: "Accessible savings", covered: "Months income covered costs (last 3)" },
+  dPayslip: f => `Net pay ${f}`, dTax: "From a yearly summary, so used as a check only.", dFixed: "This looks like a fixed-term or notice account, so it may not count as accessible savings.", dLoanNote: "Required payment on this statement. Use it as your total repayments only if it is your only loan or card.",
+  dRecH: "We also found regular payments.", dRecQ: "What is this payment?", dRecO: { loan: "Loan repayment", own: "Transfer to my own account", other: "Other spending" },
+  dCash: "Cash spending or other accounts not shown in this document (per month)", dCashH: "Documents only show what went through this account.",
+  dApply: "Use confirmed figures", dAnother: "Add another document", dPages: p => `page ${p}`, dUnsure: "Blue was not sure about this one, please check it.",
+  dCovered: (m, a) => `Covers ${m} complete month${m === 1 ? "" : "s"} and ${a} account${a === 1 ? "" : "s"}. Other accounts or cash spending may not be included.`,
+  covAns: "Based on your answers", covPart: "Partly supported by documents", covFull: "Supported by documents and confirmed by you", docBadge: "Document-supported",
+  essOver: "Your essential spending is now higher than your total spending. Please check it.",
   lead: "Answer a few simple questions to understand your monthly balance, savings buffer and financial flexibility.",
   lead2: "Get your Money Health Score from 1 to 100, with practical steps based on your answers.",
   chips: ["Free", "Around 3 minutes", "Documents optional"], start: "Check my Money Health", docs: "Use my documents",
@@ -65,7 +80,23 @@ en: {
   howH: "How the score works", how: ["Four indicators with fixed weights: monthly breathing room 30%, savings buffer 30%, budget consistency 25%, financial flexibility 15%.", "Each indicator turns your numbers into 0 to 100 points on a published scale, and the score is 1 + 0.99 × the weighted average.", "Missing information is never scored as zero, and not having used credit never lowers your score.", "Nationality, age, employer, marital status, health and social media are never used. Using CompareMalta or uploading documents never adds points.", "The weights are a product design choice, not statistical thresholds from the Maltese population."],
 },
 mt: {
-  nav: "Saħħa Finanzjarja", eyebrow: "CompareMalta Money Health", h1: "Stampa aktar ċara ta' flusek.",
+  nav: "Saħħa Finanzjarja",
+  dPick: "X'tixtieq ittella'?", dTypes: [["bank_statement", "Statement tal-bank", "L-aħħar 3 xhur sħaħ, jew 6 jekk id-dħul ivarja"], ["payslip", "Payslip", "L-aħħar 3 xhur"], ["savings_statement", "Statement tat-tfaddil", "L-aħħar statement tiegħek"], ["loan_statement", "Statement ta' self jew karta tal-kreditu", "Il-perjodu attwali"], ["tax_summary", "Sommarju tad-dħul jew tat-taxxa", "Mhux obbligatorju, l-aħħar wieħed. Jintuża biss bħala kontroll"], ["other", "Xi ħaġa oħra / Mhux ċert", "Nissuġġerixxu t-tip u int tikkonferma"]],
+  dWhose: "Ta' min huwa dan id-dokument?", dWhoseO: ["Tiegħi", "Kont konġunt li għandi"], dWhoseNote: "Jekk jogħġbok tella' biss id-dokumenti tiegħek. Adulti oħra fid-dar għandhom jiċċekkjaw tagħhom.",
+  dShows: "X'juri?", dShowsO: ["Dħul", "Infiq ta' kuljum", "Tfaddil", "Ħlasijiet", "Taħlita"],
+  dBefore: "Se nużaw dan id-dokument biex nissuġġerixxu aġġornamenti għaċ-ċifri tal-Money Health tiegħek. Tista' tirrevedi kull bidla qabel ma taffettwa l-punteġġ.", dNever: "Qatt ttella' passwords tal-bank, PINs jew kodiċi tas-sigurtà.",
+  dConsent: "Naqbel li CompareMalta tanalizza dan id-dokument biex tħejji r-riżultati tal-Money Health tiegħi, kif spjegat fl-Avviż ta' Privatezza.", dFile: "Agħżel PDF jew ritratt (sa 3 MB)", dRead: "Aqra d-dokument tiegħi",
+  dReading: "Blue qed jaqra d-dokument… dan jieħu madwar 20 sekonda.", dErr: "Ma stajniex naqraw dan id-dokument. Ipprova PDF jew ritratt aktar ċar, jew daħħal iċ-ċifri int.", dTooBig: "Dan il-fajl huwa kbir wisq. Uża PDF taħt 3 MB jew ritratt.", dBadType: "Jekk jogħġbok tella' fajl PDF, JPG, PNG jew WebP.",
+  dFound: "Hawn dak li sibna.", dFoundSub: "Immarka ċ-ċifri li trid tuża. Xejn ma jinbidel sakemm tikkonferma.", dEarlier: "It-tweġiba ta' qabel", dUse: "Uża",
+  dRows: { income: "Dħul medju ta' kull xahar", housing: "Kera u spejjeż tad-dar", living: "Kontijiet, ikel, trasport u nfiq ieħor", repay: "Ħlasijiet ta' kull xahar", savings: "Tfaddil aċċessibbli", covered: "Xhur li d-dħul kopra l-ispejjeż (l-aħħar 3)" },
+  dPayslip: f => `Paga netta ${f}`, dTax: "Minn sommarju annwali, għalhekk jintuża biss bħala kontroll.", dFixed: "Dan jidher kont b'terminu fiss jew b'avviż, għalhekk jista' ma jgħoddx bħala tfaddil aċċessibbli.", dLoanNote: "Il-ħlas meħtieġ f'dan l-istatement. Użah bħala t-total tal-ħlasijiet biss jekk huwa l-uniku self jew karta tiegħek.",
+  dRecH: "Sibna wkoll ħlasijiet regolari.", dRecQ: "X'inhu dan il-ħlas?", dRecO: { loan: "Ħlas ta' self", own: "Trasferiment għall-kont tiegħi", other: "Infiq ieħor" },
+  dCash: "Infiq bil-kontanti jew kontijiet oħra mhux f'dan id-dokument (fix-xahar)", dCashH: "Id-dokumenti juru biss dak li għadda minn dan il-kont.",
+  dApply: "Uża ċ-ċifri kkonfermati", dAnother: "Żid dokument ieħor", dPages: p => `paġna ${p}`, dUnsure: "Blue ma kienx ċert minn din, jekk jogħġbok iċċekkjaha.",
+  dCovered: (m, a) => `Ikopri ${m} xahar sħiħ u ${a} kont. Kontijiet oħra jew infiq bil-kontanti jistgħu ma jkunux inklużi.`,
+  covAns: "Ibbażat fuq it-tweġibiet tiegħek", covPart: "Parzjalment appoġġjat minn dokumenti", covFull: "Appoġġjat minn dokumenti u kkonfermat minnek", docBadge: "Appoġġjat minn dokumenti",
+  essOver: "L-infiq essenzjali issa huwa ogħla mit-total tal-infiq. Jekk jogħġbok iċċekkjah.",
+  eyebrow: "CompareMalta Money Health", h1: "Stampa aktar ċara ta' flusek.",
   lead: "Wieġeb ftit mistoqsijiet sempliċi biex tifhem il-bilanċ ta' kull xahar, il-buffer tat-tfaddil u l-flessibbiltà finanzjarja tiegħek.",
   lead2: "Ikseb il-Money Health Score tiegħek minn 1 sa 100, b'passi prattiċi bbażati fuq it-tweġibiet tiegħek.",
   chips: ["B'xejn", "Madwar 3 minuti", "Dokumenti mhux obbligatorji"], start: "Iċċekkja s-Saħħa Finanzjarja tiegħi", docs: "Uża d-dokumenti tiegħi",
@@ -124,7 +155,23 @@ mt: {
   howH: "Kif jaħdem il-punteġġ", how: ["Erba' indikaturi b'piżijiet fissi: spazju ta' kull xahar 30%, buffer tat-tfaddil 30%, konsistenza tal-baġit 25%, flessibbiltà finanzjarja 15%.", "Kull indikatur ibiddel in-numri tiegħek f'0 sa 100 punt fuq skala ppubblikata, u l-punteġġ huwa 1 + 0.99 × il-medja peżata.", "Informazzjoni nieqsa qatt ma tingħata żero, u li ma użajtx kreditu qatt ma jbaxxi l-punteġġ.", "Nazzjonalità, età, min iħaddmek, stat ċivili, saħħa u social media qatt ma jintużaw. L-użu ta' CompareMalta jew it-tlugħ ta' dokumenti qatt ma jżid punti.", "Il-piżijiet huma għażla tad-disinn tal-prodott, mhux limiti statistiċi mill-popolazzjoni Maltija."],
 },
 it: {
-  nav: "Money Health", eyebrow: "CompareMalta Money Health", h1: "Un quadro più chiaro dei tuoi soldi.",
+  nav: "Money Health",
+  dPick: "Cosa vuoi caricare?", dTypes: [["bank_statement", "Estratto conto", "Ultimi 3 mesi completi, o 6 se le entrate variano"], ["payslip", "Busta paga", "Ultimi 3 mesi"], ["savings_statement", "Estratto del conto risparmio", "L'estratto più recente"], ["loan_statement", "Estratto di prestito o carta di credito", "Il periodo in corso"], ["tax_summary", "Riepilogo redditi o fiscale", "Facoltativo, il più recente. Usato solo come verifica"], ["other", "Altro / Non sono sicuro", "Suggeriamo noi il tipo e tu confermi"]],
+  dWhose: "Di chi è questo documento?", dWhoseO: ["Mio", "Un conto cointestato di cui sono titolare"], dWhoseNote: "Carica solo i tuoi documenti. Gli altri adulti della famiglia dovrebbero controllare i propri.",
+  dShows: "Cosa mostra?", dShowsO: ["Entrate", "Spese quotidiane", "Risparmi", "Rate", "Un mix"],
+  dBefore: "Useremo questo documento per suggerire aggiornamenti alle cifre della tua Money Health. Potrai rivedere ogni modifica prima che incida sul punteggio.", dNever: "Non caricare mai password bancarie, PIN o codici di sicurezza.",
+  dConsent: "Accetto che CompareMalta analizzi questo documento per preparare i risultati della mia Money Health, come spiegato nell'Informativa privacy.", dFile: "Scegli un PDF o una foto (fino a 3 MB)", dRead: "Leggi il mio documento",
+  dReading: "Blue sta leggendo il documento… ci vogliono circa 20 secondi.", dErr: "Non siamo riusciti a leggere il documento. Prova con un PDF o una foto più nitidi, oppure inserisci tu le cifre.", dTooBig: "Il file è troppo grande. Usa un PDF sotto i 3 MB o una foto.", dBadType: "Carica un file PDF, JPG, PNG o WebP.",
+  dFound: "Ecco cosa abbiamo trovato.", dFoundSub: "Seleziona le cifre da usare. Nulla cambia finché non confermi.", dEarlier: "La tua risposta precedente", dUse: "Usa",
+  dRows: { income: "Entrate medie mensili", housing: "Affitto e costi della casa", living: "Bollette, cibo, trasporti e altre spese", repay: "Rate mensili", savings: "Risparmi accessibili", covered: "Mesi in cui le entrate hanno coperto i costi (ultimi 3)" },
+  dPayslip: f => `Netto in busta ${f}`, dTax: "Da un riepilogo annuale, quindi usato solo come verifica.", dFixed: "Sembra un conto vincolato o con preavviso, quindi potrebbe non contare come risparmio accessibile.", dLoanNote: "Rata richiesta in questo estratto. Usala come totale delle rate solo se è il tuo unico prestito o carta.",
+  dRecH: "Abbiamo trovato anche pagamenti ricorrenti.", dRecQ: "Che pagamento è?", dRecO: { loan: "Rata di un prestito", own: "Trasferimento a un mio conto", other: "Altra spesa" },
+  dCash: "Spese in contanti o altri conti non presenti in questo documento (al mese)", dCashH: "I documenti mostrano solo ciò che è passato da questo conto.",
+  dApply: "Usa le cifre confermate", dAnother: "Aggiungi un altro documento", dPages: p => `pagina ${p}`, dUnsure: "Blue non era sicuro di questo dato, controllalo.",
+  dCovered: (m, a) => `Copre ${m} mes${m === 1 ? "e" : "i"} complet${m === 1 ? "o" : "i"} e ${a} cont${a === 1 ? "o" : "i"}. Altri conti o spese in contanti potrebbero non essere inclusi.`,
+  covAns: "Basato sulle tue risposte", covPart: "In parte supportato da documenti", covFull: "Supportato da documenti e confermato da te", docBadge: "Supportato da documenti",
+  essOver: "La spesa essenziale ora supera la spesa totale. Controllala.",
+  eyebrow: "CompareMalta Money Health", h1: "Un quadro più chiaro dei tuoi soldi.",
   lead: "Rispondi a poche domande semplici per capire il tuo saldo mensile, il cuscinetto di risparmi e la tua flessibilità finanziaria.",
   lead2: "Ottieni il tuo Money Health Score da 1 a 100, con passi pratici basati sulle tue risposte.",
   chips: ["Gratis", "Circa 3 minuti", "Documenti facoltativi"], start: "Controlla la mia Money Health", docs: "Usa i miei documenti",
@@ -316,6 +363,7 @@ function confirmScreen() {
         ${row(L.cSav, f.savings === "none" ? L.none : f.savings === "unsure" ? L.unsure : f.savings != null ? eur(f.savings) : "–", 6)}
         ${row(L.cCov, A.covered === "unsure" ? L.unsure : A.covered != null ? T(L.cOf, { n: A.covered }) : "–", 7)}
       </div>
+      ${f.essential != null && f.spend != null && f.essential > f.spend + 0.5 ? `<p class="mh-err">${L.essOver} <button class="mh-link" data-edit="5">✎</button></p>` : ""}
       <p class="mh-help">${L.cNote}</p>
       ${miss.length ? `<div class="mh-more"><b>${L.more}</b><p>${L.moreSub}</p><button class="mh-btn ghost sm" data-edit="${miss[0]}">${L.addEst}</button></div>` : ""}
     </div>
@@ -363,18 +411,20 @@ function result() {
         ${since ? `<div class="mh-since">${since}</div>` : ""}
       </div>
       <div class="mh-side"><p class="mh-expl">${fixExpl}</p>
-        <div class="mh-meta"><span class="mh-tag">● ${L.basedOn}</span><span class="mh-tag">${L.calcToday}</span></div>
-        <p class="mh-fine">${L.coverage}</p>${varNote}<p class="mh-fine">${L.disclaimer}</p></div></div>
+        <div class="mh-meta"><span class="mh-tag">● ${covLabel()}</span>${(A.docs || []).length ? `<span class="mh-tag doc">📄 ${L.docBadge}</span>` : ""}<span class="mh-tag">${L.calcToday}</span></div>
+        <p class="mh-fine">${covDetail()}</p>${varNote}<p class="mh-fine">${L.disclaimer}</p></div></div>
     </div>
     ${r.left < -0.5 ? `<div class="mh-alert"><b>⚠ ${L.deficitH}</b><p>${(f.savings === "none" || f.savings === 0) ? L.deficitP0 : L.deficitP}</p></div>` : ""}
     <div class="mh-cards">${cards.map(([k, w, p, txt], i) => `<div class="mh-ind">${ring(p)}<div><div class="mh-ind-h"><b>${L.cards[i]}</b><small>${T(L.weight, { w })}</small></div><p>${txt}</p></div></div>`).join("")}</div>
     ${recs.length ? `<section class="mh-next"><h2>${L.nextH}</h2><p class="mh-help">${L.nextSub}</p><div class="mh-recs">${recs.map((x, i) => `<div class="mh-rec"><span class="mh-rn">${i + 1}</span><h3>${x.h}</h3><p>${x.t}</p><a class="mh-link" href="#${x.cta[1]}">${L.cta[x.cta[0]]} →</a></div>`).join("")}</div></section>` : ""}
     ${s != null ? simBlock() : ""}
-    <section class="mh-docs"><div><h3>${L.docH}</h3><p>${L.docP}</p></div><button class="mh-btn ghost" data-go="docs">${L.docBtn} <span class="mh-soon">${L.soon}</span></button></section>
+    <section class="mh-docs"><div><h3>${L.docH}</h3><p>${L.docP}</p></div><button class="mh-btn ghost" data-go="docs">📄 ${L.docBtn}</button></section>
     ${actionsRow(s != null)}
     ${howBlock()}
   </div>`;
 }
+const covLabel = () => { const d = A.docSrc || {}; const n = ["income", "spend", "savings"].filter(k => d[k]).length; return !(A.docs || []).length ? L.covAns : n === 3 ? L.covFull : L.covPart; };
+const covDetail = () => { const docs = A.docs || []; if (!docs.length) return L.coverage; const m = Math.max(0, ...docs.map(d => d.months || 0)), a = docs.filter(d => /bank|savings/.test(d.type)).reduce((s, d) => s + (d.accounts || 1), 0) || 1; return m ? L.dCovered(m, a) : L.coverage; };
 const actionsRow = (canSave) => `<div class="mh-actions">${canSave ? `<button class="mh-btn" data-go="save">💾 ${L.save}</button>` : ""}<button class="mh-btn ghost" data-go="confirm">${L.edit}</button><button class="mh-btn ghost" data-go="restart">↺ ${L.again}</button></div>`;
 const simBlock = () => `<section class="mh-sim"><div class="mh-sim-h"><h2>${L.simH}</h2><span class="mh-tag light">${L.simTag}</span></div>
   <div class="mh-sim-grid">
@@ -404,8 +454,96 @@ function render() {
   if (view === "result") animate();
   if (view === "q") setTimeout(() => root.querySelector(".mh-q input")?.focus(), 30);
 }
-const docsScreen = () => `<div class="mh-flow"><div class="mh-q"><h2>${L.docH}</h2><p class="mh-help">${L.docSoon}</p><p class="mh-fine">Never upload banking passwords, PINs or security codes.</p></div>
-  <div class="mh-nav"><button class="mh-btn ghost" data-go="home">← ${L.back}</button><button class="mh-btn" data-go="start">${L.start} →</button></div></div>`;
+let DOC = { step: "pick" };
+const fileB64 = async file => {
+  if (file.type === "application/pdf") {
+    if (file.size > 3.3e6) throw new Error(L.dTooBig);
+    const u = new Uint8Array(await file.arrayBuffer()); let s = "";
+    for (let i = 0; i < u.length; i += 0x8000) s += String.fromCharCode.apply(null, u.subarray(i, i + 0x8000));
+    return { type: "application/pdf", data: btoa(s) };
+  }
+  if (!/^image\/(jpeg|png|webp|heic|heif)$/.test(file.type)) throw new Error(L.dBadType);
+  const img = await createImageBitmap(file), k = Math.min(1, 1800 / Math.max(img.width, img.height));
+  const c = document.createElement("canvas"); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+  c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+  return { type: "image/jpeg", data: c.toDataURL("image/jpeg", 0.85).split(",")[1] };
+};
+const PAYK = { monthly: 1, fortnightly: 26 / 12, weekly: 52 / 12 };
+function proposals() {
+  const r = DOC.result || {}, fx = r.fields || {}, f = figures(), t = fx.document_type || DOC.type, rows = [];
+  const SRC = { income: ["avg_monthly_income", "net_pay", "annual_income"], housing: ["avg_monthly_housing"], living: ["avg_monthly_spending"], repay: ["avg_monthly_repayments", "required_payment"], savings: ["closing_balance"], covered: ["months_income_covered"] };
+  const add = (key, val, earlier, on, note) => { if (val != null && isFinite(val)) { const src = SRC[key].filter(k => fx[k] != null);
+    rows.push({ key, val: Math.round(val), earlier, on, note, unsure: src.some(k => (r.unsure || []).includes(k)), page: src.map(k => (r.pages || {})[k]).find(Boolean) }); } };
+  if (t === "bank_statement" || t === "other") {
+    add("income", fx.avg_monthly_income, f.income, true); add("housing", fx.avg_monthly_housing, A.housing != null ? f.housing : null, true);
+    add("living", fx.avg_monthly_spending, A.living != null ? f.living : null, true); add("repay", fx.avg_monthly_repayments, A.repay != null ? f.repay : null, true);
+    if (fx.months_income_covered != null && (fx.complete_months || 0) >= 3) add("covered", Math.min(3, fx.months_income_covered), typeof A.covered === "number" ? A.covered : null, true);
+  }
+  if (t === "payslip" && fx.net_pay) add("income", fx.net_pay * (PAYK[fx.pay_frequency] || 1), f.income, !(fx.avg_monthly_income), L.dPayslip(eur(fx.net_pay) + (fx.pay_frequency && fx.pay_frequency !== "monthly" ? " / " + fx.pay_frequency : "")));
+  if (t === "savings_statement" && fx.closing_balance != null) add("savings", fx.closing_balance, typeof f.savings === "number" ? f.savings : null, !/fixed|notice/.test(fx.savings_access || ""), /fixed|notice/.test(fx.savings_access || "") ? L.dFixed : "");
+  if ((t === "loan_statement" || t === "card_statement") && fx.required_payment != null) add("repay", fx.required_payment, A.repay != null ? f.repay : null, A.repay == null, L.dLoanNote);
+  if (t === "tax_summary" && fx.annual_income) add("income", fx.annual_income / 12, f.income, false, L.dTax);
+  return rows;
+}
+function docsScreen() {
+  const nav = (back, next, label) => `<div class="mh-nav"><button class="mh-btn ghost" data-dgo="${back}">← ${L.back}</button>${next ? `<button class="mh-btn" data-dgo="${next}">${label || L.next} →</button>` : ""}</div>`;
+  if (DOC.step === "pick") return `<div class="mh-flow"><div class="mh-q"><span class="mh-tag light">📄 ${L.docBadge}</span><h2 style="margin-top:10px">${L.dPick}</h2><p class="mh-help">${L.docP}</p>
+    <div class="mh-tiles">${L.dTypes.map(([k, n, h]) => `<button type="button" class="mh-tile ${DOC.type === k ? "on" : ""}" data-dt="${k}"><b>${n}</b><small class="mh-sub">${h}</small></button>`).join("")}</div></div>${nav("exit")}</div>`;
+  if (DOC.step === "meta") return `<div class="mh-flow"><div class="mh-q"><h2>${L.dWhose}</h2><div class="mh-tiles two">${L.dWhoseO.map((o, i) => `<button type="button" class="mh-tile ${DOC.owner === i ? "on" : ""}" data-dw="${i}">${o}</button>`).join("")}</div>
+    <p class="mh-fine">${L.dWhoseNote}</p><h2 style="margin-top:20px">${L.dShows}</h2><div class="mh-tiles chipsx">${L.dShowsO.map((o, i) => `<button type="button" class="mh-tile ${DOC.shows === i ? "on" : ""}" data-ds="${i}">${o}</button>`).join("")}</div>
+    <p class="mh-err" id="mh_dneed" hidden>${L.needNum}</p></div>${nav("pick", "upload")}</div>`;
+  if (DOC.step === "upload") return `<div class="mh-flow"><div class="mh-q"><h2>${L.dTypes.find(x => x[0] === DOC.type)[1]}</h2><p class="mh-help">${L.dBefore}</p>
+    <div class="mh-warn">🔒 ${L.dNever}</div>
+    <label class="mh-drop"><input type="file" id="mh_file" accept="application/pdf,image/*"><span id="mh_fname">⬆ ${L.dFile}</span></label>
+    <label class="mh-check"><input type="checkbox" id="mh_consent"> <span>${L.dConsent.replace("Privacy Notice", '<a href="#privacy" target="_blank">Privacy Notice</a>')}</span></label>
+    <p class="mh-err" id="mh_derr" hidden></p></div>${nav("meta", "read", L.dRead)}</div>`;
+  if (DOC.step === "busy") return `<div class="mh-flow mh-busy"><div class="mh-spin"></div><p>${L.dReading}</p></div>`;
+  // review
+  const rows = DOC.rows || (DOC.rows = proposals()), r = DOC.result || {}, fx = r.fields || {};
+  const rec = (r.recurring || []).map((p, i) => { const def = p.kind_guess === "loan_repayment" ? "loan" : p.kind_guess === "own_transfer" ? "own" : "other"; if (!p.choice) p.choice = def;
+    return `<div class="mh-recur"><div><b>${esc(p.label || "–")}</b><span>${eur(p.monthly_eur)} / ${L.monthly.toLowerCase()}</span></div><label>${L.dRecQ}<select data-rc="${i}">${Object.entries(L.dRecO).map(([k, t]) => `<option value="${k}" ${p.choice === k ? "selected" : ""}>${t}</option>`).join("")}</select></label></div>`; }).join("");
+  const val = (k, v) => k === "covered" ? T(L.cOf, { n: v }) : eur(v);
+  return `<div class="mh-flow wide"><div class="mh-q"><span class="mh-tag light">📄 ${L.docBadge}</span><h2 style="margin-top:10px">${L.dFound}</h2><p class="mh-help">${L.dFoundSub}</p>
+    ${fx.complete_months ? `<p class="mh-fine">${L.dCovered(fx.complete_months, fx.accounts_count || 1)}</p>` : ""}
+    ${rows.length ? `<div class="mh-confirm">${rows.map((x, i) => `<label class="mh-frow"><input type="checkbox" data-pr="${i}" ${x.on ? "checked" : ""}><span class="mh-fl"><b>${L.dRows[x.key]}</b>${x.note ? `<small>${x.note}</small>` : ""}${x.unsure ? `<small class="mh-unsure">⚠ ${L.dUnsure}</small>` : ""}</span>
+      <span class="mh-fv"><b>${val(x.key, x.val)}</b>${x.earlier != null ? `<small>${L.dEarlier}: ${val(x.key, Math.round(x.earlier))}</small>` : ""}${x.page ? `<small>${L.dPages(x.page)}</small>` : ""}</span></label>`).join("")}</div>` : `<p class="mh-err">${L.dErr}</p>`}
+    ${rec ? `<h3 style="margin-top:18px">${L.dRecH}</h3>${rec}` : ""}
+    ${DOC.type === "bank_statement" || fx.document_type === "bank_statement" ? `<label class="mh-money sm"><span>${L.dCash}</span><div class="mh-in"><b>€</b><input id="mh_cash" inputmode="decimal" placeholder="0"></div><small class="mh-fine">${L.dCashH}</small></label>` : ""}
+    ${r.notes ? `<p class="mh-note">💬 ${esc(r.notes)}</p>` : ""}
+  </div><div class="mh-nav"><button class="mh-btn ghost" data-dgo="pick">${L.dAnother}</button><button class="mh-btn" data-dgo="apply">${L.dApply} →</button></div></div>`;
+}
+function applyDoc() {
+  const r = DOC.result || {}, fx = r.fields || {}, f = figures();
+  // work in monthly figures from here on
+  let housing = f.housing, living = f.living, repay = f.repay;
+  if (A.spendPer && A.spendPer !== "m") A.spendPer = "m";
+  const chosen = {}; (DOC.rows || []).forEach((x, i) => { const cb = root.querySelector(`[data-pr="${i}"]`); if (cb ? cb.checked : x.on) chosen[x.key] = x.val; });
+  if (chosen.income != null) { A.income = { v: String(chosen.income), per: "m" }; A.varies = false; (A.docSrc = A.docSrc || {}).income = true; }
+  if (chosen.housing != null) housing = chosen.housing;
+  if (chosen.living != null) living = chosen.living;
+  if (chosen.repay != null) repay = chosen.repay;
+  // recurring payments the user classified differently from how Blue counted them
+  (r.recurring || []).forEach(p => {
+    const amt = p.monthly_eur, from = p.counted_in, to = p.choice === "loan" ? "repayments" : p.choice === "own" ? "excluded" : (from === "housing" ? "housing" : "spending");
+    if (from === to || !(chosen.living != null || chosen.repay != null || chosen.housing != null)) return;
+    const sub = b => { if (b === "spending") living = Math.max(0, living - amt); if (b === "housing") housing = Math.max(0, housing - amt); if (b === "repayments") repay = Math.max(0, repay - amt); };
+    const addTo = b => { if (b === "spending") living += amt; if (b === "housing") housing += amt; if (b === "repayments") repay += amt; };
+    sub(from); addTo(to);
+  });
+  const cash = num(root.querySelector("#mh_cash")?.value); if (cash) living += cash;
+  if (chosen.housing != null || chosen.living != null || chosen.repay != null || cash) {
+    A.housing = String(Math.round(housing)); A.living = String(Math.round(living)); A.repay = String(Math.round(repay)); A.spendPer = "m"; (A.docSrc = A.docSrc || {}).spend = true;
+  }
+  if (chosen.savings != null) { A.savings = String(chosen.savings); A.savingsMode = null; (A.docSrc = A.docSrc || {}).savings = true; }
+  if (chosen.covered != null) { A.covered = chosen.covered; (A.docSrc = A.docSrc || {}).covered = true; }
+  (A.docs = A.docs || []).push({ type: fx.document_type || DOC.type, months: fx.complete_months || null, accounts: fx.accounts_count || 1 });
+  ss.set(A); DOC = { step: "pick" };
+  const first = ["who", "goal", "incomeType"].findIndex(k => A[k] == null);
+  if (first >= 0) { view = "q"; step = first; }
+  else if (num(A.essential) == null) { view = "q"; step = 5; }
+  else if (A.covered == null) { view = "q"; step = 7; }
+  else view = "confirm";
+}
 function animate() {
   const arc = root.querySelector(".mh-arc"), knob = root.querySelector(".mh-knob"), n = root.querySelector("[data-count]");
   requestAnimationFrame(() => { if (arc) arc.style.strokeDashoffset = arc.dataset.to; if (knob) setTimeout(() => knob.setAttribute("opacity", 1), 900); });
@@ -444,16 +582,44 @@ function bind() {
   ["mh_housing", "mh_living", "mh_repay"].forEach(id => { const el = root.querySelector("#" + id); if (el) el.oninput = () => { const t = ["mh_housing", "mh_living", "mh_repay"].reduce((s, i) => s + (num(root.querySelector("#" + i).value) || 0), 0); root.querySelector("#mh_tot").textContent = eur(t); }; });
   root.querySelectorAll(".mh-q input").forEach(i => i.onkeydown = e => { if (e.key === "Enter") root.querySelector('[data-go="next"]')?.click(); });
   root.querySelectorAll("[data-edit]").forEach(b => b.onclick = () => { step = +b.dataset.edit; view = "q"; render(); scrollTop(); });
+  root.querySelectorAll("[data-dt]").forEach(b => b.onclick = () => { DOC.type = b.dataset.dt; DOC.step = "meta"; render(); });
+  root.querySelectorAll("[data-dw]").forEach(b => b.onclick = () => { DOC.owner = +b.dataset.dw; root.querySelectorAll("[data-dw]").forEach(x => x.classList.toggle("on", x === b)); });
+  root.querySelectorAll("[data-ds]").forEach(b => b.onclick = () => { DOC.shows = +b.dataset.ds; root.querySelectorAll("[data-ds]").forEach(x => x.classList.toggle("on", x === b)); });
+  root.querySelectorAll("[data-rc]").forEach(sel => sel.onchange = () => { DOC.result.recurring[+sel.dataset.rc].choice = sel.value; });
+  const fi = root.querySelector("#mh_file"); if (fi) fi.onchange = () => { root.querySelector("#mh_fname").textContent = fi.files[0] ? "📄 " + fi.files[0].name : "⬆ " + L.dFile; };
+  root.querySelectorAll("[data-dgo]").forEach(b => b.onclick = async () => {
+    const g = b.dataset.dgo;
+    if (g === "exit") { view = A.who != null && A.covered != null ? "result" : "intro"; DOC = { step: "pick" }; }
+    else if (g === "pick") DOC = { step: "pick" };
+    else if (g === "meta") DOC.step = "meta";
+    else if (g === "upload") { if (DOC.owner == null || DOC.shows == null) { root.querySelector("#mh_dneed").hidden = false; return; } DOC.step = "upload"; }
+    else if (g === "read") {
+      const err = root.querySelector("#mh_derr"), file = root.querySelector("#mh_file").files[0];
+      if (!file) { err.textContent = L.dFile; err.hidden = false; return; }
+      if (!root.querySelector("#mh_consent").checked) { err.textContent = L.dConsent; err.hidden = false; return; }
+      let payload; try { payload = await fileB64(file); } catch (e) { err.textContent = e.message; err.hidden = false; return; }
+      DOC.step = "busy"; render();
+      try {
+        const base = (window.CM_AGENT_URL || "").replace(/\/$/, "");
+        const res = await fetch(`${base}/money`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ doc: DOC.type, lang, consent: true, file: payload }) });
+        const d = await res.json(); payload = null;
+        if (!res.ok || d.error) throw new Error(d.error === "file_too_large" ? L.dTooBig : L.dErr);
+        DOC.result = d; DOC.rows = null; DOC.step = "review";
+      } catch (e) { DOC.step = "upload"; render(); const er = root.querySelector("#mh_derr"); er.textContent = e.message || L.dErr; er.hidden = false; return; }
+    }
+    else if (g === "apply") applyDoc();
+    render(); scrollTop();
+  });
   root.querySelectorAll("[data-go]").forEach(b => b.onclick = () => {
     const g = b.dataset.go;
     if (g === "start") { view = "q"; step = A.who != null && A.covered != null ? 0 : 0; }
-    if (g === "docs") view = "docs";
+    if (g === "docs") { view = "docs"; DOC = { step: "pick" }; }
     if (g === "home") view = "intro";
     if (g === "back") { readStep(); if (step === 0) view = "intro"; else step--; }
     if (g === "next") { readStep(); if (!valid()) return; if (step < STEPS.length - 1) step++; else view = "confirm"; }
     if (g === "result") view = "result";
     if (g === "confirm") view = "confirm";
-    if (g === "restart") { A = {}; ss.set(A); step = 0; view = "intro"; }
+    if (g === "restart") { A = {}; ss.set(A); step = 0; view = "intro"; DOC = { step: "pick" }; }
     if (g === "save") { const r = compute(figures()); if (r.score != null) { hist.add({ d: new Date().toISOString(), score: r.score, comps: r.comps }); b.textContent = "✓ " + L.saved; b.disabled = true; } return; }
     render(); scrollTop();
   });
