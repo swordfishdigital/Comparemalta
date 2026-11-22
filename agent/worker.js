@@ -391,7 +391,7 @@ const BILL_TOOL = {
   input_schema: { type: "object", properties: {
     fields: { type: "object", description: "Facts from the document, flat (one level). Use null when not shown.",
       properties: Object.fromEntries(Object.values(BILL_FIELDS).flatMap(g => Object.entries(g)).map(([k, d]) =>
-        [k, { type: /EUR|number|%|days|GB|minutes|speed/.test(d) && !/list/.test(d) ? ["number", "null"] : /true\/false/.test(d) ? ["boolean", "null"] : /list/.test(d) ? ["array", "null"] : ["string", "null"], description: d }])) },
+        [k, { type: /EUR|number|%|days|GB|minutes|speed/.test(d) && !/^list/.test(d) ? ["number", "null"] : /true\/false/.test(d) ? ["boolean", "null"] : /^list/.test(d) ? ["array", "null"] : ["string", "null"], description: d }])) },
     unsure: { type: "array", items: { type: "string" }, description: "Keys you read but are not sure about (blurry, ambiguous, or worked out)" },
     notes: { type: "string", description: "One or two short sentences, in the user's language, on anything that affects the comparison (e.g. a promotion ending, a minimum monthly charge). No personal data." },
   }, required: ["fields"] },
