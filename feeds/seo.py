@@ -521,6 +521,11 @@ def llms(cats, datas, cols, updated):
               "- FX (ECB) https://comparemalta.ai/data/fx.json, markets https://comparemalta.ai/data/markets.json, news https://comparemalta.ai/data/news.json",
               "- All current tables in one file: https://comparemalta.ai/llms-full.txt", "",
               "## Methodology", "", f"- [How we rank]({url('en', 'methodology')})", ""]
+    arts = (load_json(OUT / "articles.json") or {}).get("items") or []
+    if arts:
+        lines += ["## Articles (Malta today)", ""]
+        lines += [f"- [{(a.get('title') or {}).get('en', a['slug'])}]({url('en', 'articles/' + a['slug'])}) ({a['date'][:10]})" for a in arts[:30]]
+        lines.append("")
     return "\n".join(lines)
 
 
@@ -549,7 +554,18 @@ def run(status):
             count += 1
         write(SITE / lang / "index.html", lang_home(lang, cats, datas, cols, nav, updated, markets, fx, news))
         write(SITE / lang / "methodology" / "index.html", methodology(lang, cats, cols, nav, updated))
-    write(SITE / "sitemap.xml", sitemap([None, *cats.keys(), "methodology"], updated))
+    art_slugs = []
+    try:  # editorial articles ("Malta today" features)
+        import sys
+
+        from . import articles as _arts
+        art_pages, art_slugs = _arts.static_pages(sys.modules[__name__])
+        for parts, page, md in art_pages:
+            write(SITE.joinpath(*parts) / "index.html", page)
+            write(SITE.joinpath(*parts) / "index.md", md)
+    except Exception as e:  # noqa: BLE001
+        log.warning("seo: article pages failed: %s", e)
+    write(SITE / "sitemap.xml", sitemap([None, *cats.keys(), "methodology", *art_slugs], updated))
     write(SITE / "robots.txt", robots())
     write(SITE / "llms.txt", llms(cats, datas, cols, updated))
     write(SITE / "llms-full.txt", "\n".join(full))

@@ -2,7 +2,7 @@
 import os
 import sys
 
-from . import fx, fxcompare, logos, markets, news, newsletter, products, restaurants, seo
+from . import articles, fx, fxcompare, logos, markets, news, newsletter, products, restaurants, seo
 from .common import OUT, FeedStatus, load_json, now_iso, save_json, log
 
 
@@ -10,7 +10,7 @@ def main() -> int:
     status = FeedStatus()
     # restaurants first: products.run reads its state for the restaurants category
     only = {m.strip() for m in os.getenv("CM_ONLY", "").split(",") if m.strip()}
-    mods = (fx, markets, news, restaurants, logos, products, fxcompare, newsletter)
+    mods = (fx, markets, news, articles, restaurants, logos, products, fxcompare, newsletter)
     for mod in mods:
         if only and mod.__name__.split(".")[-1] not in only:
             continue

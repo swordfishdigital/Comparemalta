@@ -21,7 +21,7 @@ jobs:
       - name: Run feeds
         env:
           GOOGLE_PLACES_KEY: ${{ secrets.GOOGLE_PLACES_KEY }}
-          CM_ONLY: ${{ github.event.schedule == '0 5,11,17,23 * * *' && 'news,fxcompare' || '' }}
+          CM_ONLY: ${{ github.event.schedule == '0 5,11,17,23 * * *' && 'news,articles,fxcompare' || '' }}
         run: python -m feeds.run_all
       - name: Commit last-known-good state
         run: |
