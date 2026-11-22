@@ -1,6 +1,6 @@
 # CompareMalta.ai: all current comparisons
 
-Generated 2026-11-22T08:21:13+00:00. Source: https://comparemalta.ai
+Generated 2026-11-22T08:25:35+00:00. Source: https://comparemalta.ai
 
 # Best Business Accounts in Malta
 
@@ -64,14 +64,14 @@ _Updated 22 November 2026 · https://comparemalta.ai/en/pos/_
 
 ## Quick answer
 
-We compare 10 POS & card payments from 6 providers in Malta, checked 22 November 2026. Top pick: wamo Start (company) (9.5/10 Blue score). Lowest cost at €5k sales: wamo Start (company) at €19.99.
+We compare 10 POS & card payments from 6 providers in Malta, checked 22 November 2026. Top pick: wamo Start (company) (9.2/10 Blue score). Lowest cost at €5k sales: wamo Start (company) at €19.99.
 
 ## Full comparison
 
 | Provider | Product | Cost at €5k sales | Cost at €20k sales | Card fee | Fee-free sales / month | Per sale | Monthly fee | Device from | Tap to Pay on phone | Payout | Blue score |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| wamo | Start (company) | €19.99 | €147.49 | 0.85% | €5,000 | €0 | €19.99 | €0 | - | Next day | 9.5 |
-| wamo | Grow (company) | €49.99 | €92.49 | 0.85% | €15,000 | €0 | €49.99 | €0 | - | Next day | 9.0 |
+| wamo | Start (company) | €19.99 | €147.49 | 0.85% | €5,000 | €0 | €19.99 | - | - | Next day | 9.2 |
+| wamo | Grow (company) | €49.99 | €92.49 | 0.85% | €15,000 | €0 | €49.99 | - | - | Next day | 8.6 |
 | Revolut Business | Terminal / Tap to Pay | €48.00 | €184.00 | 0.80% | €0 | €0.02 | €0 | €189.00 | ✓ | Next day | 6.2 |
 | myPOS | Plus | €83.50 | €277.00 | 1.29% | €0 | €0 | €19.00 | - | ✓ | Instant | 5.9 |
 | Viva.com | Standard pricing | €84.50 | €338.00 | 1.69% | €0 | €0 | €0 | €0 | ✓ | Instant | 5.7 |
@@ -81,8 +81,8 @@ We compare 10 POS & card payments from 6 providers in Malta, checked 22 November
 | Stripe | Terminal | €110.00 | €400.00 | 1.40% | €0 | €0.10 | €0 | €59.00 | ✓ | Daily | 3.6 |
 | SumUp | Pay as you go | €137.50 | €550.00 | 2.75% | €0 | €0 | €0 | €34.00 | - | 2-3 days | 1.6 |
 
-- wamo Start (company): 0% on the first €5,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account.
-- wamo Grow (company): 0% on the first €15,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account.
+- wamo Start (company): 0% on the first €5,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Plan includes a business account. Terminal price not published.
+- wamo Grow (company): 0% on the first €15,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Plan includes a business account. Terminal price not published.
 - Revolut Business Terminal / Tap to Pay: Domestic and European consumer cards; commercial and international cards 2.6% + €0.02. Tap to Pay adds €0.08. Needs a Revolut Business account.
 - myPOS Plus: Domestic and EEA consumer cards; other cards 2.49%.
 - Viva.com Standard pricing: Domestic and EEA consumer cards, minimum €0.03 per payment. Tap to Pay on iPhone and Android, so no hardware needed.
@@ -100,7 +100,7 @@ First we hide products that do not fit your needs (amount, term, deposit, curren
 
 **What is the best POS & card payments in Malta right now?**
 
-On 22 November 2026, wamo Start (company) has the highest Blue score in our comparison (9.5/10), with cost at €5k sales of €19.99.
+On 22 November 2026, wamo Start (company) has the highest Blue score in our comparison (9.2/10), with cost at €5k sales of €19.99.
 
 **Which POS & card payments has the lowest cost at €5k sales?**
 
@@ -477,7 +477,7 @@ _Updated 22 November 2026 · https://comparemalta.ai/en/fx/_
 
 ## Quick answer
 
-We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 November 2026. Top pick for each option: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Instarem EUR → GBP (0.62%); EUR → INR: WorldRemit EUR → INR (0.63%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Remitly EUR → PHP (0.70%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%).
+We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 November 2026. Top pick for each option: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Wise EUR → GBP (0.58%); EUR → INR: WorldRemit EUR → INR (0.63%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Remitly EUR → PHP (0.70%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%).
 
 ## Full comparison
 
@@ -493,8 +493,8 @@ We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 Nove
 | PayPal | EUR → USD | 1,046.88 | 4.55% | €1.99 | 1.0490 | 4.36% | - | 4.1 |
 | Xoom | EUR → USD | 1,046.11 | 4.62% | €1.99 | 1.0482 | 4.43% | - | 4.0 |
 | Skrill | EUR → USD | 1,044.60 | 4.76% | €0 | 1.0446 | 4.76% | - | 3.8 |
-| Instarem | EUR → GBP | 833.00 | 0.62% | €0 | 0.8330 | 0.62% | - | 9.9 |
 | Wise | EUR → GBP | 833.37 | 0.58% | €5.76 | 0.8382 | 0.00% | Minutes | 9.9 |
+| Instarem | EUR → GBP | 833.00 | 0.62% | €0 | 0.8330 | 0.62% | - | 9.9 |
 | Remitly | EUR → GBP | 830.44 | 0.93% | €1.99 | 0.8321 | 0.73% | - | 9.4 |
 | Western Union | EUR → GBP | 826.81 | 1.36% | €3.99 | 0.8301 | 0.96% | - | 8.8 |
 | WorldRemit | EUR → GBP | 824.78 | 1.60% | €0.99 | 0.8256 | 1.50% | - | 8.4 |
@@ -558,7 +558,7 @@ First we hide products that do not fit your needs (amount, term, deposit, curren
 
 **What is the best FX & currency exchange in Malta right now?**
 
-Top pick for each option: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Instarem EUR → GBP (0.62%); EUR → INR: WorldRemit EUR → INR (0.63%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Remitly EUR → PHP (0.70%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%). On 22 November 2026, Instarem EUR → USD has the highest Blue score in our comparison (10.0/10), with total cost of 0.53%.
+Top pick for each option: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Wise EUR → GBP (0.58%); EUR → INR: WorldRemit EUR → INR (0.63%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Remitly EUR → PHP (0.70%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%). On 22 November 2026, Instarem EUR → USD has the highest Blue score in our comparison (10.0/10), with total cost of 0.53%.
 
 **How does CompareMalta.ai rank FX & currency exchange?**
 
