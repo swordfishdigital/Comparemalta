@@ -18,7 +18,7 @@ const T = {
   topEyebrow:"Today's top table",topT:{savings:"12-month fixed deposits in Malta",mortgages:"Variable-rate mortgages in Malta",mobile:"Mobile plans in Malta"},tabs:{savings:"Savings",mortgages:"Mortgages",mobile:"Mobile"},
   thrush:"Blue score",bestPick:"Best pick",viewDeal:"View deal",
   refreshed:"Rates refreshed daily at {t} from provider sites. CompareMalta.ai may earn a commission, but rankings are never paid for.",
-  morning:"Malta this morning",readSum:"Read summary →",fullMk:"Full markets page →",mkt:"Markets",
+  morning:"Malta this morning",artBadge:"CompareMalta.ai feature",artBy:"By CompareMalta.ai",artPhotos:"Photos",artSources:"Sources",artVisit:"Website",artMap:"Map",artBack:"Back to Malta today",artNotFound:"This article is not available.",readArt:"Read the article",readSum:"Read summary →",fullMk:"Full markets page →",mkt:"Markets",
   footTag:"Independent comparisons for life and business in Malta. Updated daily. English · Malti · Italiano.",fCompare:"Compare",fDaily:"Daily",fAbout:"About",fNews:"News",fMarkets:"Markets",fFx:"FX",fLoans:"Loans",fHow:"How we rank",fContact:"Contact",
   filter:"Filter…",sortBy:"Sort by",updated:"Updated",checked:"Checked",notChecked:"Catalogue data",stale:"Last known",affiliated:"Related party",
   all:"All",sources:"Sources",mse:"Malta Stock Exchange",global:"Global indices & commodities",crypto:"Crypto (EUR)",fx:"FX rates (ECB)",
@@ -45,7 +45,7 @@ const T = {
   topEyebrow:"It-tabella ewlenija tal-lum",topT:{savings:"Depożiti fissi ta' 12-il xahar f'Malta",mortgages:"Self għad-dar b'rata varjabbli f'Malta",mobile:"Pjanijiet tal-mobile f'Malta"},tabs:{savings:"Tfaddil",mortgages:"Self għad-dar",mobile:"Mobile"},
   thrush:"Punteġġ ta' Blue",bestPick:"L-aħjar għażla",viewDeal:"Ara l-offerta",
   refreshed:"Ir-rati jiġu aġġornati kuljum fil-{t} mis-siti tal-fornituri. CompareMalta.ai jista' jaqla' kummissjoni, iżda l-klassifiki qatt ma jitħallsu.",
-  morning:"Malta dalgħodu",readSum:"Aqra s-sommarju →",fullMk:"Paġna sħiħa tas-swieq →",mkt:"Swieq",
+  morning:"Malta dalgħodu",artBadge:"Artiklu ta' CompareMalta.ai",artBy:"Minn CompareMalta.ai",artPhotos:"Ritratti",artSources:"Sorsi",artVisit:"Websajt",artMap:"Mappa",artBack:"Lura għal Malta llum",artNotFound:"Dan l-artiklu mhux disponibbli.",readArt:"Aqra l-artiklu",readSum:"Aqra s-sommarju →",fullMk:"Paġna sħiħa tas-swieq →",mkt:"Swieq",
   footTag:"Paraguni indipendenti għall-ħajja u n-negozju f'Malta. Aġġornati kuljum. English · Malti · Italiano.",fCompare:"Qabbel",fDaily:"Kuljum",fAbout:"Dwarna",fNews:"Aħbarijiet",fMarkets:"Swieq",fFx:"Kambju",fLoans:"Self",fHow:"Kif nikklassifikaw",fContact:"Kuntatt",
   filter:"Iffiltra…",sortBy:"Ordna skont",updated:"Aġġornat",checked:"Iċċekkjat",notChecked:"Data tal-katalgu",stale:"L-aħħar magħruf",affiliated:"Parti relatata",
   all:"Kollha",sources:"Sorsi",mse:"Borża ta' Malta",global:"Indiċijiet globali u komoditajiet",crypto:"Kripto (EUR)",fx:"Rati tal-kambju (ECB)",
@@ -72,7 +72,7 @@ const T = {
   topEyebrow:"La tabella di oggi",topT:{savings:"Depositi vincolati a 12 mesi a Malta",mortgages:"Mutui a tasso variabile a Malta",mobile:"Piani mobile a Malta"},tabs:{savings:"Risparmio",mortgages:"Mutui",mobile:"Mobile"},
   thrush:"Punteggio Blue",bestPick:"Scelta migliore",viewDeal:"Vedi offerta",
   refreshed:"Tassi aggiornati ogni giorno alle {t} dai siti dei fornitori. CompareMalta.ai può ricevere una commissione, ma le classifiche non sono mai a pagamento.",
-  morning:"Malta stamattina",readSum:"Leggi il riassunto →",fullMk:"Pagina completa dei mercati →",mkt:"Mercati",
+  morning:"Malta stamattina",artBadge:"Approfondimento CompareMalta.ai",artBy:"A cura di CompareMalta.ai",artPhotos:"Foto",artSources:"Fonti",artVisit:"Sito web",artMap:"Mappa",artBack:"Torna a Malta oggi",artNotFound:"Questo articolo non è disponibile.",readArt:"Leggi l'articolo",readSum:"Leggi il riassunto →",fullMk:"Pagina completa dei mercati →",mkt:"Mercati",
   footTag:"Confronti indipendenti per la vita e il business a Malta. Aggiornati ogni giorno. English · Malti · Italiano.",fCompare:"Confronta",fDaily:"Ogni giorno",fAbout:"Chi siamo",fNews:"Notizie",fMarkets:"Mercati",fFx:"Cambi",fLoans:"Prestiti",fHow:"Come classifichiamo",fContact:"Contatti",
   filter:"Filtra…",sortBy:"Ordina per",updated:"Aggiornato",checked:"Verificato",notChecked:"Dati di catalogo",stale:"Ultimo valore noto",affiliated:"Parte correlata",
   all:"Tutti",sources:"Fonti",mse:"Borsa di Malta",global:"Indici globali e materie prime",crypto:"Cripto (EUR)",fx:"Tassi di cambio (BCE)",
@@ -426,11 +426,24 @@ const mkRow = r => { const mse = /^[A-Z0-9]{2,5}$/.test(r.symbol || "");
   return `<div class="mk-row"><span class="n"><b>${esc(mse ? r.symbol : r.name)}</b><small>${esc(mse ? r.name : "")}</small></span><span style="text-align:right">${nf(r.price, r.price < 10 ? 3 : 2)}<br>${chg(r.change_pct)}</span></div>`; };
 const newsImg = n => n.image ? `<img class="thumb" src="${esc(n.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" ${n.image_src ? `data-alt="${esc(n.image_src)}"` : ""} onerror="if(this.dataset.alt&&this.src!==this.dataset.alt){this.src=this.dataset.alt}else{this.outerHTML=window.CMV.newsThumb('${esc(n.topic)}')}">` : V.newsThumb(n.topic);
 const newsList = items => items.length ? items.map(n => `
-  <a class="news-item" href="${esc(n.url)}" target="_blank" rel="noopener">
+  <a class="news-item${n.kind === "article" ? " is-art" : ""}" ${nLink(n)}>
     <div class="news-img">${newsImg(n)}</div>
-    <div><div class="meta"><span class="t">${esc(n.topic)}</span>${esc(n.source)}${n.published ? " · " + ago(n.published) : ""}</div>
+    <div><div class="meta">${n.kind === "article" ? `<span class="art-tag">${t("artBadge")}</span>` : ""}<span class="t">${esc(n.topic)}</span>${esc(n.source)}${n.published ? " · " + ago(n.published) : ""}</div>
     <h3>${esc(n.title)}</h3><div class="muted" style="font-size:14px">${esc(n.summary)}</div></div>
   </a>`).join("") : `<div class="empty">${V.mascot(56)}<span>${t("mNo")}</span></div>`;
+const tx = v => v && typeof v === "object" ? (v[lang] || v.en || "") : (v || "");
+// CompareMalta.ai's own articles, shaped like news items so they sit inside the news stream
+const artItems = arts => (arts?.items || []).map(a => ({kind: "article", id: "a-" + a.slug, slug: a.slug, title: tx(a.title), summary: tx(a.summary),
+  topic: tx(a.topic), source: "CompareMalta.ai", published: a.date, image: a.hero_image || "", url: "#article/" + a.slug}));
+function mixNews(items, arts) {
+  const A = artItems(arts); if (!A.length) return items;
+  const fresh = A[0], recent = Date.now() - new Date(fresh.published) < 4 * 864e5;
+  const rest = recent ? A.slice(1) : A;
+  const out = [...items, ...rest].sort((a, b) => String(b.published).localeCompare(String(a.published)));
+  if (recent) out.splice(Math.min(1, out.length), 0, fresh); // newest article stands out as the second story
+  return out;
+}
+const nLink = n => n.kind === "article" ? `href="${esc(n.url)}"` : `href="${esc(n.url)}" target="_blank" rel="noopener"`;
 const dishCard = (r, i) => `
   <div class="card dish">
     <div class="dish-img">${r.photo ? `<img class="cover" src="${esc(r.photo)}" alt="${esc(r.provider)}" loading="lazy">` : V.foodCover(r.provider, r.cuisine)}<span class="num">${i + 1}</span></div>
@@ -461,10 +474,11 @@ async function topTableHtml() {
   </tbody></table>`;
 }
 async function pageHome() {
-  const [news, mk, fx, st] = await Promise.all([get("news"), get("markets"), get("fx"), get("status")]);
+  const [news, mk, fx, st, arts] = await Promise.all([get("news"), get("markets"), get("fx"), get("status"), get("articles")]);
   const items = news?.items || [];
   const pickTopic = (tp, not) => items.find(n => n.topic === tp && n !== not) || items.find(n => n !== not);
-  const n1 = pickTopic("Business"), n2 = pickTopic("Property", n1);
+  const latestArt = artItems(arts).find(a => Date.now() - new Date(a.published) < 7 * 864e5);
+  const n1 = pickTopic("Business"), n2 = latestArt || pickTopic("Property", n1);
   const r = c => (fx?.rates || []).find(x => x.ccy === c);
   const stoxx = (mk?.global || []).find(x => /stoxx/i.test(x.name));
   return `
@@ -504,7 +518,7 @@ async function pageHome() {
     <div class="wrap">
       <div class="sec-head"><div><h2>${t(dayPart())}</h2><p class="note" style="margin:4px 0 0">${t("newsAt")} ${maltaTime(news?.updated)}</p></div><a class="link" href="#news">${t("nNews")} →</a></div>
       <div class="grid g3">
-        ${[n1, n2].filter(Boolean).map(n => `<div class="card news-card"><a class="nc-img" href="${esc(n.url)}" target="_blank" rel="noopener" tabindex="-1">${newsImg(n)}</a><div class="nc-body"><p class="eyebrow">${esc(n.topic)}</p><div class="src">${esc(n.source)}${n.published ? " · " + ago(n.published) : ""}</div><h3>${esc(n.title)}</h3><p>${esc(n.summary)}</p><a class="link" href="${esc(n.url)}" target="_blank" rel="noopener">${t("readSum")}</a></div></div>`).join("")}
+        ${[n1, n2].filter(Boolean).map(n => `<div class="card news-card${n.kind === "article" ? " is-art" : ""}"><a class="nc-img" ${nLink(n)} tabindex="-1">${newsImg(n)}</a><div class="nc-body"><p class="eyebrow">${n.kind === "article" ? `<span class="art-tag">${t("artBadge")}</span> ` : ""}${esc(n.topic)}</p><div class="src">${esc(n.source)}${n.published ? " · " + ago(n.published) : ""}</div><h3>${esc(n.title)}</h3><p>${esc(n.summary)}</p><a class="link" ${nLink(n)}>${n.kind === "article" ? t("readArt") : t("readSum")}</a></div></div>`).join("")}
         <div class="card mk-card"><p class="eyebrow">${t("mkt")}</p>
           ${mk?.mse_index ? mkRowDark(mk.mse_index.name.replace("MSE ", "MSE "), nf(mk.mse_index.value, 2)) : ""}
           ${stoxx ? mkRowDark("EURO STOXX 50", nf(stoxx.price, 2)) : ""}
@@ -853,7 +867,7 @@ async function pageCategories() {
     <a class="card cat2" href="#groceries"><span class="cb">${V.catBanner("groceries")}</span><span class="cbody"><h3>${t("c").groceries[0]}</h3><p>${t("c").groceries[1]}</p><span class="go">→</span></span></a></div></div>`;
 }
 async function pageNews() {
-  const news = await get("news"); const items = news?.items || [];
+  const [news, arts] = await Promise.all([get("news"), get("articles")]); const items = mixNews(news?.items || [], arts);
   const topics = [...new Set(items.map(n => n.topic))], sources = [...new Set(items.map(n => n.source))];
   setTimeout(() => {
     let tp = "", sr = "";
@@ -866,6 +880,26 @@ async function pageNews() {
     <div class="chips"><button class="chip on" data-tp="">${t("all")}</button>${topics.map(x => `<button class="chip" data-tp="${esc(x)}">${esc(x)}</button>`).join("")}</div>
     <div class="chips"><button class="chip on" data-sr="">${t("sources")}: ${t("all")}</button>${sources.map(x => `<button class="chip" data-sr="${esc(x)}">${esc(x)}</button>`).join("")}</div>
     <div class="card" id="nl" style="margin:18px 0 50px"></div></div>`;
+}
+async function pageArticle(slug) {
+  const a = await get("articles/" + slug);
+  if (!a) return `<div class="wrap"><div class="page-head"><h1>${t("artNotFound")}</h1><p><a class="link" href="#news">${t("artBack")} →</a></p></div></div>`;
+  const credit = c => c ? `<div class="art-credit">${t("artPhotos")}: <a href="${esc(c.url || "#")}" target="_blank" rel="noopener nofollow">${esc(c.author)}</a>, ${esc(c.license)}, Wikimedia Commons</div>` : "";
+  const maps = it => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(`${it.name}, ${it.locality || ""}, Malta`);
+  let rank = 0;
+  const secs = (a.sections || []).map(sec => `<section class="art-sec"><h2>${esc(tx(sec.heading))}</h2>${sec.intro ? `<p class="art-p">${esc(tx(sec.intro))}</p>` : ""}
+    ${(sec.items || []).map(it => { rank++; return `<article class="art-item"><div class="ph">${it.image ? `<img src="${esc(it.image)}" alt="${esc(it.image_alt || it.name)}" loading="lazy">` : V.foodCover(it.name, tx(it.cuisine))}<span class="rk">${rank}</span></div>
+      <div><h3>${esc(it.name)}</h3><div class="meta"><span class="art-badge ${/bib/.test(it.badge_kind || "") ? "bib" : ""}">${esc(tx(it.badge))}</span>${[it.locality, tx(it.cuisine), it.price].filter(Boolean).map(esc).join(" · ")}</div>
+      <p class="art-p" style="margin:0 0 8px">${esc(tx(it.text))}</p>
+      <div class="art-links">${it.url ? `<a class="link" href="${esc(it.url)}" target="_blank" rel="noopener">${t("artVisit")} ↗</a>` : ""}<a class="link" href="${maps(it)}" target="_blank" rel="noopener">${t("artMap")} ↗</a></div>
+      ${credit(it.credit)}</div></article>`; }).join("")}</section>`).join("");
+  const intro = tx(a.intro).split("\n").filter(p => p.trim()).map(p => `<p class="art-p">${esc(p)}</p>`).join("");
+  return `<div class="wrap art-wrap"><div class="page-head"><p class="eyebrow"><a href="#news">${esc(tx(a.kicker) || t("c").today[0])}</a> · ${new Date(a.date).toLocaleDateString(lang === "en" ? "en-GB" : lang, {day: "numeric", month: "long", year: "numeric"})}</p>
+    <h1 style="font-size:clamp(30px,4vw,46px)">${esc(tx(a.title))}</h1><p class="art-lead">${esc(tx(a.summary))}</p><p class="note">${t("artBy")}</p></div>
+    ${a.hero_image ? `<div class="art-hero"><img src="${esc(a.hero_image)}" alt="${esc(tx(a.title))}"></div>${credit(a.hero_credit)}` : ""}
+    ${intro}${secs}${a.outro ? `<p class="art-p" style="margin-top:26px">${esc(tx(a.outro))}</p>` : ""}
+    ${(a.sources || []).length ? `<p class="note" style="margin-top:18px"><b>${t("artSources")}:</b> ${a.sources.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener nofollow">${esc(x.name)}</a>`).join(" · ")}</p>` : ""}
+    <p style="margin:26px 0 50px"><a class="link" href="#news">← ${t("artBack")}</a></p></div>`;
 }
 async function pageMarkets() {
   const [mk, fx] = await Promise.all([get("markets"), get("fx")]);
@@ -1108,7 +1142,7 @@ async function route() {
   await get("categories");
   renderNav(r); $("#nav").classList.remove("open");
   const pages = {newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, check: pageCheck, privacy: pagePrivacy, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
-  $("#app").innerHTML = await (pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
+  $("#app").innerHTML = await (r.startsWith("article/") ? pageArticle(r.slice(8)) : pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
   if ($("#heroForm")) bindHome();
   bindNewsletter();
   window.scrollTo(0, 0);
