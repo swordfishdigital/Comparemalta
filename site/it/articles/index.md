@@ -1,0 +1,7 @@
+# Le scelte di Blue
+
+Guide, classifiche e approfondimenti di CompareMalta.ai per vivere, mangiare e gestire i soldi meglio a Malta.
+
+- [Le cinque grandi banche di Malta sullo smartphone: quanto valgono davvero le loro app](https://comparemalta.ai/it/articles/malta-bank-apps-compared/) (2026-11-22): Abbiamo valutato le app di BOV, HSBC, APS, BNF e Lombard su apertura conto, uso quotidiano, funzioni e wallet. La migliore arriva a 3,8 su 5; le altre restano a 2 o meno.
+- [Cinque forni maltesi per cui vale la pena alzarsi presto](https://comparemalta.ai/it/articles/best-bakeries-malta/) (2026-11-22): Forni a legna, storie di guerra e la ftira di Gozo: cinque panifici tradizionali tra Malta e Gozo che cuociono ancora come una volta.
+- [Tutte le stelle MICHELIN e i Bib Gourmand di Malta, in classifica](https://comparemalta.ai/it/articles/michelin-malta-2026/) (2026-11-22): La Guida MICHELIN 2026 di Malta conferma tutti e sette i ristoranti stellati e aggiunge il quinto Bib Gourmand. Ecco tutti e dodici, dalle due stelle di ION Harbour ai migliori indirizzi qualità prezzo.
