@@ -1,0 +1,101 @@
+{
+ "en": {
+  "nav": "Money Health",
+  "eyebrow": "CompareMalta Money Health",
+  "h1": "A clearer picture of your money.",
+  "lead": "Answer a few simple questions to understand your monthly balance, savings buffer and financial flexibility.",
+  "lead2": "Get your Money Health Score from 1 to 100, with practical steps based on your answers.",
+  "chips": [
+   "Free",
+   "Around 3 minutes",
+   "Documents optional"
+  ],
+  "start": "Check my Money Health",
+  "notCredit": "This is a personal budgeting indicator, not a credit score or a prediction of loan approval.",
+  "privacy": "Your answers stay in this browser. We do not store them on our servers and no account is needed.",
+  "pillars": [
+   [
+    "Monthly breathing room",
+    "What is left after spending and repayments"
+   ],
+   [
+    "Savings buffer",
+    "How many months of essentials your savings cover"
+   ],
+   [
+    "Budget consistency",
+    "How often income covered costs lately"
+   ],
+   [
+    "Financial flexibility",
+    "Income not tied to essentials"
+   ]
+  ]
+ },
+ "mt": {
+  "nav": "Saħħa Finanzjarja",
+  "eyebrow": "CompareMalta Money Health",
+  "h1": "Stampa aktar ċara ta' flusek.",
+  "lead": "Wieġeb ftit mistoqsijiet sempliċi biex tifhem il-bilanċ ta' kull xahar, il-buffer tat-tfaddil u l-flessibbiltà finanzjarja tiegħek.",
+  "lead2": "Ikseb il-Money Health Score tiegħek minn 1 sa 100, b'passi prattiċi bbażati fuq it-tweġibiet tiegħek.",
+  "chips": [
+   "B'xejn",
+   "Madwar 3 minuti",
+   "Dokumenti mhux obbligatorji"
+  ],
+  "start": "Iċċekkja s-Saħħa Finanzjarja tiegħi",
+  "notCredit": "Dan huwa indikatur tal-baġit personali, mhux credit score jew tbassir ta' approvazzjoni ta' self.",
+  "privacy": "It-tweġibiet tiegħek jibqgħu f'dan il-browser. Ma naħżnuhomx fuq is-servers tagħna u m'għandekx bżonn kont.",
+  "pillars": [
+   [
+    "Spazju ta' kull xahar",
+    "X'jibqa' wara l-infiq u l-ħlasijiet"
+   ],
+   [
+    "Buffer tat-tfaddil",
+    "Kemm-il xahar ta' spejjeż essenzjali jkopri t-tfaddil"
+   ],
+   [
+    "Konsistenza tal-baġit",
+    "Kemm-il darba d-dħul kopra l-ispejjeż riċentement"
+   ],
+   [
+    "Flessibbiltà finanzjarja",
+    "Dħul mhux marbut ma' spejjeż essenzjali"
+   ]
+  ]
+ },
+ "it": {
+  "nav": "Money Health",
+  "eyebrow": "CompareMalta Money Health",
+  "h1": "Un quadro più chiaro dei tuoi soldi.",
+  "lead": "Rispondi a poche domande semplici per capire il tuo saldo mensile, il cuscinetto di risparmi e la tua flessibilità finanziaria.",
+  "lead2": "Ottieni il tuo Money Health Score da 1 a 100, con passi pratici basati sulle tue risposte.",
+  "chips": [
+   "Gratis",
+   "Circa 3 minuti",
+   "Documenti facoltativi"
+  ],
+  "start": "Controlla la mia Money Health",
+  "notCredit": "È un indicatore del bilancio personale, non un credit score né una previsione di approvazione di un prestito.",
+  "privacy": "Le tue risposte restano in questo browser. Non le salviamo sui nostri server e non serve un account.",
+  "pillars": [
+   [
+    "Margine mensile",
+    "Quanto resta dopo spese e rate"
+   ],
+   [
+    "Cuscinetto di risparmi",
+    "Quanti mesi di spese essenziali coprono i risparmi"
+   ],
+   [
+    "Regolarità del bilancio",
+    "Quante volte le entrate hanno coperto le spese di recente"
+   ],
+   [
+    "Flessibilità finanziaria",
+    "Entrate non vincolate alle spese essenziali"
+   ]
+  ]
+ }
+}

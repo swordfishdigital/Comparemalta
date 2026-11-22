@@ -217,7 +217,8 @@ CSS_EXTRA = """
 """
 
 
-def head(lang, title, desc, canonical, alternates, depth, jsonld, md_href=None):
+def head(lang, title, desc, canonical, alternates, depth, jsonld, md_href=None, image=None, wh=(1200, 630), og_type="website"):
+    img = image if (image or "").startswith("http") else f"{BASE}/{image or 'og/home.png'}"
     up = "../" * depth
     alt = "".join(f'<link rel="alternate" hreflang="{l}" href="{u}">' for l, u in alternates.items())
     alt += f'<link rel="alternate" hreflang="x-default" href="{alternates.get("en", canonical)}">'
@@ -228,16 +229,18 @@ def head(lang, title, desc, canonical, alternates, depth, jsonld, md_href=None):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>/* reloads inside the app come back to the app; search engines and people opening a shared link stay on this page */try{{if(sessionStorage.getItem("cm_spa")){{var p=location.pathname.split("/").filter(Boolean),r=!p[1]?"home":p[1]==="methodology"?"how-we-rank":p[1]==="articles"?(p[2]?"article/"+p[2]:"articles"):p[1];location.replace("/?lang="+p[0]+"#"+r)}}}}catch(e){{}}</script>
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="{canonical}">
 {alt}{md}
 <link rel="alternate" type="text/plain" title="LLM guide" href="{BASE}/llms.txt">
-<meta property="og:type" content="website"><meta property="og:site_name" content="CompareMalta.ai">
+<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="CompareMalta.ai">
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{canonical}"><meta property="og:locale" content="{LOCALE[lang]}">
-<meta property="og:image" content="{BASE}/og.png"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="{img}"><meta property="og:image:secure_url" content="{img}"><meta property="og:image:type" content="image/{'jpeg' if img.endswith(('.jpg', '.jpeg')) else 'png'}"><meta property="og:image:width" content="{wh[0]}"><meta property="og:image:height" content="{wh[1]}"><meta property="og:image:alt" content="{esc(title)}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}"><meta name="twitter:image" content="{img}">
 <link rel="icon" href="{up}favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -381,7 +384,7 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
          "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{BASE}/data/cat-{slug}.json"},
                           {"@type": "DataDownload", "encodingFormat": "text/markdown", "contentUrl": f"{canonical}index.md"}]},
     ]
-    page = head(lang, title, desc, canonical, alternates, 2, jsonld, f"{canonical}index.md") + topbar(lang, 2, alternates, nav) + f"""
+    page = head(lang, title, desc, canonical, alternates, 2, jsonld, f"{canonical}index.md", image=f"og/{lang}/cat-{slug}.png") + topbar(lang, 2, alternates, nav) + f"""
 <main class="seo-wrap">
 <div class="seo-crumb"><a href="../">{esc(s['home'])}</a> › {esc(t)}</div>
 <p class="seo-muted">{esc(s['updated'].format(d=d))}</p>
@@ -471,6 +474,28 @@ def methodology(lang, cats, cols, nav, updated):
 <section class="seo-sec"><h2>{esc(s['rank'])}</h2><ul>{per}</ul></section></main>""" + footer(lang, 2, cats)
 
 
+def money_health(lang, nav, cats):
+    """Static, shareable landing page for Money Health (the tool itself runs in the app)."""
+    c = json.loads((Path(__file__).parent / "mh_copy.json").read_text(encoding="utf-8"))[lang]
+    s = S[lang]
+    alternates = {l: url(l, "money-health") for l in LANGS}
+    canonical = alternates[lang]
+    title = f"{c['nav']}: {c['h1']} | CompareMalta.ai"
+    desc = f"{c['lead']} {c['lead2']}"
+    jsonld = [{"@context": "https://schema.org", "@type": "WebApplication", "name": f"CompareMalta {c['nav']}", "url": canonical, "inLanguage": lang,
+               "applicationCategory": "FinanceApplication", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
+               "description": desc, "publisher": {"@id": f"{BASE}/#org"}},
+              {"@context": "https://schema.org", **crumbs([(s["home"], url(lang)), (c["nav"], canonical)])}]
+    pillars = "".join(f'<li><b>{esc(a)}</b>: {esc(b)}</li>' for a, b in c["pillars"])
+    return head(lang, title, desc, canonical, alternates, 2, jsonld, image=f"og/{lang}/money-health.png") + topbar(lang, 2, alternates, nav) + f"""
+<main class="seo-wrap"><div class="seo-crumb"><a href="../">{esc(s['home'])}</a> › {esc(c['nav'])}</div>
+<p class="eyebrow">{esc(c['eyebrow'])}</p><h1 class="seo-h1">{esc(c['h1'])}</h1><p class="seo-intro">{esc(c['lead'])} {esc(c['lead2'])}</p>
+<p class="seo-muted">{' · '.join(esc(x) for x in c['chips'])}</p>
+<p style="margin:22px 0"><a class="btn blue" href="../../?lang={lang}#money-health">{esc(c['start'])}</a></p>
+<section class="seo-sec"><ul>{pillars}</ul></section>
+<section class="seo-sec"><p>{esc(c['notCredit'])}</p><p>{esc(c['privacy'])}</p></section></main>""" + footer(lang, 2, cats)
+
+
 # ---------------------------------------------------------------- site-wide files
 def write(path: Path, text: str):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -554,6 +579,7 @@ def run(status):
             count += 1
         write(SITE / lang / "index.html", lang_home(lang, cats, datas, cols, nav, updated, markets, fx, news))
         write(SITE / lang / "methodology" / "index.html", methodology(lang, cats, cols, nav, updated))
+        write(SITE / lang / "money-health" / "index.html", money_health(lang, nav, cats))
     art_slugs = []
     try:  # editorial articles ("Malta today" features)
         import sys
@@ -565,7 +591,7 @@ def run(status):
             write(SITE.joinpath(*parts) / "index.md", md)
     except Exception as e:  # noqa: BLE001
         log.warning("seo: article pages failed: %s", e)
-    write(SITE / "sitemap.xml", sitemap([None, *cats.keys(), "methodology", *art_slugs], updated))
+    write(SITE / "sitemap.xml", sitemap([None, *cats.keys(), "money-health", "methodology", *art_slugs], updated))
     write(SITE / "robots.txt", robots())
     write(SITE / "llms.txt", llms(cats, datas, cols, updated))
     write(SITE / "llms-full.txt", "\n".join(full))

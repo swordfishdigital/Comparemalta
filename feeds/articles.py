@@ -245,10 +245,9 @@ def static_pages(seo):
                    **({"image": f"{seo.BASE}/{hero}"} if hero else {})},
                   {"@context": "https://schema.org", "@type": "ItemList", "name": title, "itemListElement": items_ld},
                   {"@context": "https://schema.org", **seo.crumbs([(s["home"], seo.url(lang)), (s["today"], seo.url(lang)), (title, canonical)])}]
-            page = seo.head(lang, f"{title} | CompareMalta.ai", summary, canonical, alternates, 3, ld, md_href=canonical + "index.md")
+            page = seo.head(lang, f"{title} | CompareMalta.ai", summary, canonical, alternates, 3, ld, md_href=canonical + "index.md",
+                            image=hero or f"og/{lang}/articles.png", wh=(960, 600) if hero else (1200, 630), og_type="article")
             page = page.replace("</style>", CSS + "</style>", 1)
-            if hero:
-                page = page.replace('content="https://comparemalta.ai/og.png"', f'content="{seo.BASE}/{hero}"', 1)
             page += seo.topbar(lang, 3, alternates, [])
             page += f'''<main class="wrap seo-main"><p class="eyebrow">{html.escape(_txt(a.get("kicker"), lang) or s["today"])} · {seo.date_txt(a["date"], lang)}</p>
 <h1 class="seo-h1">{html.escape(title)}</h1><p class="seo-intro">{html.escape(summary)}</p><p class="seo-muted">{s["by"]}</p>
@@ -270,7 +269,7 @@ def static_pages(seo):
             cards = "".join(f'''<a class="seo-card" href="{a["slug"]}/">{f'<img src="../../{a["hero_image"]}" alt="" loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:10px;margin-bottom:8px">' if a.get("hero_image") else ""}<small>{html.escape(_txt(a.get("topic"), lang))} · {seo.date_txt(a["date"], lang)}</small><b>{html.escape(_txt(a["title"], lang))}</b><small>{html.escape(_txt(a["summary"], lang))}</small></a>''' for a in arts)
             ld = [{"@context": "https://schema.org", "@type": "Blog", "name": f"{title} | CompareMalta.ai", "url": canonical, "inLanguage": lang, "publisher": seo.ORG,
                    "blogPost": [{"@type": "BlogPosting", "headline": _txt(a["title"], lang), "datePublished": a["date"], "url": seo.url(lang, f"articles/{a['slug']}")} for a in arts]}]
-            page = seo.head(lang, f"{title} | CompareMalta.ai", lead, canonical, alternates, 2, ld, md_href=canonical + "index.md")
+            page = seo.head(lang, f"{title} | CompareMalta.ai", lead, canonical, alternates, 2, ld, md_href=canonical + "index.md", image=f"og/{lang}/articles.png")
             page += seo.topbar(lang, 2, alternates, [])
             page += f'''<main class="wrap seo-main"><p class="eyebrow">{L[lang]["today"]}</p><h1 class="seo-h1">{html.escape(title)}</h1><p class="seo-intro">{html.escape(lead)}</p>
 <div class="seo-grid" style="margin:24px 0 40px">{cards}</div><p><a class="btn blue" href="../../?lang={lang}#articles">{L[lang]["read"]}</a></p></main>'''

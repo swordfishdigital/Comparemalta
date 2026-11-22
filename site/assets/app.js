@@ -1184,9 +1184,38 @@ function openAsk(q = "") { $("#ask").classList.add("open"); $("#askQ").value = q
 function closeAsk() { $("#ask").classList.remove("open"); }
 
 /* ---------- router ---------- */
+/* Shareable addresses: pages that also exist as static pages (with their own preview image) show that real path in the
+   address bar, so a copied link unfurls with the right picture in WhatsApp, LinkedIn, X... Other views stay on /#route. */
+function pathFor(r) {
+  if (r === "home") return "/";
+  if (r === "money-health") return `/${lang}/money-health/`;
+  if (r === "how-we-rank") return `/${lang}/methodology/`;
+  if (r === "articles" || r === "blog") return `/${lang}/articles/`;
+  if (r.startsWith("article/")) return `/${lang}/articles/${r.slice(8)}/`;
+  if (D.categories?.config[r]) return `/${lang}/${r}/`;
+  return null;
+}
+function routeFromUrl() {
+  if (location.hash.length > 1) return location.hash.slice(1);
+  const p = location.pathname.split("/").filter(Boolean);
+  if (["en", "mt", "it"].includes(p[0]) && p[0] !== lang) { lang = p[0]; try { localStorage.setItem("cm_lang", lang); } catch (e) {} renderChrome(); }
+  if (!p[1]) return "home";
+  if (p[1] === "methodology") return "how-we-rank";
+  if (p[1] === "articles") return p[2] ? "article/" + p[2] : "articles";
+  return p[1];
+}
+try { sessionStorage.setItem("cm_spa", "1"); } catch (e) {}
+document.addEventListener("click", e => {
+  const a = e.target.closest && e.target.closest("a[href^='#']");
+  if (!a || e.defaultPrevented || e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || a.target === "_blank") return;
+  const h = a.getAttribute("href"); if (h.length < 2) return;
+  e.preventDefault(); history.pushState(null, "", "/" + h); route();
+});
 async function route() {
-  const r = (location.hash || "#home").slice(1) || "home";
   await get("categories");
+  const r = routeFromUrl() || "home";
+  const want = pathFor(r) || (r === "home" ? "/" : "/#" + r);
+  if (location.pathname + location.search + location.hash !== want) history.replaceState(null, "", want);
   renderNav(r); $("#nav").classList.remove("open");
   const pages = {"money-health": pageMoneyHealth, articles: pageBlog, blog: pageBlog, newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, check: pageCheck, privacy: pagePrivacy, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
   $("#app").innerHTML = await (r.startsWith("article/") ? pageArticle(r.slice(8)) : pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
@@ -1198,11 +1227,11 @@ async function route() {
 document.querySelectorAll("#langSeg button").forEach(b => b.onclick = () => { lang = b.dataset.l; try { localStorage.setItem("cm_lang", lang); } catch (e) {} renderChrome(); route(); });
 $("#menuBtn").onclick = () => $("#nav").classList.toggle("open");
 $("#askBtn").onclick = () => openAsk();
-if (location.hash === "#ask" || QS.get("q")) { history.replaceState(null, "", location.pathname + "#home"); setTimeout(() => openAsk(QS.get("q") || ""), 300); }
+if (location.hash === "#ask" || QS.get("q")) { history.replaceState(null, "", "/"); setTimeout(() => openAsk(QS.get("q") || ""), 300); }
 $("#askX").onclick = closeAsk;
 $("#ask").onclick = e => { if (e.target.id === "ask") closeAsk(); };
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeAsk(); });
 $("#askForm").onsubmit = e => { e.preventDefault(); runAsk(); };
-window.addEventListener("hashchange", route);
+window.addEventListener("popstate", route);
 renderChrome(); route();
 })();
