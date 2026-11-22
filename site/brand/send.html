@@ -1,0 +1,3 @@
+<!DOCTYPE html><meta charset="utf-8"><meta name="robots" content="noindex"><title>brand assets</title>
+<script>/* Hands our own brand images to the parent window (used to upload logo/cover to social profiles). */
+(async()=>{for(const n of["linkedin-logo.png","linkedin-cover.png"]){const b=await(await fetch(n)).arrayBuffer();parent.postMessage({cmAsset:n,buf:b},"*")}})();</script>
