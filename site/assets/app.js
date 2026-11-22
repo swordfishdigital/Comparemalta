@@ -110,7 +110,7 @@ const T2 = {
   posYear: "Lowest first-year cost", posFast: "Fastest access to your money", posNoHw: "No terminal to buy",
   posOffer: "Offer: sign up by {d}", posAssume: "Assumes {n} payments a month. Fees for refunds and chargebacks are not included yet.",
   howTxt: "We decide in three steps. 1) Eligibility: you tell us what you need (amount, term, deposit, card mix, currency) and products that do not fit are hidden; products of different kinds, such as 12 and 24 month deposits, are never ranked against each other. 2) Cost: among what fits, the lowest total cost for your numbers wins. 3) Preferences: speed, app and hardware help only after that. The Blue score (0 to 10) summarises steps 2 and 3 for the default view; weights are below. Insurance has no overall score because cover differs. Providers cannot pay to change their position.",
-  noScore: "No overall score",
+  noScore: "No overall score", noneFit: "No product we cover fits these needs. Try changing them.",
  },
  mt: {
   eyebrow: "Is-sit tal-paragun AI ta' Malta", h1a: "Ir-rati, il-miżati u l-pjanijiet ta' Malta,", h1b: "ħdejn xulxin.",
@@ -131,7 +131,7 @@ const T2 = {
   posYear: "L-inqas spiża fl-ewwel sena", posFast: "L-iktar malajr jaslulek il-flus", posNoHw: "M'hemmx terminal x'tixtri",
   posOffer: "Offerta: irreġistra sa {d}", posAssume: "Nassumu {n} ħlas fix-xahar. Il-miżati tar-rifużjonijiet u tal-chargebacks għadhom mhumiex inklużi.",
   howTxt: "Niddeċiedu fi tliet passi. 1) Eliġibbiltà: tgħidilna x'għandek bżonn (ammont, terminu, depożitu, tip ta' karti, munita) u l-prodotti li ma jaqblux jinħbew; prodotti ta' tip differenti, bħal depożiti ta' 12 u 24 xahar, qatt ma jitqabblu flimkien. 2) Spiża: minn dak li jaqbel, jirbaħ l-inqas spiża totali għan-numri tiegħek. 3) Preferenzi: veloċità, app u apparat jgħinu biss wara. Il-Blue score (0 sa 10) jiġbor il-passi 2 u 3 għall-veduta standard; il-piżijiet huma hawn taħt. L-assigurazzjoni m'għandhiex score ġenerali għax il-kopertura tvarja. Il-fornituri ma jistgħux iħallsu biex jibdlu l-post tagħhom.",
-  noScore: "L-ebda score ġenerali",
+  noScore: "L-ebda score ġenerali", noneFit: "L-ebda prodott li nkopru ma jaqbel ma' dawn il-bżonnijiet. Ipprova ibdilhom.",
  },
  it: {
   eyebrow: "Il sito di confronto AI di Malta", h1a: "Tassi, commissioni e offerte di Malta,", h1b: "fianco a fianco.",
@@ -152,7 +152,7 @@ const T2 = {
   posYear: "Costo più basso nel primo anno", posFast: "Accesso più rapido ai tuoi soldi", posNoHw: "Nessun terminale da comprare",
   posOffer: "Offerta: iscriviti entro il {d}", posAssume: "Ipotizziamo {n} pagamenti al mese. Le commissioni su rimborsi e chargeback non sono ancora incluse.",
   howTxt: "Decidiamo in tre passaggi. 1) Idoneità: ci dici cosa ti serve (importo, durata, anticipo, tipi di carta, valuta) e i prodotti non adatti vengono nascosti; prodotti di tipo diverso, come depositi a 12 e 24 mesi, non vengono mai messi in classifica insieme. 2) Costo: tra quelli adatti vince il costo totale più basso per i tuoi numeri. 3) Preferenze: velocità, app e hardware contano solo dopo. Il Blue score (da 0 a 10) riassume i passaggi 2 e 3 nella vista predefinita; i pesi sono qui sotto. Le assicurazioni non hanno un punteggio complessivo perché le coperture cambiano. I fornitori non possono pagare per cambiare posizione.",
-  noScore: "Nessun punteggio complessivo",
+  noScore: "Nessun punteggio complessivo", noneFit: "Nessun prodotto che copriamo soddisfa queste esigenze. Prova a modificarle.",
  },
 };
 for (const l in T2) Object.assign(T[l], T2[l]);
@@ -558,7 +558,7 @@ function bindTable(cfg, items, slug, view) {
       ${view.map((c, j) => j === 0 ? `<td>${provCell(r, freshTxt(r), slug)}</td>` : `<td class="${c.key === keyCol ? "key" : ""}">${fmt(r[c.key], c.fmt)}</td>`).join("")}
       ${noScore ? "" : `<td>${r === bestRow ? `<span class="pick" title="${esc(t("bestFor"))}">${t("bestPick")}</span>` : `<span class="score">${nf(r.score || 0, 1)}<small> /10</small></span>`}</td>`}
       ${ctaCell(r, slug, r === bestRow)}</tr>${r.note ? `<tr class="note-row"><td colspan="99">ⓘ ${esc(r.note)}</td></tr>` : ""}`).join("")
-      : `<tr><td colspan="99"><div class="empty">${V.mascot(80)}<span>${t("mNo")}</span></div></td></tr>`;
+      : `<tr><td colspan="99"><div class="empty">${V.mascot(80)}<span>${hidden > 0 ? t("noneFit") : t("mNo")}</span></div></td></tr>`;
     document.querySelectorAll("th").forEach(th => th.classList.toggle("sorted", th.dataset.k === key));
   };
   $("#flt").oninput = draw;
