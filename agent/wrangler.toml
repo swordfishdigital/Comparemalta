@@ -3,7 +3,7 @@ main = "worker.js"
 compatibility_date = "2026-11-01"
 
 [vars]
-SITE_URL = "https://comparemalta.ai"
+SITE_URL = "https://swordfishdigital.github.io/Comparemalta"  # switch to https://comparemalta.ai once the domain points at the site
 ALLOWED_ORIGINS = "https://comparemalta.ai,https://www.comparemalta.ai,https://swordfishdigital.github.io"
 MODEL = "claude-sonnet-5-5"
 
