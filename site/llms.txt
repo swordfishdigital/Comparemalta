@@ -2,7 +2,7 @@
 
 > Malta's AI comparison site. Independent, daily-refreshed comparisons of bank accounts, savings, loans, mortgages, credit cards, business accounts, POS and card payments, fintech, money transfer, mobile and broadband plans, insurance, investing and restaurants in Malta, in English, Maltese and Italian. Every figure comes from the provider's own website; rankings use a published Blue score (0-10) and cannot be bought.
 
-Last updated: 2026-11-22T16:37:19+00:00
+Last updated: 2026-11-22T17:04:27+00:00
 
 Ask Blue, the site's AI assistant, answers questions from the same data at https://comparemalta.ai/#ask .
 
