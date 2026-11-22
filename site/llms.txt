@@ -2,7 +2,7 @@
 
 > Malta's AI comparison site. Independent, daily-refreshed comparisons of bank accounts, savings, loans, mortgages, credit cards, business accounts, POS and card payments, fintech, money transfer, mobile and broadband plans, insurance, investing and restaurants in Malta, in English, Maltese and Italian. Every figure comes from the provider's own website; rankings use a published Blue score (0-10) and cannot be bought.
 
-Last updated: 2026-11-21T23:41:34+00:00
+Last updated: 2026-11-22T08:21:13+00:00
 
 Ask Blue, the site's AI assistant, answers questions from the same data at https://comparemalta.ai/#ask .
 
@@ -20,7 +20,7 @@ Ask Blue, the site's AI assistant, answers questions from the same data at https
 - [FX & Currency Exchange](https://comparemalta.ai/en/fx/): Who gives you the most when you send or exchange €1,000 from Malta. Live quotes, refreshed every 6 hours and ranked by total cost against the mid-market rate (fee plus exchange-rate markup). Top pick today: Instarem EUR → USD. Markdown: https://comparemalta.ai/en/fx/index.md
 - [Mobile Plans](https://comparemalta.ai/en/telco-mobile/): GO, Epic and Melita postpaid and prepaid plans. Top pick today: Melita Mobile Unlimited. Markdown: https://comparemalta.ai/en/telco-mobile/index.md
 - [Broadband & TV](https://comparemalta.ai/en/telco-broadband/): Fibre speeds, prices and TV bundles. Top pick today: Epic Epic Fibre 1G. Markdown: https://comparemalta.ai/en/telco-broadband/index.md
-- [Insurance](https://comparemalta.ai/en/insurance/): Car, home and health insurance starting prices. Top pick today: Atlas Insurance Home Insurance. Markdown: https://comparemalta.ai/en/insurance/index.md
+- [Insurance](https://comparemalta.ai/en/insurance/): Car, home and health insurance starting prices. Top pick today: GasanMamo Motor Comprehensive. Markdown: https://comparemalta.ai/en/insurance/index.md
 - [Investing](https://comparemalta.ai/en/investing/): Brokers and apps with access to the MSE and global markets. Top pick today: Trade Republic Securities Account. Markdown: https://comparemalta.ai/en/investing/index.md
 - [Restaurants](https://comparemalta.ai/en/restaurants/): Malta & Gozo restaurants by area, cuisine and budget, with fresh picks every day. Top pick today: Kebab Factory Valletta, Msida, St Julian's and more. Markdown: https://comparemalta.ai/en/restaurants/index.md
 

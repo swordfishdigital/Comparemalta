@@ -1,10 +1,10 @@
 # Best Credit Cards in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/credit-cards/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/credit-cards/_
 
 ## Quick answer
 
-We compare 5 credit cards from 4 providers in Malta, checked 21 November 2026. Top pick: BNF Bank Visa Credit (9.1/10 Blue score). Lowest annual fee: BNF Bank Visa Credit at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 credit cards from 4 providers in Malta, checked 22 November 2026. Top pick: BNF Bank Visa Credit (9.1/10 Blue score). Lowest annual fee: BNF Bank Visa Credit at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -19,17 +19,17 @@ We compare 5 credit cards from 4 providers in Malta, checked 21 November 2026. T
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Annual fee 35%, Interest 35%, FX fee 30%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Annual fee 35%, Interest 35%, FX fee 30%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best credit cards in Malta right now?**
 
-On 21 November 2026, BNF Bank Visa Credit has the highest Blue score in our comparison (9.1/10), with annual fee of €0.
+On 22 November 2026, BNF Bank Visa Credit has the highest Blue score in our comparison (9.1/10), with annual fee of €0.
 
 **Which credit cards has the lowest annual fee?**
 
-BNF Bank Visa Credit has the lowest annual fee at €0 (checked 21 November 2026).
+BNF Bank Visa Credit has the lowest annual fee at €0 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank credit cards?**
 
@@ -37,7 +37,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Annual fee 35%,
 
 **How often are these credit cards updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 

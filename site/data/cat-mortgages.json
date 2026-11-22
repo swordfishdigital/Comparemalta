@@ -1,6 +1,6 @@
 {
  "slug": "mortgages",
- "updated": "2026-11-21T23:41:34+00:00",
+ "updated": "2026-11-22T08:21:13+00:00",
  "items": [
   {
    "provider": "APS Bank",
@@ -11,8 +11,8 @@
    "max_term": 40,
    "first_time": true,
    "url": "https://www.apsbank.com.mt",
-   "checked": "2026-11-21T23:25:12+00:00",
-   "stale": true,
+   "checked": "2026-11-22T08:21:13+00:00",
+   "stale": false,
    "source_url": "https://www.apsbank.com.mt/home-loans",
    "score": 10.0,
    "logo": "logos/apsbank.com.mt.png",
@@ -29,7 +29,7 @@
    "url": "https://www.medirect.com.mt",
    "checked": null,
    "demo": true,
-   "score": 5.6,
+   "score": 2.7,
    "logo": "logos/medirect.com.mt.png",
    "logo_light": false
   },
@@ -44,23 +44,8 @@
    "url": "https://www.bov.com",
    "checked": null,
    "demo": true,
-   "score": 5.2,
+   "score": 1.9,
    "logo": "logos/bov.com.png",
-   "logo_light": false
-  },
-  {
-   "provider": "HSBC Malta",
-   "product": "Home Loan",
-   "rate_type": "Variable",
-   "rate": 3.6,
-   "ltv": 90,
-   "max_term": 40,
-   "first_time": true,
-   "url": "https://www.hsbc.com.mt",
-   "checked": null,
-   "demo": true,
-   "score": 4.7,
-   "logo": "logos/hsbc.com.mt.png",
    "logo_light": false
   },
   {
@@ -74,8 +59,23 @@
    "url": "https://www.lombardmalta.com",
    "checked": null,
    "demo": true,
-   "score": 0.9,
+   "score": 1.5,
    "logo": null,
+   "logo_light": false
+  },
+  {
+   "provider": "HSBC Malta",
+   "product": "Home Loan",
+   "rate_type": "Variable",
+   "rate": 3.6,
+   "ltv": 90,
+   "max_term": 40,
+   "first_time": true,
+   "url": "https://www.hsbc.com.mt",
+   "checked": null,
+   "demo": true,
+   "score": 1.2,
+   "logo": "logos/hsbc.com.mt.png",
    "logo_light": false
   },
   {

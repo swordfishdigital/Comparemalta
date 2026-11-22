@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21T23:41:22+00:00",
- "date": "2026-11-21",
+ "updated": "2026-11-22T08:21:05+00:00",
+ "date": "2026-11-22",
  "picks": [
   {
    "provider": "Kebab Factory",
@@ -15,26 +15,26 @@
    "featured": true
   },
   {
-   "provider": "ION Harbour",
-   "area": "Valletta",
-   "cuisine": "Fine dining",
-   "price_level": 4,
-   "rating": 4.8,
-   "reviews": 600,
-   "highlight": "Two Michelin stars, harbour view",
-   "url": "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta",
-   "maps": "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta"
+   "provider": "Diar il-Bniet",
+   "area": "Dingli",
+   "cuisine": "Farm-to-table",
+   "price_level": 2,
+   "rating": 4.6,
+   "reviews": 2500,
+   "highlight": "Produce from its own farm",
+   "url": "https://www.google.com/maps/search/?api=1&query=Diar+il-Bniet+Dingli+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Diar+il-Bniet+Dingli+Malta"
   },
   {
-   "provider": "Commando",
-   "area": "Mellieħa",
-   "cuisine": "Modern Mediterranean",
-   "price_level": 3,
-   "rating": 4.6,
-   "reviews": 1300,
-   "highlight": "Tasting menu",
-   "url": "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta",
-   "maps": "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta"
+   "provider": "Under Grain",
+   "area": "Valletta",
+   "cuisine": "Modern European",
+   "price_level": 4,
+   "rating": 4.7,
+   "reviews": 900,
+   "highlight": "Michelin star",
+   "url": "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta"
   }
  ]
 }

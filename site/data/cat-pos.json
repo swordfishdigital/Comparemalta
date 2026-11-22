@@ -1,6 +1,6 @@
 {
  "slug": "pos",
- "updated": "2026-11-21T23:41:34+00:00",
+ "updated": "2026-11-22T08:21:13+00:00",
  "items": [
   {
    "provider": "wamo",
@@ -17,9 +17,10 @@
    "checked": "2026-11-22T00:30:00+00:00",
    "demo": false,
    "note": "0% on the first €5,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account.",
+   "offer_ends": "2026-12-31",
    "cost_5k": 19.99,
    "cost_20k": 147.49,
-   "score": 9.1,
+   "score": 9.5,
    "logo": "logos/wamo.io.png",
    "logo_light": false
   },
@@ -38,9 +39,10 @@
    "checked": "2026-11-22T00:30:00+00:00",
    "demo": false,
    "note": "0% on the first €15,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account.",
+   "offer_ends": "2026-12-31",
    "cost_5k": 49.99,
    "cost_20k": 92.49,
-   "score": 8.7,
+   "score": 9.0,
    "logo": "logos/wamo.io.png",
    "logo_light": false
   },
@@ -59,6 +61,7 @@
    "demo": false,
    "note": "Domestic and European consumer cards; commercial and international cards 2.6% + €0.02. Tap to Pay adds €0.08. Needs a Revolut Business account.",
    "free_allowance": 0,
+   "fee_pct_other": 2.6,
    "cost_5k": 48.0,
    "cost_20k": 184.0,
    "score": 6.2,
@@ -80,9 +83,10 @@
    "demo": false,
    "note": "Domestic and EEA consumer cards; other cards 2.49%.",
    "free_allowance": 0,
+   "fee_pct_other": 2.49,
    "cost_5k": 83.5,
    "cost_20k": 277.0,
-   "score": 6.1,
+   "score": 5.9,
    "logo": "logos/mypos.com.png",
    "logo_light": false
   },
@@ -103,7 +107,7 @@
    "free_allowance": 0,
    "cost_5k": 84.5,
    "cost_20k": 338.0,
-   "score": 5.8,
+   "score": 5.7,
    "logo": "logos/viva.com.png",
    "logo_light": false,
    "url_ok": false
@@ -123,9 +127,10 @@
    "demo": false,
    "note": "1.29% on EEA debit and credit cards; Amex and premium cards 2.75%. Pays off above about €2,600 a month.",
    "free_allowance": 0,
+   "fee_pct_other": 2.75,
    "cost_5k": 93.5,
    "cost_20k": 287.0,
-   "score": 5.7,
+   "score": 5.4,
    "logo": "logos/sumup.com.png",
    "logo_light": false
   },
@@ -144,9 +149,10 @@
    "demo": false,
    "note": "Domestic and EEA consumer cards; other cards 2.49%.",
    "free_allowance": 0,
+   "fee_pct_other": 2.49,
    "cost_5k": 98.5,
    "cost_20k": 277.0,
-   "score": 5.7,
+   "score": 5.4,
    "logo": "logos/mypos.com.png",
    "logo_light": false
   },
@@ -165,9 +171,10 @@
    "demo": false,
    "note": "Domestic and EEA consumer cards; other cards incl. Amex 2.69%. Instant settlement to your myPOS account.",
    "free_allowance": 0,
+   "fee_pct_other": 2.69,
    "cost_5k": 84.5,
    "cost_20k": 338.0,
-   "score": 5.4,
+   "score": 5.3,
    "logo": "logos/mypos.com.png",
    "logo_light": false
   },
@@ -188,7 +195,7 @@
    "free_allowance": 0,
    "cost_5k": 110.0,
    "cost_20k": 400.0,
-   "score": 4.3,
+   "score": 3.6,
    "logo": "logos/stripe.com.png",
    "logo_light": false
   },
@@ -207,9 +214,10 @@
    "demo": false,
    "note": "Same 2.75% on every card; reader is a one-off cost (Solo Lite, excl. VAT).",
    "free_allowance": 0,
+   "fee_pct_other": 2.75,
    "cost_5k": 137.5,
    "cost_20k": 550.0,
-   "score": 2.1,
+   "score": 1.6,
    "logo": "logos/sumup.com.png",
    "logo_light": false
   }

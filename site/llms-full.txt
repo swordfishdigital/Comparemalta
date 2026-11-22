@@ -1,50 +1,50 @@
 # CompareMalta.ai: all current comparisons
 
-Generated 2026-11-21T23:41:34+00:00. Source: https://comparemalta.ai
+Generated 2026-11-22T08:21:13+00:00. Source: https://comparemalta.ai
 
 # Best Business Accounts in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/business-accounts/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/business-accounts/_
 
 ## Quick answer
 
-We compare 8 business accounts from 8 providers in Malta, checked 21 November 2026. Top pick: wamo wamo Business (10.0/10 Blue score). Lowest monthly fee: wamo wamo Business at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 8 business accounts from 8 providers in Malta, checked 22 November 2026. Top pick: wamo wamo Business (10.0/10 Blue score). Lowest monthly fee: wamo wamo Business at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
 | Provider | Product | Monthly fee | SEPA transfer | Multi-currency | Onboarding (days) | Licence | Blue score |
 |---|---|---|---|---|---|---|---|
 | wamo | wamo Business | €0 | €0 | ✓ | 1 | EMI (FIN-FSA) | 10.0 |
-| Wise Business | Business Account | €0 | €0.50 | ✓ | 3 | EMI (Belgium) | 9.2 |
-| Finom | Start | €0 | €0 | ✕ | 2 | EMI (Netherlands) | 7.9 |
-| Revolut Business | Basic | €10.00 | €0 | ✓ | 2 | Bank (Lithuania) | 6.4 |
-| BNF Bank | Business Current | €4.00 | €0.75 | ✓ | 20 | Bank (MFSA) | 6.0 |
-| Bank of Valletta | Business Current Account | €6.00 | €1.50 | ✓ | 21 | Bank (MFSA) | 4.2 |
-| APS Bank | Business Account | €5.00 | €1.00 | ✕ | 21 | Bank (MFSA) | 3.2 |
-| HSBC Malta | Business Banking | €10.00 | €1.00 | ✓ | 30 | Bank (MFSA) | 2.7 |
+| Finom | Start | €0 | €0 | ✕ | 2 | EMI (Netherlands) | 9.9 |
+| Wise Business | Business Account | €0 | €0.50 | ✓ | 3 | EMI (Belgium) | 8.9 |
+| BNF Bank | Business Current | €4.00 | €0.75 | ✓ | 20 | Bank (MFSA) | 5.2 |
+| Revolut Business | Basic | €10.00 | €0 | ✓ | 2 | Bank (Lithuania) | 4.9 |
+| APS Bank | Business Account | €5.00 | €1.00 | ✕ | 21 | Bank (MFSA) | 4.1 |
+| Bank of Valletta | Business Current Account | €6.00 | €1.50 | ✓ | 21 | Bank (MFSA) | 2.6 |
+| HSBC Malta | Business Banking | €10.00 | €1.00 | ✓ | 30 | Bank (MFSA) | 1.0 |
 
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Monthly fee 35%, SEPA transfer 20%, Onboarding (days) 25%, Multi-currency 20%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Monthly fee 50%, SEPA transfer 30%, Onboarding (days) 20%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best business accounts in Malta right now?**
 
-On 21 November 2026, wamo wamo Business has the highest Blue score in our comparison (10.0/10), with monthly fee of €0.
+On 22 November 2026, wamo wamo Business has the highest Blue score in our comparison (10.0/10), with monthly fee of €0.
 
 **Which business accounts has the lowest monthly fee?**
 
-wamo wamo Business has the lowest monthly fee at €0 (checked 21 November 2026).
+wamo wamo Business has the lowest monthly fee at €0 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank business accounts?**
 
-Every product gets a Blue score from 0 to 10 from these weights: Monthly fee 35%, SEPA transfer 20%, Onboarding (days) 25%, Multi-currency 20%. Rankings are independent and cannot be bought.
+Every product gets a Blue score from 0 to 10 from these weights: Monthly fee 50%, SEPA transfer 30%, Onboarding (days) 20%. Rankings are independent and cannot be bought.
 
 **How often are these business accounts updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -60,26 +60,26 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best POS & Card Payments in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/pos/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/pos/_
 
 ## Quick answer
 
-We compare 10 POS & card payments from 6 providers in Malta, checked 21 November 2026. Top pick: wamo Start (company) (9.1/10 Blue score). Lowest cost at €5k sales: wamo Start (company) at €19.99.
+We compare 10 POS & card payments from 6 providers in Malta, checked 22 November 2026. Top pick: wamo Start (company) (9.5/10 Blue score). Lowest cost at €5k sales: wamo Start (company) at €19.99.
 
 ## Full comparison
 
 | Provider | Product | Cost at €5k sales | Cost at €20k sales | Card fee | Fee-free sales / month | Per sale | Monthly fee | Device from | Tap to Pay on phone | Payout | Blue score |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| wamo | Start (company) | €19.99 | €147.49 | 0.85% | €5,000 | €0 | €19.99 | €0 | - | Next day | 9.1 |
-| wamo | Grow (company) | €49.99 | €92.49 | 0.85% | €15,000 | €0 | €49.99 | €0 | - | Next day | 8.7 |
+| wamo | Start (company) | €19.99 | €147.49 | 0.85% | €5,000 | €0 | €19.99 | €0 | - | Next day | 9.5 |
+| wamo | Grow (company) | €49.99 | €92.49 | 0.85% | €15,000 | €0 | €49.99 | €0 | - | Next day | 9.0 |
 | Revolut Business | Terminal / Tap to Pay | €48.00 | €184.00 | 0.80% | €0 | €0.02 | €0 | €189.00 | ✓ | Next day | 6.2 |
-| myPOS | Plus | €83.50 | €277.00 | 1.29% | €0 | €0 | €19.00 | - | ✓ | Instant | 6.1 |
-| Viva.com | Standard pricing | €84.50 | €338.00 | 1.69% | €0 | €0 | €0 | €0 | ✓ | Instant | 5.8 |
-| SumUp | Payments Plus | €93.50 | €287.00 | 1.29% | €0 | €0 | €29.00 | €34.00 | - | 2-3 days | 5.7 |
-| myPOS | Pro | €98.50 | €277.00 | 1.19% | €0 | €0 | €39.00 | - | ✓ | Instant | 5.7 |
-| myPOS | One | €84.50 | €338.00 | 1.69% | €0 | €0 | €0 | - | ✓ | Instant | 5.4 |
-| Stripe | Terminal | €110.00 | €400.00 | 1.40% | €0 | €0.10 | €0 | €59.00 | ✓ | Daily | 4.3 |
-| SumUp | Pay as you go | €137.50 | €550.00 | 2.75% | €0 | €0 | €0 | €34.00 | - | 2-3 days | 2.1 |
+| myPOS | Plus | €83.50 | €277.00 | 1.29% | €0 | €0 | €19.00 | - | ✓ | Instant | 5.9 |
+| Viva.com | Standard pricing | €84.50 | €338.00 | 1.69% | €0 | €0 | €0 | €0 | ✓ | Instant | 5.7 |
+| SumUp | Payments Plus | €93.50 | €287.00 | 1.29% | €0 | €0 | €29.00 | €34.00 | - | 2-3 days | 5.4 |
+| myPOS | Pro | €98.50 | €277.00 | 1.19% | €0 | €0 | €39.00 | - | ✓ | Instant | 5.4 |
+| myPOS | One | €84.50 | €338.00 | 1.69% | €0 | €0 | €0 | - | ✓ | Instant | 5.3 |
+| Stripe | Terminal | €110.00 | €400.00 | 1.40% | €0 | €0.10 | €0 | €59.00 | ✓ | Daily | 3.6 |
+| SumUp | Pay as you go | €137.50 | €550.00 | 2.75% | €0 | €0 | €0 | €34.00 | - | 2-3 days | 1.6 |
 
 - wamo Start (company): 0% on the first €5,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account.
 - wamo Grow (company): 0% on the first €15,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account.
@@ -94,25 +94,25 @@ We compare 10 POS & card payments from 6 providers in Malta, checked 21 November
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Cost at €5k sales 30%, Cost at €20k sales 30%, Card fee 10%, Device from 20%, Tap to Pay on phone 10%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Cost at €5k sales 40%, Cost at €20k sales 40%, Device from 20%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best POS & card payments in Malta right now?**
 
-On 21 November 2026, wamo Start (company) has the highest Blue score in our comparison (9.1/10), with cost at €5k sales of €19.99.
+On 22 November 2026, wamo Start (company) has the highest Blue score in our comparison (9.5/10), with cost at €5k sales of €19.99.
 
 **Which POS & card payments has the lowest cost at €5k sales?**
 
-wamo Start (company) has the lowest cost at €5k sales at €19.99 (checked 21 November 2026).
+wamo Start (company) has the lowest cost at €5k sales at €19.99 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank POS & card payments?**
 
-Every product gets a Blue score from 0 to 10 from these weights: Cost at €5k sales 30%, Cost at €20k sales 30%, Card fee 10%, Device from 20%, Tap to Pay on phone 10%. Rankings are independent and cannot be bought.
+Every product gets a Blue score from 0 to 10 from these weights: Cost at €5k sales 40%, Cost at €20k sales 40%, Device from 20%. Rankings are independent and cannot be bought.
 
 **How often are these POS & card payments updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -126,11 +126,11 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Current Accounts in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/bank-accounts/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/bank-accounts/_
 
 ## Quick answer
 
-We compare 6 current accounts from 6 providers in Malta, checked 21 November 2026. Top pick: MeDirect Current Account (10.0/10 Blue score). Lowest monthly fee: MeDirect Current Account at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 6 current accounts from 6 providers in Malta, checked 22 November 2026. Top pick: MeDirect Current Account (10.0/10 Blue score). Lowest monthly fee: MeDirect Current Account at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -146,17 +146,17 @@ We compare 6 current accounts from 6 providers in Malta, checked 21 November 202
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Monthly fee 40%, Card fee / yr 30%, ATM abroad 30%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Monthly fee 40%, Card fee / yr 30%, ATM abroad 30%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best current accounts in Malta right now?**
 
-On 21 November 2026, MeDirect Current Account has the highest Blue score in our comparison (10.0/10), with monthly fee of €0.
+On 22 November 2026, MeDirect Current Account has the highest Blue score in our comparison (10.0/10), with monthly fee of €0.
 
 **Which current accounts has the lowest monthly fee?**
 
-MeDirect Current Account has the lowest monthly fee at €0 (checked 21 November 2026).
+MeDirect Current Account has the lowest monthly fee at €0 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank current accounts?**
 
@@ -164,7 +164,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Monthly fee 40%
 
 **How often are these current accounts updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -178,45 +178,41 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Savings & Term Deposits in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/savings/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/savings/_
 
 ## Quick answer
 
-We compare 6 savings & term deposits from 6 providers in Malta, checked 21 November 2026. Top pick: MeDirect Fixed Term 12M (9.8/10 Blue score). Highest rate: MeDirect Fixed Term 12M at 2.60%. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 6 savings & term deposits from 6 providers in Malta, checked 22 November 2026. Top pick for each option: 12 months: MeDirect Fixed Term 12M (2.60%); 24 months: Lombard Bank Term Deposit 24M (2.40%). Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
 | Provider | Product | Rate | Access | Term (months) | Min. deposit | Blue score |
 |---|---|---|---|---|---|---|
-| MeDirect | Fixed Term 12M | 2.60% | Fixed term | 12 | €1,000 | 9.8 |
-| Lombard Bank | Term Deposit 24M | 2.40% | Fixed term | 24 | €2,500 | 7.7 |
-| BNF Bank | Term Deposit 12M | 2.10% | Fixed term | 12 | €500 | 6.4 |
-| APS Bank | Fixed Term 12M | 2.00% | Fixed term | 12 | €1,000 | 5.4 |
-| Bank of Valletta | Term Deposit 12M | 1.50% | Fixed term | 12 | €1,000 | 1.8 |
-| HSBC Malta | Fixed Deposit 12M | 1.60% | Fixed term | 12 | €5,000 | 0.7 |
+| MeDirect | Fixed Term 12M | 2.60% | Fixed term | 12 | €1,000 | 10.0 |
+| Lombard Bank | Term Deposit 24M | 2.40% | Fixed term | 24 | €2,500 | 8.2 |
+| BNF Bank | Term Deposit 12M | 2.10% | Fixed term | 12 | €500 | 5.5 |
+| APS Bank | Fixed Term 12M | 2.00% | Fixed term | 12 | €1,000 | 4.5 |
+| HSBC Malta | Fixed Deposit 12M | 1.60% | Fixed term | 12 | €5,000 | 0.9 |
+| Bank of Valletta | Term Deposit 12M | 1.50% | Fixed term | 12 | €1,000 | 0.0 |
 
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Rate 80%, Min. deposit 20%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Rate 100%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best savings & term deposits in Malta right now?**
 
-On 21 November 2026, MeDirect Fixed Term 12M has the highest Blue score in our comparison (9.8/10), with rate of 2.60%.
-
-**Which savings & term deposits has the highest rate?**
-
-MeDirect Fixed Term 12M has the highest rate at 2.60% (checked 21 November 2026).
+Top pick for each option: 12 months: MeDirect Fixed Term 12M (2.60%); 24 months: Lombard Bank Term Deposit 24M (2.40%). On 22 November 2026, MeDirect Fixed Term 12M has the highest Blue score in our comparison (10.0/10), with rate of 2.60%.
 
 **How does CompareMalta.ai rank savings & term deposits?**
 
-Every product gets a Blue score from 0 to 10 from these weights: Rate 80%, Min. deposit 20%. Rankings are independent and cannot be bought.
+Every product gets a Blue score from 0 to 10 from these weights: Rate 100%. Rankings are independent and cannot be bought.
 
 **How often are these savings & term deposits updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -230,44 +226,44 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Personal Loans in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/personal-loans/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/personal-loans/_
 
 ## Quick answer
 
-We compare 5 personal loans from 5 providers in Malta, checked 21 November 2026. Top pick: BNF Bank Personal Loan (8.1/10 Blue score). Lowest APRC: BNF Bank Personal Loan at 6.80%. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 personal loans from 5 providers in Malta, checked 22 November 2026. Top pick: BNF Bank Personal Loan (9.4/10 Blue score). Lowest APRC: BNF Bank Personal Loan at 6.80%. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
 | Provider | Product | Interest | APRC | Max amount | Max term (yrs) | Fees | Blue score |
 |---|---|---|---|---|---|---|---|
-| BNF Bank | Personal Loan | 6.25% | 6.80% | €50,000 | 8 | €50.00 | 8.1 |
-| APS Bank | Personal Loan | 6.50% | 6.95% | €50,000 | 10 | €50.00 | 7.9 |
-| Lombard Bank | Personal Loan | 6.50% | 7.00% | €40,000 | 7 | €40.00 | 6.0 |
-| Bank of Valletta | Personal Loan | 6.75% | 7.20% | €75,000 | 10 | €60.00 | 4.9 |
-| HSBC Malta | Personal Loan | 6.90% | 7.40% | €60,000 | 10 | €75.00 | 2.0 |
+| BNF Bank | Personal Loan | 6.25% | 6.80% | €50,000 | 8 | €50.00 | 9.4 |
+| APS Bank | Personal Loan | 6.50% | 6.95% | €50,000 | 10 | €50.00 | 7.4 |
+| Lombard Bank | Personal Loan | 6.50% | 7.00% | €40,000 | 7 | €40.00 | 7.3 |
+| Bank of Valletta | Personal Loan | 6.75% | 7.20% | €75,000 | 10 | €60.00 | 3.5 |
+| HSBC Malta | Personal Loan | 6.90% | 7.40% | €60,000 | 10 | €75.00 | 0.0 |
 
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: APRC 60%, Fees 20%, Max term (yrs) 20%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: APRC 80%, Fees 20%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best personal loans in Malta right now?**
 
-On 21 November 2026, BNF Bank Personal Loan has the highest Blue score in our comparison (8.1/10), with APRC of 6.80%.
+On 22 November 2026, BNF Bank Personal Loan has the highest Blue score in our comparison (9.4/10), with APRC of 6.80%.
 
 **Which personal loans has the lowest APRC?**
 
-BNF Bank Personal Loan has the lowest APRC at 6.80% (checked 21 November 2026).
+BNF Bank Personal Loan has the lowest APRC at 6.80% (checked 22 November 2026).
 
 **How does CompareMalta.ai rank personal loans?**
 
-Every product gets a Blue score from 0 to 10 from these weights: APRC 60%, Fees 20%, Max term (yrs) 20%. Rankings are independent and cannot be bought.
+Every product gets a Blue score from 0 to 10 from these weights: APRC 80%, Fees 20%. Rankings are independent and cannot be bought.
 
 **How often are these personal loans updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -280,45 +276,41 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Home Loans in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/mortgages/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/mortgages/_
 
 ## Quick answer
 
-We compare 6 home loans from 6 providers in Malta, checked 21 November 2026. Top pick: APS Bank Home Loan (10.0/10 Blue score). Lowest rate: APS Bank Home Loan at 2.45%. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 6 home loans from 6 providers in Malta, checked 22 November 2026. Top pick for each option: Fixed 5Y: BNF Bank Home Loan Fixed 5Y (3.75%); Variable: APS Bank Home Loan (2.45%). Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
 | Provider | Product | Type | Rate | Max LTV | Max term | First-time buyer | Blue score |
 |---|---|---|---|---|---|---|---|
 | APS Bank | Home Loan | Variable | 2.45% | 90% | 40 | ✓ | 10.0 |
-| MeDirect | Home Loan | Variable | 3.40% | 90% | 40 | ✓ | 5.6 |
-| Bank of Valletta | Home Loan | Variable | 3.50% | 90% | 40 | ✓ | 5.2 |
-| HSBC Malta | Home Loan | Variable | 3.60% | 90% | 40 | ✓ | 4.7 |
-| Lombard Bank | Home Loan | Variable | 3.55% | 85% | 35 | ✓ | 0.9 |
+| MeDirect | Home Loan | Variable | 3.40% | 90% | 40 | ✓ | 2.7 |
+| Bank of Valletta | Home Loan | Variable | 3.50% | 90% | 40 | ✓ | 1.9 |
+| Lombard Bank | Home Loan | Variable | 3.55% | 85% | 35 | ✓ | 1.5 |
+| HSBC Malta | Home Loan | Variable | 3.60% | 90% | 40 | ✓ | 1.2 |
 | BNF Bank | Home Loan Fixed 5Y | Fixed 5Y | 3.75% | 85% | 35 | ✕ | 0.0 |
 
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Rate 60%, Max LTV 20%, Max term 20%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Rate 100%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best home loans in Malta right now?**
 
-On 21 November 2026, APS Bank Home Loan has the highest Blue score in our comparison (10.0/10), with rate of 2.45%.
-
-**Which home loans has the lowest rate?**
-
-APS Bank Home Loan has the lowest rate at 2.45% (checked 21 November 2026).
+Top pick for each option: Fixed 5Y: BNF Bank Home Loan Fixed 5Y (3.75%); Variable: APS Bank Home Loan (2.45%). On 22 November 2026, APS Bank Home Loan has the highest Blue score in our comparison (10.0/10), with rate of 2.45%.
 
 **How does CompareMalta.ai rank home loans?**
 
-Every product gets a Blue score from 0 to 10 from these weights: Rate 60%, Max LTV 20%, Max term 20%. Rankings are independent and cannot be bought.
+Every product gets a Blue score from 0 to 10 from these weights: Rate 100%. Rankings are independent and cannot be bought.
 
 **How often are these home loans updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -332,11 +324,11 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Credit Cards in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/credit-cards/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/credit-cards/_
 
 ## Quick answer
 
-We compare 5 credit cards from 4 providers in Malta, checked 21 November 2026. Top pick: BNF Bank Visa Credit (9.1/10 Blue score). Lowest annual fee: BNF Bank Visa Credit at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 credit cards from 4 providers in Malta, checked 22 November 2026. Top pick: BNF Bank Visa Credit (9.1/10 Blue score). Lowest annual fee: BNF Bank Visa Credit at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -351,17 +343,17 @@ We compare 5 credit cards from 4 providers in Malta, checked 21 November 2026. T
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Annual fee 35%, Interest 35%, FX fee 30%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Annual fee 35%, Interest 35%, FX fee 30%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best credit cards in Malta right now?**
 
-On 21 November 2026, BNF Bank Visa Credit has the highest Blue score in our comparison (9.1/10), with annual fee of €0.
+On 22 November 2026, BNF Bank Visa Credit has the highest Blue score in our comparison (9.1/10), with annual fee of €0.
 
 **Which credit cards has the lowest annual fee?**
 
-BNF Bank Visa Credit has the lowest annual fee at €0 (checked 21 November 2026).
+BNF Bank Visa Credit has the lowest annual fee at €0 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank credit cards?**
 
@@ -369,7 +361,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Annual fee 35%,
 
 **How often are these credit cards updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -381,11 +373,11 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Fintech Apps in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/fintech/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/fintech/_
 
 ## Quick answer
 
-We compare 5 fintech apps from 4 providers in Malta, checked 21 November 2026. Top pick: N26 Standard (10.0/10 Blue score). Lowest monthly fee: N26 Standard at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 fintech apps from 4 providers in Malta, checked 22 November 2026. Top pick: N26 Standard (10.0/10 Blue score). Lowest monthly fee: N26 Standard at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -400,17 +392,17 @@ We compare 5 fintech apps from 4 providers in Malta, checked 21 November 2026. T
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Monthly fee 50%, FX markup 50%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Monthly fee 50%, FX markup 50%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best fintech apps in Malta right now?**
 
-On 21 November 2026, N26 Standard has the highest Blue score in our comparison (10.0/10), with monthly fee of €0.
+On 22 November 2026, N26 Standard has the highest Blue score in our comparison (10.0/10), with monthly fee of €0.
 
 **Which fintech apps has the lowest monthly fee?**
 
-N26 Standard has the lowest monthly fee at €0 (checked 21 November 2026).
+N26 Standard has the lowest monthly fee at €0 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank fintech apps?**
 
@@ -418,7 +410,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Monthly fee 50%
 
 **How often are these fintech apps updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -430,11 +422,11 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Money Transfer in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/money-transfer/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/money-transfer/_
 
 ## Quick answer
 
-We compare 6 money transfer from 5 providers in Malta, checked 21 November 2026. Top pick: wamo (9.2/10 Blue score). Lowest fee: wamo at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 6 money transfer from 5 providers in Malta, checked 22 November 2026. Top pick: wamo (9.2/10 Blue score). Lowest fee: wamo at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -450,17 +442,17 @@ We compare 6 money transfer from 5 providers in Malta, checked 21 November 2026.
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Fee 50%, FX margin 50%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Fee 50%, FX margin 50%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best money transfer in Malta right now?**
 
-On 21 November 2026, wamo has the highest Blue score in our comparison (9.2/10), with fee of €0.
+On 22 November 2026, wamo has the highest Blue score in our comparison (9.2/10), with fee of €0.
 
 **Which money transfer has the lowest fee?**
 
-wamo has the lowest fee at €0 (checked 21 November 2026).
+wamo has the lowest fee at €0 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank money transfer?**
 
@@ -468,7 +460,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Fee 50%, FX mar
 
 **How often are these money transfer updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -485,7 +477,7 @@ _Updated 22 November 2026 · https://comparemalta.ai/en/fx/_
 
 ## Quick answer
 
-We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 November 2026. Top pick: Instarem EUR → USD (10.0/10 Blue score). Lowest total cost: Instarem EUR → USD at 0.53%.
+We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 November 2026. Top pick for each option: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Instarem EUR → GBP (0.62%); EUR → INR: WorldRemit EUR → INR (0.63%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Remitly EUR → PHP (0.70%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%).
 
 ## Full comparison
 
@@ -533,11 +525,11 @@ We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 Nove
 | PayPal | EUR → PHP | 66,592.93 | 5.02% | €3.99 | 66.8597 | 4.64% | - | 3.5 |
 | OFX | EUR → PHP | 66,367.32 | 5.34% | €10.00 | 67.0377 | 4.38% | - | 3.0 |
 | WorldRemit | EUR → INR | 101,018.57 | 0.63% | €1.99 | 101.2200 | 0.43% | - | 9.9 |
-| Remitly | EUR → INR | 100,997.11 | 0.65% | €2.99 | 101.3000 | 0.35% | - | 9.8 |
 | Instarem | EUR → INR | 101,000.90 | 0.64% | €0 | 101.0009 | 0.64% | - | 9.8 |
 | Wise | EUR → INR | 100,973.91 | 0.67% | €6.70 | 101.6550 | 0.00% | Minutes | 9.8 |
-| Skrill | EUR → INR | 100,883.00 | 0.76% | €0 | 100.8830 | 0.76% | - | 9.7 |
+| Remitly | EUR → INR | 100,997.11 | 0.65% | €2.99 | 101.3000 | 0.35% | - | 9.8 |
 | MoneyGram | EUR → INR | 100,887.07 | 0.76% | €1.99 | 101.0882 | 0.56% | - | 9.7 |
+| Skrill | EUR → INR | 100,883.00 | 0.76% | €0 | 100.8830 | 0.76% | - | 9.7 |
 | Western Union | EUR → INR | 100,753.94 | 0.89% | €2.99 | 101.0561 | 0.59% | - | 9.5 |
 | Xoom | EUR → INR | 100,388.10 | 1.25% | €0 | 100.3881 | 1.25% | - | 9.0 |
 | OFX | EUR → INR | 97,028.71 | 4.55% | €10.00 | 98.0088 | 3.59% | - | 4.1 |
@@ -551,7 +543,7 @@ We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 Nove
 | Instarem | EUR → AUD | 1,645.80 | 0.64% | €0 | 1.6458 | 0.64% | - | 9.8 |
 | Western Union | EUR → AUD | 1,636.35 | 1.21% | €2.99 | 1.6413 | 0.92% | - | 9.0 |
 | Remitly | EUR → AUD | 1,627.52 | 1.74% | €2.99 | 1.6324 | 1.45% | - | 8.2 |
-| Xoom | EUR → AUD | 1,624.86 | 1.91% | €1.99 | 1.6281 | 1.71% | - | 8.0 |
+| Xoom | EUR → AUD | 1,624.96 | 1.90% | €1.99 | 1.6282 | 1.70% | - | 8.0 |
 | Skrill | EUR → AUD | 1,622.60 | 2.04% | €0 | 1.6226 | 2.04% | - | 7.8 |
 | MoneyGram | EUR → AUD | 1,622.04 | 2.08% | €3.99 | 1.6285 | 1.68% | - | 7.7 |
 | OFX | EUR → AUD | 1,603.30 | 3.21% | €10.00 | 1.6195 | 2.23% | - | 6.1 |
@@ -560,17 +552,13 @@ We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 Nove
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Total cost 100%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Total cost 100%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best FX & currency exchange in Malta right now?**
 
-On 22 November 2026, Instarem EUR → USD has the highest Blue score in our comparison (10.0/10), with total cost of 0.53%.
-
-**Which FX & currency exchange has the lowest total cost?**
-
-Instarem EUR → USD has the lowest total cost at 0.53% (checked 22 November 2026).
+Top pick for each option: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Instarem EUR → GBP (0.62%); EUR → INR: WorldRemit EUR → INR (0.63%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Remitly EUR → PHP (0.70%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%). On 22 November 2026, Instarem EUR → USD has the highest Blue score in our comparison (10.0/10), with total cost of 0.53%.
 
 **How does CompareMalta.ai rank FX & currency exchange?**
 
@@ -587,11 +575,11 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Mobile Plans in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/telco-mobile/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/telco-mobile/_
 
 ## Quick answer
 
-We compare 6 mobile plans from 3 providers in Malta, checked 21 November 2026. Top pick: Melita Mobile Unlimited (5.1/10 Blue score). Lowest per month: Epic Epic 10 at €10.00. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 6 mobile plans from 3 providers in Malta, checked 22 November 2026. Top pick: Melita Mobile Unlimited (5.1/10 Blue score). Lowest per month: Epic Epic 10 at €10.00. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -607,17 +595,17 @@ We compare 6 mobile plans from 3 providers in Malta, checked 21 November 2026. T
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Per month 50%, Data (GB) 35%, EU roaming (GB) 15%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Per month 50%, Data (GB) 35%, EU roaming (GB) 15%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best mobile plans in Malta right now?**
 
-On 21 November 2026, Melita Mobile Unlimited has the highest Blue score in our comparison (5.1/10), with per month of €28.00.
+On 22 November 2026, Melita Mobile Unlimited has the highest Blue score in our comparison (5.1/10), with per month of €28.00.
 
 **Which mobile plans has the lowest per month?**
 
-Epic Epic 10 has the lowest per month at €10.00 (checked 21 November 2026).
+Epic Epic 10 has the lowest per month at €10.00 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank mobile plans?**
 
@@ -625,7 +613,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Per month 50%, 
 
 **How often are these mobile plans updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -636,11 +624,11 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Broadband & TV in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/telco-broadband/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/telco-broadband/_
 
 ## Quick answer
 
-We compare 5 broadband & TV from 3 providers in Malta, checked 21 November 2026. Top pick: Epic Epic Fibre 1G (9.1/10 Blue score). Lowest per month: Melita Internet 500 at €35.00. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 broadband & TV from 3 providers in Malta, checked 22 November 2026. Top pick: Epic Epic Fibre 1G (9.1/10 Blue score). Lowest per month: Melita Internet 500 at €35.00. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -655,17 +643,17 @@ We compare 5 broadband & TV from 3 providers in Malta, checked 21 November 2026.
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Per month 50%, Speed (Mbps) 50%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Per month 50%, Speed (Mbps) 50%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best broadband & TV in Malta right now?**
 
-On 21 November 2026, Epic Epic Fibre 1G has the highest Blue score in our comparison (9.1/10), with per month of €39.00.
+On 22 November 2026, Epic Epic Fibre 1G has the highest Blue score in our comparison (9.1/10), with per month of €39.00.
 
 **Which broadband & TV has the lowest per month?**
 
-Melita Internet 500 has the lowest per month at €35.00 (checked 21 November 2026).
+Melita Internet 500 has the lowest per month at €35.00 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank broadband & TV?**
 
@@ -673,7 +661,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Per month 50%, 
 
 **How often are these broadband & TV updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -684,44 +672,36 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Insurance in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/insurance/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/insurance/_
 
 ## Quick answer
 
-We compare 5 insurance from 5 providers in Malta, checked 21 November 2026. Top pick: Atlas Insurance Home Insurance (10.0/10 Blue score). Lowest from / yr: Atlas Insurance Home Insurance at €120. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 insurance from 5 providers in Malta, checked 22 November 2026. Lowest starting price by type: Car: Elmo Insurance Motor Insurance (€310); Health: Bupa Malta Health Insurance (€450); Home: Atlas Insurance Home Insurance (€120). Insurance has no overall score: cover, excess and exclusions differ, so compare the policy wording, not only the starting price. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
-| Provider | Type | Product | From / yr | Online quote | Blue score |
-|---|---|---|---|---|---|
-| Atlas Insurance | Home | Home Insurance | €120 | ✓ | 10.0 |
-| Elmo Insurance | Car | Motor Insurance | €310 | ✓ | 6.0 |
-| MAPFRE Middlesea | Car | Motor Insurance | €330 | ✓ | 5.5 |
-| GasanMamo | Car | Motor Comprehensive | €350 | ✓ | 5.1 |
-| Bupa Malta | Health | Health Insurance | €450 | ✕ | 0.0 |
+| Provider | Type | Product | From / yr | Online quote |
+|---|---|---|---|---|
+| GasanMamo | Car | Motor Comprehensive | €350 | ✓ |
+| MAPFRE Middlesea | Car | Motor Insurance | €330 | ✓ |
+| Atlas Insurance | Home | Home Insurance | €120 | ✓ |
+| Elmo Insurance | Car | Motor Insurance | €310 | ✓ |
+| Bupa Malta | Health | Health Insurance | €450 | ✕ |
 
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: From / yr 70%, Online quote 30%. Nobody can pay for a better position.
+Insurance has no overall score: cover, excess and exclusions differ, so compare the policy wording, not only the starting price.
 
 ## Questions and answers
 
-**What is the best insurance in Malta right now?**
-
-On 21 November 2026, Atlas Insurance Home Insurance has the highest Blue score in our comparison (10.0/10), with from / yr of €120.
-
-**Which insurance has the lowest from / yr?**
-
-Atlas Insurance Home Insurance has the lowest from / yr at €120 (checked 21 November 2026).
-
 **How does CompareMalta.ai rank insurance?**
 
-Every product gets a Blue score from 0 to 10 from these weights: From / yr 70%, Online quote 30%. Rankings are independent and cannot be bought.
+Insurance has no overall score: cover, excess and exclusions differ, so compare the policy wording, not only the starting price.
 
 **How often are these insurance updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -734,44 +714,44 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Investing in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/investing/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/investing/_
 
 ## Quick answer
 
-We compare 5 investing from 5 providers in Malta, checked 21 November 2026. Top pick: Trade Republic Securities Account (8.0/10 Blue score). Lowest trade fee: Trade Republic Securities Account at €1.00. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 investing from 5 providers in Malta, checked 22 November 2026. Top pick: Trade Republic Securities Account (10.0/10 Blue score). Lowest trade fee: Trade Republic Securities Account at €1.00. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
 | Provider | Product | Trade fee | Custody / yr | MSE access | Licence | Blue score |
 |---|---|---|---|---|---|---|
-| Trade Republic | Securities Account | €1.00 | 0.00% | ✕ | Bank (Germany) | 8.0 |
-| Interactive Brokers | IBKR Pro | €3.00 | 0.00% | ✕ | Broker (Ireland) | 7.2 |
-| MeDirect | Investment Account | €8.00 | 0.15% | ✓ | MFSA | 4.5 |
-| Calamatta Cuschieri | Trading Account | €10.00 | 0.20% | ✓ | MFSA | 2.8 |
-| Rizzo Farrugia | Stockbroking | €12.00 | 0.20% | ✓ | MFSA | 2.0 |
+| Trade Republic | Securities Account | €1.00 | 0.00% | ✕ | Bank (Germany) | 10.0 |
+| Interactive Brokers | IBKR Pro | €3.00 | 0.00% | ✕ | Broker (Ireland) | 9.0 |
+| MeDirect | Investment Account | €8.00 | 0.15% | ✓ | MFSA | 3.1 |
+| Calamatta Cuschieri | Trading Account | €10.00 | 0.20% | ✓ | MFSA | 1.0 |
+| Rizzo Farrugia | Stockbroking | €12.00 | 0.20% | ✓ | MFSA | 0.0 |
 
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Trade fee 45%, Custody / yr 35%, MSE access 20%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Trade fee 55%, Custody / yr 45%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best investing in Malta right now?**
 
-On 21 November 2026, Trade Republic Securities Account has the highest Blue score in our comparison (8.0/10), with trade fee of €1.00.
+On 22 November 2026, Trade Republic Securities Account has the highest Blue score in our comparison (10.0/10), with trade fee of €1.00.
 
 **Which investing has the lowest trade fee?**
 
-Trade Republic Securities Account has the lowest trade fee at €1.00 (checked 21 November 2026).
+Trade Republic Securities Account has the lowest trade fee at €1.00 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank investing?**
 
-Every product gets a Blue score from 0 to 10 from these weights: Trade fee 45%, Custody / yr 35%, MSE access 20%. Rankings are independent and cannot be bought.
+Every product gets a Blue score from 0 to 10 from these weights: Trade fee 55%, Custody / yr 45%. Rankings are independent and cannot be bought.
 
 **How often are these investing updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 
@@ -784,11 +764,11 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 
 # Best Restaurants in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/restaurants/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/restaurants/_
 
 ## Quick answer
 
-We compare 11 restaurants from 11 providers in Malta, checked 21 November 2026. Top pick: Kebab Factory Valletta, Msida, St Julian's and more (3.2/10 Blue score). Highest rating: ION Harbour Valletta at ★ 4.8. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 11 restaurants from 11 providers in Malta, checked 22 November 2026. Top pick: Kebab Factory Valletta, Msida, St Julian's and more (3.2/10 Blue score). Highest rating: ION Harbour Valletta at ★ 4.8. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -809,17 +789,17 @@ We compare 11 restaurants from 11 providers in Malta, checked 21 November 2026. 
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Rating 80%, reviews 20%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Rating 80%, reviews 20%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best restaurants in Malta right now?**
 
-On 21 November 2026, Kebab Factory Valletta, Msida, St Julian's and more has the highest Blue score in our comparison (3.2/10), with rating of -.
+On 22 November 2026, Kebab Factory Valletta, Msida, St Julian's and more has the highest Blue score in our comparison (3.2/10), with rating of -.
 
 **Which restaurants has the highest rating?**
 
-ION Harbour Valletta has the highest rating at ★ 4.8 (checked 21 November 2026).
+ION Harbour Valletta has the highest rating at ★ 4.8 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank restaurants?**
 
@@ -827,7 +807,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Rating 80%, rev
 
 **How often are these restaurants updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 

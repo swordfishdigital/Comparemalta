@@ -1,6 +1,6 @@
 {
  "slug": "savings",
- "updated": "2026-11-21T23:41:34+00:00",
+ "updated": "2026-11-22T08:21:13+00:00",
  "items": [
   {
    "provider": "MeDirect",
@@ -12,7 +12,7 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 9.8,
+   "score": 10.0,
    "logo": "logos/medirect.com.mt.png",
    "logo_light": false
   },
@@ -26,7 +26,7 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 7.7,
+   "score": 8.2,
    "logo": null,
    "logo_light": false
   },
@@ -40,7 +40,7 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 6.4,
+   "score": 5.5,
    "logo": "logos/bnf.bank.png",
    "logo_light": false
   },
@@ -54,22 +54,8 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 5.4,
+   "score": 4.5,
    "logo": "logos/apsbank.com.mt.png",
-   "logo_light": false
-  },
-  {
-   "provider": "Bank of Valletta",
-   "product": "Term Deposit 12M",
-   "rate": 1.5,
-   "term_months": 12,
-   "min_deposit": 1000,
-   "url": "https://www.bov.com",
-   "access": "Fixed term",
-   "checked": null,
-   "demo": true,
-   "score": 1.8,
-   "logo": "logos/bov.com.png",
    "logo_light": false
   },
   {
@@ -82,8 +68,22 @@
    "access": "Fixed term",
    "checked": null,
    "demo": true,
-   "score": 0.7,
+   "score": 0.9,
    "logo": "logos/hsbc.com.mt.png",
+   "logo_light": false
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Term Deposit 12M",
+   "rate": 1.5,
+   "term_months": 12,
+   "min_deposit": 1000,
+   "url": "https://www.bov.com",
+   "access": "Fixed term",
+   "checked": null,
+   "demo": true,
+   "score": 0.0,
+   "logo": "logos/bov.com.png",
    "logo_light": false
   }
  ]

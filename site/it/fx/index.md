@@ -4,7 +4,7 @@ _Aggiornato il 22 novembre 2026 · https://comparemalta.ai/it/fx/_
 
 ## Risposta rapida
 
-Confrontiamo 65 offerte di cambio valuta e trasferimenti di 10 fornitori a Malta, verificate il 22 novembre 2026. Prima scelta: Instarem EUR → USD (10,0/10 Blue score). Costo totale più basso: Instarem EUR → USD con 0,53%.
+Confrontiamo 65 offerte di cambio valuta e trasferimenti di 10 fornitori a Malta, verificate il 22 novembre 2026. Prima scelta per ogni opzione: EUR → AUD: Wise EUR → AUD (0,54%); EUR → CHF: Wise EUR → CHF (0,60%); EUR → GBP: Instarem EUR → GBP (0,62%); EUR → INR: WorldRemit EUR → INR (0,63%); EUR → NPR: Remitly EUR → NPR (0,57%); EUR → PHP: Remitly EUR → PHP (0,70%); EUR → TRY: Instarem EUR → TRY (0,70%); EUR → USD: Instarem EUR → USD (0,53%).
 
 ## Confronto completo
 
@@ -52,11 +52,11 @@ Confrontiamo 65 offerte di cambio valuta e trasferimenti di 10 fornitori a Malta
 | PayPal | EUR → PHP | 66.592,93 | 5,02% | €3,99 | 66,8597 | 4,64% | - | 3,5 |
 | OFX | EUR → PHP | 66.367,32 | 5,34% | €10,00 | 67,0377 | 4,38% | - | 3,0 |
 | WorldRemit | EUR → INR | 101.018,57 | 0,63% | €1,99 | 101,2200 | 0,43% | - | 9,9 |
-| Remitly | EUR → INR | 100.997,11 | 0,65% | €2,99 | 101,3000 | 0,35% | - | 9,8 |
 | Instarem | EUR → INR | 101.000,90 | 0,64% | €0 | 101,0009 | 0,64% | - | 9,8 |
 | Wise | EUR → INR | 100.973,91 | 0,67% | €6,70 | 101,6550 | 0,00% | Minutes | 9,8 |
-| Skrill | EUR → INR | 100.883,00 | 0,76% | €0 | 100,8830 | 0,76% | - | 9,7 |
+| Remitly | EUR → INR | 100.997,11 | 0,65% | €2,99 | 101,3000 | 0,35% | - | 9,8 |
 | MoneyGram | EUR → INR | 100.887,07 | 0,76% | €1,99 | 101,0882 | 0,56% | - | 9,7 |
+| Skrill | EUR → INR | 100.883,00 | 0,76% | €0 | 100,8830 | 0,76% | - | 9,7 |
 | Western Union | EUR → INR | 100.753,94 | 0,89% | €2,99 | 101,0561 | 0,59% | - | 9,5 |
 | Xoom | EUR → INR | 100.388,10 | 1,25% | €0 | 100,3881 | 1,25% | - | 9,0 |
 | OFX | EUR → INR | 97.028,71 | 4,55% | €10,00 | 98,0088 | 3,59% | - | 4,1 |
@@ -70,7 +70,7 @@ Confrontiamo 65 offerte di cambio valuta e trasferimenti di 10 fornitori a Malta
 | Instarem | EUR → AUD | 1.645,80 | 0,64% | €0 | 1,6458 | 0,64% | - | 9,8 |
 | Western Union | EUR → AUD | 1.636,35 | 1,21% | €2,99 | 1,6413 | 0,92% | - | 9,0 |
 | Remitly | EUR → AUD | 1.627,52 | 1,74% | €2,99 | 1,6324 | 1,45% | - | 8,2 |
-| Xoom | EUR → AUD | 1.624,86 | 1,91% | €1,99 | 1,6281 | 1,71% | - | 8,0 |
+| Xoom | EUR → AUD | 1.624,96 | 1,90% | €1,99 | 1,6282 | 1,70% | - | 8,0 |
 | Skrill | EUR → AUD | 1.622,60 | 2,04% | €0 | 1,6226 | 2,04% | - | 7,8 |
 | MoneyGram | EUR → AUD | 1.622,04 | 2,08% | €3,99 | 1,6285 | 1,68% | - | 7,7 |
 | OFX | EUR → AUD | 1.603,30 | 3,21% | €10,00 | 1,6195 | 2,23% | - | 6,1 |
@@ -79,17 +79,13 @@ Confrontiamo 65 offerte di cambio valuta e trasferimenti di 10 fornitori a Malta
 
 ## Come classifichiamo
 
-Il Blue score (da 0 a 10) pesa: Costo totale 100%. Nessuno può pagare per una posizione migliore.
+Prima nascondiamo i prodotti non adatti alle tue esigenze (importo, durata, anticipo, valuta) e non mettiamo mai in classifica insieme prodotti di tipo diverso; poi vince il costo totale più basso. Il Blue score (da 0 a 10) riassume questo nella vista predefinita e pesa: Costo totale 100%. Nessuno può pagare per una posizione migliore.
 
 ## Domande e risposte
 
 **Qual è la migliore offerta di cambio valuta e trasferimenti a Malta in questo momento?**
 
-Il 22 novembre 2026, Instarem EUR → USD ha il Blue score più alto del nostro confronto (10,0/10), con costo totale pari a 0,53%.
-
-**Quale offerta di cambio valuta e trasferimenti ha il valore più basso di costo totale?**
-
-Instarem EUR → USD ha il valore più basso di costo totale: 0,53% (verificato il 22 novembre 2026).
+Prima scelta per ogni opzione: EUR → AUD: Wise EUR → AUD (0,54%); EUR → CHF: Wise EUR → CHF (0,60%); EUR → GBP: Instarem EUR → GBP (0,62%); EUR → INR: WorldRemit EUR → INR (0,63%); EUR → NPR: Remitly EUR → NPR (0,57%); EUR → PHP: Remitly EUR → PHP (0,70%); EUR → TRY: Instarem EUR → TRY (0,70%); EUR → USD: Instarem EUR → USD (0,53%). Il 22 novembre 2026, Instarem EUR → USD ha il Blue score più alto del nostro confronto (10,0/10), con costo totale pari a 0,53%.
 
 **Come classifica CompareMalta.ai le offerte di cambio valuta e trasferimenti?**
 

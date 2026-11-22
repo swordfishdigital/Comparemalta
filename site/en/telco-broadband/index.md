@@ -1,10 +1,10 @@
 # Best Broadband & TV in Malta
 
-_Updated 21 November 2026 · https://comparemalta.ai/en/telco-broadband/_
+_Updated 22 November 2026 · https://comparemalta.ai/en/telco-broadband/_
 
 ## Quick answer
 
-We compare 5 broadband & TV from 3 providers in Malta, checked 21 November 2026. Top pick: Epic Epic Fibre 1G (9.1/10 Blue score). Lowest per month: Melita Internet 500 at €35.00. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 broadband & TV from 3 providers in Malta, checked 22 November 2026. Top pick: Epic Epic Fibre 1G (9.1/10 Blue score). Lowest per month: Melita Internet 500 at €35.00. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -19,17 +19,17 @@ We compare 5 broadband & TV from 3 providers in Malta, checked 21 November 2026.
 
 ## How we rank
 
-The Blue score (0 to 10) weighs: Per month 50%, Speed (Mbps) 50%. Nobody can pay for a better position.
+First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: Per month 50%, Speed (Mbps) 50%. Nobody can pay for a better position.
 
 ## Questions and answers
 
 **What is the best broadband & TV in Malta right now?**
 
-On 21 November 2026, Epic Epic Fibre 1G has the highest Blue score in our comparison (9.1/10), with per month of €39.00.
+On 22 November 2026, Epic Epic Fibre 1G has the highest Blue score in our comparison (9.1/10), with per month of €39.00.
 
 **Which broadband & TV has the lowest per month?**
 
-Melita Internet 500 has the lowest per month at €35.00 (checked 21 November 2026).
+Melita Internet 500 has the lowest per month at €35.00 (checked 22 November 2026).
 
 **How does CompareMalta.ai rank broadband & TV?**
 
@@ -37,7 +37,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Per month 50%, 
 
 **How often are these broadband & TV updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 21 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
 
 ## Sources
 

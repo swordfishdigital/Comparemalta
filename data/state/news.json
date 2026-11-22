@@ -1,27 +1,280 @@
 {
- "updated": "2026-11-22T02:48:42+00:00",
+ "updated": "2026-11-22T08:21:05+00:00",
  "items": [
   {
-   "id": "29c3082b8fe0",
-   "title": "English village votes to 'leave UK' over migrant camp plan",
-   "url": "https://timesofmalta.com/article/english-village-votes-leave-uk-migrant-camp-plan.1137483",
+   "id": "ca13ce6a11a5",
+   "title": "Belgium faces air traffic shutdown due to national strike Monday",
+   "url": "https://timesofmalta.com/article/belgium-faces-air-traffic-shutdown-due-national-strike-monday.1137487",
    "source": "Times of Malta",
-   "published": "2026-11-21T18:45:00+00:00",
-   "summary": "The small English village of Barnham, located in the county of Suffolk, votes to leave the UK in a symbolic poll protesting government plans to house hundreds of asylum seekers at a nearby former air force base. Photo: A",
-   "image": "news-img/29c3082b8fe0.jpg",
-   "topic": "Politics",
-   "image_src": "https://cdn-attachments.timesofmalta.com/5203ea9bdab1328e3a8b18e88456dfb416f0c914-1795287214-7b99c175-1920x1280.jpg"
+   "published": "2026-11-22T08:00:00+00:00",
+   "summary": "Prime Minister Bart De Wever is trying to save 10 billion euros over the next few years in a bid to reduce the country's high deficit. File photo: AFP",
+   "image": "news-img/ca13ce6a11a5.jpg",
+   "topic": "Business",
+   "image_src": "https://cdn-attachments.timesofmalta.com/27ee316b32dc936542fe44dbc759552566a0b25f-1795328882-74bb379e-1920x1280.jpg"
   },
   {
-   "id": "19b9168e83af",
-   "title": "Firefighters put out a blaze that engulfed four cars in Żabbar",
-   "url": "https://timesofmalta.com/article/firefighters-put-blaze-engulfed-four-cars-zabbar.1137481",
+   "id": "a66393f356bc",
+   "title": "Thousands Gather In Valletta To Protest Budget 2027 Measures Affecting TCNs",
+   "url": "https://lovinmalta.com/news/thousands-gather-in-valletta-to-protest-budget-2027-measures-affecting-tcns/",
+   "source": "Lovin Malta",
+   "published": "2026-11-22T07:51:21+00:00",
+   "summary": "Thousands of people gathered in Valletta on Saturday to protest against new Budget 2027 measures affecting third-country nationals (TCNs) and their families. The peaceful demonstration, organised by TCNs United, TCN Alli",
+   "image": "news-img/a66393f356bc.jpg",
+   "topic": "Business",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/FB-COVER-CHAR-6-1-1024x536.jpg"
+  },
+  {
+   "id": "ad821ba2c906",
+   "title": "Giovanni Bonello at 90: ‘Life is negotiable. Principles and values are not’",
+   "url": "https://timesofmalta.com/article/giovanni-bonello-90-life-negotiable-principles-values-not.1137471",
    "source": "Times of Malta",
-   "published": "2026-11-21T18:25:00+00:00",
-   "summary": "Photo: Civil Protection Department",
-   "image": "news-img/19b9168e83af.jpg",
+   "published": "2026-11-22T07:45:00+00:00",
+   "summary": "Former judge Giovanni Bonello turned 90 this year and is not done writing and researching. Photo: Jonathan Borg",
+   "image": "news-img/ad821ba2c906.jpg",
    "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/1849edb5511032e35a3afdaf3980f90ab972442c-1795286434-ed48aad2-1920x1280.jpg"
+   "image_src": "https://cdn-attachments.timesofmalta.com/52732a3df6d574b98bbb9b0a2544e0b2c44c521f-1795277149-4617a9d1-1920x1280.jpg"
+  },
+  {
+   "id": "3090d348518c",
+   "title": "28-Year-Old Man Grievously Injured After BMW Crashes Into Wall In Sliema",
+   "url": "https://lovinmalta.com/news/28-year-old-man-grievously-injured-after-bmw-crashes-into-wall-in-sliema/",
+   "source": "Lovin Malta",
+   "published": "2026-11-22T07:35:14+00:00",
+   "summary": "A 28-year-old man was grievously injured after a BMW crashed into a wall in Sliema in the early hours of Sunday morning. Police were informed of the accident at around 3.00am in Triq l-Imrabat, Sliema. Preliminary invest",
+   "image": "news-img/3090d348518c.jpg",
+   "topic": "Business",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/FB-COVER-CHAR-5-1024x536.jpg"
+  },
+  {
+   "id": "f431458e96e7",
+   "title": "44.4% Back Robert Abela In Trust Survey As Alex Borg Secures 36.2%",
+   "url": "https://lovinmalta.com/news/news-politics/44-4-back-robert-abela-in-trust-survey-as-alex-borg-secures-36-2/",
+   "source": "Lovin Malta",
+   "published": "2026-11-22T07:21:40+00:00",
+   "summary": "Prime Minister Robert Abela continues to lead Opposition leader Alex Borg in the latest MaltaToday trust barometer, maintaining an advantage of more than eight percentage points. According to the survey published this mo",
+   "image": "news-img/f431458e96e7.jpg",
+   "topic": "Politics",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/FB-COVER-CHAR-4-1024x536.jpg"
+  },
+  {
+   "id": "77adcb0a2ea3",
+   "title": "Almost 12,000 Votes Separate Labour And PN In First Post-Budget Survey",
+   "url": "https://lovinmalta.com/news/news-politics/almost-12000-votes-separate-labour-and-pn-in-first-post-budget-survey/",
+   "source": "Lovin Malta",
+   "published": "2026-11-22T07:08:53+00:00",
+   "summary": "The Labour Party has opened up a lead of almost 12,000 votes over the Nationalist Party, according to the latest MaltaToday survey published this morning. The first survey conducted following Budget 2027 shows Labour sec",
+   "image": "news-img/77adcb0a2ea3.jpg",
+   "topic": "Business",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/FB-COVER-CHAR-3-1024x536.jpg"
+  },
+  {
+   "id": "5f0d40db61fa",
+   "title": "November 22: The front page of Times of Malta 10, 25 and 50 years ago",
+   "url": "https://timesofmalta.com/article/november-22-front-page-times-malta-10-25-50-years-ago.1136607",
+   "source": "Times of Malta",
+   "published": "2026-11-22T07:02:00+00:00",
+   "summary": "Times of Malta through the years.",
+   "image": "news-img/5f0d40db61fa.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/036d4cedfa5506e28a1875eee70e8698a7767063-1793795216-ea319722-1920x1280.jpg"
+  },
+  {
+   "id": "39200fe1865c",
+   "title": "Today's front pages - November 22, 2026",
+   "url": "https://timesofmalta.com/article/today-front-pages-november-22-2026.1137488",
+   "source": "Times of Malta",
+   "published": "2026-11-22T06:55:00+00:00",
+   "summary": "File photo: Times of Malta",
+   "image": "news-img/39200fe1865c.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/2cee9443f0293a1a994710bc125774df94783073-1795330749-74853f65-1920x1280.jpeg"
+  },
+  {
+   "id": "c0cb9442ab9e",
+   "title": "How bad are billionaires for society?",
+   "url": "https://timesofmalta.com/article/bad-billionaires-society.1137451",
+   "source": "Times of Malta",
+   "published": "2026-11-22T06:40:00+00:00",
+   "summary": "Elon Musk and Warren Buffett: two rather different billionaires. Photos: Shutterstock",
+   "image": "news-img/c0cb9442ab9e.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/598ca506224afc801ea168aa5b39b40e046dd02f-1795243532-64d09bb9-1920x1280.jpg"
+  },
+  {
+   "id": "f4abc47f4fe2",
+   "title": "‘Bible and Beer’ event discusses family time",
+   "url": "https://timesofmalta.com/article/bible-beer-event-discusses-family-time.1137476",
+   "source": "Times of Malta",
+   "published": "2026-11-22T06:00:00+00:00",
+   "summary": "The speakers (from left) Christine Delicata, Renzo Kerr Cumbo and Anna Vella.",
+   "image": "news-img/f4abc47f4fe2.jpg",
+   "topic": "Lifestyle",
+   "image_src": "https://cdn-attachments.timesofmalta.com/e89002e2f990b23e4c56cc2cb35d3a115013eb61-1795279165-b0540129-1920x1280.jpg"
+  },
+  {
+   "id": "a0c9cc21eacf",
+   "title": "Students learn about responsibility through voluntary experience",
+   "url": "https://timesofmalta.com/article/students-learn-responsibility-voluntary-experience.1137413",
+   "source": "Times of Malta",
+   "published": "2026-11-22T06:00:00+00:00",
+   "summary": "The students accompanied by MSSP priests and college staff.",
+   "image": "news-img/a0c9cc21eacf.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/12b3706d455cd87f617200c1293b80c32ad90f52-1795178707-efda83dd-1920x1280.jpg"
+  },
+  {
+   "id": "fed48971b9fe",
+   "title": "Tiny patients, big data: How technology can transform care for sick newborns",
+   "url": "https://timesofmalta.com/article/tiny-patients-big-data-technology-transform-care-sick-newborns.1137409",
+   "source": "Times of Malta",
+   "published": "2026-11-22T06:00:00+00:00",
+   "summary": "Multi-omics tools can provide a much clearer picture of what is happening inside a newborn’s cells, helping doctors make faster and more accurate decisions. Photo: Shutterstock.com",
+   "image": "news-img/fed48971b9fe.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/01e1f3068360985be3fde188ff4b9f6969744bc3-1795176226-6a7b2b8c-1920x1280.jpg"
+  },
+  {
+   "id": "4948897f87a3",
+   "title": "From the Gospel: Lilliputians and the King of the Least",
+   "url": "https://timesofmalta.com/article/gospel-lilliputians-king-least.1137360",
+   "source": "Times of Malta",
+   "published": "2026-11-22T06:00:00+00:00",
+   "summary": "Last Judgement, by Stefan Lochner. Photo: Wikimedia Commons",
+   "image": "news-img/4948897f87a3.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/8eeb8b1e820d2901be82dfe070e828d6f31682fa-1795091246-d5f3d3c4-1920x1280.jpg"
+  },
+  {
+   "id": "16fdb9b4a0ca",
+   "title": "Christian spirituality: Grace before mastery",
+   "url": "https://timesofmalta.com/article/christian-spirituality-grace-mastery.1137358",
+   "source": "Times of Malta",
+   "published": "2026-11-22T06:00:00+00:00",
+   "summary": "Become better at accepting life. But the grace of receiving life is not passivity. It demands judgement about what to welcome, change, resist or allow to end. Master the art of letting go. Photo: Shutterstock.com",
+   "image": "news-img/16fdb9b4a0ca.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/8b637ca8f9044ef0cd8e5f304f7e33e99164f57d-1795090748-589eef52-1920x1280.jpg"
+  },
+  {
+   "id": "fa16801e9412",
+   "title": "Religious quotes and news – November 22, 2026",
+   "url": "https://timesofmalta.com/article/religious-quotes-news-november-22-2026.1137356",
+   "source": "Times of Malta",
+   "published": "2026-11-22T06:00:00+00:00",
+   "summary": "Pope Leo rides in the popemobile prior to his farewell Mass in Peru. Photo: Alfredo Estrella/AFP",
+   "image": "news-img/fa16801e9412.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/fbfa741641b4a3c76e9d63462c2fb9ae112cbfeb-1795090400-bec581e2-1920x1280.jpg"
+  },
+  {
+   "id": "6c965913fd74",
+   "title": "At 13, he lost his uncle and friend. He turned to drugs, and was homeless by 14",
+   "url": "https://timesofmalta.com/article/13-lost-uncle-friend-turned-drugs-homeless-14.1137468",
+   "source": "Times of Malta",
+   "published": "2026-11-22T05:55:00+00:00",
+   "summary": "Ġorġ being interviewed at the Times of Malta office. Now 18, he has been drug-free for more than a year and hopes sharing his story will help others struggling with addiction. Photo: Chris Sant Fournier",
+   "image": "news-img/6c965913fd74.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/67d2cb388b7f2eec162e54bbac6e032562d4859a-1795275381-aeee48c9-1920x1280.jpg"
+  },
+  {
+   "id": "d5f2776fd44c",
+   "title": "Fossil fuels still missing from latest COP31 draft deal",
+   "url": "https://timesofmalta.com/article/fossil-fuels-still-missing-latest-cop31-draft-deal.1137485",
+   "source": "Times of Malta",
+   "published": "2026-11-22T05:50:00+00:00",
+   "summary": "The latest offering by summit co-hosts Turkey and Australia leaves unresolved tensions over fossil fuels but retains a goal to electrify the global economy. Photo: AFP",
+   "image": "news-img/d5f2776fd44c.jpg",
+   "topic": "Business",
+   "image_src": "https://cdn-attachments.timesofmalta.com/1833a3a5d9021b58ee57638d3abaee3004076d65-1795326686-7ff444cd-1920x1280.jpg"
+  },
+  {
+   "id": "ea3b7e18b912",
+   "title": "Who is Rodrick Grech, the man linked to a €153m fuel fraud scheme?",
+   "url": "https://timesofmalta.com/article/rodrick-grech-man-linked-153m-fuel-fraud-scheme.1137480",
+   "source": "Times of Malta",
+   "published": "2026-11-22T05:40:00+00:00",
+   "summary": "Investigators suspect Rodrick Grech (inset) is involved in a criminal network that used a Bulgarian-registered company and 14 other shell companies in Spain to source fuel without paying VAT. Photo: Shutterstock.com/Time",
+   "image": "news-img/ea3b7e18b912.jpg",
+   "topic": "Business",
+   "image_src": "https://cdn-attachments.timesofmalta.com/6e881743bd8837375f5f545ca1887fad026ac70f-1795284433-0ef72222-1920x1280.jpg"
+  },
+  {
+   "id": "3765bbee08af",
+   "title": "Judge and magistrate to face disciplinary action",
+   "url": "https://timesofmalta.com/article/judge-magistrate-face-disciplinary-action.1137482",
+   "source": "Times of Malta",
+   "published": "2026-11-22T05:30:00+00:00",
+   "summary": "Judge Wenzu Mintoff and Magistrate Donatella Frendo Dimech are facing disciplinary proceedings over alleged ethical breaches. File photos",
+   "image": "news-img/3765bbee08af.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/4df8c8b06795e8578574a0e683e239298a4aa320-1795287214-257d2e33-1920x1280.jpg"
+  },
+  {
+   "id": "7fdfeaeb50a9",
+   "title": "Appreciation – Mgr Paul Raggio",
+   "url": "https://timesofmalta.com/article/appreciation-mgr-paul-raggio.1137474",
+   "source": "Times of Malta",
+   "published": "2026-11-22T05:30:00+00:00",
+   "summary": ".",
+   "image": "news-img/7fdfeaeb50a9.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/12d45040e4330af8fe245399160c707f5ccdfa2e-1795279356-05b8d97a-1920x1280.jpg"
+  },
+  {
+   "id": "2a50df1f8a5a",
+   "title": "Announcements – November 22, 2026",
+   "url": "https://timesofmalta.com/article/announcements-november-22-2026.1137472",
+   "source": "Times of Malta",
+   "published": "2026-11-22T05:30:00+00:00",
+   "summary": "File photo: Times of Malta",
+   "image": "news-img/2a50df1f8a5a.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/331345390632a4fc56bbf89aa89c44a7c9b5ac5c-1795277140-2a904fd1-1920x1280.jpg"
+  },
+  {
+   "id": "aeea83924e0b",
+   "title": "Editorial: Lessons learnt from the Gonzi-Sant debate",
+   "url": "https://timesofmalta.com/article/editorial-lessons-learnt-gonzisant-debate.1137459",
+   "source": "Times of Malta",
+   "published": "2026-11-22T05:30:00+00:00",
+   "summary": "Lawrence Gonzi and Alfred Sant both walked out of the Casino Maltese with their heads held high because they defended difficult choices and also acknowledged regret. Photo: Matthew Mirabelli",
+   "image": "news-img/aeea83924e0b.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/c2b70b43d09485fdd2f8b3035103335b172d36b1-1795264896-8d9bc3c7-1920x1280.jpeg"
+  },
+  {
+   "id": "82cc58e411f8",
+   "title": "UEFA’s rebellion stumbles to a halt",
+   "url": "https://timesofmalta.com/article/uefa-rebellion-stumbles-halt.1137420",
+   "source": "Times of Malta",
+   "published": "2026-11-22T05:30:00+00:00",
+   "summary": "I would dearly like Philippe Diallo (right) to give Gianni Infantino a proper contest, but it is very much looking like football will be stuck with its obnoxious bully for another four years. Photo: Franck Fife/AFP",
+   "image": "news-img/82cc58e411f8.jpg",
+   "topic": "Lifestyle",
+   "image_src": "https://cdn-attachments.timesofmalta.com/9513aede205d824507af556552b774803493e804-1795183813-b7d14872-1920x1280.jpeg"
+  },
+  {
+   "id": "1ed72ed49331",
+   "title": "Pharmacies open today – November 22, 2026",
+   "url": "https://timesofmalta.com/article/pharmacies-open-today-november-22-2026.1137417",
+   "source": "Times of Malta",
+   "published": "2026-11-22T05:30:00+00:00",
+   "summary": "Photo: Shutterstock.com",
+   "image": "news-img/1ed72ed49331.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/b4bddc52e3748ef4da3c77d19c644bfa98ab75b2-1795182938-c0a7b227-1920x1280.jpg"
+  },
+  {
+   "id": "316ae26e0506",
+   "title": "Historic Paceville townhouses to be incorporated in 11-floor hotel",
+   "url": "https://newsbook.com.mt/en/historic-paceville-townhouses-to-be-incorporated-in-11-floor-hotel/",
+   "source": "Newsbook",
+   "published": "2026-11-22T05:30:00+00:00",
+   "summary": "Two double-fronted townhouses on Paceville Avenue with distinctive façades are set to be incorporated in an 11-floor hotel after the Planning Authority issued a permit, after the Superintendence of Cultural Heritage stro",
+   "image": "news-img/316ae26e0506.jpg",
+   "topic": "Property",
+   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/20152555/pa-1190-26-ball.jpg"
   },
   {
    "id": "318be5772dd5",
@@ -46,28 +299,6 @@
    "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/21162512/Pjazza-Tritoni-Kuncert-diskorsi-u-dimostrazzjoni-pacifika-mit-TCNs-kontra-l-mizuri-tal-Bagit-2-632x420.jpeg"
   },
   {
-   "id": "badef76e3877",
-   "title": "Hundreds 'unite in Valletta against discrimination', protest TCN budget measures",
-   "url": "https://timesofmalta.com/article/hundreds-unite-valletta-discrimination-protest-tcn-budget-measures.1137477",
-   "source": "Times of Malta",
-   "published": "2026-11-21T16:50:00+00:00",
-   "summary": "The walk ended in front of parliament in Valletta. Photo: Chris Sant Fournier",
-   "image": "news-img/badef76e3877.jpg",
-   "topic": "Business",
-   "image_src": "https://cdn-attachments.timesofmalta.com/865f62e3c72eb8ece8c615f8c344c33bf11b02bb-1795280155-e0e0311a-1920x1280.jpg"
-  },
-  {
-   "id": "b0d1f62376b9",
-   "title": "MADC’s ‘Hercules’ brings heroes, monsters and mayhem to Teatru Salesjan",
-   "url": "https://timesofmalta.com/article/madc-hercules-brings-heroes-monsters-mayhem-teatru-salesjan-gree.1137484",
-   "source": "Times of Malta",
-   "published": "2026-11-21T16:00:00+00:00",
-   "summary": "Noel Zarb as the Dame in 'Hercules – The Panto'. Photo: Justin Mamo",
-   "image": "news-img/b0d1f62376b9.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/b11c3320ac47c15267577b14902aac7e6f9ba39c-1795287752-a64058a6-1920x1280.jpg"
-  },
-  {
    "id": "4273ab34f9a1",
    "title": "Malta Aims To Create Over 2,000 Gaming Jobs As PLAYCON 2026 Celebrates Sixth Edition",
    "url": "https://lovinmalta.com/news/malta-aims-to-create-over-2000-gaming-jobs-as-playcon-2026-celebrates-sixth-edition/",
@@ -77,28 +308,6 @@
    "image": "news-img/4273ab34f9a1.jpg",
    "topic": "Lifestyle",
    "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/FB-COVER-RIANA-12-1024x536.jpg"
-  },
-  {
-   "id": "69004949d00c",
-   "title": "Prioritise patients, Mercieca urges doctors in dispute over testing at clinics",
-   "url": "https://timesofmalta.com/article/prioritise-patients-mercieca-urges-doctors-dispute-testing-clinics.1137469",
-   "source": "Times of Malta",
-   "published": "2026-11-21T15:40:00+00:00",
-   "summary": "Doctors are worried patients would waste precious time at health clinics if they believe cardiac issues could be dealt with there. File photo: Shutterstock/mojo cp",
-   "image": "news-img/69004949d00c.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/2fd8aa736a1f88883e84c72d58d31cf974647928-1795279271-34776f56-1920x1280.jpg"
-  },
-  {
-   "id": "2dd5aa0c71bc",
-   "title": "Sliema resident with asthma says construction dust means he 'cannot leave home'",
-   "url": "https://timesofmalta.com/article/asthmatic-sliema-resident-cannot-leave-home-due-construction-site.1137202",
-   "source": "Times of Malta",
-   "published": "2026-11-21T15:00:00+00:00",
-   "summary": "Sliema resident Edward Psaila. Photos: Matthew Mirabelli",
-   "image": "news-img/2dd5aa0c71bc.jpg",
-   "topic": "Property",
-   "image_src": "https://cdn-attachments.timesofmalta.com/7cdfb6d8aca178cf067ed2b12c3cfe191d1e5833-1794847785-ebd597d0-1920x1280.jpg"
   },
   {
    "id": "f9f19c8ad858",
@@ -156,17 +365,6 @@
    "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-18T140624.913-1024x536.jpg"
   },
   {
-   "id": "d6c69b0d3626",
-   "title": "Decriminalise consensual sex between teens of a similar age, PL MP urges",
-   "url": "https://timesofmalta.com/article/decriminalise-consensual-sex-teens-similar-age-pl-mp-urges.1137466",
-   "source": "Times of Malta",
-   "published": "2026-11-21T13:50:00+00:00",
-   "summary": "PL MP Ramona Attard. File photo",
-   "image": "news-img/d6c69b0d3626.jpg",
-   "topic": "Politics",
-   "image_src": "https://cdn-attachments.timesofmalta.com/6f9ce0df75cd155cb3a2f24dce052566f6ba1346-1795270458-afb456a9-1920x1280.jpg"
-  },
-  {
    "id": "1198b754de7c",
    "title": "Governor warns Malta’s reliance on cheap credit and subsidies cannot hold",
    "url": "https://newsbook.com.mt/en/governor-warns-maltas-reliance-on-cheap-credit-and-subsidies-cannot-hold/",
@@ -187,39 +385,6 @@
    "image": "news-img/dd8d6b5a0f0b.jpg",
    "topic": "Business",
    "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/FB-COVER-RIANA-8-1-1024x536.jpg"
-  },
-  {
-   "id": "5f942025e129",
-   "title": "‘Josephine’ tackles sexual violence through a child’s eyes",
-   "url": "https://timesofmalta.com/article/josephine-tackles-sexual-violence-child-eyes.1137464",
-   "source": "Times of Malta",
-   "published": "2026-11-21T13:20:00+00:00",
-   "summary": "US actor Channing Tatum, US actress Mason Reeves and British actress Gemma Chan attending the LA premiere of Josephine at DGA Theatre in Los Angeles. Photo: Frederic J. Brown/AFP",
-   "image": "news-img/5f942025e129.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/ed5802740f61be5d9cd5e0b401a40a532197a81b-1795267421-94a2045d-1920x1280.jpg"
-  },
-  {
-   "id": "340fdb2c4b3d",
-   "title": "The constant reinvention of Austria’s Empress Sisi",
-   "url": "https://timesofmalta.com/article/constant-reinvention-austria-empress-sisi.1137463",
-   "source": "Times of Malta",
-   "published": "2026-11-21T13:13:00+00:00",
-   "summary": "A posthumous portrait of Empress Elisabeth of Austria (1837-1898) by Leopold Horowitz, at Vienna’s Sisi Museum at Hofburg Palace in Vienna, Austria. Photos: Radek Mica/AFP",
-   "image": "news-img/340fdb2c4b3d.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/f12dc22da449f090775cb77beabb8ef5c169545d-1795267071-9f9db280-1920x1280.jpg"
-  },
-  {
-   "id": "ab0b5c7aadb1",
-   "title": "30 choirs to take part in Malta International Christmas Choir Festival",
-   "url": "https://timesofmalta.com/article/30-choirs-take-part-malta-international-christmas-choir-festival.1137462",
-   "source": "Times of Malta",
-   "published": "2026-11-21T13:09:00+00:00",
-   "summary": "The choirs will perform a selection of traditional Christmas carols from around the world, alongside popular festive favourites.",
-   "image": "news-img/ab0b5c7aadb1.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/efc0d15dcc3289416594f9ed0a1c7a998247de6f-1795266767-d6d39a3b-1920x1280.jpg"
   },
   {
    "id": "14a1bc4b6f92",
@@ -244,28 +409,6 @@
    "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2023/12/22140937/Spizeriji-Pharmacy-5-1024x683.jpg"
   },
   {
-   "id": "26a4f6c643b1",
-   "title": "Blackcat Friday: 4% Cashback On Amazon Purchases Until The End Of December",
-   "url": "https://lovinmalta.com/sponsored/blackcat-friday-amazon-cashback-malta/",
-   "source": "Lovin Malta",
-   "published": "2026-11-21T12:45:56+00:00",
-   "summary": "As if we needed another excuse to fill up our Amazon baskets… With Black Friday around the corner and Christmas shopping already on everyone’s minds, Malta-based fintech Blackcat has launched its very own Blackcat Friday",
-   "image": "news-img/26a4f6c643b1.jpg",
-   "topic": "Business",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Ally-Covers-46-1024x601.jpg"
-  },
-  {
-   "id": "ac847bde781c",
-   "title": "Think Before You Click: Blackcat Shares Tips On How To Spot An Online Scam",
-   "url": "https://lovinmalta.com/sponsored/blackcat-online-scams-safety-tips-malta/",
-   "source": "Lovin Malta",
-   "published": "2026-11-21T12:44:04+00:00",
-   "summary": "We’ve all received a slightly suspicious text message, an unexpected email or a phone call that left us wondering whether it was actually legit. And with so much of our everyday lives taking place online, knowing how to ",
-   "image": "news-img/ac847bde781c.jpg",
-   "topic": "Malta",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Ally-Covers-43-1024x601.jpg"
-  },
-  {
    "id": "aa9ae1fa7b3d",
    "title": "Most Gozitan businesses expect to raise prices amid rising costs",
    "url": "https://newsbook.com.mt/en/most-gozitan-businesses-expect-to-raise-prices-amid-rising-costs/",
@@ -275,39 +418,6 @@
    "image": "news-img/aa9ae1fa7b3d.jpg",
    "topic": "Business",
    "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2025/10/27135617/BUDGET-2026-negozji-businesses-shops-hwienet-2-3-scaled.jpg"
-  },
-  {
-   "id": "c4baeeabd1ce",
-   "title": "PN: Caruana must publish population report immediately",
-   "url": "https://timesofmalta.com/article/pn-caruana-publish-population-report-immediately.1137460",
-   "source": "Times of Malta",
-   "published": "2026-11-21T11:50:00+00:00",
-   "summary": "Clyde Caruana delivers the Budget 2027 speech in October. Photo: Chris Sant Fournier",
-   "image": "news-img/c4baeeabd1ce.jpg",
-   "topic": "Business",
-   "image_src": "https://cdn-attachments.timesofmalta.com/619f38aed32d9b65c48dc5a9a16aeea010129926-1795262602-6d553efc-1920x1280.jpg"
-  },
-  {
-   "id": "0e13d7be6cbf",
-   "title": "Gozitan Rock Band Upper Lip Releases Emotional New Music Video ‘Won’t You Listen’",
-   "url": "https://lovinmalta.com/lifestyle/music/gozitan-rock-band-upper-lip-releases-emotional-new-music-video-wont-you-listen/",
-   "source": "Lovin Malta",
-   "published": "2026-11-21T11:45:19+00:00",
-   "summary": "Gozitan rock band Upper Lip has released a new music video for their latest song, Won’t You Listen, delivering a heartfelt message about love, support and standing by the people who matter most. The song explores somethi",
-   "image": "news-img/0e13d7be6cbf.jpg",
-   "topic": "Malta",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/FB-COVER-RIANA-5-2-1024x536.jpg"
-  },
-  {
-   "id": "469e3d630792",
-   "title": "Governor warns Malta cannot keep relying on cheap credit and subsidies",
-   "url": "https://timesofmalta.com/article/governor-warns-malta-cannot-keep-relying-cheap-credit-subsidies.1137458",
-   "source": "Times of Malta",
-   "published": "2026-11-21T11:42:00+00:00",
-   "summary": "Shoppers carry bags and items in St Julians; Central Bank Governor Alexander Demarco. Photos: Morta Pociute/Central Bank",
-   "image": "news-img/469e3d630792.jpg",
-   "topic": "Business",
-   "image_src": "https://cdn-attachments.timesofmalta.com/f92145a5b3b7ddc983ac26cdcf024eb6721a19bb-1795261334-7a6f61a8-1920x1280.png"
   },
   {
    "id": "0f89567f863f",
@@ -321,17 +431,6 @@
    "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/20174941/TCN-march-Valletta-5.jpeg"
   },
   {
-   "id": "28338bad9cf1",
-   "title": "Watch: Manchester United Players Wrap Maltese-Themed Christmas Gifts In Festive VisitMalta Collaboration",
-   "url": "https://lovinmalta.com/news/watch-manchester-united-players-wrap-maltese-themed-christmas-gifts-in-festive-visitmalta-collaboration/",
-   "source": "Lovin Malta",
-   "published": "2026-11-21T11:07:49+00:00",
-   "summary": "Manchester United is bringing a little Maltese magic to Christmas this year! The football club has teamed up with VisitMalta for a festive promotional video celebrating some of the island’s most recognisable traditions a",
-   "image": "news-img/28338bad9cf1.jpg",
-   "topic": "Lifestyle",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/FB-COVER-RIANA-6-2-1024x536.jpg"
-  },
-  {
    "id": "bf7733a705b8",
    "title": "SDM regain control of Junior College student council after 10 years",
    "url": "https://newsbook.com.mt/en/sdm-regain-control-of-junior-college-student-council-after-10-years/",
@@ -341,17 +440,6 @@
    "image": "news-img/bf7733a705b8.jpg",
    "topic": "Malta",
    "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/20190928/915793382_1517953413482592_2088012799587694820_n.jpeg"
-  },
-  {
-   "id": "7ade2c12acc9",
-   "title": "EU proposes tax on Big Tech to boost budget",
-   "url": "https://timesofmalta.com/article/eu-mulls-tax-big-tech-boost-budget.1137455",
-   "source": "Times of Malta",
-   "published": "2026-11-21T10:01:00+00:00",
-   "summary": "The EU is eyeing Big Tech as a revenue raiser. Photo: Shutterstock",
-   "image": "news-img/7ade2c12acc9.jpg",
-   "topic": "Business",
-   "image_src": "https://cdn-attachments.timesofmalta.com/bc24b889a1b4736f7f02a424e1e26d776351747c-1795255504-fd29db60-1920x1280.jpg"
   },
   {
    "id": "81664d803a13",
@@ -374,94 +462,6 @@
    "image": "news-img/cfaccf38ade2.jpg",
    "topic": "Malta",
    "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/10/15160142/emergency-emergenza-ambulanza-ambulance-3-696x465-1.jpg"
-  },
-  {
-   "id": "2f58b616e86d",
-   "title": "Man arrested after receiving 4kg cannabis parcel by post",
-   "url": "https://timesofmalta.com/article/man-arrested-receiving-4kg-cannabis-parcel-post.1137454",
-   "source": "Times of Malta",
-   "published": "2026-11-21T09:00:00+00:00",
-   "summary": "Photo: Shutterstock",
-   "image": "news-img/2f58b616e86d.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/5fde11005688727fc646ed989a754c665769188b-1795251832-04fe2997-1920x1280.jpg"
-  },
-  {
-   "id": "7a53ad502ca8",
-   "title": "Open day at the medieval chapel of St Cecilia in Gozo",
-   "url": "https://timesofmalta.com/article/open-day-medieval-chapel-st-cecilia-gozo.1137412",
-   "source": "Times of Malta",
-   "published": "2026-11-21T09:00:00+00:00",
-   "summary": "St Cecilia chapel in the limits of Għajnsielem",
-   "image": "news-img/7a53ad502ca8.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/346708abc6651371c143eb9259b0e827d913b5c9-1795177029-2b905fa5-1920x1280.jpg"
-  },
-  {
-   "id": "520dea232b85",
-   "title": "Majority of Gozo businesses expect to raise prices, survey finds",
-   "url": "https://timesofmalta.com/article/majority-gozo-businesses-expect-raise-prices-survey-finds.1137453",
-   "source": "Times of Malta",
-   "published": "2026-11-21T08:27:00+00:00",
-   "summary": "Cafes in Victoria, Gozo. Photo: Shutterstock",
-   "image": "news-img/520dea232b85.jpg",
-   "topic": "Business",
-   "image_src": "https://cdn-attachments.timesofmalta.com/9038fbb313e5275cffbbc19f8fbc0e0985215436-1795249701-eb363956-1920x1280.jpg"
-  },
-  {
-   "id": "9093907d8181",
-   "title": "Norway rushed to bring tech into classrooms. Now it's putting the iPads down",
-   "url": "https://timesofmalta.com/article/norway-rushed-bring-tech-classrooms-now-reversing-course.1137447",
-   "source": "Times of Malta",
-   "published": "2026-11-21T08:26:00+00:00",
-   "summary": "A teacher using an interactive whiteboard while pupils use laptops in a classroom in Oslo. Photo: AFP",
-   "image": "news-img/9093907d8181.jpg",
-   "topic": "Tech",
-   "image_src": "https://cdn-attachments.timesofmalta.com/05d7da02803295d230568db7c7f65ee3ff350534-1795238911-2f6f9136-1920x1280.jpg"
-  },
-  {
-   "id": "5141363fe602",
-   "title": "Elderly woman hit by motorcycle in Paola",
-   "url": "https://timesofmalta.com/article/elderly-woman-hit-motorcycle-paola.1137452",
-   "source": "Times of Malta",
-   "published": "2026-11-21T07:47:00+00:00",
-   "summary": "The woman was taken to Mater Dei Hospital for treatment. File photo. Photo: Matthew Mirabelli",
-   "image": "news-img/5141363fe602.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/4e7308e989eb4ad25847104e2bf743f61dbcdccd-1795247415-a4e72eec-1920x1280.png"
-  },
-  {
-   "id": "1a50838ffb55",
-   "title": "November 21: The front page of Times of Malta 10, 25 and 50 years ago",
-   "url": "https://timesofmalta.com/article/november-21-front-page-times-malta-10-25-50-years-ago.1136606",
-   "source": "Times of Malta",
-   "published": "2026-11-21T07:01:00+00:00",
-   "summary": "Times of Malta through the years.",
-   "image": "news-img/1a50838ffb55.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/06bf677e88ebead81be78bdbcb37472336df3774-1793795186-858ea1b6-1920x1280.jpg"
-  },
-  {
-   "id": "32aa5342e30e",
-   "title": "Police pay tribute to deceased members of the force in Gozo",
-   "url": "https://timesofmalta.com/article/police-remember-deceased-members-force-gozo.1137440",
-   "source": "Times of Malta",
-   "published": "2026-11-21T07:00:00+00:00",
-   "summary": "The Police Commissioner lays a wreath on the graves of deceased members at Santa Marija Cemetery in Victoria. Photos: Charles Spiteri",
-   "image": "news-img/32aa5342e30e.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/e98135afa8ea5d48712a228994d97ea2bdcec103-1795198310-80971a25-1920x1280.jpg"
-  },
-  {
-   "id": "5fb2fafbe447",
-   "title": "‘I was pregnant, homeless, and alone’",
-   "url": "https://newsbook.com.mt/en/i-was-pregnant-homeless-and-alone/",
-   "source": "Newsbook",
-   "published": "2026-11-21T06:30:00+00:00",
-   "summary": "At just 20 years old, Consielle was expecting a baby, had nowhere to live, and had been abandoned by the child's father.\nThe post ‘I was pregnant, homeless, and alone’ appeared first on Newsbook.",
-   "image": "news-img/5fb2fafbe447.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/20165350/Conseille-LNF.jpg"
   },
   {
    "id": "ba36ba26a22c",

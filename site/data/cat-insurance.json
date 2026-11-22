@@ -1,7 +1,31 @@
 {
  "slug": "insurance",
- "updated": "2026-11-21T23:41:34+00:00",
+ "updated": "2026-11-22T08:21:13+00:00",
  "items": [
+  {
+   "provider": "GasanMamo",
+   "type": "Car",
+   "product": "Motor Comprehensive",
+   "from_price": 350,
+   "online_quote": true,
+   "url": "https://www.gasanmamo.com",
+   "checked": null,
+   "demo": true,
+   "logo": "logos/gasanmamo.com.png",
+   "logo_light": false
+  },
+  {
+   "provider": "MAPFRE Middlesea",
+   "type": "Car",
+   "product": "Motor Insurance",
+   "from_price": 330,
+   "online_quote": true,
+   "url": "https://www.middlesea.com",
+   "checked": null,
+   "demo": true,
+   "logo": "logos/middlesea.com.png",
+   "logo_light": false
+  },
   {
    "provider": "Atlas Insurance",
    "type": "Home",
@@ -11,7 +35,6 @@
    "url": "https://www.atlas.com.mt",
    "checked": null,
    "demo": true,
-   "score": 10.0,
    "logo": "logos/atlas.com.mt.png",
    "logo_light": false
   },
@@ -24,34 +47,7 @@
    "url": "https://www.elmoinsurance.com",
    "checked": null,
    "demo": true,
-   "score": 6.0,
    "logo": "logos/elmoinsurance.com.png",
-   "logo_light": false
-  },
-  {
-   "provider": "MAPFRE Middlesea",
-   "type": "Car",
-   "product": "Motor Insurance",
-   "from_price": 330,
-   "online_quote": true,
-   "url": "https://www.middlesea.com",
-   "checked": null,
-   "demo": true,
-   "score": 5.5,
-   "logo": "logos/middlesea.com.png",
-   "logo_light": false
-  },
-  {
-   "provider": "GasanMamo",
-   "type": "Car",
-   "product": "Motor Comprehensive",
-   "from_price": 350,
-   "online_quote": true,
-   "url": "https://www.gasanmamo.com",
-   "checked": null,
-   "demo": true,
-   "score": 5.1,
-   "logo": "logos/gasanmamo.com.png",
    "logo_light": false
   },
   {
@@ -63,7 +59,6 @@
    "url": "https://www.bupa.com.mt",
    "checked": null,
    "demo": true,
-   "score": 0.0,
    "logo": "logos/bupa.com.mt.png",
    "logo_light": false
   }

@@ -1,6 +1,6 @@
 {
  "slug": "business-accounts",
- "updated": "2026-11-21T23:41:34+00:00",
+ "updated": "2026-11-22T08:21:13+00:00",
  "items": [
   {
    "provider": "wamo",
@@ -18,21 +18,6 @@
    "logo_light": false
   },
   {
-   "provider": "Wise Business",
-   "product": "Business Account",
-   "monthly_fee": 0,
-   "sepa_fee": 0.5,
-   "multi_currency": true,
-   "onboarding_days": 3,
-   "licence": "EMI (Belgium)",
-   "url": "https://wise.com/business",
-   "checked": null,
-   "demo": true,
-   "score": 9.2,
-   "logo": "logos/wise.com.png",
-   "logo_light": false
-  },
-  {
    "provider": "Finom",
    "product": "Start",
    "monthly_fee": 0,
@@ -43,23 +28,23 @@
    "url": "https://finom.co",
    "checked": null,
    "demo": true,
-   "score": 7.9,
+   "score": 9.9,
    "logo": "logos/finom.co.png",
    "logo_light": false
   },
   {
-   "provider": "Revolut Business",
-   "product": "Basic",
-   "monthly_fee": 10.0,
-   "sepa_fee": 0,
+   "provider": "Wise Business",
+   "product": "Business Account",
+   "monthly_fee": 0,
+   "sepa_fee": 0.5,
    "multi_currency": true,
-   "onboarding_days": 2,
-   "licence": "Bank (Lithuania)",
-   "url": "https://www.revolut.com/business",
+   "onboarding_days": 3,
+   "licence": "EMI (Belgium)",
+   "url": "https://wise.com/business",
    "checked": null,
    "demo": true,
-   "score": 6.4,
-   "logo": "logos/revolut.com.png",
+   "score": 8.9,
+   "logo": "logos/wise.com.png",
    "logo_light": false
   },
   {
@@ -73,23 +58,23 @@
    "url": "https://www.bnf.bank",
    "checked": null,
    "demo": true,
-   "score": 6.0,
+   "score": 5.2,
    "logo": "logos/bnf.bank.png",
    "logo_light": false
   },
   {
-   "provider": "Bank of Valletta",
-   "product": "Business Current Account",
-   "monthly_fee": 6.0,
-   "sepa_fee": 1.5,
+   "provider": "Revolut Business",
+   "product": "Basic",
+   "monthly_fee": 10.0,
+   "sepa_fee": 0,
    "multi_currency": true,
-   "onboarding_days": 21,
-   "licence": "Bank (MFSA)",
-   "url": "https://www.bov.com",
+   "onboarding_days": 2,
+   "licence": "Bank (Lithuania)",
+   "url": "https://www.revolut.com/business",
    "checked": null,
    "demo": true,
-   "score": 4.2,
-   "logo": "logos/bov.com.png",
+   "score": 4.9,
+   "logo": "logos/revolut.com.png",
    "logo_light": false
   },
   {
@@ -103,8 +88,23 @@
    "url": "https://www.apsbank.com.mt",
    "checked": null,
    "demo": true,
-   "score": 3.2,
+   "score": 4.1,
    "logo": "logos/apsbank.com.mt.png",
+   "logo_light": false
+  },
+  {
+   "provider": "Bank of Valletta",
+   "product": "Business Current Account",
+   "monthly_fee": 6.0,
+   "sepa_fee": 1.5,
+   "multi_currency": true,
+   "onboarding_days": 21,
+   "licence": "Bank (MFSA)",
+   "url": "https://www.bov.com",
+   "checked": null,
+   "demo": true,
+   "score": 2.6,
+   "logo": "logos/bov.com.png",
    "logo_light": false
   },
   {
@@ -118,7 +118,7 @@
    "url": "https://www.hsbc.com.mt",
    "checked": null,
    "demo": true,
-   "score": 2.7,
+   "score": 1.0,
    "logo": "logos/hsbc.com.mt.png",
    "logo_light": false
   }

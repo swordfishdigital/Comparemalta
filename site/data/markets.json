@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:41:18+00:00",
+ "updated": "2026-11-22T08:20:58+00:00",
  "global": [
   {
    "name": "S&P 500",
@@ -53,13 +53,13 @@
    "name": "Gold (USD/oz)",
    "symbol": "GC=F",
    "price": 3515.4,
-   "change_pct": -8.76
+   "change_pct": -9.03
   },
   {
    "name": "Brent",
    "symbol": "BZ=F",
    "price": 89.95,
-   "change_pct": -2.69
+   "change_pct": -3.42
   },
   {
    "name": "EUR/USD",
@@ -72,20 +72,20 @@
   {
    "name": "Bitcoin",
    "symbol": "bitcoin",
-   "price": 54831,
-   "change_pct": 2.1
+   "price": 54001,
+   "change_pct": 2.61
   },
   {
    "name": "Ethereum",
    "symbol": "ethereum",
-   "price": 1532.51,
-   "change_pct": 3.72
+   "price": 1524.21,
+   "change_pct": 2.96
   },
   {
    "name": "Solana",
    "symbol": "solana",
-   "price": 64.03,
-   "change_pct": 1.6
+   "price": 63.3,
+   "change_pct": 3.35
   }
  ],
  "mse": [
