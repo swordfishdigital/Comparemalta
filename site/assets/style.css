@@ -381,3 +381,4 @@ tr.best td{background:rgba(43,76,196,.04)}
 .art-mx .s0{background:#fde2e2;color:#a01818}.art-mx .s1{background:#fdeadb;color:#a2460a}.art-mx .s2{background:#fff4d6;color:#8a5d00}
 .art-mx .s3{background:#eef7dc;color:#4f6b10}.art-mx .s4{background:#dff3e6;color:#17713b}.art-mx .s5{background:#cdeeda;color:#0b5e2c}
 .art-mx .tot{background:#0d2a4a;color:#fff}.art-mx tr.bench td{font-style:italic;opacity:.7}
+.art-mx td:first-child{min-width:150px;line-height:1.25}.art-mx-wrap.tbl td{padding:9px 10px}
