@@ -192,7 +192,7 @@ async function resolvePicks(env, picks = [], seen) {
     const row = d.items.find(r => r.provider.toLowerCase() === String(p.provider).toLowerCase() && (!p.product || !r.product || String(r.product).toLowerCase() === String(p.product).toLowerCase()))
              || d.items.find(r => r.provider.toLowerCase() === String(p.provider).toLowerCase());
     if (!row || !seen.has(`${p.category}|${row.provider}|${row.product || ""}`)) continue;
-    const keyCol = cfg.columns.find(x => x.key === cfg.score[0].key) || cfg.columns[2];
+    const keyCol = cfg.columns.find(x => x.key === (cfg.score[0] || {}).key) || cfg.columns.find(x => x.fmt && x.fmt !== "bool") || cfg.columns[2];
     out.push({ category: p.category, provider: row.provider, product: row.product || row.area || "", why: String(p.why || "").slice(0, 220),
       key: { field: keyCol.key, fmt: keyCol.fmt || null, value: row[keyCol.key] ?? null }, score: row.score ?? null,
       url: row.url || row.maps || null, apply_url: row.apply_url || null, logo: row.logo || null, logo_light: !!row.logo_light, affiliated: !!row.affiliated, demo: !!row.demo });
@@ -206,9 +206,11 @@ Today is ${today}. Reply in ${LANGS[lang] || "English"}.
 How you work:
 - Use the tools to look things up. Only state rates, fees, prices or figures that a tool returned in this conversation. Never guess or use outside knowledge for numbers.
 - Pick the category, apply the user's constraints with filters, and finish with show_results (at most three picks, best first).
-- Rankings follow the Blue score unless the user asked for something specific (cheapest, highest rate, fastest).
+- Decide in this order: 1) eligibility: drop products the user cannot use (amount, term, deposit, card mix, currency, MSE access, multi-currency), and never mix segments: savings by term (12 vs 24 months), mortgages by rate type, insurance by type, FX by currency; 2) lowest total cost for the user's own numbers; 3) preferences (speed, app, no hardware). The Blue score only breaks ties within that.
+- Insurance has no overall score: compare starting prices for the same type and say that cover, excess and exclusions differ.
+- Give each pick a reason tied to the user's situation, not just "best overall".
 - If a result has sample_data or demo true, say briefly that figures are sample data for now. If a row is affiliated, mention it is a related party.
-- For merchants asking about POS or card payments, work out the monthly cost from their card turnover when they give it (fee_pct x turnover above free_allowance + fee_fixed x number of payments + monthly_fee; cost_5k and cost_20k are precomputed for €5k/400 and €20k/1,200 payments). Mention conditions in the note field, such as which cards an allowance covers and when an offer ends and say which plan is cheapest at that volume.
+- For merchants asking about POS or card payments, work out the monthly cost from their card turnover when they give it (EEA consumer card sales above free_allowance x fee_pct + other cards (commercial, non-EEA, Amex) x fee_pct_other, or fee_pct when missing + fee_fixed x number of payments + monthly_fee; first-year cost adds reader_price; the allowance covers local EU consumer cards only and needs sign-up before offer_ends; cost_5k and cost_20k are precomputed for €5k/400 and €20k/1,200 payments, all consumer cards). Mention conditions in the note field, such as which cards an allowance covers and when an offer ends and say which plan is cheapest at that volume.
 - For FX or sending money abroad, use category fx: pick rows for the requested currency (corridor), compare you_get for €1,000 and total_cost_pct, and scale linearly for other amounts (fees are fixed, so say it is an estimate).
 - You compare and explain; you do not give personal financial advice. For loans and mortgages remind the user to confirm the final offer with the provider in one short clause.
 - If the request is unclear or outside what the site covers, ask one short question or say what you can compare.

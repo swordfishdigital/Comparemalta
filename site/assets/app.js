@@ -15,7 +15,7 @@ const T = {
   says:"Blue says",quote:"Tell me what you need. I'll fly through every provider and bring back the best three.",
   whatCmp:"What are you comparing?",allCats:"All categories →",
   c:{banking:["Banking","Current & savings accounts"],loans:["Loans & Mortgages","Home, personal, car"],cards:["Credit cards","Cashback, travel, low APR"],business:["Business & fintech","SME accounts, POS, FX"],telco:["Telco","Mobile, fibre, TV bundles"],eat:["Restaurants","Where Malta eats this week"],markets:["Markets & FX","MSE, global indices, currencies"],today:["Malta today","Daily news digest"]},
-  topEyebrow:"Today's top table",topT:{savings:"Savings accounts in Malta",mortgages:"Mortgage rates in Malta",mobile:"Mobile plans in Malta"},tabs:{savings:"Savings",mortgages:"Mortgages",mobile:"Mobile"},
+  topEyebrow:"Today's top table",topT:{savings:"12-month fixed deposits in Malta",mortgages:"Variable-rate mortgages in Malta",mobile:"Mobile plans in Malta"},tabs:{savings:"Savings",mortgages:"Mortgages",mobile:"Mobile"},
   thrush:"Blue score",bestPick:"Best pick",viewDeal:"View deal",
   refreshed:"Rates refreshed daily at {t} from provider sites. CompareMalta.ai may earn a commission, but rankings are never paid for.",
   morning:"Malta this morning",readSum:"Read summary →",fullMk:"Full markets page →",mkt:"Markets",
@@ -42,7 +42,7 @@ const T = {
   says:"Blue jgħid",quote:"Għidli x'għandek bżonn. Intir minn fornitur għall-ieħor u nġiblek l-aqwa tlieta.",
   whatCmp:"X'qed tqabbel?",allCats:"Il-kategoriji kollha →",
   c:{banking:["Bankar","Kontijiet kurrenti u tat-tfaddil"],loans:["Self u Self għad-Dar","Dar, personali, karozza"],cards:["Karti tal-kreditu","Cashback, safar, APR baxx"],business:["Negozju u fintech","Kontijiet SME, POS, kambju"],telco:["Telco","Mobile, fibra, pakketti tat-TV"],eat:["Restoranti","Fejn qed tiekol Malta din il-ġimgħa"],markets:["Swieq u Kambju","MSE, indiċijiet globali, muniti"],today:["Malta llum","Sommarju tal-aħbarijiet ta' kuljum"]},
-  topEyebrow:"It-tabella ewlenija tal-lum",topT:{savings:"Kontijiet tat-tfaddil f'Malta",mortgages:"Rati tas-self għad-dar f'Malta",mobile:"Pjanijiet tal-mobile f'Malta"},tabs:{savings:"Tfaddil",mortgages:"Self għad-dar",mobile:"Mobile"},
+  topEyebrow:"It-tabella ewlenija tal-lum",topT:{savings:"Depożiti fissi ta' 12-il xahar f'Malta",mortgages:"Self għad-dar b'rata varjabbli f'Malta",mobile:"Pjanijiet tal-mobile f'Malta"},tabs:{savings:"Tfaddil",mortgages:"Self għad-dar",mobile:"Mobile"},
   thrush:"Punteġġ ta' Blue",bestPick:"L-aħjar għażla",viewDeal:"Ara l-offerta",
   refreshed:"Ir-rati jiġu aġġornati kuljum fil-{t} mis-siti tal-fornituri. CompareMalta.ai jista' jaqla' kummissjoni, iżda l-klassifiki qatt ma jitħallsu.",
   morning:"Malta dalgħodu",readSum:"Aqra s-sommarju →",fullMk:"Paġna sħiħa tas-swieq →",mkt:"Swieq",
@@ -69,7 +69,7 @@ const T = {
   says:"Blue dice",quote:"Dimmi di cosa hai bisogno. Volo tra tutti i fornitori e ti riporto i tre migliori.",
   whatCmp:"Cosa stai confrontando?",allCats:"Tutte le categorie →",
   c:{banking:["Banca","Conti correnti e risparmio"],loans:["Prestiti e Mutui","Casa, personali, auto"],cards:["Carte di credito","Cashback, viaggi, TAEG basso"],business:["Business e fintech","Conti PMI, POS, cambio"],telco:["Telco","Mobile, fibra, pacchetti TV"],eat:["Ristoranti","Dove mangia Malta questa settimana"],markets:["Mercati e cambi","MSE, indici globali, valute"],today:["Malta oggi","Rassegna quotidiana"]},
-  topEyebrow:"La tabella di oggi",topT:{savings:"Conti risparmio a Malta",mortgages:"Tassi dei mutui a Malta",mobile:"Piani mobile a Malta"},tabs:{savings:"Risparmio",mortgages:"Mutui",mobile:"Mobile"},
+  topEyebrow:"La tabella di oggi",topT:{savings:"Depositi vincolati a 12 mesi a Malta",mortgages:"Mutui a tasso variabile a Malta",mobile:"Piani mobile a Malta"},tabs:{savings:"Risparmio",mortgages:"Mutui",mobile:"Mobile"},
   thrush:"Punteggio Blue",bestPick:"Scelta migliore",viewDeal:"Vedi offerta",
   refreshed:"Tassi aggiornati ogni giorno alle {t} dai siti dei fornitori. CompareMalta.ai può ricevere una commissione, ma le classifiche non sono mai a pagamento.",
   morning:"Malta stamattina",readSum:"Leggi il riassunto →",fullMk:"Pagina completa dei mercati →",mkt:"Mercati",
@@ -88,6 +88,74 @@ const T = {
   askSub:"Chiedi con parole semplici e trovo i tre migliori.",askHint:"Prova:",askChips:["Miglior risparmio per €20k","Mobile illimitato più economico","Conto business multivaluta","Pesce a Marsaxlokk"],
   askNone:"Non ho capito cosa confrontare. Prova un esempio o scegli una categoria.",askHere:"Ecco i tre migliori che ho trovato in",seeTable:"Vedi la tabella completa →",allCatsTitle:"Tutte le categorie"}
 };
+/* Strings added with the "for me / for my business" home, honest calls to action, data-freshness labels and
+   the eligibility-first comparison pages. Kept in one block so the three languages stay in step. */
+const T2 = {
+ en: {
+  eyebrow: "Malta's AI comparison site", h1a: "Malta's rates, fees and plans,", h1b: "side by side.",
+  lead: "{p} products from {v} providers in {c} categories. Prices we check against the provider's website are marked; the rest are labelled sample data.",
+  quote: "Tell me what you need. I'll check the providers we cover and bring back the best three, with the reasons.",
+  forMe: "For me", forMeSub: "Accounts, savings, loans, mortgages, cards, mobile, internet, insurance, investing, sending money",
+  forBiz: "For my business", forBizSub: "Business accounts, card payments (POS), FX and international payments, fintech",
+  seeAll: "See all", alsoOn: "Also on CompareMalta.ai", alsoSub: "Where to eat, Malta news and the markets, refreshed every day.",
+  coverage: "Coverage", covLive: "checked live", covSample: "sample data",
+  live: "Markets", asOf: "as of", ecbEod: "ECB rates: end of day",
+  visitP: "Visit provider", directions: "Directions", noLink: "Link not verified yet",
+  liveChk: "Checked", lastOk: "Last successful check", sampleRow: "Sample data", rebuilt: "Table rebuilt",
+  segAll: "All", months: "{n} months", instant: "Instant access", yourNeeds: "Your needs", clear: "Clear",
+  bestFor: "Best for your filters", whyPick: "Why", hidden: "{n} hidden by your filters",
+  posTitle: "Your month", posSales: "Card sales per month (€)", posTicket: "Average sale (€)", posMix: "Share paid with EEA consumer cards (%)",
+  posMixHelp: "The rest (business, non-EEA and Amex cards) is charged at each provider's higher rate.",
+  yourCost: "Your monthly cost", firstYear: "First year incl. device", posCheapest: "Lowest monthly cost for you",
+  posYear: "Lowest first-year cost", posFast: "Fastest access to your money", posNoHw: "No terminal to buy",
+  posOffer: "Offer: sign up by {d}", posAssume: "Assumes {n} payments a month. Fees for refunds and chargebacks are not included yet.",
+  howTxt: "We decide in three steps. 1) Eligibility: you tell us what you need (amount, term, deposit, card mix, currency) and products that do not fit are hidden; products of different kinds, such as 12 and 24 month deposits, are never ranked against each other. 2) Cost: among what fits, the lowest total cost for your numbers wins. 3) Preferences: speed, app and hardware help only after that. The Blue score (0 to 10) summarises steps 2 and 3 for the default view; weights are below. Insurance has no overall score because cover differs. Providers cannot pay to change their position.",
+  noScore: "No overall score",
+ },
+ mt: {
+  eyebrow: "Is-sit tal-paragun AI ta' Malta", h1a: "Ir-rati, il-miżati u l-pjanijiet ta' Malta,", h1b: "ħdejn xulxin.",
+  lead: "{p} prodott minn {v}-il fornitur f'{c} kategorija. Il-prezzijiet li niċċekkjaw mas-sit tal-fornitur huma mmarkati; il-bqija huma mmarkati bħala data ta' kampjun.",
+  quote: "Għidli x'għandek bżonn. Niċċekkja l-fornituri li nkopru u nġiblek l-aħjar tlieta, bir-raġunijiet.",
+  forMe: "Għalija", forMeSub: "Kontijiet, tfaddil, self, self għad-dar, karti, mowbajl, internet, assigurazzjoni, investiment, trasferimenti",
+  forBiz: "Għan-negozju tiegħi", forBizSub: "Kontijiet tan-negozju, ħlas bil-karta (POS), kambju u ħlasijiet internazzjonali, fintech",
+  seeAll: "Ara kollox", alsoOn: "Ukoll fuq CompareMalta.ai", alsoSub: "Fejn tiekol, aħbarijiet ta' Malta u s-swieq, aġġornati kuljum.",
+  coverage: "Kopertura", covLive: "iċċekkjati live", covSample: "data ta' kampjun",
+  live: "Swieq", asOf: "sa", ecbEod: "Rati tal-BĊE: tmiem il-jum",
+  visitP: "Żur il-fornitur", directions: "Direzzjonijiet", noLink: "Link għadu mhux ivverifikat",
+  liveChk: "Iċċekkjat", lastOk: "L-aħħar kontroll b'suċċess", sampleRow: "Data ta' kampjun", rebuilt: "Tabella mibnija mill-ġdid",
+  segAll: "Kollha", months: "{n} xhur", instant: "Aċċess immedjat", yourNeeds: "Il-bżonnijiet tiegħek", clear: "Neħħi",
+  bestFor: "L-aħjar għall-filtri tiegħek", whyPick: "Għaliex", hidden: "{n} moħbija mill-filtri tiegħek",
+  posTitle: "Ix-xahar tiegħek", posSales: "Bejgħ bil-karta fix-xahar (€)", posTicket: "Bejgħ medju (€)", posMix: "Sehem imħallas b'karti tal-konsumatur taż-ŻEE (%)",
+  posMixHelp: "Il-bqija (karti tan-negozju, barra ż-ŻEE u Amex) jitħallas bir-rata ogħla ta' kull fornitur.",
+  yourCost: "L-ispiża tiegħek fix-xahar", firstYear: "L-ewwel sena inkluż l-apparat", posCheapest: "L-inqas spiża fix-xahar għalik",
+  posYear: "L-inqas spiża fl-ewwel sena", posFast: "L-iktar malajr jaslulek il-flus", posNoHw: "M'hemmx terminal x'tixtri",
+  posOffer: "Offerta: irreġistra sa {d}", posAssume: "Nassumu {n} ħlas fix-xahar. Il-miżati tar-rifużjonijiet u tal-chargebacks għadhom mhumiex inklużi.",
+  howTxt: "Niddeċiedu fi tliet passi. 1) Eliġibbiltà: tgħidilna x'għandek bżonn (ammont, terminu, depożitu, tip ta' karti, munita) u l-prodotti li ma jaqblux jinħbew; prodotti ta' tip differenti, bħal depożiti ta' 12 u 24 xahar, qatt ma jitqabblu flimkien. 2) Spiża: minn dak li jaqbel, jirbaħ l-inqas spiża totali għan-numri tiegħek. 3) Preferenzi: veloċità, app u apparat jgħinu biss wara. Il-Blue score (0 sa 10) jiġbor il-passi 2 u 3 għall-veduta standard; il-piżijiet huma hawn taħt. L-assigurazzjoni m'għandhiex score ġenerali għax il-kopertura tvarja. Il-fornituri ma jistgħux iħallsu biex jibdlu l-post tagħhom.",
+  noScore: "L-ebda score ġenerali",
+ },
+ it: {
+  eyebrow: "Il sito di confronto AI di Malta", h1a: "Tassi, commissioni e offerte di Malta,", h1b: "fianco a fianco.",
+  lead: "{p} prodotti di {v} fornitori in {c} categorie. I prezzi verificati sul sito del fornitore sono indicati; gli altri sono segnalati come dati di esempio.",
+  quote: "Dimmi di cosa hai bisogno. Controllo i fornitori che copriamo e ti porto i tre migliori, con le ragioni.",
+  forMe: "Per me", forMeSub: "Conti, risparmio, prestiti, mutui, carte, mobile, internet, assicurazioni, investimenti, invio di denaro",
+  forBiz: "Per la mia attività", forBizSub: "Conti aziendali, pagamenti con carta (POS), cambio e pagamenti internazionali, fintech",
+  seeAll: "Vedi tutto", alsoOn: "Anche su CompareMalta.ai", alsoSub: "Dove mangiare, notizie da Malta e mercati, aggiornati ogni giorno.",
+  coverage: "Copertura", covLive: "verificati live", covSample: "dati di esempio",
+  live: "Mercati", asOf: "alle", ecbEod: "Cambi BCE: fine giornata",
+  visitP: "Vai al fornitore", directions: "Indicazioni", noLink: "Link non ancora verificato",
+  liveChk: "Verificato", lastOk: "Ultima verifica riuscita", sampleRow: "Dati di esempio", rebuilt: "Tabella rigenerata",
+  segAll: "Tutti", months: "{n} mesi", instant: "Accesso immediato", yourNeeds: "Le tue esigenze", clear: "Azzera",
+  bestFor: "Il migliore per i tuoi filtri", whyPick: "Perché", hidden: "{n} nascosti dai tuoi filtri",
+  posTitle: "Il tuo mese", posSales: "Vendite con carta al mese (€)", posTicket: "Scontrino medio (€)", posMix: "Quota pagata con carte consumer SEE (%)",
+  posMixHelp: "Il resto (carte aziendali, extra SEE e Amex) è addebitato alla tariffa più alta di ciascun fornitore.",
+  yourCost: "Il tuo costo mensile", firstYear: "Primo anno incluso dispositivo", posCheapest: "Costo mensile più basso per te",
+  posYear: "Costo più basso nel primo anno", posFast: "Accesso più rapido ai tuoi soldi", posNoHw: "Nessun terminale da comprare",
+  posOffer: "Offerta: iscriviti entro il {d}", posAssume: "Ipotizziamo {n} pagamenti al mese. Le commissioni su rimborsi e chargeback non sono ancora incluse.",
+  howTxt: "Decidiamo in tre passaggi. 1) Idoneità: ci dici cosa ti serve (importo, durata, anticipo, tipi di carta, valuta) e i prodotti non adatti vengono nascosti; prodotti di tipo diverso, come depositi a 12 e 24 mesi, non vengono mai messi in classifica insieme. 2) Costo: tra quelli adatti vince il costo totale più basso per i tuoi numeri. 3) Preferenze: velocità, app e hardware contano solo dopo. Il Blue score (da 0 a 10) riassume i passaggi 2 e 3 nella vista predefinita; i pesi sono qui sotto. Le assicurazioni non hanno un punteggio complessivo perché le coperture cambiano. I fornitori non possono pagare per cambiare posizione.",
+  noScore: "Nessun punteggio complessivo",
+ },
+};
+for (const l in T2) Object.assign(T[l], T2[l]);
 const COLS = {
  en:{provider:"Provider",product:"Product",monthly_fee:"Monthly fee",sepa_fee:"SEPA transfer",multi_currency:"Multi-currency",onboarding_days:"Onboarding (days)",licence:"Licence",card_fee:"Card fee / yr",atm_abroad_pct:"ATM abroad",app:"Mobile app",rate:"Rate",rate_aer:"Rate (AER)",access:"Access",term_months:"Term (months)",min_deposit:"Min. deposit",apr:"Interest",aprc:"APRC",max_amount:"Max amount",max_term_years:"Max term (yrs)",fees:"Fees",rate_type:"Type",ltv:"Max LTV",max_term:"Max term",first_time:"First-time buyer",annual_fee:"Annual fee",fx_fee:"FX fee",rewards:"Rewards",fx_markup:"FX markup",iban:"IBAN",corridor:"Corridor",fee:"Fee",fx_margin:"FX margin",speed:"Speed",price:"Per month",data_gb:"Data (GB)",eu_roaming_gb:"EU roaming (GB)",contract:"Contract",speed_mbps:"Speed (Mbps)",tv:"TV",type:"Type",from_price:"From / yr",online_quote:"Online quote",trade_fee:"Trade fee",custody_pct:"Custody / yr",mse_access:"MSE access",area:"Area",cuisine:"Cuisine",price_level:"Price",rating:"Rating",highlight:"Highlight",fee_pct:"Card fee",fee_fixed:"Per sale",reader_price:"Device from",tap_to_pay:"Tap to Pay on phone",free_allowance:"Fee-free sales / month",you_get:"You get for €1,000",fx_rate:"Exchange rate",total_cost_pct:"Total cost",markup:"FX markup",speed:"Speed",cost_5k:"Cost at €5k sales",cost_20k:"Cost at €20k sales",payout:"Payout",note:"Note"},
  mt:{provider:"Fornitur",product:"Prodott",monthly_fee:"Miżata fix-xahar",sepa_fee:"Trasferiment SEPA",multi_currency:"Multi-munita",onboarding_days:"Ftuħ (jiem)",licence:"Liċenzja",card_fee:"Miżata tal-karta/sena",atm_abroad_pct:"ATM barra",app:"App mobbli",rate:"Rata",rate_aer:"Rata (AER)",access:"Aċċess",term_months:"Terminu (xhur)",min_deposit:"Depożitu minimu",apr:"Imgħax",aprc:"APRC",max_amount:"Ammont massimu",max_term_years:"Terminu massimu (snin)",fees:"Miżati",rate_type:"Tip",ltv:"LTV massimu",max_term:"Terminu massimu",first_time:"L-ewwel dar",annual_fee:"Miżata annwali",fx_fee:"Miżata tal-kambju",rewards:"Premjijiet",fx_markup:"Markup tal-kambju",iban:"IBAN",corridor:"Rotta",fee:"Miżata",fx_margin:"Marġni tal-kambju",speed:"Ħeffa",price:"Fix-xahar",data_gb:"Data (GB)",eu_roaming_gb:"Roaming UE (GB)",contract:"Kuntratt",speed_mbps:"Veloċità (Mbps)",tv:"TV",type:"Tip",from_price:"Minn/sena",online_quote:"Kwotazzjoni online",trade_fee:"Miżata tat-trade",custody_pct:"Kustodja/sena",mse_access:"Aċċess għall-MSE",area:"Żona",cuisine:"Kċina",price_level:"Prezz",rating:"Klassifikazzjoni",highlight:"Speċjalità",fee_pct:"Miżata tal-karta",fee_fixed:"Għal kull bejgħ",reader_price:"Apparat minn",tap_to_pay:"Tap to Pay fuq it-telefon",free_allowance:"Bejgħ mingħajr miżata / xahar",you_get:"Tirċievi għal €1,000",fx_rate:"Rata tal-kambju",total_cost_pct:"Spiża totali",markup:"Marġni tal-kambju",speed:"Ħeffa",cost_5k:"Spiża b'€5k bejgħ",cost_20k:"Spiża b'€20k bejgħ",payout:"Ħlas lilek",note:"Nota"},
@@ -109,8 +177,10 @@ const SECTIONS = [
 ];
 const HOME_CARDS = [["banking","bank-accounts","bank-accounts"],["loans","mortgages","mortgages"],["cards","credit-cards","credit-cards"],["business","business-accounts","business-accounts"],
   ["telco","telco-mobile","telco-mobile"],["eat","dining","restaurants"],["markets","markets","investing"],["today","news","news"]];
-const TOP = {savings:{cat:"savings",cols:[["rate","pct","rate_aer"],["min_deposit","eur0"],["access"]]},
-             mortgages:{cat:"mortgages",cols:[["rate","pct"],["rate_type"],["ltv","pct0"]]},
+const DOORS = [["forMe", "forMeSub", "bank-accounts", ["bank-accounts", "savings", "personal-loans", "mortgages", "credit-cards", "telco-mobile", "telco-broadband", "insurance", "investing", "fx"]],
+               ["forBiz", "forBizSub", "business-accounts", ["business-accounts", "pos", "fx", "money-transfer", "fintech"]]];
+const TOP = {savings:{cat:"savings",where:{term_months:12},cols:[["rate","pct","rate_aer"],["min_deposit","eur0"],["access"]]},
+             mortgages:{cat:"mortgages",where:{rate_type:"Variable"},cols:[["rate","pct"],["rate_type"],["ltv","pct0"]]},
              mobile:{cat:"telco-mobile",cols:[["price","eur"],["data_gb","num"],["contract"]]}};
 
 /* ---------- state + helpers ---------- */
@@ -192,7 +262,7 @@ async function renderChrome() {
   for (const s of (mk?.mse || []).filter(x => ["BOV", "HSB", "APS", "GO", "MIA", "RS2", "LOM", "SFC"].includes(x.symbol))) items.push(tick(`MSE: ${s.symbol}`, "€" + nf(s.price, 3), s.change_pct));
   for (const c of (mk?.crypto || []).slice(0, 2)) items.push(tick(c.name, "€" + nf(c.price, 0), c.change_pct));
   const run = items.join("");
-  $("#strip").innerHTML = `<span class="live"><i class="pulse"></i>${t("live").toUpperCase()}</span>
+  $("#strip").innerHTML = `<span class="live" title="${esc(t("ecbEod"))}${fx?.date ? " " + esc(fx.date) : ""}"><i class="pulse"></i>${t("live").toUpperCase()} · ${t("asOf")} ${hhmm(mk?.updated || st?.generated)}</span>
     <div class="tick-view"><div class="tick-track" id="tickTrack"><div class="tick-set">${run}</div><div class="tick-set" aria-hidden="true">${run}</div></div></div>`;
   requestAnimationFrame(() => { const set = document.querySelector(".tick-set"); const tr = $("#tickTrack");
     if (set && tr) tr.style.animationDuration = Math.max(25, set.scrollWidth / 55) + "s"; });
@@ -222,14 +292,18 @@ function outLink(url, slug, content) {
   try { const u = new URL(url); u.searchParams.set("utm_source", "comparemalta.ai"); u.searchParams.set("utm_medium", "comparison");
     u.searchParams.set("utm_campaign", slug || "general"); if (content) u.searchParams.set("utm_content", content); return u.toString(); } catch (e) { return url; }
 }
-const searchUrl = r => `https://www.google.com/search?q=${encodeURIComponent(r.provider + " Malta")}`;
-const siteUrl = r => r.url && r.url_ok !== false ? r.url : (r.maps || searchUrl(r));
-const applyUrl = r => r.apply_url || siteUrl(r);
+const linkOk = r => !!r.url && r.url_ok !== false;          // provider site passed the weekly link check
+const siteUrl = r => linkOk(r) ? r.url : (r.maps || null);
 function ctaBtn(r, slug, primary = true, size = "sm") {
-  const href = outLink(applyUrl(r), slug, "cta");
-  return `<a class="btn cta ${primary ? "" : "ghost"} ${size}" href="${esc(href)}" target="_blank" rel="noopener sponsored" data-p="${esc(r.provider)}">${t(CTA_FOR[slug] || "ctaApply")} <span class="arr">→</span></a>`;
+  // "Apply / Open account" only when a verified application link exists; otherwise say what the link really is
+  let href, label;
+  if (r.apply_url) { href = r.apply_url; label = t(CTA_FOR[slug] || "ctaApply"); }
+  else if (linkOk(r)) { href = r.url; label = t("visitP"); }
+  else if (r.maps) { href = r.maps; label = t("directions"); }
+  else return `<span class="nolink">${t("noLink")}</span>`;
+  return `<a class="btn cta ${primary ? "" : "ghost"} ${size}" href="${esc(outLink(href, slug, "cta"))}" target="_blank" rel="noopener sponsored" data-p="${esc(r.provider)}">${label} <span class="arr">→</span></a>`;
 }
-const visitLink = (r, slug) => r.url ? `<a class="visit" href="${esc(outLink(siteUrl(r), slug, "visit"))}" target="_blank" rel="noopener sponsored">${t("visit")} ↗</a>` : "";
+const visitLink = (r, slug) => r.apply_url && linkOk(r) ? `<a class="visit" href="${esc(outLink(siteUrl(r), slug, "visit"))}" target="_blank" rel="noopener sponsored">${t("visit")} ↗</a>` : "";
 const ctaCell = (r, slug, primary) => `<td class="cta-cell">${ctaBtn(r, slug, primary)}${visitLink(r, slug)}</td>`;
 
 /* provider logo (downloaded weekly by feeds/logos.py) with the monogram as fallback */
@@ -273,12 +347,17 @@ const dishCard = (r, i) => `
       <div class="dish-cta">${ctaBtn(r, "restaurants", true)}${r.maps ? `<a class="visit" href="${esc(r.maps)}" target="_blank" rel="noopener">${t("dirs")} ↗</a>` : ""}</div>
     </div>
   </div>`;
-const provCell = (r, sub, slug) => `<div class="prov">${brand(r, 34)}<div>${r.url ? `<a class="pname" href="${esc(outLink(siteUrl(r), slug, "name"))}" target="_blank" rel="noopener sponsored">${esc(r.provider)}</a>` : esc(r.provider)}${r.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}<small>${sub}</small></div></div>`;
+const provCell = (r, sub, slug) => `<div class="prov">${brand(r, 34)}<div>${linkOk(r) ? `<a class="pname" href="${esc(outLink(siteUrl(r), slug, "name"))}" target="_blank" rel="noopener sponsored">${esc(r.provider)}</a>` : esc(r.provider)}${r.affiliated ? `<span class="aff">${t("affiliated")}</span>` : ""}<small>${sub}</small></div></div>`;
 
 /* ---------- home ---------- */
+const cov = () => D.categories?.coverage || {};
+const leadTxt = () => { const c = cov(); return c.products ? t("lead").replace("{p}", c.products).replace("{v}", c.providers).replace("{c}", c.categories) : ""; };
+const coverageTxt = () => { const c = cov(); return c.products ? `<b>${t("coverage")}:</b> ${c.products} · ${c.live} ${t("covLive")} · ${c.products - c.live} ${t("covSample")}` : ""; };
 async function topTableHtml() {
   const spec = TOP[topTab], data = await get("cat-" + spec.cat);
-  const rows = (data?.items || []).slice(0, 3), best = Math.max(...rows.map(r => r.score || 0));
+  // like for like only: one savings term (12 months) and one mortgage rate type at a time
+  const all = (data?.items || []).filter(r => !spec.where || Object.entries(spec.where).every(([k, v]) => r[k] === v));
+  const rows = all.slice(0, 3), best = Math.max(...rows.map(r => r.score || 0));
   return `<table><thead><tr><th>${colLabel("provider")}</th>${spec.cols.map(([k, , lab]) => `<th>${colLabel(lab || k)}</th>`).join("")}<th>${t("thrush")}</th><th></th></tr></thead><tbody>
     ${rows.map((r, i) => `<tr><td>${provCell(r, esc(r.product || ""), spec.cat)}</td>
       ${spec.cols.map(([k, f], j) => `<td class="${j === 0 ? "key" : ""}">${fmt(r[k], f)}</td>`).join("")}
@@ -299,17 +378,19 @@ async function pageHome() {
     <div>
       <p class="eyebrow">${t("eyebrow")}</p>
       <h1>${t("h1a")}<br><span class="blue">${t("h1b")}</span></h1>
-      <p class="lead">${t("lead")}</p>
+      <p class="lead">${leadTxt()}</p>
       <form class="search" id="heroForm"><input id="heroQ" placeholder="${t("ph")}" autocomplete="off"><button class="btn navy">${t("compare")}</button></form>
       <div class="chips">${t("chips").map(c => `<button class="chip" type="button" data-q="${esc(c)}">${esc(c)}</button>`).join("")}</div>
     </div>
     <div class="hero-card">${V.hero()}<div class="says"><p class="eyebrow">${t("says")}</p><p>“${t("quote")}”</p></div></div>
   </section>
 
-  <section class="section" style="padding-top:20px">
-    <div class="sec-head"><h2>${t("whatCmp")}</h2><a class="link" href="#categories">${t("allCats")}</a></div>
-    <div class="grid g4">${HOME_CARDS.map(([k, route, ic]) => { const [title, sub] = t("c")[k];
-      return `<a class="card cat2 ${k === "today" ? "dark" : ""}" href="#${route}"><span class="cb">${V.catBanner(k, k === "today")}</span><span class="cbody"><h3>${esc(title)}</h3><p>${esc(sub)}</p><span class="go">→</span></span></a>`; }).join("")}</div>
+  <section class="section doors" style="padding-top:20px">
+    <div class="grid g2">${DOORS.map(([k, sub, icon, cats]) => `<div class="card door">
+      <div class="door-h"><span class="door-ic">${V.catIcon(icon, 56)}</span><div><h2>${t(k)}</h2><p>${t(sub)}</p></div></div>
+      <div class="chips">${cats.filter(c => D.categories?.config[c]).map(c => `<a class="chip" href="#${c}">${V.icon(c, 15)} ${esc(catTitle(D.categories.config[c]))}</a>`).join("")}</div>
+      </div>`).join("")}</div>
+    <p class="note cov">${coverageTxt()}</p>
   </section>
   </div>
 
@@ -337,6 +418,11 @@ async function pageHome() {
       </div>
     </div>
   </section>
+  <section class="section" style="padding-top:0">
+    <div class="wrap"><div class="sec-head"><div><h2>${t("alsoOn")}</h2><p class="note" style="margin:4px 0 0">${t("alsoSub")}</p></div></div>
+    <div class="grid g3">${HOME_CARDS.filter(([k]) => ["eat", "markets", "today"].includes(k)).map(([k, route]) => { const [title, sub] = t("c")[k];
+      return `<a class="card cat2 ${k === "today" ? "dark" : ""}" href="#${route}"><span class="cb">${V.catBanner(k, k === "today")}</span><span class="cbody"><h3>${esc(title)}</h3><p>${esc(sub)}</p><span class="go">→</span></span></a>`; }).join("")}</div></div>
+  </section>
   ${nlBand()}
   ${partnerBand()}`;
 }
@@ -353,6 +439,10 @@ function bindHome() {
 }
 
 /* ---------- category pages ---------- */
+/* ---------- category page: eligibility first, then cost, then preference ---------- */
+const POS_DEFAULT = {sales: 8000, ticket: 15, mix: 85};
+const segLabel = (seg, v) => seg.fmt === "months" ? (v ? t("months").replace("{n}", v) : t("instant")) : (seg.prefix || "") + v;
+const lbl = o => (o && (o[lang] || o.en)) || "";
 async function pageCategory(slug) {
   const [cats, data] = await Promise.all([get("categories"), get("cat-" + slug)]);
   const cfg = cats.config[slug];
@@ -360,8 +450,29 @@ async function pageCategory(slug) {
   const sec = SECTIONS.find(s => s[2].includes(slug));
   const siblings = sec ? sec[2].filter(k => cats.config[k]) : [slug];
   const extra = cfg.calculator ? `<div class="section grid g2" style="padding-bottom:0">${cfg.calculator === "loan" ? loanCalcHtml() : mortCalcHtml()}</div>` : "";
-  const weights = cfg.score.map(s => `${colLabel(s.key)} ${Math.round(s.w * 100)}% (${t(s.dir)})`).join(" · ");
-  setTimeout(() => bindTable(cfg, data.items, slug), 0);
+  const weights = cfg.score.length ? cfg.score.map(s => `${colLabel(s.key)} ${Math.round(s.w * 100)}% (${t(s.dir)})`).join(" · ") : t("noScore");
+  const pos = cfg.calc === "pos";
+  // columns shown in the app: POS replaces the two fixed scenarios with the user's own month
+  const view = pos ? [cfg.columns[0], cfg.columns[1], {key: "your_cost", fmt: "eur", lt: "yourCost"}, {key: "first_year", fmt: "eur0", lt: "firstYear"},
+    ...cfg.columns.slice(2).filter(c => !["cost_5k", "cost_20k"].includes(c.key))] : cfg.columns;
+  const seg = cfg.segment;
+  let segVals = [];
+  if (seg) {
+    segVals = [...new Set(data.items.map(r => r[seg.key]).filter(v => v !== undefined && v !== null))];
+    if (data.corridors && seg.key === "corridor") segVals = data.corridors.filter(c => segVals.includes(c));
+    else segVals.sort((a, b) => typeof a === "number" && typeof b === "number" ? a - b : String(a).localeCompare(String(b)));
+  }
+  const segChips = seg && segVals.length > 1 ? `<div class="chips seg-chips" id="seg">${seg.all ? `<button type="button" class="chip on" data-v="">${t("segAll")}</button>` : ""}${segVals.map((v, i) =>
+    `<button type="button" class="chip ${!seg.all && i === 0 ? "on" : ""}" data-v="${esc(v)}">${esc(segLabel(seg, v))}</button>`).join("")}</div>` : "";
+  const filters = cfg.filters || [];
+  const needs = filters.length || pos ? `<div class="card needs"><p class="eyebrow">${pos ? t("posTitle") : t("yourNeeds")}</p><div class="needs-grid">
+    ${pos ? `<label>${t("posSales")}<input id="p_sales" type="number" min="0" step="100" value="${POS_DEFAULT.sales}"></label>
+      <label>${t("posTicket")}<input id="p_ticket" type="number" min="1" step="1" value="${POS_DEFAULT.ticket}"></label>
+      <label>${t("posMix")}<input id="p_mix" type="number" min="0" max="100" step="5" value="${POS_DEFAULT.mix}"></label>` : ""}
+    ${filters.map(f => f.op === "bool" ? `<label class="chk"><input id="f_${f.key}" type="checkbox"> ${esc(lbl(f.label))}</label>`
+      : `<label>${esc(lbl(f.label))}<input id="f_${f.key}" type="number" min="0" placeholder="${esc(f.placeholder || "")}"></label>`).join("")}
+    </div>${pos ? `<p class="note" style="margin:8px 0 0">${t("posMixHelp")} <span id="posAssume"></span></p>` : ""}</div>` : "";
+  setTimeout(() => bindTable(cfg, data.items, slug, view), 0);
   return `<div class="wrap">
   <div class="page-head with-ic">
     <span class="ph-ic">${V.catIcon(slug, 64)}</span>
@@ -370,39 +481,90 @@ async function pageCategory(slug) {
     <p>${esc(loc(cfg, "intro"))}</p>
   </div>
   ${siblings.length > 1 ? `<div class="chips">${siblings.map(k => `<a class="chip ${k === slug ? "on" : ""}" href="#${k}">${V.icon(k, 15)} ${esc(catTitle(cats.config[k]))}</a>`).join("")}</div>` : ""}
-  ${data.corridors ? `<div class="chips" id="fxc">${data.corridors.map((c, i) => `<button type="button" class="chip ${i === 0 ? "on" : ""}" data-c="${c}">EUR → ${c}</button>`).join("")}</div>` : ""}
+  ${segChips}
+  ${needs}
+  ${cfg.caveat ? `<div class="tip">${V.mascot(48)}<div>${esc(lbl(cfg.caveat))}</div></div>` : ""}
+  <div class="hl-grid" id="hl"></div>
   <div class="toolbar">
     <input id="flt" placeholder="${t("filter")}">
-    <select id="srt"><option value="score">${t("sortBy")}: ${t("thrush")}</option>${cfg.columns.filter(c => c.fmt && c.fmt !== "bool").map(c => `<option value="${c.key}">${t("sortBy")}: ${esc(colLabel(c.key))}</option>`).join("")}</select>
-    <span class="fresh">${t("updated")} ${ago(data.updated)}</span>
+    <select id="srt">${cfg.no_score || pos ? "" : `<option value="score">${t("sortBy")}: ${t("thrush")}</option>`}${view.filter(c => c.fmt && c.fmt !== "bool").map(c => `<option value="${c.key}">${t("sortBy")}: ${esc(c.lt ? t(c.lt) : colLabel(c.key))}</option>`).join("")}</select>
+    <span class="fresh">${t("rebuilt")} ${ago(data.updated)} <span id="hiddenN"></span></span>
   </div>
-  <div class="tbl"><table><thead><tr>${cfg.columns.map(c => `<th data-k="${c.key}">${esc(colLabel(c.key))}</th>`).join("")}<th data-k="score">${t("thrush")}</th><th></th></tr></thead><tbody id="tb"></tbody></table></div>
+  <div class="tbl"><table><thead><tr>${view.map(c => `<th data-k="${c.key}">${esc(c.lt ? t(c.lt) : colLabel(c.key))}</th>`).join("")}${cfg.no_score ? "" : `<th data-k="score">${t("thrush")}</th>`}<th></th></tr></thead><tbody id="tb"></tbody></table></div>
   <div class="tip">${V.mascot(60)}<div><b>${t("tip")}</b><br>${t("tipTxt")}</div></div>
   <p class="note"><b>${t("howTitle")}:</b> ${t("weights")}: ${esc(weights)}. <a class="link" href="#how-we-rank">${t("fHow")} →</a></p>
   ${extra}
   <div style="height:40px"></div></div>`;
 }
-function bindTable(cfg, items, slug) {
-  let key = "score", dir = -1;
-  const lowKeys = new Set(cfg.score.filter(s => s.dir === "low").map(s => s.key));
-  const keyCol = (cfg.score.find(s => cfg.columns.some(c => c.key === s.key && c.fmt && c.fmt !== "bool")) || {}).key;
-  let best = Math.max(...items.map(r => r.score || 0));
+
+// the user's own POS month: card fee above any fee-free allowance, other cards at the provider's higher rate, fixed fees, plan fee
+function posCosts(rows) {
+  const S = Math.max(0, +($("#p_sales")?.value) || 0), tk = Math.max(1, +($("#p_ticket")?.value) || POS_DEFAULT.ticket);
+  const mix = Math.min(100, Math.max(0, +($("#p_mix")?.value ?? POS_DEFAULT.mix))) / 100, n = Math.round(S / tk);
+  const cons = S * mix, other = S - cons;
+  for (const r of rows) {
+    if (typeof r.fee_pct !== "number") { r.your_cost = r.first_year = null; continue; }
+    const c = Math.max(0, cons - (r.free_allowance || 0)) * r.fee_pct / 100 + other * (r.fee_pct_other ?? r.fee_pct) / 100 + n * (r.fee_fixed || 0) + (r.monthly_fee || 0);
+    r.your_cost = Math.round(c * 100) / 100;
+    r.first_year = Math.round(r.your_cost * 12 + (r.reader_price || 0));
+  }
+  const a = $("#posAssume"); if (a) a.textContent = t("posAssume").replace("{n}", nf(n, 0));
+}
+const freshTxt = r => r.demo ? `<span class="tag-sample">${t("sampleRow")}</span>` : r.checked ? `${r.stale ? t("lastOk") : t("liveChk")} ${ago(r.checked)}` : t("notChecked");
+const pickBy = (rows, key, dir) => rows.filter(r => typeof r[key] === "number").sort((a, b) => (a[key] - b[key]) * (dir === "low" ? 1 : -1))[0];
+
+function bindTable(cfg, items, slug, view) {
+  view = view || cfg.columns;
+  const pos = cfg.calc === "pos", noScore = !!cfg.no_score;
+  let key = pos ? "your_cost" : noScore ? ((cfg.highlights || [])[0] || {}).key || view[2].key : "score";
+  const lowKeys = new Set([...cfg.score.filter(s => s.dir === "low").map(s => s.key), ...(cfg.highlights || []).filter(h => h.dir === "low").map(h => h.key), "your_cost", "first_year"]);
+  let dir = key === "score" ? -1 : lowKeys.has(key) ? 1 : -1;
+  const keyCol = pos ? "your_cost" : ((cfg.score.find(s => view.some(c => c.key === s.key && c.fmt && c.fmt !== "bool")) || (cfg.highlights || [])[0] || {}).key);
+  const seg = cfg.segment, filters = cfg.filters || [];
+  const pass = (r, f) => {
+    const el = $("#f_" + f.key); if (!el) return true;
+    const x = r[f.key];
+    if (f.op === "bool") return !el.checked || x !== false;          // unknown stays visible, a known "no" is hidden
+    if (el.value === "" || x === null || x === undefined) return true;
+    const v = +el.value;
+    return f.op === "gte" ? x >= v : f.op === "lte" ? x <= v : f.op === "gte_inv" ? x >= 100 - v : true;
+  };
   const draw = () => {
+    if (pos) posCosts(items);
     const q = ($("#flt")?.value || "").toLowerCase();
-    const cur = $("#fxc .on")?.dataset.c;
-    const rows = items.filter(r => (!cur || r.corridor === cur) && (!q || JSON.stringify(r).toLowerCase().includes(q)))
-      .sort((a, b) => { const x = a[key], y = b[key]; return (typeof x === "number" && typeof y === "number" ? x - y : String(x).localeCompare(String(y))) * dir; });
-    best = Math.max(...rows.map(r => r.score || 0));
-    $("#tb").innerHTML = rows.length ? rows.map((r, i) => `<tr>
-      ${cfg.columns.map((c, j) => j === 0 ? `<td>${provCell(r, r.checked ? `${r.stale ? t("stale") : t("checked")} ${ago(r.checked)}` : t("notChecked"), slug)}</td>`
-        : `<td class="${c.key === keyCol ? "key" : ""}">${fmt(r[c.key], c.fmt)}</td>`).join("")}
-      <td>${scoreCell(r, best)}</td>
-      ${ctaCell(r, slug, r.score === best)}</tr>${r.note ? `<tr class="note-row"><td colspan="99">ⓘ ${esc(r.note)}</td></tr>` : ""}`).join("")
+    const sv = $("#seg .on")?.dataset.v;
+    const inSeg = items.filter(r => !seg || !sv || String(r[seg.key]) === sv);
+    const eligible = inSeg.filter(r => filters.every(f => pass(r, f)));
+    const rows = eligible.filter(r => !q || JSON.stringify(r).toLowerCase().includes(q))
+      .sort((a, b) => { const x = a[key], y = b[key]; if (x == null) return 1; if (y == null) return -1;
+        return (typeof x === "number" && typeof y === "number" ? x - y : String(x).localeCompare(String(y))) * dir; });
+    const hidden = inSeg.length - eligible.length;
+    $("#hiddenN").textContent = hidden > 0 ? "· " + t("hidden").replace("{n}", hidden) : "";
+    // best for this user: lowest own cost for POS, otherwise the Blue score within what fits; insurance has none
+    const bestRow = noScore ? null : pos ? pickBy(eligible, "your_cost", "low") : eligible.slice().sort((a, b) => (b.score || 0) - (a.score || 0))[0];
+    // reasoned highlights instead of one overall winner
+    const colOf = k => view.find(c => c.key === k) || cfg.columns.find(c => c.key === k) || {};
+    let cards = [];
+    if (pos) {
+      const fast = pickBy(eligible.filter(r => /instant/i.test(r.payout || "")), "your_cost", "low");
+      const noHw = pickBy(eligible.filter(r => r.reader_price === 0), "your_cost", "low");
+      cards = [[t("posCheapest"), pickBy(eligible, "your_cost", "low"), "your_cost", "eur"], [t("posYear"), pickBy(eligible, "first_year", "low"), "first_year", "eur0"],
+               [t("posFast"), fast, "your_cost", "eur"], [t("posNoHw"), noHw, "your_cost", "eur"]];
+    } else cards = (cfg.highlights || []).map(h => [lbl(h.label), pickBy(eligible, h.key, h.dir), h.key, colOf(h.key).fmt]);
+    $("#hl").innerHTML = cards.filter(c => c[1]).map(([label, r, k, f]) => `<div class="hl">
+      <small>${esc(label)}</small><div class="hl-p">${brand(r, 28)}<b>${esc(r.provider)}</b><span class="muted">${esc(r.product || r.type || "")}</span></div>
+      <span class="hl-v">${fmt(r[k], f)}</span>${r.offer_ends ? `<em class="hl-o">${t("posOffer").replace("{d}", ago(r.offer_ends + "T12:00:00Z").split(",")[0])}</em>` : ""}</div>`).join("");
+    $("#tb").innerHTML = rows.length ? rows.map(r => `<tr class="${r === bestRow ? "best" : ""}">
+      ${view.map((c, j) => j === 0 ? `<td>${provCell(r, freshTxt(r), slug)}</td>` : `<td class="${c.key === keyCol ? "key" : ""}">${fmt(r[c.key], c.fmt)}</td>`).join("")}
+      ${noScore ? "" : `<td>${r === bestRow ? `<span class="pick" title="${esc(t("bestFor"))}">${t("bestPick")}</span>` : `<span class="score">${nf(r.score || 0, 1)}<small> /10</small></span>`}</td>`}
+      ${ctaCell(r, slug, r === bestRow)}</tr>${r.note ? `<tr class="note-row"><td colspan="99">ⓘ ${esc(r.note)}</td></tr>` : ""}`).join("")
       : `<tr><td colspan="99"><div class="empty">${V.mascot(80)}<span>${t("mNo")}</span></div></td></tr>`;
     document.querySelectorAll("th").forEach(th => th.classList.toggle("sorted", th.dataset.k === key));
   };
   $("#flt").oninput = draw;
-  document.querySelectorAll("#fxc button").forEach(b => b.onclick = () => { document.querySelectorAll("#fxc button").forEach(x => x.classList.toggle("on", x === b)); draw(); });
+  document.querySelectorAll("#seg button").forEach(b => b.onclick = () => { document.querySelectorAll("#seg button").forEach(x => x.classList.toggle("on", x === b)); draw(); });
+  document.querySelectorAll(".needs input").forEach(i => i.oninput = i.onchange = draw);
+  $("#srt").value = key;
   $("#srt").onchange = e => { key = e.target.value; dir = key === "score" ? -1 : (lowKeys.has(key) ? 1 : -1); draw(); };
   document.querySelectorAll("th[data-k]").forEach(th => th.onclick = () => { const k = th.dataset.k; dir = key === k ? -dir : (k === "score" ? -1 : lowKeys.has(k) ? 1 : -1); key = k; draw(); });
   draw(); bindCalcs();
@@ -467,7 +629,7 @@ async function pageHow() {
   const cats = await get("categories");
   return `<div class="wrap"><div class="page-head"><p class="eyebrow">${t("fAbout")}</p><h1 style="font-size:clamp(32px,4vw,48px)">${t("howTitle")}</h1><p>${t("howTxt")}</p></div>
   <div class="tbl" style="margin:20px 0 50px"><table><thead><tr><th>${t("allCatsTitle")}</th><th>${t("weights")}</th></tr></thead><tbody>
-  ${Object.entries(cats.config).map(([k, c]) => `<tr><td><b>${esc(catTitle(c))}</b></td><td>${c.score.map(s => `${esc(colLabel(s.key))} ${Math.round(s.w * 100)}% <span class="muted">(${t(s.dir)})</span>`).join(" · ")}</td></tr>`).join("")}
+  ${Object.entries(cats.config).map(([k, c]) => `<tr><td><b>${esc(catTitle(c))}</b></td><td>${c.score.length ? c.score.map(s => `${esc(colLabel(s.key))} ${Math.round(s.w * 100)}% <span class="muted">(${t(s.dir)})</span>`).join(" · ") : `<span class="muted">${t("noScore")}</span>`}</td></tr>`).join("")}
   </tbody></table></div></div>`;
 }
 const pageContact = async () => `<div class="wrap"><div class="page-head"><p class="eyebrow">${t("fAbout")}</p><h1 style="font-size:clamp(32px,4vw,48px)">${t("fContact")}</h1><div class="tip">${V.mascot(60)}<div>${t("contactTxt")}</div></div></div><div style="height:60px"></div></div>`;

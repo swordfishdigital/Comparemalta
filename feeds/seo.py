@@ -46,7 +46,8 @@ S = {
     lead="We compare {n} {t_l} from {k} providers in Malta, checked {d}.",
     top="Top pick: {p} ({score}/10 Blue score).", extreme="{dir_word} {label}: {p} at {v}.",
     lowest="Lowest", highest="Highest", sample="Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.",
-    table="Full comparison", rank="How we rank", rank_txt="The Blue score (0 to 10) weighs: {w}. Nobody can pay for a better position.",
+    table="Full comparison", rank="How we rank", rank_txt="First we hide products that do not fit your needs (amount, term, deposit, currency) and never rank different kinds of product together; then the lowest total cost wins. The Blue score (0 to 10) summarises this for the default view and weighs: {w}. Nobody can pay for a better position.",
+    top_seg="Top pick for each option: {x}.", low_seg="Lowest starting price by type: {x}.", seg_months="{n} months", no_score="Insurance has no overall score: cover, excess and exclusions differ, so compare the policy wording, not only the starting price.",
     faq="Questions and answers", sources="Sources", src_txt="Figures are taken from each provider's own website.",
     interactive="Open the interactive table", ask="Ask Blue", home="Home", all="All comparisons", methodology="How we rank",
     q_best="What is the best {t_l} in Malta right now?",
@@ -55,11 +56,11 @@ S = {
     q_rank="How does CompareMalta.ai rank {t_l}?", a_rank="Every product gets a Blue score from 0 to 10 from these weights: {w}. Rankings are independent and cannot be bought.",
     q_fresh="How often are these {t_l} updated?", a_fresh="Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on {d}.",
     site_title="CompareMalta.ai: compare banks, loans, mortgages, cards, POS and mobile plans in Malta",
-    site_desc="Malta's AI comparison site. Every rate, fee and plan side by side, refreshed daily in English, Malti and Italiano. Ask Blue for the best pick in seconds.",
+    site_desc="Malta's AI comparison site. Rates, fees and plans from the providers we cover, side by side, refreshed daily in English, Malti and Italiano. Ask Blue for the best pick in seconds.",
     h_home="Compare everything in Malta, side by side", h_sub="Rates, fees and plans from Maltese banks, fintechs, telcos and payment providers, refreshed every day. Ask Blue, our AI assistant, for the best pick in seconds.",
     cats="Comparisons", markets="Markets today", news="Malta news today", top_in="Top pick", see="Compare",
     meth_title="How CompareMalta.ai ranks products", meth_lead="Every comparison uses public prices from each provider's own website, refreshed by our feeds every day. We turn them into a Blue score from 0 to 10.",
-    meth_rules=["Each category has its own weights, shown on every comparison page.", "Missing values count as the category median, so a gap never helps or hurts much.", "Providers cannot pay to rank higher. Partnerships never change the order.", "Sample figures are labelled until a live feed for that provider is connected."],
+    meth_rules=["Step 1, eligibility: products that do not fit your amount, term, deposit or currency are hidden, and different kinds of product (12 and 24 month deposits, fixed and variable mortgages, car and home insurance) are never ranked together.", "Step 2, cost: among what fits, the lowest total cost for your numbers wins. For card payments (POS) you enter your own monthly sales, average sale and card mix.", "Step 3, preferences: speed, app and hardware count only after cost.", "Insurance has no overall score, because cover differs.", "Each category has its own weights, shown on every comparison page.", "Missing values count as the category median, so a gap never helps or hurts much.", "Providers cannot pay to rank higher. Partnerships never change the order.", "Sample figures are labelled until a live feed for that provider is connected."],
     fx="Euro exchange rates (ECB)", rate="ECB deposit rate",
  ),
  "mt": dict(
@@ -67,7 +68,8 @@ S = {
     lead="Inqabblu {n} prodotti ta' {t_l} minn {k}-il fornitur f'Malta, iċċekkjati {d}.",
     top="L-ewwel għażla: {p} ({score}/10 Blue score).", extreme="{dir_word} {label}: {p} b'{v}.",
     lowest="L-iktar baxx", highest="L-ogħla", sample="Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.",
-    table="Paragun sħiħ", rank="Kif nikklassifikaw", rank_txt="Il-Blue score (0 sa 10) jiżen: {w}. Ħadd ma jista' jħallas għal post aħjar.",
+    table="Paragun sħiħ", rank="Kif nikklassifikaw", rank_txt="L-ewwel naħbu l-prodotti li ma jaqblux mal-bżonnijiet tiegħek (ammont, terminu, depożitu, munita) u qatt ma nqabblu tipi differenti ta' prodott flimkien; imbagħad jirbaħ l-inqas spiża totali. Il-Blue score (0 sa 10) jiġbor dan għall-veduta standard u jiżen: {w}. Ħadd ma jista' jħallas għal post aħjar.",
+    top_seg="L-ewwel għażla għal kull għażla: {x}.", low_seg="L-inqas prezz tal-bidu skont it-tip: {x}.", seg_months="{n} xhur", no_score="L-assigurazzjoni m'għandhiex score ġenerali: il-kopertura, l-eċċess u l-esklużjonijiet ivarjaw, għalhekk qabbel il-kundizzjonijiet tal-polza, mhux il-prezz tal-bidu biss.",
     faq="Mistoqsijiet u tweġibiet", sources="Sorsi", src_txt="Il-figuri jittieħdu mis-sit ta' kull fornitur.",
     interactive="Iftaħ it-tabella interattiva", ask="Staqsi lil Blue", home="Paġna ewlenija", all="Il-paraguni kollha", methodology="Kif nikklassifikaw",
     q_best="X'inhu l-aħjar {t_l} f'Malta bħalissa?",
@@ -76,11 +78,11 @@ S = {
     q_rank="Kif jikklassifika CompareMalta.ai {t_l}?", a_rank="Kull prodott jieħu Blue score minn 0 sa 10 b'dawn il-piżijiet: {w}. Il-klassifiki huma indipendenti u ma jinxtrawx.",
     q_fresh="Kemm-il darba jiġu aġġornati dawn il-{t_l}?", a_fresh="Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-{d}.",
     site_title="CompareMalta.ai: qabbel banek, self, self għad-dar, karti, POS u pjanijiet tal-mowbajl f'Malta",
-    site_desc="Is-sit tal-paragun AI ta' Malta. Kull rata, miżata u pjan ħdejn xulxin, aġġornati kuljum bl-Ingliż, bil-Malti u bit-Taljan. Staqsi lil Blue għall-aħjar għażla f'sekondi.",
+    site_desc="Is-sit tal-paragun AI ta' Malta. Rati, miżati u pjanijiet tal-fornituri li nkopru, ħdejn xulxin, aġġornati kuljum bl-Ingliż, bil-Malti u bit-Taljan. Staqsi lil Blue għall-aħjar għażla f'sekondi.",
     h_home="Qabbel kollox f'Malta, ħdejn xulxin", h_sub="Rati, miżati u pjanijiet minn banek, fintechs, telcos u fornituri tal-ħlasijiet f'Malta, aġġornati kuljum. Staqsi lil Blue, l-assistent AI tagħna, għall-aħjar għażla.",
     cats="Paraguni", markets="Is-swieq illum", news="Aħbarijiet ta' Malta llum", top_in="L-ewwel għażla", see="Qabbel",
     meth_title="Kif CompareMalta.ai jikklassifika l-prodotti", meth_lead="Kull paragun juża prezzijiet pubbliċi mis-sit ta' kull fornitur, aġġornati kuljum mill-feeds tagħna. Nibdluhom f'Blue score minn 0 sa 10.",
-    meth_rules=["Kull kategorija għandha l-piżijiet tagħha, murija f'kull paġna tal-paragun.", "Valur nieqes jgħodd bħala l-medjan tal-kategorija.", "Il-fornituri ma jistgħux iħallsu biex jitilgħu fil-klassifika.", "Figuri ta' kampjun huma mmarkati sakemm jitqabbad feed live."],
+    meth_rules=["Pass 1, eliġibbiltà: il-prodotti li ma jaqblux mal-ammont, it-terminu, id-depożitu jew il-munita tiegħek jinħbew, u tipi differenti ta' prodott qatt ma jitqabblu flimkien.", "Pass 2, spiża: minn dak li jaqbel, jirbaħ l-inqas spiża totali għan-numri tiegħek. Għall-POS iddaħħal il-bejgħ tiegħek fix-xahar, il-bejgħ medju u t-tip ta' karti.", "Pass 3, preferenzi: veloċità, app u apparat jgħoddu biss wara l-ispiża.", "L-assigurazzjoni m'għandhiex score ġenerali, għax il-kopertura tvarja.", "Kull kategorija għandha l-piżijiet tagħha, murija f'kull paġna tal-paragun.", "Valur nieqes jgħodd bħala l-medjan tal-kategorija.", "Il-fornituri ma jistgħux iħallsu biex jitilgħu fil-klassifika.", "Figuri ta' kampjun huma mmarkati sakemm jitqabbad feed live."],
     fx="Rati tal-kambju tal-euro (BĊE)", rate="Rata tad-depożitu tal-BĊE",
  ),
  "it": dict(
@@ -88,7 +90,8 @@ S = {
     lead="Confrontiamo {n} offerte di {t_l} di {k} fornitori a Malta, verificate il {d}.",
     top="Prima scelta: {p} ({score}/10 Blue score).", extreme="{label_cap} {dir_word}: {p} con {v}.",
     lowest="più basso", highest="più alto", sample="Alcuni valori sono dati di esempio finché non colleghiamo il feed live di quel fornitore; verifica con il fornitore prima di decidere.",
-    table="Confronto completo", rank="Come classifichiamo", rank_txt="Il Blue score (da 0 a 10) pesa: {w}. Nessuno può pagare per una posizione migliore.",
+    table="Confronto completo", rank="Come classifichiamo", rank_txt="Prima nascondiamo i prodotti non adatti alle tue esigenze (importo, durata, anticipo, valuta) e non mettiamo mai in classifica insieme prodotti di tipo diverso; poi vince il costo totale più basso. Il Blue score (da 0 a 10) riassume questo nella vista predefinita e pesa: {w}. Nessuno può pagare per una posizione migliore.",
+    top_seg="Prima scelta per ogni opzione: {x}.", low_seg="Prezzo di partenza più basso per tipo: {x}.", seg_months="{n} mesi", no_score="Le assicurazioni non hanno un punteggio complessivo: coperture, franchigie ed esclusioni cambiano, quindi confronta le condizioni di polizza e non solo il prezzo di partenza.",
     faq="Domande e risposte", sources="Fonti", src_txt="I valori sono presi dal sito di ciascun fornitore.",
     interactive="Apri la tabella interattiva", ask="Chiedi a Blue", home="Home", all="Tutti i confronti", methodology="Come classifichiamo",
     q_best="Qual è la migliore offerta di {t_l} a Malta in questo momento?",
@@ -97,11 +100,11 @@ S = {
     q_rank="Come classifica CompareMalta.ai le offerte di {t_l}?", a_rank="Ogni prodotto riceve un Blue score da 0 a 10 con questi pesi: {w}. Le classifiche sono indipendenti e non si possono comprare.",
     q_fresh="Ogni quanto vengono aggiornati questi dati?", a_fresh="Ogni giorno. I nostri feed leggono i siti dei fornitori ogni mattina; questa pagina è stata rigenerata il {d}.",
     site_title="CompareMalta.ai: confronta banche, prestiti, mutui, carte, POS e offerte mobile a Malta",
-    site_desc="Il sito di confronto AI di Malta. Ogni tasso, commissione e offerta a confronto, aggiornati ogni giorno in inglese, maltese e italiano. Chiedi a Blue la scelta migliore in pochi secondi.",
+    site_desc="Il sito di confronto AI di Malta. Tassi, commissioni e offerte dei fornitori che copriamo, a confronto, aggiornati ogni giorno in inglese, maltese e italiano. Chiedi a Blue la scelta migliore in pochi secondi.",
     h_home="Confronta tutto a Malta, fianco a fianco", h_sub="Tassi, commissioni e offerte di banche, fintech, operatori e fornitori di pagamenti a Malta, aggiornati ogni giorno. Chiedi a Blue, il nostro assistente AI, la scelta migliore.",
     cats="Confronti", markets="Mercati oggi", news="Notizie da Malta oggi", top_in="Prima scelta", see="Confronta",
     meth_title="Come CompareMalta.ai classifica i prodotti", meth_lead="Ogni confronto usa i prezzi pubblici presi dal sito di ciascun fornitore, aggiornati ogni giorno dai nostri feed. Li trasformiamo in un Blue score da 0 a 10.",
-    meth_rules=["Ogni categoria ha i suoi pesi, indicati in ogni pagina di confronto.", "Un valore mancante conta come la mediana della categoria.", "I fornitori non possono pagare per salire in classifica.", "I dati di esempio sono segnalati finché non colleghiamo un feed live."],
+    meth_rules=["Passo 1, idoneità: i prodotti non adatti a importo, durata, anticipo o valuta vengono nascosti, e prodotti di tipo diverso (depositi a 12 e 24 mesi, mutui fissi e variabili, assicurazione auto e casa) non vengono mai messi in classifica insieme.", "Passo 2, costo: tra quelli adatti vince il costo totale più basso per i tuoi numeri. Per i POS inserisci vendite mensili, scontrino medio e tipi di carta.", "Passo 3, preferenze: velocità, app e hardware contano solo dopo il costo.", "Le assicurazioni non hanno un punteggio complessivo, perché le coperture cambiano.", "Ogni categoria ha i suoi pesi, indicati in ogni pagina di confronto.", "Un valore mancante conta come la mediana della categoria.", "I fornitori non possono pagare per salire in classifica.", "I dati di esempio sono segnalati finché non colleghiamo un feed live."],
     fx="Cambi dell'euro (BCE)", rate="Tasso sui depositi BCE",
  ),
 }
@@ -180,6 +183,8 @@ def intro_of(cfg, lang):
 
 
 def weights(cfg, cols, lang):
+    if not cfg["score"]:
+        return ""
     tot = sum(s["w"] for s in cfg["score"]) or 1
     return ", ".join(f"{cols[lang].get(s['key'], s['key'])} {round(100 * s['w'] / tot)}%" for s in cfg["score"])
 
@@ -283,11 +288,13 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
     t = title_of(cfg, lang)
     t_l = t if lang == "mt" else " ".join(w if sum(ch.isupper() for ch in w) > 1 else w.lower() for w in t.split())
     d = date_txt(data.get("updated") or updated, lang)
-    key = cfg["score"][0]
+    no_score = bool(cfg.get("no_score"))
+    key = (cfg["score"] or cfg.get("highlights") or [{"key": cfg["columns"][2]["key"], "dir": "low"}])[0]
     keycol = next((c for c in cfg["columns"] if c["key"] == key["key"]), cfg["columns"][2] if len(cfg["columns"]) > 2 else cfg["columns"][-1])
     label = cols[lang].get(keycol["key"], keycol["key"])
     label = label if sum(ch.isupper() for ch in label) > 1 else label[:1].lower() + label[1:]  # keep acronyms like APRC
-    best = rows[0]
+    valued0 = [r for r in rows if isinstance(r.get(key["key"]), (int, float)) and not isinstance(r.get(key["key"]), bool)]
+    best = rows[0] if not no_score else ((min if key["dir"] == "low" else max)(valued0, key=lambda r: r[key["key"]]) if valued0 else rows[0])
     valued = [r for r in rows if isinstance(r.get(keycol["key"]), (int, float)) and not isinstance(r.get(keycol["key"]), bool)]
     ext = (min if key["dir"] == "low" else max)(valued, key=lambda r: r[keycol["key"]]) if valued else None
     providers = len({r["provider"] for r in rows})
@@ -295,28 +302,41 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
     w = weights(cfg, cols, lang)
     v_best = fmt(best.get(keycol["key"]), keycol.get("fmt"), lang)
 
+    seg = cfg.get("segment")
+    seg_txt = ""
+    if seg:  # never one winner across different kinds of product (12 vs 24 months, fixed vs variable, car vs home)
+        parts = []
+        for v in sorted({r.get(seg["key"]) for r in rows if r.get(seg["key"]) is not None}, key=lambda x: (isinstance(x, str), x)):
+            grp = [r for r in rows if r.get(seg["key"]) == v]
+            g = (sorted(grp, key=lambda r: -(r.get("score") or 0)) if not no_score else
+                 sorted([r for r in grp if isinstance(r.get(key["key"]), (int, float))], key=lambda r: r[key["key"]] * (1 if key["dir"] == "low" else -1)))
+            if g:
+                name = s["seg_months"].format(n=v) if seg.get("fmt") == "months" else f"{seg.get('prefix', '')}{v}"
+                parts.append(f"{name}: {product_name(g[0])} ({fmt(g[0].get(keycol['key']), keycol.get('fmt'), lang)})")
+        seg_txt = s["low_seg" if no_score else "top_seg"].format(x="; ".join(parts)) if parts else ""
     answer = " ".join(filter(None, [
         s["lead"].format(n=len(rows), t_l=t_l, k=providers, d=d),
-        s["top"].format(p=product_name(best), score=nf(best.get("score", 0), 1, lang)),
+        seg_txt or ("" if no_score else s["top"].format(p=product_name(best), score=nf(best.get("score", 0), 1, lang))),
+        s["no_score"] if no_score else "",
         s["extreme"].format(dir_word=s["lowest" if key["dir"] == "low" else "highest"], label=label, label_cap=label[:1].upper() + label[1:], p=product_name(ext),
-                            v=fmt(ext[keycol["key"]], keycol.get("fmt"), lang)) if ext else "",
+                            v=fmt(ext[keycol["key"]], keycol.get("fmt"), lang)) if ext and not seg else "",
         s["sample"] if demo else ""]))
 
-    faq = [(s["q_best"].format(t_l=t_l), s["a_best"].format(d=d, p=product_name(best), score=nf(best.get("score", 0), 1, lang), label=label, v=v_best))]
-    if ext:
+    faq = [] if no_score else [(s["q_best"].format(t_l=t_l), (seg_txt + " " if seg_txt else "") + s["a_best"].format(d=d, p=product_name(best), score=nf(best.get("score", 0), 1, lang), label=label, v=v_best))]
+    if ext and not seg:
         faq.append((s["q_ext"].format(t_l=t_l, dir_l=DIR_L[lang][key["dir"]], label=label),
                     s["a_ext"].format(p=product_name(ext), dir_l=DIR_L[lang][key["dir"]], label=label, v=fmt(ext[keycol["key"]], keycol.get("fmt"), lang), d=d)))
-    faq.append((s["q_rank"].format(t_l=t_l), s["a_rank"].format(w=w)))
+    faq.append((s["q_rank"].format(t_l=t_l), s["no_score"] if no_score else s["a_rank"].format(w=w)))
     faq.append((s["q_fresh"].format(t_l=t_l), s["a_fresh"].format(d=d)))
 
     show = [c for c in cfg["columns"] if c["key"] not in ("provider",)]
-    head_cells = "".join(f"<th>{esc(cols[lang].get(c['key'], c['key']))}</th>" for c in [cfg["columns"][0]] + show) + "<th>Blue score</th>"
+    head_cells = "".join(f"<th>{esc(cols[lang].get(c['key'], c['key']))}</th>" for c in [cfg["columns"][0]] + show) + ("" if no_score else "<th>Blue score</th>")
     body = []
     for r in rows:
         logo = f'<img src="../../{esc(r["logo"])}" alt="" loading="lazy">' if r.get("logo") else ""
         name = f'<a href="{esc(r["url"])}" rel="nofollow noopener" target="_blank">{esc(r["provider"])}</a>' if r.get("url") else esc(r["provider"])
         cells = "".join(f"<td>{esc(fmt(r.get(c['key']), c.get('fmt'), lang))}</td>" for c in show)
-        body.append(f'<tr><td class="prov">{logo}{name}</td>{cells}<td><b>{nf(r.get("score", 0), 1, lang)}</b></td></tr>')
+        body.append(f'<tr><td class="prov">{logo}{name}</td>{cells}{"" if no_score else f"<td><b>{nf(r.get('score', 0), 1, lang)}</b></td>"}</tr>')
 
     notes = "".join(f"<li><b>{esc(product_name(r))}</b>: {esc(r['note'])}</li>" for r in rows if r.get("note"))
     notes = f'<ul class="seo-muted" style="margin-top:12px">{notes}</ul>' if notes else ""
@@ -368,18 +388,18 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
 <section class="seo-answer"><h2>{esc(s['quick'])}</h2><p>{esc(answer)}</p></section>
 <div class="seo-cta"><a class="btn navy" href="../../?lang={lang}#{slug}">{esc(s['interactive'])}</a><a class="btn blue" href="../../?lang={lang}#ask">{esc(s['ask'])}</a></div>
 <section class="seo-sec"><h2>{esc(s['table'])}</h2><div class="seo-scroll"><table class="seo-table"><thead><tr>{head_cells}</tr></thead><tbody>{''.join(body)}</tbody></table></div>{notes}</section>
-<section class="seo-sec"><h2>{esc(s['rank'])}</h2><p>{esc(s['rank_txt'].format(w=w))} <a href="../methodology/">{esc(s['methodology'])} →</a></p></section>
+<section class="seo-sec"><h2>{esc(s['rank'])}</h2><p>{esc(s['no_score'] if no_score else s['rank_txt'].format(w=w))} <a href="../methodology/">{esc(s['methodology'])} →</a></p></section>
 <section class="seo-sec seo-faq"><h2>{esc(s['faq'])}</h2>{''.join(f'<details open><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faq)}</section>
 <section class="seo-sec"><h2>{esc(s['sources'])}</h2><p class="seo-muted">{esc(s['src_txt'])}</p><ul class="seo-muted">{''.join(f'<li><a href="{esc(u)}" rel="nofollow noopener">{esc(u)}</a></li>' for u in srcs)}</ul></section>
 </main>""" + footer(lang, 2, cats)
 
     md = [f"# {s['best'].format(t=t)}", "", f"_{s['updated'].format(d=d)} · {canonical}_", "", f"## {s['quick']}", "", answer, "",
-          f"## {s['table']}", "", "| " + " | ".join([cols[lang].get('provider', 'Provider')] + [cols[lang].get(c['key'], c['key']) for c in show] + ["Blue score"]) + " |",
-          "|" + "---|" * (len(show) + 2)]
+          f"## {s['table']}", "", "| " + " | ".join([cols[lang].get('provider', 'Provider')] + [cols[lang].get(c['key'], c['key']) for c in show] + ([] if no_score else ["Blue score"])) + " |",
+          "|" + "---|" * (len(show) + (1 if no_score else 2))]
     for r in rows:
-        md.append("| " + " | ".join([r["provider"]] + [fmt(r.get(c["key"]), c.get("fmt"), lang).replace("|", "/") for c in show] + [nf(r.get("score", 0), 1, lang)]) + " |")
+        md.append("| " + " | ".join([r["provider"]] + [fmt(r.get(c["key"]), c.get("fmt"), lang).replace("|", "/") for c in show] + ([] if no_score else [nf(r.get("score", 0), 1, lang)])) + " |")
     md += [""] + [f"- {product_name(r)}: {r['note']}" for r in rows if r.get("note")]
-    md += ["", f"## {s['rank']}", "", s["rank_txt"].format(w=w), "", f"## {s['faq']}", ""]
+    md += ["", f"## {s['rank']}", "", s["no_score"] if no_score else s["rank_txt"].format(w=w), "", f"## {s['faq']}", ""]
     for q, a in faq:
         md += [f"**{q}**", "", a, ""]
     md += [f"## {s['sources']}", ""] + [f"- {u}" for u in srcs]
@@ -438,7 +458,7 @@ def methodology(lang, cats, cols, nav, updated):
     s = S[lang]
     alternates = {l: url(l, "methodology") for l in LANGS}
     canonical = alternates[lang]
-    per = "".join(f"<li><b>{esc(title_of(cfg, lang))}</b>: {esc(weights(cfg, cols, lang))}</li>" for cfg in cats.values())
+    per = "".join(f"<li><b>{esc(title_of(cfg, lang))}</b>: {esc(weights(cfg, cols, lang) or s['no_score'])}</li>" for cfg in cats.values())
     jsonld = [{"@context": "https://schema.org", "@type": "WebPage", "@id": canonical, "url": canonical, "name": s["meth_title"], "inLanguage": lang,
                "dateModified": updated, "publisher": {"@id": f"{BASE}/#org"},
                "breadcrumb": crumbs([(s["home"], url(lang)), (s["methodology"], canonical)])}]

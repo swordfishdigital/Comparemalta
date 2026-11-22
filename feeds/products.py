@@ -42,8 +42,8 @@ def derive_pos_costs(rows):
 
 def score(rows, spec):
     """Weighted min-max normalisation -> 0..10. Booleans count as 1/0. Missing values get the category median."""
-    if not rows:
-        return
+    if not rows or not spec:
+        return  # e.g. insurance: no overall score, cover is not comparable from a price alone
     total_w = sum(s["w"] for s in spec)
     norms = {}
     for s in spec:
@@ -131,5 +131,12 @@ def run(status):
     links.apply(built, status)
     for slug, rows in built.items():
         save_json(OUT / f"cat-{slug}.json", {"slug": slug, "updated": now_iso(), "items": rows})
-        index.append({"slug": slug, "count": len(rows), "best": rows[0]["provider"] if rows else None})
-    save_json(OUT / "categories.json", {"updated": now_iso(), "config": cats, "index": index})
+        index.append({"slug": slug, "count": len(rows), "best": rows[0]["provider"] if rows else None,
+                      "providers": len({r["provider"] for r in rows}),
+                      "live": sum(1 for r in rows if not r.get("demo") and not r.get("stale"))})
+    # honest coverage for the home page: products and providers compared (restaurants and live FX quotes counted apart)
+    fin = {k: v for k, v in built.items() if k != "restaurants"}
+    coverage = {"products": sum(len(v) for v in fin.values()), "providers": len({r["provider"] for v in fin.values() for r in v}),
+                "categories": len(fin) + (1 if "fx" in cats else 0),
+                "live": sum(1 for v in fin.values() for r in v if not r.get("demo") and not r.get("stale"))}
+    save_json(OUT / "categories.json", {"updated": now_iso(), "config": cats, "index": index, "coverage": coverage})

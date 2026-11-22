@@ -96,7 +96,8 @@
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
    "note": "Same 2.75% on every card; reader is a one-off cost (Solo Lite, excl. VAT).",
-   "free_allowance": 0
+   "free_allowance": 0,
+   "fee_pct_other": 2.75
   },
   {
    "provider": "SumUp",
@@ -112,7 +113,8 @@
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
    "note": "1.29% on EEA debit and credit cards; Amex and premium cards 2.75%. Pays off above about €2,600 a month.",
-   "free_allowance": 0
+   "free_allowance": 0,
+   "fee_pct_other": 2.75
   },
   {
    "provider": "myPOS",
@@ -128,7 +130,8 @@
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
    "note": "Domestic and EEA consumer cards; other cards incl. Amex 2.69%. Instant settlement to your myPOS account.",
-   "free_allowance": 0
+   "free_allowance": 0,
+   "fee_pct_other": 2.69
   },
   {
    "provider": "myPOS",
@@ -144,7 +147,8 @@
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
    "note": "Domestic and EEA consumer cards; other cards 2.49%.",
-   "free_allowance": 0
+   "free_allowance": 0,
+   "fee_pct_other": 2.49
   },
   {
    "provider": "myPOS",
@@ -160,7 +164,8 @@
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
    "note": "Domestic and EEA consumer cards; other cards 2.49%.",
-   "free_allowance": 0
+   "free_allowance": 0,
+   "fee_pct_other": 2.49
   },
   {
    "provider": "Viva.com",
@@ -192,7 +197,8 @@
    "checked": "2026-11-21T12:00:00+00:00",
    "demo": false,
    "note": "Domestic and European consumer cards; commercial and international cards 2.6% + €0.02. Tap to Pay adds €0.08. Needs a Revolut Business account.",
-   "free_allowance": 0
+   "free_allowance": 0,
+   "fee_pct_other": 2.6
   },
   {
    "provider": "Stripe",
@@ -224,7 +230,8 @@
    "source_url": "https://wamo.io/pos-offer-terms-2026",
    "checked": "2026-11-22T00:30:00+00:00",
    "demo": false,
-   "note": "0% on the first €5,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account."
+   "note": "0% on the first €5,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account.",
+   "offer_ends": "2026-12-31"
   },
   {
    "provider": "wamo",
@@ -240,7 +247,8 @@
    "source_url": "https://wamo.io/pos-offer-terms-2026",
    "checked": "2026-11-22T00:30:00+00:00",
    "demo": false,
-   "note": "0% on the first €15,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account."
+   "note": "0% on the first €15,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account.",
+   "offer_ends": "2026-12-31"
   }
  ],
  "bank-accounts": [
