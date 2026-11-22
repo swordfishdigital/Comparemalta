@@ -13,6 +13,7 @@ const ICON_PATHS = {
   "fintech": '<rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/>',
   "money-transfer": '<path d="M4 8h15l-3.5-3.5M20 16H5l3.5 3.5"/>',
   "fx": '<circle cx="8" cy="8" r="5"/><circle cx="16" cy="16" r="5"/><path d="M6.5 8h3M8 6.5v3M14 16h4"/>',
+  "groceries": '<path d="M3 8h18l-2 10.5a2 2 0 0 1-2 1.5H7a2 2 0 0 1-2-1.5zM8 8l3.5-5M16 8l-3.5-5M9 12v4M12 12v4M15 12v4"/>',
   "pos": '<rect x="6" y="2" width="12" height="20" rx="2"/><rect x="9" y="5" width="6" height="4" rx="1"/><path d="M9 13h1M12 13h1M15 13h0M9 16h1M12 16h1M15 16h0M9 19h6"/>',
   "telco-mobile": '<path d="M4 20v-3M9 20v-7M14 20V9M19 20V4"/>',
   "telco-broadband": '<path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/>',
@@ -23,7 +24,7 @@ const ICON_PATHS = {
   "markets": '<path d="M3 20h18M6 16V10M10 16V6M14 16v-4M18 16V8"/>'
 };
 const TINT = {"business-accounts":"#c8102e","bank-accounts":"#0b2545","savings":"#12805c","personal-loans":"#b8862b","mortgages":"#1d5fbf","credit-cards":"#7a3e9d",
-  "fintech":"#0e7c86","money-transfer":"#d0561b","fx":"#12805c","pos":"#7a3e9d","telco-mobile":"#1d5fbf","telco-broadband":"#0e7c86","insurance":"#12805c","investing":"#b8862b","restaurants":"#c8102e"};
+  "fintech":"#0e7c86","money-transfer":"#d0561b","groceries":"#4f8a1f","fx":"#12805c","pos":"#7a3e9d","telco-mobile":"#1d5fbf","telco-broadband":"#0e7c86","insurance":"#12805c","investing":"#b8862b","restaurants":"#c8102e"};
 
 function icon(key, size = 22, color = "currentColor") {
   return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_PATHS[key] || ICON_PATHS.news}</svg>`;
@@ -119,6 +120,7 @@ function logo(size = 32) {
 /* Category illustrations: 48px grid, 1.75 stroke, duotone (currentColor line, --ic-soft fill, --ic-accent detail).
    Matches the design document: royal-blue line icons on stone/white, peach accents on navy. */
 const CI = {
+  basket: `<path d="M8 19h32l-3.5 19a3 3 0 0 1-3 2.5h-19a3 3 0 0 1-3-2.5z" fill="var(--ic-soft)"/><path d="M8 19h32l-3.5 19a3 3 0 0 1-3 2.5h-19a3 3 0 0 1-3-2.5zM16 19l6-11M32 19l-6-11M6 19h36M18 26v8M24 26v8M30 26v8"/><circle cx="34" cy="12" r="3" fill="var(--ic-accent)" stroke="none"/>`,
   bank: `<path d="M8 18L24 8l16 10z" fill="var(--ic-soft)"/><path d="M8 18L24 8l16 10M10 18h28M13 22v12M21 22v12M27 22v12M35 22v12M9 38h30M7 42h34"/><circle cx="24" cy="14.2" r="2.2" fill="var(--ic-accent)" stroke="none"/>`,
   home: `<path d="M10 42V16l11-7 11 7v26z" fill="var(--ic-soft)"/><path d="M10 42V16l11-7 11 7v26M6 42h38M18 42v-7a3 3 0 0 1 6 0v7"/><rect x="14" y="18.5" width="14" height="8.5" rx="1" fill="var(--ic-bg)"/><path d="M21 18.5V27M14 22.7h14M12.5 27h17"/><circle cx="38" cy="29" r="3.6" fill="var(--ic-accent)"/><path d="M38 32.6V41M38 37.5h2.6"/>`,
   cards: `<rect x="12" y="9" width="29" height="19" rx="3" fill="var(--ic-soft)"/><rect x="7" y="18" width="30" height="20" rx="3" fill="var(--ic-bg)"/><path d="M7 24.5h30M22 33h10"/><rect x="11" y="28.5" width="6.5" height="5" rx="1.2" fill="var(--ic-accent)" stroke="none"/>`,
@@ -138,7 +140,7 @@ const CI = {
 };
 const CI_FOR = {"bank-accounts":"bank",banking:"bank",mortgages:"home",loans:"home","credit-cards":"cards",cards:"cards","business-accounts":"business",business:"business",
   "telco-mobile":"phone",telco:"phone",restaurants:"eat",dining:"eat",eat:"eat",markets:"markets",news:"news",today:"news",savings:"savings","personal-loans":"loan",
-  fintech:"fintech","money-transfer":"transfer",fx:"transfer",pos:"pos","telco-broadband":"wifi",insurance:"shield",investing:"invest"};
+  fintech:"fintech","money-transfer":"transfer",fx:"transfer",pos:"pos","telco-broadband":"wifi",insurance:"shield",investing:"invest",groceries:"basket"};
 function catIcon(key, size = 44) {
   return `<svg class="ci" width="${size}" height="${size}" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${CI[CI_FOR[key] || key] || CI.news}</svg>`;
 }
@@ -151,7 +153,7 @@ const BG = {
   business:["#e2f2ec","#18805b","#f6c453"], phone:["#def0f2","#0e7c86","#f2b58e"], eat:["#fbe2dd","#c03a2b","#f6c453"],
   markets:["#f6ecd6","#b8862b","#2b4cc4"], news:["#0d2a4a","#f2b58e","#2b4cc4"], savings:["#e2f2ec","#18805b","#f6c453"],
   loan:["#fbe6d8","#c4683a","#18805b"], fintech:["#e3e8fb","#2b4cc4","#f2b58e"], transfer:["#def0f2","#0e7c86","#f2b58e"],
-  wifi:["#def0f2","#0e7c86","#f2b58e"], pos:["#efe4f6","#7a3e9d","#f6c453"], shield:["#e2f2ec","#18805b","#f6c453"], invest:["#f6ecd6","#b8862b","#2b4cc4"]
+  wifi:["#def0f2","#0e7c86","#f2b58e"], pos:["#efe4f6","#7a3e9d","#f6c453"], shield:["#e2f2ec","#18805b","#f6c453"], invest:["#f6ecd6","#b8862b","#2b4cc4"], basket:["#e8f3dc","#4f8a1f","#c03a2b"]
 };
 const D = "#0d2a4a";
 const GL = {
@@ -171,6 +173,7 @@ const GL = {
   pos: (C, A) => `<rect x="30" y="14" width="40" height="72" rx="9" fill="${C}"/><rect x="36" y="22" width="28" height="18" rx="3" fill="#fff"/><rect x="40" y="27" width="14" height="4" rx="2" fill="${A}"/><g fill="#fff"><rect x="37" y="47" width="7" height="6" rx="1.5"/><rect x="46.5" y="47" width="7" height="6" rx="1.5"/><rect x="56" y="47" width="7" height="6" rx="1.5"/><rect x="37" y="57" width="7" height="6" rx="1.5"/><rect x="46.5" y="57" width="7" height="6" rx="1.5"/><rect x="56" y="57" width="7" height="6" rx="1.5"/></g><rect x="37" y="68" width="26" height="8" rx="3" fill="${A}"/><path d="M76 36a12 12 0 0 1 0 18M83 30a21 21 0 0 1 0 30" stroke="${D}" stroke-width="4" fill="none" stroke-linecap="round"/><rect x="12" y="44" width="26" height="17" rx="3" fill="${D}" transform="rotate(-14 25 52)"/><rect x="12" y="49" width="26" height="4" fill="${A}" transform="rotate(-14 25 52)"/>`,
   shield: (C, A) => `<path d="M50 14l30 11v20c0 20-13 32-30 38-17-6-30-18-30-38V25z" fill="${C}"/><path d="M36 50l9 9 19-19" stroke="${A}" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
 };
+GL.basket = (C, A) => `<path d="M30 38l14-20M70 38L56 18" stroke="${D}" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="40" cy="30" r="9" fill="${A}"/><circle cx="56" cy="27" r="8" fill="#f6c453"/><path d="M60 22c4-6 10-6 12-4" stroke="${C}" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M14 38h72l-8 38a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z" fill="${C}"/><path d="M36 50v20M50 50v20M64 50v20" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".85"/>`;
 GL.invest = GL.markets;
 function catBanner(key, dark = false) {
   const k = CI_FOR[key] || key, [bg, fg, acc] = BG[k] || BG.bank, id = "cb" + hash(key + dark);

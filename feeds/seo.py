@@ -289,6 +289,8 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
     t_l = t if lang == "mt" else " ".join(w if sum(ch.isupper() for ch in w) > 1 else w.lower() for w in t.split())
     d = date_txt(data.get("updated") or updated, lang)
     no_score = bool(cfg.get("no_score"))
+    cav = cfg.get("caveat") or {}
+    no_score_txt = cav.get(lang) or cav.get("en") or s["no_score"]  # each unscored category says why in its own words
     key = (cfg["score"] or cfg.get("highlights") or [{"key": cfg["columns"][2]["key"], "dir": "low"}])[0]
     keycol = next((c for c in cfg["columns"] if c["key"] == key["key"]), cfg["columns"][2] if len(cfg["columns"]) > 2 else cfg["columns"][-1])
     label = cols[lang].get(keycol["key"], keycol["key"])
@@ -317,7 +319,7 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
     answer = " ".join(filter(None, [
         s["lead"].format(n=len(rows), t_l=t_l, k=providers, d=d),
         seg_txt or ("" if no_score else s["top"].format(p=product_name(best), score=nf(best.get("score", 0), 1, lang))),
-        s["no_score"] if no_score else "",
+        no_score_txt if no_score else "",
         s["extreme"].format(dir_word=s["lowest" if key["dir"] == "low" else "highest"], label=label, label_cap=label[:1].upper() + label[1:], p=product_name(ext),
                             v=fmt(ext[keycol["key"]], keycol.get("fmt"), lang)) if ext and not seg else "",
         s["sample"] if demo else ""]))
@@ -326,7 +328,7 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
     if ext and not seg:
         faq.append((s["q_ext"].format(t_l=t_l, dir_l=DIR_L[lang][key["dir"]], label=label),
                     s["a_ext"].format(p=product_name(ext), dir_l=DIR_L[lang][key["dir"]], label=label, v=fmt(ext[keycol["key"]], keycol.get("fmt"), lang), d=d)))
-    faq.append((s["q_rank"].format(t_l=t_l), s["no_score"] if no_score else s["a_rank"].format(w=w)))
+    faq.append((s["q_rank"].format(t_l=t_l), no_score_txt if no_score else s["a_rank"].format(w=w)))
     faq.append((s["q_fresh"].format(t_l=t_l), s["a_fresh"].format(d=d)))
 
     show = [c for c in cfg["columns"] if c["key"] not in ("provider",)]
@@ -388,7 +390,7 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
 <section class="seo-answer"><h2>{esc(s['quick'])}</h2><p>{esc(answer)}</p></section>
 <div class="seo-cta"><a class="btn navy" href="../../?lang={lang}#{slug}">{esc(s['interactive'])}</a><a class="btn blue" href="../../?lang={lang}#ask">{esc(s['ask'])}</a></div>
 <section class="seo-sec"><h2>{esc(s['table'])}</h2><div class="seo-scroll"><table class="seo-table"><thead><tr>{head_cells}</tr></thead><tbody>{''.join(body)}</tbody></table></div>{notes}</section>
-<section class="seo-sec"><h2>{esc(s['rank'])}</h2><p>{esc(s['no_score'] if no_score else s['rank_txt'].format(w=w))} <a href="../methodology/">{esc(s['methodology'])} →</a></p></section>
+<section class="seo-sec"><h2>{esc(s['rank'])}</h2><p>{esc(no_score_txt if no_score else s['rank_txt'].format(w=w))} <a href="../methodology/">{esc(s['methodology'])} →</a></p></section>
 <section class="seo-sec seo-faq"><h2>{esc(s['faq'])}</h2>{''.join(f'<details open><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faq)}</section>
 <section class="seo-sec"><h2>{esc(s['sources'])}</h2><p class="seo-muted">{esc(s['src_txt'])}</p><ul class="seo-muted">{''.join(f'<li><a href="{esc(u)}" rel="nofollow noopener">{esc(u)}</a></li>' for u in srcs)}</ul></section>
 </main>""" + footer(lang, 2, cats)
@@ -399,7 +401,7 @@ def category_page(lang, slug, cfg, data, cols, cats, nav, updated):
     for r in rows:
         md.append("| " + " | ".join([r["provider"]] + [fmt(r.get(c["key"]), c.get("fmt"), lang).replace("|", "/") for c in show] + ([] if no_score else [nf(r.get("score", 0), 1, lang)])) + " |")
     md += [""] + [f"- {product_name(r)}: {r['note']}" for r in rows if r.get("note")]
-    md += ["", f"## {s['rank']}", "", s["no_score"] if no_score else s["rank_txt"].format(w=w), "", f"## {s['faq']}", ""]
+    md += ["", f"## {s['rank']}", "", no_score_txt if no_score else s["rank_txt"].format(w=w), "", f"## {s['faq']}", ""]
     for q, a in faq:
         md += [f"**{q}**", "", a, ""]
     md += [f"## {s['sources']}", ""] + [f"- {u}" for u in srcs]
