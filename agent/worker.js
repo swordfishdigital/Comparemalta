@@ -365,6 +365,75 @@ async function subscribe(request, env, h) {
   }
 }
 
+
+/* ---------- /analyze: read a POS statement or contract, or a phone/internet bill ----------
+   The file is sent to Claude once, inside this request, and is never stored or logged. Only the fields below come
+   back; anything else in the document (names, addresses, account or card numbers) is dropped. The comparison itself
+   is computed in the browser from the site's data, so every figure the user sees can be checked. */
+const MAX_B64 = 4_500_000;                // about 3.3 MB of file
+const FILE_TYPES = { "application/pdf": "document", "image/jpeg": "image", "image/png": "image", "image/webp": "image" };
+const BILL_FIELDS = {
+  common: { kind: "pos | mobile | broadband | bundle | other", provider: "string", plan: "string", document_type: "statement | invoice | contract | price_list | other",
+    period_days: "number, days covered by this document (e.g. 30), null for a contract", contract_end: "YYYY-MM-DD or null",
+    early_termination_fee: "EUR or null", currency: "ISO code, e.g. EUR" },
+  pos: { card_sales: "EUR, total card sales in the period", transactions: "number of card payments in the period", total_fees: "EUR, every fee charged in the period added together",
+    fee_pct_consumer: "% charged on EEA consumer debit/credit cards", fee_pct_other: "% charged on business, non-EEA or Amex cards", fee_fixed: "EUR per transaction",
+    monthly_fee: "EUR per month for the plan/account", terminal_rent: "EUR per month for the terminal", terminal_price: "EUR one-off for the terminal",
+    consumer_share_pct: "% of sales paid with EEA consumer cards, only if the document shows it", payout_days: "days until money reaches the account", other_fees: "list of {label, eur}" },
+  telco: { monthly_price: "EUR per month for the plan (before one-off charges)", data_gb: "GB included per month, 999 if unlimited", data_used_gb: "GB used in the period",
+    minutes: "minutes included, 9999 if unlimited", eu_roaming_gb: "GB of EU roaming", speed_mbps: "broadband download speed", tv_included: "true/false",
+    extras: "EUR of add-ons or out-of-bundle charges in the period", bill_total: "EUR total of this bill" },
+};
+const ALLOWED = new Set([...Object.keys(BILL_FIELDS.common), ...Object.keys(BILL_FIELDS.pos), ...Object.keys(BILL_FIELDS.telco)]);
+const BILL_TOOL = {
+  name: "report_bill",
+  description: "Report the pricing facts found in the document. Use null for anything not shown. Never include names, addresses, account, card or customer numbers.",
+  input_schema: { type: "object", properties: {
+    fields: { type: "object", description: "Facts from the document. Allowed keys: " + JSON.stringify(BILL_FIELDS) },
+    unsure: { type: "array", items: { type: "string" }, description: "Keys you read but are not sure about (blurry, ambiguous, or worked out)" },
+    notes: { type: "string", description: "One or two short sentences, in the user's language, on anything that affects the comparison (e.g. a promotion ending, a minimum monthly charge). No personal data." },
+  }, required: ["fields"] },
+};
+
+async function analyze(request, env, h) {
+  if (!env.ANTHROPIC_API_KEY) return json({ error: "agent not configured" }, 503, h);
+  const ip = request.headers.get("cf-connecting-ip") || "local";
+  if (limited(ip)) return json({ error: "rate_limited" }, 429, h);
+  let body;
+  try { body = await request.json(); } catch { return json({ error: "bad json" }, 400, h); }
+  if (body.consent !== true) return json({ error: "consent_required" }, 400, h);
+  const f = body.file || {}, kind = ["pos", "telco"].includes(body.kind) ? body.kind : "auto";
+  const lang = ["en", "mt", "it"].includes(body.lang) ? body.lang : "en";
+  const blockType = FILE_TYPES[f.type];
+  if (!blockType || typeof f.data !== "string" || !f.data) return json({ error: "unsupported_file" }, 400, h);
+  if (f.data.length > MAX_B64) return json({ error: "file_too_large" }, 413, h);
+  const source = { type: "base64", media_type: f.type, data: f.data };
+  const intro = `You read one customer document for CompareMalta.ai and report its pricing facts with the report_bill tool. ` +
+    `Expected: ${kind === "pos" ? "a card payment (POS) statement, invoice or merchant contract" : kind === "telco" ? "a mobile, internet or TV bill or contract" : "a POS statement/contract or a telecom bill/contract"}. ` +
+    `Report only facts printed in the document; do not guess. For a contract, rates are known but volumes are not: leave card_sales and transactions null. ` +
+    `Never output personal data: no names, addresses, phone, account, IBAN, card, merchant or customer numbers. Notes in ${({ en: "English", mt: "Maltese", it: "Italian" })[lang]}.`;
+  const req = {
+    model: env.MODEL || "claude-sonnet-5-5", max_tokens: 1200, tools: [BILL_TOOL], tool_choice: { type: "auto" },
+    messages: [{ role: "user", content: [{ type: blockType, source }, { type: "text", text: intro + " Call report_bill now." }] }],
+  };
+  try {
+    const res = await claude(env, req);
+    const call = (res.content || []).find(b => b.type === "tool_use" && b.name === "report_bill");
+    let out = call ? call.input : null;
+    if (!out) {  // a model that answered in text: take the first JSON object
+      const txt = (res.content || []).filter(b => b.type === "text").map(b => b.text).join("\n");
+      const m = txt.match(/\{[\s\S]*\}/); out = m ? JSON.parse(m[0]) : { fields: {} };
+    }
+    const fields = {};
+    for (const [k, v] of Object.entries(out.fields || {})) if (ALLOWED.has(k) && v !== null && v !== "") fields[k] = v;
+    const unsure = (out.unsure || []).filter(k => ALLOWED.has(k));
+    return json({ fields, unsure, notes: String(out.notes || "").slice(0, 400) }, 200, h);
+  } catch (e) {
+    console.error("analyze failed:", String(e && e.message || e).slice(0, 200));   // never the document
+    return json({ error: "analyze_failed" }, 502, h);
+  }
+}
+
 export default {
   async fetch(request, env) {
     const h = cors(env, request.headers.get("origin") || "");
@@ -375,6 +444,7 @@ export default {
       return json({ ok: true, model: env.MODEL || "claude-sonnet-5-5", key: !!raw, key_shape: !raw ? "missing" : /^sk-ant-[A-Za-z0-9_-]{20,}$/.test(k) ? "ok" : "unexpected", key_extra_text: raw.trim() !== k }, 200, h); }
     if (url.pathname === "/contact" && request.method === "POST") return contact(request, env, h);
     if (url.pathname === "/subscribe" && request.method === "POST") return subscribe(request, env, h);
+    if (url.pathname === "/analyze" && request.method === "POST") return analyze(request, env, h);
     if (url.pathname !== "/ask" || request.method !== "POST") return json({ error: "not found" }, 404, h);
     if (!env.ANTHROPIC_API_KEY) return json({ error: "agent not configured" }, 503, h);
     const ip = request.headers.get("cf-connecting-ip") || request.headers.get("x-forwarded-for") || "local";

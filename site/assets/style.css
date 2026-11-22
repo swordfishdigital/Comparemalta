@@ -324,3 +324,19 @@ tr.note-row td{white-space:normal;font-size:12.5px;color:var(--muted,#6b7a90);pa
 .nolink{font-size:12px;color:var(--muted,#6b7a90)}
 .tag-sample{display:inline-block;font-size:11px;background:#fff4d6;color:#8a5a00;border-radius:6px;padding:1px 6px}
 tr.best td{background:rgba(43,76,196,.04)}
+
+/* check my bill */
+.ck-band{display:flex;gap:14px;align-items:center;padding:14px 18px;margin-top:14px;text-decoration:none;color:inherit;border:1px solid #c9d5f5;background:#f3f6ff}
+.ck-band>span:nth-child(2){flex:1;font-size:14px}.ck-band b{font-size:17px;color:#0d2a4a}
+.ck-grid{align-items:start;margin-bottom:10px}.ck-up,.ck-form{padding:18px 20px;display:flex;flex-direction:column;gap:14px}
+.drop{display:flex;flex-direction:column;align-items:center;gap:6px;border:2px dashed #c9d5f5;border-radius:14px;padding:26px 14px;cursor:pointer;text-align:center;color:#0d2a4a;font-weight:600;background:#fafbff}
+.drop small{font-weight:400;color:var(--muted,#6b7a90)}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.45}.consent input{margin-top:3px}
+.ck-form label.unsure input{border-color:#e0a400;background:#fffaf0}.ck-form label em{font-style:normal;font-size:11px;color:#8a5a00;background:#fff4d6;border-radius:6px;padding:1px 6px}
+.ck-form select{padding:10px 12px;border:1px solid var(--line,#dfe5ee);border-radius:10px;font:inherit}
+.ck-opt{padding:16px 18px;display:flex;flex-direction:column;gap:8px}.ck-opt.best{border:2px solid #2b4cc4}
+.ck-n{display:flex;justify-content:space-between;font-size:14px}.ck-n b{font-size:18px}
+.ck-save{font-weight:700;border-radius:10px;padding:8px 10px;font-size:15px}.ck-save.pos{background:#e7f6ee;color:#12693f}.ck-save.neg{background:#fdecea;color:#a3271b}
+.ck-pc{list-style:none;padding:0;margin:4px 0;font-size:13.5px;display:flex;flex-direction:column;gap:4px}.ck-pc .p{color:#12693f}.ck-pc .c{color:#7a4a00}
+.ck-ass{padding:14px 18px;margin-top:16px;font-size:14px}.ck-ass ul{margin:8px 0 0;padding-left:18px}
+.prose p{max-width:760px;line-height:1.6}

@@ -156,6 +156,101 @@ const T2 = {
  },
 };
 for (const l in T2) Object.assign(T[l], T2[l]);
+/* Strings for "check my bill" and the privacy notice. */
+const T3 = {
+ en: {
+  ckNav: "Check my bill", ckEyebrow: "Blue reads your bill", ckTitle: "Check your bill",
+  ckLead: "Upload your card payment (POS) statement or contract, or your mobile or internet bill. Blue reads the prices, you check them, and we show what you would pay with the providers we compare.",
+  ckPos: "Card payments (POS)", ckTelco: "Phone & internet", ckChoose: "Choose a file or take a photo", ckTypes: "PDF, JPG or PNG, up to 3 MB",
+  ckConsent: "I agree that this document is sent once to our AI provider to read its prices. It is not stored, and names, addresses and account numbers are not kept.",
+  ckGo: "Read my document", ckOr: "No document at hand?", ckManual: "Enter the numbers yourself",
+  ckReading: "Blue is reading your document…", ckRead: "Done. Please check the figures below.", ckNothing: "Blue could not find prices in this document. You can type them in below.",
+  ckFail: "We could not read the document right now. Please try again or enter the numbers yourself.", ckTooBig: "The file is too large (3 MB at most).", ckBadType: "Please upload a PDF or a photo (JPG or PNG).", ckLimit: "Too many requests. Please wait a few minutes.",
+  ckCheckT: "Check the figures", ckCheckSub: "Fields marked 'check' were hard to read. Correct anything that is wrong; nothing is saved.", ckUnsure: "check",
+  ckProvider: "Current provider", ckTx: "Card payments per month", ckNowMonthly: "What you pay now per month (€)", ckFeeC: "Fee on EEA consumer cards (%)", ckFeeO: "Fee on other cards (%)",
+  ckFixed: "Fixed fee per payment (€)", ckRent: "Terminal rent per month (€)", ckEnd: "Contract ends", ckEtf: "Early exit fee (€)",
+  ckWhat: "What is it for?", ckPrice: "Monthly price now (€)", ckDataNeed: "Data you need (GB, 999 = unlimited)", ckSpeedNeed: "Speed you need (Mbps)",
+  ckCompare: "Compare", ckNeedSales: "Enter your monthly card sales to compare.", ckNeedNow: "Enter what you pay now per month to see the saving.",
+  ckTop: "Your three best options", ckMonthly: "Per month", ckYear1: "First year", ckSave: "You save", ckMore: "Costs", ckPerYear: "a year",
+  ckProAllow: "{v} of sales a month without card fees", ckProNoFee: "No monthly fee", ckConFee: "{v} monthly plan fee", ckProTap: "Take payments on your phone",
+  ckProInstant: "Money arrives instantly", ckConDevice: "Terminal {v} up front", ckConDeviceUnknown: "Terminal price not published",
+  ckProNoContract: "No contract", ckConContract: "Contract: {v}", ckProUnlimited: "Unlimited data", ckProRoam: "{v} GB EU roaming", ckProTv: "TV included",
+  ckAssT: "How we worked it out", ckAssPos: "{s} of card sales and {n} payments a month, {m}% paid with EEA consumer cards.",
+  ckAssMob: "Plans with at least {v} of data.", ckAssBb: "Plans with at least {v}.", ckAssNow: "You pay {v} a month today.",
+  ckAssLocked: "Your contract runs until {d}; leaving early costs {v}, taken off the first-year saving.", ckUnknownFee: "an unknown fee",
+  ckAssDevice: "* The terminal price is not published, so it is not included.", ckAssData: "Prices come from the comparison tables on this site. Refunds and chargebacks are not included. Confirm with the provider before you switch.",
+  ckDisclaimer: "An estimate to help you compare, not financial advice.",
+  privacy: "Privacy",
+  privacyUpdated: "Last updated",
+  privacyHtml: `<p><b>Who we are.</b> CompareMalta.ai is an independent comparison website. It is not yet run by a company. For any privacy question or request, use the <a class="link" href="#contact">contact form</a>.</p>
+<p><b>Comparing and Ask Blue.</b> We do not need an account and we do not ask for your name. Questions you type to Blue are sent to our AI provider (Anthropic) to write the answer and are not kept by us.</p>
+<p><b>Check my bill.</b> Only if you tick the box, the document you choose is sent once, over an encrypted connection, through our server (Cloudflare) to Anthropic so that Blue can read its prices. We do not store the document or the figures, we do not log their content, and only prices, plan details and dates come back to your screen. Names, addresses, account, card and customer numbers are not kept. The legal basis is your consent, which you can refuse: you can always type the numbers yourself instead.</p>
+<p><b>Our providers.</b> Cloudflare (servers), GitHub Pages (website hosting) and Anthropic (AI). They act on our behalf and may keep technical logs for security for a limited time under their own policies.</p>
+<p><b>Newsletter and contact form.</b> If you subscribe or write to us, we use your email only for that purpose. You can unsubscribe or ask us to delete it at any time.</p>
+<p><b>Your rights.</b> Under the GDPR you can ask for access, correction or deletion, withdraw consent and complain to Malta's Information and Data Protection Commissioner (IDPC).</p>`,
+ },
+ mt: {
+  ckNav: "Iċċekkja l-kont", ckEyebrow: "Blue jaqra l-kont tiegħek", ckTitle: "Iċċekkja l-kont tiegħek",
+  ckLead: "Tella' l-istqarrija jew il-kuntratt tal-ħlas bil-karta (POS), jew il-kont tal-mowbajl jew tal-internet. Blue jaqra l-prezzijiet, inti tiċċekkjahom, u nuruk kemm tħallas mal-fornituri li nqabblu.",
+  ckPos: "Ħlas bil-karta (POS)", ckTelco: "Telefon u internet", ckChoose: "Agħżel fajl jew ħu ritratt", ckTypes: "PDF, JPG jew PNG, sa 3 MB",
+  ckConsent: "Naqbel li dan id-dokument jintbagħat darba lill-fornitur tal-AI tagħna biex jaqra l-prezzijiet. Ma jinħażinx, u l-ismijiet, l-indirizzi u n-numri tal-kontijiet ma jinżammux.",
+  ckGo: "Aqra d-dokument tiegħi", ckOr: "M'għandekx dokument?", ckManual: "Daħħal in-numri int",
+  ckReading: "Blue qed jaqra d-dokument…", ckRead: "Lest. Iċċekkja l-figuri hawn taħt.", ckNothing: "Blue ma sabx prezzijiet f'dan id-dokument. Tista' tiktibhom hawn taħt.",
+  ckFail: "Ma stajniex naqraw id-dokument issa. Erġa' pprova jew daħħal in-numri int.", ckTooBig: "Il-fajl kbir wisq (massimu 3 MB).", ckBadType: "Tella' PDF jew ritratt (JPG jew PNG).", ckLimit: "Wisq talbiet. Stenna ftit minuti.",
+  ckCheckT: "Iċċekkja l-figuri", ckCheckSub: "Il-kaxxi mmarkati 'iċċekkja' kienu diffiċli biex jinqraw. Ikkoreġi kull ħaġa ħażina; xejn ma jinħażen.", ckUnsure: "iċċekkja",
+  ckProvider: "Il-fornitur attwali", ckTx: "Ħlasijiet bil-karta fix-xahar", ckNowMonthly: "Kemm tħallas issa fix-xahar (€)", ckFeeC: "Miżata fuq karti tal-konsumatur taż-ŻEE (%)", ckFeeO: "Miżata fuq karti oħra (%)",
+  ckFixed: "Miżata fissa għal kull ħlas (€)", ckRent: "Kera tat-terminal fix-xahar (€)", ckEnd: "Il-kuntratt jispiċċa", ckEtf: "Miżata għal ħruġ bikri (€)",
+  ckWhat: "Għal xiex inhu?", ckPrice: "Prezz fix-xahar issa (€)", ckDataNeed: "Data li għandek bżonn (GB, 999 = bla limitu)", ckSpeedNeed: "Veloċità li għandek bżonn (Mbps)",
+  ckCompare: "Qabbel", ckNeedSales: "Daħħal il-bejgħ bil-karta fix-xahar biex tqabbel.", ckNeedNow: "Daħħal kemm tħallas issa fix-xahar biex tara t-tfaddil.",
+  ckTop: "L-aħjar tliet għażliet tiegħek", ckMonthly: "Fix-xahar", ckYear1: "L-ewwel sena", ckSave: "Tiffranka", ckMore: "Jiswa", ckPerYear: "fis-sena",
+  ckProAllow: "{v} bejgħ fix-xahar mingħajr miżati tal-karta", ckProNoFee: "L-ebda miżata fix-xahar", ckConFee: "{v} miżata tal-pjan fix-xahar", ckProTap: "Ħlas fuq it-telefon",
+  ckProInstant: "Il-flus jaslu mill-ewwel", ckConDevice: "Terminal {v} bil-quddiem", ckConDeviceUnknown: "Il-prezz tat-terminal mhux ippubblikat",
+  ckProNoContract: "L-ebda kuntratt", ckConContract: "Kuntratt: {v}", ckProUnlimited: "Data bla limitu", ckProRoam: "{v} GB roaming fl-UE", ckProTv: "TV inkluża",
+  ckAssT: "Kif ħdimnieha", ckAssPos: "{s} bejgħ bil-karta u {n} ħlas fix-xahar, {m}% b'karti tal-konsumatur taż-ŻEE.",
+  ckAssMob: "Pjanijiet b'mill-inqas {v} data.", ckAssBb: "Pjanijiet b'mill-inqas {v}.", ckAssNow: "Illum tħallas {v} fix-xahar.",
+  ckAssLocked: "Il-kuntratt tiegħek jibqa' sa {d}; il-ħruġ bikri jiswa {v}, imnaqqas mit-tfaddil tal-ewwel sena.", ckUnknownFee: "miżata mhux magħrufa",
+  ckAssDevice: "* Il-prezz tat-terminal mhux ippubblikat, għalhekk mhux inkluż.", ckAssData: "Il-prezzijiet ġejjin mit-tabelli ta' dan is-sit. Ir-rifużjonijiet u ċ-chargebacks mhumiex inklużi. Ikkonferma mal-fornitur qabel taqleb.",
+  ckDisclaimer: "Stima biex tgħinek tqabbel, mhux parir finanzjarju.",
+  privacy: "Privatezza", privacyUpdated: "L-aħħar aġġornament",
+  privacyHtml: `<p><b>Min aħna.</b> CompareMalta.ai huwa sit indipendenti tal-paragun. Għadu mhux immexxi minn kumpanija. Għal kull mistoqsija jew talba dwar il-privatezza, uża l-<a class="link" href="#contact">formola ta' kuntatt</a>.</p>
+<p><b>Paraguni u Ask Blue.</b> M'hemmx bżonn kont u ma nitolbukx ismek. Il-mistoqsijiet li tikteb lil Blue jintbagħtu lill-fornitur tal-AI tagħna (Anthropic) biex tinkiteb it-tweġiba u ma jinżammux minna.</p>
+<p><b>Iċċekkja l-kont.</b> Biss jekk timmarka l-kaxxa, id-dokument li tagħżel jintbagħat darba, b'konnessjoni kriptata, mis-server tagħna (Cloudflare) lil Anthropic biex Blue jaqra l-prezzijiet. Ma naħżnux id-dokument jew il-figuri, ma nirreġistrawx il-kontenut tagħhom, u lura fuq l-iskrin jaslu biss prezzijiet, dettalji tal-pjan u dati. L-ismijiet, l-indirizzi u n-numri tal-kontijiet, tal-karti u tal-klijenti ma jinżammux. Il-bażi legali hija l-kunsens tiegħek, li tista' tirrifjuta: dejjem tista' tikteb in-numri int.</p>
+<p><b>Il-fornituri tagħna.</b> Cloudflare (servers), GitHub Pages (hosting tas-sit) u Anthropic (AI). Jaġixxu f'isimna u jistgħu jżommu logs tekniċi għas-sigurtà għal żmien limitat skont il-politiki tagħhom.</p>
+<p><b>Newsletter u formola ta' kuntatt.</b> Jekk tissottoskrivi jew tiktbilna, nużaw l-email tiegħek għal dak l-iskop biss. Tista' tneħħi l-abbonament jew titlobna nħassruha meta trid.</p>
+<p><b>Id-drittijiet tiegħek.</b> Taħt il-GDPR tista' titlob aċċess, korrezzjoni jew tħassir, tirtira l-kunsens u tilmenta mal-Kummissarju għall-Informazzjoni u l-Protezzjoni tad-Data (IDPC).</p>`,
+ },
+ it: {
+  ckNav: "Controlla la bolletta", ckEyebrow: "Blue legge la tua bolletta", ckTitle: "Controlla la tua bolletta",
+  ckLead: "Carica l'estratto conto o il contratto dei pagamenti con carta (POS), oppure la bolletta del cellulare o di internet. Blue legge i prezzi, tu li controlli e ti mostriamo quanto pagheresti con i fornitori che confrontiamo.",
+  ckPos: "Pagamenti con carta (POS)", ckTelco: "Telefono e internet", ckChoose: "Scegli un file o scatta una foto", ckTypes: "PDF, JPG o PNG, fino a 3 MB",
+  ckConsent: "Accetto che questo documento venga inviato una volta al nostro fornitore di AI per leggerne i prezzi. Non viene conservato, e nomi, indirizzi e numeri di conto non vengono tenuti.",
+  ckGo: "Leggi il mio documento", ckOr: "Non hai il documento?", ckManual: "Inserisci tu i numeri",
+  ckReading: "Blue sta leggendo il documento…", ckRead: "Fatto. Controlla i valori qui sotto.", ckNothing: "Blue non ha trovato prezzi in questo documento. Puoi inserirli qui sotto.",
+  ckFail: "Non riusciamo a leggere il documento ora. Riprova o inserisci tu i numeri.", ckTooBig: "Il file è troppo grande (massimo 3 MB).", ckBadType: "Carica un PDF o una foto (JPG o PNG).", ckLimit: "Troppe richieste. Attendi qualche minuto.",
+  ckCheckT: "Controlla i valori", ckCheckSub: "I campi segnati 'verifica' erano difficili da leggere. Correggi ciò che è sbagliato; nulla viene salvato.", ckUnsure: "verifica",
+  ckProvider: "Fornitore attuale", ckTx: "Pagamenti con carta al mese", ckNowMonthly: "Quanto paghi ora al mese (€)", ckFeeC: "Commissione carte consumer SEE (%)", ckFeeO: "Commissione altre carte (%)",
+  ckFixed: "Commissione fissa per pagamento (€)", ckRent: "Noleggio terminale al mese (€)", ckEnd: "Fine contratto", ckEtf: "Penale di recesso anticipato (€)",
+  ckWhat: "Per cosa?", ckPrice: "Prezzo mensile attuale (€)", ckDataNeed: "Dati necessari (GB, 999 = illimitati)", ckSpeedNeed: "Velocità necessaria (Mbps)",
+  ckCompare: "Confronta", ckNeedSales: "Inserisci le vendite mensili con carta per confrontare.", ckNeedNow: "Inserisci quanto paghi ora al mese per vedere il risparmio.",
+  ckTop: "Le tue tre opzioni migliori", ckMonthly: "Al mese", ckYear1: "Primo anno", ckSave: "Risparmi", ckMore: "Costa", ckPerYear: "all'anno",
+  ckProAllow: "{v} di vendite al mese senza commissioni", ckProNoFee: "Nessun canone mensile", ckConFee: "{v} di canone mensile", ckProTap: "Incassi con lo smartphone",
+  ckProInstant: "I soldi arrivano subito", ckConDevice: "Terminale {v} all'acquisto", ckConDeviceUnknown: "Prezzo del terminale non pubblicato",
+  ckProNoContract: "Nessun contratto", ckConContract: "Contratto: {v}", ckProUnlimited: "Dati illimitati", ckProRoam: "{v} GB di roaming UE", ckProTv: "TV inclusa",
+  ckAssT: "Come abbiamo calcolato", ckAssPos: "{s} di vendite con carta e {n} pagamenti al mese, {m}% con carte consumer SEE.",
+  ckAssMob: "Offerte con almeno {v} di dati.", ckAssBb: "Offerte con almeno {v}.", ckAssNow: "Oggi paghi {v} al mese.",
+  ckAssLocked: "Il tuo contratto dura fino al {d}; uscire prima costa {v}, sottratti dal risparmio del primo anno.", ckUnknownFee: "una penale non nota",
+  ckAssDevice: "* Il prezzo del terminale non è pubblicato, quindi non è incluso.", ckAssData: "I prezzi vengono dalle tabelle di confronto di questo sito. Rimborsi e chargeback non sono inclusi. Verifica con il fornitore prima di cambiare.",
+  ckDisclaimer: "Una stima per aiutarti a confrontare, non una consulenza finanziaria.",
+  privacy: "Privacy", privacyUpdated: "Ultimo aggiornamento",
+  privacyHtml: `<p><b>Chi siamo.</b> CompareMalta.ai è un sito di confronto indipendente. Non è ancora gestito da una società. Per qualsiasi domanda o richiesta sulla privacy usa il <a class="link" href="#contact">modulo di contatto</a>.</p>
+<p><b>Confronti e Ask Blue.</b> Non serve un account e non chiediamo il tuo nome. Le domande che scrivi a Blue vengono inviate al nostro fornitore di AI (Anthropic) per scrivere la risposta e non vengono conservate da noi.</p>
+<p><b>Controlla la bolletta.</b> Solo se spunti la casella, il documento che scegli viene inviato una volta, con connessione cifrata, tramite il nostro server (Cloudflare) ad Anthropic perché Blue ne legga i prezzi. Non conserviamo il documento né i valori, non registriamo il loro contenuto e sullo schermo tornano solo prezzi, dettagli dell'offerta e date. Nomi, indirizzi e numeri di conto, carta e cliente non vengono tenuti. La base giuridica è il tuo consenso, che puoi negare: puoi sempre inserire tu i numeri.</p>
+<p><b>I nostri fornitori.</b> Cloudflare (server), GitHub Pages (hosting del sito) e Anthropic (AI). Agiscono per nostro conto e possono conservare log tecnici di sicurezza per un periodo limitato secondo le loro politiche.</p>
+<p><b>Newsletter e modulo di contatto.</b> Se ti iscrivi o ci scrivi, usiamo la tua email solo per questo scopo. Puoi annullare l'iscrizione o chiederci di cancellarla in qualsiasi momento.</p>
+<p><b>I tuoi diritti.</b> Secondo il GDPR puoi chiedere accesso, rettifica o cancellazione, revocare il consenso e presentare reclamo al Garante maltese (IDPC).</p>`,
+ },
+};
+for (const l in T3) Object.assign(T[l], T3[l]);
 const COLS = {
  en:{provider:"Provider",product:"Product",monthly_fee:"Monthly fee",sepa_fee:"SEPA transfer",multi_currency:"Multi-currency",onboarding_days:"Onboarding (days)",licence:"Licence",card_fee:"Card fee / yr",atm_abroad_pct:"ATM abroad",app:"Mobile app",rate:"Rate",rate_aer:"Rate (AER)",access:"Access",term_months:"Term (months)",min_deposit:"Min. deposit",apr:"Interest",aprc:"APRC",max_amount:"Max amount",max_term_years:"Max term (yrs)",fees:"Fees",rate_type:"Type",ltv:"Max LTV",max_term:"Max term",first_time:"First-time buyer",annual_fee:"Annual fee",fx_fee:"FX fee",rewards:"Rewards",fx_markup:"FX markup",iban:"IBAN",corridor:"Corridor",fee:"Fee",fx_margin:"FX margin",speed:"Speed",price:"Per month",data_gb:"Data (GB)",eu_roaming_gb:"EU roaming (GB)",contract:"Contract",speed_mbps:"Speed (Mbps)",tv:"TV",type:"Type",from_price:"From / yr",online_quote:"Online quote",trade_fee:"Trade fee",custody_pct:"Custody / yr",mse_access:"MSE access",area:"Area",cuisine:"Cuisine",price_level:"Price",rating:"Rating",highlight:"Highlight",fee_pct:"Card fee",fee_fixed:"Per sale",reader_price:"Device from",tap_to_pay:"Tap to Pay on phone",free_allowance:"Fee-free sales / month",you_get:"You get for €1,000",price_level:"Price level",basket_vs_cheapest:"Basket vs cheapest",stores:"Stores",loyalty:"Loyalty",delivery:"Delivery",hours:"Opening hours",best_for:"Best for",fx_rate:"Exchange rate",total_cost_pct:"Total cost",markup:"FX markup",speed:"Speed",cost_5k:"Cost at €5k sales",cost_20k:"Cost at €20k sales",payout:"Payout",note:"Note"},
  mt:{provider:"Fornitur",product:"Prodott",monthly_fee:"Miżata fix-xahar",sepa_fee:"Trasferiment SEPA",multi_currency:"Multi-munita",onboarding_days:"Ftuħ (jiem)",licence:"Liċenzja",card_fee:"Miżata tal-karta/sena",atm_abroad_pct:"ATM barra",app:"App mobbli",rate:"Rata",rate_aer:"Rata (AER)",access:"Aċċess",term_months:"Terminu (xhur)",min_deposit:"Depożitu minimu",apr:"Imgħax",aprc:"APRC",max_amount:"Ammont massimu",max_term_years:"Terminu massimu (snin)",fees:"Miżati",rate_type:"Tip",ltv:"LTV massimu",max_term:"Terminu massimu",first_time:"L-ewwel dar",annual_fee:"Miżata annwali",fx_fee:"Miżata tal-kambju",rewards:"Premjijiet",fx_markup:"Markup tal-kambju",iban:"IBAN",corridor:"Rotta",fee:"Miżata",fx_margin:"Marġni tal-kambju",speed:"Ħeffa",price:"Fix-xahar",data_gb:"Data (GB)",eu_roaming_gb:"Roaming UE (GB)",contract:"Kuntratt",speed_mbps:"Veloċità (Mbps)",tv:"TV",type:"Tip",from_price:"Minn/sena",online_quote:"Kwotazzjoni online",trade_fee:"Miżata tat-trade",custody_pct:"Kustodja/sena",mse_access:"Aċċess għall-MSE",area:"Żona",cuisine:"Kċina",price_level:"Prezz",rating:"Klassifikazzjoni",highlight:"Speċjalità",fee_pct:"Miżata tal-karta",fee_fixed:"Għal kull bejgħ",reader_price:"Apparat minn",tap_to_pay:"Tap to Pay fuq it-telefon",free_allowance:"Bejgħ mingħajr miżata / xahar",you_get:"Tirċievi għal €1,000",price_level:"Livell tal-prezz",basket_vs_cheapest:"Basket kontra l-irħas",stores:"Ħwienet",loyalty:"Lealtà",delivery:"Kunsinna",hours:"Ħinijiet",best_for:"L-aħjar għal",fx_rate:"Rata tal-kambju",total_cost_pct:"Spiża totali",markup:"Marġni tal-kambju",speed:"Ħeffa",cost_5k:"Spiża b'€5k bejgħ",cost_20k:"Spiża b'€20k bejgħ",payout:"Ħlas lilek",note:"Nota"},
@@ -271,7 +366,7 @@ async function renderChrome() {
     <div><a href="#home" class="logo"><span class="logo-mark">${V.logo(30)}</span><span>CompareMalta<span class="ai">.ai</span></span></a><p>${t("footTag")}</p></div>
     <div><h4>${t("fCompare")}</h4><ul><li><a href="#bank-accounts">${t("nBanking")}</a></li><li><a href="#mortgages">${t("fLoans")}</a></li><li><a href="#telco-mobile">${t("nTelco")}</a></li><li><a href="#categories">${t("allCatsTitle")}</a></li></ul></div>
     <div><h4>${t("fDaily")}</h4><ul><li><a href="#news">${t("fNews")}</a></li><li><a href="#groceries">${t("nGroc")}</a></li><li><a href="#fx">${t("fFx")}</a></li><li><a href="#newsletter">${t("nlNav")}</a></li></ul></div>
-    <div><h4>${t("fAbout")}</h4><ul><li><a href="#how-we-rank">${t("fHow")}</a></li><li><a href="#partners">${t("fPartner")}</a></li><li><a href="#contact">${t("fContact")}</a></li></ul></div>`;
+    <div><h4>${t("fAbout")}</h4><ul><li><a href="#how-we-rank">${t("fHow")}</a></li><li><a href="#check">${t("ckNav")}</a></li><li><a href="#privacy">${t("privacy")}</a></li><li><a href="#partners">${t("fPartner")}</a></li><li><a href="#contact">${t("fContact")}</a></li></ul></div>`;
   $("#footDisclaimer").textContent = t("disclaimer");
   if (st) $("#footStatus").innerHTML = `<span class="dot ${st.total && st.ok / st.total > .8 ? "" : "warn"}"></span>${t("feeds")} ${st.ok}/${st.total} · ${t("updated")} ${ago(st.generated)}`;
   document.querySelectorAll("header .logo-mark").forEach(e => e.innerHTML = V.logo(32));
@@ -390,6 +485,7 @@ async function pageHome() {
       <div class="door-h"><span class="door-ic">${V.catIcon(icon, 56)}</span><div><h2>${t(k)}</h2><p>${t(sub)}</p></div></div>
       <div class="chips">${cats.filter(c => D.categories?.config[c]).map(c => `<a class="chip" href="#${c}">${V.icon(c, 15)} ${esc(catTitle(D.categories.config[c]))}</a>`).join("")}</div>
       </div>`).join("")}</div>
+    <a class="card ck-band" href="#check"><span>${V.mascot(54, "wink")}</span><span><b>${t("ckTitle")}</b><br><span class="muted">${t("ckLead")}</span></span><span class="btn blue sm">${t("ckNav")} →</span></a>
     <p class="note cov">${coverageTxt()}</p>
   </section>
   </div>
@@ -569,6 +665,184 @@ function bindTable(cfg, items, slug, view) {
   document.querySelectorAll("th[data-k]").forEach(th => th.onclick = () => { const k = th.dataset.k; dir = key === k ? -dir : (k === "score" ? -1 : lowKeys.has(k) ? 1 : -1); key = k; draw(); });
   draw(); bindCalcs();
 }
+
+/* ---------- check my bill: a POS statement or contract, or a phone/internet bill ----------
+   Blue reads the document once (agent /analyze), the user checks every figure, and the comparison is worked out here
+   from the site's own tables, so each number can be traced. Nothing is stored. */
+const CK = {kind: "pos", fields: {}, unsure: [], notes: ""};
+const ckNum = id => { const v = $("#" + id)?.value; return v === "" || v == null ? null : +v; };
+function ckFieldsHtml() {
+  const f = CK.fields, u = new Set(CK.unsure);
+  const inp = (k, label, type = "number", step = "any") => `<label class="${u.has(k) ? "unsure" : ""}">${esc(label)}${u.has(k) ? ` <em>${t("ckUnsure")}</em>` : ""}
+    <input id="ck_${k}" type="${type}" step="${step}" value="${esc(f[k] ?? "")}"></label>`;
+  if (CK.kind === "pos") return `
+    ${inp("provider", t("ckProvider"), "text")}
+    ${inp("card_sales", t("posSales"))}${inp("transactions", t("ckTx"))}${inp("consumer_share_pct", t("posMix"))}
+    ${inp("current_monthly", t("ckNowMonthly"))}
+    ${inp("fee_pct_consumer", t("ckFeeC"))}${inp("fee_pct_other", t("ckFeeO"))}${inp("fee_fixed", t("ckFixed"))}
+    ${inp("monthly_fee", colLabel("monthly_fee"))}${inp("terminal_rent", t("ckRent"))}
+    ${inp("contract_end", t("ckEnd"), "date")}${inp("early_termination_fee", t("ckEtf"))}`;
+  return `
+    <label>${t("ckWhat")}<select id="ck_kind2"><option value="mobile">${esc(catTitle(D.categories.config["telco-mobile"]))}</option><option value="broadband" ${/broad|bundle/.test(f.kind || "") ? "selected" : ""}>${esc(catTitle(D.categories.config["telco-broadband"]))}</option></select></label>
+    ${inp("provider", t("ckProvider"), "text")}${inp("monthly_price", t("ckPrice"))}
+    ${inp("data_gb", t("ckDataNeed"))}${inp("speed_mbps", t("ckSpeedNeed"))}
+    ${inp("contract_end", t("ckEnd"), "date")}${inp("early_termination_fee", t("ckEtf"))}`;
+}
+// what the user pays today, per month: the document's total when it has one, otherwise rebuilt from its rates
+function ckCurrentPos(f) {
+  if (f.total_fees && f.period_days) return Math.round(f.total_fees * 30.4 / f.period_days * 100) / 100;   // the document's own total, per month
+  if (f.card_sales && f.fee_pct_consumer != null) {
+    const S = f.card_sales, mix = (f.consumer_share_pct ?? POS_DEFAULT.mix) / 100, n = f.transactions || Math.round(S / POS_DEFAULT.ticket);
+    return Math.round((S * mix * f.fee_pct_consumer / 100 + S * (1 - mix) * (f.fee_pct_other ?? f.fee_pct_consumer) / 100 + n * (f.fee_fixed || 0) + (f.monthly_fee || 0) + (f.terminal_rent || 0)) * 100) / 100;
+  }
+  return null;
+}
+const posCostFor = (r, S, n, mix) => typeof r.fee_pct !== "number" ? null :
+  Math.round((Math.max(0, S * mix - (r.free_allowance || 0)) * r.fee_pct / 100 + S * (1 - mix) * (r.fee_pct_other ?? r.fee_pct) / 100 + n * (r.fee_fixed || 0) + (r.monthly_fee || 0)) * 100) / 100;
+
+async function ckCompare() {
+  const g = k => ckNum("ck_" + k);
+  const res = $("#ckResult"), eur = v => "€" + nf(v), eur0 = v => "€" + nf(v, 0);
+  const endTxt = $("#ck_contract_end")?.value, etf = g("early_termination_fee");
+  const locked = endTxt && new Date(endTxt) > new Date();
+  let current, options = [], assumptions = [];
+  if (CK.kind === "pos") {
+    const S = g("card_sales"), mix = (g("consumer_share_pct") ?? POS_DEFAULT.mix) / 100;
+    if (!S) { res.innerHTML = `<p class="note">${t("ckNeedSales")}</p>`; return; }
+    const n = g("transactions") || Math.round(S / POS_DEFAULT.ticket);
+    current = g("current_monthly");
+    if (current == null) current = ckCurrentPos({card_sales: S, consumer_share_pct: mix * 100, transactions: n, fee_pct_consumer: g("fee_pct_consumer"), fee_pct_other: g("fee_pct_other"), fee_fixed: g("fee_fixed"), monthly_fee: g("monthly_fee"), terminal_rent: g("terminal_rent")});
+    const data = await get("cat-pos");
+    options = data.items.map(r => { const m = posCostFor(r, S, n, mix); if (m == null) return null;
+      const y1 = typeof r.reader_price === "number" ? m * 12 + r.reader_price : null;
+      const pros = [], cons = [];
+      if (r.free_allowance) pros.push(t("ckProAllow").replace("{v}", eur0(r.free_allowance)));
+      if (!r.monthly_fee) pros.push(t("ckProNoFee")); else cons.push(t("ckConFee").replace("{v}", eur(r.monthly_fee)));
+      if (r.tap_to_pay) pros.push(t("ckProTap"));
+      if (/instant/i.test(r.payout || "")) pros.push(t("ckProInstant"));
+      if (r.reader_price === 0) pros.push(t("posNoHw")); else if (typeof r.reader_price === "number") cons.push(t("ckConDevice").replace("{v}", eur0(r.reader_price))); else cons.push(t("ckConDeviceUnknown"));
+      return {r, slug: "pos", monthly: m, year1: y1 ?? m * 12, y1Known: y1 != null, pros, cons};
+    }).filter(Boolean);
+    assumptions.push(t("ckAssPos").replace("{s}", eur0(S)).replace("{n}", nf(n, 0)).replace("{m}", nf(mix * 100, 0)));
+  } else {
+    const kind = $("#ck_kind2").value, slug = kind === "broadband" ? "telco-broadband" : "telco-mobile";
+    current = g("monthly_price");
+    const needData = g("data_gb"), needSpeed = g("speed_mbps");
+    const data = await get("cat-" + slug);
+    options = data.items.filter(r => typeof r.price === "number")
+      .filter(r => kind === "broadband" ? (!needSpeed || (r.speed_mbps ?? 0) >= needSpeed) : (!needData || (r.data_gb ?? 0) >= needData))
+      .map(r => { const pros = [], cons = [];
+        if (/none|no contract/i.test(r.contract || "")) pros.push(t("ckProNoContract")); else if (r.contract) cons.push(t("ckConContract").replace("{v}", r.contract));
+        if (kind !== "broadband" && r.data_gb >= 999) pros.push(t("ckProUnlimited"));
+        if (r.eu_roaming_gb) pros.push(t("ckProRoam").replace("{v}", nf(r.eu_roaming_gb, 0)));
+        if (kind === "broadband" && r.speed_mbps) pros.push(`${nf(r.speed_mbps, 0)} Mbps`);
+        if (r.tv) pros.push(t("ckProTv"));
+        return {r, slug, monthly: r.price, year1: r.price * 12, y1Known: true, pros, cons}; });
+    assumptions.push(kind === "broadband" ? t("ckAssBb").replace("{v}", needSpeed ? nf(needSpeed, 0) + " Mbps" : "-") : t("ckAssMob").replace("{v}", needData ? (needData >= 999 ? t("unlimited") : nf(needData, 0) + " GB") : "-"));
+  }
+  if (current == null) { res.innerHTML = `<p class="note">${t("ckNeedNow")}</p>`; return; }
+  const switchCost = locked && etf ? etf : 0;
+  if (locked) assumptions.push(t("ckAssLocked").replace("{d}", ago(endTxt + "T12:00:00Z").split(",")[0]).replace("{v}", etf ? eur0(etf) : t("ckUnknownFee")));
+  assumptions.push(t("ckAssNow").replace("{v}", eur(current)));
+  options.sort((a, b) => a.year1 - b.year1);
+  const top = options.slice(0, 3);
+  res.innerHTML = `<div class="sec-head" style="margin-top:28px"><h2>${t("ckTop")}</h2></div>
+    <div class="grid g3">${top.map((o, i) => { const save = current * 12 - o.year1 - switchCost;
+      return `<div class="card ck-opt ${i === 0 ? "best" : ""}">
+        <div class="hl-p">${brand(o.r, 34)}<div><b>${esc(o.r.provider)}</b><br><span class="muted">${esc(o.r.product || "")}</span></div></div>
+        <div class="ck-n"><span>${t("ckMonthly")}</span><b>${eur(o.monthly)}</b></div>
+        <div class="ck-n"><span>${t("ckYear1")}</span><b>${eur0(o.year1)}${o.y1Known ? "" : "*"}</b></div>
+        <div class="ck-save ${save >= 0 ? "pos" : "neg"}">${save >= 0 ? t("ckSave") : t("ckMore")} ${eur0(Math.abs(save))} ${t("ckPerYear")}</div>
+        <ul class="ck-pc">${o.pros.map(p => `<li class="p">✓ ${esc(p)}</li>`).join("")}${o.cons.map(c => `<li class="c">– ${esc(c)}</li>`).join("")}</ul>
+        ${o.r.offer_ends ? `<em class="hl-o">${t("posOffer").replace("{d}", ago(o.r.offer_ends + "T12:00:00Z").split(",")[0])}</em>` : ""}
+        ${o.r.note ? `<p class="note" style="margin:6px 0 0">ⓘ ${esc(o.r.note)}</p>` : ""}
+        <div style="margin-top:10px">${ctaBtn(o.r, o.slug, i === 0)}</div></div>`; }).join("") || `<p>${t("mNo")}</p>`}</div>
+    <div class="card ck-ass"><b>${t("ckAssT")}</b><ul>${assumptions.map(a => `<li>${esc(a)}</li>`).join("")}${top.some(o => !o.y1Known) ? `<li>${t("ckAssDevice")}</li>` : ""}<li>${t("ckAssData")}</li></ul></div>`;
+  res.scrollIntoView({behavior: "smooth", block: "start"});
+}
+
+// photos are shrunk in the browser before upload (smaller, faster, and well inside the size limit)
+async function ckFile(file) {
+  if (file.type === "application/pdf") {
+    if (file.size > 3.3e6) throw new Error(t("ckTooBig"));
+    const b = await file.arrayBuffer(); let s = ""; const u = new Uint8Array(b);
+    for (let i = 0; i < u.length; i += 0x8000) s += String.fromCharCode.apply(null, u.subarray(i, i + 0x8000));
+    return {type: "application/pdf", data: btoa(s)};
+  }
+  if (!/^image\//.test(file.type)) throw new Error(t("ckBadType"));
+  const img = await createImageBitmap(file), k = Math.min(1, 1800 / Math.max(img.width, img.height));
+  const c = document.createElement("canvas"); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+  c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+  return {type: "image/jpeg", data: c.toDataURL("image/jpeg", 0.85).split(",")[1]};
+}
+function ckShowForm() {
+  $("#ckForm").hidden = false;
+  const f = CK.fields;
+  if (CK.kind === "pos") {
+    if (f.current_monthly == null) { const c = ckCurrentPos(f); if (c != null) f.current_monthly = c; }
+    // a statement can cover a week or a quarter: show monthly volumes
+    if (f.period_days && Math.abs(f.period_days - 30.4) > 3 && !f._scaled) {
+      const k = 30.4 / f.period_days;
+      if (f.card_sales) f.card_sales = Math.round(f.card_sales * k);
+      if (f.transactions) f.transactions = Math.round(f.transactions * k);
+      f._scaled = true;
+    }
+  }
+  $("#ckFields").innerHTML = ckFieldsHtml();
+  $("#ckNotes").textContent = CK.notes || "";
+  $("#ckForm").scrollIntoView({behavior: "smooth", block: "start"});
+}
+function bindCheck() {
+  const ok = () => { $("#ckGo").disabled = !($("#ckOk").checked && $("#ckFile").files.length); };
+  document.querySelectorAll("#ckKind button").forEach(b => b.onclick = () => { CK.kind = b.dataset.k; document.querySelectorAll("#ckKind button").forEach(x => x.classList.toggle("on", x === b)); $("#ckForm").hidden = true; $("#ckResult").innerHTML = ""; });
+  $("#ckFile").onchange = () => { $("#ckFileName").textContent = $("#ckFile").files[0]?.name || t("ckChoose"); ok(); };
+  $("#ckOk").onchange = ok;
+  $("#ckManual").onclick = e => { e.preventDefault(); CK.fields = {}; CK.unsure = []; CK.notes = ""; ckShowForm(); };
+  $("#ckGo").onclick = async () => {
+    const msg = $("#ckMsg"); msg.textContent = t("ckReading"); $("#ckGo").disabled = true;
+    try {
+      const file = await ckFile($("#ckFile").files[0]);
+      const base = (window.CM_AGENT_URL || "").replace(/\/$/, "");
+      const r = await fetch(`${base}/analyze`, {method: "POST", headers: {"content-type": "application/json"}, body: JSON.stringify({kind: CK.kind, lang, consent: true, file})});
+      const d = await r.json();
+      if (!r.ok) throw new Error(d.error === "file_too_large" ? t("ckTooBig") : d.error === "rate_limited" ? t("ckLimit") : t("ckFail"));
+      CK.fields = d.fields || {}; CK.unsure = d.unsure || []; CK.notes = d.notes || "";
+      if (/broad|bundle/.test(CK.fields.kind || "") && CK.kind !== "pos") CK.fields.kind = "broadband";
+      msg.textContent = Object.keys(CK.fields).length ? t("ckRead") : t("ckNothing");
+      ckShowForm();
+    } catch (e) { msg.textContent = e.message || t("ckFail"); }
+    finally { $("#ckFile").value = ""; $("#ckFileName").textContent = t("ckChoose"); ok(); }   // the file is not kept in the page either
+  };
+  $("#ckCmp").onclick = ckCompare;
+}
+async function pageCheck() {
+  await get("categories");
+  setTimeout(bindCheck, 0);
+  return `<div class="wrap">
+  <div class="page-head with-ic"><span class="ph-ic">${V.mascot(64, "wink")}</span><p class="eyebrow">${t("ckEyebrow")}</p>
+    <h1 style="font-size:clamp(32px,4vw,48px)">${t("ckTitle")}</h1><p>${t("ckLead")}</p></div>
+  <div class="grid g2 ck-grid">
+    <div class="card ck-up">
+      <div class="seg" id="ckKind"><button data-k="pos" class="on">${t("ckPos")}</button><button data-k="telco">${t("ckTelco")}</button></div>
+      <label class="drop" for="ckFile">${V.icon("pos", 22)}<span id="ckFileName">${t("ckChoose")}</span><small>${t("ckTypes")}</small></label>
+      <input type="file" id="ckFile" accept="application/pdf,image/jpeg,image/png,image/webp" hidden>
+      <label class="consent"><input type="checkbox" id="ckOk"><span>${t("ckConsent")} <a class="link" href="#privacy">${t("privacy")}</a></span></label>
+      <button class="btn blue" id="ckGo" disabled>${t("ckGo")}</button> <span class="note" id="ckMsg"></span>
+      <p class="note">${t("ckOr")} <a class="link" href="#" id="ckManual">${t("ckManual")}</a></p>
+    </div>
+    <div class="card ck-form" id="ckForm" hidden>
+      <p class="eyebrow">${t("ckCheckT")}</p><p class="note" style="margin-top:0">${t("ckCheckSub")}</p>
+      <div class="needs-grid" id="ckFields"></div><p class="note" id="ckNotes"></p>
+      <button class="btn navy" id="ckCmp">${t("ckCompare")}</button>
+    </div>
+  </div>
+  <div id="ckResult"></div>
+  <p class="note" style="margin:24px 0 50px">${t("ckDisclaimer")}</p></div>`;
+}
+
+/* ---------- privacy notice ---------- */
+const pagePrivacy = async () => `<div class="wrap prose"><div class="page-head"><p class="eyebrow">${t("fAbout")}</p><h1 style="font-size:clamp(32px,4vw,48px)">${t("privacy")}</h1></div>
+  ${t("privacyHtml")}<p class="note">${t("privacyUpdated")} 22.11.2026</p><div style="height:50px"></div></div>`;
 
 /* ---------- other pages ---------- */
 async function pageCategories() {
@@ -833,7 +1107,7 @@ async function route() {
   const r = (location.hash || "#home").slice(1) || "home";
   await get("categories");
   renderNav(r); $("#nav").classList.remove("open");
-  const pages = {newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
+  const pages = {newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, check: pageCheck, privacy: pagePrivacy, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
   $("#app").innerHTML = await (pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
   if ($("#heroForm")) bindHome();
   bindNewsletter();
