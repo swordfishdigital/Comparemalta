@@ -223,14 +223,14 @@
    "fee_fixed": 0,
    "monthly_fee": 19.99,
    "free_allowance": 5000,
-   "reader_price": 0,
+   "reader_price": null,
    "tap_to_pay": null,
    "payout": "Next day",
    "url": "https://wamo.io/malta-business",
    "source_url": "https://wamo.io/pos-offer-terms-2026",
    "checked": "2026-11-22T00:30:00+00:00",
    "demo": false,
-   "note": "0% on the first €5,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account.",
+   "note": "0% on the first €5,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Plan includes a business account. Terminal price not published.",
    "offer_ends": "2026-12-31"
   },
   {
@@ -240,14 +240,14 @@
    "fee_fixed": 0,
    "monthly_fee": 49.99,
    "free_allowance": 15000,
-   "reader_price": 0,
+   "reader_price": null,
    "tap_to_pay": null,
    "payout": "Next day",
    "url": "https://wamo.io/malta-business",
    "source_url": "https://wamo.io/pos-offer-terms-2026",
    "checked": "2026-11-22T00:30:00+00:00",
    "demo": false,
-   "note": "0% on the first €15,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Terminal: no upfront or monthly fee. Plan includes a business account.",
+   "note": "0% on the first €15,000 a month of local EU consumer card sales (campaign until 31 Dec 2026), then 0.85% on EEA consumer cards. Business, corporate and Amex cards are outside the allowance. Plan includes a business account. Terminal price not published.",
    "offer_ends": "2026-12-31"
   }
  ],

@@ -98,7 +98,7 @@ const T2 = {
   forMe: "For me", forMeSub: "Accounts, savings, loans, mortgages, cards, mobile, internet, insurance, investing, sending money",
   forBiz: "For my business", forBizSub: "Business accounts, card payments (POS), FX and international payments, fintech",
   seeAll: "See all", alsoOn: "Also on CompareMalta.ai", alsoSub: "Where to eat, Malta news and the markets, refreshed every day.",
-  coverage: "Coverage", covLive: "checked live", covSample: "sample data",
+  coverage: "Coverage", covProducts: "products", covLive: "checked live", covSample: "sample data",
   live: "Markets", asOf: "as of", ecbEod: "ECB rates: end of day",
   visitP: "Visit provider", directions: "Directions", noLink: "Link not verified yet",
   liveChk: "Checked", lastOk: "Last successful check", sampleRow: "Sample data", rebuilt: "Table rebuilt",
@@ -119,7 +119,7 @@ const T2 = {
   forMe: "Għalija", forMeSub: "Kontijiet, tfaddil, self, self għad-dar, karti, mowbajl, internet, assigurazzjoni, investiment, trasferimenti",
   forBiz: "Għan-negozju tiegħi", forBizSub: "Kontijiet tan-negozju, ħlas bil-karta (POS), kambju u ħlasijiet internazzjonali, fintech",
   seeAll: "Ara kollox", alsoOn: "Ukoll fuq CompareMalta.ai", alsoSub: "Fejn tiekol, aħbarijiet ta' Malta u s-swieq, aġġornati kuljum.",
-  coverage: "Kopertura", covLive: "iċċekkjati live", covSample: "data ta' kampjun",
+  coverage: "Kopertura", covProducts: "prodotti", covLive: "iċċekkjati live", covSample: "data ta' kampjun",
   live: "Swieq", asOf: "sa", ecbEod: "Rati tal-BĊE: tmiem il-jum",
   visitP: "Żur il-fornitur", directions: "Direzzjonijiet", noLink: "Link għadu mhux ivverifikat",
   liveChk: "Iċċekkjat", lastOk: "L-aħħar kontroll b'suċċess", sampleRow: "Data ta' kampjun", rebuilt: "Tabella mibnija mill-ġdid",
@@ -140,7 +140,7 @@ const T2 = {
   forMe: "Per me", forMeSub: "Conti, risparmio, prestiti, mutui, carte, mobile, internet, assicurazioni, investimenti, invio di denaro",
   forBiz: "Per la mia attività", forBizSub: "Conti aziendali, pagamenti con carta (POS), cambio e pagamenti internazionali, fintech",
   seeAll: "Vedi tutto", alsoOn: "Anche su CompareMalta.ai", alsoSub: "Dove mangiare, notizie da Malta e mercati, aggiornati ogni giorno.",
-  coverage: "Copertura", covLive: "verificati live", covSample: "dati di esempio",
+  coverage: "Copertura", covProducts: "prodotti", covLive: "verificati live", covSample: "dati di esempio",
   live: "Mercati", asOf: "alle", ecbEod: "Cambi BCE: fine giornata",
   visitP: "Vai al fornitore", directions: "Indicazioni", noLink: "Link non ancora verificato",
   liveChk: "Verificato", lastOk: "Ultima verifica riuscita", sampleRow: "Dati di esempio", rebuilt: "Tabella rigenerata",
@@ -352,7 +352,7 @@ const provCell = (r, sub, slug) => `<div class="prov">${brand(r, 34)}<div>${link
 /* ---------- home ---------- */
 const cov = () => D.categories?.coverage || {};
 const leadTxt = () => { const c = cov(); return c.products ? t("lead").replace("{p}", c.products).replace("{v}", c.providers).replace("{c}", c.categories) : ""; };
-const coverageTxt = () => { const c = cov(); return c.products ? `<b>${t("coverage")}:</b> ${c.products} · ${c.live} ${t("covLive")} · ${c.products - c.live} ${t("covSample")}` : ""; };
+const coverageTxt = () => { const c = cov(); return c.products ? `<b>${t("coverage")}:</b> ${c.products} ${t("covProducts")} · ${c.live} ${t("covLive")} · ${c.products - c.live} ${t("covSample")}` : ""; };
 async function topTableHtml() {
   const spec = TOP[topTab], data = await get("cat-" + spec.cat);
   // like for like only: one savings term (12 months) and one mortgage rate type at a time
@@ -506,7 +506,7 @@ function posCosts(rows) {
     if (typeof r.fee_pct !== "number") { r.your_cost = r.first_year = null; continue; }
     const c = Math.max(0, cons - (r.free_allowance || 0)) * r.fee_pct / 100 + other * (r.fee_pct_other ?? r.fee_pct) / 100 + n * (r.fee_fixed || 0) + (r.monthly_fee || 0);
     r.your_cost = Math.round(c * 100) / 100;
-    r.first_year = Math.round(r.your_cost * 12 + (r.reader_price || 0));
+    r.first_year = typeof r.reader_price === "number" ? Math.round(r.your_cost * 12 + r.reader_price) : null;  // unknown device price: no first-year figure
   }
   const a = $("#posAssume"); if (a) a.textContent = t("posAssume").replace("{n}", nf(n, 0));
 }
