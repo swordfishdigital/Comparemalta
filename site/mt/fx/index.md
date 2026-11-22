@@ -4,7 +4,7 @@ _Aġġornat 22 Novembru 2026 · https://comparemalta.ai/mt/fx/_
 
 ## Tweġiba qasira
 
-Inqabblu 65 prodotti ta' Kambju u Trasferimenti minn 10-il fornitur f'Malta, iċċekkjati 22 Novembru 2026. L-ewwel għażla għal kull għażla: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Instarem EUR → GBP (0.62%); EUR → INR: MoneyGram EUR → INR (0.45%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Wise EUR → PHP (0.73%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%).
+Inqabblu 65 prodotti ta' Kambju u Trasferimenti minn 10-il fornitur f'Malta, iċċekkjati 22 Novembru 2026. L-ewwel għażla għal kull għażla: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Instarem EUR → GBP (0.62%); EUR → INR: MoneyGram EUR → INR (0.45%); EUR → NPR: Remitly EUR → NPR (0.59%); EUR → PHP: Wise EUR → PHP (0.73%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%).
 
 ## Paragun sħiħ
 
@@ -12,7 +12,7 @@ Inqabblu 65 prodotti ta' Kambju u Trasferimenti minn 10-il fornitur f'Malta, iċ
 |---|---|---|---|---|---|---|---|---|
 | Instarem | EUR → USD | 1,091.00 | 0.53% | €0 | 1.0910 | 0.53% | - | 9.9 |
 | Wise | EUR → USD | 1,089.99 | 0.62% | €6.21 | 1.0968 | 0.00% | Within 1 day | 9.8 |
-| Remitly | EUR → USD | 1,084.95 | 1.08% | €2.99 | 1.0882 | 0.78% | - | 9.1 |
+| Remitly | EUR → USD | 1,085.05 | 1.07% | €2.99 | 1.0883 | 0.77% | - | 9.1 |
 | Western Union | EUR → USD | 1,083.05 | 1.25% | €2.99 | 1.0863 | 0.96% | - | 8.8 |
 | MoneyGram | EUR → USD | 1,080.60 | 1.48% | €0 | 1.0806 | 1.48% | - | 8.5 |
 | WorldRemit | EUR → USD | 1,070.57 | 2.39% | €1.99 | 1.0727 | 2.20% | - | 7.2 |
@@ -53,14 +53,14 @@ Inqabblu 65 prodotti ta' Kambju u Trasferimenti minn 10-il fornitur f'Malta, iċ
 | OFX | EUR → PHP | 66,367.32 | 5.34% | €10.00 | 67.0377 | 4.38% | - | 3.0 |
 | MoneyGram | EUR → INR | 101,196.02 | 0.45% | €1.99 | 101.3978 | 0.25% | - | 10.0 |
 | Instarem | EUR → INR | 101,000.90 | 0.64% | €0 | 101.0009 | 0.64% | - | 9.7 |
-| Wise | EUR → INR | 100,973.91 | 0.67% | €6.70 | 101.6550 | 0.00% | Minutes | 9.7 |
-| Remitly | EUR → INR | 100,997.11 | 0.65% | €2.99 | 101.3000 | 0.35% | - | 9.7 |
 | WorldRemit | EUR → INR | 101,018.57 | 0.63% | €1.99 | 101.2200 | 0.43% | - | 9.7 |
+| Remitly | EUR → INR | 100,997.11 | 0.65% | €2.99 | 101.3000 | 0.35% | - | 9.7 |
+| Wise | EUR → INR | 100,973.91 | 0.67% | €6.70 | 101.6550 | 0.00% | Minutes | 9.7 |
 | Skrill | EUR → INR | 100,883.00 | 0.76% | €0 | 100.8830 | 0.76% | - | 9.6 |
 | Western Union | EUR → INR | 100,753.94 | 0.89% | €2.99 | 101.0561 | 0.59% | - | 9.4 |
 | Xoom | EUR → INR | 100,388.10 | 1.25% | €0 | 100.3881 | 1.25% | - | 8.8 |
 | OFX | EUR → INR | 97,028.71 | 4.55% | €10.00 | 98.0088 | 3.59% | - | 4.1 |
-| Remitly | EUR → NPR | 161,705.05 | 0.57% | €2.99 | 162.1900 | 0.27% | - | 9.8 |
+| Remitly | EUR → NPR | 161,675.14 | 0.59% | €2.99 | 162.1600 | 0.29% | - | 9.8 |
 | Instarem | EUR → NPR | 161,518.20 | 0.69% | €0 | 161.5182 | 0.69% | - | 9.7 |
 | Wise | EUR → NPR | 159,985.00 | 1.63% | €16.29 | 162.6340 | 0.00% | Minutes | 8.3 |
 | Skrill | EUR → NPR | 159,795.40 | 1.75% | €0 | 159.7954 | 1.75% | - | 8.1 |
@@ -69,7 +69,7 @@ Inqabblu 65 prodotti ta' Kambju u Trasferimenti minn 10-il fornitur f'Malta, iċ
 | Wise | EUR → AUD | 1,647.54 | 0.54% | €5.36 | 1.6564 | 0.00% | Minutes | 9.9 |
 | Instarem | EUR → AUD | 1,645.80 | 0.64% | €0 | 1.6458 | 0.64% | - | 9.7 |
 | Western Union | EUR → AUD | 1,636.35 | 1.21% | €2.99 | 1.6413 | 0.92% | - | 8.9 |
-| Remitly | EUR → AUD | 1,627.52 | 1.74% | €2.99 | 1.6324 | 1.45% | - | 8.1 |
+| Remitly | EUR → AUD | 1,627.72 | 1.73% | €2.99 | 1.6326 | 1.44% | - | 8.2 |
 | Xoom | EUR → AUD | 1,624.96 | 1.90% | €1.99 | 1.6282 | 1.70% | - | 7.9 |
 | Skrill | EUR → AUD | 1,622.60 | 2.04% | €0 | 1.6226 | 2.04% | - | 7.7 |
 | MoneyGram | EUR → AUD | 1,609.99 | 2.80% | €1.99 | 1.6132 | 2.61% | - | 6.6 |
@@ -85,7 +85,7 @@ L-ewwel naħbu l-prodotti li ma jaqblux mal-bżonnijiet tiegħek (ammont, termin
 
 **X'inhu l-aħjar Kambju u Trasferimenti f'Malta bħalissa?**
 
-L-ewwel għażla għal kull għażla: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Instarem EUR → GBP (0.62%); EUR → INR: MoneyGram EUR → INR (0.45%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Wise EUR → PHP (0.73%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%). Fil-22 Novembru 2026, Instarem EUR → USD għandu l-ogħla Blue score fil-paragun tagħna (9.9/10), b'spiża totali ta' 0.53%.
+L-ewwel għażla għal kull għażla: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Instarem EUR → GBP (0.62%); EUR → INR: MoneyGram EUR → INR (0.45%); EUR → NPR: Remitly EUR → NPR (0.59%); EUR → PHP: Wise EUR → PHP (0.73%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%). Fil-22 Novembru 2026, Instarem EUR → USD għandu l-ogħla Blue score fil-paragun tagħna (9.9/10), b'spiża totali ta' 0.53%.
 
 **Kif jikklassifika CompareMalta.ai Kambju u Trasferimenti?**
 

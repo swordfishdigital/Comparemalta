@@ -1,0 +1,450 @@
+{
+ "slug": "michelin-malta-2026",
+ "date": "2026-11-22T16:00:00+00:00",
+ "topic": {
+  "en": "Food & Drink",
+  "mt": "Ikel u Xorb",
+  "it": "Cibo e vino"
+ },
+ "kicker": {
+  "en": "Malta today · Feature",
+  "mt": "Malta llum · Artiklu",
+  "it": "Malta oggi · Approfondimento"
+ },
+ "title": {
+  "en": "Every MICHELIN star and Bib Gourmand in Malta, ranked",
+  "mt": "Kull stilla MICHELIN u Bib Gourmand f'Malta, f'ordni",
+  "it": "Tutte le stelle MICHELIN e i Bib Gourmand di Malta, in classifica"
+ },
+ "summary": {
+  "en": "Malta's 2026 MICHELIN Guide keeps all seven starred tables and adds a fifth Bib Gourmand. Here are all twelve, from ION Harbour's two stars to the best value plates on the islands.",
+  "mt": "Il-Gwida MICHELIN 2026 ta' Malta żammet is-seba' restoranti bl-istilel kollha u żiedet il-ħames Bib Gourmand. Hawn huma t-tnax kollha, minn ION Harbour b'żewġ stilel sal-aħjar valur fil-gżejjer.",
+  "it": "La Guida MICHELIN 2026 di Malta conferma tutti e sette i ristoranti stellati e aggiunge il quinto Bib Gourmand. Ecco tutti e dodici, dalle due stelle di ION Harbour ai migliori indirizzi qualità prezzo."
+ },
+ "intro": {
+  "en": "The 7th edition of the MICHELIN Guide Malta, published on 17 February 2026, lists 48 restaurants. Every star was reconfirmed: one restaurant with two stars and six with one. The Bib Gourmand list, for good cooking at moderate prices, grew to five with Verbena in Mġarr.\nWe ranked them the simple way: two stars first, then one star, then Bib Gourmand. MICHELIN does not rank restaurants within the same distinction, so inside each group they appear in alphabetical order.",
+  "mt": "Is-7 edizzjoni tal-Gwida MICHELIN Malta, ippubblikata fis-17 ta' Frar 2026, fiha 48 restorant. L-istilel kollha ġew ikkonfermati: restorant wieħed b'żewġ stilel u sitta b'waħda. Il-lista Bib Gourmand, għal ikel tajjeb bi prezz moderat, kibret għal ħamsa bi Verbena l-Imġarr.\nPoġġejniehom f'ordni sempliċi: l-ewwel żewġ stilel, imbagħad stilla waħda, imbagħad Bib Gourmand. MICHELIN ma tikklassifikax restoranti fl-istess distinzjoni, għalhekk f'kull grupp jidhru f'ordni alfabetiku.",
+  "it": "La 7ª edizione della Guida MICHELIN Malta, pubblicata il 17 febbraio 2026, segnala 48 ristoranti. Tutte le stelle sono state confermate: un ristorante con due stelle e sei con una. La categoria Bib Gourmand, per una buona cucina a prezzi moderati, sale a cinque con Verbena a Mġarr.\nLi abbiamo ordinati nel modo più semplice: prima le due stelle, poi una stella, poi i Bib Gourmand. MICHELIN non stila classifiche all'interno della stessa distinzione, quindi in ogni gruppo l'ordine è alfabetico."
+ },
+ "hero_query": "File:Saluting battery and Grand Harbour in Valletta.jpg",
+ "sections": [
+  {
+   "heading": {
+    "en": "Two MICHELIN Stars",
+    "mt": "Żewġ Stilel MICHELIN",
+    "it": "Due Stelle MICHELIN"
+   },
+   "items": [
+    {
+     "name": "ION Harbour by Simon Rogan",
+     "locality": "Valletta",
+     "price": "€€€€",
+     "badge": {
+      "en": "2 Stars",
+      "mt": "2 Stilel",
+      "it": "2 Stelle"
+     },
+     "badge_kind": "star",
+     "cuisine": {
+      "en": "Modern, hyper-local",
+      "mt": "Modern, lokali ħafna",
+      "it": "Moderna, iperlocale"
+     },
+     "text": {
+      "en": "Malta's only two-star restaurant, and it has held both stars for three editions in a row. Simon Rogan's team builds the tasting menu around produce from small Maltese growers, served with a view over the Grand Harbour.",
+      "mt": "L-uniku restorant f'Malta b'żewġ stilel, u żammhom għal tliet edizzjonijiet wara xulxin. It-tim ta' Simon Rogan jibni l-menu tad-degustazzjoni madwar prodotti minn bdiewa żgħar Maltin, b'veduta fuq il-Port il-Kbir.",
+      "it": "L'unico due stelle di Malta, confermato per la terza edizione di fila. La squadra di Simon Rogan costruisce il menu degustazione attorno ai prodotti di piccoli coltivatori maltesi, con vista sul Grand Harbour."
+     },
+     "image_query": "File:Valletta Grand Harbour Panorama.jpg",
+     "image_alt": "Panorama of the Grand Harbour, Valletta",
+     "image": "article-img/michelin-malta-2026/01.jpg",
+     "credit": {
+      "author": "GregorioW This image was created with Hugin .",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Valletta_Grand_Harbour_Panorama.jpg",
+      "file": "File:Valletta Grand Harbour Panorama.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "heading": {
+    "en": "One MICHELIN Star",
+    "mt": "Stilla MICHELIN Waħda",
+    "it": "Una Stella MICHELIN"
+   },
+   "items": [
+    {
+     "name": "De Mondion",
+     "locality": "Mdina",
+     "price": "",
+     "badge": {
+      "en": "1 Star",
+      "mt": "1 Stilla",
+      "it": "1 Stella"
+     },
+     "badge_kind": "star",
+     "cuisine": {
+      "en": "Classic, Maltese roots",
+      "mt": "Klassiku, għeruq Maltin",
+      "it": "Classica, radici maltesi"
+     },
+     "text": {
+      "en": "On the roof of the Xara Palace inside the walls of Mdina, with views across the island. Refined classic cooking that leans on Maltese tradition. Its sommelier, Miljan Radonjić, won the 2026 MICHELIN Sommelier Award.",
+      "mt": "Fuq il-bejt tax-Xara Palace ġewwa s-swar tal-Imdina, b'veduta fuq il-gżira kollha. Ikel klassiku raffinat li jistrieħ fuq it-tradizzjoni Maltija. Is-sommelier tiegħu, Miljan Radonjić, rebaħ il-MICHELIN Sommelier Award 2026.",
+      "it": "Sul tetto dello Xara Palace, dentro le mura di Mdina, con vista su tutta l'isola. Cucina classica e raffinata ispirata alla tradizione maltese. Il sommelier Miljan Radonjić ha ricevuto il MICHELIN Sommelier Award 2026."
+     },
+     "image_query": "File:Malta-fort mdina-rabat-isymeonidis-5.tif",
+     "image_alt": "The bastions of Mdina",
+     "image": "article-img/michelin-malta-2026/02.jpg",
+     "credit": {
+      "author": "Isymeoni",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Malta-fort_mdina-rabat-isymeonidis-5.tif",
+      "file": "File:Malta-fort mdina-rabat-isymeonidis-5.tif"
+     }
+    },
+    {
+     "name": "Fernandõ Gastrotheque",
+     "locality": "Sliema",
+     "price": "€€€",
+     "badge": {
+      "en": "1 Star",
+      "mt": "1 Stilla",
+      "it": "1 Stella"
+     },
+     "badge_kind": "star",
+     "cuisine": {
+      "en": "Mediterranean, contemporary",
+      "mt": "Mediterranju, kontemporanju",
+      "it": "Mediterranea, contemporanea"
+     },
+     "text": {
+      "en": "A small, two-floor dining room on a quiet Sliema side street, starred since 2023. Short, seasonal menus and one of the island's most serious wine lists, with more than 700 labels.",
+      "mt": "Kamra tal-ikel żgħira fuq żewġ sulari fi triq kwieta f'Tas-Sliema, bi stilla mill-2023. Menus qosra u staġjonali u waħda mill-aktar listi tal-inbid serji fil-gżira, b'aktar minn 700 tikketta.",
+      "it": "Una piccola sala su due piani in una via tranquilla di Sliema, stellata dal 2023. Menu brevi e stagionali e una delle carte dei vini più serie dell'isola, con oltre 700 etichette."
+     },
+     "image_query": "File:Sliema waterfront, Malta, 2026.jpg",
+     "image_alt": "Sliema waterfront",
+     "image": "article-img/michelin-malta-2026/03.jpg",
+     "credit": {
+      "author": "Chris Olszewski",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sliema_waterfront,_Malta,_2026.jpg",
+      "file": "File:Sliema waterfront, Malta, 2026.jpg"
+     }
+    },
+    {
+     "name": "Le GV",
+     "locality": "Sliema",
+     "price": "",
+     "badge": {
+      "en": "1 Star",
+      "mt": "1 Stilla",
+      "it": "1 Stella"
+     },
+     "badge_kind": "star",
+     "cuisine": {
+      "en": "Modern",
+      "mt": "Modern",
+      "it": "Moderna"
+     },
+     "text": {
+      "en": "The rooftop restaurant of the 1926 Le Soleil hotel, and the newest star on the islands: it earned it in 2025 and kept it this year. Book for sunset over the Sliema skyline.",
+      "mt": "Ir-restorant fuq il-bejt tal-lukanda 1926 Le Soleil, u l-iktar stilla ġdida fil-gżejjer: qalgħetha fl-2025 u żammitha din is-sena. Irriserva għal nżul ix-xemx fuq Tas-Sliema.",
+      "it": "Il ristorante sul tetto dell'hotel 1926 Le Soleil e la stella più recente delle isole: arrivata nel 2025 e confermata quest'anno. Da prenotare al tramonto, con vista su Sliema."
+     },
+     "image_query": "File:Malta-evening-flight-sunset-over-water-sliema-boats-isymeonidis.tif",
+     "image_alt": "Sliema at sunset",
+     "image": "article-img/michelin-malta-2026/04.jpg",
+     "credit": {
+      "author": "Isymeoni",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Malta-evening-flight-sunset-over-water-sliema-boats-isymeonidis.tif",
+      "file": "File:Malta-evening-flight-sunset-over-water-sliema-boats-isymeonidis.tif"
+     }
+    },
+    {
+     "name": "Noni",
+     "locality": "Valletta",
+     "price": "€€€€",
+     "badge": {
+      "en": "1 Star",
+      "mt": "1 Stilla",
+      "it": "1 Stella"
+     },
+     "badge_kind": "star",
+     "cuisine": {
+      "en": "Modern tasting menu",
+      "mt": "Menu tad-degustazzjoni modern",
+      "it": "Menu degustazione moderno"
+     },
+     "text": {
+      "en": "A relaxed tasting menu served under the stone vaults of a converted underground bakery in the capital. One of Malta's first starred restaurants, holding its star since the guide launched in 2020.",
+      "mt": "Menu tad-degustazzjoni rilassat taħt il-ħnejjiet tal-ġebel ta' forn taħt l-art li nbidel f'restorant fil-belt kapitali. Wieħed mill-ewwel restoranti Maltin bi stilla, li żammha minn meta nediet il-gwida fl-2020.",
+      "it": "Un menu degustazione rilassato sotto le volte in pietra di un antico forno sotterraneo nella capitale. Tra i primi stellati di Malta, con la stella dal debutto della guida nel 2020."
+     },
+     "image_query": "File:Malta - Valletta - Republic Street & Republic Square.jpg",
+     "image_alt": "Republic Street, Valletta",
+     "image": "article-img/michelin-malta-2026/05.jpg",
+     "credit": {
+      "author": "Txllxt TxllxT",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Malta_-_Valletta_-_Republic_Street_%26_Republic_Square.jpg",
+      "file": "File:Malta - Valletta - Republic Street & Republic Square.jpg"
+     }
+    },
+    {
+     "name": "Rosamì",
+     "locality": "St Julian's",
+     "price": "",
+     "badge": {
+      "en": "1 Star",
+      "mt": "1 Stilla",
+      "it": "1 Stella"
+     },
+     "badge_kind": "star",
+     "cuisine": {
+      "en": "Seasonal Mediterranean",
+      "mt": "Mediterranju staġjonali",
+      "it": "Mediterranea di stagione"
+     },
+     "text": {
+      "en": "Seasonal Mediterranean tasting menus in a historic villa above Balluta Bay. Starred since 2024 and one of the most romantic settings on the list.",
+      "mt": "Menus tad-degustazzjoni Mediterranji staġjonali f'villa storika fuq il-Bajja tal-Balluta. Bi stilla mill-2024 u wieħed mill-aktar postijiet romantiċi fil-lista.",
+      "it": "Menu degustazione mediterranei di stagione in una villa storica sopra la baia di Balluta. Stellato dal 2024 e tra le cornici più romantiche della lista."
+     },
+     "image_query": "File:Bahía de Balluta, San Julián, isla de Malta, Malta, 2021-08-24, DD 37-41 PAN.jpg",
+     "image_alt": "Balluta Bay, St Julian's",
+     "image": "article-img/michelin-malta-2026/06.jpg",
+     "credit": {
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bah%C3%ADa_de_Balluta,_San_Juli%C3%A1n,_isla_de_Malta,_Malta,_2021-08-24,_DD_37-41_PAN.jpg",
+      "file": "File:Bahía de Balluta, San Julián, isla de Malta, Malta, 2021-08-24, DD 37-41 PAN.jpg"
+     }
+    },
+    {
+     "name": "Under Grain",
+     "locality": "Valletta",
+     "price": "",
+     "badge": {
+      "en": "1 Star",
+      "mt": "1 Stilla",
+      "it": "1 Stella"
+     },
+     "badge_kind": "star",
+     "cuisine": {
+      "en": "Modern, Mediterranean",
+      "mt": "Modern, Mediterranju",
+      "it": "Moderna, mediterranea"
+     },
+     "text": {
+      "en": "The fine dining room of the Grain group, below street level in Valletta's old merchants' quarter. Starred since 2020; its sister Grain Street, upstairs, holds a Bib Gourmand.",
+      "mt": "Il-kamra tal-fine dining tal-grupp Grain, taħt il-livell tat-triq fil-kwartier qadim tan-negozjanti tal-Belt. Bi stilla mill-2020; Grain Street, fuqu, għandu Bib Gourmand.",
+      "it": "La sala gourmet del gruppo Grain, sotto il livello della strada nel vecchio quartiere dei mercanti di La Valletta. Stellato dal 2020; il fratello Grain Street, al piano di sopra, ha un Bib Gourmand."
+     },
+     "image_query": "File:Malta - Valletta - Triq il-Merkanti 16 ies.jpg",
+     "image_alt": "Merchants Street, Valletta",
+     "image": "article-img/michelin-malta-2026/07.jpg",
+     "credit": {
+      "author": "Frank Vincentz",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Malta_-_Valletta_-_Triq_il-Merkanti_16_ies.jpg",
+      "file": "File:Malta - Valletta - Triq il-Merkanti 16 ies.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "heading": {
+    "en": "Bib Gourmand: great food, fair prices",
+    "mt": "Bib Gourmand: ikel tajjeb, prezz ġust",
+    "it": "Bib Gourmand: buona cucina, prezzi giusti"
+   },
+   "intro": {
+    "en": "The Bib Gourmand is MICHELIN's award for good quality, good value cooking. These five are where we would send a friend on a normal budget.",
+    "mt": "Il-Bib Gourmand huwa l-premju ta' MICHELIN għal ikel ta' kwalità tajba u valur tajjeb. Dawn il-ħamsa huma fejn nibagħtu ħabib b'baġit normali.",
+    "it": "Il Bib Gourmand è il riconoscimento MICHELIN per una cucina di qualità a un buon prezzo. Sono i cinque indirizzi che consiglieremmo a un amico con un budget normale."
+   },
+   "items": [
+    {
+     "name": "AYU",
+     "locality": "Gżira",
+     "price": "",
+     "badge": {
+      "en": "Bib Gourmand",
+      "mt": "Bib Gourmand",
+      "it": "Bib Gourmand"
+     },
+     "badge_kind": "bib",
+     "cuisine": {
+      "en": "International",
+      "mt": "Internazzjonali",
+      "it": "Internazionale"
+     },
+     "text": {
+      "en": "Three brothers cook dishes shaped by their travels, opposite Manoel Island on the Gżira promenade. Laid back and easy to love after a seafront walk.",
+      "mt": "Tliet aħwa jsajru platti mnebbħa mill-vjaġġi tagħhom, biswit Manoel Island fuq il-promenade tal-Gżira. Rilassat u jogħġbok wara mixja max-xatt.",
+      "it": "Tre fratelli cucinano piatti ispirati ai loro viaggi, di fronte a Manoel Island sul lungomare di Gżira. Informale e perfetto dopo una passeggiata."
+     },
+     "image_query": "File:Malta - Gżira - Triq Ix-Xatt 01.jpg",
+     "image_alt": "The Gżira seafront",
+     "image": "article-img/michelin-malta-2026/08.jpg",
+     "credit": {
+      "author": "Txllxt TxllxT",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Malta_-_G%C5%BCira_-_Triq_Ix-Xatt_01.jpg",
+      "file": "File:Malta - Gżira - Triq Ix-Xatt 01.jpg"
+     }
+    },
+    {
+     "name": "Commando",
+     "locality": "Mellieħa",
+     "price": "",
+     "badge": {
+      "en": "Bib Gourmand",
+      "mt": "Bib Gourmand",
+      "it": "Bib Gourmand"
+     },
+     "badge_kind": "bib",
+     "cuisine": {
+      "en": "Mediterranean, family run",
+      "mt": "Mediterranju, tal-familja",
+      "it": "Mediterranea, a conduzione familiare"
+     },
+     "text": {
+      "en": "A family restaurant in the village square that has welcomed guests since the 1930s. A young chef-owner keeps the hospitality and gives fresh island produce a light modern touch.",
+      "mt": "Restorant tal-familja fil-pjazza tar-raħal li ilu jilqa' n-nies mis-snin tletin. Chef żagħżugħ u sid iżomm l-ospitalità u jagħti mess modern ħafif lill-prodotti friski tal-gżira.",
+      "it": "Un ristorante di famiglia sulla piazza del paese, aperto dagli anni Trenta. Il giovane chef e titolare mantiene l'accoglienza e dà ai prodotti dell'isola un tocco moderno."
+     },
+     "image_query": "File:Mellieha Parish Church.jpg",
+     "image_alt": "Mellieħa parish church",
+     "image": "article-img/michelin-malta-2026/09.jpg",
+     "credit": {
+      "author": "Meehowu A drone shot from my recent wedding in Malta .",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mellieha_Parish_Church.jpg",
+      "file": "File:Mellieha Parish Church.jpg"
+     }
+    },
+    {
+     "name": "Grain Street",
+     "locality": "Valletta",
+     "price": "€€",
+     "badge": {
+      "en": "Bib Gourmand",
+      "mt": "Bib Gourmand",
+      "it": "Bib Gourmand"
+     },
+     "badge_kind": "bib",
+     "cuisine": {
+      "en": "Modern Mediterranean bistro",
+      "mt": "Bistro Mediterranju modern",
+      "it": "Bistrot mediterraneo moderno"
+     },
+     "text": {
+      "en": "The relaxed street-level bistro of the Grain group on Merchants Street, with an outdoor terrace. Sharing plates from the same kitchen culture as starred Under Grain, at a fraction of the price.",
+      "mt": "Il-bistro rilassat tal-grupp Grain fi Triq il-Merkanti, b'terrazzin barra. Platti biex taqsam mill-istess kċina ta' Under Grain bl-istilla, bi frazzjoni tal-prezz.",
+      "it": "Il bistrot informale del gruppo Grain in Merchants Street, con dehors. Piatti da condividere della stessa scuola dello stellato Under Grain, a una frazione del prezzo."
+     },
+     "image_query": "File:Balconies overlooking Sappers Street Valletta.jpg",
+     "image_alt": "Valletta balconies",
+     "image": "article-img/michelin-malta-2026/10.jpg",
+     "credit": {
+      "author": "Godwin Borg",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Balconies_overlooking_Sappers_Street_Valletta.jpg",
+      "file": "File:Balconies overlooking Sappers Street Valletta.jpg"
+     }
+    },
+    {
+     "name": "Rubino",
+     "locality": "Valletta",
+     "price": "",
+     "badge": {
+      "en": "Bib Gourmand",
+      "mt": "Bib Gourmand",
+      "it": "Bib Gourmand"
+     },
+     "badge_kind": "bib",
+     "cuisine": {
+      "en": "Maltese",
+      "mt": "Malti",
+      "it": "Maltese"
+     },
+     "text": {
+      "en": "A tiny Valletta institution that opened in 1906 as a confectioner's shop, its windows still lined with old jars and bottles. Honest Maltese cooking, and a Bib Gourmand since the very first guide.",
+      "mt": "Istituzzjoni ċkejkna tal-Belt li fetħet fl-1906 bħala ħanut tal-ħelu, bit-twieqi għadhom mimlija vażetti u fliexken antiki. Ikel Malti onest, u Bib Gourmand mill-ewwel gwida nnifisha.",
+      "it": "Una piccola istituzione di La Valletta, nata nel 1906 come pasticceria, con le vetrine ancora piene di vasi e bottiglie d'epoca. Cucina maltese sincera, Bib Gourmand fin dalla prima guida."
+     },
+     "image_query": "File:Malta - Valletta - Triq il-Fran 03 ies.jpg",
+     "image_alt": "Old Bakery Street, Valletta",
+     "image": "article-img/michelin-malta-2026/11.jpg",
+     "credit": {
+      "author": "Frank Vincentz",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Malta_-_Valletta_-_Triq_il-Fran_03_ies.jpg",
+      "file": "File:Malta - Valletta - Triq il-Fran 03 ies.jpg"
+     }
+    },
+    {
+     "name": "Verbena",
+     "locality": "Mġarr",
+     "price": "",
+     "badge": {
+      "en": "Bib Gourmand · New",
+      "mt": "Bib Gourmand · Ġdid",
+      "it": "Bib Gourmand · Novità"
+     },
+     "badge_kind": "bib",
+     "cuisine": {
+      "en": "Farm to table",
+      "mt": "Mill-għalqa għall-mejda",
+      "it": "Dalla fattoria alla tavola"
+     },
+     "text": {
+      "en": "New to the list in 2026. Honest, generous cooking built on farm-fresh ingredients in the quiet agricultural village of Mġarr, a short drive from the north coast beaches.",
+      "mt": "Ġdid fil-lista fl-2026. Ikel onest u ġeneruż mibni fuq ingredjenti friski mill-għelieqi fir-raħal agrikolu kwiet tal-Imġarr, ftit minuti mill-bajjiet tat-tramuntana.",
+      "it": "Nuovo ingresso del 2026. Cucina sincera e generosa con ingredienti freschi di fattoria nel tranquillo villaggio agricolo di Mġarr, a pochi minuti dalle spiagge del nord."
+     },
+     "image_query": "File:Malta Mgarr Parish Church.jpg",
+     "image_alt": "Mġarr parish church",
+     "image": "article-img/michelin-malta-2026/12.jpg",
+     "credit": {
+      "author": "Medullaoblongata Projekt",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Malta_Mgarr_Parish_Church.jpg",
+      "file": "File:Malta Mgarr Parish Church.jpg"
+     }
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "en": "Where shown, prices are MICHELIN's own bands (€€ moderate to €€€€ special occasion). Menus and opening days change often, so check with each restaurant before you book. For more ideas, see Restaurants on CompareMalta.ai, updated every week.",
+  "mt": "Fejn jidhru, il-prezzijiet huma l-meded ta' MICHELIN stess (€€ moderat sa €€€€ okkażjoni speċjali). Il-menus u l-jiem tal-ftuħ jinbidlu spiss, għalhekk iċċekkja ma' kull restorant qabel tirriserva. Għal aktar ideat, ara Restoranti fuq CompareMalta.ai, aġġornati kull ġimgħa.",
+  "it": "Dove indicati, i prezzi seguono le fasce MICHELIN (€€ moderato, €€€€ occasione speciale). Menu e giorni di apertura cambiano spesso: verifica con ogni ristorante prima di prenotare. Per altre idee, vedi Ristoranti su CompareMalta.ai, aggiornati ogni settimana."
+ },
+ "sources": [
+  {
+   "name": "MICHELIN press release, 17 Feb 2026",
+   "url": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-malta-7th-edition"
+  },
+  {
+   "name": "Malta Tourism Authority",
+   "url": "https://mta.com.mt/news/michelin-guide-2026-destination-high-quality-gastronomic-experiences/"
+  },
+  {
+   "name": "MICHELIN Guide Malta",
+   "url": "https://guide.michelin.com/en/malta-south-eastern-region/valletta/restaurant/grain-street"
+  }
+ ],
+ "hero_image": "article-img/michelin-malta-2026/hero.jpg",
+ "hero_credit": {
+  "author": "Richlv",
+  "license": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Saluting_battery_and_Grand_Harbour_in_Valletta.jpg",
+  "file": "File:Saluting battery and Grand Harbour in Valletta.jpg"
+ }
+}

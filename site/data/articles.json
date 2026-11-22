@@ -1,0 +1,36 @@
+{
+ "updated": "2026-11-22T15:31:48+00:00",
+ "items": [
+  {
+   "slug": "michelin-malta-2026",
+   "date": "2026-11-22T16:00:00+00:00",
+   "topic": {
+    "en": "Food & Drink",
+    "mt": "Ikel u Xorb",
+    "it": "Cibo e vino"
+   },
+   "title": {
+    "en": "Every MICHELIN star and Bib Gourmand in Malta, ranked",
+    "mt": "Kull stilla MICHELIN u Bib Gourmand f'Malta, f'ordni",
+    "it": "Tutte le stelle MICHELIN e i Bib Gourmand di Malta, in classifica"
+   },
+   "summary": {
+    "en": "Malta's 2026 MICHELIN Guide keeps all seven starred tables and adds a fifth Bib Gourmand. Here are all twelve, from ION Harbour's two stars to the best value plates on the islands.",
+    "mt": "Il-Gwida MICHELIN 2026 ta' Malta żammet is-seba' restoranti bl-istilel kollha u żiedet il-ħames Bib Gourmand. Hawn huma t-tnax kollha, minn ION Harbour b'żewġ stilel sal-aħjar valur fil-gżejjer.",
+    "it": "La Guida MICHELIN 2026 di Malta conferma tutti e sette i ristoranti stellati e aggiunge il quinto Bib Gourmand. Ecco tutti e dodici, dalle due stelle di ION Harbour ai migliori indirizzi qualità prezzo."
+   },
+   "hero_image": "article-img/michelin-malta-2026/hero.jpg",
+   "hero_credit": {
+    "author": "Richlv",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Saluting_battery_and_Grand_Harbour_in_Valletta.jpg",
+    "file": "File:Saluting battery and Grand Harbour in Valletta.jpg"
+   },
+   "kicker": {
+    "en": "Malta today · Feature",
+    "mt": "Malta llum · Artiklu",
+    "it": "Malta oggi · Approfondimento"
+   }
+  }
+ ]
+}
