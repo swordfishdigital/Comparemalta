@@ -366,7 +366,7 @@ async function renderChrome() {
     <div><a href="#home" class="logo"><span class="logo-mark">${V.logo(30)}</span><span>CompareMalta<span class="ai">.ai</span></span></a><p>${t("footTag")}</p></div>
     <div><h4>${t("fCompare")}</h4><ul><li><a href="#bank-accounts">${t("nBanking")}</a></li><li><a href="#mortgages">${t("fLoans")}</a></li><li><a href="#telco-mobile">${t("nTelco")}</a></li><li><a href="#categories">${t("allCatsTitle")}</a></li></ul></div>
     <div><h4>${t("fDaily")}</h4><ul><li><a href="#news">${t("fNews")}</a></li><li><a href="#groceries">${t("nGroc")}</a></li><li><a href="#fx">${t("fFx")}</a></li><li><a href="#newsletter">${t("nlNav")}</a></li></ul></div>
-    <div><h4>${t("fAbout")}</h4><ul><li><a href="#how-we-rank">${t("fHow")}</a></li><li><a href="#check">${t("ckNav")}</a></li><li><a href="#privacy">${t("privacy")}</a></li><li><a href="#partners">${t("fPartner")}</a></li><li><a href="#contact">${t("fContact")}</a></li></ul></div>`;
+    <div><h4>${t("fAbout")}</h4><ul><li><a href="#how-we-rank">${t("fHow")}</a></li><li><a href="#check">${t("ckNav")}</a></li><li><a href="#privacy">${t("privacy")}</a></li><li><a href="#partners">${t("fPartner")}</a></li><li><a href="#contact">${t("fContact")}</a></li><li><a href="mailto:info@comparemalta.ai">info@comparemalta.ai</a></li></ul></div>`;
   $("#footDisclaimer").textContent = t("disclaimer");
   if (st) $("#footStatus").innerHTML = `<span class="dot ${st.total && st.ok / st.total > .8 ? "" : "warn"}"></span>${t("feeds")} ${st.ok}/${st.total} · ${t("updated")} ${ago(st.generated)}`;
   document.querySelectorAll("header .logo-mark").forEach(e => e.innerHTML = V.logo(32));

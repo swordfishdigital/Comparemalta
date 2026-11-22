@@ -265,11 +265,11 @@ def footer(lang, depth, cats):
     s = S[lang]
     links = " · ".join(f'<a href="{up}{lang}/{slug}/">{esc(title_of(cfg, lang))}</a>' for slug, cfg in cats.items())
     return f"""<footer class="foot"><div class="wrap"><p class="seo-muted">{links}</p>
-<p class="seo-muted"><a href="{up}{lang}/methodology/">{esc(s['methodology'])}</a> · <a href="{up}llms.txt">llms.txt</a> · <a href="{up}sitemap.xml">Sitemap</a> · © {datetime.now().year} CompareMalta.ai</p></div></footer>
+<p class="seo-muted"><a href="{up}{lang}/methodology/">{esc(s['methodology'])}</a> · <a href="{up}llms.txt">llms.txt</a> · <a href="{up}sitemap.xml">Sitemap</a> · <a href="mailto:info@comparemalta.ai">info@comparemalta.ai</a> · © {datetime.now().year} CompareMalta.ai</p></div></footer>
 </body></html>"""
 
 
-ORG = {"@type": "Organization", "@id": f"{BASE}/#org", "name": "CompareMalta.ai", "url": f"{BASE}/",
+ORG = {"@type": "Organization", "@id": f"{BASE}/#org", "name": "CompareMalta.ai", "url": f"{BASE}/", "email": "info@comparemalta.ai",
        "logo": f"{BASE}/favicon.svg", "areaServed": {"@type": "Country", "name": "Malta"},
        "description": "Independent AI comparison site for Malta: banking, loans, mortgages, cards, POS, telco, insurance, investing and restaurants."}
 
