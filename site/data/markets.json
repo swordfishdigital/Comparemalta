@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:12:42+00:00",
+ "updated": "2026-11-22T16:22:29+00:00",
  "global": [
   {
    "name": "S&P 500",
@@ -72,20 +72,20 @@
   {
    "name": "Bitcoin",
    "symbol": "bitcoin",
-   "price": 55575,
-   "change_pct": 2.03
+   "price": 55571,
+   "change_pct": 1.93
   },
   {
    "name": "Ethereum",
    "symbol": "ethereum",
-   "price": 1566.37,
-   "change_pct": 2.44
+   "price": 1564.03,
+   "change_pct": 2.32
   },
   {
    "name": "Solana",
    "symbol": "solana",
-   "price": 64.13,
-   "change_pct": 0.26
+   "price": 64.05,
+   "change_pct": 0.13
   }
  ],
  "mse": [
