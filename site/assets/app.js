@@ -18,7 +18,7 @@ const T = {
   topEyebrow:"Today's top table",topT:{savings:"12-month fixed deposits in Malta",mortgages:"Variable-rate mortgages in Malta",mobile:"Mobile plans in Malta"},tabs:{savings:"Savings",mortgages:"Mortgages",mobile:"Mobile"},
   thrush:"Blue score",bestPick:"Best pick",viewDeal:"View deal",
   refreshed:"Rates refreshed daily at {t} from provider sites. CompareMalta.ai may earn a commission, but rankings are never paid for.",
-  morning:"Malta this morning",artBadge:"Blue recommends",blogTitle:"Blue's picks",blogLead:"Guides, rankings and deep dives from CompareMalta.ai to help you live, eat and bank better in Malta. New ones every Monday, Wednesday and Friday, and every article stays here.",blogLatest:"Latest from Blue",tabNews:"All news",artBy:"By CompareMalta.ai",artPhotos:"Photos",artSources:"Sources",artVisit:"Website",artMap:"Map",artBack:"All of Blue's picks",artNotFound:"This article is not available.",readArt:"Read the article",readSum:"Read summary →",fullMk:"Full markets page →",mkt:"Markets",
+  morning:"Malta this morning",artBadge:"Blue recommends",mhNew:"New · Free · 3 minutes",mhBandH:"Understand your money. One simple step at a time.",mhBandP:"Get your free Money Health Score, see what\'s working and find your next practical step. Your answers first, documents only if you choose.",mhBandCta:"Check my Money Health",blogTitle:"Blue's picks",blogLead:"Guides, rankings and deep dives from CompareMalta.ai to help you live, eat and bank better in Malta. New ones every Monday, Wednesday and Friday, and every article stays here.",blogLatest:"Latest from Blue",tabNews:"All news",artBy:"By CompareMalta.ai",artPhotos:"Photos",artSources:"Sources",artVisit:"Website",artMap:"Map",artBack:"All of Blue's picks",artNotFound:"This article is not available.",readArt:"Read the article",readSum:"Read summary →",fullMk:"Full markets page →",mkt:"Markets",
   footTag:"Independent comparisons for life and business in Malta. Updated daily. English · Malti · Italiano.",fCompare:"Compare",fDaily:"Daily",fAbout:"About",fNews:"News",fMarkets:"Markets",fFx:"FX",fLoans:"Loans",fHow:"How we rank",fContact:"Contact",
   filter:"Filter…",sortBy:"Sort by",updated:"Updated",checked:"Checked",notChecked:"Catalogue data",stale:"Last known",affiliated:"Related party",
   all:"All",sources:"Sources",mse:"Malta Stock Exchange",global:"Global indices & commodities",crypto:"Crypto (EUR)",fx:"FX rates (ECB)",
@@ -45,7 +45,7 @@ const T = {
   topEyebrow:"It-tabella ewlenija tal-lum",topT:{savings:"Depożiti fissi ta' 12-il xahar f'Malta",mortgages:"Self għad-dar b'rata varjabbli f'Malta",mobile:"Pjanijiet tal-mobile f'Malta"},tabs:{savings:"Tfaddil",mortgages:"Self għad-dar",mobile:"Mobile"},
   thrush:"Punteġġ ta' Blue",bestPick:"L-aħjar għażla",viewDeal:"Ara l-offerta",
   refreshed:"Ir-rati jiġu aġġornati kuljum fil-{t} mis-siti tal-fornituri. CompareMalta.ai jista' jaqla' kummissjoni, iżda l-klassifiki qatt ma jitħallsu.",
-  morning:"Malta dalgħodu",artBadge:"Blue jirrakkomanda",blogTitle:"L-għażliet ta' Blue",blogLead:"Gwidi, klassifiki u analiżi minn CompareMalta.ai biex tgħix, tiekol u tibbankja aħjar f'Malta. Ġodda kull nhar ta' Tnejn, Erbgħa u Ġimgħa, u kull artiklu jibqa' hawn.",blogLatest:"L-aħħar minn Blue",tabNews:"L-aħbarijiet kollha",artBy:"Minn CompareMalta.ai",artPhotos:"Ritratti",artSources:"Sorsi",artVisit:"Websajt",artMap:"Mappa",artBack:"L-għażliet kollha ta' Blue",artNotFound:"Dan l-artiklu mhux disponibbli.",readArt:"Aqra l-artiklu",readSum:"Aqra s-sommarju →",fullMk:"Paġna sħiħa tas-swieq →",mkt:"Swieq",
+  morning:"Malta dalgħodu",artBadge:"Blue jirrakkomanda",mhNew:"Ġdid · B\'xejn · 3 minuti",mhBandH:"Ifhem flusek. Pass sempliċi wara l-ieħor.",mhBandP:"Ikseb il-Money Health Score b\'xejn, ara x\'qed jaħdem u sib il-pass prattiku li jmiss. L-ewwel it-tweġibiet tiegħek, dokumenti biss jekk trid.",mhBandCta:"Iċċekkja s-Saħħa Finanzjarja",blogTitle:"L-għażliet ta' Blue",blogLead:"Gwidi, klassifiki u analiżi minn CompareMalta.ai biex tgħix, tiekol u tibbankja aħjar f'Malta. Ġodda kull nhar ta' Tnejn, Erbgħa u Ġimgħa, u kull artiklu jibqa' hawn.",blogLatest:"L-aħħar minn Blue",tabNews:"L-aħbarijiet kollha",artBy:"Minn CompareMalta.ai",artPhotos:"Ritratti",artSources:"Sorsi",artVisit:"Websajt",artMap:"Mappa",artBack:"L-għażliet kollha ta' Blue",artNotFound:"Dan l-artiklu mhux disponibbli.",readArt:"Aqra l-artiklu",readSum:"Aqra s-sommarju →",fullMk:"Paġna sħiħa tas-swieq →",mkt:"Swieq",
   footTag:"Paraguni indipendenti għall-ħajja u n-negozju f'Malta. Aġġornati kuljum. English · Malti · Italiano.",fCompare:"Qabbel",fDaily:"Kuljum",fAbout:"Dwarna",fNews:"Aħbarijiet",fMarkets:"Swieq",fFx:"Kambju",fLoans:"Self",fHow:"Kif nikklassifikaw",fContact:"Kuntatt",
   filter:"Iffiltra…",sortBy:"Ordna skont",updated:"Aġġornat",checked:"Iċċekkjat",notChecked:"Data tal-katalgu",stale:"L-aħħar magħruf",affiliated:"Parti relatata",
   all:"Kollha",sources:"Sorsi",mse:"Borża ta' Malta",global:"Indiċijiet globali u komoditajiet",crypto:"Kripto (EUR)",fx:"Rati tal-kambju (ECB)",
@@ -72,7 +72,7 @@ const T = {
   topEyebrow:"La tabella di oggi",topT:{savings:"Depositi vincolati a 12 mesi a Malta",mortgages:"Mutui a tasso variabile a Malta",mobile:"Piani mobile a Malta"},tabs:{savings:"Risparmio",mortgages:"Mutui",mobile:"Mobile"},
   thrush:"Punteggio Blue",bestPick:"Scelta migliore",viewDeal:"Vedi offerta",
   refreshed:"Tassi aggiornati ogni giorno alle {t} dai siti dei fornitori. CompareMalta.ai può ricevere una commissione, ma le classifiche non sono mai a pagamento.",
-  morning:"Malta stamattina",artBadge:"Blue consiglia",blogTitle:"Le scelte di Blue",blogLead:"Guide, classifiche e approfondimenti di CompareMalta.ai per vivere, mangiare e gestire i soldi meglio a Malta. Nuovi articoli ogni lunedì, mercoledì e venerdì, e ognuno resta qui.",blogLatest:"L'ultimo di Blue",tabNews:"Tutte le notizie",artBy:"A cura di CompareMalta.ai",artPhotos:"Foto",artSources:"Fonti",artVisit:"Sito web",artMap:"Mappa",artBack:"Tutte le scelte di Blue",artNotFound:"Questo articolo non è disponibile.",readArt:"Leggi l'articolo",readSum:"Leggi il riassunto →",fullMk:"Pagina completa dei mercati →",mkt:"Mercati",
+  morning:"Malta stamattina",artBadge:"Blue consiglia",mhNew:"Novità · Gratis · 3 minuti",mhBandH:"Capisci i tuoi soldi. Un passo semplice alla volta.",mhBandP:"Ottieni gratis il tuo Money Health Score, scopri cosa funziona e trova il prossimo passo pratico. Prima le tue risposte, i documenti solo se vuoi.",mhBandCta:"Controlla la mia Money Health",blogTitle:"Le scelte di Blue",blogLead:"Guide, classifiche e approfondimenti di CompareMalta.ai per vivere, mangiare e gestire i soldi meglio a Malta. Nuovi articoli ogni lunedì, mercoledì e venerdì, e ognuno resta qui.",blogLatest:"L'ultimo di Blue",tabNews:"Tutte le notizie",artBy:"A cura di CompareMalta.ai",artPhotos:"Foto",artSources:"Fonti",artVisit:"Sito web",artMap:"Mappa",artBack:"Tutte le scelte di Blue",artNotFound:"Questo articolo non è disponibile.",readArt:"Leggi l'articolo",readSum:"Leggi il riassunto →",fullMk:"Pagina completa dei mercati →",mkt:"Mercati",
   footTag:"Confronti indipendenti per la vita e il business a Malta. Aggiornati ogni giorno. English · Malti · Italiano.",fCompare:"Confronta",fDaily:"Ogni giorno",fAbout:"Chi siamo",fNews:"Notizie",fMarkets:"Mercati",fFx:"Cambi",fLoans:"Prestiti",fHow:"Come classifichiamo",fContact:"Contatti",
   filter:"Filtra…",sortBy:"Ordina per",updated:"Aggiornato",checked:"Verificato",notChecked:"Dati di catalogo",stale:"Ultimo valore noto",affiliated:"Parte correlata",
   all:"Tutti",sources:"Fonti",mse:"Borsa di Malta",global:"Indici globali e materie prime",crypto:"Cripto (EUR)",fx:"Tassi di cambio (BCE)",
@@ -337,6 +337,7 @@ function renderNav(route) {
     + `<a href="#articles" class="nav-blue ${/^(articles|blog|article\/)/.test(route) ? "on" : ""}">${t("blogTitle")}</a>`;
   document.querySelectorAll("#langSeg button").forEach(b => b.classList.toggle("on", b.dataset.l === lang));
   $("#askBtn").textContent = t("ask");
+  if ($("#mhBtnT")) { $("#mhBtnT").textContent = window.CMMoneyHealth ? window.CMMoneyHealth.nav(lang) : "Money Health"; $("#mhBtn").classList.toggle("on", route === "money-health"); }
   document.documentElement.lang = lang;
 }
 async function renderChrome() {
@@ -509,6 +510,8 @@ async function pageHome() {
       </div>`).join("")}</div>
     <a class="card ck-band" href="#check"><span>${V.mascot(54, "wink")}</span><span><b>${t("ckTitle")}</b><br><span class="muted">${t("ckLead")}</span></span><span class="btn blue sm">${t("ckNav")} →</span></a>
     <p class="note cov">${coverageTxt()}</p>
+    <a class="mh-band" href="#money-health"><div class="mh-band-g">${window.CMMoneyHealth ? `<svg viewBox="0 0 120 70"><defs><linearGradient id="mhb" x1="0" x2="1"><stop offset="0" stop-color="#ff6b5b"/><stop offset=".5" stop-color="#ffd25c"/><stop offset="1" stop-color="#2fd18b"/></linearGradient></defs><path d="M12 62 A48 48 0 0 1 108 62" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="12" stroke-linecap="round"/><path d="M12 62 A48 48 0 0 1 108 62" fill="none" stroke="url(#mhb)" stroke-width="12" stroke-linecap="round" stroke-dasharray="151" stroke-dashoffset="34"/></svg>` : ""}</div>
+      <div class="mh-band-t"><span class="mh-band-e">${t("mhNew")}</span><b>${t("mhBandH")}</b><span>${t("mhBandP")}</span></div><span class="mh-band-cta">${t("mhBandCta")} →</span></a>
   </section>
   </div>
 
@@ -893,6 +896,7 @@ async function pageNews() {
 /* ---------- Blue's picks: archive of CompareMalta.ai articles, laid out like a blog ---------- */
 const newsTabs = on => `<div class="news-tabs"><a class="${on === "news" ? "on" : ""}" href="#news">${t("tabNews")}</a><a class="${on === "articles" ? "on" : ""}" href="#articles"><span class="bp-dot">${V.mascot(20, "wink")}</span>${t("blogTitle")}</a></div>`;
 const artDate = d => new Date(d).toLocaleDateString(lang === "en" ? "en-GB" : lang, {day: "numeric", month: "long", year: "numeric"});
+async function pageMoneyHealth() { return window.CMMoneyHealth ? window.CMMoneyHealth.page(lang, {esc, V}) : ""; }
 async function pageBlog() {
   const arts = await get("articles"); const all = artItems(arts);
   const topics = [...new Set(all.map(a => a.topic))];
@@ -1184,9 +1188,10 @@ async function route() {
   const r = (location.hash || "#home").slice(1) || "home";
   await get("categories");
   renderNav(r); $("#nav").classList.remove("open");
-  const pages = {articles: pageBlog, blog: pageBlog, newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, check: pageCheck, privacy: pagePrivacy, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
+  const pages = {"money-health": pageMoneyHealth, articles: pageBlog, blog: pageBlog, newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, check: pageCheck, privacy: pagePrivacy, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
   $("#app").innerHTML = await (r.startsWith("article/") ? pageArticle(r.slice(8)) : pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
   if ($("#heroForm")) bindHome();
+  if (r === "money-health") window.CMMoneyHealth?.mount();
   bindNewsletter();
   window.scrollTo(0, 0);
 }
