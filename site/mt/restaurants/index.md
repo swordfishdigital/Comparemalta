@@ -8,7 +8,7 @@ Inqabblu 11 prodotti ta' Restoranti minn 11-il fornitur f'Malta, iċċekkjati 22
 
 ## Paragun sħiħ
 
-| Fornitur | Żona | Kċina | Prezz | Klassifikazzjoni | Speċjalità | Blue score |
+| Fornitur | Żona | Kċina | Livell tal-prezz | Klassifikazzjoni | Speċjalità | Blue score |
 |---|---|---|---|---|---|---|
 | Kebab Factory | Valletta, Msida, St Julian's and more | Turkish | € | - | Turkish kebab and döner chain, 7 branches across Malta, delivery | 3.2 |
 | ION Harbour | Valletta | Fine dining | €€€€ | ★ 4.8 | Two Michelin stars, harbour view | 8.0 |

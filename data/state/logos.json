@@ -183,5 +183,35 @@
   "ok": true,
   "src": "https://www.paypalobjects.com/marketing/web/icons/monogram/pp258.png",
   "checked": "2026-11-21T23:41:27+00:00"
+ },
+ "greens.com.mt": {
+  "ok": true,
+  "src": "https://greens.com.mt/assets/images/favicon-1.ico",
+  "checked": "2026-11-22T08:36:25+00:00"
+ },
+ "lidl.com.mt": {
+  "ok": true,
+  "src": "https://lidl.com.mt/apple-touch-icon.png",
+  "checked": "2026-11-22T08:36:32+00:00"
+ },
+ "pavipama.com.mt": {
+  "ok": true,
+  "src": "https://pavipama.com.mt/app/apple-icon.png",
+  "checked": "2026-11-22T08:36:32+00:00"
+ },
+ "scottsmalta.com": {
+  "ok": false,
+  "src": null,
+  "checked": "2026-11-22T08:36:32+00:00"
+ },
+ "welbees.mt": {
+  "ok": true,
+  "src": "https://www.google.com/s2/favicons?domain=welbees.mt&sz=128",
+  "checked": "2026-11-22T08:36:32+00:00"
+ },
+ "wolt.com": {
+  "ok": true,
+  "src": "https://wolt-com-static-assets.wolt.com/apple-icon-180x180.png",
+  "checked": "2026-11-22T08:36:32+00:00"
  }
 }

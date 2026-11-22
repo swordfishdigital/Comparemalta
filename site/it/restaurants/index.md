@@ -8,7 +8,7 @@ Confrontiamo 11 offerte di ristoranti di 11 fornitori a Malta, verificate il 22 
 
 ## Confronto completo
 
-| Fornitore | Zona | Cucina | Prezzo | Valutazione | Punto forte | Blue score |
+| Fornitore | Zona | Cucina | Livello prezzi | Valutazione | Punto forte | Blue score |
 |---|---|---|---|---|---|---|
 | Kebab Factory | Valletta, Msida, St Julian's and more | Turkish | € | - | Turkish kebab and döner chain, 7 branches across Malta, delivery | 3,2 |
 | ION Harbour | Valletta | Fine dining | €€€€ | ★ 4,8 | Two Michelin stars, harbour view | 8,0 |

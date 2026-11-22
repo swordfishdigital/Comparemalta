@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T08:25:35+00:00",
+ "updated": "2026-11-22T08:36:47+00:00",
  "config": {
   "business-accounts": {
    "title": "İşletme Hesapları",
@@ -1226,6 +1226,120 @@
    "intro_mt": "Restoranti f'Malta u Għawdex skont iż-żona, il-kċina u l-baġit, b'għażliet ġodda kuljum.",
    "title_it": "Ristoranti",
    "intro_it": "Ristoranti a Malta e Gozo per zona, cucina e budget, con nuovi consigli ogni giorno."
+  },
+  "groceries": {
+   "title": "Süpermarketler",
+   "title_en": "Supermarkets & Groceries",
+   "group": "Yaşam",
+   "featured": true,
+   "intro": "Malta'daki süpermarketler: fiyat seviyesi, sadakat programı, teslimat ve güçlü yanları.",
+   "intro_en": "Malta's supermarkets side by side: price level, a measured basket comparison, loyalty schemes, delivery, opening hours and what each one does best.",
+   "title_mt": "Supermarkits u Grocery",
+   "intro_mt": "Is-supermarkits ta' Malta ħdejn xulxin: livell tal-prezzijiet, paragun ta' basket, skemi ta' lealtà, kunsinna, ħinijiet u x'jagħmel l-aħjar kull wieħed.",
+   "title_it": "Supermercati e Spesa",
+   "intro_it": "I supermercati di Malta a confronto: livello dei prezzi, un paniere misurato, programmi fedeltà, consegna a domicilio, orari e punti di forza.",
+   "columns": [
+    {
+     "key": "provider",
+     "label": "Market"
+    },
+    {
+     "key": "price_level",
+     "label": "Fiyat seviyesi",
+     "fmt": "price"
+    },
+    {
+     "key": "basket_vs_cheapest",
+     "label": "Sepet farkı",
+     "fmt": "pct"
+    },
+    {
+     "key": "stores",
+     "label": "Mağaza",
+     "fmt": "num"
+    },
+    {
+     "key": "loyalty",
+     "label": "Sadakat"
+    },
+    {
+     "key": "delivery",
+     "label": "Teslimat"
+    },
+    {
+     "key": "hours",
+     "label": "Saatler"
+    },
+    {
+     "key": "best_for",
+     "label": "En iyi"
+    }
+   ],
+   "score": [],
+   "no_score": true,
+   "filters": [
+    {
+     "key": "delivers",
+     "op": "bool",
+     "label": {
+      "en": "Home delivery",
+      "mt": "Kunsinna d-dar",
+      "it": "Consegna a domicilio"
+     }
+    },
+    {
+     "key": "loyalty_scheme",
+     "op": "bool",
+     "label": {
+      "en": "Loyalty scheme",
+      "mt": "Skema ta' lealtà",
+      "it": "Programma fedeltà"
+     }
+    },
+    {
+     "key": "open_late",
+     "op": "bool",
+     "label": {
+      "en": "Open until midnight",
+      "mt": "Miftuħ sa nofsillejl",
+      "it": "Aperto fino a mezzanotte"
+     }
+    }
+   ],
+   "highlights": [
+    {
+     "key": "price_level",
+     "dir": "low",
+     "label": {
+      "en": "Lowest prices",
+      "mt": "L-irħas prezzijiet",
+      "it": "Prezzi più bassi"
+     }
+    },
+    {
+     "key": "basket_vs_cheapest",
+     "dir": "low",
+     "label": {
+      "en": "Cheapest measured basket",
+      "mt": "L-irħas basket imkejjel",
+      "it": "Paniere misurato più economico"
+     }
+    },
+    {
+     "key": "stores",
+     "dir": "high",
+     "label": {
+      "en": "Most stores",
+      "mt": "L-iktar ħwienet",
+      "it": "Più punti vendita"
+     }
+    }
+   ],
+   "caveat": {
+    "en": "Price levels are a guide, not a promise: prices change every week and by item. The basket comparison is one independent snapshot of 10 everyday items from the stores' own websites (Lidl, Greens and Smart publish no searchable online catalogue, so they are not in it).",
+    "mt": "Il-livelli tal-prezzijiet huma gwida, mhux wegħda: il-prezzijiet jinbidlu kull ġimgħa u skont il-prodott. Il-paragun tal-basket huwa ritratt indipendenti wieħed ta' 10 prodotti ta' kuljum mis-siti tal-ħwienet (Lidl, Greens u Smart ma jippubblikawx katalgu online, għalhekk mhumiex fih).",
+    "it": "I livelli di prezzo sono indicativi: i prezzi cambiano ogni settimana e per prodotto. Il confronto del paniere è un'istantanea indipendente di 10 prodotti quotidiani presi dai siti dei negozi (Lidl, Greens e Smart non hanno un catalogo online consultabile, quindi non sono inclusi)."
+   }
   }
  },
  "index": [
@@ -1326,12 +1440,19 @@
    "best": "Kebab Factory",
    "providers": 11,
    "live": 0
+  },
+  {
+   "slug": "groceries",
+   "count": 6,
+   "best": "Lidl",
+   "providers": 6,
+   "live": 6
   }
  ],
  "coverage": {
-  "products": 78,
-  "providers": 30,
-  "categories": 14,
-  "live": 11
+  "products": 84,
+  "providers": 36,
+  "categories": 15,
+  "live": 17
  }
 }

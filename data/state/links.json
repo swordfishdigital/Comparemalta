@@ -170,5 +170,29 @@
  "https://kebabfactory.com.mt": {
   "ok": true,
   "checked": "2026-11-21T23:41:34+00:00"
+ },
+ "https://www.scottsmalta.com": {
+  "ok": false,
+  "checked": "2026-11-22T08:36:39+00:00"
+ },
+ "https://www.pavipama.com.mt": {
+  "ok": true,
+  "checked": "2026-11-22T08:36:40+00:00"
+ },
+ "https://www.greens.com.mt": {
+  "ok": true,
+  "checked": "2026-11-22T08:36:40+00:00"
+ },
+ "https://welbees.mt": {
+  "ok": true,
+  "checked": "2026-11-22T08:36:40+00:00"
+ },
+ "https://www.lidl.com.mt": {
+  "ok": true,
+  "checked": "2026-11-22T08:36:40+00:00"
+ },
+ "https://wolt.com/en/mlt/malta": {
+  "ok": true,
+  "checked": "2026-11-22T08:36:47+00:00"
  }
 }

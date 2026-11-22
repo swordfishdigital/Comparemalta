@@ -4,7 +4,7 @@ _Updated 22 November 2026 · https://comparemalta.ai/en/insurance/_
 
 ## Quick answer
 
-We compare 5 insurance from 5 providers in Malta, checked 22 November 2026. Lowest starting price by type: Car: Elmo Insurance Motor Insurance (€310); Health: Bupa Malta Health Insurance (€450); Home: Atlas Insurance Home Insurance (€120). Insurance has no overall score: cover, excess and exclusions differ, so compare the policy wording, not only the starting price. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 insurance from 5 providers in Malta, checked 22 November 2026. Lowest starting price by type: Car: Elmo Insurance Motor Insurance (€310); Health: Bupa Malta Health Insurance (€450); Home: Atlas Insurance Home Insurance (€120). Starting prices only. Cover, excess and exclusions differ between policies, so we do not give insurance an overall score. Read the policy wording before you choose. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -19,13 +19,13 @@ We compare 5 insurance from 5 providers in Malta, checked 22 November 2026. Lowe
 
 ## How we rank
 
-Insurance has no overall score: cover, excess and exclusions differ, so compare the policy wording, not only the starting price.
+Starting prices only. Cover, excess and exclusions differ between policies, so we do not give insurance an overall score. Read the policy wording before you choose.
 
 ## Questions and answers
 
 **How does CompareMalta.ai rank insurance?**
 
-Insurance has no overall score: cover, excess and exclusions differ, so compare the policy wording, not only the starting price.
+Starting prices only. Cover, excess and exclusions differ between policies, so we do not give insurance an overall score. Read the policy wording before you choose.
 
 **How often are these insurance updated?**
 

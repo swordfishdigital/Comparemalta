@@ -8,7 +8,7 @@ We compare 11 restaurants from 11 providers in Malta, checked 22 November 2026. 
 
 ## Full comparison
 
-| Provider | Area | Cuisine | Price | Rating | Highlight | Blue score |
+| Provider | Area | Cuisine | Price level | Rating | Highlight | Blue score |
 |---|---|---|---|---|---|---|
 | Kebab Factory | Valletta, Msida, St Julian's and more | Turkish | € | - | Turkish kebab and döner chain, 7 branches across Malta, delivery | 3.2 |
 | ION Harbour | Valletta | Fine dining | €€€€ | ★ 4.8 | Two Michelin stars, harbour view | 8.0 |

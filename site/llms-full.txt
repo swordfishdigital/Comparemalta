@@ -1,6 +1,6 @@
 # CompareMalta.ai: all current comparisons
 
-Generated 2026-11-22T08:25:35+00:00. Source: https://comparemalta.ai
+Generated 2026-11-22T08:36:47+00:00. Source: https://comparemalta.ai
 
 # Best Business Accounts in Malta
 
@@ -477,7 +477,7 @@ _Updated 22 November 2026 · https://comparemalta.ai/en/fx/_
 
 ## Quick answer
 
-We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 November 2026. Top pick for each option: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Wise EUR → GBP (0.58%); EUR → INR: WorldRemit EUR → INR (0.63%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Remitly EUR → PHP (0.70%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%).
+We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 November 2026. Top pick for each option: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Instarem EUR → GBP (0.62%); EUR → INR: WorldRemit EUR → INR (0.63%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Remitly EUR → PHP (0.70%); EUR → TRY: Wise EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%).
 
 ## Full comparison
 
@@ -493,8 +493,8 @@ We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 Nove
 | PayPal | EUR → USD | 1,046.88 | 4.55% | €1.99 | 1.0490 | 4.36% | - | 4.1 |
 | Xoom | EUR → USD | 1,046.11 | 4.62% | €1.99 | 1.0482 | 4.43% | - | 4.0 |
 | Skrill | EUR → USD | 1,044.60 | 4.76% | €0 | 1.0446 | 4.76% | - | 3.8 |
-| Wise | EUR → GBP | 833.37 | 0.58% | €5.76 | 0.8382 | 0.00% | Minutes | 9.9 |
 | Instarem | EUR → GBP | 833.00 | 0.62% | €0 | 0.8330 | 0.62% | - | 9.9 |
+| Wise | EUR → GBP | 833.37 | 0.58% | €5.76 | 0.8382 | 0.00% | Minutes | 9.9 |
 | Remitly | EUR → GBP | 830.44 | 0.93% | €1.99 | 0.8321 | 0.73% | - | 9.4 |
 | Western Union | EUR → GBP | 826.81 | 1.36% | €3.99 | 0.8301 | 0.96% | - | 8.8 |
 | WorldRemit | EUR → GBP | 824.78 | 1.60% | €0.99 | 0.8256 | 1.50% | - | 8.4 |
@@ -509,8 +509,8 @@ We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 Nove
 | OFX | EUR → CHF | 887.34 | 3.69% | €10.00 | 0.8963 | 2.72% | - | 5.4 |
 | PayPal | EUR → CHF | 878.79 | 4.62% | €1.99 | 0.8805 | 4.43% | - | 4.0 |
 | MoneyGram | EUR → CHF | 862.18 | 6.42% | €4.99 | 0.8665 | 5.95% | - | 1.4 |
-| Instarem | EUR → TRY | 55,027.70 | 0.70% | €0 | 55.0277 | 0.69% | - | 9.8 |
 | Wise | EUR → TRY | 55,027.71 | 0.70% | €6.91 | 55.4106 | 0.00% | Minutes | 9.8 |
+| Instarem | EUR → TRY | 55,027.70 | 0.70% | €0 | 55.0277 | 0.69% | - | 9.8 |
 | MoneyGram | EUR → TRY | 54,940.25 | 0.86% | €1.99 | 55.0498 | 0.65% | - | 9.5 |
 | Remitly | EUR → TRY | 54,785.70 | 1.14% | €2.99 | 54.9500 | 0.83% | - | 9.1 |
 | Western Union | EUR → TRY | 54,598.84 | 1.48% | €2.99 | 54.7626 | 1.17% | - | 8.6 |
@@ -518,18 +518,18 @@ We compare 65 FX & currency exchange from 10 providers in Malta, checked 22 Nove
 | Remitly | EUR → PHP | 69,621.01 | 0.70% | €0.99 | 69.6900 | 0.60% | - | 9.8 |
 | Wise | EUR → PHP | 69,596.40 | 0.73% | €7.32 | 70.1096 | 0.00% | Within 1 day | 9.7 |
 | WorldRemit | EUR → PHP | 69,556.60 | 0.79% | €0 | 69.5566 | 0.79% | - | 9.6 |
-| Instarem | EUR → PHP | 69,511.10 | 0.85% | €0 | 69.5111 | 0.85% | - | 9.5 |
 | MoneyGram | EUR → PHP | 69,517.08 | 0.85% | €1.99 | 69.6557 | 0.65% | - | 9.5 |
+| Instarem | EUR → PHP | 69,511.10 | 0.85% | €0 | 69.5111 | 0.85% | - | 9.5 |
 | Western Union | EUR → PHP | 68,911.06 | 1.71% | €2.99 | 69.1177 | 1.41% | - | 8.3 |
 | Xoom | EUR → PHP | 68,046.13 | 2.94% | €2.99 | 68.2502 | 2.65% | - | 6.5 |
 | PayPal | EUR → PHP | 66,592.93 | 5.02% | €3.99 | 66.8597 | 4.64% | - | 3.5 |
 | OFX | EUR → PHP | 66,367.32 | 5.34% | €10.00 | 67.0377 | 4.38% | - | 3.0 |
 | WorldRemit | EUR → INR | 101,018.57 | 0.63% | €1.99 | 101.2200 | 0.43% | - | 9.9 |
 | Instarem | EUR → INR | 101,000.90 | 0.64% | €0 | 101.0009 | 0.64% | - | 9.8 |
-| Wise | EUR → INR | 100,973.91 | 0.67% | €6.70 | 101.6550 | 0.00% | Minutes | 9.8 |
 | Remitly | EUR → INR | 100,997.11 | 0.65% | €2.99 | 101.3000 | 0.35% | - | 9.8 |
-| MoneyGram | EUR → INR | 100,887.07 | 0.76% | €1.99 | 101.0882 | 0.56% | - | 9.7 |
+| Wise | EUR → INR | 100,973.91 | 0.67% | €6.70 | 101.6550 | 0.00% | Minutes | 9.8 |
 | Skrill | EUR → INR | 100,883.00 | 0.76% | €0 | 100.8830 | 0.76% | - | 9.7 |
+| MoneyGram | EUR → INR | 100,887.07 | 0.76% | €1.99 | 101.0882 | 0.56% | - | 9.7 |
 | Western Union | EUR → INR | 100,753.94 | 0.89% | €2.99 | 101.0561 | 0.59% | - | 9.5 |
 | Xoom | EUR → INR | 100,388.10 | 1.25% | €0 | 100.3881 | 1.25% | - | 9.0 |
 | OFX | EUR → INR | 97,028.71 | 4.55% | €10.00 | 98.0088 | 3.59% | - | 4.1 |
@@ -558,7 +558,7 @@ First we hide products that do not fit your needs (amount, term, deposit, curren
 
 **What is the best FX & currency exchange in Malta right now?**
 
-Top pick for each option: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Wise EUR → GBP (0.58%); EUR → INR: WorldRemit EUR → INR (0.63%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Remitly EUR → PHP (0.70%); EUR → TRY: Instarem EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%). On 22 November 2026, Instarem EUR → USD has the highest Blue score in our comparison (10.0/10), with total cost of 0.53%.
+Top pick for each option: EUR → AUD: Wise EUR → AUD (0.54%); EUR → CHF: Wise EUR → CHF (0.60%); EUR → GBP: Instarem EUR → GBP (0.62%); EUR → INR: WorldRemit EUR → INR (0.63%); EUR → NPR: Remitly EUR → NPR (0.57%); EUR → PHP: Remitly EUR → PHP (0.70%); EUR → TRY: Wise EUR → TRY (0.70%); EUR → USD: Instarem EUR → USD (0.53%). On 22 November 2026, Instarem EUR → USD has the highest Blue score in our comparison (10.0/10), with total cost of 0.53%.
 
 **How does CompareMalta.ai rank FX & currency exchange?**
 
@@ -676,7 +676,7 @@ _Updated 22 November 2026 · https://comparemalta.ai/en/insurance/_
 
 ## Quick answer
 
-We compare 5 insurance from 5 providers in Malta, checked 22 November 2026. Lowest starting price by type: Car: Elmo Insurance Motor Insurance (€310); Health: Bupa Malta Health Insurance (€450); Home: Atlas Insurance Home Insurance (€120). Insurance has no overall score: cover, excess and exclusions differ, so compare the policy wording, not only the starting price. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 5 insurance from 5 providers in Malta, checked 22 November 2026. Lowest starting price by type: Car: Elmo Insurance Motor Insurance (€310); Health: Bupa Malta Health Insurance (€450); Home: Atlas Insurance Home Insurance (€120). Starting prices only. Cover, excess and exclusions differ between policies, so we do not give insurance an overall score. Read the policy wording before you choose. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -691,13 +691,13 @@ We compare 5 insurance from 5 providers in Malta, checked 22 November 2026. Lowe
 
 ## How we rank
 
-Insurance has no overall score: cover, excess and exclusions differ, so compare the policy wording, not only the starting price.
+Starting prices only. Cover, excess and exclusions differ between policies, so we do not give insurance an overall score. Read the policy wording before you choose.
 
 ## Questions and answers
 
 **How does CompareMalta.ai rank insurance?**
 
-Insurance has no overall score: cover, excess and exclusions differ, so compare the policy wording, not only the starting price.
+Starting prices only. Cover, excess and exclusions differ between policies, so we do not give insurance an overall score. Read the policy wording before you choose.
 
 **How often are these insurance updated?**
 
@@ -772,7 +772,7 @@ We compare 11 restaurants from 11 providers in Malta, checked 22 November 2026. 
 
 ## Full comparison
 
-| Provider | Area | Cuisine | Price | Rating | Highlight | Blue score |
+| Provider | Area | Cuisine | Price level | Rating | Highlight | Blue score |
 |---|---|---|---|---|---|---|
 | Kebab Factory | Valletta, Msida, St Julian's and more | Turkish | € | - | Turkish kebab and döner chain, 7 branches across Malta, delivery | 3.2 |
 | ION Harbour | Valletta | Fine dining | €€€€ | ★ 4.8 | Two Michelin stars, harbour view | 8.0 |
@@ -812,4 +812,56 @@ Every day. Our feeds read the providers' websites each morning; this page was la
 ## Sources
 
 - https://kebabfactory.com.mt
+
+
+# Best Supermarkets & Groceries in Malta
+
+_Updated 22 November 2026 · https://comparemalta.ai/en/groceries/_
+
+## Quick answer
+
+We compare 6 supermarkets & groceries from 6 providers in Malta, checked 22 November 2026. Price levels are a guide, not a promise: prices change every week and by item. The basket comparison is one independent snapshot of 10 everyday items from the stores' own websites (Lidl, Greens and Smart publish no searchable online catalogue, so they are not in it). Lowest price level: Lidl Discount supermarket at €.
+
+## Full comparison
+
+| Provider | Price level | Basket vs cheapest | Stores | Loyalty | Delivery | Opening hours | Best for |
+|---|---|---|---|---|---|---|---|
+| Lidl | € | - | 10 | No loyalty card | In store only | Varies by store | Lowest prices overall, own brands, weekly offers |
+| PAVI / PAMA | €€ | 0.00% | 2 | Shared points card | Via Wolt | Usually 7:00 to 21:00 | Fresh produce, butcher and fish counters, big stores with parking |
+| Welbee's | €€€ | 15.70% | 10 | App points or cashback, partner brands | Via Wolt | Varies by store | Convenient town locations, bakery, imported brands |
+| Greens | €€€ | - | 4 | - | Via Wolt | 7:00 to 00:00 daily | Widest range, imported and organic products, late opening |
+| Scotts | €€€ | 23.30% | - | Reward card | - | Varies by store | Popular with expats, bakery |
+| Wolt Market | - | - | - | - | Delivery in about 40 to 50 minutes | 7:00 to 00:00 daily | Fast delivery, late evening top-ups |
+
+- Lidl Discount supermarket: 10 stores: 9 in Malta, 1 in Gozo. Malta's most popular supermarket in MaltaToday surveys. No online catalogue, so it is not in the basket comparison.
+- PAVI / PAMA Pavi (Qormi), Pama (Mosta): Cheapest of the stores in an independent 10-item basket comparison (€34.16). Loyalty points are shared between PAVI and PAMA.
+- Welbee's Neighbourhood supermarkets: €5.35 (15.7%) more than PAVI/PAMA on the same 10-item basket. Spending €50 to €99.99 earns €3 cashback or 400 app points (welbees.mt).
+- Greens Greens Supermarket: Stores in Swieqi, Mriehel, Qormi and Gozo, plus Little Greens in Sliema. Calm Hours on selected afternoons.
+- Scotts Scotts Supermarket: €7.95 (23.3%) more than PAVI/PAMA on the same 10-item basket.
+- Wolt Market Online-only grocery (San Gwann, Qormi): Delivery times and fees depend on your address and the time of day.
+
+## How we rank
+
+Price levels are a guide, not a promise: prices change every week and by item. The basket comparison is one independent snapshot of 10 everyday items from the stores' own websites (Lidl, Greens and Smart publish no searchable online catalogue, so they are not in it).
+
+## Questions and answers
+
+**Which supermarkets & groceries has the lowest price level?**
+
+Lidl Discount supermarket has the lowest price level at € (checked 22 November 2026).
+
+**How does CompareMalta.ai rank supermarkets & groceries?**
+
+Price levels are a guide, not a promise: prices change every week and by item. The basket comparison is one independent snapshot of 10 everyday items from the stores' own websites (Lidl, Greens and Smart publish no searchable online catalogue, so they are not in it).
+
+**How often are these supermarkets & groceries updated?**
+
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
+
+## Sources
+
+- https://freemalta.com/articles/cost-groceries-malta-2026
+- https://jeangalea.com/malta-supermarket-price-comparison/
+- https://rozie.app/supermarket-malta-your-2026-shopping-guide/
+- https://wolt.com/mt/mlt/malta/category/supermarkets
 
