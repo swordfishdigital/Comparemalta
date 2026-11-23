@@ -4,77 +4,77 @@ _Aggiornato il 23 novembre 2026 · https://comparemalta.ai/it/fx/_
 
 ## Risposta rapida
 
-Confrontiamo 65 offerte di cambio valuta e trasferimenti di 10 fornitori a Malta, verificate il 23 novembre 2026. Prima scelta per ogni opzione: EUR → AUD: Wise EUR → AUD (0,54%); EUR → CHF: Wise EUR → CHF (0,60%); EUR → GBP: Wise EUR → GBP (0,58%); EUR → INR: MoneyGram EUR → INR (0,45%); EUR → NPR: Remitly EUR → NPR (0,49%); EUR → PHP: Remitly EUR → PHP (0,69%); EUR → TRY: Wise EUR → TRY (0,69%); EUR → USD: Instarem EUR → USD (0,52%).
+Confrontiamo 65 offerte di cambio valuta e trasferimenti di 10 fornitori a Malta, verificate il 23 novembre 2026. Prima scelta per ogni opzione: EUR → AUD: Instarem EUR → AUD (0,65%); EUR → CHF: Wise EUR → CHF (0,60%); EUR → GBP: Wise EUR → GBP (0,57%); EUR → INR: MoneyGram EUR → INR (0,15%); EUR → NPR: Instarem EUR → NPR (0,73%); EUR → PHP: Wise EUR → PHP (0,73%); EUR → TRY: Instarem EUR → TRY (0,63%); EUR → USD: Instarem EUR → USD (0,54%).
 
 ## Confronto completo
 
 | Fornitore | Prodotto | Ricevi per €1.000 | Costo totale | Commissione | Tasso di cambio | Ricarico sul cambio | Velocità | Blue score |
 |---|---|---|---|---|---|---|---|---|
-| Instarem | EUR → USD | 1.092,70 | 0,52% | €0 | 1,0927 | 0,53% | - | 9,9 |
-| Wise | EUR → USD | 1.091,63 | 0,62% | €6,21 | 1,0984 | 0,00% | Within 12 h | 9,8 |
-| Remitly | EUR → USD | 1.086,95 | 1,05% | €2,99 | 1,0902 | 0,75% | - | 9,1 |
-| Western Union | EUR → USD | 1.084,77 | 1,25% | €2,99 | 1,0880 | 0,95% | - | 8,8 |
-| MoneyGram | EUR → USD | 1.082,27 | 1,47% | €0 | 1,0823 | 1,48% | - | 8,5 |
-| WorldRemit | EUR → USD | 1.072,22 | 2,39% | €1,99 | 1,0744 | 2,20% | - | 7,2 |
-| OFX | EUR → USD | 1.068,53 | 2,72% | €10,00 | 1,0793 | 1,75% | - | 6,7 |
-| PayPal | EUR → USD | 1.048,50 | 4,55% | €1,99 | 1,0506 | 4,36% | - | 4,1 |
-| Xoom | EUR → USD | 1.046,30 | 4,75% | €1,99 | 1,0484 | 4,56% | - | 3,8 |
-| Skrill | EUR → USD | 1.045,66 | 4,81% | €0 | 1,0457 | 4,81% | - | 3,7 |
-| Wise | EUR → GBP | 832,08 | 0,58% | €5,76 | 0,8369 | 0,00% | Minutes | 9,8 |
-| Instarem | EUR → GBP | 831,56 | 0,64% | €0 | 0,8316 | 0,62% | - | 9,7 |
-| Remitly | EUR → GBP | 828,01 | 1,06% | €1,99 | 0,8297 | 0,85% | - | 9,1 |
-| Western Union | EUR → GBP | 825,38 | 1,38% | €3,99 | 0,8287 | 0,96% | - | 8,7 |
-| WorldRemit | EUR → GBP | 823,36 | 1,62% | €0,99 | 0,8242 | 1,50% | - | 8,3 |
-| MoneyGram | EUR → GBP | 817,05 | 2,37% | €1,99 | 0,8187 | 2,16% | - | 7,2 |
-| OFX | EUR → GBP | 813,46 | 2,80% | €10,00 | 0,8217 | 1,80% | - | 6,6 |
-| PayPal | EUR → GBP | 797,88 | 4,66% | €1,99 | 0,7995 | 4,45% | - | 3,9 |
-| Skrill | EUR → GBP | 796,31 | 4,85% | €0 | 0,7963 | 4,83% | - | 3,6 |
-| Xoom | EUR → GBP | 775,23 | 7,37% | €1,99 | 0,7768 | 7,17% | - | 0,0 |
-| Wise | EUR → CHF | 915,75 | 0,60% | €5,97 | 0,9213 | 0,00% | Minutes | 9,8 |
-| Western Union | EUR → CHF | 909,27 | 1,30% | €3,99 | 0,9129 | 0,93% | - | 8,8 |
-| Xoom | EUR → CHF | 899,32 | 2,38% | €2,99 | 0,9020 | 2,11% | - | 7,2 |
-| OFX | EUR → CHF | 891,79 | 3,20% | €10,00 | 0,9008 | 2,24% | - | 6,0 |
-| PayPal | EUR → CHF | 878,89 | 4,60% | €1,99 | 0,8806 | 4,43% | - | 4,0 |
-| MoneyGram | EUR → CHF | 862,27 | 6,40% | €4,99 | 0,8666 | 5,95% | - | 1,4 |
-| Wise | EUR → TRY | 55.200,47 | 0,69% | €6,90 | 55,5840 | 0,00% | Within 4 h | 9,7 |
-| Instarem | EUR → TRY | 55.189,15 | 0,71% | €0 | 55,1891 | 0,74% | - | 9,6 |
-| MoneyGram | EUR → TRY | 55.128,54 | 0,82% | €1,99 | 55,2385 | 0,65% | - | 9,5 |
-| Remitly | EUR → TRY | 54.958,78 | 1,12% | €2,99 | 55,1236 | 0,86% | - | 9,0 |
-| Western Union | EUR → TRY | 54.699,03 | 1,59% | €2,99 | 54,8631 | 1,33% | - | 8,4 |
-| OFX | EUR → TRY | 53.912,99 | 3,01% | €10,00 | 54,4576 | 2,06% | - | 6,3 |
-| Remitly | EUR → PHP | 69.620,79 | 0,69% | €0,99 | 69,6898 | 0,56% | - | 9,7 |
-| Wise | EUR → PHP | 69.590,44 | 0,73% | €7,32 | 70,1036 | 0,00% | Within 1 day | 9,6 |
-| WorldRemit | EUR → PHP | 69.532,49 | 0,81% | €0 | 69,5325 | 0,79% | - | 9,5 |
-| Instarem | EUR → PHP | 69.481,64 | 0,89% | €0 | 69,4816 | 0,86% | - | 9,4 |
-| MoneyGram | EUR → PHP | 69.364,84 | 1,05% | €2,49 | 69,5380 | 0,78% | - | 9,1 |
-| Western Union | EUR → PHP | 69.017,69 | 1,55% | €2,99 | 69,2247 | 1,23% | - | 8,4 |
-| Xoom | EUR → PHP | 68.014,59 | 2,98% | €2,99 | 68,2186 | 2,66% | - | 6,3 |
-| OFX | EUR → PHP | 66.750,94 | 4,78% | €10,00 | 67,4252 | 3,80% | - | 3,7 |
-| PayPal | EUR → PHP | 66.569,85 | 5,04% | €3,99 | 66,8365 | 4,64% | - | 3,4 |
-| MoneyGram | EUR → INR | 101.641,00 | 0,45% | €1,99 | 101,8437 | 0,25% | - | 10,0 |
-| Remitly | EUR → INR | 101.479,84 | 0,61% | €2,99 | 101,7842 | 0,31% | - | 9,8 |
-| WorldRemit | EUR → INR | 101.462,77 | 0,63% | €1,99 | 101,6651 | 0,43% | - | 9,7 |
-| Wise | EUR → INR | 101.420,90 | 0,67% | €6,70 | 102,1050 | 0,00% | Minutes | 9,7 |
-| Instarem | EUR → INR | 101.369,60 | 0,72% | €0 | 101,3696 | 0,72% | - | 9,6 |
-| Skrill | EUR → INR | 101.256,26 | 0,83% | €0 | 101,2563 | 0,83% | - | 9,5 |
-| Western Union | EUR → INR | 101.142,46 | 0,94% | €2,99 | 101,4458 | 0,64% | - | 9,3 |
-| Xoom | EUR → INR | 100.576,25 | 1,50% | €0 | 100,5762 | 1,49% | - | 8,5 |
-| OFX | EUR → INR | 97.780,55 | 4,24% | €10,00 | 98,7682 | 3,27% | - | 4,5 |
-| Remitly | EUR → NPR | 162.615,08 | 0,49% | €2,99 | 163,1028 | 0,26% | - | 9,9 |
-| Instarem | EUR → NPR | 162.298,60 | 0,69% | €0 | 162,2986 | 0,75% | - | 9,7 |
-| Wise | EUR → NPR | 161.190,00 | 1,37% | €13,66 | 163,4220 | 0,00% | Minutes | 8,7 |
-| Skrill | EUR → NPR | 160.353,00 | 1,88% | €0 | 160,3530 | 1,94% | - | 7,9 |
-| Western Union | EUR → NPR | 159.821,34 | 2,20% | €2,99 | 160,3006 | 1,97% | - | 7,5 |
-| Xoom | EUR → NPR | 159.319,37 | 2,51% | €0 | 159,3194 | 2,57% | - | 7,0 |
-| Wise | EUR → AUD | 1.641,96 | 0,54% | €5,36 | 1,6508 | 0,00% | Minutes | 9,9 |
-| Instarem | EUR → AUD | 1.639,32 | 0,70% | €0 | 1,6393 | 0,75% | - | 9,6 |
-| Western Union | EUR → AUD | 1.631,20 | 1,19% | €2,99 | 1,6361 | 0,95% | - | 8,9 |
-| Remitly | EUR → AUD | 1.621,67 | 1,77% | €2,99 | 1,6265 | 1,53% | - | 8,1 |
-| Xoom | EUR → AUD | 1.621,49 | 1,78% | €1,99 | 1,6247 | 1,64% | - | 8,1 |
-| Skrill | EUR → AUD | 1.618,75 | 1,94% | €0 | 1,6187 | 2,00% | - | 7,8 |
-| OFX | EUR → AUD | 1.606,12 | 2,71% | €10,00 | 1,6223 | 1,78% | - | 6,7 |
-| MoneyGram | EUR → AUD | 1.605,48 | 2,75% | €1,99 | 1,6087 | 2,61% | - | 6,7 |
-| PayPal | EUR → AUD | 1.569,48 | 4,93% | €3,99 | 1,5758 | 4,60% | - | 3,5 |
+| Instarem | EUR → USD | 1.087,42 | 0,54% | €0 | 1,0874 | 0,53% | - | 9,5 |
+| Wise | EUR → USD | 1.086,81 | 0,59% | €6,21 | 1,0936 | 0,00% | Within 1 day | 9,4 |
+| Remitly | EUR → USD | 1.081,33 | 1,09% | €2,99 | 1,0846 | 0,79% | - | 8,7 |
+| Western Union | EUR → USD | 1.081,45 | 1,08% | €2,99 | 1,0847 | 0,78% | - | 8,7 |
+| MoneyGram | EUR → USD | 1.077,05 | 1,49% | €0 | 1,0771 | 1,48% | - | 8,1 |
+| WorldRemit | EUR → USD | 1.067,05 | 2,40% | €1,99 | 1,0692 | 2,20% | - | 6,9 |
+| OFX | EUR → USD | 1.064,29 | 2,65% | €10,00 | 1,0750 | 1,66% | - | 6,5 |
+| PayPal | EUR → USD | 1.043,44 | 4,56% | €1,99 | 1,0455 | 4,36% | - | 3,9 |
+| Xoom | EUR → USD | 1.041,26 | 4,76% | €1,99 | 1,0433 | 4,56% | - | 3,6 |
+| Skrill | EUR → USD | 1.041,53 | 4,74% | €0 | 1,0415 | 4,73% | - | 3,6 |
+| Wise | EUR → GBP | 831,88 | 0,57% | €5,76 | 0,8367 | 0,00% | Minutes | 9,4 |
+| Instarem | EUR → GBP | 831,31 | 0,64% | €0 | 0,8313 | 0,62% | - | 9,3 |
+| Remitly | EUR → GBP | 829,00 | 0,91% | €1,99 | 0,8307 | 0,70% | - | 8,9 |
+| Western Union | EUR → GBP | 825,32 | 1,35% | €3,99 | 0,8286 | 0,94% | - | 8,3 |
+| WorldRemit | EUR → GBP | 823,11 | 1,62% | €0,99 | 0,8239 | 1,50% | - | 8,0 |
+| MoneyGram | EUR → GBP | 818,02 | 2,23% | €1,99 | 0,8197 | 2,01% | - | 7,1 |
+| OFX | EUR → GBP | 814,23 | 2,68% | €10,00 | 0,8225 | 1,68% | - | 6,5 |
+| PayPal | EUR → GBP | 797,64 | 4,66% | €1,99 | 0,7992 | 4,45% | - | 3,8 |
+| Skrill | EUR → GBP | 796,96 | 4,74% | €0 | 0,7970 | 4,73% | - | 3,6 |
+| Xoom | EUR → GBP | 775,00 | 7,37% | €1,99 | 0,7765 | 7,17% | - | 0,0 |
+| Wise | EUR → CHF | 914,56 | 0,60% | €5,97 | 0,9201 | 0,00% | Minutes | 9,4 |
+| Western Union | EUR → CHF | 908,48 | 1,26% | €3,99 | 0,9121 | 0,93% | - | 8,5 |
+| Xoom | EUR → CHF | 898,54 | 2,34% | €2,99 | 0,9012 | 2,11% | - | 7,0 |
+| OFX | EUR → CHF | 891,41 | 3,11% | €10,00 | 0,9004 | 2,20% | - | 5,9 |
+| PayPal | EUR → CHF | 878,12 | 4,56% | €1,99 | 0,8799 | 4,43% | - | 3,9 |
+| MoneyGram | EUR → CHF | 861,24 | 6,39% | €4,99 | 0,8656 | 5,98% | - | 1,4 |
+| Instarem | EUR → TRY | 54.990,44 | 0,63% | €0 | 54,9904 | 0,65% | - | 9,3 |
+| Wise | EUR → TRY | 54.956,41 | 0,69% | €6,91 | 55,3388 | 0,00% | Minutes | 9,3 |
+| MoneyGram | EUR → TRY | 54.890,67 | 0,81% | €1,99 | 55,0001 | 0,64% | - | 9,1 |
+| Remitly | EUR → TRY | 54.686,68 | 1,18% | €2,99 | 54,8507 | 0,91% | - | 8,6 |
+| Western Union | EUR → TRY | 54.551,90 | 1,42% | €2,99 | 54,7155 | 1,15% | - | 8,2 |
+| OFX | EUR → TRY | 53.727,62 | 2,91% | €10,00 | 54,2703 | 1,96% | - | 6,2 |
+| Wise | EUR → PHP | 69.263,35 | 0,73% | €7,32 | 69,7741 | 0,00% | Within 1 day | 9,2 |
+| Remitly | EUR → PHP | 69.277,54 | 0,71% | €0,99 | 69,3462 | 0,54% | - | 9,2 |
+| MoneyGram | EUR → PHP | 69.205,07 | 0,82% | €2,49 | 69,3778 | 0,50% | - | 9,1 |
+| Instarem | EUR → PHP | 69.207,37 | 0,81% | €0 | 69,2074 | 0,74% | - | 9,1 |
+| WorldRemit | EUR → PHP | 69.174,74 | 0,86% | €0 | 69,1747 | 0,79% | - | 9,0 |
+| Western Union | EUR → PHP | 68.785,84 | 1,42% | €2,99 | 68,9921 | 1,05% | - | 8,2 |
+| Xoom | EUR → PHP | 67.664,65 | 3,02% | €2,99 | 67,8676 | 2,66% | - | 6,0 |
+| OFX | EUR → PHP | 66.303,35 | 4,97% | €10,00 | 66,9731 | 3,95% | - | 3,3 |
+| PayPal | EUR → PHP | 66.227,34 | 5,08% | €3,99 | 66,4926 | 4,64% | - | 3,2 |
+| MoneyGram | EUR → INR | 101.526,04 | 0,15% | €1,99 | 101,7285 | 0,06% | - | 10,0 |
+| Instarem | EUR → INR | 101.256,34 | 0,41% | €0 | 101,2563 | 0,52% | - | 9,6 |
+| Skrill | EUR → INR | 101.123,80 | 0,54% | €0 | 101,1238 | 0,65% | - | 9,5 |
+| WorldRemit | EUR → INR | 101.148,75 | 0,52% | €1,99 | 101,3504 | 0,43% | - | 9,5 |
+| Remitly | EUR → INR | 101.147,85 | 0,52% | €2,99 | 101,4512 | 0,33% | - | 9,5 |
+| Western Union | EUR → INR | 101.085,77 | 0,58% | €2,99 | 101,3889 | 0,39% | - | 9,4 |
+| Wise | EUR → INR | 100.995,76 | 0,67% | €6,70 | 101,6770 | 0,00% | Minutes | 9,3 |
+| Xoom | EUR → INR | 100.264,97 | 1,39% | €0 | 100,2650 | 1,49% | - | 8,3 |
+| OFX | EUR → INR | 97.543,02 | 4,07% | €10,00 | 98,5283 | 3,20% | - | 4,6 |
+| Instarem | EUR → NPR | 161.396,52 | 0,73% | €0 | 161,3965 | 0,66% | - | 9,2 |
+| Remitly | EUR → NPR | 161.434,67 | 0,70% | €2,99 | 161,9188 | 0,33% | - | 9,2 |
+| Wise | EUR → NPR | 160.263,00 | 1,43% | €14,25 | 162,5800 | 0,00% | Minutes | 8,2 |
+| Skrill | EUR → NPR | 159.455,23 | 1,92% | €0 | 159,4552 | 1,85% | - | 7,5 |
+| Western Union | EUR → NPR | 159.025,67 | 2,19% | €2,99 | 159,5026 | 1,82% | - | 7,2 |
+| Xoom | EUR → NPR | 158.282,74 | 2,64% | €0 | 158,2827 | 2,57% | - | 6,6 |
+| Instarem | EUR → AUD | 1.637,78 | 0,65% | €0 | 1,6378 | 0,64% | - | 9,3 |
+| Wise | EUR → AUD | 1.635,81 | 0,77% | €5,36 | 1,6446 | 0,00% | Minutes | 9,1 |
+| Western Union | EUR → AUD | 1.630,40 | 1,10% | €2,99 | 1,6353 | 0,79% | - | 8,7 |
+| Remitly | EUR → AUD | 1.619,99 | 1,73% | €2,99 | 1,6249 | 1,42% | - | 7,8 |
+| Xoom | EUR → AUD | 1.618,07 | 1,85% | €1,99 | 1,6213 | 1,64% | - | 7,6 |
+| Skrill | EUR → AUD | 1.617,53 | 1,88% | €0 | 1,6175 | 1,87% | - | 7,6 |
+| MoneyGram | EUR → AUD | 1.612,12 | 2,21% | €1,99 | 1,6153 | 2,00% | - | 7,1 |
+| OFX | EUR → AUD | 1.605,10 | 2,64% | €10,00 | 1,6213 | 1,64% | - | 6,6 |
+| PayPal | EUR → AUD | 1.566,17 | 5,00% | €3,99 | 1,5724 | 4,60% | - | 3,3 |
 
 
 ## Come classifichiamo
@@ -85,7 +85,7 @@ Prima nascondiamo i prodotti non adatti alle tue esigenze (importo, durata, anti
 
 **Qual è la migliore offerta di cambio valuta e trasferimenti a Malta in questo momento?**
 
-Prima scelta per ogni opzione: EUR → AUD: Wise EUR → AUD (0,54%); EUR → CHF: Wise EUR → CHF (0,60%); EUR → GBP: Wise EUR → GBP (0,58%); EUR → INR: MoneyGram EUR → INR (0,45%); EUR → NPR: Remitly EUR → NPR (0,49%); EUR → PHP: Remitly EUR → PHP (0,69%); EUR → TRY: Wise EUR → TRY (0,69%); EUR → USD: Instarem EUR → USD (0,52%). Il 23 novembre 2026, Instarem EUR → USD ha il Blue score più alto del nostro confronto (9,9/10), con costo totale pari a 0,52%.
+Prima scelta per ogni opzione: EUR → AUD: Instarem EUR → AUD (0,65%); EUR → CHF: Wise EUR → CHF (0,60%); EUR → GBP: Wise EUR → GBP (0,57%); EUR → INR: MoneyGram EUR → INR (0,15%); EUR → NPR: Instarem EUR → NPR (0,73%); EUR → PHP: Wise EUR → PHP (0,73%); EUR → TRY: Instarem EUR → TRY (0,63%); EUR → USD: Instarem EUR → USD (0,54%). Il 23 novembre 2026, Instarem EUR → USD ha il Blue score più alto del nostro confronto (9,5/10), con costo totale pari a 0,54%.
 
 **Come classifica CompareMalta.ai le offerte di cambio valuta e trasferimenti?**
 
