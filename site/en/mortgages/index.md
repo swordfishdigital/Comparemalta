@@ -1,10 +1,10 @@
 # Best Home Loans in Malta
 
-_Updated 22 November 2026 · https://comparemalta.ai/en/mortgages/_
+_Updated 23 November 2026 · https://comparemalta.ai/en/mortgages/_
 
 ## Quick answer
 
-We compare 6 home loans from 6 providers in Malta, checked 22 November 2026. Top pick for each option: Fixed 5Y: BNF Bank Home Loan Fixed 5Y (3.75%); Variable: APS Bank Home Loan (2.45%). Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 6 home loans from 6 providers in Malta, checked 23 November 2026. Top pick for each option: Fixed 5Y: BNF Bank Home Loan Fixed 5Y (3.75%); Variable: APS Bank Home Loan (2.45%). Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -26,7 +26,7 @@ First we hide products that do not fit your needs (amount, term, deposit, curren
 
 **What is the best home loans in Malta right now?**
 
-Top pick for each option: Fixed 5Y: BNF Bank Home Loan Fixed 5Y (3.75%); Variable: APS Bank Home Loan (2.45%). On 22 November 2026, APS Bank Home Loan has the highest Blue score in our comparison (10.0/10), with rate of 2.45%.
+Top pick for each option: Fixed 5Y: BNF Bank Home Loan Fixed 5Y (3.75%); Variable: APS Bank Home Loan (2.45%). On 23 November 2026, APS Bank Home Loan has the highest Blue score in our comparison (10.0/10), with rate of 2.45%.
 
 **How does CompareMalta.ai rank home loans?**
 
@@ -34,7 +34,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Rate 100%. Rank
 
 **How often are these home loans updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 23 November 2026.
 
 ## Sources
 

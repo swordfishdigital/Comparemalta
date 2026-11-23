@@ -2,7 +2,7 @@
  "base": "EUR",
  "date": "2026-11-20",
  "source": "ECB euro foreign exchange reference rates",
- "updated": "2026-11-22T17:28:40+00:00",
+ "updated": "2026-11-23T09:23:47+00:00",
  "rates": [
   {
    "ccy": "USD",
@@ -409,6 +409,6 @@
  "policy": {
   "name": "ECB deposit facility rate",
   "rate": 2.5,
-  "date": "2026-11-22"
+  "date": "2026-11-23"
  }
 }

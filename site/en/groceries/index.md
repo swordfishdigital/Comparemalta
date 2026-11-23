@@ -1,10 +1,10 @@
 # Best Supermarkets & Groceries in Malta
 
-_Updated 22 November 2026 · https://comparemalta.ai/en/groceries/_
+_Updated 23 November 2026 · https://comparemalta.ai/en/groceries/_
 
 ## Quick answer
 
-We compare 6 supermarkets & groceries from 6 providers in Malta, checked 22 November 2026. Price levels are a guide, not a promise: prices change every week and by item. The basket comparison is one independent snapshot of 10 everyday items from the stores' own websites (Lidl, Greens and Smart publish no searchable online catalogue, so they are not in it). Lowest price level: Lidl Discount supermarket at €.
+We compare 6 supermarkets & groceries from 6 providers in Malta, checked 23 November 2026. Price levels are a guide, not a promise: prices change every week and by item. The basket comparison is one independent snapshot of 10 everyday items from the stores' own websites (Lidl, Greens and Smart publish no searchable online catalogue, so they are not in it). Lowest price level: Lidl Discount supermarket at €.
 
 ## Full comparison
 
@@ -32,7 +32,7 @@ Price levels are a guide, not a promise: prices change every week and by item. T
 
 **Which supermarkets & groceries has the lowest price level?**
 
-Lidl Discount supermarket has the lowest price level at € (checked 22 November 2026).
+Lidl Discount supermarket has the lowest price level at € (checked 23 November 2026).
 
 **How does CompareMalta.ai rank supermarkets & groceries?**
 
@@ -40,7 +40,7 @@ Price levels are a guide, not a promise: prices change every week and by item. T
 
 **How often are these supermarkets & groceries updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 22 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 23 November 2026.
 
 ## Sources
 

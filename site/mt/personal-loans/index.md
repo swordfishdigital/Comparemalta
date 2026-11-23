@@ -1,10 +1,10 @@
 # L-aħjar Self Personali f'Malta
 
-_Aġġornat 22 Novembru 2026 · https://comparemalta.ai/mt/personal-loans/_
+_Aġġornat 23 Novembru 2026 · https://comparemalta.ai/mt/personal-loans/_
 
 ## Tweġiba qasira
 
-Inqabblu 5 prodotti ta' Self Personali minn 5-il fornitur f'Malta, iċċekkjati 22 Novembru 2026. L-ewwel għażla: BNF Bank Personal Loan (9.4/10 Blue score). L-iktar baxx APRC: BNF Bank Personal Loan b'6.80%. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
+Inqabblu 5 prodotti ta' Self Personali minn 5-il fornitur f'Malta, iċċekkjati 23 Novembru 2026. L-ewwel għażla: BNF Bank Personal Loan (9.4/10 Blue score). L-iktar baxx APRC: BNF Bank Personal Loan b'6.80%. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
 
 ## Paragun sħiħ
 
@@ -25,11 +25,11 @@ L-ewwel naħbu l-prodotti li ma jaqblux mal-bżonnijiet tiegħek (ammont, termin
 
 **X'inhu l-aħjar Self Personali f'Malta bħalissa?**
 
-Fil-22 Novembru 2026, BNF Bank Personal Loan għandu l-ogħla Blue score fil-paragun tagħna (9.4/10), b'APRC ta' 6.80%.
+Fil-23 Novembru 2026, BNF Bank Personal Loan għandu l-ogħla Blue score fil-paragun tagħna (9.4/10), b'APRC ta' 6.80%.
 
 **Liema Self Personali għandu l-iktar baxx APRC?**
 
-BNF Bank Personal Loan għandu l-iktar baxx APRC, 6.80% (iċċekkjat 22 Novembru 2026).
+BNF Bank Personal Loan għandu l-iktar baxx APRC, 6.80% (iċċekkjat 23 Novembru 2026).
 
 **Kif jikklassifika CompareMalta.ai Self Personali?**
 
@@ -37,7 +37,7 @@ Kull prodott jieħu Blue score minn 0 sa 10 b'dawn il-piżijiet: APRC 80%, Miża
 
 **Kemm-il darba jiġu aġġornati dawn il-Self Personali?**
 
-Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-22 Novembru 2026.
+Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-23 Novembru 2026.
 
 ## Sorsi
 
