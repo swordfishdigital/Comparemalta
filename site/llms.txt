@@ -43,6 +43,7 @@ Ask Blue, the site's AI assistant, answers questions from the same data at https
 
 ## Articles (Malta today)
 
+- [Malta's three best supermarket experiences](https://comparemalta.ai/en/articles/best-supermarket-experiences-malta/) (2026-11-23)
 - [Malta's big five banks on your phone: how their apps really score](https://comparemalta.ai/en/articles/malta-bank-apps-compared/) (2026-11-22)
 - [Five Maltese bakeries worth getting up early for](https://comparemalta.ai/en/articles/best-bakeries-malta/) (2026-11-22)
 - [Every MICHELIN star and Bib Gourmand in Malta, ranked](https://comparemalta.ai/en/articles/michelin-malta-2026/) (2026-11-22)

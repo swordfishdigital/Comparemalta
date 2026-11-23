@@ -1,6 +1,37 @@
 {
- "updated": "2026-11-22T22:17:13+00:00",
+ "updated": "2026-11-23T03:29:45+00:00",
  "items": [
+  {
+   "slug": "best-supermarket-experiences-malta",
+   "date": "2026-11-23T04:00:00+00:00",
+   "topic": {
+    "en": "Shopping",
+    "mt": "Xiri",
+    "it": "Spesa"
+   },
+   "title": {
+    "en": "Malta's three best supermarket experiences",
+    "mt": "L-aqwa tliet esperjenzi tas-supermarket f'Malta",
+    "it": "Le tre migliori esperienze di supermercato a Malta"
+   },
+   "summary": {
+    "en": "Late hours and calm aisles, the cheapest big weekly shop, or the lowest prices on own brands: the three supermarkets that get the experience right, and who each one suits.",
+    "mt": "Ħinijiet tard u kurituri kwieti, l-irħas xirja kbira tal-ġimgħa, jew l-irħas prezzijiet fuq il-marki tagħhom: it-tliet supermarkits li jagħtu l-aħjar esperjenza, u għal min hu kull wieħed.",
+    "it": "Orari lunghi e corsie tranquille, la spesa settimanale più conveniente o i prezzi più bassi sui marchi propri: i tre supermercati che offrono l'esperienza migliore, e per chi è ciascuno."
+   },
+   "hero_image": "article-img/best-supermarket-experiences-malta/hero.jpg",
+   "hero_credit": {
+    "author": "Mothusi Sekhomba",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Packaged_fruits_%26_vegetables_Displayed_in_a_supermarket.jpg",
+    "file": "File:Packaged fruits & vegetables Displayed in a supermarket.jpg"
+   },
+   "kicker": {
+    "en": "Malta today · Blue recommends",
+    "mt": "Malta llum · Blue jirrakkomanda",
+    "it": "Malta oggi · Blue consiglia"
+   }
+  },
   {
    "slug": "malta-bank-apps-compared",
    "date": "2026-11-22T15:20:00+00:00",

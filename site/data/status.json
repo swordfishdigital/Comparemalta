@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T22:17:16+00:00",
+ "generated": "2026-11-23T03:29:49+00:00",
  "ok": 18,
  "total": 30,
  "feeds": {
@@ -36,49 +36,49 @@
   "news.Times of Malta": {
    "status": "ok",
    "count": 20,
-   "at": "2026-11-22T22:17:12+00:00",
+   "at": "2026-11-23T03:29:44+00:00",
    "note": ""
   },
   "news.Malta Today": {
    "status": "stale",
-   "at": "2026-11-22T22:17:12+00:00",
+   "at": "2026-11-23T03:29:44+00:00",
    "note": "403 Client Error: Forbidden for url: https://www.maltatoday.com.mt/rss/news"
   },
   "news.Newsbook": {
    "status": "ok",
    "count": 10,
-   "at": "2026-11-22T22:17:13+00:00",
+   "at": "2026-11-23T03:29:44+00:00",
    "note": ""
   },
   "news.Lovin Malta": {
    "status": "ok",
    "count": 12,
-   "at": "2026-11-22T22:17:13+00:00",
+   "at": "2026-11-23T03:29:44+00:00",
    "note": ""
   },
   "news.Business Now": {
    "status": "ok",
    "count": 10,
-   "at": "2026-11-22T22:17:13+00:00",
+   "at": "2026-11-23T03:29:44+00:00",
    "note": ""
   },
   "news.Newsbook Business": {
    "status": "ok",
    "count": 10,
-   "at": "2026-11-22T22:17:13+00:00",
+   "at": "2026-11-23T03:29:44+00:00",
    "note": ""
   },
   "news.images": {
    "status": "ok",
    "count": 62,
-   "at": "2026-11-22T22:17:13+00:00",
+   "at": "2026-11-23T03:29:44+00:00",
    "note": ""
   },
   "articles": {
    "status": "ok",
-   "count": 3,
-   "at": "2026-11-22T22:17:13+00:00",
-   "note": "3 articles, 17 pictures"
+   "count": 4,
+   "at": "2026-11-23T03:29:45+00:00",
+   "note": "4 articles, 18 pictures"
   },
   "restaurants": {
    "status": "stale",
@@ -156,7 +156,7 @@
   "fxcompare": {
    "status": "ok",
    "count": 65,
-   "at": "2026-11-22T22:17:16+00:00",
+   "at": "2026-11-23T03:29:49+00:00",
    "note": "8/8 currencies live"
   },
   "newsletter": {
@@ -168,7 +168,7 @@
   "seo": {
    "status": "ok",
    "count": 48,
-   "at": "2026-11-22T22:17:16+00:00",
+   "at": "2026-11-23T03:29:49+00:00",
    "note": "48 static pages in 3 languages, sitemap, robots, llms.txt"
   }
  }
