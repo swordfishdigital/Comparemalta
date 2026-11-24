@@ -1,10 +1,10 @@
 # Supermercati e Spesa a Malta: confronto e migliori offerte
 
-_Aggiornato il 23 novembre 2026 · https://comparemalta.ai/it/groceries/_
+_Aggiornato il 24 novembre 2026 · https://comparemalta.ai/it/groceries/_
 
 ## Risposta rapida
 
-Confrontiamo 6 offerte di supermercati e spesa di 6 fornitori a Malta, verificate il 23 novembre 2026. I livelli di prezzo sono indicativi: i prezzi cambiano ogni settimana e per prodotto. Il confronto del paniere è un'istantanea indipendente di 10 prodotti quotidiani presi dai siti dei negozi (Lidl, Greens e Smart non hanno un catalogo online consultabile, quindi non sono inclusi). Livello prezzi più basso: Lidl Discount supermarket con €.
+Confrontiamo 6 offerte di supermercati e spesa di 6 fornitori a Malta, verificate il 24 novembre 2026. I livelli di prezzo sono indicativi: i prezzi cambiano ogni settimana e per prodotto. Il confronto del paniere è un'istantanea indipendente di 10 prodotti quotidiani presi dai siti dei negozi (Lidl, Greens e Smart non hanno un catalogo online consultabile, quindi non sono inclusi). Livello prezzi più basso: Lidl Discount supermarket con €.
 
 ## Confronto completo
 
@@ -32,7 +32,7 @@ I livelli di prezzo sono indicativi: i prezzi cambiano ogni settimana e per prod
 
 **Quale offerta di supermercati e spesa ha il valore più basso di livello prezzi?**
 
-Lidl Discount supermarket ha il valore più basso di livello prezzi: € (verificato il 23 novembre 2026).
+Lidl Discount supermarket ha il valore più basso di livello prezzi: € (verificato il 24 novembre 2026).
 
 **Come classifica CompareMalta.ai le offerte di supermercati e spesa?**
 
@@ -40,7 +40,7 @@ I livelli di prezzo sono indicativi: i prezzi cambiano ogni settimana e per prod
 
 **Ogni quanto vengono aggiornati questi dati?**
 
-Ogni giorno. I nostri feed leggono i siti dei fornitori ogni mattina; questa pagina è stata rigenerata il 23 novembre 2026.
+Ogni giorno. I nostri feed leggono i siti dei fornitori ogni mattina; questa pagina è stata rigenerata il 24 novembre 2026.
 
 ## Fonti
 

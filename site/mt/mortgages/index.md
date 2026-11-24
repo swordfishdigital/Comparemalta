@@ -1,10 +1,10 @@
 # L-aħjar Self għad-Dar f'Malta
 
-_Aġġornat 23 Novembru 2026 · https://comparemalta.ai/mt/mortgages/_
+_Aġġornat 24 Novembru 2026 · https://comparemalta.ai/mt/mortgages/_
 
 ## Tweġiba qasira
 
-Inqabblu 6 prodotti ta' Self għad-Dar minn 6-il fornitur f'Malta, iċċekkjati 23 Novembru 2026. L-ewwel għażla għal kull għażla: Fixed 5Y: BNF Bank Home Loan Fixed 5Y (3.75%); Variable: APS Bank Home Loan (2.45%). Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
+Inqabblu 6 prodotti ta' Self għad-Dar minn 6-il fornitur f'Malta, iċċekkjati 24 Novembru 2026. L-ewwel għażla għal kull għażla: Fixed 5Y: BNF Bank Home Loan Fixed 5Y (3.75%); Variable: APS Bank Home Loan (2.45%). Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
 
 ## Paragun sħiħ
 
@@ -26,7 +26,7 @@ L-ewwel naħbu l-prodotti li ma jaqblux mal-bżonnijiet tiegħek (ammont, termin
 
 **X'inhu l-aħjar Self għad-Dar f'Malta bħalissa?**
 
-L-ewwel għażla għal kull għażla: Fixed 5Y: BNF Bank Home Loan Fixed 5Y (3.75%); Variable: APS Bank Home Loan (2.45%). Fil-23 Novembru 2026, APS Bank Home Loan għandu l-ogħla Blue score fil-paragun tagħna (10.0/10), b'rata ta' 2.45%.
+L-ewwel għażla għal kull għażla: Fixed 5Y: BNF Bank Home Loan Fixed 5Y (3.75%); Variable: APS Bank Home Loan (2.45%). Fil-24 Novembru 2026, APS Bank Home Loan għandu l-ogħla Blue score fil-paragun tagħna (10.0/10), b'rata ta' 2.45%.
 
 **Kif jikklassifika CompareMalta.ai Self għad-Dar?**
 
@@ -34,7 +34,7 @@ Kull prodott jieħu Blue score minn 0 sa 10 b'dawn il-piżijiet: Rata 100%. Il-k
 
 **Kemm-il darba jiġu aġġornati dawn il-Self għad-Dar?**
 
-Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-23 Novembru 2026.
+Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-24 Novembru 2026.
 
 ## Sorsi
 

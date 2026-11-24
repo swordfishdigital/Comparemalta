@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T14:32:26+00:00",
- "date": "2026-11-23",
+ "updated": "2026-11-24T02:28:43+00:00",
+ "date": "2026-11-24",
  "picks": [
   {
    "provider": "Kebab Factory",
@@ -15,6 +15,17 @@
    "featured": true
   },
   {
+   "provider": "Under Grain",
+   "area": "Valletta",
+   "cuisine": "Modern European",
+   "price_level": 4,
+   "rating": 4.7,
+   "reviews": 900,
+   "highlight": "Michelin star",
+   "url": "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta"
+  },
+  {
    "provider": "Ta' Kris",
    "area": "Sliema",
    "cuisine": "Traditional Maltese",
@@ -24,17 +35,6 @@
    "highlight": "Rabbit stew (stuffat tal-fenek)",
    "url": "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta",
    "maps": "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta"
-  },
-  {
-   "provider": "ION Harbour",
-   "area": "Valletta",
-   "cuisine": "Fine dining",
-   "price_level": 4,
-   "rating": 4.8,
-   "reviews": 600,
-   "highlight": "Two Michelin stars, harbour view",
-   "url": "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta",
-   "maps": "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta"
   }
  ]
 }
