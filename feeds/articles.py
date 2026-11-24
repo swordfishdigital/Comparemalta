@@ -137,7 +137,7 @@ def run(status):
     for f in (OUT / "articles").glob("*.json"):
         if f.name not in keep:
             f.unlink()
-    index = [{k: a.get(k) for k in ("slug", "date", "topic", "title", "summary", "hero_image", "hero_credit", "kicker")} for a in arts]
+    index = [{k: a.get(k) for k in ("slug", "date", "topic", "title", "summary", "hero_image", "hero_credit", "kicker", "home_pin_until")} for a in arts]
     save_json(OUT / "articles.json", {"updated": now_iso(), "items": index})
     pics = sum(1 for a in arts for s in a.get("sections", []) for i in s.get("items", []) if i.get("image"))
     status.ok("articles", len(arts), f"{len(arts)} articles, {pics} pictures")

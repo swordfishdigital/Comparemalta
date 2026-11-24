@@ -50,3 +50,4 @@ Every text field takes `en`, `mt` and `it`. Items are numbered automatically in 
 - Neutral on politics; no medical, legal or investment advice; no affiliate claims.
 - Photos: only freely licensed Wikimedia Commons files (CC0, public domain, CC BY, CC BY-SA), landscape, showing the real place or a fitting scene. Pin the exact `File:` name after checking it on Commons. Never use photos from restaurants, brands, news sites or social media. Credits are added automatically.
 - 8 to 12 list items or 600 to 1,000 words is the usual length.
+- `home_pin_until` (optional, "YYYY-MM-DD"): keeps the article as the Blue card on the home page until that day.

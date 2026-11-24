@@ -436,7 +436,7 @@ const newsList = items => items.length ? items.map(n => n.kind === "article" ? b
 const tx = v => v && typeof v === "object" ? (v[lang] || v.en || "") : (v || "");
 // CompareMalta.ai's own articles, shaped like news items so they sit inside the news stream
 const artItems = arts => (arts?.items || []).map(a => ({kind: "article", id: "a-" + a.slug, slug: a.slug, title: tx(a.title), summary: tx(a.summary),
-  topic: tx(a.topic), source: "CompareMalta.ai", published: a.date, image: a.hero_image || "", url: "#article/" + a.slug}));
+  topic: tx(a.topic), source: "CompareMalta.ai", published: a.date, image: a.hero_image || "", url: "#article/" + a.slug, pin: a.home_pin_until || ""}));
 // the three newest articles always sit in the top ten, spaced out (2nd, 5th and 8th story); older ones fall in by date
 const ART_SLOTS = [1, 4, 7];
 function mixNews(items, arts) {
@@ -486,7 +486,9 @@ async function pageHome() {
   const [news, mk, fx, st, arts] = await Promise.all([get("news"), get("markets"), get("fx"), get("status"), get("articles")]);
   const items = news?.items || [];
   const pickTopic = (tp, not) => items.find(n => n.topic === tp && n !== not) || items.find(n => n !== not);
-  const latestArt = artItems(arts).find(a => Date.now() - new Date(a.published) < 7 * 864e5);
+  // an article can be pinned to the home page with "home_pin_until": "YYYY-MM-DD" in its data file; otherwise the latest of the week shows
+  const today = new Date().toISOString().slice(0, 10);
+  const latestArt = artItems(arts).find(a => a.pin && a.pin >= today) || artItems(arts).find(a => Date.now() - new Date(a.published) < 7 * 864e5);
   const n1 = pickTopic("Business"), n2 = latestArt || pickTopic("Property", n1);
   const r = c => (fx?.rates || []).find(x => x.ccy === c);
   const stoxx = (mk?.global || []).find(x => /stoxx/i.test(x.name));
