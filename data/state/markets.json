@@ -1,91 +1,91 @@
 {
- "updated": "2026-11-24T12:47:35+00:00",
+ "updated": "2026-11-24T14:49:52+00:00",
  "global": [
   {
    "name": "S&P 500",
    "symbol": "^GSPC",
-   "price": 7237.17,
-   "change_pct": -2.42
+   "price": 7200.03,
+   "change_pct": -1.91
   },
   {
    "name": "Dow Jones",
    "symbol": "^DJI",
-   "price": 49595.31,
-   "change_pct": -3.9
+   "price": 49757.45,
+   "change_pct": -1.97
   },
   {
    "name": "Nasdaq 100",
    "symbol": "^NDX",
-   "price": 26746.096,
-   "change_pct": -1.66
+   "price": 26341.357,
+   "change_pct": -2.45
   },
   {
    "name": "DAX",
    "symbol": "^GDAXI",
-   "price": 25141.51,
-   "change_pct": -3.47
+   "price": 25143.04,
+   "change_pct": -3.46
   },
   {
    "name": "FTSE 100",
    "symbol": "^FTSE",
-   "price": 10457.76,
-   "change_pct": -2.17
+   "price": 10468.82,
+   "change_pct": -2.07
   },
   {
    "name": "CAC 40",
    "symbol": "^FCHI",
-   "price": 8049.26,
-   "change_pct": -1.2
+   "price": 8061.23,
+   "change_pct": -1.05
   },
   {
    "name": "Euro Stoxx 50",
    "symbol": "^STOXX50E",
-   "price": 6030.65,
-   "change_pct": -2.01
+   "price": 6036.0,
+   "change_pct": -1.92
   },
   {
    "name": "BIST 100",
    "symbol": "XU100.IS",
-   "price": 10976.43,
-   "change_pct": -4.36
+   "price": 10981.66,
+   "change_pct": -4.32
   },
   {
    "name": "Gold (USD/oz)",
    "symbol": "GC=F",
-   "price": 3633.7,
-   "change_pct": -1.41
+   "price": 3627.6,
+   "change_pct": -1.57
   },
   {
    "name": "Brent",
    "symbol": "BZ=F",
-   "price": 86.94,
-   "change_pct": -5.48
+   "price": 88.01,
+   "change_pct": -4.32
   },
   {
    "name": "EUR/USD",
    "symbol": "EURUSD=X",
-   "price": 1.0965,
-   "change_pct": -0.25
+   "price": 1.0979,
+   "change_pct": -0.13
   }
  ],
  "crypto": [
   {
    "name": "Bitcoin",
    "symbol": "bitcoin",
-   "price": 55157,
-   "change_pct": -1.17
+   "price": 55005,
+   "change_pct": -4.55
   },
   {
    "name": "Ethereum",
    "symbol": "ethereum",
-   "price": 1553.36,
-   "change_pct": -0.82
+   "price": 1543.64,
+   "change_pct": -5.45
   },
   {
    "name": "Solana",
    "symbol": "solana",
-   "price": 64.56,
-   "change_pct": -1.69
+   "price": 63.68,
+   "change_pct": -8.89
   }
  ],
  "mse": [
@@ -104,14 +104,14 @@
   {
    "symbol": "BMIT",
    "name": "BMIT Technologies plc",
-   "price": 0.246,
-   "change_pct": -0.81
+   "price": 0.26,
+   "change_pct": 4.84
   },
   {
    "symbol": "BOV",
    "name": "Bank of Valletta plc",
-   "price": 2.35,
-   "change_pct": 0.0
+   "price": 2.39,
+   "change_pct": 1.7
   },
   {
    "symbol": "CPT",
@@ -158,8 +158,8 @@
   {
    "symbol": "IHI",
    "name": "International Hotel Investments plc",
-   "price": 0.51,
-   "change_pct": 2.0
+   "price": 0.55,
+   "change_pct": 10.0
   },
   {
    "symbol": "LOM",
