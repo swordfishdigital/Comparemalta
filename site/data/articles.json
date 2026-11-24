@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T03:09:23+00:00",
+ "updated": "2026-11-24T12:47:40+00:00",
  "items": [
   {
    "slug": "best-supermarket-experiences-malta",
@@ -30,7 +30,8 @@
     "en": "Malta today · Blue recommends",
     "mt": "Malta llum · Blue jirrakkomanda",
     "it": "Malta oggi · Blue consiglia"
-   }
+   },
+   "home_pin_until": null
   },
   {
    "slug": "malta-bank-apps-compared",
@@ -61,7 +62,8 @@
     "en": "Malta today · Blue's verdict",
     "mt": "Malta llum · Il-verdett ta' Blue",
     "it": "Malta oggi · Il verdetto di Blue"
-   }
+   },
+   "home_pin_until": null
   },
   {
    "slug": "best-bakeries-malta",
@@ -92,7 +94,8 @@
     "en": "Malta today · Blue recommends",
     "mt": "Malta llum · Blue jirrakkomanda",
     "it": "Malta oggi · Blue consiglia"
-   }
+   },
+   "home_pin_until": "2026-11-30"
   },
   {
    "slug": "michelin-malta-2026",
@@ -123,7 +126,8 @@
     "en": "Malta today · Blue recommends",
     "mt": "Malta llum · Blue jirrakkomanda",
     "it": "Malta oggi · Blue consiglia"
-   }
+   },
+   "home_pin_until": null
   }
  ]
 }
