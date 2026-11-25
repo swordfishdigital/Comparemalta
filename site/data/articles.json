@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-24T23:59:33+00:00",
+ "updated": "2026-11-25T01:15:34+00:00",
  "items": [
+  {
+   "slug": "lahmacun-history-where-to-eat-malta",
+   "date": "2026-11-25T04:00:00+00:00",
+   "topic": {
+    "en": "Food & Drink",
+    "mt": "Ikel u Xorb",
+    "it": "Cibo e vino"
+   },
+   "title": {
+    "en": "Lahmacun: what it is, where it comes from and three places to eat it in Malta",
+    "mt": "Lahmacun: x'inhu, minn fejn ġej u tliet postijiet fejn tiklu f'Malta",
+    "it": "Lahmacun: cos'è, da dove viene e tre posti dove mangiarlo a Malta"
+   },
+   "summary": {
+    "en": "A paper-thin flatbread with spiced minced meat, rolled up with parsley and lemon. Its story runs from medieval Aleppo to Gaziantep, and these are three places that serve it in Malta.",
+    "mt": "Ħobża rqiqa ħafna b'laħam ikkappuljat u ħwawar, irrumblata bit-tursin u l-lumi. L-istorja tagħha tibda minn Aleppo medjevali u tasal sa Gaziantep, u dawn huma tliet postijiet li jservuha f'Malta.",
+    "it": "Una sfoglia sottilissima con carne macinata speziata, arrotolata con prezzemolo e limone. La sua storia va dall'Aleppo medievale a Gaziantep, ed ecco tre posti che la servono a Malta."
+   },
+   "hero_image": "article-img/lahmacun-history-where-to-eat-malta/hero.jpg",
+   "hero_credit": {
+    "author": "Rainer Zenz",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lahmacun.jpg",
+    "file": "File:Lahmacun.jpg"
+   },
+   "kicker": {
+    "en": "Malta today · Blue recommends",
+    "mt": "Malta llum · Blue jirrakkomanda",
+    "it": "Malta oggi · Blue consiglia"
+   },
+   "home_pin_until": null
+  },
   {
    "slug": "best-supermarket-experiences-malta",
    "date": "2026-11-23T04:00:00+00:00",
