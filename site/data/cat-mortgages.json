@@ -1,6 +1,6 @@
 {
  "slug": "mortgages",
- "updated": "2026-11-24T23:59:41+00:00",
+ "updated": "2026-11-25T08:45:13+00:00",
  "items": [
   {
    "provider": "APS Bank",
@@ -12,7 +12,7 @@
    "first_time": true,
    "url": "https://www.apsbank.com.mt",
    "checked": "2026-11-24T23:59:41+00:00",
-   "stale": false,
+   "stale": true,
    "source_url": "https://www.apsbank.com.mt/home-loans",
    "score": 10.0,
    "logo": "logos/apsbank.com.mt.png",

@@ -1,10 +1,10 @@
 # Assicurazioni a Malta: confronto e migliori offerte
 
-_Aggiornato il 24 novembre 2026 · https://comparemalta.ai/it/insurance/_
+_Aggiornato il 25 novembre 2026 · https://comparemalta.ai/it/insurance/_
 
 ## Risposta rapida
 
-Confrontiamo 5 offerte di assicurazioni di 5 fornitori a Malta, verificate il 24 novembre 2026. Prezzo di partenza più basso per tipo: Car: Elmo Insurance Motor Insurance (€310); Health: Bupa Malta Health Insurance (€450); Home: Atlas Insurance Home Insurance (€120). Solo prezzi di partenza. Coperture, franchigie ed esclusioni cambiano da polizza a polizza, quindi non diamo un punteggio complessivo. Leggi le condizioni prima di scegliere. Alcuni valori sono dati di esempio finché non colleghiamo il feed live di quel fornitore; verifica con il fornitore prima di decidere.
+Confrontiamo 5 offerte di assicurazioni di 5 fornitori a Malta, verificate il 25 novembre 2026. Prezzo di partenza più basso per tipo: Car: Elmo Insurance Motor Insurance (€310); Health: Bupa Malta Health Insurance (€450); Home: Atlas Insurance Home Insurance (€120). Solo prezzi di partenza. Coperture, franchigie ed esclusioni cambiano da polizza a polizza, quindi non diamo un punteggio complessivo. Leggi le condizioni prima di scegliere. Alcuni valori sono dati di esempio finché non colleghiamo il feed live di quel fornitore; verifica con il fornitore prima di decidere.
 
 ## Confronto completo
 
@@ -29,7 +29,7 @@ Solo prezzi di partenza. Coperture, franchigie ed esclusioni cambiano da polizza
 
 **Ogni quanto vengono aggiornati questi dati?**
 
-Ogni giorno. I nostri feed leggono i siti dei fornitori ogni mattina; questa pagina è stata rigenerata il 24 novembre 2026.
+Ogni giorno. I nostri feed leggono i siti dei fornitori ogni mattina; questa pagina è stata rigenerata il 25 novembre 2026.
 
 ## Fonti
 

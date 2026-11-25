@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T23:59:33+00:00",
- "date": "2026-11-24",
+ "updated": "2026-11-25T08:45:06+00:00",
+ "date": "2026-11-25",
  "picks": [
   {
    "provider": "Kebab Factory",
@@ -15,6 +15,17 @@
    "featured": true
   },
   {
+   "provider": "Diar il-Bniet",
+   "area": "Dingli",
+   "cuisine": "Farm-to-table",
+   "price_level": 2,
+   "rating": 4.6,
+   "reviews": 2500,
+   "highlight": "Produce from its own farm",
+   "url": "https://www.google.com/maps/search/?api=1&query=Diar+il-Bniet+Dingli+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Diar+il-Bniet+Dingli+Malta"
+  },
+  {
    "provider": "Under Grain",
    "area": "Valletta",
    "cuisine": "Modern European",
@@ -24,17 +35,6 @@
    "highlight": "Michelin star",
    "url": "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta",
    "maps": "https://www.google.com/maps/search/?api=1&query=Under+Grain+Valletta+Malta"
-  },
-  {
-   "provider": "Ta' Kris",
-   "area": "Sliema",
-   "cuisine": "Traditional Maltese",
-   "price_level": 2,
-   "rating": 4.5,
-   "reviews": 3500,
-   "highlight": "Rabbit stew (stuffat tal-fenek)",
-   "url": "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta",
-   "maps": "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta"
   }
  ]
 }
