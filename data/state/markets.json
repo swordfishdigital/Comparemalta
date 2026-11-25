@@ -1,91 +1,91 @@
 {
- "updated": "2026-11-25T14:16:38+00:00",
+ "updated": "2026-11-25T23:43:38+00:00",
  "global": [
   {
    "name": "S&P 500",
    "symbol": "^GSPC",
-   "price": 7201.09,
-   "change_pct": -1.9
+   "price": 7182.78,
+   "change_pct": -1.92
   },
   {
    "name": "Dow Jones",
    "symbol": "^DJI",
-   "price": 50018.7,
-   "change_pct": -1.46
+   "price": 50182.95,
+   "change_pct": -0.03
   },
   {
    "name": "Nasdaq 100",
    "symbol": "^NDX",
-   "price": 26214.168,
-   "change_pct": -2.92
+   "price": 26046.896,
+   "change_pct": -3.94
   },
   {
    "name": "DAX",
    "symbol": "^GDAXI",
-   "price": 24886.6,
-   "change_pct": -3.3
+   "price": 24702.13,
+   "change_pct": -4.02
   },
   {
    "name": "FTSE 100",
    "symbol": "^FTSE",
-   "price": 10475.57,
-   "change_pct": -0.72
+   "price": 10426.94,
+   "change_pct": -1.18
   },
   {
    "name": "CAC 40",
    "symbol": "^FCHI",
-   "price": 8065.78,
-   "change_pct": -0.19
+   "price": 7980.57,
+   "change_pct": -1.24
   },
   {
    "name": "Euro Stoxx 50",
    "symbol": "^STOXX50E",
-   "price": 5957.64,
-   "change_pct": -2.56
+   "price": 5894.46,
+   "change_pct": -3.59
   },
   {
    "name": "BIST 100",
    "symbol": "XU100.IS",
-   "price": 10704.37,
-   "change_pct": -6.1
+   "price": 10655.74,
+   "change_pct": -6.53
   },
   {
    "name": "Gold (USD/oz)",
    "symbol": "GC=F",
-   "price": 3510.0,
-   "change_pct": -0.15
+   "price": 3603.3,
+   "change_pct": 2.5
   },
   {
    "name": "Brent",
    "symbol": "BZ=F",
-   "price": 89.24,
-   "change_pct": -3.6
+   "price": 90.67,
+   "change_pct": -2.05
   },
   {
    "name": "EUR/USD",
    "symbol": "EURUSD=X",
-   "price": 1.0948,
-   "change_pct": -0.22
+   "price": 1.0973,
+   "change_pct": 0.01
   }
  ],
  "crypto": [
   {
    "name": "Bitcoin",
    "symbol": "bitcoin",
-   "price": 53214,
-   "change_pct": -3.12
+   "price": 54955,
+   "change_pct": 0.82
   },
   {
    "name": "Ethereum",
    "symbol": "ethereum",
-   "price": 1493.5,
-   "change_pct": -3.32
+   "price": 1541.32,
+   "change_pct": 0.74
   },
   {
    "name": "Solana",
    "symbol": "solana",
-   "price": 61.25,
-   "change_pct": -3.91
+   "price": 64.18,
+   "change_pct": 0.86
   }
  ],
  "mse": [
@@ -296,7 +296,7 @@
  ],
  "mse_index": {
   "name": "MSE Equity Total Return Index",
-  "value": 10728.267,
+  "value": 10680.27,
   "change_pct": null
  }
 }
