@@ -1,10 +1,10 @@
 # Best POS & Card Payments in Malta
 
-_Updated 25 November 2026 · https://comparemalta.ai/en/pos/_
+_Updated 26 November 2026 · https://comparemalta.ai/en/pos/_
 
 ## Quick answer
 
-We compare 10 POS & card payments from 6 providers in Malta, checked 25 November 2026. Top pick: wamo Start (company) (9.2/10 Blue score). Lowest cost at €5k sales: wamo Start (company) at €19.99.
+We compare 10 POS & card payments from 6 providers in Malta, checked 26 November 2026. Top pick: wamo Start (company) (9.2/10 Blue score). Lowest cost at €5k sales: wamo Start (company) at €19.99.
 
 ## Full comparison
 
@@ -40,11 +40,11 @@ First we hide products that do not fit your needs (amount, term, deposit, curren
 
 **What is the best POS & card payments in Malta right now?**
 
-On 25 November 2026, wamo Start (company) has the highest Blue score in our comparison (9.2/10), with cost at €5k sales of €19.99.
+On 26 November 2026, wamo Start (company) has the highest Blue score in our comparison (9.2/10), with cost at €5k sales of €19.99.
 
 **Which POS & card payments has the lowest cost at €5k sales?**
 
-wamo Start (company) has the lowest cost at €5k sales at €19.99 (checked 25 November 2026).
+wamo Start (company) has the lowest cost at €5k sales at €19.99 (checked 26 November 2026).
 
 **How does CompareMalta.ai rank POS & card payments?**
 
@@ -52,7 +52,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Cost at €5k s
 
 **How often are these POS & card payments updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 25 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 26 November 2026.
 
 ## Sources
 

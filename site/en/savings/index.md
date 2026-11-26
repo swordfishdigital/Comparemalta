@@ -1,10 +1,10 @@
 # Best Savings & Term Deposits in Malta
 
-_Updated 25 November 2026 · https://comparemalta.ai/en/savings/_
+_Updated 26 November 2026 · https://comparemalta.ai/en/savings/_
 
 ## Quick answer
 
-We compare 6 savings & term deposits from 6 providers in Malta, checked 25 November 2026. Top pick for each option: 12 months: MeDirect Fixed Term 12M (2.60%); 24 months: Lombard Bank Term Deposit 24M (2.40%). Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 6 savings & term deposits from 6 providers in Malta, checked 26 November 2026. Top pick for each option: 12 months: MeDirect Fixed Term 12M (2.60%); 24 months: Lombard Bank Term Deposit 24M (2.40%). Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -26,7 +26,7 @@ First we hide products that do not fit your needs (amount, term, deposit, curren
 
 **What is the best savings & term deposits in Malta right now?**
 
-Top pick for each option: 12 months: MeDirect Fixed Term 12M (2.60%); 24 months: Lombard Bank Term Deposit 24M (2.40%). On 25 November 2026, MeDirect Fixed Term 12M has the highest Blue score in our comparison (10.0/10), with rate of 2.60%.
+Top pick for each option: 12 months: MeDirect Fixed Term 12M (2.60%); 24 months: Lombard Bank Term Deposit 24M (2.40%). On 26 November 2026, MeDirect Fixed Term 12M has the highest Blue score in our comparison (10.0/10), with rate of 2.60%.
 
 **How does CompareMalta.ai rank savings & term deposits?**
 
@@ -34,7 +34,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Rate 100%. Rank
 
 **How often are these savings & term deposits updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 25 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 26 November 2026.
 
 ## Sources
 

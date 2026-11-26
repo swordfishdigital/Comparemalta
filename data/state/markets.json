@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:43:38+00:00",
+ "updated": "2026-11-26T13:51:14+00:00",
  "global": [
   {
    "name": "S&P 500",
@@ -22,70 +22,70 @@
   {
    "name": "DAX",
    "symbol": "^GDAXI",
-   "price": 24702.13,
-   "change_pct": -4.02
+   "price": 25182.62,
+   "change_pct": -1.1
   },
   {
    "name": "FTSE 100",
    "symbol": "^FTSE",
-   "price": 10426.94,
-   "change_pct": -1.18
+   "price": 10587.73,
+   "change_pct": 1.29
   },
   {
    "name": "CAC 40",
    "symbol": "^FCHI",
-   "price": 7980.57,
-   "change_pct": -1.24
+   "price": 8110.43,
+   "change_pct": 2.3
   },
   {
    "name": "Euro Stoxx 50",
    "symbol": "^STOXX50E",
-   "price": 5894.46,
-   "change_pct": -3.59
+   "price": 6005.71,
+   "change_pct": 1.07
   },
   {
    "name": "BIST 100",
    "symbol": "XU100.IS",
-   "price": 10655.74,
-   "change_pct": -6.53
+   "price": 10846.64,
+   "change_pct": -2.56
   },
   {
    "name": "Gold (USD/oz)",
    "symbol": "GC=F",
-   "price": 3603.3,
-   "change_pct": 2.5
+   "price": 3596.6,
+   "change_pct": 2.31
   },
   {
    "name": "Brent",
    "symbol": "BZ=F",
-   "price": 90.67,
-   "change_pct": -2.05
+   "price": 91.33,
+   "change_pct": -1.34
   },
   {
    "name": "EUR/USD",
    "symbol": "EURUSD=X",
-   "price": 1.0973,
-   "change_pct": 0.01
+   "price": 1.0984,
+   "change_pct": 0.13
   }
  ],
  "crypto": [
   {
    "name": "Bitcoin",
    "symbol": "bitcoin",
-   "price": 54955,
-   "change_pct": 0.82
+   "price": 55427,
+   "change_pct": 4.2
   },
   {
    "name": "Ethereum",
    "symbol": "ethereum",
-   "price": 1541.32,
-   "change_pct": 0.74
+   "price": 1550.87,
+   "change_pct": 3.84
   },
   {
    "name": "Solana",
    "symbol": "solana",
-   "price": 64.18,
-   "change_pct": 0.86
+   "price": 64.67,
+   "change_pct": 5.68
   }
  ],
  "mse": [
@@ -104,20 +104,20 @@
   {
    "symbol": "BMIT",
    "name": "BMIT Technologies plc",
-   "price": 0.26,
-   "change_pct": 0.0
+   "price": 0.25,
+   "change_pct": -3.85
   },
   {
    "symbol": "BOV",
    "name": "Bank of Valletta plc",
-   "price": 2.34,
-   "change_pct": -2.09
+   "price": 2.38,
+   "change_pct": 1.71
   },
   {
    "symbol": "CPT",
    "name": "CPT",
-   "price": 0.56,
-   "change_pct": 0.0
+   "price": 0.53,
+   "change_pct": -5.36
   },
   {
    "symbol": "CVS",
@@ -140,8 +140,8 @@
   {
    "symbol": "GO",
    "name": "GO plc",
-   "price": 2.54,
-   "change_pct": 0.0
+   "price": 2.48,
+   "change_pct": -2.36
   },
   {
    "symbol": "HRV",
@@ -153,13 +153,13 @@
    "symbol": "HSB",
    "name": "HSBC Bank Malta plc",
    "price": 1.57,
-   "change_pct": 1.29
+   "change_pct": 0.0
   },
   {
    "symbol": "IHI",
    "name": "International Hotel Investments plc",
-   "price": 0.55,
-   "change_pct": 0.0
+   "price": 0.56,
+   "change_pct": 1.82
   },
   {
    "symbol": "LOM",
@@ -171,7 +171,7 @@
    "symbol": "LQS",
    "name": "Loqus Holdings plc",
    "price": 0.352,
-   "change_pct": -21.78
+   "change_pct": 0.0
   },
   {
    "symbol": "LSI",
@@ -194,8 +194,8 @@
   {
    "symbol": "MDI",
    "name": "Malta Properties Company plc",
-   "price": 0.2,
-   "change_pct": 0.0
+   "price": 0.21,
+   "change_pct": 5.0
   },
   {
    "symbol": "MDS",
@@ -219,7 +219,7 @@
    "symbol": "MPC",
    "name": "Malita Investments plc",
    "price": 0.46,
-   "change_pct": 4.55
+   "change_pct": 0.0
   },
   {
    "symbol": "MSC",
@@ -242,8 +242,8 @@
   {
    "symbol": "PG",
    "name": "PG",
-   "price": 1.63,
-   "change_pct": 0.0
+   "price": 1.62,
+   "change_pct": -0.61
   },
   {
    "symbol": "PZC",
@@ -260,14 +260,14 @@
   {
    "symbol": "RS2",
    "name": "RS2 plc",
-   "price": 0.44,
-   "change_pct": 0.0
+   "price": 0.436,
+   "change_pct": -0.91
   },
   {
    "symbol": "RS2P",
    "name": "RS2P",
-   "price": 0.38,
-   "change_pct": 0.0
+   "price": 0.5,
+   "change_pct": 31.58
   },
   {
    "symbol": "SFC",
@@ -284,8 +284,8 @@
   {
    "symbol": "TRI",
    "name": "Trident Estates plc",
-   "price": 1.01,
-   "change_pct": 0.0
+   "price": 1.03,
+   "change_pct": 1.98
   },
   {
    "symbol": "VBL",
