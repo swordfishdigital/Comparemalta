@@ -510,7 +510,7 @@ async function pageHome() {
       <div class="door-h"><span class="door-ic">${V.catIcon(icon, 56)}</span><div><h2>${t(k)}</h2><p>${t(sub)}</p></div></div>
       <div class="chips">${cats.filter(c => D.categories?.config[c]).map(c => `<a class="chip" href="#${c}">${V.icon(c, 15)} ${esc(catTitle(D.categories.config[c]))}</a>`).join("")}</div>
       </div>`).join("")}</div>
-    <a class="card ck-band" href="#check"><span>${V.mascot(54, "wink")}</span><span><b>${t("ckTitle")}</b><br><span class="muted">${t("ckLead")}</span></span><span class="btn blue sm">${t("ckNav")} →</span></a>
+    <a class="card ck-band" href="#check"><span>${V.mascot(54, "wink")}</span><span><b>${t("ckTitle")}</b><br><span class="muted">${t("ckLead")}</span></span><span class="btn blue sm ring">${t("ckNav")} →</span></a>
     <p class="note cov">${coverageTxt()}</p>
     <a class="mh-band" href="#money-health"><div class="mh-band-g">${window.CMMoneyHealth ? `<svg viewBox="0 0 120 70"><defs><linearGradient id="mhb" x1="0" x2="1"><stop offset="0" stop-color="#ff6b5b"/><stop offset=".5" stop-color="#ffd25c"/><stop offset="1" stop-color="#2fd18b"/></linearGradient></defs><path d="M12 62 A48 48 0 0 1 108 62" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="12" stroke-linecap="round"/><path d="M12 62 A48 48 0 0 1 108 62" fill="none" stroke="url(#mhb)" stroke-width="12" stroke-linecap="round" stroke-dasharray="151" stroke-dashoffset="34"/></svg>` : ""}</div>
       <div class="mh-band-t"><span class="mh-band-e">${t("mhNew")}</span><b>${t("mhBandH")}</b><span>${t("mhBandP")}</span></div><span class="mh-band-cta">${t("mhBandCta")} →</span></a>

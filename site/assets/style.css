@@ -521,11 +521,18 @@ tr.best td{background:rgba(43,76,196,.04)}
 /* Money Health pill: a colour ring that keeps turning, with a glow */
 @property --cm-a{syntax:'<angle>';inherits:false;initial-value:0deg}
 @keyframes cm-spin{to{--cm-a:360deg}}
-.mh-pill{isolation:isolate}
+.tools{isolation:isolate}
 .mh-pill::before{content:"";position:absolute;inset:-2.5px;border-radius:inherit;padding:2.5px;z-index:-1;
   background:conic-gradient(from var(--cm-a),#ff6b5b,#ffd25c,#2fd18b,#4d90fe,#ff6b5b);
   -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:cm-spin 3s linear infinite}
 .mh-pill::after{content:"";position:absolute;inset:-6px;border-radius:inherit;z-index:-2;filter:blur(10px);opacity:.55;
   background:conic-gradient(from var(--cm-a),#ff6b5b,#ffd25c,#2fd18b,#4d90fe,#ff6b5b);animation:cm-spin 3s linear infinite}
 .ck-band{position:relative;isolation:isolate}
-@media(prefers-reduced-motion:reduce){.btn.blue,.btn.cta,.mh-pill::before,.mh-pill::after{animation:none}}
+/* a turning colour ring for the main call to action (same as the Money Health pill) */
+.btn.ring{position:relative;overflow:visible}
+.btn.ring::before{content:"";position:absolute;inset:-3px;border-radius:inherit;padding:2.5px;z-index:-1;
+  background:conic-gradient(from var(--cm-a),#ff9f43,#ffd25c,#2fd18b,#4d90fe,#ff9f43);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:cm-spin 3s linear infinite}
+.btn.ring::after{content:"";position:absolute;inset:-7px;border-radius:inherit;z-index:-2;filter:blur(10px);opacity:.5;
+  background:conic-gradient(from var(--cm-a),#ff9f43,#ffd25c,#2fd18b,#4d90fe,#ff9f43);animation:cm-spin 3s linear infinite}
+@media(prefers-reduced-motion:reduce){.btn.blue,.btn.cta,.mh-pill::before,.mh-pill::after,.btn.ring::before,.btn.ring::after{animation:none}}
