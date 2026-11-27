@@ -1257,6 +1257,7 @@ async function route() {
   const want = pathFor(r) || (r === "home" ? "/" : "/#" + r);
   if (location.pathname + location.search + location.hash !== want) history.replaceState(null, "", want);
   renderNav(r); $("#nav").classList.remove("open");
+  document.querySelectorAll(".vid-intro").forEach(o => { o.querySelector("video")?.pause(); o.remove(); });
   const pages = {"money-health": pageMoneyHealth, articles: pageBlog, blog: pageBlog, newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, check: pageCheck, privacy: pagePrivacy, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
   $("#app").innerHTML = await (r.startsWith("article/") ? pageArticle(r.slice(8)) : pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
   if ($("#heroForm")) bindHome();
