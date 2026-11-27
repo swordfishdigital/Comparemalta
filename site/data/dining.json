@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T23:56:34+00:00",
- "date": "2026-11-26",
+ "updated": "2026-11-27T09:50:14+00:00",
+ "date": "2026-11-27",
  "picks": [
   {
    "provider": "Kebab Factory",
@@ -15,26 +15,26 @@
    "featured": true
   },
   {
-   "provider": "Ta' Kris",
-   "area": "Sliema",
-   "cuisine": "Traditional Maltese",
-   "price_level": 2,
-   "rating": 4.5,
-   "reviews": 3500,
-   "highlight": "Rabbit stew (stuffat tal-fenek)",
-   "url": "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta",
-   "maps": "https://www.google.com/maps/search/?api=1&query=Ta%27+Kris+Sliema+Malta"
+   "provider": "Commando",
+   "area": "Mellieħa",
+   "cuisine": "Modern Mediterranean",
+   "price_level": 3,
+   "rating": 4.6,
+   "reviews": 1300,
+   "highlight": "Tasting menu",
+   "url": "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Commando+Mellie%C4%A7a+Malta"
   },
   {
-   "provider": "ION Harbour",
-   "area": "Valletta",
-   "cuisine": "Fine dining",
-   "price_level": 4,
-   "rating": 4.8,
-   "reviews": 600,
-   "highlight": "Two Michelin stars, harbour view",
-   "url": "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta",
-   "maps": "https://www.google.com/maps/search/?api=1&query=ION+Harbour+Valletta+Malta"
+   "provider": "Ta' Rikardu",
+   "area": "Gozo (Victoria)",
+   "cuisine": "Gozitan",
+   "price_level": 2,
+   "rating": 4.5,
+   "reviews": 1800,
+   "highlight": "Ġbejniet cheese",
+   "url": "https://www.google.com/maps/search/?api=1&query=Ta%27+Rikardu+Gozo+%28Victoria%29+Malta",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Ta%27+Rikardu+Gozo+%28Victoria%29+Malta"
   }
  ]
 }

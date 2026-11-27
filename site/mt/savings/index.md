@@ -1,10 +1,10 @@
 # L-aħjar Tfaddil u Depożiti Fissi f'Malta
 
-_Aġġornat 26 Novembru 2026 · https://comparemalta.ai/mt/savings/_
+_Aġġornat 27 Novembru 2026 · https://comparemalta.ai/mt/savings/_
 
 ## Tweġiba qasira
 
-Inqabblu 6 prodotti ta' Tfaddil u Depożiti Fissi minn 6-il fornitur f'Malta, iċċekkjati 26 Novembru 2026. L-ewwel għażla għal kull għażla: 12 xhur: MeDirect Fixed Term 12M (2.60%); 24 xhur: Lombard Bank Term Deposit 24M (2.40%). Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
+Inqabblu 6 prodotti ta' Tfaddil u Depożiti Fissi minn 6-il fornitur f'Malta, iċċekkjati 27 Novembru 2026. L-ewwel għażla għal kull għażla: 12 xhur: MeDirect Fixed Term 12M (2.60%); 24 xhur: Lombard Bank Term Deposit 24M (2.40%). Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
 
 ## Paragun sħiħ
 
@@ -26,7 +26,7 @@ L-ewwel naħbu l-prodotti li ma jaqblux mal-bżonnijiet tiegħek (ammont, termin
 
 **X'inhu l-aħjar Tfaddil u Depożiti Fissi f'Malta bħalissa?**
 
-L-ewwel għażla għal kull għażla: 12 xhur: MeDirect Fixed Term 12M (2.60%); 24 xhur: Lombard Bank Term Deposit 24M (2.40%). Fil-26 Novembru 2026, MeDirect Fixed Term 12M għandu l-ogħla Blue score fil-paragun tagħna (10.0/10), b'rata ta' 2.60%.
+L-ewwel għażla għal kull għażla: 12 xhur: MeDirect Fixed Term 12M (2.60%); 24 xhur: Lombard Bank Term Deposit 24M (2.40%). Fil-27 Novembru 2026, MeDirect Fixed Term 12M għandu l-ogħla Blue score fil-paragun tagħna (10.0/10), b'rata ta' 2.60%.
 
 **Kif jikklassifika CompareMalta.ai Tfaddil u Depożiti Fissi?**
 
@@ -34,7 +34,7 @@ Kull prodott jieħu Blue score minn 0 sa 10 b'dawn il-piżijiet: Rata 100%. Il-k
 
 **Kemm-il darba jiġu aġġornati dawn il-Tfaddil u Depożiti Fissi?**
 
-Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-26 Novembru 2026.
+Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-27 Novembru 2026.
 
 ## Sorsi
 

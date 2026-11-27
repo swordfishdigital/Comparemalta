@@ -1,10 +1,10 @@
 # L-aħjar Restoranti f'Malta
 
-_Aġġornat 26 Novembru 2026 · https://comparemalta.ai/mt/restaurants/_
+_Aġġornat 27 Novembru 2026 · https://comparemalta.ai/mt/restaurants/_
 
 ## Tweġiba qasira
 
-Inqabblu 11 prodotti ta' Restoranti minn 11-il fornitur f'Malta, iċċekkjati 26 Novembru 2026. L-ewwel għażla: Kebab Factory Valletta, Msida, St Julian's and more (3.2/10 Blue score). L-ogħla klassifikazzjoni: ION Harbour Valletta b'★ 4.8. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
+Inqabblu 11 prodotti ta' Restoranti minn 11-il fornitur f'Malta, iċċekkjati 27 Novembru 2026. L-ewwel għażla: Kebab Factory Valletta, Msida, St Julian's and more (3.2/10 Blue score). L-ogħla klassifikazzjoni: ION Harbour Valletta b'★ 4.8. Xi figuri huma data ta' kampjun sakemm jitqabbad il-feed live ta' dak il-fornitur; iċċekkja mal-fornitur qabel tiddeċiedi.
 
 ## Paragun sħiħ
 
@@ -31,11 +31,11 @@ L-ewwel naħbu l-prodotti li ma jaqblux mal-bżonnijiet tiegħek (ammont, termin
 
 **X'inhu l-aħjar Restoranti f'Malta bħalissa?**
 
-Fil-26 Novembru 2026, Kebab Factory Valletta, Msida, St Julian's and more għandu l-ogħla Blue score fil-paragun tagħna (3.2/10), b'klassifikazzjoni ta' -.
+Fil-27 Novembru 2026, Kebab Factory Valletta, Msida, St Julian's and more għandu l-ogħla Blue score fil-paragun tagħna (3.2/10), b'klassifikazzjoni ta' -.
 
 **Liema Restoranti għandu l-ogħla klassifikazzjoni?**
 
-ION Harbour Valletta għandu l-ogħla klassifikazzjoni, ★ 4.8 (iċċekkjat 26 Novembru 2026).
+ION Harbour Valletta għandu l-ogħla klassifikazzjoni, ★ 4.8 (iċċekkjat 27 Novembru 2026).
 
 **Kif jikklassifika CompareMalta.ai Restoranti?**
 
@@ -43,7 +43,7 @@ Kull prodott jieħu Blue score minn 0 sa 10 b'dawn il-piżijiet: Klassifikazzjon
 
 **Kemm-il darba jiġu aġġornati dawn il-Restoranti?**
 
-Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-26 Novembru 2026.
+Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-27 Novembru 2026.
 
 ## Sorsi
 

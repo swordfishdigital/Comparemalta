@@ -1,10 +1,10 @@
 # Best Business Accounts in Malta
 
-_Updated 26 November 2026 · https://comparemalta.ai/en/business-accounts/_
+_Updated 27 November 2026 · https://comparemalta.ai/en/business-accounts/_
 
 ## Quick answer
 
-We compare 8 business accounts from 8 providers in Malta, checked 26 November 2026. Top pick: wamo wamo Business (10.0/10 Blue score). Lowest monthly fee: wamo wamo Business at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 8 business accounts from 8 providers in Malta, checked 27 November 2026. Top pick: wamo wamo Business (10.0/10 Blue score). Lowest monthly fee: wamo wamo Business at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -28,11 +28,11 @@ First we hide products that do not fit your needs (amount, term, deposit, curren
 
 **What is the best business accounts in Malta right now?**
 
-On 26 November 2026, wamo wamo Business has the highest Blue score in our comparison (10.0/10), with monthly fee of €0.
+On 27 November 2026, wamo wamo Business has the highest Blue score in our comparison (10.0/10), with monthly fee of €0.
 
 **Which business accounts has the lowest monthly fee?**
 
-wamo wamo Business has the lowest monthly fee at €0 (checked 26 November 2026).
+wamo wamo Business has the lowest monthly fee at €0 (checked 27 November 2026).
 
 **How does CompareMalta.ai rank business accounts?**
 
@@ -40,7 +40,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Monthly fee 50%
 
 **How often are these business accounts updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 26 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 27 November 2026.
 
 ## Sources
 

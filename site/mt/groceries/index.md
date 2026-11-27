@@ -1,10 +1,10 @@
 # L-aħjar Supermarkits u Grocery f'Malta
 
-_Aġġornat 26 Novembru 2026 · https://comparemalta.ai/mt/groceries/_
+_Aġġornat 27 Novembru 2026 · https://comparemalta.ai/mt/groceries/_
 
 ## Tweġiba qasira
 
-Inqabblu 6 prodotti ta' Supermarkits u Grocery minn 6-il fornitur f'Malta, iċċekkjati 26 Novembru 2026. Il-livelli tal-prezzijiet huma gwida, mhux wegħda: il-prezzijiet jinbidlu kull ġimgħa u skont il-prodott. Il-paragun tal-basket huwa ritratt indipendenti wieħed ta' 10 prodotti ta' kuljum mis-siti tal-ħwienet (Lidl, Greens u Smart ma jippubblikawx katalgu online, għalhekk mhumiex fih). L-iktar baxx livell tal-prezz: Lidl Discount supermarket b'€.
+Inqabblu 6 prodotti ta' Supermarkits u Grocery minn 6-il fornitur f'Malta, iċċekkjati 27 Novembru 2026. Il-livelli tal-prezzijiet huma gwida, mhux wegħda: il-prezzijiet jinbidlu kull ġimgħa u skont il-prodott. Il-paragun tal-basket huwa ritratt indipendenti wieħed ta' 10 prodotti ta' kuljum mis-siti tal-ħwienet (Lidl, Greens u Smart ma jippubblikawx katalgu online, għalhekk mhumiex fih). L-iktar baxx livell tal-prezz: Lidl Discount supermarket b'€.
 
 ## Paragun sħiħ
 
@@ -32,7 +32,7 @@ Il-livelli tal-prezzijiet huma gwida, mhux wegħda: il-prezzijiet jinbidlu kull 
 
 **Liema Supermarkits u Grocery għandu l-iktar baxx livell tal-prezz?**
 
-Lidl Discount supermarket għandu l-iktar baxx livell tal-prezz, € (iċċekkjat 26 Novembru 2026).
+Lidl Discount supermarket għandu l-iktar baxx livell tal-prezz, € (iċċekkjat 27 Novembru 2026).
 
 **Kif jikklassifika CompareMalta.ai Supermarkits u Grocery?**
 
@@ -40,7 +40,7 @@ Il-livelli tal-prezzijiet huma gwida, mhux wegħda: il-prezzijiet jinbidlu kull 
 
 **Kemm-il darba jiġu aġġornati dawn il-Supermarkits u Grocery?**
 
-Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-26 Novembru 2026.
+Kuljum. Il-feeds tagħna jaqraw is-siti tal-fornituri kull filgħodu; din il-paġna nbniet mill-ġdid fil-27 Novembru 2026.
 
 ## Sorsi
 

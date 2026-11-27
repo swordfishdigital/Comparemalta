@@ -1,10 +1,10 @@
 # Best Current Accounts in Malta
 
-_Updated 26 November 2026 · https://comparemalta.ai/en/bank-accounts/_
+_Updated 27 November 2026 · https://comparemalta.ai/en/bank-accounts/_
 
 ## Quick answer
 
-We compare 6 current accounts from 6 providers in Malta, checked 26 November 2026. Top pick: MeDirect Current Account (10.0/10 Blue score). Lowest monthly fee: MeDirect Current Account at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
+We compare 6 current accounts from 6 providers in Malta, checked 27 November 2026. Top pick: MeDirect Current Account (10.0/10 Blue score). Lowest monthly fee: MeDirect Current Account at €0. Some figures are sample data while the live feed for that provider is being connected; check with the provider before you decide.
 
 ## Full comparison
 
@@ -26,11 +26,11 @@ First we hide products that do not fit your needs (amount, term, deposit, curren
 
 **What is the best current accounts in Malta right now?**
 
-On 26 November 2026, MeDirect Current Account has the highest Blue score in our comparison (10.0/10), with monthly fee of €0.
+On 27 November 2026, MeDirect Current Account has the highest Blue score in our comparison (10.0/10), with monthly fee of €0.
 
 **Which current accounts has the lowest monthly fee?**
 
-MeDirect Current Account has the lowest monthly fee at €0 (checked 26 November 2026).
+MeDirect Current Account has the lowest monthly fee at €0 (checked 27 November 2026).
 
 **How does CompareMalta.ai rank current accounts?**
 
@@ -38,7 +38,7 @@ Every product gets a Blue score from 0 to 10 from these weights: Monthly fee 40%
 
 **How often are these current accounts updated?**
 
-Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 26 November 2026.
+Every day. Our feeds read the providers' websites each morning; this page was last rebuilt on 27 November 2026.
 
 ## Sources
 

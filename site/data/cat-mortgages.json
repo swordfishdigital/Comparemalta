@@ -1,6 +1,6 @@
 {
  "slug": "mortgages",
- "updated": "2026-11-26T23:56:46+00:00",
+ "updated": "2026-11-27T09:50:23+00:00",
  "items": [
   {
    "provider": "APS Bank",
@@ -11,7 +11,7 @@
    "max_term": 40,
    "first_time": true,
    "url": "https://www.apsbank.com.mt",
-   "checked": "2026-11-26T23:56:46+00:00",
+   "checked": "2026-11-27T09:50:23+00:00",
    "stale": false,
    "source_url": "https://www.apsbank.com.mt/home-loans",
    "score": 10.0,
