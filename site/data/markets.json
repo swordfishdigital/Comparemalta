@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T09:52:50+00:00",
+ "updated": "2026-11-27T10:27:01+00:00",
  "global": [
   {
    "name": "S&P 500",
@@ -22,70 +22,70 @@
   {
    "name": "DAX",
    "symbol": "^GDAXI",
-   "price": 25466.08,
-   "change_pct": 2.67
+   "price": 25407.64,
+   "change_pct": 2.44
   },
   {
    "name": "FTSE 100",
    "symbol": "^FTSE",
-   "price": 10690.79,
-   "change_pct": 3.33
+   "price": 10687.13,
+   "change_pct": 3.29
   },
   {
    "name": "CAC 40",
    "symbol": "^FCHI",
-   "price": 8142.52,
-   "change_pct": 1.21
+   "price": 8131.53,
+   "change_pct": 1.08
   },
   {
    "name": "Euro Stoxx 50",
    "symbol": "^STOXX50E",
-   "price": 6097.18,
-   "change_pct": 0.37
+   "price": 6084.48,
+   "change_pct": 0.16
   },
   {
    "name": "BIST 100",
    "symbol": "XU100.IS",
-   "price": 10912.85,
-   "change_pct": -1.72
+   "price": 10977.25,
+   "change_pct": -1.15
   },
   {
    "name": "Gold (USD/oz)",
    "symbol": "GC=F",
-   "price": 3708.3,
-   "change_pct": 5.49
+   "price": 3698.8,
+   "change_pct": 5.22
   },
   {
    "name": "Brent",
    "symbol": "BZ=F",
-   "price": 92.41,
-   "change_pct": -0.17
+   "price": 92.55,
+   "change_pct": -0.02
   },
   {
    "name": "EUR/USD",
    "symbol": "EURUSD=X",
-   "price": 1.0967,
-   "change_pct": -0.05
+   "price": 1.0965,
+   "change_pct": -0.06
   }
  ],
  "crypto": [
   {
    "name": "Bitcoin",
    "symbol": "bitcoin",
-   "price": 56186,
-   "change_pct": 1.32
+   "price": 56233,
+   "change_pct": 1.5
   },
   {
    "name": "Ethereum",
    "symbol": "ethereum",
-   "price": 1577.09,
-   "change_pct": 1.69
+   "price": 1576.35,
+   "change_pct": 1.75
   },
   {
    "name": "Solana",
    "symbol": "solana",
-   "price": 66.96,
-   "change_pct": 3.36
+   "price": 66.94,
+   "change_pct": 3.52
   }
  ],
  "mse": [

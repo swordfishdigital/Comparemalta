@@ -1,6 +1,83 @@
 {
- "updated": "2026-11-27T09:52:55+00:00",
+ "updated": "2026-11-27T10:27:09+00:00",
  "items": [
+  {
+   "id": "bd2eb5f7d6b3",
+   "title": "Malta’s Government Debt Hits €12.18 Billion As Deficit Rises To €695.4 Million",
+   "url": "https://lovinmalta.com/news/local/maltas-government-debt-hits-e12-18-billion-as-deficit-rises-to-e695-4-million/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T10:18:26+00:00",
+   "summary": "Malta’s Central Government debt reached €12.18 billion by the end of October 2026, marking an increase of almost €1 billion compared to the same month last year. According to the latest figures published by the National ",
+   "image": "news-img/bd2eb5f7d6b3.jpg",
+   "topic": "Politics",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T110437.474-1024x536.jpg"
+  },
+  {
+   "id": "199a396824e2",
+   "title": "Government deficit nearly doubles to €695 million as spending outpaces revenue",
+   "url": "https://timesofmalta.com/article/government-deficit-nearly-doubles-spending-outpaces-revenue.1137756",
+   "source": "Times of Malta",
+   "published": "2026-11-27T10:16:00+00:00",
+   "summary": "Central Government debt stood at €12.2 billion at the end of October, almost €1 billion more than a year earlier. Photo: Shutterstock",
+   "image": "news-img/199a396824e2.jpg",
+   "topic": "Politics",
+   "image_src": "https://cdn-attachments.timesofmalta.com/5026a0f476801abc2034b4f6777b1d416ab40739-1795774968-f75976ae-1920x1280.jpg"
+  },
+  {
+   "id": "551e05181caa",
+   "title": "PA approves 122-unit block in Żurrieq’s contested Nigret area",
+   "url": "https://timesofmalta.com/article/pa-approves-122-apartments-maisonettes-penthouses-nigret.1137705",
+   "source": "Times of Malta",
+   "published": "2026-11-27T10:15:00+00:00",
+   "summary": "An aerial view of the Nigret area of Zurrieq",
+   "image": "news-img/551e05181caa.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/d4681ba6a61b79f8abb1a93e30175d0fd900a557-1795696631-ace4c2aa-1920x1280.jpg"
+  },
+  {
+   "id": "6bd3bd89b739",
+   "title": "Beyond the statement: What does meaningful inclusion really require?",
+   "url": "https://newsbook.com.mt/en/beyond-the-statement-what-does-meaningful-inclusion-really-require/",
+   "source": "Newsbook",
+   "published": "2026-11-27T10:06:27+00:00",
+   "summary": "Discussions about inclusive education often begin with two questions: Does a child have a statement of support? Has a Learning Support Educator (LSE) been allocated? These questions matter. But so does another: is that s",
+   "image": "news-img/6bd3bd89b739.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2024/10/28160911/BUDGET-2025-skola-school-klassi-studenti-tfal.jpg"
+  },
+  {
+   "id": "cd3496ee81fa",
+   "title": "Malta And India Just Got Closer Thanks To New Airline Agreement",
+   "url": "https://lovinmalta.com/news/local/malta-and-india-just-got-closer-thanks-to-new-airline-agreement/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T10:00:58+00:00",
+   "summary": "Travelling between Malta and India is set to become more convenient, with KM Malta Airlines and Air India announcing a new codeshare agreement that will allow passengers to book their entire journey on a single ticket. S",
+   "image": "news-img/cd3496ee81fa.jpg",
+   "topic": "Lifestyle",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Dylan-Covers-3-41-1024x536.jpg"
+  },
+  {
+   "id": "0896847addaf",
+   "title": "Teacher and students invited to China–Malta People-to-People exchange meeting",
+   "url": "https://newsbook.com.mt/en/teacher-and-students-invited-to-china-malta-people-to-people-exchange-meeting/",
+   "source": "Newsbook",
+   "published": "2026-11-27T09:57:56+00:00",
+   "summary": "A teacher and two students of St. Margaret College Secondary School Verdala, Cospicua were recently invited to the China-Malta People-to-People Exchange Meeting at the China Cultural Centre Malta in Valletta.\nThe post Te",
+   "image": "news-img/0896847addaf.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/27105549/ADDENDUM-Photo-a-Science-China-Corner-Founder-Teacher-and-students-invited-to-attend-the-China-%E2%80%93-Malta-People%E2%80%93to-People-Exchange-Meeting-at-the-China-Cultural-Centre-Malta-24th-November-2026.jpeg"
+  },
+  {
+   "id": "2957aea388f8",
+   "title": "Abortion documentary Dear Decision Makers premieres, released online",
+   "url": "https://timesofmalta.com/article/abortion-documentary-dear-decision-makers-premieres-released-online.1137754",
+   "source": "Times of Malta",
+   "published": "2026-11-27T09:57:00+00:00",
+   "summary": "Dear Decision Makers premiered at Spazju Kreattiv on Thursday and was followed by a panel discussion. Photo: Dear Decision Makers",
+   "image": "news-img/2957aea388f8.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/a5b4440b9b68e78aaeeb0b5878a59c7111a1070f-1795773703-5b33d05c-1920x1280.jpg"
+  },
   {
    "id": "cc4a79139e21",
    "title": "Pregnant Mother Of Seven Appeals Jail Sentence After Son Uses Her Passport In Illegal Migration Scheme",
@@ -200,17 +277,6 @@
    "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Dylan-Covers-3-39-1024x536.jpg"
   },
   {
-   "id": "8f31736f1377",
-   "title": "Malta Eurovision Song Contest 2027 Final Set For 30th January",
-   "url": "https://lovinmalta.com/news/local/malta-eurovision-song-contest-2027-final-set-for-30th-january/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T08:09:29+00:00",
-   "summary": "The Malta Eurovision Song Contest (MESC) 2027 final will officially take place on Saturday, 30th January, PBS has announced. The winner of the competition will go on to represent Malta at the Eurovision Song Contest in B",
-   "image": "news-img/8f31736f1377.jpg",
-   "topic": "Business",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T090406.278-1024x536.jpg"
-  },
-  {
    "id": "d2047265d080",
    "title": "Gozo tourism operators object to sharp increase in annual licence fees",
    "url": "https://newsbook.com.mt/en/gozo-tourism-operators-object-to-sharp-increase-in-annual-licence-fees/",
@@ -286,17 +352,6 @@
    "image": "news-img/40cce9fc4f77.jpg",
    "topic": "Malta",
    "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2022/01/15175254/maxresdefault17.jpg"
-  },
-  {
-   "id": "f05b3e5b048b",
-   "title": "Malta’s Video Referee System Earns Praise From Top International Football Official",
-   "url": "https://lovinmalta.com/news/local/maltas-video-referee-system-earns-praise-from-top-international-football-official/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T06:30:28+00:00",
-   "summary": "Malta’s use of video technology in football has earned praise from a senior international official responsible for overseeing the sport’s rules. David Elleray, Technical Director of the International Football Association",
-   "image": "news-img/f05b3e5b048b.jpg",
-   "topic": "Lifestyle",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Dylan-Covers-3-31-1024x536.jpg"
   },
   {
    "id": "2c040c6af801",
@@ -387,39 +442,6 @@
    "image_src": "https://cdn-attachments.timesofmalta.com/a3ff5407366cb9b4322964e35d2d2a831ab6943d-1795690368-e06b1beb-1920x1280.jpg"
   },
   {
-   "id": "9b475ed10f5e",
-   "title": "Here we go again",
-   "url": "https://timesofmalta.com/article/go.1137684",
-   "source": "Times of Malta",
-   "published": "2026-11-27T05:00:00+00:00",
-   "summary": "An incineration centre outside Paris. File photo: Shutterstock.com",
-   "image": "news-img/9b475ed10f5e.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/3f57e0fbb9479306685370acd25fbbd35d7e360a-1795684631-dfa8799e-1920x1280.jpg"
-  },
-  {
-   "id": "ab4d5cf9a798",
-   "title": "New York postpones Thanksgiving parade as 'heavy' storm hits US East Coast",
-   "url": "https://timesofmalta.com/article/new-york-postpones-thanksgiving-parade-heavy-storm-hits-us-east-coast.1137738",
-   "source": "Times of Malta",
-   "published": "2026-11-26T18:46:00+00:00",
-   "summary": "New York postponed the iconic Macy's Thanksgiving Day Parade to Saturday over fears of extreme weather, a first in the event's 100-year history. Photo: AFP",
-   "image": "news-img/ab4d5cf9a798.jpg",
-   "topic": "Lifestyle",
-   "image_src": "https://cdn-attachments.timesofmalta.com/e04b8b4245e465c2437f93a2466995466cb8be29-1795718732-a58c3204-1920x1280.jpg"
-  },
-  {
-   "id": "7df77dc05fc0",
-   "title": "Nine people with disabilities gain skills for independent living and employment",
-   "url": "https://timesofmalta.com/article/nine-people-disabilities-gain-skills-independent-living-employment.1137737",
-   "source": "Times of Malta",
-   "published": "2026-11-26T18:31:00+00:00",
-   "summary": "Nine people with disabilities were awarded certificates after successfully completing Aġenzija Sapport’s Way to Work and Skills4Life programmes. Photo: DOI",
-   "image": "news-img/7df77dc05fc0.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/22fcfee66f64c5ac3fdd14860f9a1a65a0711967-1795717940-91b709f1-1920x1280.jpg"
-  },
-  {
    "id": "7853217b8026",
    "title": "Malta’s 5% economic growth driven by domestic demand and services",
    "url": "https://newsbook.com.mt/en/maltas-5-economic-growth-driven-by-domestic-demand-and-services/",
@@ -484,28 +506,6 @@
    "image": "news-img/7339ec805cbf.jpg",
    "topic": "Business",
    "image_src": "https://businessnow.mt/wp-content/uploads/2026/01/tourism-valletta-pexels-pham-ngoc-anh-170983008-14237616-social.jpg"
-  },
-  {
-   "id": "3b6cab681d22",
-   "title": "MHRA accuses government of treating tourism as ‘Cinderella’ after fresh licence fee increase",
-   "url": "https://newsbook.com.mt/en/mhra-accuses-government-of-treating-tourism-as-cinderella-after-fresh-licence-fee-increase/",
-   "source": "Newsbook",
-   "published": "2026-11-26T12:05:22+00:00",
-   "summary": "The Malta Hotels and Restaurants Association (MHRA) has accused the government of treating tourism as the “Cinderella” of its economic policy, after a fresh increase in annual licence fees for hotels ranging from five st",
-   "image": "news-img/3b6cab681d22.jpg",
-   "topic": "Business",
-   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/10/26141048/budget-2027-people-nies-tourists-turisti-valletta-scaled.jpg"
-  },
-  {
-   "id": "78cb0ca72810",
-   "title": "26 organisations to join Palestine solidarity march in Valletta on Saturday",
-   "url": "https://newsbook.com.mt/en/26-organisations-to-join-palestine-solidarity-march-in-valletta-on-saturday/",
-   "source": "Newsbook",
-   "published": "2026-11-26T10:24:35+00:00",
-   "summary": "Ġustizzja għall-Palestina and 26 endorsing organisations, including the General Workers’ Union and the Medical Association of Malta, will hold a solidarity march in Valletta on Saturday, 28 November, calling on Malta’s g",
-   "image": "news-img/78cb0ca72810.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2024/10/06155914/WhatsApp-Image-2024-10-06-at-15.51.50.jpeg"
   },
   {
    "id": "3fb3edfe581d",
@@ -660,17 +660,6 @@
    "image": "news-img/e490afa8384e.jpg",
    "topic": "Lifestyle",
    "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/20145146/ATLAS-insurance.jpg"
-  },
-  {
-   "id": "eaed2e7a0be0",
-   "title": "BOV wins gold for best cross-functional collaboration at ECCCSA 2026",
-   "url": "https://newsbook.com.mt/en/bov-wins-gold-for-best-cross-functional-collaboration-at-ecccsa-2026/",
-   "source": "Newsbook Business",
-   "published": "2026-11-20T13:41:46+00:00",
-   "summary": "Bank recognised for coordinated approach to fraud awareness\nThe post BOV wins gold for best cross-functional collaboration at ECCCSA 2026 appeared first on Newsbook.",
-   "image": "news-img/eaed2e7a0be0.jpg",
-   "topic": "Business",
-   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/20143148/BOV-.jpg"
   }
  ]
 }
