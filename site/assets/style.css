@@ -502,3 +502,30 @@ tr.best td{background:rgba(43,76,196,.04)}
 .mh-note{background:#eef3fb;border-radius:12px;padding:10px 14px;font-size:14px;color:var(--ink2)}
 .mh-tag.doc{background:rgba(47,209,139,.18);border-color:rgba(47,209,139,.45);color:#9ff0c6}
 @media(max-width:640px){.mh-recur{grid-template-columns:1fr}.mh-frow{grid-template-columns:auto 1fr}.mh-fv{grid-column:2;text-align:left}}
+
+/* ===== Blue's videos ===== */
+.vid-top{margin:22px 0 6px}
+.vid-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.vid-wrap{aspect-ratio:16/9;background:#000}.vid-wrap video{width:100%;height:100%;display:block;object-fit:cover;background:#000}
+.vid-card .bc-body{padding:14px 16px 16px}.vid-card h3{margin:4px 0 6px;font-size:18px;color:var(--navy)}.vid-card p{margin:0 0 8px;color:var(--muted);font-size:14px}
+.vid-intro{position:fixed;inset:0;z-index:300;background:rgba(5,14,28,.82);backdrop-filter:blur(6px);display:grid;place-items:center;padding:20px;animation:vi-in .25s ease}
+.vi-box{width:min(960px,100%);border-radius:20px;overflow:hidden;background:#000;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.vi-box video{width:100%;display:block;aspect-ratio:16/9;background:#000}
+.vi-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;background:#0d2a4a;color:#fff}
+.vi-t{display:flex;align-items:center;gap:10px;font-weight:700}
+@keyframes vi-in{from{opacity:0}to{opacity:1}}
+/* ===== living action buttons: a soft halo that breathes ===== */
+@keyframes cm-breathe{0%,100%{box-shadow:0 0 0 0 rgba(77,144,254,.5),0 6px 14px -6px rgba(43,76,196,.55)}55%{box-shadow:0 0 0 9px rgba(77,144,254,0),0 0 26px 4px rgba(77,144,254,.32)}}
+.btn.blue,.btn.cta:not(.ghost){animation:cm-breathe 2.8s ease-in-out infinite}
+.btn.blue:nth-of-type(2n),.btn.cta:nth-of-type(2n){animation-delay:-1.4s}
+/* Money Health pill: a colour ring that keeps turning, with a glow */
+@property --cm-a{syntax:'<angle>';inherits:false;initial-value:0deg}
+@keyframes cm-spin{to{--cm-a:360deg}}
+.mh-pill{isolation:isolate}
+.mh-pill::before{content:"";position:absolute;inset:-2.5px;border-radius:inherit;padding:2.5px;z-index:-1;
+  background:conic-gradient(from var(--cm-a),#ff6b5b,#ffd25c,#2fd18b,#4d90fe,#ff6b5b);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:cm-spin 3s linear infinite}
+.mh-pill::after{content:"";position:absolute;inset:-6px;border-radius:inherit;z-index:-2;filter:blur(10px);opacity:.55;
+  background:conic-gradient(from var(--cm-a),#ff6b5b,#ffd25c,#2fd18b,#4d90fe,#ff6b5b);animation:cm-spin 3s linear infinite}
+.ck-band{position:relative;isolation:isolate}
+@media(prefers-reduced-motion:reduce){.btn.blue,.btn.cta,.mh-pill::before,.mh-pill::after{animation:none}}

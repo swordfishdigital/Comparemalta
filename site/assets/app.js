@@ -899,6 +899,40 @@ async function pageNews() {
 const newsTabs = on => `<div class="news-tabs"><a class="${on === "news" ? "on" : ""}" href="#news">${t("tabNews")}</a><a class="${on === "articles" ? "on" : ""}" href="#articles"><span class="bp-dot">${V.mascot(20, "wink")}</span>${t("blogTitle")}</a></div>`;
 const artDate = d => new Date(d).toLocaleDateString(lang === "en" ? "en-GB" : lang, {day: "numeric", month: "long", year: "numeric"});
 async function pageMoneyHealth() { return window.CMMoneyHealth ? window.CMMoneyHealth.page(lang, {esc, V}) : ""; }
+/* ---------- Blue's videos: embedded in Blue's picks, and shown once before Money Health and Check my bill ---------- */
+const VIDEOS = [
+  {id: "launch", len: "0:45", href: "",
+    t: {en: "Meet CompareMalta.ai", mt: "Iltaqa' ma' CompareMalta.ai", it: "Ecco CompareMalta.ai"},
+    s: {en: "45 seconds on what Blue can do for you: banks, loans, cards, POS, FX and mobile, side by side.", mt: "45 sekonda fuq x'jista' jagħmel Blue għalik: banek, self, kards, POS, FX u mowbajl, ħdejn xulxin.", it: "45 secondi su cosa può fare Blue per te: banche, prestiti, carte, POS, cambi e mobile, fianco a fianco."}},
+  {id: "money-health", len: "0:30", href: "#money-health",
+    t: {en: "How healthy is your money?", mt: "Kemm hi b'saħħitha l-flus tiegħek?", it: "Quanto sono in salute i tuoi soldi?"},
+    s: {en: "A few quick questions, one clear score from 1 to 100, and three next moves from Blue.", mt: "Ftit mistoqsijiet, punteġġ wieħed ċar minn 1 sa 100, u tliet passi li jmiss minn Blue.", it: "Poche domande, un punteggio chiaro da 1 a 100 e tre prossime mosse da Blue."},
+    cta: {en: "Check my Money Health", mt: "Iċċekkja s-Saħħa Finanzjarja", it: "Controlla la mia Money Health"}},
+  {id: "check-my-bill", len: "0:30", href: "#check",
+    t: {en: "Upload your bill. Blue does the rest.", mt: "Tella' l-kont. Blue jagħmel il-bqija.", it: "Carica la bolletta. Al resto pensa Blue."},
+    s: {en: "Mobile, internet or POS: Blue reads every line, tells you what to fix and finds better fits.", mt: "Mowbajl, internet jew POS: Blue jaqra kull linja, jgħidlek x'għandek tirranġa u jsib għażliet aħjar.", it: "Mobile, internet o POS: Blue legge ogni riga, ti dice cosa sistemare e trova offerte migliori."},
+    cta: {en: "Check my bill", mt: "Iċċekkja l-kont", it: "Controlla la bolletta"}},
+];
+const VT = {en: {badge: "Blue's video", skip: "Skip", go: "Continue"}, mt: {badge: "Vidjo ta' Blue", skip: "Aqbeż", go: "Kompli"}, it: {badge: "Video di Blue", skip: "Salta", go: "Continua"}};
+const vt = k => (VT[lang] || VT.en)[k];
+const vidCard = v => `<div class="vid-card"><div class="vid-wrap"><video controls playsinline preload="none" poster="media/video/${v.id}.jpg" src="media/video/${v.id}.mp4" aria-label="${esc(tx(v.t))}"></video></div>
+  <div class="bc-body"><p class="eyebrow"><span class="art-tag">${vt("badge")}</span> · ${v.len}</p><h3>${esc(tx(v.t))}</h3><p>${esc(tx(v.s))}</p>${v.href ? `<a class="bp-cta" href="${v.href}">${esc(tx(v.cta))} →</a>` : ""}</div></div>`;
+// first visit to a feature: play its film once, then carry on (remembered per browser)
+function introOnce(id) {
+  let seen = false; try { seen = localStorage.getItem("cm_intro_" + id) === "1"; localStorage.setItem("cm_intro_" + id, "1"); } catch (e) { return; }
+  if (seen || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const v = VIDEOS.find(x => x.id === id); if (!v) return;
+  const o = document.createElement("div"); o.className = "vid-intro"; o.setAttribute("role", "dialog"); o.setAttribute("aria-label", tx(v.t));
+  o.innerHTML = `<div class="vi-box"><video playsinline poster="media/video/${id}.jpg" src="media/video/${id}.mp4"></video>
+    <div class="vi-bar"><span class="vi-t">${V.mascot(26, "wink")} ${esc(tx(v.t))}</span><button class="btn blue sm vi-go">${vt("go")} →</button></div></div>`;
+  document.body.appendChild(o);
+  const vid = o.querySelector("video"), close = () => { vid.pause(); o.remove(); document.removeEventListener("keydown", esc_); };
+  const esc_ = e => { if (e.key === "Escape") close(); };
+  document.addEventListener("keydown", esc_);
+  o.querySelector(".vi-go").onclick = close; o.onclick = e => { if (e.target === o) close(); };
+  vid.onended = close;
+  vid.play().catch(() => { vid.muted = true; vid.controls = true; vid.play().catch(() => {}); });
+}
 async function pageBlog() {
   const arts = await get("articles"); const all = artItems(arts);
   const topics = [...new Set(all.map(a => a.topic))];
@@ -906,6 +940,7 @@ async function pageBlog() {
     <div class="bc-body"><p class="eyebrow">${esc(a.topic)} · ${artDate(a.published)}</p><h3>${esc(a.title)}</h3><p>${esc(a.summary)}</p><span class="bp-cta">${t("readArt")} →</span></div></a>`;
   setTimeout(() => {
     let tp = "";
+    const vids = [...VIDEOS].sort(() => Math.random() - .5); // a different order on every visit, always near the top
     const draw = () => {
       const list = all.filter(a => !tp || a.topic === tp);
       const [lead, ...rest] = list;
@@ -914,7 +949,10 @@ async function pageBlog() {
         <a class="blog-lead" href="${esc(lead.url)}"><div class="bl-img">${lead.image ? `<img src="${esc(lead.image)}" alt="">` : V.newsThumb(lead.topic)}</div>
           <div class="bl-body"><div class="bp-head"><span class="bp-av">${V.mascot(30, "wink")}</span><span><b>${t("blogLatest")}</b><small>${esc(lead.topic)} · ${artDate(lead.published)}</small></span></div>
           <h2>${esc(lead.title)}</h2><p>${esc(lead.summary)}</p><span class="bp-cta">${t("readArt")} →</span></div></a>
-        ${Object.entries(months).map(([m, list]) => `<h3 class="blog-month">${esc(m)}</h3><div class="blog-grid">${list.map(card).join("")}</div>`).join("")}`;
+        ${Object.entries(months).map(([m, list], i) => { const cells = list.map(card);
+          if (i === 0 && !tp) vids.forEach(v => cells.splice(Math.floor(Math.random() * Math.min(cells.length + 1, 4)), 0, vidCard(v)));
+          return `<h3 class="blog-month">${esc(m)}</h3><div class="blog-grid">${cells.join("")}</div>`; }).join("")}
+        ${!rest.length && !tp ? `<div class="blog-grid vid-top">${vids.map(vidCard).join("")}</div>` : ""}`;
     };
     document.querySelectorAll("[data-bt]").forEach(b => b.onclick = () => { tp = b.dataset.bt; document.querySelectorAll("[data-bt]").forEach(x => x.classList.toggle("on", x === b)); draw(); });
     draw();
@@ -1222,7 +1260,8 @@ async function route() {
   const pages = {"money-health": pageMoneyHealth, articles: pageBlog, blog: pageBlog, newsletter: pageNewsletter, partners: pagePartners, contact: pagePartners, news: pageNews, check: pageCheck, privacy: pagePrivacy, dining: pageDining, calculators: pageCalcs, categories: pageCategories, "how-we-rank": pageHow, contact: pageContact};
   $("#app").innerHTML = await (r.startsWith("article/") ? pageArticle(r.slice(8)) : pages[r] ? pages[r]() : D.categories?.config[r] ? pageCategory(r) : pageHome());
   if ($("#heroForm")) bindHome();
-  if (r === "money-health") window.CMMoneyHealth?.mount();
+  if (r === "money-health") { window.CMMoneyHealth?.mount(); introOnce("money-health"); }
+  if (r === "check") introOnce("check-my-bill");
   bindNewsletter();
   window.scrollTo(0, 0);
 }
