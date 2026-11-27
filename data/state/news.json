@@ -1,16 +1,324 @@
 {
- "updated": "2026-11-27T10:27:09+00:00",
+ "updated": "2026-11-27T13:48:12+00:00",
  "items": [
   {
-   "id": "bd2eb5f7d6b3",
-   "title": "Malta’s Government Debt Hits €12.18 Billion As Deficit Rises To €695.4 Million",
-   "url": "https://lovinmalta.com/news/local/maltas-government-debt-hits-e12-18-billion-as-deficit-rises-to-e695-4-million/",
+   "id": "4a372a5f9715",
+   "title": "Two Shops Catch Fire  In Gozo’s St George’s  Square As Police Launch Investigation",
+   "url": "https://lovinmalta.com/news/local/two-shops-catch-fire-in-gozos-st-georges-square-as-police-launch-investigation/",
    "source": "Lovin Malta",
-   "published": "2026-11-27T10:18:26+00:00",
-   "summary": "Malta’s Central Government debt reached €12.18 billion by the end of October 2026, marking an increase of almost €1 billion compared to the same month last year. According to the latest figures published by the National ",
-   "image": "news-img/bd2eb5f7d6b3.jpg",
+   "published": "2026-11-27T13:47:40+00:00",
+   "summary": "Two shops caught fire in St George’s Square during the early hours of Friday morning, prompting an investigation by the police. Police confirmed to Lovin Malta that the incident occurred at around 3am. The fire reportedl",
+   "image": "news-img/4a372a5f9715.jpg",
+   "topic": "Business",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Dylan-Covers-3-45-1024x536.jpg"
+  },
+  {
+   "id": "ba6a81608264",
+   "title": "Court Dismisses Yorgen Fenech’s Bid To Have Melvin Theuma’s Presidential Pardon Revoked",
+   "url": "https://lovinmalta.com/news/local/court-dismisses-yorgen-fenechs-bid-to-have-melvin-theumas-presidential-pardon-revoked/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T13:43:04+00:00",
+   "summary": "A court has dismissed Yorgen Fenech’s bid to have self-confessed middleman Melvin Theuma’s presidential pardon revoked, ruling that his claims of a breach of his right to a fair trial are premature. In a judgment deliver",
+   "image": "news-img/ba6a81608264.jpg",
+   "topic": "Malta",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T143856.244-1024x536.jpg"
+  },
+  {
+   "id": "3f342a50332b",
+   "title": "Deficit surges 86% to €695 million in first ten months of 2026",
+   "url": "https://newsbook.com.mt/en/deficit-surges-86-to-e695-million-in-first-ten-months-of-2026/",
+   "source": "Newsbook",
+   "published": "2026-11-27T13:34:25+00:00",
+   "summary": "The deficit increased by 86% year-on-year to €695.4 million in the first ten months of 2026, data from the National Statistics Office shows, exposing a widening gap between state spending and revenue.\nThe post Deficit su",
+   "image": "news-img/3f342a50332b.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2025/10/27144024/BUDGET-2026-money-flus-stipendji-stipend-gholi-tal-hajja.jpg"
+  },
+  {
+   "id": "70ab47c9793a",
+   "title": "Fancy A Spa Day? Hard Rock Hotel Malta Has Some Tempting Black Friday Packages",
+   "url": "https://lovinmalta.com/sponsored/fancy-a-spa-day-hard-rock-hotel-malta-has-some-tempting-black-friday-packages/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T13:30:54+00:00",
+   "summary": "Rock Spa at Hard Rock Hotel Malta has just dropped a Black Friday spa deal worth clearing your afternoon for: a full hour-long massage, two hours in the wellness pool and thermal facilities and lunch at Nine Arches, all ",
+   "image": "news-img/70ab47c9793a.jpg",
+   "topic": "Malta",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/mariam-fb-covers-4-37-1024x577.jpg"
+  },
+  {
+   "id": "9524bc01ba77",
+   "title": "Watch: Qrendi Residents Fight Back Against Massive Development On 8,000sqm Of Fields",
+   "url": "https://lovinmalta.com/news/local/watch-qrendi-residents-fight-back-against-massive-development-on-8000sqm-of-fields/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T13:29:18+00:00",
+   "summary": "A Qrendi resident has made an emotional appeal against a proposed development affecting more than 8,000 square metres of fields, warning that it could permanently change the character of his village.   View this post on ",
+   "image": "news-img/9524bc01ba77.jpg",
+   "topic": "Malta",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Dylan-Covers-3-44-1024x536.jpg"
+  },
+  {
+   "id": "0d6d066b59bc",
+   "title": "Two accused of stealing car batteries from eCabs garage",
+   "url": "https://timesofmalta.com/article/two-accused-stealing-car-batteries-ecabs-garage.1137779",
+   "source": "Times of Malta",
+   "published": "2026-11-27T13:17:00+00:00",
+   "summary": "The two accused were seen in CCTV footage stealing the batteries from the garage. File photo: Times of Malta",
+   "image": "news-img/0d6d066b59bc.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/b1cb8daf6b030b7d178059dbe3c98dc6ed72d24b-1795785490-e2f694f4-1920x1280.jpeg"
+  },
+  {
+   "id": "59c17739d96f",
+   "title": "‘You Are Malta’s True Ambassadors’: Chris Fearne Addresses Maltese Communities Living Abroad",
+   "url": "https://lovinmalta.com/international/you-are-maltas-true-ambassadors-chris-fearne-addresses-maltese-communities-living-abroad/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T13:14:27+00:00",
+   "summary": "Foreign and European Affairs Minister Chris Fearne has described Maltese citizens living abroad as the country’s “true ambassadors”, highlighting their contribution to keeping Malta’s identity alive across the world. Fea",
+   "image": "news-img/59c17739d96f.jpg",
+   "topic": "Business",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T133829.748-1024x536.jpg"
+  },
+  {
+   "id": "5340c8fd33c8",
+   "title": "Horizon Europe Opens Up over €1 Billion in Funding Opportunities across Digital, Industry & Space",
+   "url": "https://newsbook.com.mt/en/horizon-europe-opens-up-over-e1-billion-in-funding-opportunities-across-digital-industry-space/",
+   "source": "Newsbook",
+   "published": "2026-11-27T13:12:54+00:00",
+   "summary": "Horizon Europe, the European Union’s flagship research and innovation programme, offers Maltese businesses, researchers and innovators opportunities to develop new technologies and collaborate with international partners",
+   "image": "news-img/5340c8fd33c8.jpg",
+   "topic": "Business",
+   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/26150534/PR-Xjenza-Malta-Horizon-Europe-Opens-Up-over-E1-Billion-in-Funding-Opportunities-across-Digital-Industry-Space.jpg"
+  },
+  {
+   "id": "a19befabd484",
+   "title": "Too early to rule on Fenech’s fair trial claim over Theuma pardon, judge says",
+   "url": "https://timesofmalta.com/article/early-rule-fenech-fair-trial-claim-theuma-pardon-judge-says.1137778",
+   "source": "Times of Malta",
+   "published": "2026-11-27T13:05:00+00:00",
+   "summary": "Yorgen Fenech and Melvin Theuma. Photos: Matthew Mirabelli",
+   "image": "news-img/a19befabd484.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/462506f880a2939a00c80becc672eb6da219183b-1795784568-ac3bcdd5-1920x1280.png"
+  },
+  {
+   "id": "b17b6406d418",
+   "title": "Seven New Career Opportunities To Explore This Week On Keepmeposted",
+   "url": "https://lovinmalta.com/sponsored/seven-new-career-opportunities-to-explore-this-week-on-keepmeposted/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T12:55:26+00:00",
+   "summary": "Ready for something new professionally? This week’s vacancies cover a mix of industries, with opportunities for those who enjoy working with numbers, managing projects, solving technical problems or keeping busy behind t",
+   "image": "news-img/b17b6406d418.jpg",
+   "topic": "Malta",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/mariam-fb-covers-4-36-1024x577.jpg"
+  },
+  {
+   "id": "f352bc5f8d84",
+   "title": "Maltese Documentary Giving A Voice To Those Affected By Abortion Laws Premieres",
+   "url": "https://lovinmalta.com/news/local/maltese-documentary-giving-a-voice-to-those-affected-by-abortion-laws-premieres/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T12:45:10+00:00",
+   "summary": "A powerful new Maltese documentary exploring the personal stories behind the country’s abortion laws has held its private premiere, with organisers sharing photographs from the event. Titled Dear Decision Makers, the doc",
+   "image": "news-img/f352bc5f8d84.jpg",
+   "topic": "Lifestyle",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Dylan-Covers-3-42-1024x536.jpg"
+  },
+  {
+   "id": "f602e6500489",
+   "title": "Five arrested as police seize crack cocaine and heroin in drug busts across Malta",
+   "url": "https://newsbook.com.mt/en/five-arrested-as-police-seize-crack-cocaine-and-heroin-in-drug-busts-across-malta/",
+   "source": "Newsbook",
+   "published": "2026-11-27T12:36:43+00:00",
+   "summary": "Five people have been arrested in connection with drug trafficking following two separate police operations targeting an alleged organised crime group, the Malta Police Force said on Friday.\nThe post Five arrested as pol",
+   "image": "news-img/f602e6500489.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/27133355/Ritratt-ta-Stqarrija-Stampa-PR-670-26-1-e1795782888295.jpeg"
+  },
+  {
+   "id": "a82a5fcaa43c",
+   "title": "Five Arrested As Police Seize Drugs, Luxury Cars And €8,000 In Cash Across Malta",
+   "url": "https://lovinmalta.com/news/local/five-arrested-as-police-seize-drugs-luxury-cars-and-e8000-in-cash-across-malta/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T12:27:50+00:00",
+   "summary": "Five people have been arrested following two separate police operations targeting individuals allegedly involved in an organised drug trafficking ring across Malta. The suspects, aged between 22 and 53, were arrested fol",
+   "image": "news-img/a82a5fcaa43c.jpg",
+   "topic": "Malta",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T132611.315-1024x536.jpg"
+  },
+  {
+   "id": "a644ff22b49e",
+   "title": "Five arrested in two drug trafficking operations",
+   "url": "https://timesofmalta.com/article/five-arrested-two-drug-trafficking-operations.1137777",
+   "source": "Times of Malta",
+   "published": "2026-11-27T12:27:00+00:00",
+   "summary": "Suspected drugs seized during the operations. Photo: Malta Police Force",
+   "image": "news-img/a644ff22b49e.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/1d82116ff7622c6016cb292cad54353888f30684-1795784599-59304e31-1920x1280.jpg"
+  },
+  {
+   "id": "fe06e8d4d719",
+   "title": "All They Want For Christmas Is A Home: Noah’s Ark Shares Heartwarming Festive Appeal | Lovin Malta",
+   "url": "https://lovinmalta.com/news/local/all-they-want-for-christmas-is-a-home-noahs-ark-shares-heartwarming-festive-appeal/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T12:18:00+00:00",
+   "summary": "The adorable dogs at Noah’s Ark Dog Sanctuary are already getting into the Christmas spirit, but for many of them, there’s only one thing on their wish list this year, a forever home. The sanctuary took to Instagram to s",
+   "image": "news-img/fe06e8d4d719.jpg",
+   "topic": "Malta",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T130224.438-1024x536.jpg"
+  },
+  {
+   "id": "81463faecfbc",
+   "title": "Planning Authority Approves 122 New Homes In Żurrieq’s Contested Nigret Area",
+   "url": "https://lovinmalta.com/news/local/planning-authority-approves-122-new-homes-in-zurrieqs-contested-nigret-area/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T12:13:23+00:00",
+   "summary": "The Planning Authority has approved the construction of 122 residential units in Żurrieq’s Nigret area, forming part of a wider residential complex on a large stretch of former agricultural land. The application was appr",
+   "image": "news-img/81463faecfbc.jpg",
+   "topic": "Property",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T125305.830-1024x536.jpg"
+  },
+  {
+   "id": "2d45139b5ae3",
+   "title": "Abela says EU budget financing and fairness still need work after revised plan",
+   "url": "https://timesofmalta.com/article/abela-says-eu-budget-financing-fairness-still-need-work-revised-plan.1137774",
+   "source": "Times of Malta",
+   "published": "2026-11-27T12:01:00+00:00",
+   "summary": "Prime Minister Robert Abela during the extraordinary European Council summit. Photo: OPM",
+   "image": "news-img/2d45139b5ae3.jpg",
+   "topic": "Business",
+   "image_src": "https://cdn-attachments.timesofmalta.com/f7bff9521d86ef1e50f45775671d50133ede7237-1795781065-4f6e5913-1920x1280.jpg"
+  },
+  {
+   "id": "40bec1d0723d",
+   "title": "SDM wins MCAST student council elections for first time",
+   "url": "https://timesofmalta.com/article/sdm-wins-mcast-student-council-elections-first-time.1137773",
+   "source": "Times of Malta",
+   "published": "2026-11-27T11:57:00+00:00",
+   "summary": "The SDM candidates who contested the MCAST student council, seven of whom were elected. Photo: SDM",
+   "image": "news-img/40bec1d0723d.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/68605d53ecd22e687081834cd86aff78e5592c51-1795781737-96b80497-1920x1280.png"
+  },
+  {
+   "id": "81c8721f9df8",
+   "title": "SDM Makes History With First-Ever MCAST Student Council Majority",
+   "url": "https://lovinmalta.com/news/local/sdm-makes-history-with-first-ever-mcast-student-council-majority/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T11:50:51+00:00",
+   "summary": "Studenti Demokristjani Maltin (SDM) has secured a majority on the MCAST Student Council for the first time in the institution’s history, winning seven of the 13 available seats. SDM received 6,694 votes, while independen",
+   "image": "news-img/81c8721f9df8.jpg",
+   "topic": "Malta",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Dylan-Covers-3-43-1024x536.jpg"
+  },
+  {
+   "id": "4ac9955324c7",
+   "title": "How Malta became Europe's online gaming capital",
+   "url": "https://timesofmalta.com/article/malta-europe-online-gaming-capital-a2.1137772",
+   "source": "Times of Malta",
+   "published": "2026-11-27T11:49:00+00:00",
+   "summary": "Someone browsing the latest casino bonus offers still needs to distinguish promotional credit from money that can be withdrawn. Photo: Shutterstock",
+   "image": "news-img/4ac9955324c7.jpg",
+   "topic": "Business",
+   "image_src": "https://cdn-attachments.timesofmalta.com/9237418ce78b5392758524a339ba9ea022c97edd-1795780213-199d3b76-1920x1280.jpg"
+  },
+  {
+   "id": "341239c36644",
+   "title": "JA Malta wins Model Organisation Award at JA Europe Leadership Summit 2026",
+   "url": "https://newsbook.com.mt/en/ja-malta-wins-model-organisation-award-at-ja-europe-leadership-summit-2026/",
+   "source": "Newsbook",
+   "published": "2026-11-27T11:48:04+00:00",
+   "summary": "JA Malta has been named Model Organisation at the JA Europe Leadership Summit 2026, receiving the award at the gala in Bucharest, Romania, on the final night of the summit. \nThe post JA Malta wins Model Organisation Awar",
+   "image": "news-img/341239c36644.jpg",
+   "topic": "Business",
+   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/27124653/JA-EU-Summit-Gala-Foto-Nadir-Cherim-315.jpg"
+  },
+  {
+   "id": "b984a0612723",
+   "title": "PA approves two more apartment blocks in Żurrieq’s Nigret",
+   "url": "https://newsbook.com.mt/en/pa-approves-two-more-apartment-blocks-in-zurrieqs-nigret-area/",
+   "source": "Newsbook",
+   "published": "2026-11-27T11:33:40+00:00",
+   "summary": "The Planning Authority has issued permits for two additional apartment blocks in the Nigret area of Żurrieq, bringing the total number of approved residences in the contested zone to four out of five applications, amount",
+   "image": "news-img/b984a0612723.jpg",
+   "topic": "Property",
+   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/27113714/Nigret.jpg"
+  },
+  {
+   "id": "4ccefee7b11b",
+   "title": "‘Everest: The Other Side’ charts highs and lows of love and mountains",
+   "url": "https://timesofmalta.com/article/everest-side-charts-highs-lows-love-mountains.1137768",
+   "source": "Times of Malta",
+   "published": "2026-11-27T11:17:00+00:00",
+   "summary": "Skier Jim Morrison climbing Mount Everest in ‘Everest: The Other Side’. Photo: Jimmy Chin",
+   "image": "news-img/4ccefee7b11b.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/219714600879dde03484d04f052cdffe63462380-1795778465-0848c037-1920x1280.jpg"
+  },
+  {
+   "id": "995f466c388b",
+   "title": "AiMS successfully delivers first ‘Basics in Safeguarding’ workshop",
+   "url": "https://newsbook.com.mt/en/aims-successfully-delivers-first-basics-in-safeguarding-workshop/",
+   "source": "Newsbook",
+   "published": "2026-11-27T11:16:07+00:00",
+   "summary": "The Authority for Integrity in Maltese Sport (AiMS) has successfully delivered the first session of its “Basics in Safeguarding” Workshop series, an initiative aimed at strengthening safeguarding standards across Maltese",
+   "image": "news-img/995f466c388b.jpg",
+   "topic": "Lifestyle",
+   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/27121516/AIMS-safeguarding-workshop2-1024x682.jpeg"
+  },
+  {
+   "id": "82f06ad66f69",
+   "title": "Judge asks to see Ricky Caruana's PBS contract",
+   "url": "https://timesofmalta.com/article/judge-ricky-caruana-pbs-contract-pn-impartiality-case.1137763",
+   "source": "Times of Malta",
+   "published": "2026-11-27T11:16:00+00:00",
+   "summary": "Presenter Ricky Caruana (right) has been cited by the PN in an impartiality suit it filed against PBS. Photos: Matthew Mirabelli/Facebook",
+   "image": "news-img/82f06ad66f69.jpg",
    "topic": "Politics",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T110437.474-1024x536.jpg"
+   "image_src": "https://cdn-attachments.timesofmalta.com/5eaa3e721e12f9431d8dc81874f2182fc897daed-1795777039-01311db6-1920x1280.jpg"
+  },
+  {
+   "id": "19ec5df62f50",
+   "title": "Thunderstorms, Rain And Temperatures As Low As 12°C Expected Across Malta In Coming Days",
+   "url": "https://lovinmalta.com/news/local/thunderstorms-rain-and-temperatures-as-low-as-12c-expected-across-malta-in-coming-days/",
+   "source": "Lovin Malta",
+   "published": "2026-11-27T11:15:32+00:00",
+   "summary": "It might be time to bring out those winter jackets as Malta is set for cooler temperatures, showers and possible thunderstorms over the coming days. According to the latest seven-day forecast from the Meteorological Offi",
+   "image": "news-img/19ec5df62f50.jpg",
+   "topic": "Malta",
+   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T114253.161-1024x536.jpg"
+  },
+  {
+   "id": "8514f9d29bda",
+   "title": "Art as activism against gender-based violence",
+   "url": "https://timesofmalta.com/article/art-activism-genderbased-violence.1137765",
+   "source": "Times of Malta",
+   "published": "2026-11-27T11:03:00+00:00",
+   "summary": "The exhibition features figurative and abstract works by 11 current students and alumni of the University’s Department of Art and Art History.",
+   "image": "news-img/8514f9d29bda.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/f74677714e44e96115fcd48a36a12461f6ffa2aa-1795778147-c6e53b6b-1920x1280.jpg"
+  },
+  {
+   "id": "038f6e186f56",
+   "title": "Spain risks historic far-right return as PP prepares to rely on Vox",
+   "url": "https://newsbook.com.mt/en/spain-risks-historic-far-right-return-as-pp-prepares-to-rely-on-vox/",
+   "source": "Newsbook",
+   "published": "2026-11-27T10:41:38+00:00",
+   "summary": "Spain stands on the verge of returning to the past on Sunday, when the European Union’s fourth-largest economy could, for the first time since the death of the dictator Francisco Franco in 1975, propel a far-right party ",
+   "image": "news-img/038f6e186f56.jpg",
+   "topic": "Business",
+   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/27113608/Spanish-far-right-Vox-party-leader-Santiago-Abascal-.jpg"
+  },
+  {
+   "id": "fc0059b7030a",
+   "title": "Hundreds to gather for 11th edition of Caritas Christmas lunch at Curia",
+   "url": "https://timesofmalta.com/article/hundreds-gather-11th-edition-caritas-christmas-lunch-curia.1137761",
+   "source": "Times of Malta",
+   "published": "2026-11-27T10:32:00+00:00",
+   "summary": "The Curia opens its doors to hundreds of people each Christmas day. Photo: Caritas",
+   "image": "news-img/fc0059b7030a.jpg",
+   "topic": "Malta",
+   "image_src": "https://cdn-attachments.timesofmalta.com/870497365d3e5563101c80ef412ebe4652596e6a-1795778979-e59ca6ee-1920x1280.jpg"
   },
   {
    "id": "199a396824e2",
@@ -46,17 +354,6 @@
    "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2024/10/28160911/BUDGET-2025-skola-school-klassi-studenti-tfal.jpg"
   },
   {
-   "id": "cd3496ee81fa",
-   "title": "Malta And India Just Got Closer Thanks To New Airline Agreement",
-   "url": "https://lovinmalta.com/news/local/malta-and-india-just-got-closer-thanks-to-new-airline-agreement/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T10:00:58+00:00",
-   "summary": "Travelling between Malta and India is set to become more convenient, with KM Malta Airlines and Air India announcing a new codeshare agreement that will allow passengers to book their entire journey on a single ticket. S",
-   "image": "news-img/cd3496ee81fa.jpg",
-   "topic": "Lifestyle",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Dylan-Covers-3-41-1024x536.jpg"
-  },
-  {
    "id": "0896847addaf",
    "title": "Teacher and students invited to China–Malta People-to-People exchange meeting",
    "url": "https://newsbook.com.mt/en/teacher-and-students-invited-to-china-malta-people-to-people-exchange-meeting/",
@@ -73,21 +370,21 @@
    "url": "https://timesofmalta.com/article/abortion-documentary-dear-decision-makers-premieres-released-online.1137754",
    "source": "Times of Malta",
    "published": "2026-11-27T09:57:00+00:00",
-   "summary": "Dear Decision Makers premiered at Spazju Kreattiv on Thursday and was followed by a panel discussion. Photo: Dear Decision Makers",
+   "summary": "Dear Decision Makers premiered at Spazju Kreattiv on Thursday and was followed by a panel discussion. Photo: Mike Borg",
    "image": "news-img/2957aea388f8.jpg",
    "topic": "Malta",
    "image_src": "https://cdn-attachments.timesofmalta.com/a5b4440b9b68e78aaeeb0b5878a59c7111a1070f-1795773703-5b33d05c-1920x1280.jpg"
   },
   {
-   "id": "cc4a79139e21",
-   "title": "Pregnant Mother Of Seven Appeals Jail Sentence After Son Uses Her Passport In Illegal Migration Scheme",
-   "url": "https://lovinmalta.com/news/local/pregnant-mother-of-seven-appeals-jail-sentence-after-son-uses-her-passport-in-illegal-migration-scheme/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T09:44:26+00:00",
-   "summary": "A pregnant mother of seven has appealed a three-month prison sentence over her involvement in an illegal migration scheme, arguing that the court failed to adequately consider the children who depend on her. Ahd Abdulazi",
-   "image": "news-img/cc4a79139e21.jpg",
-   "topic": "Malta",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T104330.792-1024x536.jpg"
+   "id": "f79488e082e6",
+   "title": "'My line is the government line': Minister mum on raising eco-tax concerns",
+   "url": "https://timesofmalta.com/article/my-line-government-line-minister-mum-raising-ecotax-concerns.1137753",
+   "source": "Times of Malta",
+   "published": "2026-11-27T09:53:00+00:00",
+   "summary": "Tourism Minister JoEtienne Abela refused to give his opinion on the eco-tax hike. Photo: Matthew Mirabelli",
+   "image": "news-img/f79488e082e6.jpg",
+   "topic": "Business",
+   "image_src": "https://cdn-attachments.timesofmalta.com/1c49086a39221f0873b2545463a2e46d1831efe2-1795775157-d0563c48-1920x1280.jpeg"
   },
   {
    "id": "e7a782c7a32e",
@@ -99,17 +396,6 @@
    "image": "news-img/e7a782c7a32e.jpg",
    "topic": "Business",
    "image_src": "https://businessnow.mt/wp-content/uploads/2026/11/Melita-New-Zabbar-Outlet.jpg"
-  },
-  {
-   "id": "ef4faeba6126",
-   "title": "Black Flyday Is Here: KM Malta Airlines Launches Flight Discounts",
-   "url": "https://lovinmalta.com/lifestyle/travel/black-flyday-is-here-km-malta-airlines-launches-flight-discounts-starting-from-20/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T09:39:40+00:00",
-   "summary": "Fancy swapping your daily routine for a European city break? Now might be the perfect time to book. Black Friday isn’t just about shopping bags this year, it’s about packing your suitcase, too. KM Malta Airlines has offi",
-   "image": "news-img/ef4faeba6126.jpg",
-   "topic": "Business",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Ally-Covers-48-1024x601.jpg"
   },
   {
    "id": "9d5608c60ae7",
@@ -145,39 +431,6 @@
    "image_src": "https://cdn-attachments.timesofmalta.com/9f741c67c591f2daee1856f21c2be997fe11db31-1795771086-c8e882b6-1920x1280.png"
   },
   {
-   "id": "e4d5d0ce2d06",
-   "title": "db Group Founder Silvio Debono Honoured With Lifetime Achievement Award",
-   "url": "https://lovinmalta.com/news/local/db-group-founder-silvio-debono-honoured-with-lifetime-achievement-award/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T09:15:52+00:00",
-   "summary": "db Group founder and chairman Silvio Debono has been honoured with the MARE NOSTRUM Lifetime Achievement Award at the Mediterranean Tourism Awards 2026, recognising more than four decades of entrepreneurship and investme",
-   "image": "news-img/e4d5d0ce2d06.jpg",
-   "topic": "Business",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T101203.491-1024x536.jpg"
-  },
-  {
-   "id": "422f5d11b4e4",
-   "title": "Watch: Abela Outlines Malta’s ‘Red Lines’ As EU Budget Talks End Without Agreement",
-   "url": "https://lovinmalta.com/news/local/watch-abela-outlines-maltas-red-lines-as-eu-budget-talks-end-without-agreement/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T09:14:53+00:00",
-   "summary": "Prime Minister Robert Abela has outlined Malta’s priorities and non-negotiables following a day and night of intensive discussions in Brussels over the European Union’s next long-term budget. Speaking following the discu",
-   "image": "news-img/422f5d11b4e4.jpg",
-   "topic": "Business",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T093120.158-1024x536.jpg"
-  },
-  {
-   "id": "ea3b5e914c8a",
-   "title": "Meridianbet’s Black Friday Offer: Choose A 50% Sports Or Casino Bonus",
-   "url": "https://lovinmalta.com/news/news-sport/meridianbets-black-friday-offer-choose-a-50-sports-or-casino-bonus/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T09:10:43+00:00",
-   "summary": "Meridianbet is marking Black Friday with a one-day promotion giving eligible players a choice between a 50% Sports Bonus up to €50 and a 50% Casino Bonus up to €50. The offer runs on Friday, 27th November 2026, from 7am ",
-   "image": "news-img/ea3b5e914c8a.jpg",
-   "topic": "Lifestyle",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-27-at-07.59.12-1024x576.jpeg"
-  },
-  {
    "id": "230be1994c47",
    "title": "Msida Creek Project: No access to Birkirkara starting Sunday",
    "url": "https://timesofmalta.com/article/msida-creek-project-no-access-birkirkara-starting-sunday.1137748",
@@ -187,17 +440,6 @@
    "image": "news-img/230be1994c47.jpg",
    "topic": "Malta",
    "image_src": "https://cdn-attachments.timesofmalta.com/08df595248da20e2b012a2038578a8704f4180f7-1795770567-e879cea1-1920x1280.png"
-  },
-  {
-   "id": "ee3abf3b32cb",
-   "title": "BILLY BOYZ Is Getting A Makeover With New Faces And A Revamped Menu",
-   "url": "https://lovinmalta.com/food/billy-boyz-is-getting-a-makeover-with-new-faces-and-a-revamped-menu/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T09:05:35+00:00",
-   "summary": "Popular Naxxar eatery BILLY BOYZ is entering a new chapter, with Craig Abdilla and Kurt Bezzina taking over its management and introducing a revamped menu. The pair, who form part of Nice Food Group, have both spent seve",
-   "image": "news-img/ee3abf3b32cb.jpg",
-   "topic": "Lifestyle",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Dylan-Covers-3-40-1024x536.jpg"
   },
   {
    "id": "00a79351e428",
@@ -211,28 +453,6 @@
    "image_src": "https://cdn-attachments.timesofmalta.com/17a43264ae70d171c0748428614e37faa4c8214a-1795268011-a41a60df-1920x1280.jpg"
   },
   {
-   "id": "9bac305f5bd9",
-   "title": "Watch: ‘I Don’t Regret What I Did’ – Terry Ta’ Bormla Speaks Out After Video Of Altercation With Elderly Man",
-   "url": "https://lovinmalta.com/news/local/watch-i-dont-regret-what-i-did-terry-ta-bormla-speaks-out-after-video-of-altercation-with-elderly-man/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T08:56:54+00:00",
-   "summary": "Maltese social media personality Terry Ta’ Bormla has taken to Facebook Live to share her side of the story after a video showing her hitting an elderly man in Bormla began doing the rounds on social media. In a livestre",
-   "image": "news-img/9bac305f5bd9.jpg",
-   "topic": "Malta",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T094519.889-1024x536.jpg"
-  },
-  {
-   "id": "7e2b574c112c",
-   "title": "Central Bank reports widening deficit and slowdown in tourism spending",
-   "url": "https://newsbook.com.mt/en/central-bank-reports-widening-deficit-and-slowdown-in-tourism-spending/",
-   "source": "Newsbook",
-   "published": "2026-11-27T08:53:13+00:00",
-   "summary": "The Central Bank of Malta today said the latest indicators give a “mixed but generally resilient” picture of the economy, with resilient industrial output and easing inflation offset by a sharply widening fiscal deficit ",
-   "image": "news-img/7e2b574c112c.jpg",
-   "topic": "Business",
-   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2024/07/29102129/Featured-Image-Autocrop-89.jpg"
-  },
-  {
    "id": "dbaddf16d083",
    "title": "Business conditions stay below average as deficit widens",
    "url": "https://timesofmalta.com/article/business-conditions-stay-average-deficit-widens.1137745",
@@ -242,50 +462,6 @@
    "image": "news-img/dbaddf16d083.jpg",
    "topic": "Business",
    "image_src": "https://cdn-attachments.timesofmalta.com/7175544c82acf12eec90f6570049d5f04e38a412-1795769763-8bc27be8-1920x1280.jpg"
-  },
-  {
-   "id": "df2014ba53a4",
-   "title": "Watch: Free Pet First Aid Courses To Return After Attracting Around 300 Participants",
-   "url": "https://lovinmalta.com/news/watch-free-pet-first-aid-courses-to-return-after-attracting-around-300-participants/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T08:49:54+00:00",
-   "summary": "Around 300 people attended the first round of free animal first aid courses in Malta, with preparations now underway for a second round following the positive response. Parliamentary Secretary for Animal Welfare Alicia B",
-   "image": "news-img/df2014ba53a4.jpg",
-   "topic": "Malta",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/FB-COVER-CHAR-18-1024x536.jpg"
-  },
-  {
-   "id": "8a712b20b165",
-   "title": "Watch: Centuries Of Valletta’s History Told In One Fascinating Video",
-   "url": "https://lovinmalta.com/news/local/watch-centuries-of-vallettas-history-told-in-one-fascinating-video/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T08:31:43+00:00",
-   "summary": "From a rocky peninsula to a fortified capital city in just five years, Valletta certainly has a story worth telling. Instagram page Cities Over Time has turned its attention to Malta’s capital, taking viewers on a journe",
-   "image": "news-img/8a712b20b165.jpg",
-   "topic": "Malta",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/GABE-FB-COVER-2026-11-27T091634.371-1024x536.jpg"
-  },
-  {
-   "id": "eaf7347d0b00",
-   "title": "Maltese Company 3D Prints Full-Sized Chair In Just Four Hours At TechXpo",
-   "url": "https://lovinmalta.com/news/local/maltese-company-3d-prints-full-sized-chair-in-just-four-hours-at-techxpo/",
-   "source": "Lovin Malta",
-   "published": "2026-11-27T08:20:35+00:00",
-   "summary": "Forget waiting weeks for furniture to arrive. A Maltese company has just shown how a full-sized chair can be 3D printed in only four hours. Invent 3D shared photos of its latest creation at TechXpo Malta, revealing a str",
-   "image": "news-img/eaf7347d0b00.jpg",
-   "topic": "Malta",
-   "image_src": "https://lovinmalta.com/wp-content/uploads/2026/11/Dylan-Covers-3-39-1024x536.jpg"
-  },
-  {
-   "id": "d2047265d080",
-   "title": "Gozo tourism operators object to sharp increase in annual licence fees",
-   "url": "https://newsbook.com.mt/en/gozo-tourism-operators-object-to-sharp-increase-in-annual-licence-fees/",
-   "source": "Newsbook",
-   "published": "2026-11-27T07:42:40+00:00",
-   "summary": "The Gozo Tourism Association (GTA) has objected to revised tourism establishment licence fees due to take effect on 1 January 2027, warning that the increase, introduced without prior consultation, compounds a series of ",
-   "image": "news-img/d2047265d080.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/10/26141048/budget-2027-people-nies-tourists-turisti-valletta-218x150.jpg"
   },
   {
    "id": "bc7a26f3a4cf",
@@ -299,160 +475,6 @@
    "image_src": "https://cdn-attachments.timesofmalta.com/dcf5057feb576dac32e56160d9d0d668d57a08ea-1795765502-a4371be7-1920x1280.jpg"
   },
   {
-   "id": "fee3feec5f5f",
-   "title": "Gozo tourism body objects to higher accommodation licence fees",
-   "url": "https://timesofmalta.com/article/gozo-tourism-body-objects-higher-accommodation-licence-fees.1137742",
-   "source": "Times of Malta",
-   "published": "2026-11-27T07:33:00+00:00",
-   "summary": "Tourists along the Marsalforn promenade. File photo: Matthew Mirabelli",
-   "image": "news-img/fee3feec5f5f.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/8e7446a9c1742a2d8181df92593fd45b6fbfa947-1795765142-dd40ce14-1920x1280.jpg"
-  },
-  {
-   "id": "045a3c26f989",
-   "title": "Motorcyclist injured in Mġarr accident",
-   "url": "https://timesofmalta.com/article/motorcyclist-injured-mgarr-accident.1137740",
-   "source": "Times of Malta",
-   "published": "2026-11-27T07:22:00+00:00",
-   "summary": "The man's injuries were grievous, according to police. File photo.",
-   "image": "news-img/045a3c26f989.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/29c5177a493549a8f54e6c59d70786c8596795a0-1795764582-0b29a627-1920x1280.jpg"
-  },
-  {
-   "id": "e3f6ac1cf0d2",
-   "title": "Today's front pages - November 27, 2022",
-   "url": "https://timesofmalta.com/article/today-front-pages-november-27-2022.1137739",
-   "source": "Times of Malta",
-   "published": "2026-11-27T07:19:00+00:00",
-   "summary": "File photo",
-   "image": "news-img/e3f6ac1cf0d2.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/7a9143154d7e628a7aa53a38efff5b39e3c609bb-1795764028-a17bef34-1920x1280.jpg"
-  },
-  {
-   "id": "59fb944fbf6c",
-   "title": "November 27: The front page of Times of Malta 10, 25 and 50 years ago",
-   "url": "https://timesofmalta.com/article/november-27-front-page-times-malta-10-25-50-years-ago.1137275",
-   "source": "Times of Malta",
-   "published": "2026-11-27T07:04:00+00:00",
-   "summary": "Times of Malta through the years.",
-   "image": "news-img/59fb944fbf6c.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/a8e1531812a6e352a3215a6e298e40f983c56598-1794990382-43383743-1920x1280.jpg"
-  },
-  {
-   "id": "40cce9fc4f77",
-   "title": "Today’s Mass and the Rosary",
-   "url": "https://newsbook.com.mt/en/join-daily-online-prayer-here-mass-rosary/",
-   "source": "Newsbook",
-   "published": "2026-11-27T07:01:16+00:00",
-   "summary": "On this page, Newsbook.com.mt is broadcasting daily mass at 9.30am. \nThe post Today’s Mass and the Rosary appeared first on Newsbook.",
-   "image": "news-img/40cce9fc4f77.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2022/01/15175254/maxresdefault17.jpg"
-  },
-  {
-   "id": "2c040c6af801",
-   "title": "Encountering Christ the King through the liturgy",
-   "url": "https://timesofmalta.com/article/encountering-christ-king-liturgy.1137726",
-   "source": "Times of Malta",
-   "published": "2026-11-27T06:30:00+00:00",
-   "summary": "Għajnsielem archpriest Joseph Hili speaking on the feast of Christ the King and the beauty of the liturgy, with the effigy of Jesus Christ crowned with thorns in the background. Photo: Charles Spiteri",
-   "image": "news-img/2c040c6af801.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/7b6d63ce06701e04e172a7d847e0af3f833e7e2a-1795703650-ee21842f-1920x1280.jpg"
-  },
-  {
-   "id": "a254253d21f9",
-   "title": "When machines think, what remains of being human?",
-   "url": "https://timesofmalta.com/article/machines-think-remains-human.1137690",
-   "source": "Times of Malta",
-   "published": "2026-11-27T05:30:00+00:00",
-   "summary": "The boundaries between human and machine intelligence are becoming less certain. Photo: Shutterstock.com",
-   "image": "news-img/a254253d21f9.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/045eac3b2bf7be160209a7877759cdeb3da362ad-1795686131-0cc91253-1920x1280.jpg"
-  },
-  {
-   "id": "f216d291b4bb",
-   "title": "Routine social media use linked to lower social loneliness, study finds",
-   "url": "https://newsbook.com.mt/en/routine-social-media-use-linked-to-lower-social-loneliness-study-finds/",
-   "source": "Newsbook",
-   "published": "2026-11-27T05:30:00+00:00",
-   "summary": "Social media habits are associated with lower levels of social loneliness, while the connection between emotional social media use and emotional loneliness weakens once personality traits are taken into account, new rese",
-   "image": "news-img/f216d291b4bb.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2025/08/01141541/social-media-rtk-scaled.jpg"
-  },
-  {
-   "id": "5349edde1c9d",
-   "title": "The freedom to live without fear",
-   "url": "https://timesofmalta.com/article/freedom-live-fear-a2.1137631",
-   "source": "Times of Malta",
-   "published": "2026-11-27T05:01:00+00:00",
-   "summary": "Gender-based violence encompasses acts of violence, coercion and abuse directed at an individual because of their gender. Photo: Shutterstock.com",
-   "image": "news-img/5349edde1c9d.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/bba8c29762be1bafa6b78fc1a406f51cf2bdf581-1795600979-8c6e2ebf-1920x1280.jpg"
-  },
-  {
-   "id": "334fea9292db",
-   "title": "Marsa battle over festa decorations storeroom heads to court",
-   "url": "https://timesofmalta.com/article/marsa-parish-feast-organisers-court-battle-decorations-storeroom.1137736",
-   "source": "Times of Malta",
-   "published": "2026-11-27T05:00:00+00:00",
-   "summary": "The premises, known as Jhansi Hall, are on Triq Balbi. Photo: Google Maps",
-   "image": "news-img/334fea9292db.jpg",
-   "topic": "Lifestyle",
-   "image_src": "https://cdn-attachments.timesofmalta.com/25493130ea94a29e4b88e69aa9b08bd8e4aa6359-1795716558-8609df63-1920x1280.jpg"
-  },
-  {
-   "id": "74d38532d3bb",
-   "title": "Announcements – November 27, 2026",
-   "url": "https://timesofmalta.com/article/announcements-november-27-2026.1137731",
-   "source": "Times of Malta",
-   "published": "2026-11-27T05:00:00+00:00",
-   "summary": "Photo: Times of Malta",
-   "image": "news-img/74d38532d3bb.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/a17a30fe8eace9ca7b5d44511c139af49434abeb-1795707439-6f5d89cb-1920x1280.jpg"
-  },
-  {
-   "id": "eaa92f9b4603",
-   "title": "Letters to the editor - November 27, 2026",
-   "url": "https://timesofmalta.com/article/letters-editor-november-27-2026.1137708",
-   "source": "Times of Malta",
-   "published": "2026-11-27T05:00:00+00:00",
-   "summary": "Image: Times of Malta",
-   "image": "news-img/eaa92f9b4603.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/926d91851d9ef1f69f5e6d8b64093376b8ddacaf-1795697535-409e360b-1920x1280.jpg"
-  },
-  {
-   "id": "12a2b22d0d10",
-   "title": "The cop-out on climate change",
-   "url": "https://timesofmalta.com/article/cop-climate-change.1137699",
-   "source": "Times of Malta",
-   "published": "2026-11-27T05:00:00+00:00",
-   "summary": "Glaciologist and head of 'Glacier Monitoring in Switzerland' (GLAMOS) network Matthias Huss posing with a four-metre-long measuring stake indicating the amount of ice that melted over the past year. Photo: AFP",
-   "image": "news-img/12a2b22d0d10.jpg",
-   "topic": "Malta",
-   "image_src": "https://cdn-attachments.timesofmalta.com/a3ff5407366cb9b4322964e35d2d2a831ab6943d-1795690368-e06b1beb-1920x1280.jpg"
-  },
-  {
-   "id": "7853217b8026",
-   "title": "Malta’s 5% economic growth driven by domestic demand and services",
-   "url": "https://newsbook.com.mt/en/maltas-5-economic-growth-driven-by-domestic-demand-and-services/",
-   "source": "Newsbook",
-   "published": "2026-11-26T16:44:56+00:00",
-   "summary": "Malta’s economy grew by 5% in the third quarter of 2026, driven almost entirely by domestic demand and services, official figures show, a performance that sustains a labour-intensive growth model the International Moneta",
-   "image": "news-img/7853217b8026.jpg",
-   "topic": "Business",
-   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/10/26141240/budget-2027-flus-money-taxxa-tax-gholi-tal-hajja-cost-of-living-inflation-inflazzjoni-4.jpg"
-  },
-  {
    "id": "5f1c961e2efd",
    "title": "Government launches second National Artificial Intelligence Strategy",
    "url": "https://businessnow.mt/government-launches-second-national-artificial-intelligence-strategy/",
@@ -464,21 +486,10 @@
    "image_src": "https://businessnow.mt/wp-content/uploads/2026/11/tech-xpo.jpeg"
   },
   {
-   "id": "eadee0c8ef23",
-   "title": "Mosta residents oppose plan to replace terraced house with nine garages and eight homes",
-   "url": "https://newsbook.com.mt/en/mosta-residents-oppose-plan-to-replace-terraced-house-with-nine-garages-and-eight-homes/",
-   "source": "Newsbook",
-   "published": "2026-11-26T14:11:39+00:00",
-   "summary": "Mosta residents are opposing a planning application to demolish a terraced house in Triq il-Poeta and replace it with a block of nine garages, two maisonettes, six apartments and a penthouse, arguing that it would set a ",
-   "image": "news-img/eadee0c8ef23.jpg",
-   "topic": "Property",
-   "image_src": "https://cdn.newsbook.com.mt/wp-content/uploads/2026/11/26152604/Architectural-elevation-of-the-proposed-apartment-block-and-penthouse-in-Triq-il-Poeta-Mosta-PA0801126-1024x624.jpg"
-  },
-  {
    "id": "496e663447f9",
    "title": "SD Finance’s €10 million bond offer fully subscribed within hours",
    "url": "https://newsbook.com.mt/en/sd-finances-e10-million-bond-offer-fully-subscribed-within-hours/",
-   "source": "Newsbook",
+   "source": "Newsbook Business",
    "published": "2026-11-26T14:08:44+00:00",
    "summary": "SD Finance, db Group’s financing arm, announced that its €10 million bond offer was fully subscribed by existing bondholders within the first few hours of opening. As a result, the company closed the offer early.\nThe pos",
    "image": "news-img/496e663447f9.jpg",
