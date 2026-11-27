@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-26T23:56:34+00:00",
+ "updated": "2026-11-27T00:56:30+00:00",
  "items": [
+  {
+   "slug": "best-rooftops-malta",
+   "date": "2026-11-27T04:00:00+00:00",
+   "topic": {
+    "en": "Going out",
+    "mt": "Ħruġ",
+    "it": "Uscire"
+   },
+   "title": {
+    "en": "Malta's eight best rooftops, from Valletta to Mellieħa",
+    "mt": "L-aqwa tmien rooftops f'Malta, mill-Belt sal-Mellieħa",
+    "it": "I migliori otto rooftop di Malta, da La Valletta a Mellieħa"
+   },
+   "summary": {
+    "en": "Harbour sunsets, infinity pools and the island's highest views: eight rooftop bars and terraces worth the lift ride, in order of a trip from Valletta up the coast.",
+    "mt": "Nżul ix-xemx fuq il-port, infinity pools u l-ogħla veduti tal-gżira: tmien rooftop bars u terrazzini li jistħoqqilhom ir-rikba fil-lift, f'ordni ta' vjaġġ mill-Belt 'il fuq mal-kosta.",
+    "it": "Tramonti sul porto, piscine a sfioro e le viste più alte dell'isola: otto rooftop bar e terrazze che valgono il viaggio in ascensore, in ordine di percorso da La Valletta lungo la costa."
+   },
+   "hero_image": "article-img/best-rooftops-malta/hero.jpg",
+   "hero_credit": {
+    "author": "Keith Ruffles",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Valletta_from_Sliema_-_panoramio.jpg",
+    "file": "File:Valletta from Sliema - panoramio.jpg"
+   },
+   "kicker": {
+    "en": "Malta today · Blue recommends",
+    "mt": "Malta llum · Blue jirrakkomanda",
+    "it": "Malta oggi · Blue consiglia"
+   },
+   "home_pin_until": null
+  },
   {
    "slug": "lahmacun-history-where-to-eat-malta",
    "date": "2026-11-25T04:00:00+00:00",

@@ -268,5 +268,95 @@
    "file": "File:Malta - Sliema - Tower Road 01.jpg"
   },
   "v": 2
+ },
+ "best-rooftops-malta/hero": {
+  "query": "File:Valletta from Sliema - panoramio.jpg",
+  "credit": {
+   "author": "Keith Ruffles",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Valletta_from_Sliema_-_panoramio.jpg",
+   "file": "File:Valletta from Sliema - panoramio.jpg"
+  },
+  "v": 2
+ },
+ "best-rooftops-malta/01": {
+  "query": "File:Skyline of Valletta - panoramio.jpg",
+  "credit": {
+   "author": "Björn S",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Skyline_of_Valletta_-_panoramio.jpg",
+   "file": "File:Skyline of Valletta - panoramio.jpg"
+  },
+  "v": 2
+ },
+ "best-rooftops-malta/02": {
+  "query": "File:Grand Harbour at night.jpg",
+  "credit": {
+   "author": "Marika Caruana",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Grand_Harbour_at_night.jpg",
+   "file": "File:Grand Harbour at night.jpg"
+  },
+  "v": 2
+ },
+ "best-rooftops-malta/03": {
+  "query": "File:Sliema buildings.jpg",
+  "credit": {
+   "author": "Anton Zelenov",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Sliema_buildings.jpg",
+   "file": "File:Sliema buildings.jpg"
+  },
+  "v": 2
+ },
+ "best-rooftops-malta/04": {
+  "query": "File:Malta - Sliema - Tower Road 02.jpg",
+  "credit": {
+   "author": "Txllxt TxllxT",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Malta_-_Sliema_-_Tower_Road_02.jpg",
+   "file": "File:Malta - Sliema - Tower Road 02.jpg"
+  },
+  "v": 2
+ },
+ "best-rooftops-malta/05": {
+  "query": "File:St. Julian's von Sliema aus bei Nacht.jpg",
+  "credit": {
+   "author": "HH58",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:St._Julian%27s_von_Sliema_aus_bei_Nacht.jpg",
+   "file": "File:St. Julian's von Sliema aus bei Nacht.jpg"
+  },
+  "v": 2
+ },
+ "best-rooftops-malta/06": {
+  "query": "File:Spinola bay night.jpg",
+  "credit": {
+   "author": "Anton Zelenov",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Spinola_bay_night.jpg",
+   "file": "File:Spinola bay night.jpg"
+  },
+  "v": 2
+ },
+ "best-rooftops-malta/07": {
+  "query": "File:Malta - St. Paul's Bay - Triq It-Trunciera - Qawra Tower.jpg",
+  "credit": {
+   "author": "Txllxt TxllxT",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Malta_-_St._Paul%27s_Bay_-_Triq_It-Trunciera_-_Qawra_Tower.jpg",
+   "file": "File:Malta - St. Paul's Bay - Triq It-Trunciera - Qawra Tower.jpg"
+  },
+  "v": 2
+ },
+ "best-rooftops-malta/08": {
+  "query": "File:Għadira, Mellieha, Malta - panoramio.jpg",
+  "credit": {
+   "author": "Alan C",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:G%C4%A7adira,_Mellieha,_Malta_-_panoramio.jpg",
+   "file": "File:Għadira, Mellieha, Malta - panoramio.jpg"
+  },
+  "v": 2
  }
 }

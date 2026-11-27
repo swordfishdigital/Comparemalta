@@ -2,6 +2,7 @@
 
 Gwidi, klassifiki u analiżi minn CompareMalta.ai biex tgħix, tiekol u tibbankja aħjar f'Malta.
 
+- [L-aqwa tmien rooftops f'Malta, mill-Belt sal-Mellieħa](https://comparemalta.ai/mt/articles/best-rooftops-malta/) (2026-11-27): Nżul ix-xemx fuq il-port, infinity pools u l-ogħla veduti tal-gżira: tmien rooftop bars u terrazzini li jistħoqqilhom ir-rikba fil-lift, f'ordni ta' vjaġġ mill-Belt 'il fuq mal-kosta.
 - [Lahmacun: x'inhu, minn fejn ġej u tliet postijiet fejn tiklu f'Malta](https://comparemalta.ai/mt/articles/lahmacun-history-where-to-eat-malta/) (2026-11-25): Ħobża rqiqa ħafna b'laħam ikkappuljat u ħwawar, irrumblata bit-tursin u l-lumi. L-istorja tagħha tibda minn Aleppo medjevali u tasal sa Gaziantep, u dawn huma tliet postijiet li jservuha f'Malta.
 - [L-aqwa tliet esperjenzi tas-supermarket f'Malta](https://comparemalta.ai/mt/articles/best-supermarket-experiences-malta/) (2026-11-23): Ħinijiet tard u kurituri kwieti, l-irħas xirja kbira tal-ġimgħa, jew l-irħas prezzijiet fuq il-marki tagħhom: it-tliet supermarkits li jagħtu l-aħjar esperjenza, u għal min hu kull wieħed.
 - [Il-ħames banek il-kbar ta' Malta fuq il-mowbajl: kemm verament jiskorjaw l-apps tagħhom](https://comparemalta.ai/mt/articles/malta-bank-apps-compared/) (2026-11-22): Skorjajna l-apps ta' BOV, HSBC, APS, BNF u Lombard fuq il-ftuħ tal-kont, l-użu ta' kuljum, il-funzjonijiet u l-wallets. L-aħjar jilħaq 3.8 minn 5; il-biċċa l-kbira huma fuq 2 jew inqas.

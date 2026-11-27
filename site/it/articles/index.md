@@ -2,6 +2,7 @@
 
 Guide, classifiche e approfondimenti di CompareMalta.ai per vivere, mangiare e gestire i soldi meglio a Malta.
 
+- [I migliori otto rooftop di Malta, da La Valletta a Mellieħa](https://comparemalta.ai/it/articles/best-rooftops-malta/) (2026-11-27): Tramonti sul porto, piscine a sfioro e le viste più alte dell'isola: otto rooftop bar e terrazze che valgono il viaggio in ascensore, in ordine di percorso da La Valletta lungo la costa.
 - [Lahmacun: cos'è, da dove viene e tre posti dove mangiarlo a Malta](https://comparemalta.ai/it/articles/lahmacun-history-where-to-eat-malta/) (2026-11-25): Una sfoglia sottilissima con carne macinata speziata, arrotolata con prezzemolo e limone. La sua storia va dall'Aleppo medievale a Gaziantep, ed ecco tre posti che la servono a Malta.
 - [Le tre migliori esperienze di supermercato a Malta](https://comparemalta.ai/it/articles/best-supermarket-experiences-malta/) (2026-11-23): Orari lunghi e corsie tranquille, la spesa settimanale più conveniente o i prezzi più bassi sui marchi propri: i tre supermercati che offrono l'esperienza migliore, e per chi è ciascuno.
 - [Le cinque grandi banche di Malta sullo smartphone: quanto valgono davvero le loro app](https://comparemalta.ai/it/articles/malta-bank-apps-compared/) (2026-11-22): Abbiamo valutato le app di BOV, HSBC, APS, BNF e Lombard su apertura conto, uso quotidiano, funzioni e wallet. La migliore arriva a 3,8 su 5; le altre restano a 2 o meno.
