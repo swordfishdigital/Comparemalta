@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T23:39:00+00:00",
+ "generated": "2026-11-28T00:21:01+00:00",
  "ok": 17,
  "total": 30,
  "feeds": {
@@ -36,48 +36,48 @@
   "news.Times of Malta": {
    "status": "ok",
    "count": 20,
-   "at": "2026-11-27T23:38:48+00:00",
+   "at": "2026-11-28T00:20:59+00:00",
    "note": ""
   },
   "news.Malta Today": {
    "status": "stale",
-   "at": "2026-11-27T23:38:48+00:00",
+   "at": "2026-11-28T00:20:59+00:00",
    "note": "403 Client Error: Forbidden for url: https://www.maltatoday.com.mt/rss/news"
   },
   "news.Newsbook": {
    "status": "ok",
    "count": 10,
-   "at": "2026-11-27T23:38:49+00:00",
+   "at": "2026-11-28T00:20:59+00:00",
    "note": ""
   },
   "news.Lovin Malta": {
    "status": "ok",
    "count": 12,
-   "at": "2026-11-27T23:38:49+00:00",
+   "at": "2026-11-28T00:20:59+00:00",
    "note": ""
   },
   "news.Business Now": {
    "status": "ok",
    "count": 10,
-   "at": "2026-11-27T23:38:49+00:00",
+   "at": "2026-11-28T00:20:59+00:00",
    "note": ""
   },
   "news.Newsbook Business": {
    "status": "ok",
    "count": 10,
-   "at": "2026-11-27T23:38:49+00:00",
+   "at": "2026-11-28T00:20:59+00:00",
    "note": ""
   },
   "news.images": {
    "status": "ok",
    "count": 62,
-   "at": "2026-11-27T23:38:50+00:00",
+   "at": "2026-11-28T00:20:59+00:00",
    "note": ""
   },
   "articles": {
    "status": "ok",
    "count": 6,
-   "at": "2026-11-27T23:38:50+00:00",
+   "at": "2026-11-28T00:20:59+00:00",
    "note": "6 articles, 30 pictures"
   },
   "restaurants": {
@@ -155,7 +155,7 @@
   "fxcompare": {
    "status": "ok",
    "count": 60,
-   "at": "2026-11-27T23:39:00+00:00",
+   "at": "2026-11-28T00:21:01+00:00",
    "note": "8/8 currencies live"
   },
   "newsletter": {
@@ -167,7 +167,7 @@
   "seo": {
    "status": "ok",
    "count": 48,
-   "at": "2026-11-27T23:39:00+00:00",
+   "at": "2026-11-28T00:21:01+00:00",
    "note": "48 static pages in 3 languages, sitemap, robots, llms.txt"
   }
  }
